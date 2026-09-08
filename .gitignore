@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.gcode
+*.log
+render-preview/
+.DS_Store

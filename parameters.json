@@ -1,0 +1,18 @@
+{
+  "board_thickness": 3.94,
+  "hole_diameter": 6.35,
+  "pitch": 25.4,
+  "width": 4.0,
+  "neck_height": 3.6,
+  "spine_depth": 4.5,
+  "spine_height": 34.6,
+  "pull_clearance": 0.47,
+  "elbow_offset": null,
+  "tongue_run": 5.0,
+  "tongue_rise": 3.0,
+  "locator_depth": 2.3,
+  "locator_height": 3.0,
+  "hole_clearance": 0.1,
+  "front_gap": 0.15,
+  "seat_drop": 0.12
+}

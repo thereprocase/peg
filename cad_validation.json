@@ -1,0 +1,67 @@
+[
+  {
+    "name": "anchor_default_3p94mm",
+    "valid_brep": true,
+    "solid_count": 1,
+    "stl_watertight": true,
+    "stl_volume_positive": true,
+    "volume_mm3": 770.883,
+    "print_bounds_mm": [
+      34.654,
+      13.839,
+      4.0
+    ]
+  },
+  {
+    "name": "anchor_4p19mm",
+    "valid_brep": true,
+    "solid_count": 1,
+    "stl_watertight": true,
+    "stl_volume_positive": true,
+    "volume_mm3": 774.483,
+    "print_bounds_mm": [
+      34.654,
+      14.089,
+      4.0
+    ]
+  },
+  {
+    "name": "anchor_4p7625mm",
+    "valid_brep": true,
+    "solid_count": 1,
+    "stl_watertight": true,
+    "stl_volume_positive": true,
+    "volume_mm3": 782.727,
+    "print_bounds_mm": [
+      34.654,
+      14.661,
+      4.0
+    ]
+  },
+  {
+    "name": "anchor_6p35mm",
+    "valid_brep": true,
+    "solid_count": 1,
+    "stl_watertight": true,
+    "stl_volume_positive": true,
+    "volume_mm3": 805.587,
+    "print_bounds_mm": [
+      34.654,
+      16.249,
+      4.0
+    ]
+  },
+  {
+    "name": "anchor_3p94mm_9over32_holes",
+    "valid_brep": true,
+    "solid_count": 1,
+    "stl_watertight": true,
+    "stl_volume_positive": true,
+    "volume_mm3": 747.192,
+    "print_bounds_mm": [
+      34.6,
+      12.194,
+      4.0
+    ]
+  }
+]

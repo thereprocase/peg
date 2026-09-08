@@ -1,0 +1,14 @@
+[
+  {
+    "columns": 1,
+    "poses_checked": 77,
+    "maximum_interference_mm3": 0.0,
+    "pass": true
+  },
+  {
+    "columns": 2,
+    "poses_checked": 77,
+    "maximum_interference_mm3": 0.0,
+    "pass": true
+  }
+]

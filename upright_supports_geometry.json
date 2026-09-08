@@ -1,0 +1,263 @@
+{
+  "parameters": {
+    "board_thickness": 3.94,
+    "hole_diameter": 6.35,
+    "pitch": 25.4,
+    "width": 4.0,
+    "neck_height": 3.6,
+    "spine_depth": 4.5,
+    "spine_height": 34.6,
+    "pull_clearance": 0.47,
+    "elbow_offset": -1.401069974479618,
+    "tongue_run": 5.0,
+    "tongue_rise": 3.0,
+    "locator_depth": 2.3,
+    "locator_height": 3.0,
+    "hole_clearance": 0.1,
+    "front_gap": 0.15,
+    "seat_drop": 0.12
+  },
+  "support_parameters": {
+    "web_thickness": 0.5,
+    "web_inset": 0.15,
+    "spine_overlap": 0.25,
+    "roof_overlap": 0.12,
+    "ramp_drop": 0.2,
+    "layer_height": 0.2
+  },
+  "profiles_yz": {
+    "upper": [
+      [
+        0.4,
+        -8.230046659972333
+      ],
+      [
+        -9.338675388423667,
+        1.5086287284513338
+      ],
+      [
+        -9.338675388423667,
+        2.6043835432537765
+      ],
+      [
+        -9.327230112250021,
+        2.3692106197463767
+      ],
+      [
+        -9.319326522454352,
+        2.3256605397153693
+      ],
+      [
+        -9.28518652578198,
+        2.1375435415185615
+      ],
+      [
+        -9.269514578803332,
+        2.0886908464805893
+      ],
+      [
+        -9.213264006440692,
+        1.9133461965090572
+      ],
+      [
+        -9.190091853636957,
+        1.8642946500136959
+      ],
+      [
+        -9.112693168472777,
+        1.7004546634502238
+      ],
+      [
+        -9.082417291802962,
+        1.6534509181483514
+      ],
+      [
+        -8.985194806799374,
+        1.5025115754973832
+      ],
+      [
+        -8.948333234907354,
+        1.459024739857571
+      ],
+      [
+        -8.832950453737933,
+        1.3229037937655996
+      ],
+      [
+        -8.790133898338743,
+        1.2840613757332515
+      ],
+      [
+        -8.658565052379448,
+        1.1647044571969878
+      ],
+      [
+        -8.61052611660696,
+        1.131423654084239
+      ],
+      [
+        -8.46502238528993,
+        1.0306204003013812
+      ],
+      [
+        -8.412583028654119,
+        0.9991567863198949
+      ],
+      [
+        -8.199691495595285,
+        0.8714218664845949
+      ],
+      [
+        -7.9754941505857815,
+        0.7369034594788926
+      ],
+      [
+        -7.743827072357966,
+        0.5979032125422035
+      ],
+      [
+        -7.5086541488505665,
+        0.4567994584377635
+      ],
+      [
+        -7.273999253987045,
+        0.31600652151965036
+      ],
+      [
+        -7.0438773980771465,
+        0.1779334079737115
+      ],
+      [
+        -6.82222602987732,
+        0.044942587053815486
+      ],
+      [
+        -6.612837665750834,
+        -0.0806904314220761
+      ],
+      [
+        -3.4650223852899296,
+        -1.9693795996986188
+      ],
+      [
+        -3.2486842700768346,
+        -2.080053423616779
+      ],
+      [
+        -3.0194104729328424,
+        -2.1605792041954093
+      ],
+      [
+        -2.781379641520423,
+        -2.2094893124730888
+      ],
+      [
+        -2.538930025520382,
+        -2.225892333416039
+      ],
+      [
+        -2.0403588886132025,
+        -2.225892333416039
+      ],
+      [
+        0.4,
+        -2.225892333416039
+      ]
+    ],
+    "lower": [
+      [
+        0.4,
+        -29.645892333416036
+      ],
+      [
+        -2.3,
+        -26.945892333416037
+      ],
+      [
+        -2.3,
+        -26.625892333416036
+      ],
+      [
+        -1.5999999999999999,
+        -27.325892333416036
+      ],
+      [
+        0.4,
+        -27.325892333416036
+      ]
+    ]
+  },
+  "web_x_bands": [
+    [
+      -1.85,
+      -1.35
+    ],
+    [
+      1.35,
+      1.85
+    ]
+  ],
+  "metrics": {
+    "upper": {
+      "root_yz": [
+        0.4,
+        -8.230046659972333
+      ],
+      "rear_ramp_end_yz": [
+        -9.338675388423667,
+        1.5086287284513338
+      ],
+      "ramp_rearward_run_mm": 9.738675388423667,
+      "ramp_vertical_rise_mm": 9.738675388423665,
+      "support_area_per_web_mm2": 20.549272227066762,
+      "sacrificial_volume_two_webs_mm3": 20.549272227066762,
+      "spine_root_embed_mm": 0.25,
+      "roof_embed_mm": 0.12
+    },
+    "lower": {
+      "root_yz": [
+        0.4,
+        -29.645892333416036
+      ],
+      "rear_ramp_end_yz": [
+        -2.3,
+        -26.945892333416037
+      ],
+      "ramp_rearward_run_mm": 2.6999999999999997,
+      "ramp_vertical_rise_mm": 2.6999999999999993,
+      "support_area_per_web_mm2": 2.021249999999999,
+      "sacrificial_volume_two_webs_mm3": 2.021249999999999,
+      "spine_root_embed_mm": 0.25,
+      "roof_embed_mm": 0.12
+    }
+  },
+  "bridge_span_x_mm": 2.7,
+  "outside_roof_overhang_x_mm": 0.15,
+  "verification": {
+    "passed": true,
+    "checked_web_sections": 277,
+    "layer_height_mm": 0.2,
+    "layer_phases": [
+      0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "maximum_geometric_ramp_angle_from_vertical_deg": 45,
+    "rearward_growth_per_layer_mm": 0.2,
+    "failures": [],
+    "scope": "Web deposition supported by previous composite layer within 45 degrees horizontal reach; exact polygon geometry. Does not simulate extrusion or slicer bridging."
+  },
+  "removal": [
+    "Use flush cutters from both outside X faces; remove upper and lower membranes on both sides.",
+    "Trim each roof attachment flush with the original neck/tongue or locator underside, and each root flush with the spine.",
+    "The 0.15 mm web inset preserves the outermost bearing corners during cutting; remove any remaining material inside those corners.",
+    "Check the board-fit sample after trimming. Removed-web geometry is the previously motion-validated functional anchor."
+  ],
+  "printing": [
+    "Print installed Z direction upward, using a brim for a standalone anchor or the integrated holder base.",
+    "Orient roof bridge lines across X between the two membranes; the default clear span is 2.7 mm.",
+    "The membranes require a slicer path for 0.5 mm thin walls. Inspect the layer preview; automatic generic supports are not part of this geometry.",
+    "The main anchor has a stronger continuous filament path when printed flat on its side; the upright option prioritizes integration and needs separate load qualification."
+  ]
+}

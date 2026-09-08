@@ -1,0 +1,262 @@
+[
+  {
+    "name": "default_3p94",
+    "verification": {
+      "passed": true,
+      "checked_web_sections": 277,
+      "layer_height_mm": 0.2,
+      "layer_phases": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "maximum_geometric_ramp_angle_from_vertical_deg": 45,
+      "rearward_growth_per_layer_mm": 0.2,
+      "failures": [],
+      "scope": "Web deposition supported by previous composite layer within45deg horizontal reach; exact polygon geometry. Does not simulate extrusion or slicer bridging."
+    },
+    "metrics": {
+      "upper": {
+        "root_yz": [
+          0.4,
+          -8.230046659972333
+        ],
+        "rear_ramp_end_yz": [
+          -9.338675388423667,
+          1.5086287284513338
+        ],
+        "ramp_rearward_run_mm": 9.738675388423667,
+        "ramp_vertical_rise_mm": 9.738675388423665,
+        "support_area_per_web_mm2": 20.549272227066762,
+        "sacrificial_volume_two_webs_mm3": 20.549272227066762,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      },
+      "lower": {
+        "root_yz": [
+          0.4,
+          -29.645892333416036
+        ],
+        "rear_ramp_end_yz": [
+          -2.3,
+          -26.945892333416037
+        ],
+        "ramp_rearward_run_mm": 2.6999999999999997,
+        "ramp_vertical_rise_mm": 2.6999999999999993,
+        "support_area_per_web_mm2": 2.021249999999999,
+        "sacrificial_volume_two_webs_mm3": 2.021249999999999,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      }
+    }
+  },
+  {
+    "name": "stock_4p19",
+    "verification": {
+      "passed": true,
+      "checked_web_sections": 282,
+      "layer_height_mm": 0.2,
+      "layer_phases": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "maximum_geometric_ramp_angle_from_vertical_deg": 45,
+      "rearward_growth_per_layer_mm": 0.2,
+      "failures": [],
+      "scope": "Web deposition supported by previous composite layer within45deg horizontal reach; exact polygon geometry. Does not simulate extrusion or slicer bridging."
+    },
+    "metrics": {
+      "upper": {
+        "root_yz": [
+          0.4,
+          -8.480046659972334
+        ],
+        "rear_ramp_end_yz": [
+          -9.588675388423667,
+          1.508628728451333
+        ],
+        "ramp_rearward_run_mm": 9.988675388423667,
+        "ramp_vertical_rise_mm": 9.988675388423667,
+        "support_area_per_web_mm2": 21.98906080870584,
+        "sacrificial_volume_two_webs_mm3": 21.98906080870584,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      },
+      "lower": {
+        "root_yz": [
+          0.4,
+          -29.645892333416036
+        ],
+        "rear_ramp_end_yz": [
+          -2.3,
+          -26.945892333416037
+        ],
+        "ramp_rearward_run_mm": 2.6999999999999997,
+        "ramp_vertical_rise_mm": 2.6999999999999993,
+        "support_area_per_web_mm2": 2.021249999999999,
+        "sacrificial_volume_two_webs_mm3": 2.021249999999999,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      }
+    }
+  },
+  {
+    "name": "nominal_3_16",
+    "verification": {
+      "passed": true,
+      "checked_web_sections": 294,
+      "layer_height_mm": 0.2,
+      "layer_phases": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "maximum_geometric_ramp_angle_from_vertical_deg": 45,
+      "rearward_growth_per_layer_mm": 0.2,
+      "failures": [],
+      "scope": "Web deposition supported by previous composite layer within45deg horizontal reach; exact polygon geometry. Does not simulate extrusion or slicer bridging."
+    },
+    "metrics": {
+      "upper": {
+        "root_yz": [
+          0.4,
+          -9.052546659972334
+        ],
+        "rear_ramp_end_yz": [
+          -10.161175388423667,
+          1.508628728451333
+        ],
+        "ramp_rearward_run_mm": 10.561175388423667,
+        "ramp_vertical_rise_mm": 10.561175388423667,
+        "support_area_per_web_mm2": 25.521617285659318,
+        "sacrificial_volume_two_webs_mm3": 25.521617285659318,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      },
+      "lower": {
+        "root_yz": [
+          0.4,
+          -29.645892333416036
+        ],
+        "rear_ramp_end_yz": [
+          -2.3,
+          -26.945892333416037
+        ],
+        "ramp_rearward_run_mm": 2.6999999999999997,
+        "ramp_vertical_rise_mm": 2.6999999999999993,
+        "support_area_per_web_mm2": 2.021249999999999,
+        "sacrificial_volume_two_webs_mm3": 2.021249999999999,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      }
+    }
+  },
+  {
+    "name": "true_1_4",
+    "verification": {
+      "passed": true,
+      "checked_web_sections": 325,
+      "layer_height_mm": 0.2,
+      "layer_phases": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "maximum_geometric_ramp_angle_from_vertical_deg": 45,
+      "rearward_growth_per_layer_mm": 0.2,
+      "failures": [],
+      "scope": "Web deposition supported by previous composite layer within45deg horizontal reach; exact polygon geometry. Does not simulate extrusion or slicer bridging."
+    },
+    "metrics": {
+      "upper": {
+        "root_yz": [
+          0.4,
+          -10.640046659972333
+        ],
+        "rear_ramp_end_yz": [
+          -11.748675388423665,
+          1.508628728451333
+        ],
+        "ramp_rearward_run_mm": 12.148675388423666,
+        "ramp_vertical_rise_mm": 12.148675388423666,
+        "support_area_per_web_mm2": 37.03163415406741,
+        "sacrificial_volume_two_webs_mm3": 37.03163415406741,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      },
+      "lower": {
+        "root_yz": [
+          0.4,
+          -29.645892333416036
+        ],
+        "rear_ramp_end_yz": [
+          -2.3,
+          -26.945892333416037
+        ],
+        "ramp_rearward_run_mm": 2.6999999999999997,
+        "ramp_vertical_rise_mm": 2.6999999999999993,
+        "support_area_per_web_mm2": 2.021249999999999,
+        "sacrificial_volume_two_webs_mm3": 2.021249999999999,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      }
+    }
+  },
+  {
+    "name": "lowes_white_9_32_holes",
+    "verification": {
+      "passed": true,
+      "checked_web_sections": 244,
+      "layer_height_mm": 0.2,
+      "layer_phases": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "maximum_geometric_ramp_angle_from_vertical_deg": 45,
+      "rearward_growth_per_layer_mm": 0.2,
+      "failures": [],
+      "scope": "Web deposition supported by previous composite layer within45deg horizontal reach; exact polygon geometry. Does not simulate extrusion or slicer bridging."
+    },
+    "metrics": {
+      "upper": {
+        "root_yz": [
+          0.4,
+          -7.078433111254708
+        ],
+        "rear_ramp_end_yz": [
+          -7.693513175969915,
+          1.0150800647152076
+        ],
+        "ramp_rearward_run_mm": 8.093513175969916,
+        "ramp_vertical_rise_mm": 8.093513175969916,
+        "support_area_per_web_mm2": 12.633453782526393,
+        "sacrificial_volume_two_webs_mm3": 12.633453782526393,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      },
+      "lower": {
+        "root_yz": [
+          0.4,
+          -30.139440997152164
+        ],
+        "rear_ramp_end_yz": [
+          -2.3,
+          -27.439440997152165
+        ],
+        "ramp_rearward_run_mm": 2.6999999999999997,
+        "ramp_vertical_rise_mm": 2.6999999999999993,
+        "support_area_per_web_mm2": 2.022415062372528,
+        "sacrificial_volume_two_webs_mm3": 2.022415062372528,
+        "spine_root_embed_mm": 0.25,
+        "roof_embed_mm": 0.12
+      }
+    }
+  }
+]

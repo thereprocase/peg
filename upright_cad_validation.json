@@ -1,0 +1,18 @@
+{
+  "valid_brep": true,
+  "solid_count": 1,
+  "stl_watertight": true,
+  "web_count": 4,
+  "web_thickness_mm": 0.5,
+  "web_inset_mm": 0.15,
+  "inter_web_bridge_mm": 2.7,
+  "upright_bounds_mm": [
+    4.0,
+    13.838675498962402,
+    34.65385437011719
+  ],
+  "anchor_volume_mm3": 770.8825376593131,
+  "supported_volume_mm3": 793.4530598863805,
+  "sacrificial_volume_mm3": 22.570522227067386,
+  "physical_print_tested": false
+}

@@ -1,0 +1,1025 @@
+{
+  "study": "Planar rigid-body insertion/removal and interference study",
+  "variants": [
+    {
+      "name": "default_3p94",
+      "parameters": {
+        "board_thickness": 3.94,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "width": 4.0,
+        "neck_height": 3.6,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "pull_clearance": 0.47,
+        "elbow_offset": -1.401069974479618,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_height": 3.0,
+        "hole_clearance": 0.1,
+        "front_gap": 0.15,
+        "seat_drop": 0.12
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 0.7,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 0.7,
+          "theta_deg": 19.25,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 10.73,
+          "z": 0.7,
+          "theta_deg": 19.25,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 3.73,
+          "z": 0.7,
+          "theta_deg": 19.0,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 2.43,
+          "z": 0.7,
+          "theta_deg": 16.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 1.03,
+          "z": 0.45,
+          "theta_deg": 10.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat on bore and face"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 1.03,
+          "z": 0.45,
+          "theta_deg": 10.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.43,
+          "z": 0.7,
+          "theta_deg": 16.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.73,
+          "z": 0.7,
+          "theta_deg": 19.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 10.73,
+          "z": 0.7,
+          "theta_deg": 19.25,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 0.7,
+          "theta_deg": 19.25,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 0.7,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "upper_neck_center_z_mm": -0.5458923334160394,
+        "effective_bore_half_height_mm": 2.4658923334160394,
+        "maximum_install_tilt_deg": 19.25,
+        "maximum_lift_mm": 0.8200000000000001,
+        "rear_wall_clearance_required_mm": 5.548675388423668,
+        "straight_outward_travel_until_stop_mm": 0.4700577350267849,
+        "straight_lift_until_stop_mm": 0.282034641016071,
+        "outward_rocking_about_lower_land_deg": 0.687030061878977,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "retaining_overlap_above_effective_bore_mm": 1.6682153331679213,
+        "section_area_mm2": 14.4,
+        "section_modulus_mm3": 8.64
+      },
+      "verification": {
+        "passed": true,
+        "astar_validity_checks": 5776,
+        "raw_astar_waypoints": 239,
+        "simplified_waypoints": 8,
+        "dense_verification_frames": 1962,
+        "dense_max_point_travel_mm": 0.025,
+        "colliding_frames": 0,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 536,
+            "lower_clearance_mm": 4.556757699763353e-06,
+            "max_bound_mm": 0.013642417764720667
+          },
+          {
+            "passed": true,
+            "leaves": 401,
+            "lower_clearance_mm": 2.358166075327149e-05,
+            "max_bound_mm": 0.01809161564567962
+          },
+          {
+            "passed": true,
+            "leaves": 186,
+            "lower_clearance_mm": 8.875423414654061e-05,
+            "max_bound_mm": 0.019558517626222387
+          },
+          {
+            "passed": true,
+            "leaves": 309,
+            "lower_clearance_mm": 3.05410880524163e-05,
+            "max_bound_mm": 0.4458575712301878
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 1.151855929917101,
+            "max_bound_mm": 8.634999999999998
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 13.223065376986307,
+            "max_bound_mm": 5.142212539580774
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "intersection_area_mm2": 0.0,
+          "method": "exact edge-quadrilateral union for pure translation; zero-clearance contact allowed"
+        },
+        "reserved_bore_half_height_clearance_mm": 0.1,
+        "continuous_free_motion_uses_shrunk_bores": true,
+        "assumptions": [
+          "Perfect cylindrical bores, flat rigid board, exact polygonal printed geometry.",
+          "Constant X width; no yaw or roll. Effective circular-bore height exactly accounts for full width.",
+          "Clearance study includes complete upper hook, lower locator, and spine.",
+          "Physical contact has zero intended gap at final seating; certified free threading reserves hole_clearance in bore half-height.",
+          "No FEA, fatigue, creep, extrusion error, board breakout, or physical load testing.",
+          "Attached mount geometry can obstruct the verified path and must be checked separately."
+        ]
+      }
+    },
+    {
+      "name": "stock_4p19",
+      "parameters": {
+        "board_thickness": 4.19,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "width": 4.0,
+        "neck_height": 3.6,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "pull_clearance": 0.47,
+        "elbow_offset": -1.401069974479618,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_height": 3.0,
+        "hole_clearance": 0.1,
+        "front_gap": 0.15,
+        "seat_drop": 0.12
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 0.8,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 0.8,
+          "theta_deg": 19.25,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 10.98,
+          "z": 0.8,
+          "theta_deg": 19.25,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 3.78,
+          "z": 0.8,
+          "theta_deg": 19.25,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 2.43,
+          "z": 0.8,
+          "theta_deg": 17.0,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 1.03,
+          "z": 0.5,
+          "theta_deg": 10.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat on bore and face"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 1.03,
+          "z": 0.5,
+          "theta_deg": 10.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.43,
+          "z": 0.8,
+          "theta_deg": 17.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.78,
+          "z": 0.8,
+          "theta_deg": 19.25,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 10.98,
+          "z": 0.8,
+          "theta_deg": 19.25,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 0.8,
+          "theta_deg": 19.25,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 0.8,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "upper_neck_center_z_mm": -0.5458923334160394,
+        "effective_bore_half_height_mm": 2.4658923334160394,
+        "maximum_install_tilt_deg": 19.25,
+        "maximum_lift_mm": 0.92,
+        "rear_wall_clearance_required_mm": 5.548675388423667,
+        "straight_outward_travel_until_stop_mm": 0.4700577350267849,
+        "straight_lift_until_stop_mm": 0.282034641016071,
+        "outward_rocking_about_lower_land_deg": 0.6798832036744716,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "retaining_overlap_above_effective_bore_mm": 1.6682153331679213,
+        "section_area_mm2": 14.4,
+        "section_modulus_mm3": 8.64
+      },
+      "verification": {
+        "passed": true,
+        "astar_validity_checks": 5639,
+        "raw_astar_waypoints": 244,
+        "simplified_waypoints": 8,
+        "dense_verification_frames": 1963,
+        "dense_max_point_travel_mm": 0.025,
+        "colliding_frames": 0,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 566,
+            "lower_clearance_mm": 4.1948553759812296e-05,
+            "max_bound_mm": 0.01367969260236832
+          },
+          {
+            "passed": true,
+            "leaves": 529,
+            "lower_clearance_mm": 1.3220136989666557e-06,
+            "max_bound_mm": 0.018651603841683885
+          },
+          {
+            "passed": true,
+            "leaves": 160,
+            "lower_clearance_mm": 2.4805096468256266e-05,
+            "max_bound_mm": 0.019949142626222476
+          },
+          {
+            "passed": true,
+            "leaves": 171,
+            "lower_clearance_mm": 0.0037032164439019383,
+            "max_bound_mm": 0.4500000000000002
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 1.164453129002835,
+            "max_bound_mm": 8.509999999999998
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 12.975042145652557,
+            "max_bound_mm": 5.142212539580774
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "intersection_area_mm2": 0.0,
+          "method": "exact edge-quadrilateral union for pure translation; zero-clearance contact allowed"
+        },
+        "reserved_bore_half_height_clearance_mm": 0.1,
+        "continuous_free_motion_uses_shrunk_bores": true,
+        "assumptions": [
+          "Perfect cylindrical bores, flat rigid board, exact polygonal printed geometry.",
+          "Constant X width; no yaw or roll. Effective circular-bore height exactly accounts for full width.",
+          "Clearance study includes complete upper hook, lower locator, and spine.",
+          "Physical contact has zero intended gap at final seating; certified free threading reserves hole_clearance in bore half-height.",
+          "No FEA, fatigue, creep, extrusion error, board breakout, or physical load testing.",
+          "Attached mount geometry can obstruct the verified path and must be checked separately."
+        ]
+      }
+    },
+    {
+      "name": "nominal_3_16",
+      "parameters": {
+        "board_thickness": 4.7625,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "width": 4.0,
+        "neck_height": 3.6,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "pull_clearance": 0.47,
+        "elbow_offset": -1.401069974479618,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_height": 3.0,
+        "hole_clearance": 0.1,
+        "front_gap": 0.15,
+        "seat_drop": 0.12
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 19.75,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 11.53,
+          "z": 1.05,
+          "theta_deg": 19.75,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 4.08,
+          "z": 1.05,
+          "theta_deg": 19.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 3.48,
+          "z": 1.05,
+          "theta_deg": 19.25,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 2.43,
+          "z": 0.95,
+          "theta_deg": 17.0,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 1.03,
+          "z": 0.6,
+          "theta_deg": 10.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat on bore and face"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 1.03,
+          "z": 0.6,
+          "theta_deg": 10.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.43,
+          "z": 0.95,
+          "theta_deg": 17.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.48,
+          "z": 1.05,
+          "theta_deg": 19.25,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 4.08,
+          "z": 1.05,
+          "theta_deg": 19.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 11.53,
+          "z": 1.05,
+          "theta_deg": 19.75,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 19.75,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "upper_neck_center_z_mm": -0.5458923334160394,
+        "effective_bore_half_height_mm": 2.4658923334160394,
+        "maximum_install_tilt_deg": 19.75,
+        "maximum_lift_mm": 1.17,
+        "rear_wall_clearance_required_mm": 5.548675388423667,
+        "straight_outward_travel_until_stop_mm": 0.4700577350267849,
+        "straight_lift_until_stop_mm": 0.282034641016071,
+        "outward_rocking_about_lower_land_deg": 0.6640582797365641,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "retaining_overlap_above_effective_bore_mm": 1.6682153331679213,
+        "section_area_mm2": 14.4,
+        "section_modulus_mm3": 8.64
+      },
+      "verification": {
+        "passed": true,
+        "astar_validity_checks": 6221,
+        "raw_astar_waypoints": 256,
+        "simplified_waypoints": 9,
+        "dense_verification_frames": 1986,
+        "dense_max_point_travel_mm": 0.025,
+        "colliding_frames": 0,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 666,
+            "lower_clearance_mm": 1.502141761847934e-05,
+            "max_bound_mm": 0.013763908533440273
+          },
+          {
+            "passed": true,
+            "leaves": 481,
+            "lower_clearance_mm": 1.1553977882473865e-05,
+            "max_bound_mm": 0.00934788176773013
+          },
+          {
+            "passed": true,
+            "leaves": 269,
+            "lower_clearance_mm": 1.5757263013144174e-05,
+            "max_bound_mm": 0.00882125552805792
+          },
+          {
+            "passed": true,
+            "leaves": 112,
+            "lower_clearance_mm": 1.2758096882886562e-05,
+            "max_bound_mm": 0.027107571230188095
+          },
+          {
+            "passed": true,
+            "leaves": 90,
+            "lower_clearance_mm": 0.004512880483048112,
+            "max_bound_mm": 0.4656250000000002
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 1.1827704648177537,
+            "max_bound_mm": 8.235
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 12.270708165012145,
+            "max_bound_mm": 5.275449913220444
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "intersection_area_mm2": 0.0,
+          "method": "exact edge-quadrilateral union for pure translation; zero-clearance contact allowed"
+        },
+        "reserved_bore_half_height_clearance_mm": 0.1,
+        "continuous_free_motion_uses_shrunk_bores": true,
+        "assumptions": [
+          "Perfect cylindrical bores, flat rigid board, exact polygonal printed geometry.",
+          "Constant X width; no yaw or roll. Effective circular-bore height exactly accounts for full width.",
+          "Clearance study includes complete upper hook, lower locator, and spine.",
+          "Physical contact has zero intended gap at final seating; certified free threading reserves hole_clearance in bore half-height.",
+          "No FEA, fatigue, creep, extrusion error, board breakout, or physical load testing.",
+          "Attached mount geometry can obstruct the verified path and must be checked separately."
+        ]
+      }
+    },
+    {
+      "name": "true_1_4",
+      "parameters": {
+        "board_thickness": 6.35,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "width": 4.0,
+        "neck_height": 3.6,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "pull_clearance": 0.47,
+        "elbow_offset": -1.401069974479618,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_height": 3.0,
+        "hole_clearance": 0.1,
+        "front_gap": 0.15,
+        "seat_drop": 0.12
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 1.65,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 1.65,
+          "theta_deg": 20.0,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 13.03,
+          "z": 1.65,
+          "theta_deg": 20.0,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 3.68,
+          "z": 1.65,
+          "theta_deg": 20.0,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 2.38,
+          "z": 1.45,
+          "theta_deg": 17.25,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 1.03,
+          "z": 0.9,
+          "theta_deg": 10.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat on bore and face"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 1.03,
+          "z": 0.9,
+          "theta_deg": 10.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.38,
+          "z": 1.45,
+          "theta_deg": 17.25,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.68,
+          "z": 1.65,
+          "theta_deg": 20.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 13.03,
+          "z": 1.65,
+          "theta_deg": 20.0,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 1.65,
+          "theta_deg": 20.0,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 1.65,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "upper_neck_center_z_mm": -0.5458923334160394,
+        "effective_bore_half_height_mm": 2.4658923334160394,
+        "maximum_install_tilt_deg": 20.0,
+        "maximum_lift_mm": 1.77,
+        "rear_wall_clearance_required_mm": 5.548675388423666,
+        "straight_outward_travel_until_stop_mm": 0.4700577349677042,
+        "straight_lift_until_stop_mm": 0.282034641016071,
+        "outward_rocking_about_lower_land_deg": 0.6237635101304476,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "retaining_overlap_above_effective_bore_mm": 1.6682153331679213,
+        "section_area_mm2": 14.4,
+        "section_modulus_mm3": 8.64
+      },
+      "verification": {
+        "passed": true,
+        "astar_validity_checks": 7036,
+        "raw_astar_waypoints": 286,
+        "simplified_waypoints": 8,
+        "dense_verification_frames": 2007,
+        "dense_max_point_travel_mm": 0.025,
+        "colliding_frames": 0,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 845,
+            "lower_clearance_mm": 1.9712857329649836e-07,
+            "max_bound_mm": 0.014082650739580387
+          },
+          {
+            "passed": true,
+            "leaves": 473,
+            "lower_clearance_mm": 1.5385957655387854e-05,
+            "max_bound_mm": 0.01927534213982112
+          },
+          {
+            "passed": true,
+            "leaves": 255,
+            "lower_clearance_mm": 5.560270167253266e-05,
+            "max_bound_mm": 0.02176739981445447
+          },
+          {
+            "passed": true,
+            "leaves": 376,
+            "lower_clearance_mm": 0.0027035468941779897,
+            "max_bound_mm": 0.5843749999999996
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 1.1999044774248055,
+            "max_bound_mm": 7.484999999999999
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 10.634828756927966,
+            "max_bound_mm": 5.3420592236944255
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "intersection_area_mm2": 2.2643798061141074e-15,
+          "method": "exact edge-quadrilateral union for pure translation; zero-clearance contact allowed"
+        },
+        "reserved_bore_half_height_clearance_mm": 0.1,
+        "continuous_free_motion_uses_shrunk_bores": true,
+        "assumptions": [
+          "Perfect cylindrical bores, flat rigid board, exact polygonal printed geometry.",
+          "Constant X width; no yaw or roll. Effective circular-bore height exactly accounts for full width.",
+          "Clearance study includes complete upper hook, lower locator, and spine.",
+          "Physical contact has zero intended gap at final seating; certified free threading reserves hole_clearance in bore half-height.",
+          "No FEA, fatigue, creep, extrusion error, board breakout, or physical load testing.",
+          "Attached mount geometry can obstruct the verified path and must be checked separately."
+        ]
+      }
+    },
+    {
+      "name": "lowes_white_9_32_holes",
+      "parameters": {
+        "board_thickness": 3.94,
+        "hole_diameter": 7.14375,
+        "pitch": 25.4,
+        "width": 4.0,
+        "neck_height": 3.6,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "pull_clearance": 0.47,
+        "elbow_offset": -3.0462321869333686,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_height": 3.0,
+        "hole_clearance": 0.1,
+        "front_gap": 0.15,
+        "seat_drop": 0.12
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 0.1,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 0.1,
+          "theta_deg": 9.75,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 8.98,
+          "z": 0.1,
+          "theta_deg": 9.75,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 2.23,
+          "z": 0.1,
+          "theta_deg": 9.75,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 1.68,
+          "z": 0.1,
+          "theta_deg": 9.0,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": 0.98,
+          "z": 0.1,
+          "theta_deg": 6.5,
+          "stage": "rotate down and engage lower locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat on bore and face"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 0.98,
+          "z": 0.1,
+          "theta_deg": 6.5,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 1.68,
+          "z": 0.1,
+          "theta_deg": 9.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.23,
+          "z": 0.1,
+          "theta_deg": 9.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 8.98,
+          "z": 0.1,
+          "theta_deg": 9.75,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 0.1,
+          "theta_deg": 9.75,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 0.1,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "upper_neck_center_z_mm": -1.0394409971521648,
+        "effective_bore_half_height_mm": 2.9594409971521647,
+        "maximum_install_tilt_deg": 9.75,
+        "maximum_lift_mm": 0.22,
+        "rear_wall_clearance_required_mm": 3.9035131759699158,
+        "straight_outward_travel_until_stop_mm": 0.470057735019509,
+        "straight_lift_until_stop_mm": 0.282034641016071,
+        "outward_rocking_about_lower_land_deg": 0.6784681309443112,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "retaining_overlap_above_effective_bore_mm": 0.6811180056956707,
+        "section_area_mm2": 14.4,
+        "section_modulus_mm3": 8.64
+      },
+      "verification": {
+        "passed": true,
+        "astar_validity_checks": 3123,
+        "raw_astar_waypoints": 187,
+        "simplified_waypoints": 8,
+        "dense_verification_frames": 1551,
+        "dense_max_point_travel_mm": 0.025,
+        "colliding_frames": 0,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 308,
+            "lower_clearance_mm": 2.8732265246973754e-05,
+            "max_bound_mm": 0.017895647327349964
+          },
+          {
+            "passed": true,
+            "leaves": 114,
+            "lower_clearance_mm": 2.745992784122797e-05,
+            "max_bound_mm": 0.01591571401952538
+          },
+          {
+            "passed": true,
+            "leaves": 101,
+            "lower_clearance_mm": 4.913465108575795e-05,
+            "max_bound_mm": 0.014861928431138777
+          },
+          {
+            "passed": true,
+            "leaves": 160,
+            "lower_clearance_mm": 0.0019608612300935045,
+            "max_bound_mm": 0.84375
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 1.1750503409736286,
+            "max_bound_mm": 9.51
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "lower_clearance_mm": 17.593023746856947,
+            "max_bound_mm": 2.606775751116577
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "intersection_area_mm2": 4.635260233716896e-16,
+          "method": "exact edge-quadrilateral union for pure translation; zero-clearance contact allowed"
+        },
+        "reserved_bore_half_height_clearance_mm": 0.1,
+        "continuous_free_motion_uses_shrunk_bores": true,
+        "assumptions": [
+          "Perfect cylindrical bores, flat rigid board, exact polygonal printed geometry.",
+          "Constant X width; no yaw or roll. Effective circular-bore height exactly accounts for full width.",
+          "Clearance study includes complete upper hook, lower locator, and spine.",
+          "Physical contact has zero intended gap at final seating; certified free threading reserves hole_clearance in bore half-height.",
+          "No FEA, fatigue, creep, extrusion error, board breakout, or physical load testing.",
+          "Attached mount geometry can obstruct the verified path and must be checked separately."
+        ]
+      }
+    }
+  ],
+  "passed": true,
+  "continuous_method": "Midpoint shape distance to obstacle exceeds maximum rigid displacement over each certified interval; recursively bisected. Pure-translation contact segment uses exact swept polygon union. Reverse traversal inherits identical swept volume."
+}
