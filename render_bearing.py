@@ -1,7 +1,7 @@
 """Exact transverse bearing geometry; contact stress is not simulated.
 
 Run from the repository root, using the selected revision diameter:
-  python round_revision/render_bearing.py --diameter 5.0
+  python render_bearing.py --diameter 5.6
 """
 from pathlib import Path
 import argparse
@@ -69,7 +69,7 @@ def render(diameter, hole, output):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--diameter', type=float, default=5.0)
+    parser.add_argument('--diameter', type=float, default=5.6)
     parser.add_argument('--hole', type=float, default=6.35)
     parser.add_argument('--output', type=Path, default=Path(__file__).parent /
                         'visuals' / 'bearing-comparison.png')

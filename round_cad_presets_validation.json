@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "preset": "round_default_3p94",
+      "candidate": "round",
+      "valid_brep": true,
+      "solid_count": 1,
+      "volume_mm3": 1177.863475581361,
+      "meshes": [
+        {
+          "file": "round_design_reference.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              -3.0,
+              -10.407972,
+              -30.4
+            ],
+            [
+              3.0,
+              4.5,
+              5.145
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "reference geometry",
+          "supports_required": false
+        },
+        {
+          "file": "round_side_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000122,
+              0.0
+            ],
+            [
+              35.544998,
+              14.908094,
+              6.0
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "support design input",
+          "supports_required": true
+        },
+        {
+          "file": "round_upright_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000944,
+              0.0
+            ],
+            [
+              6.0,
+              14.908916,
+              35.545002
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "support design input",
+          "supports_required": true
+        }
+      ],
+      "validation_scope": "Solid/mesh validity only; separate motion and print-support work required",
+      "functional_sections": "Circular cylinders; no bearing flats or cosmetic-only rounding"
+    },
+    {
+      "preset": "round_stock_4p19",
+      "candidate": "round_stock_4p19",
+      "valid_brep": true,
+      "solid_count": 1,
+      "volume_mm3": 1184.0209972224923,
+      "meshes": [
+        {
+          "file": "round_stock_4p19_design_reference.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              -3.0,
+              -10.657972,
+              -30.4
+            ],
+            [
+              3.0,
+              4.5,
+              5.145
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "reference geometry",
+          "supports_required": false
+        },
+        {
+          "file": "round_stock_4p19_side_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000122,
+              0.0
+            ],
+            [
+              35.544998,
+              15.158094,
+              6.0
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "support design input",
+          "supports_required": true
+        },
+        {
+          "file": "round_stock_4p19_upright_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000944,
+              0.0
+            ],
+            [
+              6.0,
+              15.158916,
+              35.545002
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "support design input",
+          "supports_required": true
+        }
+      ],
+      "validation_scope": "Solid/mesh validity only; separate motion and print-support work required",
+      "functional_sections": "Circular cylinders; no bearing flats or cosmetic-only rounding"
+    },
+    {
+      "preset": "round_nominal_3_16",
+      "candidate": "round_nominal_3_16",
+      "valid_brep": true,
+      "solid_count": 1,
+      "volume_mm3": 1180.7599770819816,
+      "meshes": [
+        {
+          "file": "round_nominal_3_16_design_reference.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              -3.0,
+              -11.063806,
+              -30.4
+            ],
+            [
+              3.0,
+              4.5,
+              5.045
+            ]
+          ],
+          "zero_area_export_facets_removed": 2,
+          "purpose": "reference geometry",
+          "supports_required": false
+        },
+        {
+          "file": "round_nominal_3_16_side_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000122,
+              0.0
+            ],
+            [
+              35.445,
+              15.563929,
+              6.0
+            ]
+          ],
+          "zero_area_export_facets_removed": 2,
+          "purpose": "support design input",
+          "supports_required": true
+        },
+        {
+          "file": "round_nominal_3_16_upright_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000944,
+              0.0
+            ],
+            [
+              6.0,
+              15.56475,
+              35.445
+            ]
+          ],
+          "zero_area_export_facets_removed": 2,
+          "purpose": "support design input",
+          "supports_required": true
+        }
+      ],
+      "validation_scope": "Solid/mesh validity only; separate motion and print-support work required",
+      "functional_sections": "Circular cylinders; no bearing flats or cosmetic-only rounding"
+    },
+    {
+      "preset": "round_true_1_4",
+      "candidate": "round_true_1_4",
+      "valid_brep": true,
+      "solid_count": 1,
+      "volume_mm3": 1198.7094158666614,
+      "meshes": [
+        {
+          "file": "round_true_1_4_design_reference.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              -3.0,
+              -12.484639,
+              -30.4
+            ],
+            [
+              3.0,
+              4.5,
+              4.945
+            ]
+          ],
+          "zero_area_export_facets_removed": 2,
+          "purpose": "reference geometry",
+          "supports_required": false
+        },
+        {
+          "file": "round_true_1_4_side_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000122,
+              0.0
+            ],
+            [
+              35.345001,
+              16.984762,
+              6.0
+            ]
+          ],
+          "zero_area_export_facets_removed": 2,
+          "purpose": "support design input",
+          "supports_required": true
+        },
+        {
+          "file": "round_true_1_4_upright_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000944,
+              0.0
+            ],
+            [
+              6.0,
+              16.985582,
+              35.345001
+            ]
+          ],
+          "zero_area_export_facets_removed": 2,
+          "purpose": "support design input",
+          "supports_required": true
+        }
+      ],
+      "validation_scope": "Solid/mesh validity only; separate motion and print-support work required",
+      "functional_sections": "Circular cylinders; no bearing flats or cosmetic-only rounding"
+    },
+    {
+      "preset": "round_9_32_holes",
+      "candidate": "round_9_32_holes",
+      "valid_brep": true,
+      "solid_count": 1,
+      "volume_mm3": 1145.275328942683,
+      "meshes": [
+        {
+          "file": "round_9_32_holes_design_reference.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              -3.0,
+              -9.085056,
+              -30.4
+            ],
+            [
+              3.0,
+              4.5,
+              4.748125
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "reference geometry",
+          "supports_required": false
+        },
+        {
+          "file": "round_9_32_holes_side_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000122,
+              0.0
+            ],
+            [
+              35.148125,
+              13.585178,
+              6.0
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "support design input",
+          "supports_required": true
+        },
+        {
+          "file": "round_9_32_holes_upright_unsupported.stl",
+          "watertight": true,
+          "positive_volume": true,
+          "bounds_mm": [
+            [
+              0.0,
+              0.000944,
+              0.0
+            ],
+            [
+              6.0,
+              13.585999,
+              35.148125
+            ]
+          ],
+          "zero_area_export_facets_removed": 3,
+          "purpose": "support design input",
+          "supports_required": true
+        }
+      ],
+      "validation_scope": "Solid/mesh validity only; separate motion and print-support work required",
+      "functional_sections": "Circular cylinders; no bearing flats or cosmetic-only rounding"
+    }
+  ],
+  "motion_evidence": "round_motion_presets.json"
+}

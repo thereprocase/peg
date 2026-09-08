@@ -1,0 +1,10 @@
+{
+  "file": "Round_Print_Options.3mf",
+  "geometry_objects": 2,
+  "all_watertight": true,
+  "all_positive_volume": true,
+  "units": "millimeter",
+  "geometry_only": true,
+  "machine_profile_included": false,
+  "keep_support_positions": true
+}

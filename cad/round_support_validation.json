@@ -1,0 +1,85 @@
+[
+  {
+    "orientation": "side",
+    "file": "round_side_supported.stl",
+    "valid_brep": true,
+    "watertight": true,
+    "positive_volume": true,
+    "solids": 4,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0001222276478074491,
+        0.0
+      ],
+      [
+        35.54499816894531,
+        14.90809440612793,
+        6.400000095367432
+      ]
+    ],
+    "support_parts": [
+      "upper_neck_side_cradle",
+      "upper_tongue_side_cradle",
+      "lower_side_cradle",
+      "spine_lift_pad"
+    ],
+    "support_parameters": {
+      "interface_gap": 0.2,
+      "web_thickness": 0.5,
+      "cradle_floor": 0.6,
+      "support_half_angle_deg": 45.0,
+      "root_embed": 0.25,
+      "side_root_gap": 0.2,
+      "bed_relief_width": 0.12,
+      "side_lift": 0.4
+    },
+    "functional_geometry_unchanged": true,
+    "functional_print_z_offset_mm": 0.4,
+    "physical_print_tested": false
+  },
+  {
+    "orientation": "upright",
+    "file": "round_upright_supported.stl",
+    "valid_brep": true,
+    "watertight": true,
+    "positive_volume": true,
+    "solids": 1,
+    "bounds_mm": [
+      [
+        0.0,
+        0.0001222276478074491,
+        0.0
+      ],
+      [
+        6.0,
+        14.90809440612793,
+        35.54499816894531
+      ]
+    ],
+    "support_parts": [
+      "upper_neck_upright_cradle",
+      "upper_neck_left_ramp",
+      "upper_neck_right_ramp",
+      "upper_tongue_upright_cradle",
+      "upper_tongue_left_ramp",
+      "upper_tongue_right_ramp",
+      "lower_upright_cradle",
+      "lower_left_ramp",
+      "lower_right_ramp"
+    ],
+    "support_parameters": {
+      "interface_gap": 0.2,
+      "web_thickness": 0.5,
+      "cradle_floor": 0.6,
+      "support_half_angle_deg": 45.0,
+      "root_embed": 0.25,
+      "side_root_gap": 0.2,
+      "bed_relief_width": 0.12,
+      "side_lift": 0.4
+    },
+    "functional_geometry_unchanged": true,
+    "functional_print_z_offset_mm": 0,
+    "physical_print_tested": false
+  }
+]

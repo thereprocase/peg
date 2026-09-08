@@ -1,0 +1,88 @@
+{
+  "engine": "Cura_SteamEngine 5.0.0",
+  "engine_package": "Ubuntu cura-engine_5.0.0-5ubuntu1_amd64.deb",
+  "definitions_package": "Ubuntu cura_5.0.0-6_all.deb",
+  "parameters": {
+    "board_thickness": 3.94,
+    "hole_diameter": 6.35,
+    "pitch": 25.4,
+    "peg_diameter": 5.6,
+    "diametral_clearance": null,
+    "tongue_diameter": 4.8,
+    "locator_diameter": 5.6,
+    "spine_width": 6.0,
+    "spine_depth": 4.5,
+    "spine_height": 34.6,
+    "spine_top": 4.2,
+    "spine_corner_radius": 0.65,
+    "front_gap": 0.15,
+    "seat_drop": 0.12,
+    "pull_clearance": 0.47,
+    "elbow_offset": -0.9319051507904268,
+    "root_y": 1.4,
+    "tongue_run": 5.0,
+    "tongue_rise": 3.0,
+    "locator_depth": 2.3,
+    "locator_root_y": 0.6,
+    "locator_chamfer": 0.5
+  },
+  "checks": {
+    "side_supported": {
+      "gcode": "final_side_supported_REVIEW_ONLY.gcode",
+      "layers": 32,
+      "support_layers": 7,
+      "screen_reach_mm": 0.2,
+      "support_airgap_mm": 0.2,
+      "flagged_layers": 0,
+      "scope": "Portions of perimeter centerlines outside previous model envelope or two-layer-earlier support envelope expanded by one layer height. Flags may include intended bridges and supported-overhang flow differences; not a printability pass/fail.",
+      "max_flagged_perimeter_portion_mm": 0.0,
+      "stl_sha256": "d763e0ec61014e56dc24ec5f88fbcec80ec7f882a5c7f0dbb51dcdc209fdc64c"
+    },
+    "upright_supported": {
+      "gcode": "final_upright_supported_REVIEW_ONLY.gcode",
+      "layers": 178,
+      "support_layers": 67,
+      "screen_reach_mm": 0.2,
+      "support_airgap_mm": 0.2,
+      "flagged_layers": 1,
+      "scope": "Portions of perimeter centerlines outside previous model envelope or two-layer-earlier support envelope expanded by one layer height. Flags may include intended bridges and supported-overhang flow differences; not a printability pass/fail.",
+      "max_flagged_perimeter_portion_mm": 0.05129779861924,
+      "stl_sha256": "15958ef6843b707137f970baf735e515539b7918983929113d329d0d77f83dac"
+    },
+    "side_unsupported": {
+      "gcode": "final_side_unsupported_REVIEW_ONLY.gcode",
+      "layers": 30,
+      "support_layers": 0,
+      "screen_reach_mm": 0.2,
+      "support_airgap_mm": 0.2,
+      "flagged_layers": 4,
+      "scope": "Portions of perimeter centerlines outside previous model envelope or two-layer-earlier support envelope expanded by one layer height. Flags may include intended bridges and supported-overhang flow differences; not a printability pass/fail.",
+      "max_flagged_perimeter_portion_mm": 4.377158553216895,
+      "stl_sha256": "d1da788d0721ff12b1d7af292debdab7658955e8ff5bb93532f30a539bb47852"
+    },
+    "upright_unsupported": {
+      "gcode": "final_upright_unsupported_REVIEW_ONLY.gcode",
+      "layers": 178,
+      "support_layers": 0,
+      "screen_reach_mm": 0.2,
+      "support_airgap_mm": 0.2,
+      "flagged_layers": 4,
+      "scope": "Portions of perimeter centerlines outside previous model envelope or two-layer-earlier support envelope expanded by one layer height. Flags may include intended bridges and supported-overhang flow differences; not a printability pass/fail.",
+      "max_flagged_perimeter_portion_mm": 3.0239975700320083,
+      "stl_sha256": "6281b4d97f849e757a9f00bfd12e9ea6271bb86fbde83511e47141e4b70a3fdc"
+    }
+  },
+  "support_parameters": {
+    "interface_gap": 0.2,
+    "web_thickness": 0.5,
+    "cradle_floor": 0.6,
+    "support_half_angle_deg": 45.0,
+    "root_embed": 0.25,
+    "side_root_gap": 0.2,
+    "bed_relief_width": 0.12,
+    "side_lift": 0.4
+  },
+  "side_functional_print_z_offset_mm": 0.4,
+  "physical_print_tested": false,
+  "machine_profile_validated": false
+}

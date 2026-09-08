@@ -1,0 +1,12 @@
+{
+  "gcode": "final_side_supported_REVIEW_ONLY.gcode",
+  "layers": 32,
+  "support_layers": 7,
+  "screen_reach_mm": 0.2,
+  "support_airgap_mm": 0.2,
+  "flagged_layers": 0,
+  "worst_layers": [],
+  "all_flagged_layers": [],
+  "scope": "Portions of perimeter centerlines outside previous model envelope or two-layer-earlier support envelope expanded by one layer height. Flags may include intended bridges and supported-overhang flow differences; not a printability pass/fail.",
+  "functional_print_z_offset_mm": 0.4
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "project": "thereprocase/peg",
-  "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code.",
+  "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current round files and labeled rectangular baseline are both preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 63,
-  "total_size_bytes": 6264403,
+  "file_count": 141,
+  "total_size_bytes": 42202970,
   "files": [
     {
       "path": ".gitattributes",
@@ -18,18 +18,28 @@
     },
     {
       "path": "AGENTS.md",
-      "size_bytes": 1758,
-      "sha256": "d8b29a6d56d12c66e0480126837985dc049f9eefcb1dba6f7f545ee5c306da13"
+      "size_bytes": 2165,
+      "sha256": "80a1d19f7cf4a86adff306bd4a6be6c97039e384f6c00f5a5307a4d1e2e864c3"
+    },
+    {
+      "path": "BASELINE_HANDOFF.md",
+      "size_bytes": 13000,
+      "sha256": "be1e721b2525a9636687f5287515014937bdd8d9409f64cbcfd56a2fc82b1a68"
+    },
+    {
+      "path": "BASELINE_README.md",
+      "size_bytes": 18223,
+      "sha256": "789657e834b2be039576041baca2579a2936ee3add3acb9714135546e8ddd125"
     },
     {
       "path": "DESIGN_HISTORY.md",
-      "size_bytes": 14228,
-      "sha256": "77a9a9904d76599ad2aff8d91f52c78b8223a5b66ee69a5cfdbb7a92fca30cd6"
+      "size_bytes": 16592,
+      "sha256": "6c8a85e6cb9e720cea47886d567625f5dfd6042f3b2f2cee87f4863816da22a3"
     },
     {
       "path": "HANDOFF.md",
-      "size_bytes": 12886,
-      "sha256": "75fccbc1fa7005a27efcfd5e2b197c283cf4de43375207335b56f5e977932925"
+      "size_bytes": 9308,
+      "sha256": "b9223a04c831dc27214ac863b4559e2ab3797e7e73f640b3622103689c3bf8a0"
     },
     {
       "path": "MODEL_REFERENCE.md",
@@ -53,8 +63,23 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 18296,
-      "sha256": "ea4dcdd5bda6c18ee5f6de0bdbaee9a5fff6ecee480a9be80dac0ba3a7db3579"
+      "size_bytes": 15113,
+      "sha256": "34983400582d5c763abf10dc719319ffce4e44497cdb7a8bb35952ef66d79162"
+    },
+    {
+      "path": "ROUND_MOTION_STUDY.md",
+      "size_bytes": 10016,
+      "sha256": "7dac4da573bdd21d1904f3c86994231c84538dc261da3e8b6130438a90199f74"
+    },
+    {
+      "path": "ROUND_SLICER_CHECK.md",
+      "size_bytes": 5643,
+      "sha256": "2afc08b9abae68fa46e03b02f0ee46890e0bcf74012a41449c6763916f45516c"
+    },
+    {
+      "path": "Round_Print_Options.3mf",
+      "size_bytes": 845613,
+      "sha256": "eecca3620fd5095342844f4d5c4370362799bcd6a2bb6ce8b6a10eeaee4cdf22"
     },
     {
       "path": "SLICER_CHECK.md",
@@ -132,6 +157,196 @@
       "sha256": "27e30e396811ebd5b77ea4078c241b2ce63f59f28ae6af55016e26f86ca91429"
     },
     {
+      "path": "cad/round.step",
+      "size_bytes": 240936,
+      "sha256": "ebab7adaebae4b54c10ed66bb7d9acb8a032302b4fa2b82c0b876b5f6844c568"
+    },
+    {
+      "path": "cad/round_9_32_holes.step",
+      "size_bytes": 241062,
+      "sha256": "2a657ea2e40cf25821f4856ba0f565d98c648ee4eb2297d357b294a99d04f11f"
+    },
+    {
+      "path": "cad/round_9_32_holes_cad_validation.json",
+      "size_bytes": 1576,
+      "sha256": "5bc931ea8081b841771466c38b16a8f0926ed89ed81766271c543a4701e4c48c"
+    },
+    {
+      "path": "cad/round_9_32_holes_design_reference.stl",
+      "size_bytes": 1444184,
+      "sha256": "75ecbaf3dddf85483b70b1b4ea31179de16fa12132afb7656d08933b16921a06"
+    },
+    {
+      "path": "cad/round_9_32_holes_geometry.json",
+      "size_bytes": 2159,
+      "sha256": "258caef64e4faab96ea3564c93fe791850e020cd3a9d96980db88acf4fd23af2"
+    },
+    {
+      "path": "cad/round_9_32_holes_side_unsupported.stl",
+      "size_bytes": 1444184,
+      "sha256": "dea54fed9a01ca104a1b945b0edad3548036cec5031e5961293ac6caca27f4c9"
+    },
+    {
+      "path": "cad/round_9_32_holes_upright_unsupported.stl",
+      "size_bytes": 1444184,
+      "sha256": "51937ba6db21801c7d590bf3c1c7ba5efb27f9098029b0f0eebcc3160a55fca3"
+    },
+    {
+      "path": "cad/round_cad_validation.json",
+      "size_bytes": 1530,
+      "sha256": "a71db7215657b105626f96bcd69bbdd565f863df9368589e18bbd785ff6e85d5"
+    },
+    {
+      "path": "cad/round_design_reference.stl",
+      "size_bytes": 1444184,
+      "sha256": "1bc6a3972dcbf38de080580ac1c85b48fbc22db1b06ef7ae648a29357cd2a89d"
+    },
+    {
+      "path": "cad/round_geometry.json",
+      "size_bytes": 2121,
+      "sha256": "01c9f39bc7498877cdfdd882f4be267d1d9e45b67150bb64ddc54db8cfafd5c8"
+    },
+    {
+      "path": "cad/round_nominal_3_16.step",
+      "size_bytes": 236860,
+      "sha256": "56aa21cf5429423cc67b8331cfef6220eb60ccd44cf029f278002366082147f5"
+    },
+    {
+      "path": "cad/round_nominal_3_16_cad_validation.json",
+      "size_bytes": 1576,
+      "sha256": "34c800a3fa195fc7ab5faca5a31500f1eada835ad04001a6be5581626f73c37f"
+    },
+    {
+      "path": "cad/round_nominal_3_16_design_reference.stl",
+      "size_bytes": 1410384,
+      "sha256": "865837f1f90bda585bae8470fd3c5d342dfeed8a86f99bc75b0bff6e0ae339c9"
+    },
+    {
+      "path": "cad/round_nominal_3_16_geometry.json",
+      "size_bytes": 2170,
+      "sha256": "2e1f8439b156484fb3f111ec907e8a1be463e5c977d5ee105b253e58c200a864"
+    },
+    {
+      "path": "cad/round_nominal_3_16_side_unsupported.stl",
+      "size_bytes": 1410384,
+      "sha256": "d6a0a32b72e5a067399763ce04eac85393906077c19667314049645affda7609"
+    },
+    {
+      "path": "cad/round_nominal_3_16_upright_unsupported.stl",
+      "size_bytes": 1410384,
+      "sha256": "680b59ee69d8f0804366b1730b4a93ffbe7aa3c9d80c98626542709efa420885"
+    },
+    {
+      "path": "cad/round_side_support_reference.step",
+      "size_bytes": 1873372,
+      "sha256": "129fb7b9efbae502fa97a48541abf4f6cb39a0fa80c7123b233a73db411f77c0"
+    },
+    {
+      "path": "cad/round_side_supported.step",
+      "size_bytes": 1110508,
+      "sha256": "849ac2d0ed05971cd69cf3e2839efb143f7450034d90a6841ff6dfb16f280ba7"
+    },
+    {
+      "path": "cad/round_side_supported.stl",
+      "size_bytes": 1718184,
+      "sha256": "d763e0ec61014e56dc24ec5f88fbcec80ec7f882a5c7f0dbb51dcdc209fdc64c"
+    },
+    {
+      "path": "cad/round_side_unsupported.stl",
+      "size_bytes": 1444184,
+      "sha256": "d1da788d0721ff12b1d7af292debdab7658955e8ff5bb93532f30a539bb47852"
+    },
+    {
+      "path": "cad/round_stock_4p19.step",
+      "size_bytes": 240937,
+      "sha256": "e3c2c46ef484a7670bee257985b98f2498859cd21c16c73ee8b48fd08729dd94"
+    },
+    {
+      "path": "cad/round_stock_4p19_cad_validation.json",
+      "size_bytes": 1575,
+      "sha256": "1a3a7d5b59747e1579a920ee88a3ba3b937efb4f9b2ce68e75b43a7a962fb945"
+    },
+    {
+      "path": "cad/round_stock_4p19_design_reference.stl",
+      "size_bytes": 1444184,
+      "sha256": "5c2b345d23eac1810a240778c022ece2426cebafbf6a2758c8d2f62e7b6bed65"
+    },
+    {
+      "path": "cad/round_stock_4p19_geometry.json",
+      "size_bytes": 2122,
+      "sha256": "6f475fd9c60913a1234f54e9670fa022080d9bef74584297a3e4b68b81ed048e"
+    },
+    {
+      "path": "cad/round_stock_4p19_side_unsupported.stl",
+      "size_bytes": 1444184,
+      "sha256": "5c69ca81f20c40bb7fe125b49e21e998e073b4b35adff7ba375df3ee5cb9f459"
+    },
+    {
+      "path": "cad/round_stock_4p19_upright_unsupported.stl",
+      "size_bytes": 1444184,
+      "sha256": "5e73c059833a4cd4ede3a33771139c4021661a8b075fd770fca551b6aef5f05f"
+    },
+    {
+      "path": "cad/round_support_validation.json",
+      "size_bytes": 1944,
+      "sha256": "c79620d0e9f1633bb6ccd1559b50648bfb74e886cdfa3b0e997871d6aa344e8c"
+    },
+    {
+      "path": "cad/round_true_1_4.step",
+      "size_bytes": 237446,
+      "sha256": "fe3efe34855859088c4e693cdda21cfc971c4d9fe1dfab3ceffe71937e8feab9"
+    },
+    {
+      "path": "cad/round_true_1_4_cad_validation.json",
+      "size_bytes": 1567,
+      "sha256": "d509bd280ed205b0c6553ff80c17c12ca0790f2d1e6858540858a1132933684e"
+    },
+    {
+      "path": "cad/round_true_1_4_design_reference.stl",
+      "size_bytes": 1379084,
+      "sha256": "d25c1c5a2f8bbdc2b0fd80187dd196278c3d0f45bd226e3be6d16c8746ad77e8"
+    },
+    {
+      "path": "cad/round_true_1_4_geometry.json",
+      "size_bytes": 2177,
+      "sha256": "109150cc9b381537a47c3369cb25fffe1a0271bcfea01693a351ac9bf6eb43a9"
+    },
+    {
+      "path": "cad/round_true_1_4_side_unsupported.stl",
+      "size_bytes": 1379084,
+      "sha256": "49e2325921fed74af58170c67038036d2710e838c8c174a724a57da9822de9b3"
+    },
+    {
+      "path": "cad/round_true_1_4_upright_unsupported.stl",
+      "size_bytes": 1379084,
+      "sha256": "8c4f089cbab888f87f2570512c279a7821e4b0f65eae068855449da88c147c7f"
+    },
+    {
+      "path": "cad/round_two_column_example.step",
+      "size_bytes": 512146,
+      "sha256": "ecefb56112fb724c9ac279a91f199bb3d9dc59b1441478512610a29c9a7be5a1"
+    },
+    {
+      "path": "cad/round_upright_support_reference.step",
+      "size_bytes": 1480010,
+      "sha256": "77f7c8e7d64e562d2f01246540becc90cdcda55bd2ee45640bde5a341adbc036"
+    },
+    {
+      "path": "cad/round_upright_supported.step",
+      "size_bytes": 707098,
+      "sha256": "8f82e9665add8e4bb217c035cd5b9d21a04d9e370e3a238783a3619abe35cfaa"
+    },
+    {
+      "path": "cad/round_upright_supported.stl",
+      "size_bytes": 1871984,
+      "sha256": "15958ef6843b707137f970baf735e515539b7918983929113d329d0d77f83dac"
+    },
+    {
+      "path": "cad/round_upright_unsupported.stl",
+      "size_bytes": 1444184,
+      "sha256": "6281b4d97f849e757a9f00bfd12e9ea6271bb86fbde83511e47141e4b70a3fdc"
+    },
+    {
       "path": "cad/two_column_example.step",
       "size_bytes": 606803,
       "sha256": "9991f0ea8daeb211ad20ff20523e35f1be8085d368abc160c80fd87ae26449f4"
@@ -168,8 +383,8 @@
     },
     {
       "path": "optimize_animation.py",
-      "size_bytes": 604,
-      "sha256": "0a2f0377dd47babc7461514f04c58860f28676c6245b14001cc61187d1d91d2f"
+      "size_bytes": 741,
+      "sha256": "980dbd3070c57dc971fd9aa01e6b75010cda69471c4faf2963c5647f48fb519a"
     },
     {
       "path": "parameters.json",
@@ -192,6 +407,11 @@
       "sha256": "524c407b1fed882988581fd912d67267246ee135b5d9de2d825cbf5c5ea5e367"
     },
     {
+      "path": "render_bearing.py",
+      "size_bytes": 3949,
+      "sha256": "06c6db1d392069e2a7db9469c3989701b327a7a0635913e5abb1fa39f3f90a0a"
+    },
+    {
       "path": "render_hero.py",
       "size_bytes": 6022,
       "sha256": "c3e7f3546ab6088a300b6d60ec58ca307d97f5c01a1699582ad422750b74981b"
@@ -200,6 +420,21 @@
       "path": "render_print_options.py",
       "size_bytes": 7046,
       "sha256": "12adbdd34565d0d344e629e2cb57453456bc669d4f35185e930c5bb23065b3d1"
+    },
+    {
+      "path": "render_round.py",
+      "size_bytes": 15761,
+      "sha256": "4005e3e5dd3b1be04d1439d5b41a329ddf6d6a3e2209c6592b32e748a1939c27"
+    },
+    {
+      "path": "render_round_common.py",
+      "size_bytes": 2832,
+      "sha256": "31f6860351a054df5f35fe1b3e9be863ec7c08698285e466f00b4a1f4539c6b6"
+    },
+    {
+      "path": "render_round_supports.py",
+      "size_bytes": 4641,
+      "sha256": "5f1fbd700d84751d32c148eead879e0cae6dbe98376948b927554f04fe3df811"
     },
     {
       "path": "render_study.py",
@@ -217,6 +452,86 @@
       "sha256": "3c257634c397ce18ba9e199bf3727e5e2e08d7bc118e4a9031967060cff63fb7"
     },
     {
+      "path": "review_settings/side.json",
+      "size_bytes": 1483,
+      "sha256": "8f5e963557d987fe9bd6879dc6c0c804a2b200c40580e84d2bb48b544c1e06f1"
+    },
+    {
+      "path": "review_settings/upright.json",
+      "size_bytes": 1483,
+      "sha256": "f17f02846428f993230fa4a5de655c87aa117542391d284f02abf13fabdd4e57"
+    },
+    {
+      "path": "round_3mf_validation.json",
+      "size_bytes": 243,
+      "sha256": "aae2cfe58dee45bf6b4cdf98dd2cb779cfa177881e7d7fac4df471da35388ff6"
+    },
+    {
+      "path": "round_anchor.py",
+      "size_bytes": 15118,
+      "sha256": "ff8f90926ade32cf0d8ae742b822322879f1b0f810dae8c405a6f7a4de1bd1fe"
+    },
+    {
+      "path": "round_cad_presets_validation.json",
+      "size_bytes": 9502,
+      "sha256": "bcada5665cb91b0a5f43f45ef8b3cd386e69a02b7959a9d8e1ebd00af1c3723c"
+    },
+    {
+      "path": "round_distance_crosscheck.json",
+      "size_bytes": 239,
+      "sha256": "22b2c17dc0c35d74cadc8a3548f7c10e379c0ab59249166662152761356e2d4b"
+    },
+    {
+      "path": "round_motion.py",
+      "size_bytes": 17271,
+      "sha256": "e688fe3a9a5c7a5117cd1ffaa0634746e00ddfd5b42a0b9e1031712e36bf3eb7"
+    },
+    {
+      "path": "round_motion_presets.json",
+      "size_bytes": 40020,
+      "sha256": "60cecd18de5da26be16811ae6b593fce468f15c16a844478f4a7f3765b8936e5"
+    },
+    {
+      "path": "round_motion_results.json",
+      "size_bytes": 7691,
+      "sha256": "3ca0eb900fc5302b13984bb3b3e9c697e0169a9debfe8d5590134559b1fa6cdc"
+    },
+    {
+      "path": "round_occ_motion_check.json",
+      "size_bytes": 14575,
+      "sha256": "7f87627caa9cde721e5d60d3b5cd24d33fd9d740fddcca2aa05d311dc3105709"
+    },
+    {
+      "path": "round_pair_occ_motion_check.json",
+      "size_bytes": 14595,
+      "sha256": "5ef1fa864585803a0351ac0052f4db76c5ce664ab6b44506b5de53f7e697bc34"
+    },
+    {
+      "path": "round_print_supports.py",
+      "size_bytes": 10562,
+      "sha256": "220c7619524ac4d0b8865bbc3d7a95305fb14b2f7e3dec1b25878a13d00400ce"
+    },
+    {
+      "path": "round_slicer_check.json",
+      "size_bytes": 3674,
+      "sha256": "1d1f8869a5e32c99ec62032dd650be389d2cf281ab2d743600634532f4f7b96e"
+    },
+    {
+      "path": "round_verify_cad.py",
+      "size_bytes": 7219,
+      "sha256": "53b4a4a553f0419cda44f6bb85e9286bdcc4121ca339e0fbccf10708d5e2d6ce"
+    },
+    {
+      "path": "side_supported_toolpath_evidence.json",
+      "size_bytes": 514,
+      "sha256": "d055570225ea1551242fdf18f06370060cec17350cf370b1b22192fd9a89d214"
+    },
+    {
+      "path": "side_unsupported_toolpath_evidence.json",
+      "size_bytes": 42284,
+      "sha256": "7f43c71c8f90b99d2be1080eecf73d8457bbcaf8a73eb6c149cc3bb7ce71c705"
+    },
+    {
       "path": "slicer_check.json",
       "size_bytes": 5867,
       "sha256": "20105e6e51c716294abb2365c50ae3f55fc8786ee0b0adb627cd3cf0a4149f50"
@@ -227,9 +542,24 @@
       "sha256": "b70bda46a30d0242e3b73609ec35bbe473898e8e158022cd3d2ddc355ddb672b"
     },
     {
+      "path": "tools/ROUND_REVIEW.md",
+      "size_bytes": 5586,
+      "sha256": "20ad808e13e5ba2806c7400bee40caeaa697a6672589748cacd8627faf91e49c"
+    },
+    {
       "path": "tools/analyze_toolpaths.py",
       "size_bytes": 7524,
       "sha256": "8df79ae107d7bfbbda8388145ee0ba079aeda67871997589599655b70081ba48"
+    },
+    {
+      "path": "tools/check_round_toolpaths.py",
+      "size_bytes": 4088,
+      "sha256": "1ebbd9f29e92d42ba853e3ce544342b56098e1daca42d818f10b0df9a4a6e371"
+    },
+    {
+      "path": "tools/slice_round_toolpaths.py",
+      "size_bytes": 1380,
+      "sha256": "6db9a7a2a3aedf2e69d761e72ff71097738d25d85a8e71f068ac18bd11a9a251"
     },
     {
       "path": "tools/slice_toolpaths.py",
@@ -240,6 +570,11 @@
       "path": "upright_cad_validation.json",
       "size_bytes": 423,
       "sha256": "8150b89032d732c62f349c9d41391f61eaac74a1ec7aef91e16df93c03a28fe0"
+    },
+    {
+      "path": "upright_supported_toolpath_evidence.json",
+      "size_bytes": 2241,
+      "sha256": "d7a25c2e17be0b337f088a079b178022e32787d8dfac58d96c9da6ca407d3e3f"
     },
     {
       "path": "upright_supports_design.py",
@@ -255,6 +590,11 @@
       "path": "upright_supports_variant_checks.json",
       "size_bytes": 7636,
       "sha256": "5d1a27431aa3f202b6626b9d425d44ced2ab993461159b3a890ee07641310737"
+    },
+    {
+      "path": "upright_unsupported_toolpath_evidence.json",
+      "size_bytes": 30982,
+      "sha256": "62fc3ba6550b74550735ad0ac901f0c3e8f20d422c137b4e3da3375b73d8f57a"
     },
     {
       "path": "verify_cad.py",
@@ -282,6 +622,16 @@
       "sha256": "d4b9561bc84b928d731a43497026d5dccd8ee52e66c1d561ef75912bfed699ca"
     },
     {
+      "path": "visuals/bearing-comparison.png",
+      "size_bytes": 214537,
+      "sha256": "1e90b9143008b7639e0b0b8e33b631f8e64b7ee7ae3ad073ba0466d742da2d53"
+    },
+    {
+      "path": "visuals/bearing-comparison.svg",
+      "size_bytes": 64115,
+      "sha256": "4a31e9125f0d0ba1b42402b411d10c6f7744a83702240bcb56ec0b33620c0030"
+    },
+    {
       "path": "visuals/bore-clearance.png",
       "size_bytes": 116098,
       "sha256": "85edd2fe957f4d01de6fece3aca860f06b5395110c3f0f510af2c40bfb550457"
@@ -302,9 +652,44 @@
       "sha256": "493e6360e0dd89adfdef71c62a06926171dddd9af4c9eb8b0d07f6e49a63ae4f"
     },
     {
+      "path": "visuals/round-drawing.png",
+      "size_bytes": 175433,
+      "sha256": "e429abcad873af1bdf6acd635b178151becf220750df507013cf39ad55a824ef"
+    },
+    {
+      "path": "visuals/round-drawing.svg",
+      "size_bytes": 77551,
+      "sha256": "2e37a14ae7b777f59b282a7127d684c3f43747701d29ba31d6ea71a99ad11c91"
+    },
+    {
+      "path": "visuals/round-hero.png",
+      "size_bytes": 229570,
+      "sha256": "622dc3e62efca6652157ca7849c3465044a1d460e40ea0ac3aa98daa99e3813d"
+    },
+    {
+      "path": "visuals/round-insertion-removal.gif",
+      "size_bytes": 1653633,
+      "sha256": "07a6eed4c1cad828ef21bd0d03af8ff0c794f12339e06115b97ddad897a55a68"
+    },
+    {
+      "path": "visuals/round-motion-envelope.png",
+      "size_bytes": 283578,
+      "sha256": "f63841d47b7820ccc9239cda08c2d42058a7024e50952ff17371fcc73bd87e5d"
+    },
+    {
+      "path": "visuals/round-print-options.png",
+      "size_bytes": 232188,
+      "sha256": "fc75f7327c2784f43eba561f8a76645b7b9f694be5099e0d0bf033c84d0cd913"
+    },
+    {
       "path": "visuals/upright-actual-toolpaths.png",
       "size_bytes": 90377,
       "sha256": "b22fb54ee947a1383d01177080e61a79aadf7be0d64197ec771270c225a4933e"
+    },
+    {
+      "path": "write_manifest.py",
+      "size_bytes": 1025,
+      "sha256": "fe0418df44448c492b2505c3bdf180a9c483757a65a86ac3dfc79aae3eafda1f"
     },
     {
       "path": "write_print_3mf.py",
@@ -315,6 +700,11 @@
       "path": "write_reference_readme.py",
       "size_bytes": 12282,
       "sha256": "52b452b8d67fefee0567eb56f01ce41e13194b158d5214e3517d61395ea5b6a6"
+    },
+    {
+      "path": "write_round_3mf.py",
+      "size_bytes": 3242,
+      "sha256": "050d766f846b959447aaf4e5e3d92e3e95ea3d1055f36ff6fc254557bb88f560"
     },
     {
       "path": "write_scad.py",

@@ -1,7 +1,11 @@
 """Re-encode generated motion GIF with a shared palette and delta rectangles."""
 from PIL import Image,ImageSequence
 from pathlib import Path
-p=Path(__file__).resolve().parent/'visuals/insertion-removal.gif'
+import argparse
+ap=argparse.ArgumentParser(description=__doc__)
+ap.add_argument('path',nargs='?',default='visuals/insertion-removal.gif')
+args=ap.parse_args()
+p=Path(__file__).resolve().parent/args.path
 im=Image.open(p);duration=im.info.get('duration',50)
 frames=[f.convert('RGB') for f in ImageSequence.Iterator(im)]
 palette=frames[0].quantize(colors=128)

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "compared_poses": 5,
+  "lower_slabs_per_half": 96,
+  "maximum_distance_difference_mm": 0,
+  "method": "Vectorized rectangle-to-board-block distance compared with independent Shapely polygon distance for all96slabs."
+}

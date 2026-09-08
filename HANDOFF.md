@@ -1,138 +1,80 @@
-# Next-agent handoff
+# Current project handoff
 
-## Latest geometry requirement
+The user requested a modular parametric FDM pegboard anchor, common US board presets, a full motion study, side and upright printing, clear visuals, and preservation of all work in [thereprocase/peg](https://github.com/thereprocase/peg). They then rejected the rectangular bearing corners and explicitly required **round pegs**. The current canonical design is round.
 
-The user explicitly directed: “square corners will crush hole and provide bad bearing and unsnug fit. holes are round. make pegs round.” Develop actual circular bearing sections for the upper through-board neck and lower locator in `round_revision/`. Preserve the baseline and revalidate the changed three-dimensional motion and printing before promoting the revision. A small edge fillet does not meet this requirement. Round pegs still require deliberate clearance and seated retention; circular geometry alone does not eliminate play.
+Read [README.md](README.md), [ROUND_MOTION_STUDY.md](ROUND_MOTION_STUDY.md), [ROUND_SLICER_CHECK.md](ROUND_SLICER_CHECK.md), and [DESIGN_HISTORY.md](DESIGN_HISTORY.md). The [baseline guide](BASELINE_README.md) and [baseline handoff](BASELINE_HANDOFF.md) preserve the earlier rectangular model and decisions. Do not use baseline motion or support claims for the round version.
 
-## Immediate objective and authority
+## Current geometry and files
 
-The user directed publication of **all project work** to [thereprocase/peg](https://github.com/thereprocase/peg): CAD, sources, print files, animations, motion study, detailed README, research, and design knowledge. The active publishing agent handles that repository operation. These files preserve the project state independently of the conversation.
+Default: actual board thickness **3.94 mm**, minimum hole diameter **6.35 mm**, pitch **25.4 mm**, bearing peg/locator diameter **5.6 mm**, tongue diameter **4.8 mm**, spine width **6 mm**. All units are millimeters. X crosses the board, Y faces the user, Z points up. Board front is Y=0. Fuse hosts at the Y=4.5 mm front face with real overlap. The exact seated pose translates Y=-0.15 mm and Z=-0.12 mm, with zero rotation.
 
-Do not state that a push succeeded merely because this handoff exists. Check the repository and commit state. Do not let optional new design work delay the authorized publication of the current concrete result.
+The upper solid is the union of a 2.8 mm-radius circular capsule and a 2.4 mm-radius circular capsule, preserving the large spherical junction. The lower locator is a circular cylinder with a 0.5 mm axial nose chamfer. Neither bearing surface is flattened. The rounded rear end of the neck means the full nominal diameter does not bear through the entire board thickness; do not claim full-cylinder contact over the complete board thickness.
 
-## Read first
+Use `Round_Print_Options.3mf`, `cad/round_side_supported.stl`, and `cad/round_upright_supported.stl` for the current default print preparations. Use `cad/round.step` for host integration. Bare STLs are explicitly named `*_unsupported.stl`; provide appropriate supports when using them. `cad/round_design_reference.stl` retains design coordinates for rendering. `cad/round_two_column_example.step` demonstrates the front bridge and horizontal replication.
 
-1. [README.md](README.md): start files, integration, dimensions, usage, and limits.
-2. [DESIGN_HISTORY.md](DESIGN_HISTORY.md): requirements, design evolution, critique, and proposed improvements.
-3. [PRINTING_OPTIONS.md](PRINTING_OPTIONS.md): flat and upright options; support removal.
-4. [MOTION_STUDY.md](MOTION_STUDY.md): motion proof, seated pose, measured freedom, assumptions.
-5. [SLICER_CHECK.md](SLICER_CHECK.md): actual generic Cura paths and the important upright wall-count correction.
-6. [research.md](research.md): primary product evidence for board presets.
+## Canonical sources and evidence
 
-## The result now
-
-The project supplies a reusable parametric pegboard anchor: upper shallow retaining tongue, lower chamfered locator one row below, and a flat front spine for fusion into the user's holder. It is not a finished tool holder. The default targets common nominal 3/16-inch US home-center hardboard at **3.94 mm actual thickness**, with **6.35 mm minimum hole diameter** and **25.4 mm hole pitch**.
-
-The flat isolated model prints on its broad side. The optional upright model adds four sacrificial 0.50 mm webs with 45-degree growth ramps and a 2.70 mm transverse roof bridge. All webs must be cut away and trimmed flush before installation.
-
-The design has verified rigid-body insertion/removal geometry and generic slicing evidence. It has **no physical fit or load qualification**. Do not describe it as tested strong, zero-rattle, snap-locked, universal, or equally strong in both orientations.
-
-## User priorities
-
-- Reusable and parametric; easy to integrate into many mounts.
-- Strong FDM load path, smooth insertion and removal, limited seated movement.
-- A full motion study, with actual movement shown clearly.
-- Common Home Depot/Lowe's hardboard as the practical default.
-- Functional visual polish and concise engineering documentation.
-- Preserve every meaningful design decision and current usable artifact in GitHub.
-
-The user asked whether the result was “strong and smart and nice” and then asked how to make it as FDM-friendly as possible. The response should distinguish good geometry from proven physical strength. The current detailed sources make that distinction explicitly.
-
-## Coordinate contract
-
-All geometry uses millimeters. X crosses the board horizontally, Y points toward the user, and Z points up. The board front is Y=0; the rear is Y=-board_thickness. Hole centers are X=0 at Z=0 and Z=-pitch. The default profile spans X=-2 to +2 mm. The fusion face is Y=4.5 mm; overlap a host by at least 0.3 mm for a reliable union.
-
-The convenient CAD origin is not the physical seated pose. The final bearing pose is **Y=-0.15 mm, Z=-0.12 mm, rotation=0 degrees**. Apply the same transform to the attached host when inspecting its installed assembly.
-
-Replicate columns horizontally at integer multiples of 25.4 mm and the same height. A second vertically spaced retaining hook is not automatically compatible with the verified threading motion. The host and surrounding obstacles need their own swept-envelope check.
-
-## Source ownership and outputs
-
-| Files | Role |
+| File | Ownership / purpose |
 |---|---|
-| `motion_design.py` | Canonical planar geometry, parameters, motion search, continuous certificates, fit/rock metrics |
-| `anchor.py` | CadQuery solids and functional STEP/STL exports |
-| `write_scad.py`, `pegboard_anchor.scad` | Alternate OpenSCAD source generation/module |
-| `parameters.json` | Parameter snapshot; not an automatically loaded configuration |
-| `geometry.json`, `motion_results.json` | Generated profiles and full motion evidence |
-| `verify_cad.py`, `cad_validation.json`, `occ_motion_check.json` | CAD/mesh and independent 3D sampled interference evidence |
-| `upright_supports_design.py` | Parametric sacrificial-web profiles and geometric layer-growth checks |
-| `print_scaffold.py` | Supported upright CAD exports |
-| `upright_supports_geometry.json`, `upright_supports_variant_checks.json`, `upright_cad_validation.json` | Support geometry and verification |
-| `write_print_3mf.py`, `Pegboard_Print_Options.3mf`, `print_3mf_validation.json` | Geometry-only two-option 3MF and validation |
-| `slicer_check.json`, `SLICER_CHECK.md` | Exact generic Cura setup, STL hashes, and path evidence |
-| `tools/slice_toolpaths.py`, `tools/analyze_toolpaths.py`, `tools/README.md` | Portable replay and analysis of the generic Cura toolpath evidence; command-line inputs and parser assumptions |
-| `render_study.py`, `render_print_options.py`, `render_hero.py`, `visuals/` | Figures, actual-mesh hero rendering, and insertion/removal animation |
-| `write_reference_readme.py` | Regenerates `MODEL_REFERENCE.md` only; the primary `README.md` remains authored documentation |
-| `requirements.txt`, `release_manifest.json` | Dependency list and SHA-256/size inventory of release files; refresh the manifest after modifying deliverables |
+| `round_anchor.py` | Exact CAD primitives, resolved geometry contract, defaults, tested preset combinations, STEP/STL exports, `round_pair()` |
+| `cad/round_geometry.json` | Frozen default primitive contract and parameters |
+| `round_motion.py` | Three-dimensional conservative collision bounds, bounded search, continuous segment certification, exact seating certificate |
+| `round_motion_results.json`, `round_motion_presets.json` | Default and all five certified presets, poses, summaries, proof records |
+| `ROUND_MOTION_STUDY.md`, `round_distance_crosscheck.json` | Method, rejected candidates, assumptions, independent distance comparison |
+| `round_verify_cad.py`, `round_occ_motion_check.json`, `round_pair_occ_motion_check.json` | Actual STEP interference and rocking-stop checks |
+| `round_cad_presets_validation.json`, `cad/*_cad_validation.json` | Valid BReps and watertight positive-volume meshes |
+| `round_print_supports.py`, `cad/round_support_validation.json` | Removable conformal supports, pad/lift, gap and web parameters |
+| `ROUND_SLICER_CHECK.md`, `round_slicer_check.json`, `*_toolpath_evidence.json` | Actual generic Cura toolpaths, exact input hashes, scope and residuals |
+| `review_settings/`, `tools/ROUND_REVIEW.md`, `tools/*round_toolpaths.py` | Portable slicing replay and individual-perimeter support screen |
+| `write_round_3mf.py`, `round_3mf_validation.json` | Geometry-only 3MF packaging and round-trip validation |
+| `render_round.py`, `render_round_common.py`, `render_round_supports.py`, `render_bearing.py` | CAD-derived visuals and certified motion animation |
+| `optimize_animation.py` | Shared-palette GIF compression; accepts an explicit image path |
 
-STEP imports are solid geometry, not native Onshape/Fusion feature trees. The procedural sources provide the parameters. OpenSCAD syntax was inspected, but an OpenSCAD compiler was unavailable in this build; do not claim an OpenSCAD compile check. Its circle tessellation differs slightly from the canonical polygonal profile.
+The root `anchor.py`, `motion_design.py`, `pegboard_anchor.scad`, `MOTION_STUDY.md`, `PRINTING_OPTIONS.md`, and `SLICER_CHECK.md` describe the preserved rectangular baseline. Their separate names and history remain useful; the current round entry points are the `round_*` sources and `ROUND_*` reports.
 
-## Primary user-facing files
+## Results and important distinctions
 
-- `cad/anchor_default_3p94mm.step`: bare functional anchor in CAD coordinates.
-- `cad/anchor_default_3p94mm.stl`: bare anchor already laid flat on its side.
-- `cad/anchor_upright_supported.step`: same interface plus fused cutting webs in CAD coordinates.
-- `cad/anchor_upright_supported.stl`: supported upright coupon shifted to the bed.
-- `cad/upright_cutaway_reference.step`: retained and sacrificial geometry distinguished for inspection.
-- `cad/two_column_example.step`: host-integration example; complete host orientation remains the user's decision.
-- `Pegboard_Print_Options.3mf`: both printable options, geometry only.
-- `visuals/insertion-removal.gif`: actual verified pose sequence.
-- `visuals/anchor-hero.png`, `visuals/anchor-summary.png`, `visuals/anchor-drawing.png`, `visuals/print-options.png`, `visuals/upright-actual-toolpaths.png`: actual released meshes, geometry, dimensions, print choices, and actual generic paths.
+The default continuous path reaches **20.875° tilt**, **1.07 mm lift**, and **6.62 mm rear swept projection**. Straight pull reaches a retaining stop after **0.47 mm**, lift after **0.282 mm**, and outward rocking reaches the modeled rear shoulder after about **0.675°**. These are geometry limits, not measured insertion force or rattle. The 0.10 mm reserved radial free-motion allowance is separate from the exact final seating contacts.
 
-## Facts to preserve
+All five presets pass continuous certificates. Use 5.6 mm bearing pegs for 3.94/4.19 mm stock and the checked 9/32-inch-hole preset, 5.4 mm pegs for 4.7625 mm stock, and 5.2 mm pegs for 6.35 mm stock. All use the 4.8 mm tongue. A bounded search failure for a larger diameter is not proof that every imaginable motion is impossible. Arbitrary combinations remain unverified.
 
-| Item | Current value / result |
-|---|---|
-| Width × neck height | 4.0 × 3.6 mm |
-| Neck area / section modulus | 14.4 mm² / 8.64 mm³; geometry only |
-| Tongue run / rise | 5.0 / 3.0 mm |
-| Lower locator projection / height | 2.3 / 3.0 mm |
-| Default motion | 19.25 degrees maximum tilt; 0.82 mm maximum lift |
-| Default rear swept projection | 5.55 mm behind the board |
-| Default seated movement to imposed-motion contact | 0.47 mm straight pull; about 0.282 mm straight lift; about 0.687 degrees outward rocking |
-| Free-threading allowance | 0.10 mm per effective bore half-height; not a blanket printer tolerance |
-| Presets with continuous motion pass | 3.94, 4.19, 4.7625, and 6.35 mm thickness with 6.35 mm holes; 3.94 mm thickness with 7.14375 mm holes |
-| Earlier loose candidate | About 2.12 mm pull and 3.02 degrees rocking; superseded |
-| Flat print review | 0.4 mm nozzle, 0.2 mm layers, five walls, automatic supports off |
-| Upright print review | Same nozzle/layers, two walls, 100% line infill, four 0.50 mm membranes, 6 mm coupon brim, automatic supports off |
+The default has 2,038 dense audit frames. Independent actual-STEP checks cover 80 single and 80 paired-anchor poses with zero overlap; those are sampled checks, separate from the continuous certificate. The rocking check intentionally tests a beyond-stop pose and expects positive overlap there.
 
-The source documents explain the continuous sweep certificate and the separate exact final seating sweep. The OpenCascade evidence is sampled. Do not swap those descriptions.
+The round neck has area 24.63 mm² and section modulus 17.24 mm³. The tongue has area 18.10 mm² and section modulus 10.86 mm³. Both exceed the rectangular baseline's 8.64 mm³ geometric section modulus. No physical load, fatigue, creep, interlayer bond, contact-pressure, or hardboard breakout rating exists.
 
-## The slicing lesson that must not be lost
+## Printing lessons that must survive
 
-**Do not transfer the flat version's five-wall setting blindly to the upright version.** The initial upright trial filled the narrow roofs with nested perimeter loops. The successful generic Cura review used two walls and solid line infill, with bridge settings that produced X-directed roof paths between the paired membranes. A local modifier can apply those settings to an anchor integrated into a larger host.
+A uniform round peg needs support beneath its lower quadrant. The final side preparation lifts the functional anchor 0.40 mm and adds a 0.20 mm sacrificial spine pad plus conformal cradles with 0.20 mm vertical interfaces. Keep the four supported STL solids in their supplied relative positions; independently dropping each shell to the bed destroys the design. The side supports contact the side-facing hemisphere, away from the installed lower bearing crown.
 
-CuraEngine 5.0.0 retained all four membranes. The review found no wholly detached deposition components under its documented component test. It did not establish sag, thermal behavior, bond strength, support-removal quality, or machine-specific safety. Generated generic G-code is not part of the package and must not be passed to a printer.
+Upright cradles seed the circular center underside and sit on nominal 0.50 mm ramp webs. Webs can merge at intersections. Cut their sacrificial roots, lift the cradles away, and preserve the functional circular surfaces. The baseline pair-of-edge-web strategy did not transfer to a round rod.
 
-The user should choose their own printer/filament profile and inspect the final host in Bambu Studio, OrcaSlicer, or their actual slicer. The geometry-only 3MF does not carry such a profile.
+Generic CuraEngine 5.0.0 review: 0.4 mm nozzle, 0.2 mm layers, 0.45 mm lines, 6 mm brim, automatic supports off. Side uses five walls; upright uses two walls and solid line fill so bridge skin can span the saddle floor. The side support screen has no flagged functional perimeter portions across 32 layers. Upright has 178 layers and a 0.051 mm early spine-edge fringe; no floating rod starts. Those are geometric path checks, not extrusion or strength simulations. Physical support release and surface finish remain to be tried.
 
-## Known weaknesses and unimplemented concepts
+Never print the review G-code. It is excluded from the repository. Use the user's machine and filament profile and inspect the actual final holder.
 
-- The small neck, host lever arm, printed material, and hardboard breakout/crushing can govern strength.
-- The rectangular neck's lower outside edges concentrate initial bore contact.
-- Abrupt root shoulders remain. Adding material at a bore-limited contact can break installation; a radius needs design work and renewed motion validation.
-- First-layer relief was proposed but has not been incorporated into the functional interface.
-- A separately captured cartridge would preserve side-print strength for hosts that need another orientation. No cartridge connection has been designed or delivered yet.
-- A curved bearing cross-section was proposed, not implemented; it would need a revised 3D/slice verification approach.
-- Easy/snug coupon variants were exploratory and are not included among the release exports. No physical trial has calibrated their feel or declared any one setting universally correct.
-- Upright sacrificial webs solve deposition support, not the weaker orientation of the structural layer bonds.
+## Reproduction
 
-## Best next work after publication
+From the repository root, install `requirements.txt`, then regenerate only what changed:
 
-1. Print the flat fit coupon on the user's actual printer and board. Measure board thickness and several hole diameters first.
-2. Print and trim the upright coupon; inspect the final surfaces and compare installation feel.
-3. Test a representative holder and load lever arm. Compare the two print orientations rather than assuming equivalence.
-4. Tune fit only from the actual trial. Change independent parameters, not the scale of the entire model.
-5. Address a measured weakness: root shape, bore bearing, elephant foot, support-removal quality, or host attachment.
-6. Regenerate affected geometry and verification after a geometry change, and keep the exported current prototype obvious in the repository.
+```bash
+python round_anchor.py --all-presets
+python round_motion.py
+python round_verify_cad.py
+python round_verify_cad.py --step cad/round_two_column_example.step --columns 2 --output round_pair_occ_motion_check.json
+python round_print_supports.py --geometry cad/round_geometry.json --name round
+python write_round_3mf.py
+python render_round.py
+python render_round_supports.py
+python render_bearing.py --diameter 5.6
+python optimize_animation.py visuals/round-insertion-removal.gif
+```
 
-Do not rebuild the entire project merely to restate the existing evidence. Broaden checks only for a concrete remaining risk or a changed interface.
+Each motion search has a 20-second bound; the full five-preset certification takes longer than a single search. For isolated work use `python round_motion.py --default-only` or the custom thickness/hole/peg/tongue CLI options. Keep external tool calls bounded with explicit timeouts and make visible GitHub checkpoints during long tasks, as the user requested.
 
-## Reproduction notes
+See `tools/ROUND_REVIEW.md` for exact Cura replay. Source outputs are deterministic geometry; regenerated file container timestamps or tessellation ordering may alter hashes. Stage the intended files, run `python write_manifest.py`, and stage `release_manifest.json` before publication. Check the published commit and content rather than claiming success from a local write.
 
-The source documents contain the runnable build steps. The functional chain starts with `python motion_design.py`, followed by `python anchor.py`; the upright chain uses `python print_scaffold.py` and `python write_print_3mf.py`. Renderers regenerate figures. The generic slicer check uses the exact settings and package identifiers in `slicer_check.json`. [tools/README.md](tools/README.md) documents the portable `slice_toolpaths.py` replay script and `analyze_toolpaths.py` analyzer, including their command-line inputs, inspection-layer assumptions, and parser limits. Their output belongs in a temporary review directory, not a printer queue.
+## Next useful work
 
-`write_reference_readme.py` writes the separate `MODEL_REFERENCE.md`; it does not overwrite the authored `README.md`. Refresh `release_manifest.json` after changing release files. Its inventory records each included file's relative path, size, and SHA-256 and excludes the manifest itself, Git metadata, caches, and review-only G-code.
+Print and trim one default side sample on the actual printer and board. Measure board thickness and several holes. Compare an upright sample, then test a representative holder and lever arm progressively. Adjust fit from evidence. The geometry has not established universal fit, zero play, easy support release on every filament, or a load rating.
 
-When publishing, include project sources, docs, CAD/STLs, 3MF, animations, diagrams, and JSON evidence. Keep generated Python caches and generic review-only G-code out of the user-facing release. Verify the final repository links and commit after the publishing operation.
+A larger bearing neck with a thinner tongue was explored, but reducing the tongue to 4 mm weakened its geometric section modulus. The selected 5.6/4.8 combination balances round bearing, threading, and section size. A tangent-spine side-print experiment and pressure-distribution improvements remain research ideas. Preserve any future geometry change with new relevant motion and printing checks; do not broaden tests merely to restate existing evidence.

@@ -1,0 +1,82 @@
+{
+  "gcode": "final_upright_supported_REVIEW_ONLY.gcode",
+  "layers": 178,
+  "support_layers": 67,
+  "screen_reach_mm": 0.2,
+  "support_airgap_mm": 0.2,
+  "flagged_layers": 1,
+  "worst_layers": [
+    {
+      "layer": 1,
+      "z": 0.4,
+      "total_exposed_centerline_mm": 0.10259559723848,
+      "max_exposed_single_segment_mm": 0.05129779861924,
+      "segments": [
+        {
+          "type": "WALL-OUTER",
+          "p": [
+            1.2700000000000102,
+            10.612699999999998
+          ],
+          "q": [
+            1.2700000000000102,
+            10.681999999999988
+          ],
+          "length_mm": 0.06929999999998948,
+          "unsupported_centerline_mm": 0.05129779861924
+        },
+        {
+          "type": "WALL-OUTER",
+          "p": [
+            4.72999999999999,
+            10.681999999999988
+          ],
+          "q": [
+            4.72999999999999,
+            10.612699999999998
+          ],
+          "length_mm": 0.06929999999998948,
+          "unsupported_centerline_mm": 0.05129779861924
+        }
+      ]
+    }
+  ],
+  "all_flagged_layers": [
+    {
+      "layer": 1,
+      "z": 0.4,
+      "total_exposed_centerline_mm": 0.10259559723848,
+      "max_exposed_single_segment_mm": 0.05129779861924,
+      "segments": [
+        {
+          "type": "WALL-OUTER",
+          "p": [
+            1.2700000000000102,
+            10.612699999999998
+          ],
+          "q": [
+            1.2700000000000102,
+            10.681999999999988
+          ],
+          "length_mm": 0.06929999999998948,
+          "unsupported_centerline_mm": 0.05129779861924
+        },
+        {
+          "type": "WALL-OUTER",
+          "p": [
+            4.72999999999999,
+            10.681999999999988
+          ],
+          "q": [
+            4.72999999999999,
+            10.612699999999998
+          ],
+          "length_mm": 0.06929999999998948,
+          "unsupported_centerline_mm": 0.05129779861924
+        }
+      ]
+    }
+  ],
+  "scope": "Portions of perimeter centerlines outside previous model envelope or two-layer-earlier support envelope expanded by one layer height. Flags may include intended bridges and supported-overhang flow differences; not a printability pass/fail.",
+  "functional_print_z_offset_mm": 0
+}

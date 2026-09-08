@@ -1,0 +1,1320 @@
+{
+  "passed": true,
+  "variants": [
+    {
+      "name": "round_default_3p94",
+      "parameters": {
+        "board_thickness": 3.94,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "peg_diameter": 5.6,
+        "diametral_clearance": null,
+        "tongue_diameter": 4.8,
+        "locator_diameter": 5.6,
+        "spine_width": 6.0,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "spine_top": 4.2,
+        "spine_corner_radius": 0.65,
+        "front_gap": 0.15,
+        "seat_drop": 0.12,
+        "pull_clearance": 0.47,
+        "elbow_offset": -0.9319051507904268,
+        "root_y": 1.4,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_root_y": 0.6,
+        "locator_chamfer": 0.5,
+        "locator_front": 0.6,
+        "clearance": 0.1,
+        "neck_z": -0.255
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 0.9500000000000001,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 11.88,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 5.13,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 4.680000000000001,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 4.255,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.75,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 3.58,
+          "z": 0.9500000000000001,
+          "theta_deg": 19.875,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 2.7800000000000002,
+          "z": 0.925,
+          "theta_deg": 18.5,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 1.855,
+          "z": 0.775,
+          "theta_deg": 15.25,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 0.93,
+          "z": 0.5,
+          "theta_deg": 10.0,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat round pegs"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seated"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 0.93,
+          "z": 0.5,
+          "theta_deg": 10.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 1.855,
+          "z": 0.775,
+          "theta_deg": 15.25,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.7800000000000002,
+          "z": 0.925,
+          "theta_deg": 18.5,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.58,
+          "z": 0.9500000000000001,
+          "theta_deg": 19.875,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 4.255,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 4.680000000000001,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 5.13,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 11.88,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 0.9500000000000001,
+          "theta_deg": 20.875,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 0.9500000000000001,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "maximum_install_tilt_deg": 20.875,
+        "maximum_lift_mm": 1.07,
+        "rear_wall_clearance_required_mm": 6.61881765002688,
+        "straight_outward_travel_until_stop_mm": 0.47000000194362657,
+        "straight_lift_until_stop_mm": 0.28200000116623414,
+        "outward_rock_to_rear_shoulder_deg": 0.6747126563606072,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "rocking_stop_pose": {
+          "y": 0.2003370348306012,
+          "z": -0.12029638681293875,
+          "theta_deg": -0.6747126563606072,
+          "stage": "threading"
+        },
+        "diametral_clearance_mm": 0.75,
+        "upper_section_area_mm2": 24.630086404143974,
+        "upper_section_modulus_mm3": 17.24106048290078,
+        "tongue_section_area_mm2": 18.09557368467721,
+        "tongue_section_modulus_mm3": 10.857344210806323,
+        "retaining_overlap_above_centerplane_bore_mm": 1.8499999999999996
+      },
+      "verification": {
+        "passed": true,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 1097,
+            "residual_mm": 1.3895262416822526e-06
+          },
+          {
+            "passed": true,
+            "leaves": 2012,
+            "residual_mm": 6.5949859858101e-07
+          },
+          {
+            "passed": true,
+            "leaves": 1331,
+            "residual_mm": 1.3866272354370142e-06
+          },
+          {
+            "passed": true,
+            "leaves": 710,
+            "residual_mm": 8.038015157255476e-07
+          },
+          {
+            "passed": true,
+            "leaves": 352,
+            "residual_mm": 2.202653727476425e-06
+          },
+          {
+            "passed": true,
+            "leaves": 51,
+            "residual_mm": 0.00022658319345086626
+          },
+          {
+            "passed": true,
+            "leaves": 32,
+            "residual_mm": 0.006447615769563875
+          },
+          {
+            "passed": true,
+            "leaves": 146,
+            "residual_mm": 0.0002952720195636971
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 1.2702046631307713
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 11.651590381912083
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "upper_capsules": [
+            {
+              "radius_mm": 2.8,
+              "minimum_center_sweep_distance_mm": 2.8,
+              "passed": true
+            },
+            {
+              "radius_mm": 2.4,
+              "minimum_center_sweep_distance_mm": 2.5234789813026057,
+              "passed": true
+            }
+          ],
+          "lower_maximum_radial_extent_mm": 3.175,
+          "physical_bore_radius_mm": 3.175,
+          "minimum_spine_front_y_mm": 0.0,
+          "method": "Exact centerline translation sweep distance for each circular capsule; full-circle containment for locator, chamfer ignored conservatively; monotonic opening of spine contact. Final zero-clearance tangency allowed."
+        },
+        "dense_verification_frames": 2038,
+        "dense_colliding_free_frames": 0,
+        "dense_maximum_point_travel_mm": 0.025,
+        "radial_bore_clearance_reserved_mm": 0.1,
+        "lower_x_slabs_per_half": 96,
+        "lower_locator_chamfer_ignored_conservatively": true,
+        "upper_capsule_polygon_is_circumscribed": true,
+        "maximum_upper_radius_overbound_mm": 0.000843561715645258,
+        "spine_profile_matches_cad_quad_segs": 12,
+        "raw_search_waypoints": 525,
+        "simplified_waypoints": 12,
+        "assumptions": [
+          "Rigid ideal geometry and circular cylindrical bores.",
+          "Motion preserves X: translation in Y/Z and rotation about X only.",
+          "Upper uses exact center-plane reduction of planar sphere-swept primitives, then circumscribed bounds.",
+          "Lower uses conservative full-cylinder bounds over96Xslabs perhalf; removing the nose chamfer from the check enlarges the solid.",
+          "Spine stays in front of the full board slab and matches the CAD polygon.",
+          "Free motion reserves0.10mm radial bore clearance; exact final seating closes the intended contacts.",
+          "No physical force, fatigue, creep, FDM adhesion, or board-breakout test.",
+          "Full attached holders and print scaffolds require separate checks; scaffolds must be removed."
+        ]
+      }
+    },
+    {
+      "name": "round_stock_4p19",
+      "parameters": {
+        "board_thickness": 4.19,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "peg_diameter": 5.6,
+        "diametral_clearance": null,
+        "tongue_diameter": 4.8,
+        "locator_diameter": 5.6,
+        "spine_width": 6.0,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "spine_top": 4.2,
+        "spine_corner_radius": 0.65,
+        "front_gap": 0.15,
+        "seat_drop": 0.12,
+        "pull_clearance": 0.47,
+        "elbow_offset": -0.9319051507904268,
+        "root_y": 1.4,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_root_y": 0.6,
+        "locator_chamfer": 0.5,
+        "clearance": 0.1,
+        "locator_front": 0.6,
+        "neck_z": -0.255
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 20.875,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 12.105000000000002,
+          "z": 1.05,
+          "theta_deg": 20.875,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 4.23,
+          "z": 1.05,
+          "theta_deg": 20.875,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 2.955,
+          "z": 1.05,
+          "theta_deg": 19.125,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 1.9300000000000002,
+          "z": 0.8500000000000001,
+          "theta_deg": 15.625,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 0.88,
+          "z": 0.525,
+          "theta_deg": 9.625,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat round pegs"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seated"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 0.88,
+          "z": 0.525,
+          "theta_deg": 9.625,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 1.9300000000000002,
+          "z": 0.8500000000000001,
+          "theta_deg": 15.625,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.955,
+          "z": 1.05,
+          "theta_deg": 19.125,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 4.23,
+          "z": 1.05,
+          "theta_deg": 20.875,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 12.105000000000002,
+          "z": 1.05,
+          "theta_deg": 20.875,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 20.875,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 1.05,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "maximum_install_tilt_deg": 20.875,
+        "maximum_lift_mm": 1.17,
+        "rear_wall_clearance_required_mm": 6.618817650026879,
+        "straight_outward_travel_until_stop_mm": 0.47000000194362657,
+        "straight_lift_until_stop_mm": 0.28200000116623414,
+        "outward_rock_to_rear_shoulder_deg": 0.6678165784585508,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "rocking_stop_pose": {
+          "y": 0.19675638093133782,
+          "z": -0.12027248987710593,
+          "theta_deg": -0.6678165784585508,
+          "stage": "threading"
+        },
+        "diametral_clearance_mm": 0.75,
+        "upper_section_area_mm2": 24.630086404143974,
+        "upper_section_modulus_mm3": 17.24106048290078,
+        "tongue_section_area_mm2": 18.09557368467721,
+        "tongue_section_modulus_mm3": 10.857344210806323,
+        "retaining_overlap_above_centerplane_bore_mm": 1.8499999999999996
+      },
+      "verification": {
+        "passed": true,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 708,
+            "residual_mm": 2.8495868998131176e-05
+          },
+          {
+            "passed": true,
+            "leaves": 6829,
+            "residual_mm": 1.5330807730186587e-08
+          },
+          {
+            "passed": true,
+            "leaves": 932,
+            "residual_mm": 2.597697856420453e-06
+          },
+          {
+            "passed": true,
+            "leaves": 410,
+            "residual_mm": 8.917809639083854e-07
+          },
+          {
+            "passed": true,
+            "leaves": 1176,
+            "residual_mm": 9.93575595488027e-05
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 1.2619051769541025
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 11.403706808872158
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "upper_capsules": [
+            {
+              "radius_mm": 2.8,
+              "minimum_center_sweep_distance_mm": 2.8,
+              "passed": true
+            },
+            {
+              "radius_mm": 2.4,
+              "minimum_center_sweep_distance_mm": 2.5234789813026057,
+              "passed": true
+            }
+          ],
+          "lower_maximum_radial_extent_mm": 3.175,
+          "physical_bore_radius_mm": 3.175,
+          "minimum_spine_front_y_mm": 0.0,
+          "method": "Exact centerline translation sweep distance for each circular capsule; full-circle containment for locator, chamfer ignored conservatively; monotonic opening of spine contact. Final zero-clearance tangency allowed."
+        },
+        "dense_verification_frames": 2038,
+        "dense_colliding_free_frames": 0,
+        "dense_maximum_point_travel_mm": 0.025,
+        "radial_bore_clearance_reserved_mm": 0.1,
+        "lower_x_slabs_per_half": 96,
+        "lower_locator_chamfer_ignored_conservatively": true,
+        "upper_capsule_polygon_is_circumscribed": true,
+        "maximum_upper_radius_overbound_mm": 0.000843561715645258,
+        "spine_profile_matches_cad_quad_segs": 12,
+        "raw_search_waypoints": 534,
+        "simplified_waypoints": 9,
+        "assumptions": [
+          "Rigid ideal geometry and circular cylindrical bores.",
+          "Motion preserves X: translation in Y/Z and rotation about X only.",
+          "Upper uses exact center-plane reduction of planar sphere-swept primitives, then circumscribed bounds.",
+          "Lower uses conservative full-cylinder bounds over96Xslabs perhalf; removing the nose chamfer from the check enlarges the solid.",
+          "Spine stays in front of the full board slab and matches the CAD polygon.",
+          "Free motion reserves0.10mm radial bore clearance; exact final seating closes the intended contacts.",
+          "No physical force, fatigue, creep, FDM adhesion, or board-breakout test.",
+          "Full attached holders and print scaffolds require separate checks; scaffolds must be removed."
+        ]
+      }
+    },
+    {
+      "name": "round_nominal_3_16",
+      "parameters": {
+        "board_thickness": 4.7625,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "peg_diameter": 5.4,
+        "diametral_clearance": null,
+        "tongue_diameter": 4.8,
+        "locator_diameter": 5.4,
+        "spine_width": 6.0,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "spine_top": 4.2,
+        "spine_corner_radius": 0.65,
+        "front_gap": 0.15,
+        "seat_drop": 0.12,
+        "pull_clearance": 0.47,
+        "elbow_offset": -1.0985718174570929,
+        "root_y": 1.4,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_root_y": 0.6,
+        "locator_chamfer": 0.5,
+        "clearance": 0.1,
+        "locator_front": 0.6,
+        "neck_z": -0.35499999999999965
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 1.2000000000000002,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.375,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 12.455000000000002,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.375,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 4.13,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.375,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 3.955,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.25,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 3.805,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.0,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 3.055,
+          "z": 1.1500000000000001,
+          "theta_deg": 18.75,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 1.98,
+          "z": 0.925,
+          "theta_deg": 15.125,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 0.955,
+          "z": 0.6000000000000001,
+          "theta_deg": 9.75,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat round pegs"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seated"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 0.955,
+          "z": 0.6000000000000001,
+          "theta_deg": 9.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 1.98,
+          "z": 0.925,
+          "theta_deg": 15.125,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.055,
+          "z": 1.1500000000000001,
+          "theta_deg": 18.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.805,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.955,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.25,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 4.13,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.375,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 12.455000000000002,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.375,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 1.2000000000000002,
+          "theta_deg": 20.375,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 1.2000000000000002,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "maximum_install_tilt_deg": 20.375,
+        "maximum_lift_mm": 1.3200000000000003,
+        "rear_wall_clearance_required_mm": 6.452150983360213,
+        "straight_outward_travel_until_stop_mm": 0.47000000194362657,
+        "straight_lift_until_stop_mm": 0.28200000116623414,
+        "outward_rock_to_rear_shoulder_deg": 0.6525380958626557,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "rocking_stop_pose": {
+          "y": 0.1888233168683252,
+          "z": -0.12022108056923742,
+          "theta_deg": -0.6525380958626557,
+          "stage": "threading"
+        },
+        "diametral_clearance_mm": 0.9499999999999993,
+        "upper_section_area_mm2": 22.902210444669596,
+        "upper_section_modulus_mm3": 15.458992050151977,
+        "tongue_section_area_mm2": 18.09557368467721,
+        "tongue_section_modulus_mm3": 10.857344210806323,
+        "retaining_overlap_above_centerplane_bore_mm": 1.75
+      },
+      "verification": {
+        "passed": true,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 877,
+            "residual_mm": 2.2727392258708318e-06
+          },
+          {
+            "passed": true,
+            "leaves": 3318,
+            "residual_mm": 2.89588919783596e-07
+          },
+          {
+            "passed": true,
+            "leaves": 1002,
+            "residual_mm": 2.500832074095287e-07
+          },
+          {
+            "passed": true,
+            "leaves": 1265,
+            "residual_mm": 2.482170212023344e-07
+          },
+          {
+            "passed": true,
+            "leaves": 90,
+            "residual_mm": 6.749667822155499e-06
+          },
+          {
+            "passed": true,
+            "leaves": 15,
+            "residual_mm": 0.0009451840154916704
+          },
+          {
+            "passed": true,
+            "leaves": 326,
+            "residual_mm": 0.0009426828793502665
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 1.2693032986189028
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 11.160626848265512
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "upper_capsules": [
+            {
+              "radius_mm": 2.7,
+              "minimum_center_sweep_distance_mm": 2.7,
+              "passed": true
+            },
+            {
+              "radius_mm": 2.4,
+              "minimum_center_sweep_distance_mm": 2.5234789813026057,
+              "passed": true
+            }
+          ],
+          "lower_maximum_radial_extent_mm": 3.175,
+          "physical_bore_radius_mm": 3.175,
+          "minimum_spine_front_y_mm": 0.0,
+          "method": "Exact centerline translation sweep distance for each circular capsule; full-circle containment for locator, chamfer ignored conservatively; monotonic opening of spine contact. Final zero-clearance tangency allowed."
+        },
+        "dense_verification_frames": 2019,
+        "dense_colliding_free_frames": 0,
+        "dense_maximum_point_travel_mm": 0.025,
+        "radial_bore_clearance_reserved_mm": 0.1,
+        "lower_x_slabs_per_half": 96,
+        "lower_locator_chamfer_ignored_conservatively": true,
+        "upper_capsule_polygon_is_circumscribed": true,
+        "maximum_upper_radius_overbound_mm": 0.0008134345115151653,
+        "spine_profile_matches_cad_quad_segs": 12,
+        "raw_search_waypoints": 543,
+        "simplified_waypoints": 11,
+        "assumptions": [
+          "Rigid ideal geometry and circular cylindrical bores.",
+          "Motion preserves X: translation in Y/Z and rotation about X only.",
+          "Upper uses exact center-plane reduction of planar sphere-swept primitives, then circumscribed bounds.",
+          "Lower uses conservative full-cylinder bounds over96Xslabs perhalf; removing the nose chamfer from the check enlarges the solid.",
+          "Spine stays in front of the full board slab and matches the CAD polygon.",
+          "Free motion reserves0.10mm radial bore clearance; exact final seating closes the intended contacts.",
+          "No physical force, fatigue, creep, FDM adhesion, or board-breakout test.",
+          "Full attached holders and print scaffolds require separate checks; scaffolds must be removed."
+        ]
+      }
+    },
+    {
+      "name": "round_true_1_4",
+      "parameters": {
+        "board_thickness": 6.35,
+        "hole_diameter": 6.35,
+        "pitch": 25.4,
+        "peg_diameter": 5.2,
+        "diametral_clearance": null,
+        "tongue_diameter": 4.8,
+        "locator_diameter": 5.2,
+        "spine_width": 6.0,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "spine_top": 4.2,
+        "spine_corner_radius": 0.65,
+        "front_gap": 0.15,
+        "seat_drop": 0.12,
+        "pull_clearance": 0.47,
+        "elbow_offset": -1.265238484123759,
+        "root_y": 1.4,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_root_y": 0.6,
+        "locator_chamfer": 0.5,
+        "clearance": 0.1,
+        "locator_front": 0.6,
+        "neck_z": -0.45499999999999974
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 1.675,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 1.675,
+          "theta_deg": 19.75,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 13.755,
+          "z": 1.675,
+          "theta_deg": 19.75,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 3.83,
+          "z": 1.675,
+          "theta_deg": 19.75,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 2.98,
+          "z": 1.55,
+          "theta_deg": 18.125,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 1.9049999999999998,
+          "z": 1.25,
+          "theta_deg": 14.5,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 0.9050000000000001,
+          "z": 0.775,
+          "theta_deg": 9.0,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat round pegs"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seated"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 0.9050000000000001,
+          "z": 0.775,
+          "theta_deg": 9.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 1.9049999999999998,
+          "z": 1.25,
+          "theta_deg": 14.5,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.98,
+          "z": 1.55,
+          "theta_deg": 18.125,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.83,
+          "z": 1.675,
+          "theta_deg": 19.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 13.755,
+          "z": 1.675,
+          "theta_deg": 19.75,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 1.675,
+          "theta_deg": 19.75,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 1.675,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "maximum_install_tilt_deg": 19.75,
+        "maximum_lift_mm": 1.795,
+        "rear_wall_clearance_required_mm": 6.285484316693548,
+        "straight_outward_travel_until_stop_mm": 0.47000000194362657,
+        "straight_lift_until_stop_mm": 0.28200000116623414,
+        "outward_rock_to_rear_shoulder_deg": 0.6135794390736191,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "rocking_stop_pose": {
+          "y": 0.16859470931649928,
+          "z": -0.12009956614996753,
+          "theta_deg": -0.6135794390736191,
+          "stage": "threading"
+        },
+        "diametral_clearance_mm": 1.1499999999999995,
+        "upper_section_area_mm2": 21.237166338267002,
+        "upper_section_modulus_mm3": 13.804158119873552,
+        "tongue_section_area_mm2": 18.09557368467721,
+        "tongue_section_modulus_mm3": 10.857344210806323,
+        "retaining_overlap_above_centerplane_bore_mm": 1.6500000000000004
+      },
+      "verification": {
+        "passed": true,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 526,
+            "residual_mm": 1.9870806878522287e-05
+          },
+          {
+            "passed": true,
+            "leaves": 1177,
+            "residual_mm": 1.2623982073665246e-06
+          },
+          {
+            "passed": true,
+            "leaves": 507,
+            "residual_mm": 8.557791455563596e-06
+          },
+          {
+            "passed": true,
+            "leaves": 371,
+            "residual_mm": 2.091575553706329e-06
+          },
+          {
+            "passed": true,
+            "leaves": 503,
+            "residual_mm": 0.00019623090978007716
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 1.2762608037103051
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 9.944499449959402
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "upper_capsules": [
+            {
+              "radius_mm": 2.6,
+              "minimum_center_sweep_distance_mm": 2.5999999999999996,
+              "passed": true
+            },
+            {
+              "radius_mm": 2.4,
+              "minimum_center_sweep_distance_mm": 2.523478981302606,
+              "passed": true
+            }
+          ],
+          "lower_maximum_radial_extent_mm": 3.175,
+          "physical_bore_radius_mm": 3.175,
+          "minimum_spine_front_y_mm": 0.0,
+          "method": "Exact centerline translation sweep distance for each circular capsule; full-circle containment for locator, chamfer ignored conservatively; monotonic opening of spine contact. Final zero-clearance tangency allowed."
+        },
+        "dense_verification_frames": 1999,
+        "dense_colliding_free_frames": 0,
+        "dense_maximum_point_travel_mm": 0.025,
+        "radial_bore_clearance_reserved_mm": 0.1,
+        "lower_x_slabs_per_half": 96,
+        "lower_locator_chamfer_ignored_conservatively": true,
+        "upper_capsule_polygon_is_circumscribed": true,
+        "maximum_upper_radius_overbound_mm": 0.0007833073073850727,
+        "spine_profile_matches_cad_quad_segs": 12,
+        "raw_search_waypoints": 592,
+        "simplified_waypoints": 9,
+        "assumptions": [
+          "Rigid ideal geometry and circular cylindrical bores.",
+          "Motion preserves X: translation in Y/Z and rotation about X only.",
+          "Upper uses exact center-plane reduction of planar sphere-swept primitives, then circumscribed bounds.",
+          "Lower uses conservative full-cylinder bounds over96Xslabs perhalf; removing the nose chamfer from the check enlarges the solid.",
+          "Spine stays in front of the full board slab and matches the CAD polygon.",
+          "Free motion reserves0.10mm radial bore clearance; exact final seating closes the intended contacts.",
+          "No physical force, fatigue, creep, FDM adhesion, or board-breakout test.",
+          "Full attached holders and print scaffolds require separate checks; scaffolds must be removed."
+        ]
+      }
+    },
+    {
+      "name": "round_9_32_holes",
+      "parameters": {
+        "board_thickness": 3.94,
+        "hole_diameter": 7.14375,
+        "pitch": 25.4,
+        "peg_diameter": 5.6,
+        "diametral_clearance": null,
+        "tongue_diameter": 4.8,
+        "locator_diameter": 5.6,
+        "spine_width": 6.0,
+        "spine_depth": 4.5,
+        "spine_height": 34.6,
+        "spine_top": 4.2,
+        "spine_corner_radius": 0.65,
+        "front_gap": 0.15,
+        "seat_drop": 0.12,
+        "pull_clearance": 0.47,
+        "elbow_offset": -2.2548218174570938,
+        "root_y": 1.4,
+        "tongue_run": 5.0,
+        "tongue_rise": 3.0,
+        "locator_depth": 2.3,
+        "locator_root_y": 0.6,
+        "locator_chamfer": 0.5,
+        "clearance": 0.1,
+        "locator_front": 0.6,
+        "neck_z": -0.6518750000000001
+      },
+      "install_poses": [
+        {
+          "y": 28.0,
+          "z": 0.275,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        },
+        {
+          "y": 28.0,
+          "z": 0.275,
+          "theta_deg": 13.0,
+          "stage": "set insertion angle"
+        },
+        {
+          "y": 10.455000000000002,
+          "z": 0.275,
+          "theta_deg": 13.0,
+          "stage": "thread upper tongue"
+        },
+        {
+          "y": 3.005,
+          "z": 0.275,
+          "theta_deg": 13.0,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 2.48,
+          "z": 0.275,
+          "theta_deg": 12.375,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 1.7800000000000002,
+          "z": 0.275,
+          "theta_deg": 10.375,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": 0.955,
+          "z": 0.17500000000000002,
+          "theta_deg": 6.75,
+          "stage": "rotate and engage round locator"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "align"
+        },
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seat round pegs"
+        }
+      ],
+      "removal_poses": [
+        {
+          "y": -0.15,
+          "z": -0.12,
+          "theta_deg": 0.0,
+          "stage": "seated"
+        },
+        {
+          "y": -0.12,
+          "z": 0.0,
+          "theta_deg": 0.0,
+          "stage": "release bearing contact"
+        },
+        {
+          "y": 0.955,
+          "z": 0.17500000000000002,
+          "theta_deg": 6.75,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 1.7800000000000002,
+          "z": 0.275,
+          "theta_deg": 10.375,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 2.48,
+          "z": 0.275,
+          "theta_deg": 12.375,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 3.005,
+          "z": 0.275,
+          "theta_deg": 13.0,
+          "stage": "tip and lift"
+        },
+        {
+          "y": 10.455000000000002,
+          "z": 0.275,
+          "theta_deg": 13.0,
+          "stage": "withdraw tongue"
+        },
+        {
+          "y": 28.0,
+          "z": 0.275,
+          "theta_deg": 13.0,
+          "stage": "clear approach"
+        },
+        {
+          "y": 28.0,
+          "z": 0.275,
+          "theta_deg": 0.0,
+          "stage": "free in front"
+        }
+      ],
+      "summary": {
+        "maximum_install_tilt_deg": 13.0,
+        "maximum_lift_mm": 0.395,
+        "rear_wall_clearance_required_mm": 5.295900983360212,
+        "straight_outward_travel_until_stop_mm": 0.47000000194362657,
+        "straight_lift_until_stop_mm": 0.28200000116623414,
+        "outward_rock_to_rear_shoulder_deg": 0.6680546903844151,
+        "rocking_pivot_yz": [
+          0.15,
+          -29.750000000000004
+        ],
+        "rocking_stop_pose": {
+          "y": 0.196880015950779,
+          "z": -0.12027330782147772,
+          "theta_deg": -0.6680546903844151,
+          "stage": "threading"
+        },
+        "diametral_clearance_mm": 1.5437500000000002,
+        "upper_section_area_mm2": 24.630086404143974,
+        "upper_section_modulus_mm3": 17.24106048290078,
+        "tongue_section_area_mm2": 18.09557368467721,
+        "tongue_section_modulus_mm3": 10.857344210806323,
+        "retaining_overlap_above_centerplane_bore_mm": 1.0562499999999995
+      },
+      "verification": {
+        "passed": true,
+        "continuous_free_motion_certificates": [
+          {
+            "passed": true,
+            "leaves": 718,
+            "residual_mm": 1.2220057317990918e-06
+          },
+          {
+            "passed": true,
+            "leaves": 2326,
+            "residual_mm": 6.548234170056927e-07
+          },
+          {
+            "passed": true,
+            "leaves": 367,
+            "residual_mm": 4.290537613511544e-06
+          },
+          {
+            "passed": true,
+            "leaves": 337,
+            "residual_mm": 1.3704967691255052e-06
+          },
+          {
+            "passed": true,
+            "leaves": 299,
+            "residual_mm": 0.00062198528968937
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 1.2493868534410453
+          },
+          {
+            "passed": true,
+            "leaves": 1,
+            "residual_mm": 15.221313660440964
+          }
+        ],
+        "contact_segment_certificate": {
+          "passed": true,
+          "upper_capsules": [
+            {
+              "radius_mm": 2.8,
+              "minimum_center_sweep_distance_mm": 2.7999999999999994,
+              "passed": true
+            },
+            {
+              "radius_mm": 2.4,
+              "minimum_center_sweep_distance_mm": 2.5234789813026057,
+              "passed": true
+            }
+          ],
+          "lower_maximum_radial_extent_mm": 3.571875,
+          "physical_bore_radius_mm": 3.571875,
+          "minimum_spine_front_y_mm": 0.0,
+          "method": "Exact centerline translation sweep distance for each circular capsule; full-circle containment for locator, chamfer ignored conservatively; monotonic opening of spine contact. Final zero-clearance tangency allowed."
+        },
+        "dense_verification_frames": 1701,
+        "dense_colliding_free_frames": 0,
+        "dense_maximum_point_travel_mm": 0.025,
+        "radial_bore_clearance_reserved_mm": 0.1,
+        "lower_x_slabs_per_half": 96,
+        "lower_locator_chamfer_ignored_conservatively": true,
+        "upper_capsule_polygon_is_circumscribed": true,
+        "maximum_upper_radius_overbound_mm": 0.000843561715645258,
+        "spine_profile_matches_cad_quad_segs": 12,
+        "raw_search_waypoints": 435,
+        "simplified_waypoints": 9,
+        "assumptions": [
+          "Rigid ideal geometry and circular cylindrical bores.",
+          "Motion preserves X: translation in Y/Z and rotation about X only.",
+          "Upper uses exact center-plane reduction of planar sphere-swept primitives, then circumscribed bounds.",
+          "Lower uses conservative full-cylinder bounds over96Xslabs perhalf; removing the nose chamfer from the check enlarges the solid.",
+          "Spine stays in front of the full board slab and matches the CAD polygon.",
+          "Free motion reserves0.10mm radial bore clearance; exact final seating closes the intended contacts.",
+          "No physical force, fatigue, creep, FDM adhesion, or board-breakout test.",
+          "Full attached holders and print scaffolds require separate checks; scaffolds must be removed."
+        ]
+      }
+    }
+  ]
+}

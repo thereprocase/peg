@@ -1,0 +1,636 @@
+{
+  "check": "Sampled OpenCascade boolean intersection of the actual round STEP and circular-hole board",
+  "parameters": {
+    "board_thickness": 3.94,
+    "hole_diameter": 6.35,
+    "pitch": 25.4,
+    "peg_diameter": 5.6,
+    "diametral_clearance": null,
+    "tongue_diameter": 4.8,
+    "locator_diameter": 5.6,
+    "spine_width": 6.0,
+    "spine_depth": 4.5,
+    "spine_height": 34.6,
+    "spine_top": 4.2,
+    "spine_corner_radius": 0.65,
+    "front_gap": 0.15,
+    "seat_drop": 0.12,
+    "pull_clearance": 0.47,
+    "elbow_offset": -0.9319051507904268,
+    "root_y": 1.4,
+    "tongue_run": 5.0,
+    "tongue_rise": 3.0,
+    "locator_depth": 2.3,
+    "locator_root_y": 0.6,
+    "locator_chamfer": 0.5
+  },
+  "source_files": {
+    "round.step": "ebab7adaebae4b54c10ed66bb7d9acb8a032302b4fa2b82c0b876b5f6844c568",
+    "round_motion_results.json": "3ca0eb900fc5302b13984bb3b3e9c697e0169a9debfe8d5590134559b1fa6cdc",
+    "round_geometry.json": "01c9f39bc7498877cdfdd882f4be267d1d9e45b67150bb64ddc54db8cfafd5c8"
+  },
+  "anchor_columns": 1,
+  "requested_poses": 80,
+  "checked_poses": 80,
+  "total_planned_poses": 80,
+  "intersection_volume_threshold_mm3": 1e-06,
+  "maximum_intersection_volume_mm3": 0.0,
+  "colliding_poses": [],
+  "samples": [
+    {
+      "index": 0,
+      "y": -0.15,
+      "z": -0.12,
+      "theta_deg": 0.0,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 1,
+      "y": -0.12,
+      "z": 0.0,
+      "theta_deg": 0.0,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 2,
+      "y": -0.024545454545454537,
+      "z": 0.045454545454545456,
+      "theta_deg": 0.9090909090909091,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 3,
+      "y": 0.07090909090909092,
+      "z": 0.09090909090909091,
+      "theta_deg": 1.8181818181818181,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 4,
+      "y": 0.16636363636363638,
+      "z": 0.13636363636363635,
+      "theta_deg": 2.727272727272727,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 5,
+      "y": 0.26181818181818184,
+      "z": 0.18181818181818182,
+      "theta_deg": 3.6363636363636362,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 6,
+      "y": 0.3572727272727273,
+      "z": 0.22727272727272727,
+      "theta_deg": 4.545454545454546,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 7,
+      "y": 0.45272727272727276,
+      "z": 0.2727272727272727,
+      "theta_deg": 5.454545454545454,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 8,
+      "y": 0.5481818181818182,
+      "z": 0.3181818181818182,
+      "theta_deg": 6.363636363636363,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 9,
+      "y": 0.6436363636363637,
+      "z": 0.36363636363636365,
+      "theta_deg": 7.2727272727272725,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 10,
+      "y": 0.7390909090909092,
+      "z": 0.4090909090909091,
+      "theta_deg": 8.181818181818182,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 11,
+      "y": 0.8345454545454546,
+      "z": 0.45454545454545453,
+      "theta_deg": 9.090909090909092,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 12,
+      "y": 0.93,
+      "z": 0.5,
+      "theta_deg": 10.0,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 13,
+      "y": 1.0841666666666667,
+      "z": 0.5458333333333334,
+      "theta_deg": 10.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 14,
+      "y": 1.2383333333333333,
+      "z": 0.5916666666666667,
+      "theta_deg": 11.75,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 15,
+      "y": 1.3925,
+      "z": 0.6375,
+      "theta_deg": 12.625,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 16,
+      "y": 1.5466666666666666,
+      "z": 0.6833333333333333,
+      "theta_deg": 13.5,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 17,
+      "y": 1.7008333333333334,
+      "z": 0.7291666666666666,
+      "theta_deg": 14.375,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 18,
+      "y": 1.855,
+      "z": 0.775,
+      "theta_deg": 15.25,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 19,
+      "y": 2.04,
+      "z": 0.805,
+      "theta_deg": 15.9,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 20,
+      "y": 2.225,
+      "z": 0.8350000000000001,
+      "theta_deg": 16.55,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 21,
+      "y": 2.41,
+      "z": 0.865,
+      "theta_deg": 17.2,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 22,
+      "y": 2.595,
+      "z": 0.895,
+      "theta_deg": 17.85,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 23,
+      "y": 2.7800000000000002,
+      "z": 0.925,
+      "theta_deg": 18.5,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 24,
+      "y": 3.046666666666667,
+      "z": 0.9333333333333333,
+      "theta_deg": 18.958333333333332,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 25,
+      "y": 3.3133333333333335,
+      "z": 0.9416666666666668,
+      "theta_deg": 19.416666666666668,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 26,
+      "y": 3.58,
+      "z": 0.9500000000000001,
+      "theta_deg": 19.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 27,
+      "y": 3.9175,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.3125,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 28,
+      "y": 4.255,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.75,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 29,
+      "y": 4.4675,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.8125,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 30,
+      "y": 4.680000000000001,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 31,
+      "y": 4.905,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 32,
+      "y": 5.13,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 33,
+      "y": 5.88,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 34,
+      "y": 6.63,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 35,
+      "y": 7.380000000000001,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 36,
+      "y": 8.13,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 37,
+      "y": 8.88,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 38,
+      "y": 9.63,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 39,
+      "y": 10.38,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 40,
+      "y": 11.13,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 41,
+      "y": 11.88,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 42,
+      "y": 12.686,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 43,
+      "y": 13.492,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 44,
+      "y": 14.298,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 45,
+      "y": 15.104,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 46,
+      "y": 15.91,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 47,
+      "y": 16.716,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 48,
+      "y": 17.522,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 49,
+      "y": 18.328,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 50,
+      "y": 19.134,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 51,
+      "y": 19.939999999999998,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 52,
+      "y": 20.746,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 53,
+      "y": 21.552,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 54,
+      "y": 22.357999999999997,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 55,
+      "y": 23.163999999999998,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 56,
+      "y": 23.97,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 57,
+      "y": 24.775999999999996,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 58,
+      "y": 25.582,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 59,
+      "y": 26.387999999999998,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 60,
+      "y": 27.194,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 61,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 20.875,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 62,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 19.71527777777778,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 63,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 18.555555555555557,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 64,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 17.395833333333332,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 65,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 16.23611111111111,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 66,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 15.07638888888889,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 67,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 13.916666666666668,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 68,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 12.756944444444445,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 69,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 11.597222222222221,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 70,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 10.4375,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 71,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 9.277777777777779,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 72,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 8.118055555555555,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 73,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 6.958333333333334,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 74,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 5.798611111111111,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 75,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 4.638888888888889,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 76,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 3.479166666666668,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 77,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 2.319444444444443,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 78,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 1.1597222222222214,
+      "intersection_volume_mm3": 0.0
+    },
+    {
+      "index": 79,
+      "y": 28.0,
+      "z": 0.9500000000000001,
+      "theta_deg": 0.0,
+      "intersection_volume_mm3": 0.0
+    }
+  ],
+  "passed": true,
+  "scope": [
+    "Actual cylindrical holes; upper and lower round pegs, nose chamfer, and spine included.",
+    "Planar installation/removal about X; intended bearing contact permitted.",
+    "Finite samples supplement the separate continuous certificate.",
+    "No material, deformation, insertion-force, strength, or printer simulation."
+  ],
+  "elapsed_seconds": 0.82,
+  "rocking_contact_transition": {
+    "passed": true,
+    "samples": [
+      {
+        "position": "before_stop",
+        "theta_deg": -0.6247126563606071,
+        "y": 0.1743754478659265,
+        "z": -0.12013288763827745,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "position": "at_stop",
+        "theta_deg": -0.6747126563606072,
+        "y": 0.2003370348306012,
+        "z": -0.12029638681293875,
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "position": "beyond_stop",
+        "theta_deg": -0.7247126563606072,
+        "y": 0.226298469229909,
+        "z": -0.12048254168104577,
+        "intersection_volume_mm3": 0.00019116826622098183
+      }
+    ],
+    "scope": "Confirms a change from separation/contact to overlap around the predicted rear-shoulder stop; beyond-stop overlap is intentional in this check."
+  }
+}

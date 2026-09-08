@@ -141,3 +141,16 @@ This is actual generic toolpath evidence, not a physical print or a Bambu P1S/Or
 The sources, exports, figures, motion evidence, and generic slicing evidence are ready for a physical prototype. The next useful decision should follow a real board-and-printer trial: install/remove feel, snugness, support trimming quality, and a representative loaded holder. Increase engineering complexity only where those tests identify a concrete problem.
 
 Preserve the functional interface and verification contract when changing support geometry. Preserve the provenance of tested versus proposed improvements. Keep the current usable exports prominent, with older alternatives retained in version history rather than mixed into the primary print choices.
+
+
+## Round-bearing revision after the publication checkpoint
+
+The user identified the rectangular lower corners as poor bearing in round holes and explicitly requested round pegs. The replacement uses actual circular capsules and a circular locator, with independent bearing and tongue diameters. A cosmetic corner fillet was rejected as insufficient.
+
+Uniform 5.0, 5.2, and 5.4 mm round hooks found threading paths. Larger uniform hooks became difficult to install with the compact 5 mm run / 3 mm rise tongue and the 0.47 mm pull target. A 5.8 mm bearing neck with a 4.0 mm tongue found a path but reduced the tongue's geometric section modulus below the original rectangular neck. The selected 5.6 mm neck / 4.8 mm tongue improves both circular section properties while preserving a continuously certified path. Some bounded searches failed; those failures are not proofs of global geometric impossibility.
+
+The round default reaches 20.875 degrees, lifts 1.07 mm, and sweeps 6.62 mm behind the board. All five round thickness/hole presets pass continuous checks, with smaller 5.4 and 5.2 mm bearing pegs for the two thicker board cases. The exact round proof uses center-plane capsule distance, conservative lower-locator X slabs, and a separate exact seating certificate. It caught a sampled-clear shortcut that needed refinement. Actual STEP single and paired examples each pass 80 independent poses, and the modeled rocking stop was checked on either side of contact.
+
+Round surfaces changed printing. A cradle with only the original 0.20 mm neck-to-bed clearance could not fit a 0.20 mm removable interface at the reviewed layer height. The final side model therefore adds a 0.40 mm lift and a thin sacrificial spine pad. Upright needs conformal saddles beneath the earliest central underside, carried on removable ramp webs. The final supported side paths have no flagged functional perimeter portions; upright has only a 0.051 mm early spine-edge fringe. Neither path screening nor the larger section properties constitutes a physical print or load test.
+
+Current details, rejected alternatives, exact settings, and reproduction are preserved in ROUND_MOTION_STUDY.md, ROUND_SLICER_CHECK.md, tools/ROUND_REVIEW.md, and HANDOFF.md. The original rectangular files remain available as a labeled baseline. Current downloads and visuals lead the root README.

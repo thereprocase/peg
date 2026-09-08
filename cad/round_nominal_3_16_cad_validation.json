@@ -1,0 +1,70 @@
+{
+  "candidate": "round_nominal_3_16",
+  "valid_brep": true,
+  "solid_count": 1,
+  "volume_mm3": 1180.7599770819816,
+  "meshes": [
+    {
+      "file": "round_nominal_3_16_design_reference.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "bounds_mm": [
+        [
+          -3.0,
+          -11.063806,
+          -30.4
+        ],
+        [
+          3.0,
+          4.5,
+          5.045
+        ]
+      ],
+      "zero_area_export_facets_removed": 2,
+      "purpose": "reference geometry",
+      "supports_required": false
+    },
+    {
+      "file": "round_nominal_3_16_side_unsupported.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.000122,
+          0.0
+        ],
+        [
+          35.445,
+          15.563929,
+          6.0
+        ]
+      ],
+      "zero_area_export_facets_removed": 2,
+      "purpose": "support design input",
+      "supports_required": true
+    },
+    {
+      "file": "round_nominal_3_16_upright_unsupported.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.000944,
+          0.0
+        ],
+        [
+          6.0,
+          15.56475,
+          35.445
+        ]
+      ],
+      "zero_area_export_facets_removed": 2,
+      "purpose": "support design input",
+      "supports_required": true
+    }
+  ],
+  "validation_scope": "Solid/mesh validity only; separate motion and print-support work required",
+  "functional_sections": "Circular cylinders; no bearing flats or cosmetic-only rounding"
+}
