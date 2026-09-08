@@ -1,0 +1,8 @@
+{
+  "cad/conformal/conformal_120.step": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+  "cad/conformal/conformal_120_design_unsupported.stl": "af7b05bcbda406473f02da2b28a6e8d4e1e2ff3d7fe6bf2f9f2e8e2e297b80be",
+  "cad/conformal/conformal_120_geometry.json": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca",
+  "cad/conformal/conformal_motion_results.json": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c",
+  "cad/conformal/host-envelope/allowed_host_volume.json": "d396ff3b498ec183c48d1ac10d5316188961f0fb56d6bcdc8a58506f0a896601",
+  "cad/conformal/host-envelope/allowed_host_volume.step": "e38f7af75930d1121c8534b4ad38e2203dbbb6ee0551b9755a51fc5b01362d1f"
+}

@@ -1,15 +1,17 @@
 # Working on peg
 
-The current model has true round bearing pegs. Read README.md, HANDOFF.md, ROUND_MOTION_STUDY.md, and ROUND_SLICER_CHECK.md before editing it. BASELINE_README.md preserves the earlier rectangular design.
+The current design has **120-degree bore-matching lower bearing arcs**, a full-board-thickness lower peg, and a sharp 5 mm nominal lip with a reusable host envelope. Read README.md, CONFORMAL_STUDY.md, HOST_INTERFACE.md, HANDOFF.md, and DESIGN_HISTORY.md before editing it. ROUND_README.md preserves the previous round release; BASELINE_README.md preserves the earlier rectangular design.
 
-- Keep current print downloads prominent in README.md. Current sources, CAD, evidence, and visuals live at the root and in cad/, visuals/, tools/, and review_settings/. Preserve old decisions in documentation and git history.
-- Current canonical sources are round_anchor.py, round_motion.py, and round_print_supports.py. The unprefixed older anchor.py/motion_design.py/OpenSCAD module belong to the rectangular baseline.
-- Default dimensions are 3.94 mm board, 6.35 mm holes, 25.4 mm pitch, 5.6 mm neck/locator, 4.8 mm tongue. Use tested thickness/diameter combinations; arbitrary parameter changes require a motion check.
-- Preserve actual circular bearing geometry. Do not substitute small corner fillets or bearing flats. Include the complete host envelope when assessing an integrated holder.
-- The side print uses a 0.40 mm lift, sacrificial pad, and cradles with a 0.20 mm interface. Keep all shells in their relative positions. Upright uses cradles on removable ramp webs; remove every printing aid before installation.
-- Keep continuous motion certificates, sampled STEP checks, toolpath screens, and physical tests distinct. No physical load or support-release rating has been established.
-- Generic Cura review uses five side walls, two upright walls, solid fill and modeled supports. Use the user's machine and filament profile for actual printing. Do not publish review G-code as printable output or send it to a printer.
-- Keep CAD, exact input hashes, source, numerical evidence, and visuals together. Regenerate the release manifest after intended file changes.
+- Keep current conformal STEP, host envelope and bare mesh downloads prominent in README.md. Current sources, CAD, evidence and visuals live at the root and in cad/conformal/ and visuals/. Preserve earlier releases and decisions as clearly labeled history.
+- Canonical current sources are conformal_anchor.py, conformal_motion.py, verify_conformal.py, host_envelope.py and export_host_envelope.py. The conformal implementation reuses round_anchor.py, round_motion.py and round_verify_cad.py; changes to shared code must preserve or recheck the relevant geometry contracts.
+- Current default dimensions are 3.94 mm board, 6.35 mm holes, 25.4 mm pitch, 3.175 mm bearing radius over 120 degrees, 3.158095 mm upper bearing land and 3.94 mm lower bearing land. The normal 0.50 mm lower nose is beyond the full land. Keep the 5.6 mm upper core and 4.8 mm tongue unless the motion is rechecked.
+- The nominal sharp lip is 5 mm above the upper hole center, at design Z = 5.12 mm. It is not 5 mm above the peg crown or a cap on the attached part's total height. All added host material must fit the current allowed volume; regenerate it after changing geometry or motion.
+- Preserve exact cylindrical bearing geometry and the sharp board-facing seam. Do not substitute small fillets, bearing flats or an inferred fit tolerance. There is no seating cam in the current design.
+- Current conformal STLs are bare print-preparation inputs. Do not describe them as support-free, qualified print files or supported by the previous round scaffold. New conformal supports, slicing, physical fit and loads still need qualification.
+- The previous round release's side print uses a 0.40 mm lift, sacrificial pad and cradles with a 0.20 mm interface. Its upright print uses cradles on removable ramp webs. Those files and their slicing evidence remain specific to that older round geometry; keep their shells in relative positions and remove all printing aids before installation.
+- Keep continuous motion certificates, sampled STEP checks, toolpath screens and physical tests distinct. The current conformal proof uses the nominal bore with no inherited 0.10 mm radial reserve. No physical load, fit or support-release rating has been established.
+- Use the user's actual machine and filament profile for printing. Do not publish generic review G-code as printable output or send it to a printer. Read ROUND_SLICER_CHECK.md and tools/ROUND_REVIEW.md only for work on the previous round print preparation.
+- Keep CAD, source hashes, numerical evidence and visuals together. Regenerate dependent motion evidence, host envelopes and all current visuals after a relevant change. Regenerate the release manifest after intended file changes.
 - Tool calls must have timeouts. Prefer small visible GitHub checkpoints during long work; do not wait on one unbounded bulk upload.
-- Do not publish credentials, unrelated user information, caches, downloaded slicer binaries, or machine-specific review G-code.
-- README.md is authored. write_reference_readme.py regenerates the historical MODEL_REFERENCE.md only.
+- Do not publish credentials, unrelated user information, caches, downloaded slicer binaries or machine-specific review G-code.
+- README.md is authored. write_reference_readme.py regenerates the historical MODEL_REFERENCE.md only. Text outputs use UTF-8 and LF newlines.

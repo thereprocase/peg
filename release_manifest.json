@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "project": "thereprocase/peg",
-  "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current round files and labeled rectangular baseline are both preserved.",
+  "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 141,
-  "total_size_bytes": 42202970,
+  "file_count": 179,
+  "total_size_bytes": 49347284,
   "files": [
     {
       "path": ".gitattributes",
-      "size_bytes": 66,
-      "sha256": "131103f187b7f8580a52e3375b0d80c302d1e251c14658e7ef11da24f8c5b45c"
+      "size_bytes": 85,
+      "sha256": "1dceb434c403ce01c7d88150c1ccdd971b9e8f6b0572e0d4c1195fe4899a6bfe"
     },
     {
       "path": ".gitignore",
@@ -18,8 +18,8 @@
     },
     {
       "path": "AGENTS.md",
-      "size_bytes": 2165,
-      "sha256": "80a1d19f7cf4a86adff306bd4a6be6c97039e384f6c00f5a5307a4d1e2e864c3"
+      "size_bytes": 3528,
+      "sha256": "da7a2b817ea22a11ab27b397572b3d4cf9f63a1174289500d3936be69ac4563c"
     },
     {
       "path": "BASELINE_HANDOFF.md",
@@ -32,14 +32,24 @@
       "sha256": "789657e834b2be039576041baca2579a2936ee3add3acb9714135546e8ddd125"
     },
     {
+      "path": "CONFORMAL_STUDY.md",
+      "size_bytes": 7291,
+      "sha256": "05e3043131c4ae90d8238c47b40f553a9e2e33bc1771da0a3ef6ec5255c2fcaa"
+    },
+    {
       "path": "DESIGN_HISTORY.md",
-      "size_bytes": 16592,
-      "sha256": "6c8a85e6cb9e720cea47886d567625f5dfd6042f3b2f2cee87f4863816da22a3"
+      "size_bytes": 18854,
+      "sha256": "7fa2871361234407ba3936df288d11fa695d6a3910deb715caf51fd97eeec76c"
     },
     {
       "path": "HANDOFF.md",
-      "size_bytes": 9308,
-      "sha256": "b9223a04c831dc27214ac863b4559e2ab3797e7e73f640b3622103689c3bf8a0"
+      "size_bytes": 7489,
+      "sha256": "b4278f45da21d0219c7612063985af85ae287e9ccb2ba5c2593951c7583bd98b"
+    },
+    {
+      "path": "HOST_INTERFACE.md",
+      "size_bytes": 5666,
+      "sha256": "66184b1b3808086ca221c28365c5723a624ed1b7c90bb5a2997d3e09302b32d6"
     },
     {
       "path": "MODEL_REFERENCE.md",
@@ -63,13 +73,18 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 15113,
-      "sha256": "34983400582d5c763abf10dc719319ffce4e44497cdb7a8bb35952ef66d79162"
+      "size_bytes": 11316,
+      "sha256": "0bc3e14f48e8984d13549b595af9aed0597b6d1a2e8aa17505cc4d6ca813cef9"
     },
     {
       "path": "ROUND_MOTION_STUDY.md",
       "size_bytes": 10016,
       "sha256": "7dac4da573bdd21d1904f3c86994231c84538dc261da3e8b6130438a90199f74"
+    },
+    {
+      "path": "ROUND_README.md",
+      "size_bytes": 15628,
+      "sha256": "6cfbc161b5f75da8222c299326b0b558ee53c32865ca5ea47814d5fa0e268374"
     },
     {
       "path": "ROUND_SLICER_CHECK.md",
@@ -150,6 +165,76 @@
       "path": "cad/anchor_upright_supported.stl",
       "size_bytes": 24484,
       "sha256": "050bcd2629e8f789c7d2e936a33cb61a8dbbf7315a7451d6433dfcb3a9f33ab9"
+    },
+    {
+      "path": "cad/conformal/conformal_120.step",
+      "size_bytes": 94259,
+      "sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    {
+      "path": "cad/conformal/conformal_120_bearing_check.json",
+      "size_bytes": 1254,
+      "sha256": "980427e9d0edcb3a8decde475bedc24573204ca494971138cddae296ed4b7dc3"
+    },
+    {
+      "path": "cad/conformal/conformal_120_cad_validation.json",
+      "size_bytes": 1111,
+      "sha256": "2d4f734f32dec3a5717c0990a1f6ea9274058af8ef89f208fb417fbd1e16f3e0"
+    },
+    {
+      "path": "cad/conformal/conformal_120_design_unsupported.stl",
+      "size_bytes": 1437484,
+      "sha256": "af7b05bcbda406473f02da2b28a6e8d4e1e2ff3d7fe6bf2f9f2e8e2e297b80be"
+    },
+    {
+      "path": "cad/conformal/conformal_120_geometry.json",
+      "size_bytes": 3611,
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca"
+    },
+    {
+      "path": "cad/conformal/conformal_120_side_unsupported.stl",
+      "size_bytes": 1437484,
+      "sha256": "07e07fb9eb8d798ee6ee8e7853aff7d7f8c1b9ed446dc85c9731e137ecb02f47"
+    },
+    {
+      "path": "cad/conformal/conformal_120_upright_unsupported.stl",
+      "size_bytes": 1437484,
+      "sha256": "5416ee9a8661068622e0968edd9371ded4426ba789e006f34f23f4f06920376b"
+    },
+    {
+      "path": "cad/conformal/conformal_motion_check.json",
+      "size_bytes": 76314,
+      "sha256": "f556682719d8d4025077ba4126997d9138c9a453b87b54a258c7ddf2a2bd820c"
+    },
+    {
+      "path": "cad/conformal/conformal_motion_results.json",
+      "size_bytes": 11536,
+      "sha256": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c"
+    },
+    {
+      "path": "cad/conformal/host-envelope/allowed_host_volume.json",
+      "size_bytes": 19016,
+      "sha256": "d396ff3b498ec183c48d1ac10d5316188961f0fb56d6bcdc8a58506f0a896601"
+    },
+    {
+      "path": "cad/conformal/host-envelope/allowed_host_volume.step",
+      "size_bytes": 52588,
+      "sha256": "e38f7af75930d1121c8534b4ad38e2203dbbb6ee0551b9755a51fc5b01362d1f"
+    },
+    {
+      "path": "cad/conformal/host_envelope.json",
+      "size_bytes": 5761,
+      "sha256": "7a9a731b17cdfcb563907c442803e8ac7260be8a3e574f7126d5e2bdf52b7bce"
+    },
+    {
+      "path": "cad/host-envelope/allowed_host_volume.json",
+      "size_bytes": 18988,
+      "sha256": "8bb2d0eeff011563aabaf55f66f3717b33a2e60cc13939b57c225892571a4162"
+    },
+    {
+      "path": "cad/host-envelope/allowed_host_volume.step",
+      "size_bytes": 52588,
+      "sha256": "6f502aa518d7c4e99e7eee906e1bbe16868df3b7812c0364a8158930e63f6c75"
     },
     {
       "path": "cad/reference_board.step",
@@ -362,9 +447,44 @@
       "sha256": "27690f9085e71301a4f28e9e42b871d6dc4e50af4822809163d98f452b5bb597"
     },
     {
+      "path": "check_conformal_geometry.py",
+      "size_bytes": 2349,
+      "sha256": "46da0852744ce17983d9581bb61c3dfff9d6d7303d9826d3951b5244f6c92700"
+    },
+    {
+      "path": "conformal_anchor.py",
+      "size_bytes": 7452,
+      "sha256": "9e0f4f36e3c4933c06e9f6be3a9dd064a92352e7f4f692206ea2e2fd539426d3"
+    },
+    {
+      "path": "conformal_motion.py",
+      "size_bytes": 11143,
+      "sha256": "3be75a7203269e0b82c1775ae74163a37bddf445d89a3c7b3a7bb6627454fec3"
+    },
+    {
+      "path": "conformal_search_trials.py",
+      "size_bytes": 6242,
+      "sha256": "402c374fda9b1334c34d5cae0683935b50df86b12fb1ab1d03e12132f4ba970d"
+    },
+    {
+      "path": "export_host_envelope.py",
+      "size_bytes": 6474,
+      "sha256": "ea44075460ccb4552edb7aa189a936fee5f764e412c45b62322a2e957aa64d45"
+    },
+    {
       "path": "geometry.json",
       "size_bytes": 44559,
       "sha256": "bc53c74daa3545288c40f7b146f8f0e2f9f5e1b25e390dabc8dee8ba927412b9"
+    },
+    {
+      "path": "host_envelope.json",
+      "size_bytes": 5730,
+      "sha256": "41d01bea6f936663f8bcad46d1161ef471cfb5e8013fbd3a3ec2552bec426ba8"
+    },
+    {
+      "path": "host_envelope.py",
+      "size_bytes": 11892,
+      "sha256": "7ba426d8467d21e0f1a783110985c17b8130c0a4ac5b475b99f18221fec33a81"
     },
     {
       "path": "motion_design.py",
@@ -410,6 +530,16 @@
       "path": "render_bearing.py",
       "size_bytes": 3949,
       "sha256": "06c6db1d392069e2a7db9469c3989701b327a7a0635913e5abb1fa39f3f90a0a"
+    },
+    {
+      "path": "render_conformal.py",
+      "size_bytes": 16822,
+      "sha256": "01ea2ac60a9e03b16a6aeccb413910812c4897cf394f1079f66c178f469ca429"
+    },
+    {
+      "path": "render_conformal_media.py",
+      "size_bytes": 19685,
+      "sha256": "f38657e115af6ded7366e93bd688de6f45d8a6e8573673ce126849032348b8c9"
     },
     {
       "path": "render_hero.py",
@@ -602,6 +732,11 @@
       "sha256": "ca7860963c0df324bb568c0cba877ba5ab1e173b5fc78be9417ea10d894f0156"
     },
     {
+      "path": "verify_conformal.py",
+      "size_bytes": 6372,
+      "sha256": "790ce54adbdc2bc763bb7bbd9725bfedfeefd2e65676307889bb5823b44e7896"
+    },
+    {
       "path": "visuals/anchor-drawing.png",
       "size_bytes": 130338,
       "sha256": "29d0ad6c6ccbd25ab04e9e7bfe85bbfe3ddab5266c40a6237a3518f09f661171"
@@ -635,6 +770,61 @@
       "path": "visuals/bore-clearance.png",
       "size_bytes": 116098,
       "sha256": "85edd2fe957f4d01de6fece3aca860f06b5395110c3f0f510af2c40bfb550457"
+    },
+    {
+      "path": "visuals/conformal-bearing.png",
+      "size_bytes": 153922,
+      "sha256": "778cfb1a03bf1312140cad253cf088e27a39d769f4a3f63ccb1630e09ad0ee4c"
+    },
+    {
+      "path": "visuals/conformal-bearing.svg",
+      "size_bytes": 14525,
+      "sha256": "9aec8bcfabbedd91bb48ae86d469d7570ba1bf30e2cb99f663b5be6ff64bac4d"
+    },
+    {
+      "path": "visuals/conformal-design-review.png",
+      "size_bytes": 507923,
+      "sha256": "9c88eefe7562334414f51651d1dc64313f84fa02132a7895c608ebb8e8dfd90f"
+    },
+    {
+      "path": "visuals/conformal-design-review.svg",
+      "size_bytes": 62097,
+      "sha256": "4e70106cf9ef68b12727bcd37bf76bab4e81c654772d8b85adcbf094461739aa"
+    },
+    {
+      "path": "visuals/conformal-hero.png",
+      "size_bytes": 217090,
+      "sha256": "8b6b9d3c2960905160185959cb05cb42fadf7797d0947738f3b372b2cc8ce3cd"
+    },
+    {
+      "path": "visuals/conformal-host-envelope.png",
+      "size_bytes": 174837,
+      "sha256": "36fb80395a7cb4029c367661553d0a1528e3ae35324e7030e6aab8247fa8ebc1"
+    },
+    {
+      "path": "visuals/conformal-host-envelope.svg",
+      "size_bytes": 27017,
+      "sha256": "fbef5ca92ace7c0d40f574a85042f6dcbb8bddb5e42af8405e5ee7c722cd7b15"
+    },
+    {
+      "path": "visuals/conformal-motion-envelope.png",
+      "size_bytes": 204059,
+      "sha256": "801ab85072e7828ac94c787823666fec4bcbbcd9f5b0942b1a12800bb33edae8"
+    },
+    {
+      "path": "visuals/conformal-motion-envelope.svg",
+      "size_bytes": 69742,
+      "sha256": "66e2f981b4d84c512d88e380f699c3b0f81132e933283034969f66638dddedf2"
+    },
+    {
+      "path": "visuals/conformal-motion.gif",
+      "size_bytes": 942090,
+      "sha256": "8ee898ae05a7f606ae4589b2e1ceddc3dc802bb4cf3212b6820f640f398791cc"
+    },
+    {
+      "path": "visuals/conformal-render-inputs.json",
+      "size_bytes": 717,
+      "sha256": "c34decfbce5f4c006eb26e4aa1accac06d2510904355ca9f0804ba2872d71eb5"
     },
     {
       "path": "visuals/insertion-removal.gif",
@@ -688,8 +878,8 @@
     },
     {
       "path": "write_manifest.py",
-      "size_bytes": 1025,
-      "sha256": "fe0418df44448c492b2505c3bdf180a9c483757a65a86ac3dfc79aae3eafda1f"
+      "size_bytes": 1068,
+      "sha256": "16049ca444cc9956801f7035e6a1ebb47e896a18c94bd9c9f76157ecd9fe69b6"
     },
     {
       "path": "write_print_3mf.py",

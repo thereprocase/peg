@@ -1,0 +1,38 @@
+{
+  "valid_brep": true,
+  "solid_count": 1,
+  "volume_mm3": 1256.4432084262735,
+  "meshes": [
+    {
+      "file": "conformal_120_design_unsupported.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "file": "conformal_120_side_unsupported.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "file": "conformal_120_upright_unsupported.stl",
+      "watertight": true,
+      "positive_volume": true
+    }
+  ],
+  "passed": true,
+  "scope": "Solid and mesh validity. No motion or print qualification implied.",
+  "runtime": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "packages": {
+      "cadquery": "2.7.0",
+      "numpy": "2.4.3",
+      "shapely": "2.1.2",
+      "trimesh": "4.11.4"
+    }
+  },
+  "sha256": {
+    "conformal_anchor.py": "9e0f4f36e3c4933c06e9f6be3a9dd064a92352e7f4f692206ea2e2fd539426d3",
+    "round_anchor.py": "ff8f90926ade32cf0d8ae742b822322879f1b0f810dae8c405a6f7a4de1bd1fe",
+    "conformal_120.step": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  }
+}

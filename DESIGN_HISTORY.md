@@ -2,6 +2,22 @@
 
 This record preserves the requirements, engineering decisions, alternatives, and remaining work from the September 2026 design session. It describes the visible project work and evidence; it is not a transcript of hidden reasoning. The current geometry and verification results take precedence over early candidate dimensions.
 
+## Current checkpoint: conformal bearings and attached-part envelope
+
+The current release is the conformal design described in [README.md](README.md), [CONFORMAL_STUDY.md](CONFORMAL_STUDY.md) and [HOST_INTERFACE.md](HOST_INTERFACE.md). The user asked whether the bottom of each peg could match the bore for at least 120 degrees, why the lower peg did not span the entire board, and how much of a real attached part could remain flush above the peg.
+
+The resulting geometry uses true **3.175 mm-radius, 120-degree lower cylindrical arcs**. The upper arc has **3.158095 mm bearing length**; an attempted full-thickness upper land obstructed the tested insertion. The lower arc bears through the entire **3.94 mm board**, followed by an ordinary **0.50 mm nose chamfer**. It therefore projects **4.44 mm from the installed board front** without sacrificing the requested lower bearing length.
+
+The agreed interface has a **sharp 5 mm nominal lip above the upper hole center**. This is not a limit on a holder's total height. An exported allowed host volume captures the clearance boundary through the complete motion, so downstream CAD can use any contained shape. The sharp board-facing seam has no modeled radius or recess.
+
+A tiny gravity-seating heel was explored, targeting 0.10 mm inward draw over 0.15 mm settlement. The user rejected it as too small to be meaningful in the real part. It was removed from the current geometry, motion and visuals before the publication update.
+
+The current shape has its own continuous motion and host-envelope certificates, independent actual-STEP intersections, bearing-face measurements and valid solid/mesh exports. Physical fit, current-shape printing supports, slicing and loads still need qualification. The previous round release retains its own supported 3MF, scaffolds and evidence in [ROUND_README.md](ROUND_README.md); those print aids are not for the conformal shape.
+
+## Earlier design chronology
+
+The sections below preserve earlier decisions. Dimensions described as "final" or "current" within those historical sections belong to the corresponding rectangular or round checkpoint, not the current conformal release.
+
 ## What the user wanted
 
 The opening request was:
@@ -18,7 +34,7 @@ Two later questions sharpened the evaluation:
 
 The later work added a second print orientation with sacrificial supports for integration into upright holders. The final request directed publication of all project knowledge, sources, CAD, animations, motion study, and detailed documentation to [thereprocase/peg](https://github.com/thereprocase/peg), with immediate preservation of the design history and a next-agent handoff.
 
-Only the three quoted prompts above were available verbatim to the author of this record. The intervening requirements and final publication request are summarized from the project coordination record; they are not reconstructed quotations.
+Only the three quoted prompts above were available verbatim to the original author of this historical section. The intervening requirements and final publication request are summarized from the project coordination record; they are not reconstructed quotations.
 
 ## Requirements that should persist
 
@@ -153,4 +169,4 @@ The round default reaches 20.875 degrees, lifts 1.07 mm, and sweeps 6.62 mm behi
 
 Round surfaces changed printing. A cradle with only the original 0.20 mm neck-to-bed clearance could not fit a 0.20 mm removable interface at the reviewed layer height. The final side model therefore adds a 0.40 mm lift and a thin sacrificial spine pad. Upright needs conformal saddles beneath the earliest central underside, carried on removable ramp webs. The final supported side paths have no flagged functional perimeter portions; upright has only a 0.051 mm early spine-edge fringe. Neither path screening nor the larger section properties constitutes a physical print or load test.
 
-Current details, rejected alternatives, exact settings, and reproduction are preserved in ROUND_MOTION_STUDY.md, ROUND_SLICER_CHECK.md, tools/ROUND_REVIEW.md, and HANDOFF.md. The original rectangular files remain available as a labeled baseline. Current downloads and visuals lead the root README.
+Details of the round checkpoint, rejected alternatives, exact settings and reproduction are preserved in ROUND_README.md, ROUND_MOTION_STUDY.md, ROUND_SLICER_CHECK.md and tools/ROUND_REVIEW.md. The original rectangular files remain available as a labeled baseline. Current conformal downloads and visuals lead the root README; HANDOFF.md follows that current design.
