@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code.",
   "hash_algorithm": "SHA-256",
-  "file_count": 61,
-  "total_size_bytes": 6066082,
+  "file_count": 63,
+  "total_size_bytes": 6264403,
   "files": [
     {
       "path": ".gitattributes",
@@ -28,8 +28,8 @@
     },
     {
       "path": "HANDOFF.md",
-      "size_bytes": 12213,
-      "sha256": "9ef2842941800950f2f65f1bc7979232cda057a800aeb537b12f9d9104b7ddbb"
+      "size_bytes": 12886,
+      "sha256": "75fccbc1fa7005a27efcfd5e2b197c283cf4de43375207335b56f5e977932925"
     },
     {
       "path": "MODEL_REFERENCE.md",
@@ -53,8 +53,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 17686,
-      "sha256": "38b63a36d1fbad1a971f1c1ab1a9b2349623cb7df222a8c3a920371f2e31baa5"
+      "size_bytes": 18296,
+      "sha256": "ea4dcdd5bda6c18ee5f6de0bdbaee9a5fff6ecee480a9be80dac0ba3a7db3579"
     },
     {
       "path": "SLICER_CHECK.md",
@@ -192,6 +192,11 @@
       "sha256": "524c407b1fed882988581fd912d67267246ee135b5d9de2d825cbf5c5ea5e367"
     },
     {
+      "path": "render_hero.py",
+      "size_bytes": 6022,
+      "sha256": "c3e7f3546ab6088a300b6d60ec58ca307d97f5c01a1699582ad422750b74981b"
+    },
+    {
       "path": "render_print_options.py",
       "size_bytes": 7046,
       "sha256": "12adbdd34565d0d344e629e2cb57453456bc669d4f35185e930c5bb23065b3d1"
@@ -265,6 +270,11 @@
       "path": "visuals/anchor-drawing.svg",
       "size_bytes": 106290,
       "sha256": "61e334c13576e1ce863fd84848aa4e4a4f21191cb159ee07bce5ff0ee09ffa90"
+    },
+    {
+      "path": "visuals/anchor-hero.png",
+      "size_bytes": 191016,
+      "sha256": "42c02fea466074d0dad969d329152f909dbb60c57827e1130c32ef928c3686fe"
     },
     {
       "path": "visuals/anchor-summary.png",

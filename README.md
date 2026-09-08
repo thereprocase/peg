@@ -1,6 +1,10 @@
 # Modular pegboard anchor
 
+> **Design revision in progress:** the files and evidence below preserve the rectangular-neck baseline. The requested next revision uses round bearing pegs for the round board holes; its geometry and motion must be checked before it replaces these exports.
+
 A parametric FDM attachment for US pegboard with **1/4-inch holes on a 1-inch grid**. Fuse its front spine into a tool holder, bin, bracket, or shelf. The upper tongue retains the mount behind the board; the lower locator controls rotation. The finished interface supports two printing routes: flat on its side, or upright with four sacrificial webs that you cut away.
+
+![Actual released CAD geometry: teal flat anchor and upright anchor with orange sacrificial webs](visuals/anchor-hero.png)
 
 **Start with the [two-option 3MF](Pegboard_Print_Options.3mf?raw=1) and print a fit sample.** It contains the current flat and upright models in their printing orientations. This is a **geometry-only 3MF**: select your printer and filament, keep the option you want, and slice it. It contains no printer profile or G-code.
 
@@ -189,6 +193,7 @@ python write_print_3mf.py
 python render_study.py
 python optimize_animation.py
 python render_print_options.py
+python render_hero.py
 python write_reference_readme.py
 ```
 

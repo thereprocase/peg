@@ -1,5 +1,9 @@
 # Next-agent handoff
 
+## Latest geometry requirement
+
+The user explicitly directed: “square corners will crush hole and provide bad bearing and unsnug fit. holes are round. make pegs round.” Develop actual circular bearing sections for the upper through-board neck and lower locator in `round_revision/`. Preserve the baseline and revalidate the changed three-dimensional motion and printing before promoting the revision. A small edge fillet does not meet this requirement. Round pegs still require deliberate clearance and seated retention; circular geometry alone does not eliminate play.
+
 ## Immediate objective and authority
 
 The user directed publication of **all project work** to [thereprocase/peg](https://github.com/thereprocase/peg): CAD, sources, print files, animations, motion study, detailed README, research, and design knowledge. The active publishing agent handles that repository operation. These files preserve the project state independently of the conversation.
@@ -58,7 +62,7 @@ Replicate columns horizontally at integer multiples of 25.4 mm and the same heig
 | `write_print_3mf.py`, `Pegboard_Print_Options.3mf`, `print_3mf_validation.json` | Geometry-only two-option 3MF and validation |
 | `slicer_check.json`, `SLICER_CHECK.md` | Exact generic Cura setup, STL hashes, and path evidence |
 | `tools/slice_toolpaths.py`, `tools/analyze_toolpaths.py`, `tools/README.md` | Portable replay and analysis of the generic Cura toolpath evidence; command-line inputs and parser assumptions |
-| `render_study.py`, `render_print_options.py`, `visuals/` | Figures and insertion/removal animation |
+| `render_study.py`, `render_print_options.py`, `render_hero.py`, `visuals/` | Figures, actual-mesh hero rendering, and insertion/removal animation |
 | `write_reference_readme.py` | Regenerates `MODEL_REFERENCE.md` only; the primary `README.md` remains authored documentation |
 | `requirements.txt`, `release_manifest.json` | Dependency list and SHA-256/size inventory of release files; refresh the manifest after modifying deliverables |
 
@@ -74,7 +78,7 @@ STEP imports are solid geometry, not native Onshape/Fusion feature trees. The pr
 - `cad/two_column_example.step`: host-integration example; complete host orientation remains the user's decision.
 - `Pegboard_Print_Options.3mf`: both printable options, geometry only.
 - `visuals/insertion-removal.gif`: actual verified pose sequence.
-- `visuals/anchor-summary.png`, `visuals/anchor-drawing.png`, `visuals/print-options.png`, `visuals/upright-actual-toolpaths.png`: geometry, dimensions, print choices, and actual generic paths.
+- `visuals/anchor-hero.png`, `visuals/anchor-summary.png`, `visuals/anchor-drawing.png`, `visuals/print-options.png`, `visuals/upright-actual-toolpaths.png`: actual released meshes, geometry, dimensions, print choices, and actual generic paths.
 
 ## Facts to preserve
 
