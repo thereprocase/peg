@@ -94,7 +94,7 @@ python anchor.py
 python write_scad.py
 python verify_cad.py
 python render_study.py
-python write_readme.py
+python write_reference_readme.py
 ```
 
 To generate a custom CAD export:

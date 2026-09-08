@@ -1,0 +1,315 @@
+{
+  "schema_version": 1,
+  "project": "thereprocase/peg",
+  "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code.",
+  "hash_algorithm": "SHA-256",
+  "file_count": 61,
+  "total_size_bytes": 6066082,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 66,
+      "sha256": "131103f187b7f8580a52e3375b0d80c302d1e251c14658e7ef11da24f8c5b45c"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 70,
+      "sha256": "a87a2e8a4a53f825d70cb8e7d5ca32a1f63e6c94a7406cd1cbed19645c2c46a3"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 1758,
+      "sha256": "d8b29a6d56d12c66e0480126837985dc049f9eefcb1dba6f7f545ee5c306da13"
+    },
+    {
+      "path": "DESIGN_HISTORY.md",
+      "size_bytes": 14228,
+      "sha256": "77a9a9904d76599ad2aff8d91f52c78b8223a5b66ee69a5cfdbb7a92fca30cd6"
+    },
+    {
+      "path": "HANDOFF.md",
+      "size_bytes": 12213,
+      "sha256": "9ef2842941800950f2f65f1bc7979232cda057a800aeb537b12f9d9104b7ddbb"
+    },
+    {
+      "path": "MODEL_REFERENCE.md",
+      "size_bytes": 10621,
+      "sha256": "b009f71386cd43582ffb95f73479d88b5d999fb400a4d38cccfb4f52576576ed"
+    },
+    {
+      "path": "MOTION_STUDY.md",
+      "size_bytes": 7962,
+      "sha256": "8f1a0768381c02890457b3935dd1774c2bd6807abc29d013d4cb6f0bb772a503"
+    },
+    {
+      "path": "PRINTING_OPTIONS.md",
+      "size_bytes": 6083,
+      "sha256": "091511a4a63a1afe1c75dcba70dd1495d1df0bc816563bfe9767fbac3ea684c6"
+    },
+    {
+      "path": "Pegboard_Print_Options.3mf",
+      "size_bytes": 7952,
+      "sha256": "78ae8070c10167338a412d4af26f9cec66d89a6faf7151471f85f9eb89db21d6"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 17686,
+      "sha256": "38b63a36d1fbad1a971f1c1ab1a9b2349623cb7df222a8c3a920371f2e31baa5"
+    },
+    {
+      "path": "SLICER_CHECK.md",
+      "size_bytes": 5302,
+      "sha256": "3f55dc7c8c1084beafa781ac1dc402eb00dbf9ab182909627051900c6421763a"
+    },
+    {
+      "path": "anchor.py",
+      "size_bytes": 4572,
+      "sha256": "c8cee1978a864ce75d1f08616d38b8fb51e86784dd52192a7ad411b6140efce5"
+    },
+    {
+      "path": "cad/anchor_3p94mm_9over32_holes.step",
+      "size_bytes": 285563,
+      "sha256": "613431ee7bfb6c7bb3688fa9660a5a02f620aac0c9774d61f26764e21b71896c"
+    },
+    {
+      "path": "cad/anchor_3p94mm_9over32_holes.stl",
+      "size_bytes": 14884,
+      "sha256": "0e23582a12f1de868b9a481b5ca01ff9a2a3259a95ea4ef66d2cbca5318c6466"
+    },
+    {
+      "path": "cad/anchor_4p19mm.step",
+      "size_bytes": 285640,
+      "sha256": "bb23a29c2af684c6567ac26b723cf3cea87656c8eeb3586930deaea6a4ea2c32"
+    },
+    {
+      "path": "cad/anchor_4p19mm.stl",
+      "size_bytes": 14884,
+      "sha256": "c87b9119c46319e98e888b59ff205c0895ad88aebcd1ef1725ea7efcf96cecf9"
+    },
+    {
+      "path": "cad/anchor_4p7625mm.step",
+      "size_bytes": 285662,
+      "sha256": "2fa027846cad2c2190e4ef55992f2138d4ae1615e91555987ad660e9e4dd93c1"
+    },
+    {
+      "path": "cad/anchor_4p7625mm.stl",
+      "size_bytes": 14884,
+      "sha256": "a3eedb7ba585f1073cd1d97bb6bffb71c90f9dfb8eea2f2587fbe80e1ef381fc"
+    },
+    {
+      "path": "cad/anchor_6p35mm.step",
+      "size_bytes": 285640,
+      "sha256": "7525c21ad7cb056c0c925f00a74c681ff526e5f797e2bb169bfa280c4bf7674f"
+    },
+    {
+      "path": "cad/anchor_6p35mm.stl",
+      "size_bytes": 14884,
+      "sha256": "e4352cb5776a74393b40a4c5024c35fdba97c5101bba2e03e0040e089b87d11e"
+    },
+    {
+      "path": "cad/anchor_default_3p94mm.step",
+      "size_bytes": 285640,
+      "sha256": "59174c04d60ea3df52f1c2915280db4d34224c6b68df604f9c2396c1fe9f99d9"
+    },
+    {
+      "path": "cad/anchor_default_3p94mm.stl",
+      "size_bytes": 14884,
+      "sha256": "ba5e8bcfcfcb89dfb9913ca32e180bdee857785a8141fc7b417cda8d09a371fc"
+    },
+    {
+      "path": "cad/anchor_upright_supported.step",
+      "size_bytes": 490945,
+      "sha256": "7be97dbdc4997442e9cdf583fe618286616d9d37319ae54082b2bd623d70fcff"
+    },
+    {
+      "path": "cad/anchor_upright_supported.stl",
+      "size_bytes": 24484,
+      "sha256": "050bcd2629e8f789c7d2e936a33cb61a8dbbf7315a7451d6433dfcb3a9f33ab9"
+    },
+    {
+      "path": "cad/reference_board.step",
+      "size_bytes": 22905,
+      "sha256": "27e30e396811ebd5b77ea4078c241b2ce63f59f28ae6af55016e26f86ca91429"
+    },
+    {
+      "path": "cad/two_column_example.step",
+      "size_bytes": 606803,
+      "sha256": "9991f0ea8daeb211ad20ff20523e35f1be8085d368abc160c80fd87ae26449f4"
+    },
+    {
+      "path": "cad/upright_cutaway_reference.step",
+      "size_bytes": 466220,
+      "sha256": "a0d3743f7f7f524c9eb2229b98cda5fb94a9fc26dc90b666dbf8129fa0f9873e"
+    },
+    {
+      "path": "cad_validation.json",
+      "size_bytes": 1229,
+      "sha256": "27690f9085e71301a4f28e9e42b871d6dc4e50af4822809163d98f452b5bb597"
+    },
+    {
+      "path": "geometry.json",
+      "size_bytes": 44559,
+      "sha256": "bc53c74daa3545288c40f7b146f8f0e2f9f5e1b25e390dabc8dee8ba927412b9"
+    },
+    {
+      "path": "motion_design.py",
+      "size_bytes": 14653,
+      "sha256": "f1b289c6c7ebdb6dcb8015034bf32ea02f4a7ff55d3c4a2848fcbc699baaa2cb"
+    },
+    {
+      "path": "motion_results.json",
+      "size_bytes": 30281,
+      "sha256": "e39f97bd60882ec87b62b0b6e7a5a8d6d9d0d9a823b9fc52daf02b5d9e724425"
+    },
+    {
+      "path": "occ_motion_check.json",
+      "size_bytes": 214,
+      "sha256": "1c0f82f2e6e13adc1ace9ea290077f872d54fe6a07d7c6bfebde5cfa46dce7d5"
+    },
+    {
+      "path": "optimize_animation.py",
+      "size_bytes": 604,
+      "sha256": "0a2f0377dd47babc7461514f04c58860f28676c6245b14001cc61187d1d91d2f"
+    },
+    {
+      "path": "parameters.json",
+      "size_bytes": 364,
+      "sha256": "2b12ff513717e00e39c3ba38d2608e2238c6fd6ad92de4a61f970ce5b23e6acd"
+    },
+    {
+      "path": "pegboard_anchor.scad",
+      "size_bytes": 2407,
+      "sha256": "4cca09916dcd6ae8c4dac615a1845c48ce4bf66d7afc2cfbc66c003dbc36a77a"
+    },
+    {
+      "path": "print_3mf_validation.json",
+      "size_bytes": 175,
+      "sha256": "9b0d66be33db4d2cf8c8ac0c4856ffc9d77d5fd4d9ad1a619a1109307662a69e"
+    },
+    {
+      "path": "print_scaffold.py",
+      "size_bytes": 2633,
+      "sha256": "524c407b1fed882988581fd912d67267246ee135b5d9de2d825cbf5c5ea5e367"
+    },
+    {
+      "path": "render_print_options.py",
+      "size_bytes": 7046,
+      "sha256": "12adbdd34565d0d344e629e2cb57453456bc669d4f35185e930c5bb23065b3d1"
+    },
+    {
+      "path": "render_study.py",
+      "size_bytes": 18203,
+      "sha256": "aad7ea0dcfa0a95de0f257da127becd3cc3495a46cfc7eea922a20fb3a8638e6"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 109,
+      "sha256": "10ac7705199300984278ece7603492970c358a42e8307ab8b304339ae90aefb9"
+    },
+    {
+      "path": "research.md",
+      "size_bytes": 7750,
+      "sha256": "3c257634c397ce18ba9e199bf3727e5e2e08d7bc118e4a9031967060cff63fb7"
+    },
+    {
+      "path": "slicer_check.json",
+      "size_bytes": 5867,
+      "sha256": "20105e6e51c716294abb2365c50ae3f55fc8786ee0b0adb627cd3cf0a4149f50"
+    },
+    {
+      "path": "tools/README.md",
+      "size_bytes": 3831,
+      "sha256": "b70bda46a30d0242e3b73609ec35bbe473898e8e158022cd3d2ddc355ddb672b"
+    },
+    {
+      "path": "tools/analyze_toolpaths.py",
+      "size_bytes": 7524,
+      "sha256": "8df79ae107d7bfbbda8388145ee0ba079aeda67871997589599655b70081ba48"
+    },
+    {
+      "path": "tools/slice_toolpaths.py",
+      "size_bytes": 2489,
+      "sha256": "b4fd67e0f13bcad8d448e8b1fc866fe2addcda0bee2c7d97c39dfee40d285397"
+    },
+    {
+      "path": "upright_cad_validation.json",
+      "size_bytes": 423,
+      "sha256": "8150b89032d732c62f349c9d41391f61eaac74a1ec7aef91e16df93c03a28fe0"
+    },
+    {
+      "path": "upright_supports_design.py",
+      "size_bytes": 7392,
+      "sha256": "82aebd71643fa5e11fdea21fe4b9d3f71aa5d53e32ebe915f46e66db935efe2e"
+    },
+    {
+      "path": "upright_supports_geometry.json",
+      "size_bytes": 6038,
+      "sha256": "6b23bbb331cebfce9303fa2d79a077ccad8eebc28e559f248e77a392f0669fe6"
+    },
+    {
+      "path": "upright_supports_variant_checks.json",
+      "size_bytes": 7636,
+      "sha256": "5d1a27431aa3f202b6626b9d425d44ced2ab993461159b3a890ee07641310737"
+    },
+    {
+      "path": "verify_cad.py",
+      "size_bytes": 1866,
+      "sha256": "ca7860963c0df324bb568c0cba877ba5ab1e173b5fc78be9417ea10d894f0156"
+    },
+    {
+      "path": "visuals/anchor-drawing.png",
+      "size_bytes": 130338,
+      "sha256": "29d0ad6c6ccbd25ab04e9e7bfe85bbfe3ddab5266c40a6237a3518f09f661171"
+    },
+    {
+      "path": "visuals/anchor-drawing.svg",
+      "size_bytes": 106290,
+      "sha256": "61e334c13576e1ce863fd84848aa4e4a4f21191cb159ee07bce5ff0ee09ffa90"
+    },
+    {
+      "path": "visuals/anchor-summary.png",
+      "size_bytes": 227248,
+      "sha256": "d4b9561bc84b928d731a43497026d5dccd8ee52e66c1d561ef75912bfed699ca"
+    },
+    {
+      "path": "visuals/bore-clearance.png",
+      "size_bytes": 116098,
+      "sha256": "85edd2fe957f4d01de6fece3aca860f06b5395110c3f0f510af2c40bfb550457"
+    },
+    {
+      "path": "visuals/insertion-removal.gif",
+      "size_bytes": 1506661,
+      "sha256": "9be6b4de1b65f1edad72c2e0845311e92252dcb8536eb4b168c70fc58a7721c6"
+    },
+    {
+      "path": "visuals/print-options.png",
+      "size_bytes": 301152,
+      "sha256": "ce0077661b02a4e77e8d456f7f189f66bd65a1a5b0de2c70fab35e60303383ce"
+    },
+    {
+      "path": "visuals/print-options.svg",
+      "size_bytes": 195040,
+      "sha256": "493e6360e0dd89adfdef71c62a06926171dddd9af4c9eb8b0d07f6e49a63ae4f"
+    },
+    {
+      "path": "visuals/upright-actual-toolpaths.png",
+      "size_bytes": 90377,
+      "sha256": "b22fb54ee947a1383d01177080e61a79aadf7be0d64197ec771270c225a4933e"
+    },
+    {
+      "path": "write_print_3mf.py",
+      "size_bytes": 2548,
+      "sha256": "cc3ce07b60595749bde449351606e1d8b8b06cf6fe8b78de83fd4989a47576bd"
+    },
+    {
+      "path": "write_reference_readme.py",
+      "size_bytes": 12282,
+      "sha256": "52b452b8d67fefee0567eb56f01ce41e13194b158d5214e3517d61395ea5b6a6"
+    },
+    {
+      "path": "write_scad.py",
+      "size_bytes": 2320,
+      "sha256": "93db9f00cbc9504abe25037edcf2db7d2c63c55cec305de8659ae5a25bff6e69"
+    }
+  ]
+}

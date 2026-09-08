@@ -57,9 +57,10 @@ Replicate columns horizontally at integer multiples of 25.4 mm and the same heig
 | `upright_supports_geometry.json`, `upright_supports_variant_checks.json`, `upright_cad_validation.json` | Support geometry and verification |
 | `write_print_3mf.py`, `Pegboard_Print_Options.3mf`, `print_3mf_validation.json` | Geometry-only two-option 3MF and validation |
 | `slicer_check.json`, `SLICER_CHECK.md` | Exact generic Cura setup, STL hashes, and path evidence |
+| `tools/slice_toolpaths.py`, `tools/analyze_toolpaths.py`, `tools/README.md` | Portable replay and analysis of the generic Cura toolpath evidence; command-line inputs and parser assumptions |
 | `render_study.py`, `render_print_options.py`, `visuals/` | Figures and insertion/removal animation |
-| `write_reference_readme.py` | Earlier README generator; inspect before using because hand-edited publication text may supersede its output |
-| `requirements.txt`, `release_manifest.json` | Dependency list and release inventory; inspect/update inventory when publishing added files |
+| `write_reference_readme.py` | Regenerates `MODEL_REFERENCE.md` only; the primary `README.md` remains authored documentation |
+| `requirements.txt`, `release_manifest.json` | Dependency list and SHA-256/size inventory of release files; refresh the manifest after modifying deliverables |
 
 STEP imports are solid geometry, not native Onshape/Fusion feature trees. The procedural sources provide the parameters. OpenSCAD syntax was inspected, but an OpenSCAD compiler was unavailable in this build; do not claim an OpenSCAD compile check. Its circle tessellation differs slightly from the canonical polygonal profile.
 
@@ -110,7 +111,7 @@ The user should choose their own printer/filament profile and inspect the final 
 - First-layer relief was proposed but has not been incorporated into the functional interface.
 - A separately captured cartridge would preserve side-print strength for hosts that need another orientation. No cartridge connection has been designed or delivered yet.
 - A curved bearing cross-section was proposed, not implemented; it would need a revised 3D/slice verification approach.
-- Easy/snug coupons exist, but no physical trial has calibrated their feel or declared any one setting universally correct.
+- Easy/snug coupon variants were exploratory and are not included among the release exports. No physical trial has calibrated their feel or declared any one setting universally correct.
 - Upright sacrificial webs solve deposition support, not the weaker orientation of the structural layer bonds.
 
 ## Best next work after publication
@@ -126,8 +127,8 @@ Do not rebuild the entire project merely to restate the existing evidence. Broad
 
 ## Reproduction notes
 
-The source documents contain the runnable build steps. The functional chain starts with `python motion_design.py`, followed by `python anchor.py`; the upright chain uses `python print_scaffold.py` and `python write_print_3mf.py`. Renderers regenerate figures. The generic slicer check uses the exact settings and package identifiers in `slicer_check.json` and the reproduction script in `SLICER_CHECK.md`.
+The source documents contain the runnable build steps. The functional chain starts with `python motion_design.py`, followed by `python anchor.py`; the upright chain uses `python print_scaffold.py` and `python write_print_3mf.py`. Renderers regenerate figures. The generic slicer check uses the exact settings and package identifiers in `slicer_check.json`. [tools/README.md](tools/README.md) documents the portable `slice_toolpaths.py` replay script and `analyze_toolpaths.py` analyzer, including their command-line inputs, inspection-layer assumptions, and parser limits. Their output belongs in a temporary review directory, not a printer queue.
 
-Inspect `write_reference_readme.py` before running it after publication: an earlier generator can overwrite the richer release README. Likewise, validate that `release_manifest.json` covers newly added documents and current exports rather than treating an older manifest as authoritative.
+`write_reference_readme.py` writes the separate `MODEL_REFERENCE.md`; it does not overwrite the authored `README.md`. Refresh `release_manifest.json` after changing release files. Its inventory records each included file's relative path, size, and SHA-256 and excludes the manifest itself, Git metadata, caches, and review-only G-code.
 
 When publishing, include project sources, docs, CAD/STLs, 3MF, animations, diagrams, and JSON evidence. Keep generated Python caches and generic review-only G-code out of the user-facing release. Verify the final repository links and commit after the publishing operation.

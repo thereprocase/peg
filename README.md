@@ -102,7 +102,9 @@ For this constant-width shape and planar motion, that opening accounts for the f
 
 An independent OpenCascade check found **zero interference at 77 sampled poses each** for the single anchor and the two-column assembly reference. That check uses full 3D circular holes; it supplements the continuous proof. The solver establishes a feasible path, not the smallest possible angle or a unique hand motion.
 
-Read [MOTION_STUDY.md](MOTION_STUDY.md) for the methods and assumptions. [motion_results.json](motion_results.json) contains every preset's poses, metrics, and certificates; [occ_motion_check.json](occ_motion_check.json) records the independent CAD results. [The dimension drawing](visuals/anchor-drawing.svg) and [model summary](visuals/anchor-summary.png) show the functional geometry.
+Read [MOTION_STUDY.md](MOTION_STUDY.md) for the methods and assumptions. [motion_results.json](motion_results.json) contains every preset's poses, metrics, and certificates; [occ_motion_check.json](occ_motion_check.json) records the independent CAD results. [The vector dimension drawing](visuals/anchor-drawing.svg) preserves the annotations at full resolution.
+
+![Dimensioned functional anchor, board contact, and measured interface geometry](visuals/anchor-drawing.png)
 
 ## Holding, play, and strength
 
@@ -113,6 +115,8 @@ The 4.0 × 3.6 mm neck has **14.40 mm² area** and **8.64 mm³ section modulus**
 Neither orientation has a load rating. We have not performed a physical fit test, load test, fatigue or creep test, or FEA. Layer bonding, printer accuracy, the host junction and lever arm, board crushing or breakout, and load duration can govern capacity. Start with a small fit print, clear first-layer swelling and burrs, then qualify a representative finished holder under its intended load.
 
 ## Parametric integration
+
+![Functional anchor in perspective, seated side view, and preferred flat print orientation](visuals/anchor-summary.png)
 
 The common CAD coordinates are **X across the board, Y toward the user, Z up**. The board front is Y = 0. The upper nominal hole is centered at X = Z = 0; the lower hole is at Z = −25.4. The anchor spans X = ±2.00 mm. Its front fusion face is Y = 4.50 mm; overlap the host into the spine by at least 0.3 mm before unioning.
 
@@ -188,7 +192,7 @@ python render_print_options.py
 python write_reference_readme.py
 ```
 
-`write_reference_readme.py` generates the separate model reference; it does not overwrite this README. The Cura reproduction command, software packages, and complete settings are in [SLICER_CHECK.md](SLICER_CHECK.md) and [slicer_check.json](slicer_check.json). The slicer figures document the checked build; rerun that review when the STL changes.
+`write_reference_readme.py` generates the separate model reference; it does not overwrite this README. The Cura reproduction command, software packages, and complete settings are in [SLICER_CHECK.md](SLICER_CHECK.md) and [slicer_check.json](slicer_check.json). [The portable toolpath tools](tools/README.md) replay the slicing setup and reconstruct the deposited-line evidence using command-line inputs. They keep review G-code in a temporary output directory and document the analyzer's layer and parser assumptions. The slicer figures document the checked build; rerun that review when the STL changes. [release_manifest.json](release_manifest.json) records the SHA-256 and size of each release file.
 
 Generate a custom functional export with:
 
