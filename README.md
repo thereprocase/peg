@@ -133,3 +133,9 @@ python render_conformal_media.py
 ## Graveyard
 
 [Previous round release and its supported 3MF](ROUND_README.md) / [rectangular baseline](BASELINE_README.md) / [design history](DESIGN_HISTORY.md). Their CAD, supports and evidence belong to those older shapes.
+
+## Project website
+
+[Open the Conformal pegboard anchor site](https://thereprocase.github.io/peg/) for previews, setup and project resources. [Browse all project groups](https://thereprocase.github.io/).
+
+The static site lives in `docs/` and uses the shared [Gridline design system](https://github.com/thereprocase/thereprocase.github.io/blob/main/GRIDLINE.md). Edit `docs/index.html` and `docs/site.js`; shared styles live in `docs/gridline/`. GitHub Pages serves `main:/docs`.

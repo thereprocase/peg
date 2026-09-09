@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 179,
-  "total_size_bytes": 49347284,
+  "file_count": 202,
+  "total_size_bytes": 50694835,
   "files": [
     {
       "path": ".gitattributes",
@@ -73,8 +73,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 11316,
-      "sha256": "0bc3e14f48e8984d13549b595af9aed0597b6d1a2e8aa17505cc4d6ca813cef9"
+      "size_bytes": 11796,
+      "sha256": "e2a0e562421cf762e1112a89f44ec648d5c482bb31fcee5defe00d855bd3df74"
     },
     {
       "path": "ROUND_MOTION_STUDY.md",
@@ -465,6 +465,121 @@
       "path": "conformal_search_trials.py",
       "size_bytes": 6242,
       "sha256": "402c374fda9b1334c34d5cae0683935b50df86b12fb1ab1d03e12132f4ba970d"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/assets/conformal-bearing.png",
+      "size_bytes": 153922,
+      "sha256": "778cfb1a03bf1312140cad253cf088e27a39d769f4a3f63ccb1630e09ad0ee4c"
+    },
+    {
+      "path": "docs/assets/conformal-design-review.png",
+      "size_bytes": 507923,
+      "sha256": "9c88eefe7562334414f51651d1dc64313f84fa02132a7895c608ebb8e8dfd90f"
+    },
+    {
+      "path": "docs/assets/conformal-hero.png",
+      "size_bytes": 217090,
+      "sha256": "8b6b9d3c2960905160185959cb05cb42fadf7797d0947738f3b372b2cc8ce3cd"
+    },
+    {
+      "path": "docs/assets/conformal-host-envelope.png",
+      "size_bytes": 174837,
+      "sha256": "36fb80395a7cb4029c367661553d0a1528e3ae35324e7030e6aab8247fa8ebc1"
+    },
+    {
+      "path": "docs/assets/conformal-motion-envelope.png",
+      "size_bytes": 204059,
+      "sha256": "801ab85072e7828ac94c787823666fec4bcbbcd9f5b0942b1a12800bb33edae8"
+    },
+    {
+      "path": "docs/gridline/README.md",
+      "size_bytes": 711,
+      "sha256": "203c49673c1e0db3117cf00077b95652fe6d897cebef66f402600a46470b40f9"
+    },
+    {
+      "path": "docs/gridline/gridline.css",
+      "size_bytes": 9483,
+      "sha256": "1c69d4fbe5409cb556f75a57fea1bba58e54258404cebd72b46f27bfbc12a817"
+    },
+    {
+      "path": "docs/gridline/interaction.css",
+      "size_bytes": 6865,
+      "sha256": "0aca310f7120fbb18021155777ded77cffe8c54f590bf0212cfc5aa85a5ad243"
+    },
+    {
+      "path": "docs/gridline/legacy.css",
+      "size_bytes": 20792,
+      "sha256": "297b05e251358e57ee819ad4abd18c1452ed77a0512926d3d0ec11949f517814"
+    },
+    {
+      "path": "docs/gridline/logo-mono.svg",
+      "size_bytes": 333,
+      "sha256": "35efe03785aea8f39e0194de19bc260d1de4b550bcefe42cc630db5ab10c5fef"
+    },
+    {
+      "path": "docs/gridline/logo-white.svg",
+      "size_bytes": 333,
+      "sha256": "4a4a9b904685f70e9591a5bfff5525c1b73f941fb904ed3f6ebaf8a1beeebed6"
+    },
+    {
+      "path": "docs/gridline/logo.svg",
+      "size_bytes": 333,
+      "sha256": "830e3a0c8a1413386cd1d860a042928b4fd35e7dc3cfd6c18581c19d5944e255"
+    },
+    {
+      "path": "docs/gridline/project.css",
+      "size_bytes": 10649,
+      "sha256": "e0a03a86dc760e1499ff22e4edca51ca98d2d6c295588aae95ff1ff162833a77"
+    },
+    {
+      "path": "docs/gridline/responsive.css",
+      "size_bytes": 19160,
+      "sha256": "0d61f229dfe91f60647c3b1581b496e0f539a63797a83f693e915cbc18ca9364"
+    },
+    {
+      "path": "docs/gridline/themes.css",
+      "size_bytes": 3023,
+      "sha256": "b61cc81837d0dc35b17ab7eb43456a61ff56e9824df1d81be50867faef9d5193"
+    },
+    {
+      "path": "docs/gridline/tokens/colors.css",
+      "size_bytes": 959,
+      "sha256": "8dda3549324f9397cb0f6c30e797e6f7ea337e14795998243e5ca134a43753ce"
+    },
+    {
+      "path": "docs/gridline/tokens/fonts.css",
+      "size_bytes": 267,
+      "sha256": "b978789106108685d023fe98e9145feff2310ea8707103103f8752430881b03f"
+    },
+    {
+      "path": "docs/gridline/tokens/relief.css",
+      "size_bytes": 453,
+      "sha256": "a49d843cae6fdab8d5529b42380a1ea41fb70157793a6b86a778b888b31d105e"
+    },
+    {
+      "path": "docs/gridline/tokens/spacing.css",
+      "size_bytes": 320,
+      "sha256": "2fb9c2e9d507256d76f7c4cda964fc1fe14f209a5588f95347230cab37bbec66"
+    },
+    {
+      "path": "docs/gridline/tokens/typography.css",
+      "size_bytes": 489,
+      "sha256": "d4027a07211fa8c21f8ca7549ee60d54c0ba5ee91efe7884cb5f5226d492fa8e"
+    },
+    {
+      "path": "docs/index.html",
+      "size_bytes": 10567,
+      "sha256": "0bbad04f06cec17aab632e027d268106d58dc708b0f5a8b2da22a9d80c9472b1"
+    },
+    {
+      "path": "docs/site.js",
+      "size_bytes": 4503,
+      "sha256": "dbbdf0818802d28e0a0a3589ae66e06d844b3a7285f7d96ae9c114ed4632b8c6"
     },
     {
       "path": "export_host_envelope.py",
