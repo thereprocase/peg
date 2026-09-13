@@ -53,7 +53,9 @@ anchor_and_webs = make_printable_upright(board_thickness=3.94,
 result = your_holder.union(anchor_and_webs)
 ```
 
-The common design coordinates remain X across the board, Y toward the user, and Z up. Fuse your holder to the front spine at Y=4.5 mm. `cad/anchor_upright_supported.step` keeps those coordinates; the STL shifts the same solid onto Z=0 for printing.
+The common design coordinates remain X across the board, Y toward the user, and Z up. The front spine in this standalone print study is a reference handle, not an attachment pad. **Remove it when integrating a holder.** Receive the exact functional shafts directly in the holder's own strengthened body at design Y=0.15 mm, following [HOST_INTERFACE.md](HOST_INTERFACE.md). Do not fuse the holder onto the handle's Y=4.5 mm front face. `cad/anchor_upright_supported.step` retains the historical study coordinates; its STL is shifted onto the bed.
+
+The helper membranes described here belong to that standalone study. A new host must have its own supported or support-free orientation checked in the actual slicer; do not preserve the reference handle merely to keep those membranes.
 
 `cad/upright_cutaway_reference.step` separates the blue retained body and orange sacrificial webs for inspection. The fused supported STEP/STL is the printable model.
 

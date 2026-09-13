@@ -4,7 +4,7 @@
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
   "file_count": 203,
-  "total_size_bytes": 50704387,
+  "total_size_bytes": 50704921,
   "files": [
     {
       "path": ".gitattributes",
@@ -63,8 +63,8 @@
     },
     {
       "path": "PRINTING_OPTIONS.md",
-      "size_bytes": 6083,
-      "sha256": "091511a4a63a1afe1c75dcba70dd1495d1df0bc816563bfe9767fbac3ea684c6"
+      "size_bytes": 6617,
+      "sha256": "1c83563f573ceff4aa37f384955409f4d0db219296fb74d2d4baacf883e3ed1d"
     },
     {
       "path": "Pegboard_Print_Options.3mf",
