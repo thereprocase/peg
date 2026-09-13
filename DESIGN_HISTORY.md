@@ -2,6 +2,10 @@
 
 This record preserves the requirements, engineering decisions, alternatives, and remaining work from the September 2026 design session. It describes the visible project work and evidence; it is not a transcript of hidden reasoning. The current geometry and verification results take precedence over early candidate dimensions.
 
+## Current integration correction: discard the reference handle
+
+The user clarified that the rectangular front spine is larger than necessary because it behaves as a handling aid. It is only a board-reference face. Downstream holders must remove it and receive the unchanged horizontal shafts directly in their own appropriately strengthened body at design Y = 0.15 mm. Preserve the bearings, bend, tongue and locator; bury internal shaft continuations in real structural material. The former advice to attach at the handle's Y = 4.50 mm front is superseded. Earlier narrative and standalone images below document the study geometry, not required holder geometry. The canonical STEP and motion remain unchanged.
+
 ## Current checkpoint: conformal bearings and attached-part envelope
 
 The current release is the conformal design described in [README.md](README.md), [CONFORMAL_STUDY.md](CONFORMAL_STUDY.md) and [HOST_INTERFACE.md](HOST_INTERFACE.md). The user asked whether the bottom of each peg could match the bore for at least 120 degrees, why the lower peg did not span the entire board, and how much of a real attached part could remain flush above the peg.

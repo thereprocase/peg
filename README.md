@@ -4,7 +4,7 @@ A reusable rear attachment for holders, bins and brackets on **6.35 mm (1/4-inch
 
 ![Current conformal anchor, rendered from the exported CAD](visuals/conformal-hero.png)
 
-**Start with the [functional STEP](cad/conformal/conformal_120.step?raw=1) and [allowed host volume STEP](cad/conformal/host-envelope/allowed_host_volume.step?raw=1).** Import them together to build an attached part. The current geometry has its own continuous movement verification and independent solid-model checks. Its bare meshes are inputs for print preparation; supports, slicing and physical fit still need qualification.
+**Start with the [functional STEP](cad/conformal/conformal_120.step?raw=1) and [allowed host volume STEP](cad/conformal/host-envelope/allowed_host_volume.step?raw=1).** Import them together, then **remove the rectangular reference handle** and receive the unchanged pegs directly in the holder body at the board-facing plane. The handle is only a board-reference face, not a required mounting pad. The current geometry has its own continuous movement verification and independent solid-model checks. Its bare meshes are inputs for print preparation; supports, slicing and physical fit still need qualification.
 
 ## Current downloads
 
@@ -32,7 +32,8 @@ Each peg has an actual **3.175 mm-radius cylindrical arc** along its bottom. Whe
 | Lower nose beyond the rear board face | **0.50 mm** axial chamfer |
 | Lower total projection from the installed board front | **4.44 mm** |
 | Upper circular core / retaining tongue diameter | **5.60 / 4.80 mm** |
-| Front spine width / design-coordinate fusion face | **6.00 mm / Y = 4.50 mm** |
+| Removable reference handle width / front | **6.00 mm / Y = 4.50 mm**; not the holder interface |
+| Holder receiving plane | **Design Y = 0.15 mm**, installed board front |
 | Nominal flush lip above the upper hole center | **5.00 mm** |
 | Board-facing corner radius | **0 mm**, sharp planar seam |
 
@@ -48,39 +49,29 @@ The 5 mm dimension is measured **above the upper hole center**, not above the pe
 
 ![Allowed attached-part volume and required setback above the sharp lip](visuals/conformal-host-envelope.png)
 
-Import the two STEP files in the same coordinates. Create the added host entirely inside the allowed volume, then fuse it into the anchor's front spine with real shared volume. Include all added ribs and fasteners in the containment check. The anchor's own pegs intentionally lie outside the host envelope.
+**Remove the front rectangular spine/handle when designing a holder.** It is a board-reference face and handling aid in the standalone study. Preserve the exact horizontal shafts and everything on the board side of design Y = 0.15 mm. Receive them directly in the holder's own appropriately strengthened wall, plate or ribs, with buried shaft continuations and a continuous material load path. The reference rectangle must not survive as an added tab, pad or collar. See [the integration contract](HOST_INTERFACE.md#remove-the-reference-handle-receive-the-pegs-in-the-part).
+
+Keep every added surface inside the allowed volume, including receiving material, ribs and fasteners. The retained pegs intentionally extend outside that host envelope. The standalone drawings show the removable reference handle, not a prescribed holder silhouette.
 
 The supplied reference volume spans **X = -50 to +50 mm**, installed height **-80 to +100 mm**, and front projection **60 mm**. These are export bounds, not a limit on the mathematical interface; the generator accepts larger bounds. The envelope checks the complete board front throughout the same movement as the peg. It does not account for neighboring holders, rear walls or hand access.
 
-All dimensions are millimeters. **X** runs across the board, **Y** points toward the user, and **Z** points up. The board front is **Y = 0**; its hole centers are **Z = 0 and -25.4 mm**. In the supplied CAD, the spine's front fusion face is **Y = 4.50 mm**, the board-facing back is **Y = 0.15 mm**, and the nominal lip is **Z = 5.12 mm**. The seated assembly translates **Y = -0.15 mm, Z = -0.12 mm**, with zero rotation.
+All dimensions are millimeters. **X** runs across the board, **Y** points toward the user, and **Z** points up. The board front is **Y = 0**; its hole centers are **Z = 0 and -25.4 mm**. In the supplied CAD, the removable handle's front is **Y = 4.50 mm**; the actual receiving plane is the board-facing **Y = 0.15 mm**, and the nominal lip is **Z = 5.12 mm**. The seated assembly translates **Y = -0.15 mm, Z = -0.12 mm**, with zero rotation.
 
 In Fusion, Onshape or another solid modeler:
 
 1. Import the functional STEP and allowed-volume STEP without moving either independently.
-2. Model the added part inside the allowed volume. Above the 5 mm lip, follow the rear setback boundary. Extend the part into the spine's front face with real overlap; 0.3 mm is a useful Boolean construction starting point.
-3. Check that subtracting the allowed volume from the added part leaves no material, then union the host and functional anchor. Keep the reference envelope out of the finished model.
-4. Inspect the complete assembly along the supplied motion and confirm clearance from nearby objects. Use the seated transform when checking its final position on the board.
+2. Remove the user-side reference handle at design Y = 0.15 mm. Preserve the exact horizontal shaft sections and all geometry behind that plane.
+3. Build the actual receiving body inside the allowed volume. Bury shaft continuations in its wall or plate with real overlap. Size the surrounding structure for the intended load and print orientation; neither the old handle dimensions nor a small Boolean overlap establishes strength.
+4. Check one valid fused solid, unchanged board-side peg geometry, and zero host material outside the allowed volume. Inspect sections through the receiving body and keep the reference envelope out of the finished part.
+5. Apply the seated transform to the complete assembly. Check printing, neighboring tools and hand access separately.
 
-For procedural CAD, this complete example clips a tall host blank to the allowed volume and fuses it to the default anchor:
+The [runnable integration example](tools/integrate_host_freecad.py) uses FreeCAD's Python interpreter, imports the unchanged source STEP, removes the handle, and receives the exact shaft sections in a demonstration blank:
 
-```python
-import cadquery as cq
-from conformal_anchor import make_conformal_anchor
-
-anchor, geometry = make_conformal_anchor()
-allowed = cq.importers.importStep(
-    'cad/conformal/host-envelope/allowed_host_volume.step'
-)
-# 24 mm wide, 24 mm deep, 65 mm tall; starts at design Y = 4.2 mm.
-blank = cq.Workplane('XY').box(24, 24, 65).translate((0, 16.2, 2.5))
-host = blank.intersect(allowed)
-
-outside = host.cut(allowed)
-assert sum(s.Volume() for s in outside.solids().vals()) < 1e-6
-assembly = anchor.union(host)
-assert assembly.val().isValid() and len(assembly.val().Solids()) == 1
-cq.exporters.export(assembly, 'my_holder.step')
+```text
+"C:/Program Files/FreeCAD 1.1/bin/python.exe" tools/integrate_host_freecad.py
 ```
+
+It checks that both shaft continuations are buried, that the host fits the allowed volume, that the result is one valid solid, and that the board-side symmetric difference is zero. Its default output is `render-preview/host-integration/`. The plain blank and 1.25 mm internal overlap demonstrate the Boolean method; they are not a structural sizing rule or a print-ready holder.
 
 Replace the blank with your own model, using the envelope to check or shape its back. To change peg dimensions, pass a parameter dictionary such as `make_conformal_anchor(overrides={'board_thickness': 4.19})`; regenerate and verify that geometry's movement and host envelope before using it. The supplied certificates cover the default dimensions only.
 
