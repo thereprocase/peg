@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 202,
-  "total_size_bytes": 50694835,
+  "file_count": 203,
+  "total_size_bytes": 50704387,
   "files": [
     {
       "path": ".gitattributes",
@@ -18,8 +18,8 @@
     },
     {
       "path": "AGENTS.md",
-      "size_bytes": 3528,
-      "sha256": "da7a2b817ea22a11ab27b397572b3d4cf9f63a1174289500d3936be69ac4563c"
+      "size_bytes": 4293,
+      "sha256": "f71e9b087933b38b60e4d672cd80ede1a2b079ee82b33e8d3c67ccf8c84f7059"
     },
     {
       "path": "BASELINE_HANDOFF.md",
@@ -38,18 +38,18 @@
     },
     {
       "path": "DESIGN_HISTORY.md",
-      "size_bytes": 18854,
-      "sha256": "7fa2871361234407ba3936df288d11fa695d6a3910deb715caf51fd97eeec76c"
+      "size_bytes": 19567,
+      "sha256": "4fcfe7c8f673a5d7f25e080fbe53db92a31821d85b0b7c2504faa97664e29d31"
     },
     {
       "path": "HANDOFF.md",
-      "size_bytes": 7489,
-      "sha256": "b4278f45da21d0219c7612063985af85ae287e9ccb2ba5c2593951c7583bd98b"
+      "size_bytes": 8394,
+      "sha256": "47d1bd17a9a4f3badbf3e7880748a2615bc0ff074178e16c70937e4ba4505def"
     },
     {
       "path": "HOST_INTERFACE.md",
-      "size_bytes": 5666,
-      "sha256": "66184b1b3808086ca221c28365c5723a624ed1b7c90bb5a2997d3e09302b32d6"
+      "size_bytes": 8201,
+      "sha256": "be35881b04232fe310a04946e4a83dfba4def1fb0f34ac937673aee81d36551a"
     },
     {
       "path": "MODEL_REFERENCE.md",
@@ -73,8 +73,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 11796,
-      "sha256": "e2a0e562421cf762e1112a89f44ec648d5c482bb31fcee5defe00d855bd3df74"
+      "size_bytes": 12747,
+      "sha256": "315bad58560caf99b2f183bb14e23611abaf6cf913d39c59f90e522e2391149f"
     },
     {
       "path": "ROUND_MOTION_STUDY.md",
@@ -573,8 +573,8 @@
     },
     {
       "path": "docs/index.html",
-      "size_bytes": 10567,
-      "sha256": "0bbad04f06cec17aab632e027d268106d58dc708b0f5a8b2da22a9d80c9472b1"
+      "size_bytes": 10985,
+      "sha256": "78788f73eeda8b64d0611bd8225c686630ab0fac698a28284317c92055f5a897"
     },
     {
       "path": "docs/site.js",
@@ -800,6 +800,11 @@
       "path": "tools/check_round_toolpaths.py",
       "size_bytes": 4088,
       "sha256": "1ebbd9f29e92d42ba853e3ce544342b56098e1daca42d818f10b0df9a4a6e371"
+    },
+    {
+      "path": "tools/integrate_host_freecad.py",
+      "size_bytes": 3265,
+      "sha256": "d735edd55f5589eb711b595c271f118f3118b7e5a83f13088247f719ce8ac0ce"
     },
     {
       "path": "tools/slice_round_toolpaths.py",

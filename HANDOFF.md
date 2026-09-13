@@ -4,13 +4,17 @@ The current design is the **120-degree conformal anchor** in [README.md](README.
 
 Read [CONFORMAL_STUDY.md](CONFORMAL_STUDY.md), [HOST_INTERFACE.md](HOST_INTERFACE.md) and [DESIGN_HISTORY.md](DESIGN_HISTORY.md) before editing. [ROUND_README.md](ROUND_README.md) preserves the previous round release and its print preparation. [BASELINE_README.md](BASELINE_README.md) and [BASELINE_HANDOFF.md](BASELINE_HANDOFF.md) preserve the rectangular baseline. Each generation has separate evidence.
 
+## Integration correction: the handle is disposable
+
+The user clarified that the front spine is only a board-reference face and handling aid. Remove it from integrated holders; preserve the functional shafts and everything behind the board-facing plane. The receiving part supplies its own continuous, adequately strengthened structure. README, HOST_INTERFACE, AGENTS and the site now state this explicitly. The runnable FreeCAD example verifies exact board-side preservation, buried continuation and a single solid. This clarification changes no canonical peg STEP, bearing geometry or motion path.
+
 ## Current geometry and interface
 
 Default actual board thickness is **3.94 mm**, hole diameter **6.35 mm**, and pitch **25.4 mm**. Both lower bearing arcs have **3.175 mm radius over 120 degrees**. The upper conformal land is **3.158095 mm** long; the lower is **3.94 mm**, with an ordinary **0.50 mm nose beyond the rear board face**, giving **4.44 mm total projection**. The retained upper core and tongue are **5.6 / 4.8 mm** diameter. The spine is **6 mm** wide with a sharp board-facing corner.
 
-The nominal lip is **5 mm above the upper hole center**, not above the peg crown. The board-facing rear face is design **Y = 0.15 mm**, the top is design **Z = 5.12 mm**, and the front fusion face is design **Y = 4.50 mm**. The seated transform is **Y = -0.15 mm, Z = -0.12 mm, rotation = 0 degrees**. X crosses the board, Y faces the user, and Z points up.
+The nominal lip is **5 mm above the upper hole center**, not above the peg crown. The board-facing rear face is design **Y = 0.15 mm**, the top is design **Z = 5.12 mm**, and the removable reference handle's front is design **Y = 4.50 mm**. The seated transform is **Y = -0.15 mm, Z = -0.12 mm, rotation = 0 degrees**. X crosses the board, Y faces the user, and Z points up.
 
-All added host material must lie inside `cad/conformal/host-envelope/allowed_host_volume.step` in anchor design coordinates. The anchor itself is excluded from containment. Fuse the host with real shared volume, then apply the same motion to the complete assembly. The envelope is clipped for export; regenerate larger bounds for larger hosts. It checks clearance from the whole board front and takes no credit for holes.
+All added host material must lie inside `cad/conformal/host-envelope/allowed_host_volume.step` in anchor design coordinates. The anchor itself is excluded from containment. Remove the rectangular reference handle: the holder receives the unchanged shafts at the board-facing Y = 0.15 mm plane. Bury shaft continuations in the holder's own appropriately strengthened body with real shared volume, then apply the same motion to the complete assembly. Y = 4.50 mm is not the attachment plane. Follow HOST_INTERFACE.md and tools/integrate_host_freecad.py. The envelope is clipped for export; regenerate larger bounds for larger hosts. It checks clearance from the whole board front and takes no credit for holes.
 
 ## Sources and outputs
 

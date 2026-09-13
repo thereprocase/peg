@@ -14,7 +14,23 @@ Above the lip, draw any host shape that remains inside the supplied allowed volu
 - [Exact geometric height/setback calculations](cad/conformal/host_envelope.json)
 - [Envelope generator](export_host_envelope.py)
 
-Import the allowed volume in the same **design coordinates** as the functional anchor. It is reference geometry, not a part to print or fuse. The **added host** must fit inside it; the anchor's pegs intentionally extend outside it. Fuse the host into the anchor's front spine with real overlap at its front face, **design Y = 4.50 mm**. About 0.3 mm overlap is a useful Boolean construction starting point, not a strength specification.
+Import the allowed volume in the same **design coordinates** as the functional anchor. It is reference geometry, not a part to print or fuse. The **added host** must fit inside it; the anchor's pegs intentionally extend outside it.
+
+## Remove the reference handle; receive the pegs in the part
+
+**Remove the front rectangular spine/handle from an integrated holder.** It is only a board-reference face and a handling aid for the standalone study. Its 6 mm width, 4.50 mm front face and rectangular outline are not mounting-pad dimensions or a structural prescription for the holder.
+
+The interface is the board-facing plane, **design Y = 0.15 mm** (installed Y = 0). Preserve the exact horizontal shafts and all functional geometry on the board side: both bearing curves, the upper bend and tongue, and the lower locator and nose. The holder's own body takes over at that plane. Do not attach a holder to the front of the handle, wrap the handle, or reproduce it as an ear or raised pad.
+
+1. Keep the source geometry at and behind Y = 0.15 mm unchanged. Remove the handle on the user side of that plane.
+2. Design the actual holder back, wall, plate or ribs to receive both shafts directly. Continue each shaft section a short distance into the body to obtain buried Boolean overlap, or use an equivalent exact solid construction. The continuation must be fully contained in the receiving body.
+3. Provide sufficient surrounding material and a continuous load path from each shaft into the holder. Choose wall thickness, ribs, transitions and print orientation for the holder's load, projection, material and layer direction. Do not neck the receiving body down to a tiny pad or rely on a surface-only connection. The handle's dimensions and a Boolean overlap value do not establish strength.
+4. Fuse to one valid solid. Verify that the complete board-side geometry is unchanged, that all added material fits the envelope, and that sections through the receiving body contain no separate handle or narrow connecting web introduced merely to preserve it.
+5. Check the actual slice, access and neighboring tools, then qualify fit and representative loading physically. The motion study supplies no load, fatigue or creep rating.
+
+The runnable [FreeCAD integration example](tools/integrate_host_freecad.py) removes the handle, extrudes the exact shaft sections into a demonstration host, checks that they are buried, and checks unchanged board-side geometry. Its 1.25 mm buried overlap is only an example Boolean construction value, **not** a minimum wall thickness or strength rule. The blank is a geometry demonstration, not a printable product design.
+
+Removing only the reference handle does not change the retained pegs' collision geometry. Combining those unchanged pegs with a host inside the certified envelope preserves the corresponding board-clearance argument. A changed shaft, bearing, board, path or material outside the allowed envelope requires new evidence.
 
 The envelope follows every continuously interpolated pose in the identified motion study. It keeps the complete host in front of the board plane for any horizontal width. The exported reference volume is clipped to **X = -50 to +50 mm**, installed height **-80 to +100 mm**, and front projection **60 mm**. These are export bounds, not physical size limits; regenerate larger bounds as needed.
 
