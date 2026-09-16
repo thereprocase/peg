@@ -1,0 +1,155 @@
+{
+  "part": "MS01 retaining comb",
+  "version": 1,
+  "compatible_holder": "MS01 v3 recoverable, unchanged",
+  "rows": [
+    {
+      "letters": "A-H",
+      "files": {
+        "installed": "part-ms01-retaining-comb__v1__A-H__installed",
+        "print-flat": "part-ms01-retaining-comb__v1__A-H__print-flat"
+      },
+      "finger_count": 8,
+      "finger_length_mm": 16.8,
+      "tip_lead_mm": 0.6,
+      "rail_depth_mm": 4,
+      "rail_thickness_mm": 1.25,
+      "finger_thicknesses_mm": [
+        3.0,
+        2.75,
+        2.5,
+        2.25,
+        2.0,
+        1.75,
+        1.5,
+        1.25
+      ],
+      "bed_contact_mm2": 1897.6,
+      "nominal_magnet_end_clearance_mm": 0.1999999999999998,
+      "sliding_overlap_mm3": 0.0,
+      "tool_checks": [
+        {
+          "letter": "A",
+          "comb_clearance_mm": 1.220000000000002,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "B",
+          "comb_clearance_mm": 1.2199999999999935,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "C",
+          "comb_clearance_mm": 1.2199999999999906,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "D",
+          "comb_clearance_mm": 1.2199999999999924,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "E",
+          "comb_clearance_mm": 1.219999999999991,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "F",
+          "comb_clearance_mm": 1.219999999999993,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "G",
+          "comb_clearance_mm": 1.2199999999999924,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "H",
+          "comb_clearance_mm": 1.2199999999999973,
+          "withdrawal_overlap_mm3": 0.0
+        }
+      ],
+      "print_bounds_mm": [
+        150.39999999999998,
+        20.800000100000005,
+        3.0000001999999997
+      ]
+    },
+    {
+      "letters": "I-P",
+      "files": {
+        "installed": "part-ms01-retaining-comb__v1__I-P__installed",
+        "print-flat": "part-ms01-retaining-comb__v1__I-P__print-flat"
+      },
+      "finger_count": 8,
+      "finger_length_mm": 16.8,
+      "tip_lead_mm": 0.6,
+      "rail_depth_mm": 4,
+      "rail_thickness_mm": 2.0,
+      "finger_thicknesses_mm": [
+        3.0,
+        2.75,
+        2.5,
+        2.25,
+        2.0,
+        2.875,
+        2.7749999999999986,
+        2.674999999999997
+      ],
+      "bed_contact_mm2": 1897.6,
+      "nominal_magnet_end_clearance_mm": 0.1999999999999998,
+      "sliding_overlap_mm3": 0.0,
+      "tool_checks": [
+        {
+          "letter": "I",
+          "comb_clearance_mm": 1.2199999999999975,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "J",
+          "comb_clearance_mm": 1.2199999999999913,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "K",
+          "comb_clearance_mm": 1.2199999999999909,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "L",
+          "comb_clearance_mm": 1.2199999999999984,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "M",
+          "comb_clearance_mm": 1.219999999999992,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "N",
+          "comb_clearance_mm": 1.2199999999999973,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "O",
+          "comb_clearance_mm": 1.2199999999999973,
+          "withdrawal_overlap_mm3": 0.0
+        },
+        {
+          "letter": "P",
+          "comb_clearance_mm": 1.2199999999999973,
+          "withdrawal_overlap_mm3": 0.0
+        }
+      ],
+      "print_bounds_mm": [
+        150.40000019999997,
+        20.800000200000007,
+        3.0000001999999997
+      ]
+    }
+  ],
+  "retention": "Tape shared rail to holder after inserting all fingers. Load magnets after printing. Remove tape and pull rail to withdraw all eight spacers together.",
+  "print_orientation": "Shared broad face on bed; all eight fingers lie flat. Variable finger thickness accommodates channel offsets. No supports by construction; confirm emitted paths.",
+  "nominal_end_play_mm": 0.2,
+  "qualification": "CAD fit, sliding and tool withdrawal checked. Physical fit and tape retention untested."
+}

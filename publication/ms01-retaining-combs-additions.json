@@ -1,0 +1,74 @@
+{
+  "part-ms01-retaining-comb__v1__A-H__installed.step": {
+    "bytes": 166171,
+    "sha256": "aa1750e85bcda8dd7a87aed12bd0222f51d66353b0ce41829b03b3a3dd951fa3"
+  },
+  "part-ms01-retaining-comb__v1__A-H__installed.stl": {
+    "bytes": 18484,
+    "sha256": "ed9dffc93eaf26286363d26395623fd5d2a261e4261798407c69afb3180bea42"
+  },
+  "part-ms01-retaining-comb__v1__A-H__print-flat.step": {
+    "bytes": 159288,
+    "sha256": "0b202947044ee104e4c78a56ef514ed43febac4951f3a762a3caf995549094fd"
+  },
+  "part-ms01-retaining-comb__v1__A-H__print-flat.stl": {
+    "bytes": 18484,
+    "sha256": "3392fb8d60fbcdeecece175c53983c9de310a56d66a025b23e2b53ed9e9f9aa3"
+  },
+  "part-ms01-retaining-comb__v1__I-P__installed.step": {
+    "bytes": 182119,
+    "sha256": "d829e2185bbebd2cbee26596c423069e5d488aadb54e36f76e3492f88d77d3ad"
+  },
+  "part-ms01-retaining-comb__v1__I-P__installed.stl": {
+    "bytes": 40884,
+    "sha256": "9c6677d5eb596d2d99704d61d3af2e4f4efc9c3568a1cea0813f57e611a55319"
+  },
+  "part-ms01-retaining-comb__v1__I-P__print-flat.step": {
+    "bytes": 173631,
+    "sha256": "ec159cfab5221d496341c1cf6792e0289e451b3c37931a228aa099daedc8317b"
+  },
+  "part-ms01-retaining-comb__v1__I-P__print-flat.stl": {
+    "bytes": 40884,
+    "sha256": "97dae12653d2af1cdf6a67b920ed5000da93be38f05b9b12c5547832a75589c7"
+  },
+  "part-ms01-retaining-comb__v1__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "bytes": 175872,
+    "sha256": "864dc03a14f02e83a978cd84da04e6f7df5710fa34d18d935ae9691164fe6a2b"
+  },
+  "part-ms01-retaining-comb__v1__P1S-04-PLA__EDIT-ME.3mf": {
+    "bytes": 27328,
+    "sha256": "b2c08de9da81c134f909979544b7a94b7524f60fc0fe12aa5eaeb03df0596cb8"
+  },
+  "part-ms01-retaining-comb__v1__P1S-04-PLA__print-kit.zip": {
+    "bytes": 1453025,
+    "sha256": "bcbb2ea96701a63ebdf9bfeb37519a77433ecdf277db8226a605f9a49a6e742c"
+  },
+  "part-ms01-retaining-comb__v1__README.md": {
+    "bytes": 2349,
+    "sha256": "b12cb913a7c4748ff079128b617522a17ee7f8bc1dc7dbe1796d9ae5b5909859"
+  },
+  "part-ms01-retaining-comb__v1__catalog.json": {
+    "bytes": 4533,
+    "sha256": "0c65d8774a8a8ce06e3302190edd49cf6234eba2d3433bddeef2bc251ab0b5a6"
+  },
+  "part-ms01-retaining-comb__v1__two-combs-print-flat.png": {
+    "bytes": 817481,
+    "sha256": "32289bfc0f2e38dd48c02a05c23830ec0ff09b5bde61586f8d2648b3f201fffc"
+  },
+  "part-ms01-retaining-comb__v1__aligned-exploded.png": {
+    "bytes": 818665,
+    "sha256": "1bdb2e379687eeaee6f81492c45681b19c9bf0fe6b40c737cee5bbd795e5f8ff"
+  },
+  "part-ms01-retaining-comb__v1__installed-retainer.png": {
+    "bytes": 805625,
+    "sha256": "e90cf4a9783a5fb760aead8d5a2c8ab49500281561155be37162a2217cdff39f"
+  },
+  "part-ms01-retaining-comb__v1__combs.glb": {
+    "bytes": 59932,
+    "sha256": "ae632d7c1bf610c31bc01605916e856982dcfe6317aba6e408f943ceb2f0e0dc"
+  },
+  "part-ms01-retaining-comb__v1__exploded.glb": {
+    "bytes": 742320,
+    "sha256": "b24be5dab301a6bf664dc97c2637a00e6694b7ba08b07980453257fc4da7a729"
+  }
+}

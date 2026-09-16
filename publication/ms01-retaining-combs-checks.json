@@ -1,0 +1,12 @@
+{
+  "paths": "PASS_PATHS_AND_ACCOUNTING",
+  "startup": "PASS_START_CLEARANCE",
+  "estimated_g": 9.47,
+  "time": "30m 23s",
+  "supports": false,
+  "pauses": 0,
+  "mesh_repairs": 0,
+  "settings_reslice": true,
+  "physical_fit": "Untested",
+  "gui_opening": "Not performed"
+}
