@@ -682,5 +682,37 @@
   "part-ms01-shaft-fit-sampler-20x10x3__v2__plug-print-broad-face-quantity-16__fit-e586ab4ff6.step": {
     "sha256": "8f8c0a7a401467b6ee965b4000de8c5c2570093f11814276ea3c568f05943d57",
     "bytes": 7255
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__installed__fit-e586ab4ff6.step": {
+    "bytes": 542941,
+    "sha256": "8fe0127b613047d56e3779621e3808cce229f66a765dd98d68fba800e821f15d"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 526896,
+    "sha256": "1dbf9a0d66f4fa6af1dad2648df9294ae4d61f1d906fc2eea162b2453729d741"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__installed__fit-e586ab4ff6.step": {
+    "bytes": 440688,
+    "sha256": "0cd0467b7e82541e358aeacb878eeae1c366bd31f36c040b5a028d99fbbbf9d9"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 428985,
+    "sha256": "052c4640ab6d59f4d0aac9340c2eee63531b3155906fc3dffef4d515f2eb1abc"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__loose-spacer-print-broad-face-quantity-16__fit-e586ab4ff6.step": {
+    "bytes": 7253,
+    "sha256": "e1f0c4b0bac0f2d85f2cf4c429a3f40d9203564aafd0cc369e73007021f55b83"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__P1S-04-PLA__print-kit.zip": {
+    "bytes": 15710648,
+    "sha256": "cde9dae7a860fb384b26685c07eea222f9b946175229336e21fb5b0eba90e779"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "bytes": 6512350,
+    "sha256": "eb7cc13cc84ba3b37360e9dfae9606ce256661263721bcd0e1d3c0444fbf8fd0"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__P1S-04-PLA__EDIT-ME.3mf": {
+    "bytes": 284367,
+    "sha256": "c629e68becacc8a6376ec0288f48a26f4f8b4178afae79290dd6629598551c5f"
   }
 }

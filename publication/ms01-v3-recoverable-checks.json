@@ -1,0 +1,73 @@
+{
+  "plates": [
+    {
+      "plate": 1,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 9.25,
+      "time": "31m 16s",
+      "pause_count": 0
+    },
+    {
+      "plate": 2,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 103.32,
+      "time": "4h 8m 8s",
+      "pause_count": 0,
+      "pause_required": false,
+      "all_eight_channels_open_to_final_layer": true,
+      "pocket_intrusions": 0
+    },
+    {
+      "plate": 3,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 101.21,
+      "time": "4h 5m 8s",
+      "pause_count": 0,
+      "pause_required": false,
+      "all_eight_channels_open_to_final_layer": true,
+      "pocket_intrusions": 0
+    }
+  ],
+  "mesh_repairs": "none",
+  "native_warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    },
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    },
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "settings_preserved": [
+    "layer_height",
+    "initial_layer_print_height",
+    "wall_loops",
+    "sparse_infill_density",
+    "sparse_infill_pattern",
+    "top_shell_layers",
+    "bottom_shell_layers",
+    "enable_support",
+    "support_type",
+    "support_on_build_plate_only",
+    "brim_width",
+    "nozzle_diameter",
+    "filament_type",
+    "machine_start_gcode",
+    "machine_end_gcode",
+    "extruder_offset",
+    "machine_pause_gcode"
+  ],
+  "gui_checks": "Not performed: native desktop control unavailable",
+  "physical_test": "Not yet printed; fit, holding force and hardware loading need user trial."
+}

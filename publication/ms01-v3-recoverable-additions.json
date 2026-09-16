@@ -1,0 +1,94 @@
+{
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__installed__fit-e586ab4ff6.step": {
+    "bytes": 542941,
+    "sha256": "8fe0127b613047d56e3779621e3808cce229f66a765dd98d68fba800e821f15d"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__installed__fit-e586ab4ff6.stl": {
+    "bytes": 566284,
+    "sha256": "77204558b216f02e0ee7b79167ee60b93d21047dd123a4be3342625a61a55eef"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 526896,
+    "sha256": "1dbf9a0d66f4fa6af1dad2648df9294ae4d61f1d906fc2eea162b2453729d741"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__print-flat-top__fit-e586ab4ff6.stl": {
+    "bytes": 566284,
+    "sha256": "819c6dc8c49f0c07c6cb55197d904863542cac4fa94415724819f45beb37c4ae"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__installed__fit-e586ab4ff6.step": {
+    "bytes": 440688,
+    "sha256": "0cd0467b7e82541e358aeacb878eeae1c366bd31f36c040b5a028d99fbbbf9d9"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__installed__fit-e586ab4ff6.stl": {
+    "bytes": 487984,
+    "sha256": "6dbd09fb9fd7ffa1d06382535b98ed11985ba5f625bc1be15e16c437d4e16fd6"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 428985,
+    "sha256": "052c4640ab6d59f4d0aac9340c2eee63531b3155906fc3dffef4d515f2eb1abc"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__print-flat-top__fit-e586ab4ff6.stl": {
+    "bytes": 487984,
+    "sha256": "2f12d5d4a6631d487a29b2dcb7b9bafd62e06876d665cb75f5006d076a72bee8"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__loose-spacer-print-broad-face-quantity-16__fit-e586ab4ff6.step": {
+    "bytes": 7253,
+    "sha256": "e1f0c4b0bac0f2d85f2cf4c429a3f40d9203564aafd0cc369e73007021f55b83"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__loose-spacer-print-broad-face-quantity-16__fit-e586ab4ff6.stl": {
+    "bytes": 684,
+    "sha256": "7f7434a70eccf46da1d74534a753cd1723917974893dbe8490d73561ef6357f3"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__P1S-04-PLA__print-kit.zip": {
+    "bytes": 15710648,
+    "sha256": "cde9dae7a860fb384b26685c07eea222f9b946175229336e21fb5b0eba90e779"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "bytes": 6512350,
+    "sha256": "eb7cc13cc84ba3b37360e9dfae9606ce256661263721bcd0e1d3c0444fbf8fd0"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__P1S-04-PLA__EDIT-ME.3mf": {
+    "bytes": 284367,
+    "sha256": "c629e68becacc8a6376ec0288f48a26f4f8b4178afae79290dd6629598551c5f"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__README.md": {
+    "bytes": 3606,
+    "sha256": "9efa5d3cbbbaabf07ef65029f27314c23f41b9cdb76e59dce50dd1510fc15d6b"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__feedback.csv": {
+    "bytes": 348,
+    "sha256": "be855ea6b9e77c2488ad82cb1a8145540dd3e6003ee4923910faa085b83d734f"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__catalog.json": {
+    "bytes": 22250,
+    "sha256": "3cd80de75c3b55a9b18b1d48be9648eae4810252c5a61bf714ff16114d20f00b"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__installed.glb": {
+    "bytes": 1357656,
+    "sha256": "0bcbefe7d841591fd1979dc0ef7763f3bf566e93c204d19ceb16d76fffc5fd60"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__lettered-lineup.png": {
+    "bytes": 792226,
+    "sha256": "c7ce6f055ada6fa55df1caca5d60b3faf00961f9583ec53d714f213052bfcf9d"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__print-top-down.png": {
+    "bytes": 850777,
+    "sha256": "91effa24aa3b5df904aa1790493d47c5dbc40d709e4efe9a507eb29e21fa2ef8"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__open-channel-mouths.png": {
+    "bytes": 806116,
+    "sha256": "c51a44f46469b7943334cb7f9c46ed2743625888110181c16aa4a0bd57854203"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__magnet-cutaway.png": {
+    "bytes": 760395,
+    "sha256": "4c068beb717ad5b1d58a2fe3a6f3c7f0f7e23212f64412089c43d6136a6766e1"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H-seats.png": {
+    "bytes": 764251,
+    "sha256": "390c5719d50311b848094fdac61c4f3e5d3f17427aa48b13b021bd8acd0248cf"
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P-seats.png": {
+    "bytes": 767484,
+    "sha256": "351fe51c8fa9e5820a895a5a2a686fb9e13daff4ef1f1e2f0ee9ae69182d18c3"
+  }
+}

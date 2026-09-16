@@ -24,4 +24,4 @@ The baseline host envelope explains insertion space. A changed peg fit or comple
 - Keep bearing, grasp and one-motion return clear. Prefer stiffness and forgiving lead-ins to saving material. Protect delicate tips; keep exposed points above a floor.
 - Filename contains part ID, design version, role and applicable fit hash. Do not confuse a Keep vote, CAD checks, slicing and a physical test.
 
-The current MS01 v2 sampler has native P1S 0.4 / PLA print files, 20 x 10 x 3 mm magnets and preprinted 14 mm plugs leaving 1 mm nominal recess. Physical fit and magnetic retention remain untested.
+The current MS01 v3 recoverable sampler has native P1S 0.4 / PLA print files, open channels for 20 x 10 x 3 mm magnets and loose 17 mm spacers. Load after printing and retain with removable tape; the installed mouths face down. No pause or permanent caps. Sealed v2 remains available. Physical fit and magnetic retention remain untested.
