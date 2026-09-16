@@ -1,3 +1,5 @@
+> **Current bench collection:** [Open the gallery](https://thereprocase.github.io/peg/gallery/) and [current tighter-fit / integration rules](BENCH_HOLDERS.md). The nominal anchor study below is preserved separately; its certificates do not cover the interference-fit holders.
+
 # Host attachment envelope
 
 Use a **5.00 mm nominal flush lip above the upper hole center**. Its rear edge is sharp and planar against the board, with **0 mm board-facing corner radius** and no modeled recess at the seam. This is the permitted nominal height of a flush back above the hole, not a limit on the overall height of the attached part.

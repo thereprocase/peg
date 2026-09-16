@@ -1,0 +1,78 @@
+{
+  "id": "solder-modules/snips-pliers",
+  "source": "independent-workups/solder-modules-v6/snips-pliers/holder.step",
+  "public_source": "solder-modules/snips-pliers/holder.step",
+  "name": "Snips + small pliers",
+  "pose": "print-pose.stl",
+  "source_sha256": "133a0c4262a731840d54540e8efd479a69f7c511f72cd494b09557551293e7b4",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -12.7,
+    12.7
+  ],
+  "front_body_difference_mm3": 0.0,
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": 0.0,
+  "exported_board_side_difference_mm3": 0.0,
+  "peg_reports": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 0.0003050952625728616,
+    "triangles": 22284
+  },
+  "prior_pose_match_95percent_mm": 2.4327107517821593e-06,
+  "pose_transform": [
+    -0.0,
+    -0.0,
+    -1.0,
+    -30.277499675750732,
+    0.0,
+    1.0,
+    0.0,
+    -22.393281936645508,
+    1.0,
+    0.0,
+    0.0,
+    24.399999618531695,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "holder.FCStd": "f1626d534a1c3bb3ff2a813853b2279852a516eb4c8e6176a48a4ebae0a00064",
+    "holder.step": "adbc7c0fe78958c182a204da2854f9e6128bda2c1b3234ea95db10414b821764",
+    "holder.stl": "3d2ab01f145b2f076517531839b8b4d5b3d1265bc982422ed980f4ac3173b73c",
+    "print-pose.step": "24ac60599cd770ae98e915cf6b299f1f4ad5f169b7f9ffc2c8d6e2282f4dd8e7",
+    "print-pose.stl": "41159b4246a4ef37bec153552e96bcf0c8a1b1583a3ab1b9644730faa44b31be"
+  }
+}

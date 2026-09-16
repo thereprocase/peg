@@ -1,0 +1,139 @@
+{
+  "id": "P01-32",
+  "family": "P01",
+  "name": "32 small square seats",
+  "columns": 8,
+  "rows": 4,
+  "hole_count": 32,
+  "baseline_hole_count": 16,
+  "relative_capacity": 2.0,
+  "opening": "6.5 mm rounded square",
+  "pitch_mm": 8.3,
+  "source_cell_mapping": [
+    {
+      "target_x_mm": 29.050000000000004,
+      "source_x_mm": 12.450000000000001
+    },
+    {
+      "target_x_mm": 20.75,
+      "source_x_mm": -4.15
+    },
+    {
+      "target_x_mm": 12.450000000000001,
+      "source_x_mm": -4.15
+    },
+    {
+      "target_x_mm": 4.15,
+      "source_x_mm": -4.15
+    },
+    {
+      "target_x_mm": -4.15,
+      "source_x_mm": -4.15
+    },
+    {
+      "target_x_mm": -12.450000000000001,
+      "source_x_mm": -4.15
+    },
+    {
+      "target_x_mm": -20.75,
+      "source_x_mm": -4.15
+    },
+    {
+      "target_x_mm": -29.050000000000004,
+      "source_x_mm": -12.450000000000001
+    }
+  ],
+  "bounds_mm": [
+    68.18800354003906,
+    49.657999992370605,
+    37.144999980926514
+  ],
+  "body_width_mm": 68.18794816981021,
+  "receiver_width_mm": 68.18794816981021,
+  "mount_columns_x_mm": [
+    -25.4,
+    25.4
+  ],
+  "rear_contact_y_mm": 0.15,
+  "receiver_thickness_mm": 5.4,
+  "peg_checks": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "source_sha256": "8aa2ba2fe3eef83af3ab757dc03ba66c44a38f1da019a0e8deb58578bea0ff93",
+  "source_file": "PegBoard_4by4_6.5x6.5.stl",
+  "source_url": "https://www.thingiverse.com/thing:537516",
+  "original_author": "Marius Gheorghescu / mgx",
+  "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+  "baseline_model_sha256": "50e4287d7bfa8d1f6b6c2c07bcdcad57145360ec25858adf0494f1b9852ced76",
+  "mesh_sha256": "c78f3d75d4a59415c8a5263fc664e924cda6a7b36a4751d84696eda23c2f2a3a",
+  "volume_cm3": 34.02254296875,
+  "mesh": {
+    "closed": true,
+    "components": 1,
+    "nonmanifold": false
+  },
+  "cleanup": {
+    "max_vertex_displacement_mm": 8.197259582145863e-05,
+    "volume_change_fraction": 4.178910025979745e-06,
+    "facets": 15484,
+    "replaced_seam_facets": 9,
+    "replacement_facets": 9,
+    "max_sampled_repair_surface_difference_mm": 7.105427357601002e-15
+  },
+  "step_roundtrip_valid": true,
+  "step_kind": "Faceted generated Pegstr body; separate analytic receiver STEP",
+  "generator": "Original Pegstr OpenSCAD modules, recovered profile settings, custom flush receiving back",
+  "generator_settings": {
+    "profile": "P01",
+    "columns": 8,
+    "rows": 4,
+    "holder_height": 12.8,
+    "wall_thickness": 1.8,
+    "corner_radius": 1,
+    "holder_sides": 30
+  },
+  "changes": "Generated directly with Pegstr, changing the column count while retaining the opening profile, pitch, four depth rows, scalloped front and gusseted form. Native source output has a slightly different gusset and outer rounding from the older archived STL; P09 is 0.33 mm shallower. Continuous custom receiving back grows with the array.",
+  "print_review": {
+    "orientation": "Right side down; mirror in slicer for a left-handed placement",
+    "rotation_y_deg": -90,
+    "reason": "Retain the original through-seat profiles and keep peg centerlines in the layer plane. No extra cheek or change to the pocket shape.",
+    "bed_contact_area_mm2": 863.07,
+    "bounds_mm": [
+      37.14500045776367,
+      49.65799903869629,
+      68.18800354003906
+    ],
+    "body_start_above_bed_mm": 0,
+    "downward_area_mm2": 4075.03,
+    "review": "Local plate-grown supports remain necessary under the pegs. Square roofs bridge about 6.5 mm; round roofs retain the original curved overhang. P01-12 also needs a local support under the narrower pocket bank, 4.44 mm above the back-wall edge. No slicer or print qualification."
+  },
+  "qualification": "CAD form variant. Not sliced, printed or physically fit-tested.",
+  "current_peg_fit": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "fit_revision_note": "Mounted CAD updated globally. Earlier fit, motion and slice evidence in this document is historical; current geometric verification is peg-fit.json."
+}

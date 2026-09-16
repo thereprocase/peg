@@ -1,0 +1,33 @@
+{
+  "id": "P01-32",
+  "verified_holes": 32,
+  "rows": 4,
+  "cols": 8,
+  "max_opening_width_error_mm": 1.0728836130624586e-06,
+  "max_opening_depth_error_mm": 5.684341886080802e-14,
+  "max_section_area_error_mm2": 5.11503095168564e-06,
+  "same_four_depth_rows": true,
+  "height_unchanged": true,
+  "projection_change_mm": 0.0,
+  "mount_grid_valid": true,
+  "model_sha256": "c78f3d75d4a59415c8a5263fc664e924cda6a7b36a4751d84696eda23c2f2a3a",
+  "current_peg_fit": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "fit_revision_note": "Mounted CAD updated globally. Earlier fit, motion and slice evidence in this document is historical; current geometric verification is peg-fit.json."
+}

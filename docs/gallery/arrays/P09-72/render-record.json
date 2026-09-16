@@ -1,0 +1,11 @@
+{
+  "actual_mesh_sha256": "d73d1577404bf2802b74399a4ba9fe2654bd3136ea3f3a0b4463588048ef919b",
+  "renderer": "5.1.0",
+  "views": [
+    "front",
+    "rear",
+    "print",
+    "print-review"
+  ],
+  "sliced": false
+}

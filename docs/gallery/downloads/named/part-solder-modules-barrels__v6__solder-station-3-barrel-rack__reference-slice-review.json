@@ -1,0 +1,27 @@
+{
+  "filament_g": 134.56,
+  "print_time": "5h 29m 52s; total estimated time: 5h 36m 4s",
+  "support_g": 15.626,
+  "support_percent": 11.61,
+  "layers": 632,
+  "outside_plate": false,
+  "mesh_repairs": [
+    {
+      "edges_fixed": "0",
+      "degenerate_facets": "0",
+      "facets_removed": "0",
+      "facets_reversed": "0",
+      "backwards_edges": "0"
+    }
+  ],
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "id": "barrels",
+  "pose": "upright",
+  "scope": "P1S 0.4 mm / existing PETG profile; orientation and support review only, no printer connection or physical finish proof."
+}

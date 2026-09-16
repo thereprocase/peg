@@ -1,0 +1,59 @@
+{
+  "id": "pegstr/P10",
+  "source": "publication/warpbus-pegs/public/pegstr/P10/model.step",
+  "public_source": "pegstr/P10/model.step",
+  "name": "Low rectangular slot",
+  "pose": null,
+  "source_sha256": "c90899573724adcac633de08cd75e726cf568d94375476ede24e7512790bc62d",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -12.7,
+    12.7
+  ],
+  "front_body_difference_mm3": 0.0,
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": 0.0,
+  "exported_board_side_difference_mm3": 0.0,
+  "peg_reports": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 5.5927772333240915e-05,
+    "triangles": 8724
+  },
+  "prior_pose_match_95percent_mm": null,
+  "pose_transform": null,
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "part-pegstr-p10__v2__pegstr-p10-low-rectangular-slot__installed__fit-9c7be3cc78.FCStd": "3fffc24cf7dd1e75cd0d531738b3065a064bf8e6573c6ad43e7d1277e305b6d3",
+    "part-pegstr-p10__v2__pegstr-p10-low-rectangular-slot__installed__fit-9c7be3cc78.step": "760588a3c4b9a54c817a4c387a32d5887ea5ab02eb5018f5501fa33c1ea32ccf",
+    "part-pegstr-p10__v2__pegstr-p10-low-rectangular-slot__installed__fit-9c7be3cc78.stl": "039441887115da425a27a8f1a0bbd2a10f81bd0394e6b91f86b78d0f9031e983"
+  }
+}

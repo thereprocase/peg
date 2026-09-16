@@ -1,0 +1,290 @@
+{
+  "width_mm": 175.79999999999998,
+  "depth_mm": 54,
+  "base_depth_mm": 32.143566315498994,
+  "installed_bottom_z_mm": -40.0,
+  "pocket_width_mm": 10.4,
+  "pocket_thickness_mm": 3.4,
+  "pocket_height_mm": 25.8,
+  "pocket_bottom_z_mm": -28.2,
+  "cap_bottom_z_mm": -2.4,
+  "cap_thickness_mm": 2.4,
+  "magnet_mm": [
+    10.0,
+    10.0,
+    3.0
+  ],
+  "magnet_assumption": "10 x 10 square face, 3 thick; magnetization through thickness; size/grade unconfirmed",
+  "min_v_apex_skin_mm": 0.8,
+  "nominal_shaft_to_magnet_face_gap_mm": 1.4911742093541278,
+  "plug_height_mm": 15.6,
+  "plug_top_recess_mm": 0.2,
+  "plug_rib_interference_per_side_mm": 0.125,
+  "magnet_top_below_pause_plane_mm": 15.799999999999999,
+  "pause_at_completed_print_height_mm": 37.6,
+  "pause_instruction": "Pause BEFORE the first layer that closes the four loading pockets. Geometric reference only: at constant 0.20 mm layers including first layer, after layer 188, before layer 189. Must verify sliced toolpath before printing.",
+  "scope": "Form/function candidate. No slicing, magnetic force, press-fit retention, hotend attraction or thermal qualification.",
+  "peg_profile": {
+    "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "peg_checks": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+      }
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "tool": 1,
+      "withdrawal_max_overlap_mm3": 0.0,
+      "loading_path_max_overlap_mm3": 0.0,
+      "intended_plug_rib_overlap_mm3": 2.7787946428570747,
+      "magnet_to_tool_min_gap_mm": 1.4911742093541278
+    },
+    {
+      "tool": 2,
+      "withdrawal_max_overlap_mm3": 0.0,
+      "loading_path_max_overlap_mm3": 0.0,
+      "intended_plug_rib_overlap_mm3": 2.778794642857181,
+      "magnet_to_tool_min_gap_mm": 1.4911742093541278
+    },
+    {
+      "tool": 3,
+      "withdrawal_max_overlap_mm3": 0.0,
+      "loading_path_max_overlap_mm3": 0.0,
+      "intended_plug_rib_overlap_mm3": 2.7787946428571777,
+      "magnet_to_tool_min_gap_mm": 1.4911742093541278
+    },
+    {
+      "tool": 4,
+      "withdrawal_max_overlap_mm3": 0.0,
+      "loading_path_max_overlap_mm3": 0.0,
+      "intended_plug_rib_overlap_mm3": 2.7787946428569974,
+      "magnet_to_tool_min_gap_mm": 1.4911742093541278
+    }
+  ],
+  "files": {
+    "rack-installed": "part-sd03-magnetic-c__v1__4-drivers-7-cells__rack-installed__fit-e586ab4ff6",
+    "rack-print-upright": "part-sd03-magnetic-c__v1__4-drivers-7-cells__rack-print-upright__fit-e586ab4ff6",
+    "pause-preview-not-for-print": "part-sd03-magnetic-c__v1__4-drivers-7-cells__pause-preview-not-for-print__fit-e586ab4ff6",
+    "plug-print-broad-face-quantity-4": "part-sd03-magnetic-c__v1__4-drivers-7-cells__plug-print-broad-face-quantity-4__fit-e586ab4ff6",
+    "section-holder-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__section-holder-reference__fit-e586ab4ff6",
+    "section-magnet-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__section-magnet-reference__fit-e586ab4ff6",
+    "section-plug-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__section-plug-reference__fit-e586ab4ff6",
+    "section-at-pause-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__section-at-pause-reference__fit-e586ab4ff6",
+    "magnet-envelope-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__magnet-envelope-reference__fit-e586ab4ff6",
+    "plug-installed-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__plug-installed-reference__fit-e586ab4ff6",
+    "unchanged-tip-floor-reference": "part-sd03-magnetic-c__v1__4-drivers-7-cells__unchanged-tip-floor-reference__fit-e586ab4ff6"
+  },
+  "tools": [
+    [
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-1-steel-0-reference__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-1-yellow-1-reference__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-1-rubber-2-reference__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-2-steel-0-reference__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-2-red-1-reference__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-2-rubber-2-reference__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-3-steel-0-reference__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-3-yellow-1-reference__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-3-rubber-2-reference__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-4-steel-0-reference__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-4-red-1-reference__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-sd03-magnetic-c__v1__4-drivers-7-cells__tool-4-rubber-2-reference__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ]
+  ],
+  "exports": {
+    "rack-installed": {
+      "closed": true,
+      "facets": 8268,
+      "volume_error_fraction": 1.3854215348185774e-06,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 5
+    },
+    "rack-print-upright": {
+      "closed": true,
+      "facets": 8268,
+      "volume_error_fraction": 3.7575235504172956e-06,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 5
+    },
+    "pause-preview-not-for-print": {
+      "closed": true,
+      "facets": 2480,
+      "volume_error_fraction": 4.9729141656099e-06,
+      "tessellation_cleanup": true,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "plug-print-broad-face-quantity-4": {
+      "closed": true,
+      "facets": 44,
+      "volume_error_fraction": 5.836467520269431e-08,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "section-holder-reference": {
+      "closed": true,
+      "facets": 4064,
+      "volume_error_fraction": 1.1628811324891587e-05,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "section-magnet-reference": {
+      "closed": true,
+      "facets": 12,
+      "volume_error_fraction": 4.7709147135416664e-05,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "section-plug-reference": {
+      "closed": true,
+      "facets": 28,
+      "volume_error_fraction": 5.199714290395712e-06,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "section-at-pause-reference": {
+      "closed": true,
+      "facets": 1200,
+      "volume_error_fraction": 5.002159458385024e-06,
+      "tessellation_cleanup": true,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "magnet-envelope-reference": {
+      "closed": true,
+      "facets": 12,
+      "volume_error_fraction": 4.374186197916667e-06,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "plug-installed-reference": {
+      "closed": true,
+      "facets": 44,
+      "volume_error_fraction": 3.622290601695579e-06,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    },
+    "unchanged-tip-floor-reference": {
+      "closed": true,
+      "facets": 8072,
+      "volume_error_fraction": 1.0886823583822955e-05,
+      "tessellation_cleanup": false,
+      "solid_count": 1,
+      "boundary_shells": 1
+    }
+  },
+  "guard_offset_z_mm": -152.39999999999998,
+  "print_bounds_mm": [
+    175.80000019999997,
+    63.97817681779399,
+    45.445
+  ]
+}

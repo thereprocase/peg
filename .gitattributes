@@ -4,3 +4,6 @@
 *.3mf binary
 *.gif binary
 *.png binary
+
+docs/gallery/** -text
+bench/reference/peg-fit.scad -text

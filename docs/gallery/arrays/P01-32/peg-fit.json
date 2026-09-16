@@ -1,0 +1,78 @@
+{
+  "id": "arrays/P01-32",
+  "source": "publication/warpbus-pegs/public/arrays/P01-32/model.step",
+  "public_source": "arrays/P01-32/model.step",
+  "name": "32 small square seats",
+  "pose": "print-pose.stl",
+  "source_sha256": "4ed3a74a573d48c1c08708008f8051f7e1864e9bdef3c812dc3fb807223c1637",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -25.400001,
+    25.400001
+  ],
+  "front_body_difference_mm3": 0.0,
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": 0.0,
+  "exported_board_side_difference_mm3": 0.0,
+  "peg_reports": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 2.533828965470925e-05,
+    "triangles": 12540
+  },
+  "prior_pose_match_95percent_mm": 2.489163043239248e-06,
+  "pose_transform": [
+    -0.0,
+    -0.0,
+    -1.0,
+    -13.427500247955322,
+    0.0,
+    1.0,
+    0.0,
+    -14.420998573303223,
+    1.0,
+    0.0,
+    0.0,
+    34.09400177001953,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "holder.FCStd": "0f88de99be66f9f1157126008c5b85beb1018d78e54dc8f70e3a6b080cfdd8db",
+    "holder.step": "1267886f783f7c1ababd9f8243ef98ef1e6e7502ce6660b393e9a9b1849b3f67",
+    "holder.stl": "541b4150771b7526c1f04a02df76dbce51e83ffbab2112177a093cee85b9ddde",
+    "print-pose.step": "65292704885ade2a272023cb54cd5cc78f3d230758041e92bf6ee12eea583754",
+    "print-pose.stl": "7b880a25e60c6815a4e7eb72ad460b667072f356e9d222b8c88531c0d03f72c0"
+  }
+}

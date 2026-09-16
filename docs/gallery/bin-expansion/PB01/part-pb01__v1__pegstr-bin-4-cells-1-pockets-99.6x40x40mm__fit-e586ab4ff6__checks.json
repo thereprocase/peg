@@ -1,0 +1,127 @@
+{
+  "id": "PB01",
+  "name": "Compact utility bin",
+  "cells": 4,
+  "width_mm": 99.6,
+  "height_mm": 40,
+  "projection_mm": 40,
+  "pockets": 1,
+  "opening_width_mm": 94.0,
+  "usable_depth_mm": 31.8,
+  "floor_mm": 3.2,
+  "wall_mm": 2.8,
+  "mount_columns_x_mm": [
+    -38.099999999999994,
+    38.099999999999994
+  ],
+  "mount_upper_z_mm": 32,
+  "fit_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+  "upstream_sha256": "9eb4aafb08cc513a8a9f2404721355185146bf573fdb916464db83365801d2fc",
+  "mesh_sha256": "41c3690db7bfad00edcda2f4bb070e72b37f5efd85188512ccef34786c67c7fc",
+  "mesh": {
+    "closed": true,
+    "components": 1
+  },
+  "floor_samples": [
+    {
+      "xy": [
+        -23.5,
+        12
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        -23.5,
+        22.0
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        -23.5,
+        32
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        0.0,
+        12
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        0.0,
+        22.0
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        0.0,
+        32
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        23.5,
+        12
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        23.5,
+        22.0
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    },
+    {
+      "xy": [
+        23.5,
+        32
+      ],
+      "floor_z": [
+        0.0,
+        3.2
+      ]
+    }
+  ],
+  "bed_contact_mm2": 3982.4,
+  "bounds_xyz_mm": [
+    99.5999984741211,
+    50.126893043518066,
+    40.0
+  ],
+  "stl": "part-pb01__v1__pegstr-bin-4-cells-1-pockets-99.6x40x40mm__fit-e586ab4ff6__print-flat-base.stl",
+  "scad": "part-pb01__v1__pegstr-bin-4-cells-1-pockets-99.6x40x40mm__fit-e586ab4ff6__generator.scad",
+  "prefix": "part-pb01__v1__pegstr-bin-4-cells-1-pockets-99.6x40x40mm__fit-e586ab4ff6",
+  "qualification": "Form-review candidate. Upright on flat base; canonical rear pegs may need local supports. Not sliced or physically tested."
+}

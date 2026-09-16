@@ -1,0 +1,90 @@
+{
+  "id": "arrays/P09-72",
+  "source": "publication/warpbus-pegs/public/arrays/P09-72/model.step",
+  "public_source": "arrays/P09-72/model.step",
+  "name": "72 round seats",
+  "pose": "part-arrays-p09-72__v-src888ff9ece6__pegstr-array-p09-72-round-seats__print-right-cheek__fit-9c7be3cc78.stl",
+  "source_sha256": "888ff9ece6ba1d21c58932c043b4c4595517e9a088fd3c9770cca6e2d6e278cb",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -114.299999,
+    -38.1,
+    38.1,
+    114.299999
+  ],
+  "front_body_difference_mm3": 0.0,
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": 0.0,
+  "exported_board_side_difference_mm3": 0.0,
+  "peg_reports": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 1.4487101850807805e-05,
+    "triangles": 24900
+  },
+  "prior_pose_match_95percent_mm": 7.703540049268489e-06,
+  "pose_transform": [
+    -0.0,
+    -0.0,
+    -1.0,
+    -13.427500247955322,
+    0.0,
+    1.0,
+    0.0,
+    -25.045998573303223,
+    1.0,
+    0.0,
+    0.0,
+    120.875,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "holder.FCStd": "101204ae408602493c7791354c9a0ccb0fb944381ea19473207d52c9565424b3",
+    "holder.step": "54e19505a8507480aed2447458f9d25ab211e219555be5f1cde11b6e8354e0a6",
+    "holder.stl": "ab769275d54987d2d45e9cee34d9ed628f49dea4d82934aa6ba6c77a1e9fd3b9",
+    "print-pose.step": "61f5e2858c0630d6f865c6de223e266a3751758645d9c6235ff7fad667f93949",
+    "part-arrays-p09-72__v-src888ff9ece6__pegstr-array-p09-72-round-seats__print-right-cheek__fit-9c7be3cc78.stl": "652356c2447798e24554fc7b5a13c5821d3cbd8e4c400364102efe8255c3f9b1"
+  }
+}

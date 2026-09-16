@@ -1,3 +1,7 @@
+# Current holders and publication
+
+Read BENCH_HOLDERS.md and publication/README.md for the active gallery, tighter-fit snapshot and publication workflow. The anchor rules below apply to the original nominal baseline. Do not reintroduce its demonstration handle into a holder or apply its motion proof to a changed fit.
+
 # Working on peg
 
 The current design has **120-degree bore-matching lower bearing arcs**, a full-board-thickness lower peg, and a sharp 5 mm nominal lip with a reusable host envelope. Read README.md, CONFORMAL_STUDY.md, HOST_INTERFACE.md, HANDOFF.md, and DESIGN_HISTORY.md before editing it. ROUND_README.md preserves the previous round release; BASELINE_README.md preserves the earlier rectangular design.

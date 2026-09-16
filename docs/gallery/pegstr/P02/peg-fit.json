@@ -1,0 +1,64 @@
+{
+  "id": "pegstr/P02",
+  "source": "publication/warpbus-pegs/public/pegstr/P02/model.step",
+  "public_source": "pegstr/P02/model.step",
+  "name": "Four square seats",
+  "pose": null,
+  "source_sha256": "36f3f84de26075f3c274bc3881c036c4677f0f6dd463b5157472102107e37077",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -12.7,
+    12.7
+  ],
+  "front_body_difference_mm3": null,
+  "front_surface_check": {
+    "volume_residual_mm3": 1.9571052689570934e-07,
+    "relative_volume_residual": 1.6446855784981275e-11,
+    "max_bidirectional_surface_mm": [],
+    "source": "Manifold intersection of original mesh at board plane"
+  },
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": null,
+  "exported_board_side_difference_mm3": null,
+  "board_side_tolerance_mm3": 1.9277564894459867,
+  "board_side_mesh_volume_error_mm3": 0.6433517752102489,
+  "rear_comparison_plane_y_mm": 0.15,
+  "peg_representation": "procedural OpenSCAD tessellation, faceted STEP; checked construction and peg volume, not exact BRep subtraction",
+  "peg_reports": [],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 3.42874077225779e-06,
+    "triangles": 21274
+  },
+  "prior_pose_match_95percent_mm": null,
+  "pose_transform": null,
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "holder.FCStd": "22c0518c64fd4583db69bf8a8d20437f3afd8e9afef4dd5fcb23a433b5ba74e7",
+    "holder.step": "6a910dabaa904f49a16e3a094cbf9711f0f38969ce4da2091b169a751f1c71b4",
+    "holder.stl": "702031da60d14faf8a876fcdb01e55d7cdd30f12b23f27e5f632ae8740d7653c",
+    "host-clean.stl": "241cc81143f18fcab3fd7befbb6f40b0bcca2296cb852851032069d0e9176bb4",
+    "host-cut.stl": "f71baadad9cd2a576fc4123127cb24e3d078782c5a6ed922846b691e6e340403",
+    "host.step": "00f4bf72122e932a3fbf33416e9cf3008b31c6b78f0a5eab729d1e1933fb7b7a",
+    "lower-locator.stl": "2620d2f9cc8735354586569c84fa55c02899e2add9169178a07b6c9481325b74",
+    "procedural-clean.stl": "25a4d31c8c6f7b858e8ba9caba7ee993956e871cca8158ba185673c1d29b93cf",
+    "procedural-raw.stl": "56772f3af49e0adbeca7617942f7a2f15ba5360bfbc958c99f98d2465a3811b6"
+  }
+}

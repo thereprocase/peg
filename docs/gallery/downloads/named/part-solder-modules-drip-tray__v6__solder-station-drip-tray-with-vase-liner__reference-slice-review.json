@@ -1,0 +1,27 @@
+{
+  "filament_g": 63.39,
+  "print_time": "2h 5m 24s; total estimated time: 2h 11m 36s",
+  "support_g": 1.284,
+  "support_percent": 2.03,
+  "layers": 267,
+  "outside_plate": false,
+  "mesh_repairs": [
+    {
+      "edges_fixed": "0",
+      "degenerate_facets": "0",
+      "facets_removed": "0",
+      "facets_reversed": "0",
+      "backwards_edges": "0"
+    }
+  ],
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "id": "drip-tray",
+  "pose": "upright",
+  "scope": "P1S 0.4 mm / existing PETG profile; orientation and support review only, no printer connection or physical finish proof."
+}

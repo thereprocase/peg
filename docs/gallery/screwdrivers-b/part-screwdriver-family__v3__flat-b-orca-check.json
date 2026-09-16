@@ -1,0 +1,110 @@
+[
+  {
+    "filament_g": 49.67,
+    "print_time": "2h 2m 3s; total estimated time: 2h 8m 15s",
+    "support_g": 0.0,
+    "support_percent": 0.0,
+    "layers": 217,
+    "outside_plate": false,
+    "mesh_repairs": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "id": "SD01",
+    "stl_sha256": "383ad64aa0fde65112190c0c7b4ffddf231ad0b2d0f67a742457e84690572c53",
+    "check": "Automatic normal supports enabled at 50 degrees, critical-only filter off, bridge exemption off, no raft or brim. P1S / 0.4 / existing PETG profile. No print started."
+  },
+  {
+    "filament_g": 76.13,
+    "print_time": "3h 2m 23s; total estimated time: 3h 8m 34s",
+    "support_g": 0.0,
+    "support_percent": 0.0,
+    "layers": 250,
+    "outside_plate": false,
+    "mesh_repairs": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "id": "SD02",
+    "stl_sha256": "80c5c9dc70f1e9a6c65f7411e665b78dcc6415a5e1b3f418c4f932cdf838d63e",
+    "check": "Automatic normal supports enabled at 50 degrees, critical-only filter off, bridge exemption off, no raft or brim. P1S / 0.4 / existing PETG profile. No print started."
+  },
+  {
+    "filament_g": 120.61,
+    "print_time": "4h 45m 40s; total estimated time: 4h 51m 51s",
+    "support_g": 0.0,
+    "support_percent": 0.0,
+    "layers": 299,
+    "outside_plate": false,
+    "mesh_repairs": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "id": "SD03",
+    "stl_sha256": "216f0639460fe7ebc332e50ef84303684720043975660295a7999729c30ce3bb",
+    "check": "Automatic normal supports enabled at 50 degrees, critical-only filter off, bridge exemption off, no raft or brim. P1S / 0.4 / existing PETG profile. No print started."
+  },
+  {
+    "filament_g": 195.71,
+    "print_time": "7h 46m 11s; total estimated time: 7h 52m 23s",
+    "support_g": 0.0,
+    "support_percent": 0.0,
+    "layers": 344,
+    "outside_plate": false,
+    "mesh_repairs": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ],
+    "warnings": [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ],
+    "id": "SD04",
+    "stl_sha256": "dd1e15f698726a5de4721ea0225dea699dbacc9d3ccd37864e837848734f7864",
+    "check": "Automatic normal supports enabled at 50 degrees, critical-only filter off, bridge exemption off, no raft or brim. P1S / 0.4 / existing PETG profile. No print started."
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "id": "P06",
+  "name": "100 \u00d7 60 bin",
+  "description": "Original wide open bin.",
+  "category": "Medium parts",
+  "source_file": "PegBoard_box_100x60.stl",
+  "source_sha256": "cec2e042629261589c6b47924fba332545f9b5dabc438bc28aefa7b8f524ffe3",
+  "original_author": "Marius Gheorghescu / mgx",
+  "original_mesh_closed": false,
+  "source_url": "https://www.thingiverse.com/thing:537516",
+  "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+  "source_cut_plane_x_mm": -2.4,
+  "body_transform": [
+    [
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      0,
+      1.75
+    ],
+    [
+      0,
+      0,
+      -1,
+      -1.9834998893737792
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "rear_contact_y_mm": 0.15,
+  "receiver_thickness_mm": 5.4,
+  "mount_columns_x_mm": [
+    -38.099999999999994,
+    38.099999999999994
+  ],
+  "peg_checks": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "model_revision": "r2",
+  "source_body_width_mm": 107.60350036621094,
+  "receiver_width_mm": 107.60350036621094,
+  "back_extension_mm": 0,
+  "original_openings_rescaled": false,
+  "changes": "Original pins removed; original openings preserved. Two mounting columns in a broad 5.4 mm flush receiving wall. Narrow receiving walls widened to 35.56 mm to leave material around the exact 5.6 mm shaft roots at 25.4 mm spacing.",
+  "phase": "Form and function review",
+  "status": "Awaiting user review",
+  "qualification": "Geometry checks only; tool fit, strength and printing remain unqualified.",
+  "bounds_mm": [
+    107.60359954833984,
+    80.1579999923706,
+    38.12499952316284
+  ],
+  "w": 107.60359954833984,
+  "volume_cm3": 69.0481484375,
+  "mesh_sha256": "0de1cb769ab1573315e1c512d2a627d3ca4e61221a59bb26da026588b80cfb4c",
+  "mesh": {
+    "closed": true,
+    "components": 1,
+    "nonmanifold": false,
+    "facets": 10114
+  },
+  "export_cleanup": {
+    "grid_mm": 0.0001,
+    "max_vertex_displacement_mm": 8.09380083190764e-05,
+    "raw_facets": 10448,
+    "welded_facets": 10118,
+    "redundant_facets_removed": 4,
+    "volume_change_fraction": 1.8103278752702197e-06
+  },
+  "step_kind": "Faceted solid derived from the supplied STL; receiver.step retains analytic peg geometry.",
+  "step_roundtrip_valid": true,
+  "current_peg_fit": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "fit_revision_note": "Mounted CAD updated globally. Earlier fit, motion and slice evidence in this document is historical; current geometric verification is peg-fit.json."
+}

@@ -1,0 +1,78 @@
+{
+  "id": "solder-modules/barrels",
+  "source": "independent-workups/solder-modules-v6/barrels/holder.step",
+  "public_source": "solder-modules/barrels/holder.step",
+  "name": "Three barrels",
+  "pose": "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__print-selected-upright__fit-9c7be3cc78.stl",
+  "source_sha256": "c7695b4782db06c99ca5c57095fc3623cd68e71d5f75c36f47f818159be830ef",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -50.8,
+    50.8
+  ],
+  "front_body_difference_mm3": 0.0,
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": 0.0,
+  "exported_board_side_difference_mm3": 0.0,
+  "peg_reports": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 4.60198545953369e-05,
+    "triangles": 11294
+  },
+  "prior_pose_match_95percent_mm": 4.047853194796955e-06,
+  "pose_transform": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    -28.335912704467773,
+    0.0,
+    0.0,
+    1.0,
+    121.04188907146454,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__installed__fit-9c7be3cc78.FCStd": "ee4a48c834e49638a64e8c6a5253c3a815344cd608ad7658558c08fcf4a46706",
+    "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__installed__fit-9c7be3cc78.step": "96a53adf32155c18c9363d27e715128d359edcd0399408764f1335c137d3d92a",
+    "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__installed__fit-9c7be3cc78.stl": "197c58c98b58e3ef91d2d7034149c3fb1088f5f5b62868e8177fe0e45ece98e8",
+    "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__print-selected-upright__fit-9c7be3cc78.step": "b73fd54bd3835787f07f830012b9c4972cb65d368c22c9a8cb41015c2957a37b",
+    "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__print-selected-upright__fit-9c7be3cc78.stl": "fbceaa02029c21e3e672b43b5e172684febec36e1cc7b803d697a2cc03b37bc5"
+  }
+}

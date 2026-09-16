@@ -1,0 +1,32 @@
+Pegstr - Pegboard Wizard by Marius Gheorghescu / mgx
+https://www.thingiverse.com/thing:537516
+https://github.com/MGX3D/pegstr
+
+Custom peg remixes: replaced original mounts and merged a strengthened flush receiving wall into each supplied body. Original pocket shapes are not rescaled. Derived from the two archives supplied by the user.
+
+This thing was created by Thingiverse user mgx, and is licensed under Creative Commons - Attribution - Non-Commercial
+Array variants: generated using supplied PegBoard.scad modules with recovered profile settings. Original pin output and top-level invocation removed from the library; a wrapper supplies the continuous flush back and unchanged functional custom pegs. No mesh scaling or mesh tiling.
+
+ORIGINAL PEGSTR CREDIT
+
+Pegstr - Pegboard Wizard
+Original design and generator: Marius Gheorghescu / mgx (MGX3D).
+Original model: https://www.thingiverse.com/thing:537516
+Creator profile: https://www.thingiverse.com/mgx/about
+Original source: https://github.com/MGX3D/pegstr
+
+The supplied original notice identifies Creative Commons Attribution -
+Non-Commercial. Preserve the supplied LICENSE.txt and source author notices;
+do not infer a specific license version absent from the supplied notice.
+The author's README requests contacting him before commercial use:
+https://github.com/MGX3D/pegstr/blob/master/README.md
+
+Our changes: original mounts replaced with our custom canonical peg interface
+and a strengthened flush receiving body. Array options are generated from the
+supplied Pegstr modules with different counts/layout parameters. Original pocket
+profiles are retained; these are remixes, not original Pegstr releases or an
+endorsement by its author. Solder and screwdriver WIP are separate bench designs.
+
+Source links checked September 16, 2026. The creator's GitHub profile links to
+his Thingiverse profile as its website. No separate personal homepage or request
+to prefer Printables was found in the checked original sources.

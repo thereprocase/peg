@@ -1,3 +1,5 @@
+> **Current bench collection:** [Open the gallery](https://thereprocase.github.io/peg/gallery/) and [current tighter-fit / integration rules](BENCH_HOLDERS.md). The nominal anchor study below is preserved separately; its certificates do not cover the interference-fit holders.
+
 # Conformal pegboard anchor
 
 A reusable rear attachment for holders, bins and brackets on **6.35 mm (1/4-inch) holes at 25.4 mm (1-inch) pitch**. Both pegs match the bore's lower curve over **120 degrees**. The lower peg bears through the full **3.94 mm board thickness**. A sharp **5 mm nominal lip above the upper hole center** sits flush against the board; taller attached parts can take any shape inside the supplied movement envelope.

@@ -1,0 +1,488 @@
+{
+  "id": "MS01",
+  "version": 2,
+  "width_mm": 150.39999999999998,
+  "cells_per_strip": 6,
+  "seats_per_strip": 8,
+  "seat_pitch_mm": 17.5,
+  "strips": [
+    {
+      "letters": "A-H",
+      "specs": [
+        {
+          "letter": "A",
+          "kind": "round",
+          "diameter": 2.0,
+          "clearance": 0.15,
+          "x": 61.25,
+          "opening_diameter": 2.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 38.35
+        },
+        {
+          "letter": "B",
+          "kind": "round",
+          "diameter": 2.5,
+          "clearance": 0.15,
+          "x": 43.75,
+          "opening_diameter": 2.8,
+          "seated_y": 39.370000000000005,
+          "back_y": 38.1
+        },
+        {
+          "letter": "C",
+          "kind": "round",
+          "diameter": 3.0,
+          "clearance": 0.15,
+          "x": 26.25,
+          "opening_diameter": 3.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 37.85
+        },
+        {
+          "letter": "D",
+          "kind": "round",
+          "diameter": 3.5,
+          "clearance": 0.15,
+          "x": 8.75,
+          "opening_diameter": 3.8,
+          "seated_y": 39.370000000000005,
+          "back_y": 37.6
+        },
+        {
+          "letter": "E",
+          "kind": "round",
+          "diameter": 4.0,
+          "clearance": 0.15,
+          "x": -8.75,
+          "opening_diameter": 4.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 37.35
+        },
+        {
+          "letter": "F",
+          "kind": "round",
+          "diameter": 4.5,
+          "clearance": 0.15,
+          "x": -26.25,
+          "opening_diameter": 4.8,
+          "seated_y": 39.370000000000005,
+          "back_y": 37.1
+        },
+        {
+          "letter": "G",
+          "kind": "round",
+          "diameter": 5.0,
+          "clearance": 0.15,
+          "x": -43.75,
+          "opening_diameter": 5.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 36.85
+        },
+        {
+          "letter": "H",
+          "kind": "round",
+          "diameter": 5.5,
+          "clearance": 0.15,
+          "x": -61.25,
+          "opening_diameter": 5.8,
+          "seated_y": 39.370000000000005,
+          "back_y": 36.6
+        }
+      ],
+      "files": {
+        "installed": "part-ms01-shaft-fit-sampler-20x10x3__v2__A-H__installed__fit-e586ab4ff6",
+        "print-flat-top": "part-ms01-shaft-fit-sampler-20x10x3__v2__A-H__print-flat-top__fit-e586ab4ff6",
+        "pause-reference": "part-ms01-shaft-fit-sampler-20x10x3__v2__A-H__pause-reference__fit-e586ab4ff6"
+      },
+      "checks": [
+        {
+          "letter": "A",
+          "gap_mm": 1.019999999999992,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "B",
+          "gap_mm": 1.0199999999999911,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "C",
+          "gap_mm": 1.0199999999999885,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "D",
+          "gap_mm": 1.0199999999999927,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "E",
+          "gap_mm": 1.0199999999999905,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "F",
+          "gap_mm": 1.0199999999999891,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "G",
+          "gap_mm": 1.0199999999999954,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "H",
+          "gap_mm": 1.0199999999999891,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        }
+      ],
+      "mounts": [
+        {
+          "board_side_difference_mm3": 0.0,
+          "buried_overlap_mm": 1.25,
+          "single_valid_solid": true,
+          "peg_profile": {
+            "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+            "canonical_source": "reference/peg-fit.scad",
+            "variant": "rear-tongue-3p80-interference0p05",
+            "board_grip_assumption_mm": 3.8,
+            "source_board_assumption_mm": 3.94,
+            "clearance_at_assumed_board_mm": -0.05,
+            "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+            "tongue_run_mm": 5.0,
+            "tongue_rise_mm": 3.3,
+            "tongue_angle_deg": 33.4248111826038,
+            "previous_tongue_angle_deg": 30.96375653207352,
+            "elbow_center_y_mm": -2.578176717793985,
+            "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+            "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+            "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+            "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+            "print_variant": "inverted-slope5-flat-v1",
+            "print_variant_source": "reference/peg-print-variants.json",
+            "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+            "cap_removal_mm": 0.8,
+            "cut_plane_z_mm": 5.314116293072424,
+            "cut_plane_normal": [
+              0.0,
+              -0.08715574274765817,
+              0.9961946980917455
+            ],
+            "cut_plane_normal_distance_mm": 5.29389447620171,
+            "seat_slope_deg": 5.0,
+            "bed_flat_area_mm2": 10.133539999805787,
+            "bed_flat_width_mm": 3.5777087639996616,
+            "removed_volume_mm3": 4.295987672381327,
+            "removed_nearest_y_mm": -5.879843411056621,
+            "assumed_board_back_y_mm": -3.8,
+            "seated_board_band_change_mm3": 0.0,
+            "peg_subset_of_canonical": true
+          }
+        },
+        {
+          "board_side_difference_mm3": 0.0,
+          "buried_overlap_mm": 1.25,
+          "single_valid_solid": true,
+          "peg_profile": {
+            "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+            "canonical_source": "reference/peg-fit.scad",
+            "variant": "rear-tongue-3p80-interference0p05",
+            "board_grip_assumption_mm": 3.8,
+            "source_board_assumption_mm": 3.94,
+            "clearance_at_assumed_board_mm": -0.05,
+            "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+            "tongue_run_mm": 5.0,
+            "tongue_rise_mm": 3.3,
+            "tongue_angle_deg": 33.4248111826038,
+            "previous_tongue_angle_deg": 30.96375653207352,
+            "elbow_center_y_mm": -2.578176717793985,
+            "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+            "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+            "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+            "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+            "print_variant": "inverted-slope5-flat-v1",
+            "print_variant_source": "reference/peg-print-variants.json",
+            "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+            "cap_removal_mm": 0.8,
+            "cut_plane_z_mm": 5.314116293072424,
+            "cut_plane_normal": [
+              0.0,
+              -0.08715574274765817,
+              0.9961946980917455
+            ],
+            "cut_plane_normal_distance_mm": 5.29389447620171,
+            "seat_slope_deg": 5.0,
+            "bed_flat_area_mm2": 10.133539999805787,
+            "bed_flat_width_mm": 3.5777087639996616,
+            "removed_volume_mm3": 4.295987672381327,
+            "removed_nearest_y_mm": -5.879843411056621,
+            "assumed_board_back_y_mm": -3.8,
+            "seated_board_band_change_mm3": 0.0,
+            "peg_subset_of_canonical": true
+          }
+        }
+      ],
+      "print_bounds": [
+        150.40000019999997,
+        54.14710608337222,
+        40.000000100000015
+      ]
+    },
+    {
+      "letters": "I-P",
+      "specs": [
+        {
+          "letter": "I",
+          "kind": "round",
+          "diameter": 6.0,
+          "clearance": 0.15,
+          "x": 61.25,
+          "opening_diameter": 6.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 36.35
+        },
+        {
+          "letter": "J",
+          "kind": "round",
+          "diameter": 6.5,
+          "clearance": 0.15,
+          "x": 43.75,
+          "opening_diameter": 6.8,
+          "seated_y": 39.370000000000005,
+          "back_y": 36.1
+        },
+        {
+          "letter": "K",
+          "kind": "round",
+          "diameter": 7.0,
+          "clearance": 0.15,
+          "x": 26.25,
+          "opening_diameter": 7.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 35.85
+        },
+        {
+          "letter": "L",
+          "kind": "round",
+          "diameter": 7.5,
+          "clearance": 0.15,
+          "x": 8.75,
+          "opening_diameter": 7.8,
+          "seated_y": 39.370000000000005,
+          "back_y": 35.6
+        },
+        {
+          "letter": "M",
+          "kind": "round",
+          "diameter": 8.0,
+          "clearance": 0.15,
+          "x": -8.75,
+          "opening_diameter": 8.3,
+          "seated_y": 39.370000000000005,
+          "back_y": 35.35
+        },
+        {
+          "letter": "N",
+          "kind": "hex",
+          "across_flats": 6.35,
+          "clearance": 0.1,
+          "x": -26.25,
+          "opening_across_flats": 6.55,
+          "seated_y": 39.42,
+          "back_y": 36.225
+        },
+        {
+          "letter": "O",
+          "kind": "hex",
+          "across_flats": 6.35,
+          "clearance": 0.2,
+          "x": -43.75,
+          "opening_across_flats": 6.75,
+          "seated_y": 39.32,
+          "back_y": 36.125
+        },
+        {
+          "letter": "P",
+          "kind": "hex",
+          "across_flats": 6.35,
+          "clearance": 0.3,
+          "x": -61.25,
+          "opening_across_flats": 6.949999999999999,
+          "seated_y": 39.22,
+          "back_y": 36.025
+        }
+      ],
+      "files": {
+        "installed": "part-ms01-shaft-fit-sampler-20x10x3__v2__I-P__installed__fit-e586ab4ff6",
+        "print-flat-top": "part-ms01-shaft-fit-sampler-20x10x3__v2__I-P__print-flat-top__fit-e586ab4ff6",
+        "pause-reference": "part-ms01-shaft-fit-sampler-20x10x3__v2__I-P__pause-reference__fit-e586ab4ff6"
+      },
+      "checks": [
+        {
+          "letter": "I",
+          "gap_mm": 1.019999999999992,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "J",
+          "gap_mm": 1.0199999999999922,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "K",
+          "gap_mm": 1.0199999999999882,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "L",
+          "gap_mm": 1.0199999999999976,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "M",
+          "gap_mm": 1.019999999999989,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "N",
+          "gap_mm": 1.0199999999999994,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "O",
+          "gap_mm": 1.0199999999999994,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        },
+        {
+          "letter": "P",
+          "gap_mm": 1.0199999999999925,
+          "withdrawal_overlap_mm3": 0.0,
+          "loading_overlap_mm3": 0.0
+        }
+      ],
+      "mounts": [
+        {
+          "board_side_difference_mm3": 0.0,
+          "buried_overlap_mm": 1.25,
+          "single_valid_solid": true,
+          "peg_profile": {
+            "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+            "canonical_source": "reference/peg-fit.scad",
+            "variant": "rear-tongue-3p80-interference0p05",
+            "board_grip_assumption_mm": 3.8,
+            "source_board_assumption_mm": 3.94,
+            "clearance_at_assumed_board_mm": -0.05,
+            "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+            "tongue_run_mm": 5.0,
+            "tongue_rise_mm": 3.3,
+            "tongue_angle_deg": 33.4248111826038,
+            "previous_tongue_angle_deg": 30.96375653207352,
+            "elbow_center_y_mm": -2.578176717793985,
+            "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+            "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+            "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+            "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+            "print_variant": "inverted-slope5-flat-v1",
+            "print_variant_source": "reference/peg-print-variants.json",
+            "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+            "cap_removal_mm": 0.8,
+            "cut_plane_z_mm": 5.314116293072424,
+            "cut_plane_normal": [
+              0.0,
+              -0.08715574274765817,
+              0.9961946980917455
+            ],
+            "cut_plane_normal_distance_mm": 5.29389447620171,
+            "seat_slope_deg": 5.0,
+            "bed_flat_area_mm2": 10.133539999805787,
+            "bed_flat_width_mm": 3.5777087639996616,
+            "removed_volume_mm3": 4.295987672381327,
+            "removed_nearest_y_mm": -5.879843411056621,
+            "assumed_board_back_y_mm": -3.8,
+            "seated_board_band_change_mm3": 0.0,
+            "peg_subset_of_canonical": true
+          }
+        },
+        {
+          "board_side_difference_mm3": 0.0,
+          "buried_overlap_mm": 1.25,
+          "single_valid_solid": true,
+          "peg_profile": {
+            "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+            "canonical_source": "reference/peg-fit.scad",
+            "variant": "rear-tongue-3p80-interference0p05",
+            "board_grip_assumption_mm": 3.8,
+            "source_board_assumption_mm": 3.94,
+            "clearance_at_assumed_board_mm": -0.05,
+            "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+            "tongue_run_mm": 5.0,
+            "tongue_rise_mm": 3.3,
+            "tongue_angle_deg": 33.4248111826038,
+            "previous_tongue_angle_deg": 30.96375653207352,
+            "elbow_center_y_mm": -2.578176717793985,
+            "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+            "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+            "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+            "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+            "print_variant": "inverted-slope5-flat-v1",
+            "print_variant_source": "reference/peg-print-variants.json",
+            "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+            "cap_removal_mm": 0.8,
+            "cut_plane_z_mm": 5.314116293072424,
+            "cut_plane_normal": [
+              0.0,
+              -0.08715574274765817,
+              0.9961946980917455
+            ],
+            "cut_plane_normal_distance_mm": 5.29389447620171,
+            "seat_slope_deg": 5.0,
+            "bed_flat_area_mm2": 10.133539999805787,
+            "bed_flat_width_mm": 3.5777087639996616,
+            "removed_volume_mm3": 4.295987672381327,
+            "removed_nearest_y_mm": -5.879843411056621,
+            "assumed_board_back_y_mm": -3.8,
+            "seated_board_band_change_mm3": 0.0,
+            "peg_subset_of_canonical": true
+          }
+        }
+      ],
+      "print_bounds": [
+        150.40000019999997,
+        54.14710608337222,
+        40.000000100000015
+      ]
+    }
+  ],
+  "plug_file": "part-ms01-shaft-fit-sampler-20x10x3__v2__plug-print-broad-face-quantity-16__fit-e586ab4ff6",
+  "magnet_mm": [
+    20,
+    10,
+    3
+  ],
+  "magnets_per_strip": 8,
+  "pause_height_mm": 38.0,
+  "local_to_print_offset_y_mm": -0.46315575257015906,
+  "plug_mm": [
+    10,
+    2.95,
+    14.0
+  ],
+  "plug_recess_mm": 1.0,
+  "qualification": "Fit sampler: try one screwdriver at a time; not simultaneous handle-spacing validation. Canonical tight pegs and F v1 magnet/plug construction. Physical magnetic/fit response untested."
+}

@@ -1,0 +1,316 @@
+{
+  "id": "SD03-D",
+  "version": 1,
+  "spec": {
+    "id": "SD03",
+    "name": "Standard drivers",
+    "cells": 7,
+    "count": 4,
+    "pitch": 44.45,
+    "depth": 58,
+    "y": 36,
+    "shaft": 6.35,
+    "handle": 30,
+    "handle_length": 105,
+    "blade": 152.4,
+    "mouth": 14,
+    "neck": 7.8,
+    "hand_extra": 10,
+    "grip_length": 65
+  },
+  "files": {
+    "rack-installed": "part-sd03-inverted-d__v1__4-drivers-7-cells__rack-installed__fit-e586ab4ff6",
+    "rack-print-flat-top": "part-sd03-inverted-d__v1__4-drivers-7-cells__rack-print-flat-top__fit-e586ab4ff6"
+  },
+  "tools": [
+    [
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-1-steel-0-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-1-yellow-1-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-1-rubber-2-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-2-steel-0-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-2-red-1-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-2-rubber-2-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-3-steel-0-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-3-yellow-1-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-3-rubber-2-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-4-steel-0-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-4-red-1-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-sd03-inverted-d__v1__4-drivers-7-cells__tool-4-rubber-2-planning-envelope__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ]
+  ],
+  "support_reference": "part-sd03-inverted-d__v1__4-drivers-7-cells__rear-pegs-support-review-reference__fit-e586ab4ff6.stl",
+  "peg_profile": {
+    "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "peg_checks": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+      }
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+      }
+    }
+  ],
+  "print_rotation_x_deg": 180,
+  "top_plane_z_mm": 5.6,
+  "seat_recess_mm": 0,
+  "width_mm": 175.79999999999998,
+  "projection_mm": 57.85,
+  "print_bounds_mm": [
+    175.8000030517578,
+    67.97772216796875,
+    39.599998474121094
+  ],
+  "top_contact_area_mm2": 9096.226799188207,
+  "host_surface_screen": {
+    "bed_area_mm2": 9096.266965866089,
+    "under_49p5_area_mm2": 0,
+    "worst": []
+  },
+  "whole_part_surface_screen": {
+    "bed_area_mm2": 9096.266965866089,
+    "under_49p5_area_mm2": 126.75732675608015,
+    "worst": [
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          78.79911295572917,
+          1.1633333166440327,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          78.87437184651692,
+          2.47666663924853,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          73.52562967936198,
+          1.1633333166440327,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          73.60088857014973,
+          2.47666663924853,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          -73.60088857014973,
+          1.1633333166440327,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          -73.52562967936198,
+          2.47666663924853,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          -78.87437184651692,
+          1.1633333166440327,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.44478005170822144,
+        "angle": 0.0,
+        "center": [
+          -78.79911295572917,
+          2.47666663924853,
+          32.467498779296875
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 0.0,
+        "center": [
+          78.79911295572917,
+          1.6687844892342885,
+          7.067500114440918
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 0.0,
+        "center": [
+          78.87437184651692,
+          0.759392241636912,
+          7.067500114440918
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 0.0,
+        "center": [
+          73.52562967936198,
+          1.6687844892342885,
+          7.067500114440918
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 0.0,
+        "center": [
+          73.60088857014973,
+          0.759392241636912,
+          7.067500114440918
+        ]
+      }
+    ]
+  },
+  "motion": [
+    {
+      "tool": 1,
+      "seated_overlap_mm3": 0.0,
+      "downward_bearing_mm3": 85.09476528230232,
+      "lift_then_forward_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 4.450000000000017,
+      "rear_heel_12_degree_overlap_mm3": 0.0
+    },
+    {
+      "tool": 2,
+      "seated_overlap_mm3": 0.0,
+      "downward_bearing_mm3": 85.09476528230267,
+      "lift_then_forward_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 4.450000000000001,
+      "rear_heel_12_degree_overlap_mm3": 0.0
+    },
+    {
+      "tool": 3,
+      "seated_overlap_mm3": 0.0,
+      "downward_bearing_mm3": 85.09476528230266,
+      "lift_then_forward_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 4.450000000000001,
+      "rear_heel_12_degree_overlap_mm3": 0.0
+    },
+    {
+      "tool": 4,
+      "seated_overlap_mm3": 0.0,
+      "downward_bearing_mm3": 85.09476528230252,
+      "lift_then_forward_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 4.45000000000001,
+      "rear_heel_12_degree_overlap_mm3": 0.0
+    }
+  ],
+  "qualification": "One closed solid; exact STEP round-trip; top contact and host overhang screen checked. Rear canonical hooks/locators need local support review. Not sliced or physically tested.",
+  "retention": "Flat open seats alone do not prevent the handle moving toward the board and shaft escaping forward. No magnet or positive anti-rock retention included in this print-orientation comparison."
+}

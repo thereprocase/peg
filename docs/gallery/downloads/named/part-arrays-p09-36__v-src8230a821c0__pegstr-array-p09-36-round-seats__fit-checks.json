@@ -1,0 +1,78 @@
+{
+  "id": "arrays/P09-36",
+  "source": "publication/warpbus-pegs/public/arrays/P09-36/model.step",
+  "public_source": "arrays/P09-36/model.step",
+  "name": "36 round seats",
+  "pose": "part-arrays-p09-36__v-src8230a821c0__pegstr-array-p09-36-round-seats__print-right-cheek__fit-9c7be3cc78.stl",
+  "source_sha256": "8230a821c0e20d577ea005cd6089bf53b90411a7b66b7f1792f945e09fee6e9e",
+  "profile": {
+    "config_sha256": "9c7be3cc7807ffba69a6a0a23e5344289850f5fce4b22a75fd9313b035de0d65",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "mount_columns_x_mm": [
+    -50.799999,
+    50.799999
+  ],
+  "front_body_difference_mm3": 0.0,
+  "host_trim_plane_y_mm": 0.15,
+  "board_side_difference_mm3": 0.0,
+  "exported_board_side_difference_mm3": 0.0,
+  "peg_reports": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true
+    }
+  ],
+  "mesh": {
+    "closed": true,
+    "volume_error_fraction": 1.1474043670379173e-05,
+    "triangles": 12520
+  },
+  "prior_pose_match_95percent_mm": 4.0752210399897726e-06,
+  "pose_transform": [
+    -0.0,
+    -0.0,
+    -1.0,
+    -13.427500247955322,
+    0.0,
+    1.0,
+    0.0,
+    -25.045998573303223,
+    1.0,
+    0.0,
+    0.0,
+    61.25,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "qualification": "Current peg fit on unchanged holder form. Old slicer/support/fit claims do not qualify this regenerated geometry.",
+  "files": {
+    "holder.FCStd": "50fd7b8c512c629196295cea2e2570b90629f1ada49b416ab679a003b90db6ab",
+    "holder.step": "b84b0b72670a816bdae3508de6c6e8f95c81a0ae52cec876a455b35a3ac85298",
+    "holder.stl": "0150c00b237e44fbd163f6aa3c51d672960d244aac39af83e1467b28433ecdb8",
+    "print-pose.step": "d74a527863a70c12cbeddade4aafd5fcf85e9b1088e4424ae665aa0fe479b77c",
+    "part-arrays-p09-36__v-src8230a821c0__pegstr-array-p09-36-round-seats__print-right-cheek__fit-9c7be3cc78.stl": "f19c2026de4a3970a6bcde15d3de661c332c9357ce68138e3dba2ac5d2e961bc"
+  }
+}

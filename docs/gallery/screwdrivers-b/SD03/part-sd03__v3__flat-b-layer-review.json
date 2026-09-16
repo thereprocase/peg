@@ -1,0 +1,9 @@
+{
+  "mesh_sha256": "216f0639460fe7ebc332e50ef84303684720043975660295a7999729c30ce3bb",
+  "layer_step_mm": 0.2,
+  "xy_raster_mm": 0.25,
+  "layers": 299,
+  "unanchored_starts_above_0_2_mm2": [],
+  "maximum_section_components": 3,
+  "scope": "Sampled geometric sections with 0.25 mm XY tolerance. Detects disconnected starts; does not establish extrusion paths, adhesion, cooling, strength or surface finish."
+}

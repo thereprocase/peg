@@ -1,0 +1,94 @@
+[
+  {
+    "id": "SD01",
+    "section_check": {
+      "mesh_sha256": "383ad64aa0fde65112190c0c7b4ffddf231ad0b2d0f67a742457e84690572c53",
+      "layer_step_mm": 0.2,
+      "xy_raster_mm": 0.25,
+      "layers": 217,
+      "unanchored_starts_above_0_2_mm2": [],
+      "maximum_section_components": 3,
+      "scope": "Sampled geometric sections with 0.25 mm XY tolerance. Detects disconnected starts; does not establish extrusion paths, adhesion, cooling, strength or surface finish."
+    },
+    "toolpaths": {
+      "largest_bridge_extrusion_segment_mm": 16.34361382926064,
+      "review_layers_mm": [
+        0.2,
+        9.8,
+        21.8,
+        33.8
+      ],
+      "extrusion_segments": 235645
+    },
+    "support_extrusion_segments": 0
+  },
+  {
+    "id": "SD02",
+    "section_check": {
+      "mesh_sha256": "80c5c9dc70f1e9a6c65f7411e665b78dcc6415a5e1b3f418c4f932cdf838d63e",
+      "layer_step_mm": 0.2,
+      "xy_raster_mm": 0.25,
+      "layers": 250,
+      "unanchored_starts_above_0_2_mm2": [],
+      "maximum_section_components": 3,
+      "scope": "Sampled geometric sections with 0.25 mm XY tolerance. Detects disconnected starts; does not establish extrusion paths, adhesion, cooling, strength or surface finish."
+    },
+    "toolpaths": {
+      "largest_bridge_extrusion_segment_mm": 14.180944467841346,
+      "review_layers_mm": [
+        0.2,
+        11.2,
+        25.0,
+        39.0
+      ],
+      "extrusion_segments": 382257
+    },
+    "support_extrusion_segments": 0
+  },
+  {
+    "id": "SD03",
+    "section_check": {
+      "mesh_sha256": "216f0639460fe7ebc332e50ef84303684720043975660295a7999729c30ce3bb",
+      "layer_step_mm": 0.2,
+      "xy_raster_mm": 0.25,
+      "layers": 299,
+      "unanchored_starts_above_0_2_mm2": [],
+      "maximum_section_components": 3,
+      "scope": "Sampled geometric sections with 0.25 mm XY tolerance. Detects disconnected starts; does not establish extrusion paths, adhesion, cooling, strength or surface finish."
+    },
+    "toolpaths": {
+      "largest_bridge_extrusion_segment_mm": 15.410353143260544,
+      "review_layers_mm": [
+        0.2,
+        13.4,
+        30.0,
+        46.6
+      ],
+      "extrusion_segments": 663953
+    },
+    "support_extrusion_segments": 0
+  },
+  {
+    "id": "SD04",
+    "section_check": {
+      "mesh_sha256": "dd1e15f698726a5de4721ea0225dea699dbacc9d3ccd37864e837848734f7864",
+      "layer_step_mm": 0.2,
+      "xy_raster_mm": 0.25,
+      "layers": 344,
+      "unanchored_starts_above_0_2_mm2": [],
+      "maximum_section_components": 3,
+      "scope": "Sampled geometric sections with 0.25 mm XY tolerance. Detects disconnected starts; does not establish extrusion paths, adhesion, cooling, strength or surface finish."
+    },
+    "toolpaths": {
+      "largest_bridge_extrusion_segment_mm": 19.435476351250042,
+      "review_layers_mm": [
+        0.2,
+        15.2,
+        34.6,
+        53.8
+      ],
+      "extrusion_segments": 1168248
+    },
+    "support_extrusion_segments": 0
+  }
+]

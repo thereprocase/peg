@@ -1,0 +1,743 @@
+[
+  {
+    "id": "barrels",
+    "label": "Three barrels",
+    "cells": 5,
+    "width_mm": 125.0,
+    "mount_columns_x_mm": [
+      -50.8,
+      50.8
+    ],
+    "pose": "upright",
+    "position": [
+      38.1,
+      0,
+      0
+    ],
+    "print_bounds_mm": [
+      125.0,
+      76.62663336505949,
+      125.44500000000001
+    ],
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "peg_checks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      }
+    ],
+    "mesh": {
+      "closed": true,
+      "facets": 11294,
+      "volume_error_fraction": 4.6462076237716806e-05,
+      "tessellation_cleanup": false
+    },
+    "tools": [
+      {
+        "kind": "flux",
+        "files": [
+          {
+            "file": "tool-0-0.stl",
+            "material": "paper"
+          },
+          {
+            "file": "tool-0-1.stl",
+            "material": "yellow"
+          },
+          {
+            "file": "tool-0-2.stl",
+            "material": "holder"
+          },
+          {
+            "file": "tool-0-3.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          -0.17364817766693033,
+          0.984807753012208
+        ],
+        "old_tool": 0,
+        "overlap_mm3": 0.0
+      },
+      {
+        "kind": "paste",
+        "files": [
+          {
+            "file": "tool-1-0.stl",
+            "material": "paper"
+          },
+          {
+            "file": "tool-1-1.stl",
+            "material": "darksteel"
+          },
+          {
+            "file": "tool-1-2.stl",
+            "material": "holder"
+          }
+        ],
+        "axis": [
+          0.0,
+          -0.17364817766693033,
+          0.984807753012208
+        ],
+        "old_tool": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "kind": "sucker",
+        "files": [
+          {
+            "file": "tool-2-0.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-2-1.stl",
+            "material": "red"
+          }
+        ],
+        "axis": [
+          0.0,
+          -0.17364817766693033,
+          0.984807753012208
+        ],
+        "old_tool": 2,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "support_scope": "Accessible rear peg undersides; curved short post/funnel bridges need layer review. No full-station cross bridges.",
+    "qualification": "Geometric form and fit study; not yet sliced or physically print-qualified."
+  },
+  {
+    "id": "tweezers",
+    "label": "Four tweezers",
+    "cells": 2,
+    "width_mm": 48.8,
+    "mount_columns_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "pose": "right-cheek",
+    "position": [
+      127,
+      0,
+      0
+    ],
+    "print_bounds_mm": [
+      180.445,
+      57.177451130377875,
+      48.800000000000026
+    ],
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "peg_checks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      }
+    ],
+    "mesh": {
+      "closed": true,
+      "facets": 9300,
+      "volume_error_fraction": 6.5723833080638e-06,
+      "tessellation_cleanup": false
+    },
+    "tools": [
+      {
+        "kind": "tweezer",
+        "files": [
+          {
+            "file": "tool-0-0.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.6427876096865393,
+          0.766044443118978
+        ],
+        "old_tool": 4,
+        "overlap_mm3": 0.0
+      },
+      {
+        "kind": "tweezer",
+        "files": [
+          {
+            "file": "tool-1-0.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.6427876096865393,
+          0.766044443118978
+        ],
+        "old_tool": 8,
+        "overlap_mm3": 0.0
+      },
+      {
+        "kind": "tweezer",
+        "files": [
+          {
+            "file": "tool-2-0.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.6427876096865393,
+          0.766044443118978
+        ],
+        "old_tool": 9,
+        "overlap_mm3": 0.0
+      },
+      {
+        "kind": "tweezer",
+        "files": [
+          {
+            "file": "tool-3-0.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.6427876096865393,
+          0.766044443118978
+        ],
+        "old_tool": 10,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "support_scope": "Accessible rear peg undersides; curved short post/funnel bridges need layer review. No full-station cross bridges.",
+    "qualification": "Geometric form and fit study; not yet sliced or physically print-qualified."
+  },
+  {
+    "id": "reel-thick",
+    "label": "Large solder reel",
+    "cells": 3,
+    "width_mm": 74.19999999999999,
+    "mount_columns_x_mm": [
+      -25.4,
+      25.4
+    ],
+    "pose": "right-cheek",
+    "position": [
+      -114.3,
+      0,
+      0
+    ],
+    "print_bounds_mm": [
+      75.445,
+      58.126633365059476,
+      74.19999999999999
+    ],
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "peg_checks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      }
+    ],
+    "mesh": {
+      "closed": true,
+      "facets": 8684,
+      "volume_error_fraction": 2.365389238056241e-05,
+      "tessellation_cleanup": false
+    },
+    "tools": [
+      {
+        "kind": "solder",
+        "files": [
+          {
+            "file": "tool-0-0.stl",
+            "material": "paper"
+          },
+          {
+            "file": "tool-0-1.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.9396926207859083,
+          0.3420201433256688
+        ],
+        "old_tool": 5,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "support_scope": "Accessible rear peg undersides; curved short post/funnel bridges need layer review. No full-station cross bridges.",
+    "qualification": "Geometric form and fit study; not yet sliced or physically print-qualified."
+  },
+  {
+    "id": "reel-thin",
+    "label": "Small solder reel",
+    "cells": 3,
+    "width_mm": 74.19999999999999,
+    "mount_columns_x_mm": [
+      -25.4,
+      25.4
+    ],
+    "pose": "right-cheek",
+    "position": [
+      -114.3,
+      0,
+      -101.6
+    ],
+    "print_bounds_mm": [
+      75.445,
+      58.126633365059476,
+      74.19999999999999
+    ],
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "peg_checks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      }
+    ],
+    "mesh": {
+      "closed": true,
+      "facets": 8684,
+      "volume_error_fraction": 2.365389238056241e-05,
+      "tessellation_cleanup": false
+    },
+    "tools": [
+      {
+        "kind": "solder",
+        "files": [
+          {
+            "file": "tool-0-0.stl",
+            "material": "paper"
+          },
+          {
+            "file": "tool-0-1.stl",
+            "material": "steel"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.9396926207859083,
+          0.3420201433256688
+        ],
+        "old_tool": 6,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "support_scope": "Accessible rear peg undersides; curved short post/funnel bridges need layer review. No full-station cross bridges.",
+    "qualification": "Geometric form and fit study; not yet sliced or physically print-qualified."
+  },
+  {
+    "id": "braid",
+    "label": "Braid roll",
+    "cells": 2,
+    "width_mm": 48.8,
+    "mount_columns_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "pose": "right-cheek",
+    "position": [
+      -50.8,
+      0,
+      -101.6
+    ],
+    "print_bounds_mm": [
+      62.445,
+      53.126633365059476,
+      48.80000000000001
+    ],
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "peg_checks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      }
+    ],
+    "mesh": {
+      "closed": true,
+      "facets": 8768,
+      "volume_error_fraction": 2.1806350321359115e-05,
+      "tessellation_cleanup": false
+    },
+    "tools": [
+      {
+        "kind": "braid",
+        "files": [
+          {
+            "file": "tool-0-0.stl",
+            "material": "blue"
+          }
+        ],
+        "axis": [
+          0.0,
+          0.9396926207859083,
+          0.3420201433256688
+        ],
+        "old_tool": 7,
+        "overlap_mm3": 0.0
+      }
+    ],
+    "support_scope": "Accessible rear peg undersides; curved short post/funnel bridges need layer review. No full-station cross bridges.",
+    "qualification": "Geometric form and fit study; not yet sliced or physically print-qualified."
+  },
+  {
+    "id": "drip-tray",
+    "label": "Removable drip tray",
+    "cells": 5,
+    "width_mm": 125.0,
+    "mount_columns_x_mm": [
+      -50.8,
+      50.8
+    ],
+    "pose": "upright",
+    "position": [
+      38.1,
+      0,
+      -127
+    ],
+    "print_bounds_mm": [
+      125.0,
+      84.97663336505948,
+      53.445
+    ],
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "peg_checks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true,
+        "profile": "rear-tongue-3p80-interference0p05"
+      }
+    ],
+    "mesh": {
+      "closed": true,
+      "facets": 8182,
+      "volume_error_fraction": 1.9578751515178173e-05,
+      "tessellation_cleanup": false
+    },
+    "tools": [],
+    "support_scope": "Accessible rear peg undersides; curved short post/funnel bridges need layer review. No full-station cross bridges.",
+    "qualification": "Geometric form and fit study; not yet sliced or physically print-qualified."
+  },
+  {
+    "scale": 1.0,
+    "count": 2,
+    "seat_centers_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "seat_pitch_mm": 25.4,
+    "module_cells": 2,
+    "edge_clearance_mm": 1,
+    "nominal_module_width_mm": 50.8,
+    "peg_columns_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "peg_reports": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true
+      }
+    ],
+    "peg_fit": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    "envelope_trim_mm3": 0.0,
+    "throat_mm": [
+      8.0,
+      18.0
+    ],
+    "mouth_mm": [
+      16.0,
+      36.0
+    ],
+    "corner_radius_max_mm": 2,
+    "host_extended_check": "passed",
+    "export": {
+      "valid": true,
+      "solids": 1,
+      "closed_mesh": true,
+      "step_exchange_healed": false,
+      "step_relative_volume_error": 2.7163553815866556e-08,
+      "mesh_relative_volume_error": 0.00030710230081650985
+    },
+    "print_export": {
+      "valid": true,
+      "solids": 1,
+      "closed_mesh": true,
+      "step_exchange_healed": false,
+      "step_relative_volume_error": 2.7163631260073697e-08,
+      "mesh_relative_volume_error": 0.0003134379262836787
+    },
+    "print_pose_bounds_mm": [
+      71.44500000000002,
+      64.74137431031903,
+      48.800000000000004
+    ],
+    "dimensions_mm": [
+      48.8,
+      64.741374310319,
+      71.445
+    ],
+    "measured_throats_mm": [
+      [
+        8.0,
+        18.0
+      ],
+      [
+        8.0,
+        18.0
+      ]
+    ],
+    "tools": [
+      {
+        "kind": "micro-snips",
+        "scale": 1.0,
+        "files": [
+          {
+            "file": "tool-0-0.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-0-1.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-0-2.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-0-3.stl",
+            "material": "darksteel"
+          },
+          {
+            "file": "tool-0-4.stl",
+            "material": "red"
+          },
+          {
+            "file": "tool-0-5.stl",
+            "material": "red"
+          }
+        ],
+        "max_sampled_path_overlap_mm3": 0
+      },
+      {
+        "kind": "needle-nose",
+        "scale": 1.0,
+        "files": [
+          {
+            "file": "tool-1-0.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-1-1.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-1-2.stl",
+            "material": "steel"
+          },
+          {
+            "file": "tool-1-3.stl",
+            "material": "darksteel"
+          },
+          {
+            "file": "tool-1-4.stl",
+            "material": "blue"
+          },
+          {
+            "file": "tool-1-5.stl",
+            "material": "blue"
+          }
+        ],
+        "max_sampled_path_overlap_mm3": 0
+      }
+    ],
+    "handle_gap_planning_mm": 17.2,
+    "scope": "Assumed flat-tool envelopes, not measured tools. Intentional rear-peg interference requires board/peg compliance. Physical fit, force, creep, print finish and load unverified.",
+    "sha256": "133a0c4262a731840d54540e8efd479a69f7c511f72cd494b09557551293e7b4",
+    "id": "snips-pliers",
+    "label": "Snips + small pliers",
+    "cells": 2,
+    "width_mm": 48.8,
+    "position": [
+      -50.8,
+      0,
+      0
+    ],
+    "pose": "right-cheek",
+    "peg_profile": {
+      "variant": "rear-tongue-3p80-interference0p05",
+      "board_grip_assumption_mm": 3.8,
+      "source_board_assumption_mm": 3.94,
+      "clearance_at_assumed_board_mm": -0.05,
+      "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+      "tongue_run_mm": 5.0,
+      "tongue_rise_mm": 3.3,
+      "tongue_angle_deg": 33.4248111826038,
+      "previous_tongue_angle_deg": 30.96375653207352,
+      "elbow_center_y_mm": -2.578176717793985,
+      "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+      "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+      "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+      "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    }
+  }
+]

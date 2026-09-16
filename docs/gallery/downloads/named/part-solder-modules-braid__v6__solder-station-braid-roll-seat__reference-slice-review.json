@@ -1,0 +1,27 @@
+{
+  "filament_g": 26.05,
+  "print_time": "1h 10m 18s; total estimated time: 1h 16m 29s",
+  "support_g": 0.899,
+  "support_percent": 3.45,
+  "layers": 244,
+  "outside_plate": false,
+  "mesh_repairs": [
+    {
+      "edges_fixed": "0",
+      "degenerate_facets": "0",
+      "facets_removed": "0",
+      "facets_reversed": "0",
+      "backwards_edges": "0"
+    }
+  ],
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "id": "braid",
+  "pose": "right-cheek",
+  "scope": "P1S 0.4 mm / existing PETG profile; orientation and support review only, no printer connection or physical finish proof."
+}

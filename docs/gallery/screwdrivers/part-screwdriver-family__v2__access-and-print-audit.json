@@ -1,0 +1,169 @@
+[
+  {
+    "id": "SD01",
+    "access": [
+      {
+        "tool": 1,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 44.19999729913783
+      },
+      {
+        "tool": 2,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 44.19999729826987
+      },
+      {
+        "tool": 3,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 44.19999729830144
+      },
+      {
+        "tool": 4,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 44.19999729826716
+      },
+      {
+        "tool": 5,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 44.199997298320774
+      },
+      {
+        "tool": 6,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 44.19999729911651
+      }
+    ],
+    "overhangs": {
+      "rack": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.53103586740326,
+        "lowest_flagged_body_angle_deg": 90
+      },
+      "tip-floor": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.53103586740326,
+        "lowest_flagged_body_angle_deg": 90
+      }
+    },
+    "note": "Surface-angle screen only; rear pegs need local support review. No slicer or print proof."
+  },
+  {
+    "id": "SD02",
+    "access": [
+      {
+        "tool": 1,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 54.39672371914981
+      },
+      {
+        "tool": 2,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 54.396723719135416
+      },
+      {
+        "tool": 3,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 54.39672371915518
+      },
+      {
+        "tool": 4,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 54.39672371914109
+      },
+      {
+        "tool": 5,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 54.39672371914172
+      }
+    ],
+    "overhangs": {
+      "rack": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.5310352074448,
+        "lowest_flagged_body_angle_deg": 90
+      },
+      "tip-floor": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.5310352074448,
+        "lowest_flagged_body_angle_deg": 90
+      }
+    },
+    "note": "Surface-angle screen only; rear pegs need local support review. No slicer or print proof."
+  },
+  {
+    "id": "SD03",
+    "access": [
+      {
+        "tool": 1,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 38.4722907170434
+      },
+      {
+        "tool": 2,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 38.47229071705032
+      },
+      {
+        "tool": 3,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 38.472290717061895
+      },
+      {
+        "tool": 4,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 38.4722907170684
+      }
+    ],
+    "overhangs": {
+      "rack": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.53103369218297,
+        "lowest_flagged_body_angle_deg": 90
+      },
+      "tip-floor": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.53103369218297,
+        "lowest_flagged_body_angle_deg": 90
+      }
+    },
+    "note": "Surface-angle screen only; rear pegs need local support review. No slicer or print proof."
+  },
+  {
+    "id": "SD04",
+    "access": [
+      {
+        "tool": 1,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 15.402875385586288
+      },
+      {
+        "tool": 2,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 15.40287538558874
+      },
+      {
+        "tool": 3,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 15.40287538559062
+      },
+      {
+        "tool": 4,
+        "approach_cone_neighbor_overlap_mm3": 0.0,
+        "two_mm_high_forward_block_mm3": 15.402875385586572
+      }
+    ],
+    "overhangs": {
+      "rack": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.531033055624,
+        "lowest_flagged_body_angle_deg": 90
+      },
+      "tip-floor": {
+        "non_bed_non_peg_under_49p5_deg_area_mm2": 0,
+        "rear_peg_under_49p5_deg_area_mm2": 127.531033055624,
+        "lowest_flagged_body_angle_deg": 90
+      }
+    },
+    "note": "Surface-angle screen only; rear pegs need local support review. No slicer or print proof."
+  }
+]

@@ -1,0 +1,323 @@
+{
+  "id": "MB01-F",
+  "version": 1,
+  "width_mm": 99.6,
+  "cells": 4,
+  "tool_count": 2,
+  "tool_pitch_mm": 50.8,
+  "projection_mm": 46.29724243730446,
+  "seat_slope_deg": 5.0,
+  "groove_length_mm": 30,
+  "specs": [
+    {
+      "label": "Small",
+      "x": 25.4,
+      "shaft": 3.0,
+      "groove_radius": 1.65,
+      "handle_radius": 8.0,
+      "handle_length": 75.0,
+      "shaft_length": 70.0,
+      "seated_axis_local_y_mm": 39.370000000000005
+    },
+    {
+      "label": "Large",
+      "x": -25.4,
+      "shaft": 8.0,
+      "groove_radius": 4.2,
+      "handle_radius": 17.0,
+      "handle_length": 115.0,
+      "shaft_length": 160.0,
+      "seated_axis_local_y_mm": 39.32
+    }
+  ],
+  "checks": [
+    {
+      "seat": "Small",
+      "shaft_diameter_mm": 3.0,
+      "groove_radius_mm": 1.65,
+      "shaft_to_magnet_min_gap_mm": 1.0199999999999854,
+      "bearing_overlap_at_0p1_mm_mm3": 14.911126188163294,
+      "lift_forward_overlap_mm3": 0.0,
+      "straight_forward_overlap_mm3": 0.0,
+      "grasp_clearance_mm": 13.631168023439333,
+      "loading_path_overlap_mm3": 0.0
+    },
+    {
+      "seat": "Large",
+      "shaft_diameter_mm": 8.0,
+      "groove_radius_mm": 4.2,
+      "shaft_to_magnet_min_gap_mm": 1.0199999999999934,
+      "bearing_overlap_at_0p1_mm_mm3": 54.35379334686273,
+      "lift_forward_overlap_mm3": 0.0,
+      "straight_forward_overlap_mm3": 0.0,
+      "grasp_clearance_mm": 5.611800703800775,
+      "loading_path_overlap_mm3": 0.0
+    }
+  ],
+  "files": {
+    "holder-installed": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__holder-installed__fit-e586ab4ff6",
+    "holder-print-flat-top": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__holder-print-flat-top__fit-e586ab4ff6",
+    "pause-28mm-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__pause-28mm-reference__fit-e586ab4ff6",
+    "plug-print-broad-face-quantity-2": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__plug-print-broad-face-quantity-2__fit-e586ab4ff6",
+    "magnet-1-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__magnet-1-reference__fit-e586ab4ff6",
+    "plug-1-installed-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__plug-1-installed-reference__fit-e586ab4ff6",
+    "magnet-2-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__magnet-2-reference__fit-e586ab4ff6",
+    "plug-2-installed-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__plug-2-installed-reference__fit-e586ab4ff6",
+    "section-holder-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__section-holder-reference__fit-e586ab4ff6",
+    "section-magnet-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__section-magnet-reference__fit-e586ab4ff6",
+    "section-plug-reference": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__section-plug-reference__fit-e586ab4ff6"
+  },
+  "tools": [
+    [
+      {
+        "file": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__small-tool-0-reference__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__small-tool-1-reference__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__small-tool-2-reference__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__large-tool-0-reference__fit-e586ab4ff6.stl",
+        "material": "steel"
+      },
+      {
+        "file": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__large-tool-1-reference__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__large-tool-2-reference__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ]
+  ],
+  "exports": {
+    "holder-installed": {
+      "closed": true,
+      "facets": 6904,
+      "volume_error_fraction": 5.252833453280958e-07,
+      "tessellation_cleanup": false
+    },
+    "holder-print-flat-top": {
+      "closed": true,
+      "facets": 6904,
+      "volume_error_fraction": 4.278344177351138e-06,
+      "tessellation_cleanup": false
+    },
+    "pause-28mm-reference": {
+      "closed": true,
+      "facets": 5972,
+      "volume_error_fraction": 3.177366366081845e-06,
+      "tessellation_cleanup": false
+    },
+    "plug-print-broad-face-quantity-2": {
+      "closed": true,
+      "facets": 12,
+      "volume_error_fraction": 1.3979650032887528e-08,
+      "tessellation_cleanup": false
+    }
+  },
+  "peg_variant": {
+    "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+    "print_variant": "inverted-slope5-flat-v1",
+    "print_variant_source": "reference/peg-print-variants.json",
+    "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+    "cap_removal_mm": 0.8,
+    "cut_plane_z_mm": 5.314116293072424,
+    "cut_plane_normal": [
+      0.0,
+      -0.08715574274765817,
+      0.9961946980917455
+    ],
+    "cut_plane_normal_distance_mm": 5.29389447620171,
+    "seat_slope_deg": 5.0,
+    "bed_flat_area_mm2": 10.133539999805787,
+    "bed_flat_width_mm": 3.5777087639996616,
+    "removed_volume_mm3": 4.295987672381327,
+    "removed_nearest_y_mm": -5.879843411056621,
+    "assumed_board_back_y_mm": -3.8,
+    "seated_board_band_change_mm3": 0.0,
+    "peg_subset_of_canonical": true
+  },
+  "mounts": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-slope5-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 5.314116293072424,
+        "cut_plane_normal": [
+          0.0,
+          -0.08715574274765817,
+          0.9961946980917455
+        ],
+        "cut_plane_normal_distance_mm": 5.29389447620171,
+        "seat_slope_deg": 5.0,
+        "bed_flat_area_mm2": 10.133539999805787,
+        "bed_flat_width_mm": 3.5777087639996616,
+        "removed_volume_mm3": 4.295987672381327,
+        "removed_nearest_y_mm": -5.879843411056621,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      }
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-slope5-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 5.314116293072424,
+        "cut_plane_normal": [
+          0.0,
+          -0.08715574274765817,
+          0.9961946980917455
+        ],
+        "cut_plane_normal_distance_mm": 5.29389447620171,
+        "seat_slope_deg": 5.0,
+        "bed_flat_area_mm2": 10.133539999805787,
+        "bed_flat_width_mm": 3.5777087639996616,
+        "removed_volume_mm3": 4.295987672381327,
+        "removed_nearest_y_mm": -5.879843411056621,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      }
+    }
+  ],
+  "magnet_mm": [
+    10,
+    10,
+    3
+  ],
+  "magnet_count": 2,
+  "magnetization": "Through 3 mm thickness; broad face aimed at shaft.",
+  "groove_back_skin_mm": 0.8,
+  "magnet_pocket_mm": [
+    10.4,
+    3.4,
+    25
+  ],
+  "pause_completed_height_mm": 28.0,
+  "plug_mm": [
+    10,
+    2.95,
+    14.8
+  ],
+  "magnet_top_below_pause_plane_mm": 15.0,
+  "plug_top_recess_mm": 0.2,
+  "final_pocket_cap_mm": 2.0,
+  "print_rotation_x_deg": 175.0,
+  "print_bounds_mm": [
+    99.60000000000001,
+    54.147105983372214,
+    39.648228683570565
+  ],
+  "bed_contact_area_mm2": 4293.4519996778745,
+  "host_surface_screen": {
+    "bed_area_mm2": 4273.198176860809,
+    "under_49p5_area_mm2": 70.72003173828125,
+    "worst": [
+      {
+        "area": 17.680007934570312,
+        "angle": 0.0,
+        "center": [
+          -27.133333841959637,
+          -33.82982381184896,
+          28.0
+        ]
+      },
+      {
+        "area": 17.680007934570312,
+        "angle": 0.0,
+        "center": [
+          -23.666667302449543,
+          -32.69648996988932,
+          28.0
+        ]
+      },
+      {
+        "area": 17.680007934570312,
+        "angle": 0.0,
+        "center": [
+          23.666667302449543,
+          -36.37982304890951,
+          28.0
+        ]
+      },
+      {
+        "area": 17.680007934570312,
+        "angle": 0.0,
+        "center": [
+          27.133333841959637,
+          -35.24648920694987,
+          28.0
+        ]
+      }
+    ]
+  },
+  "assembly_native": "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__assembly-reference__fit-e586ab4ff6.FCStd",
+  "instructions": "Print TWO plugs first on their broad faces. Holder prints flat top down. Pause before closing chimneys at geometric Z=28 mm; insert two magnets, then plugs. Resume to cap. Exact layer and loading sequence must be verified in slicer before use.",
+  "qualification": "One connected holder, STEP round trips, open forward/lift withdrawal, nominal grasp and pause-loading geometry checked. Local peg supports expected. Not sliced, physically tested, magnet-force or hotend-attraction qualified. Tool envelopes are illustrative, not measured Craftsman models."
+}

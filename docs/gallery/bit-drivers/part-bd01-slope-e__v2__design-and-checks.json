@@ -1,0 +1,483 @@
+{
+  "id": "BD01-E",
+  "version": 2,
+  "files": {
+    "rack-installed": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__rack-installed__slope5-pegflat0p80__fit-e586ab4ff6",
+    "rack-print-sloped-top": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__rack-print-sloped-top__slope5-pegflat0p80__fit-e586ab4ff6"
+  },
+  "tools": [
+    [
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-1-darksteel-0-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "darksteel"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-1-yellow-1-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-1-rubber-2-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-2-darksteel-0-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "darksteel"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-2-red-1-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-2-rubber-2-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-3-darksteel-0-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "darksteel"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-3-yellow-1-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "yellow"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-3-rubber-2-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      }
+    ],
+    [
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-4-darksteel-0-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "darksteel"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-4-red-1-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "red"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-4-rubber-2-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "rubber"
+      },
+      {
+        "file": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__tool-4-steel-3-planning-envelope__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+        "material": "steel"
+      }
+    ]
+  ],
+  "support_reference": "part-bd01-slope-e__v2__4-bit-drivers-8-cells__rear-pegs-support-reference__slope5-pegflat0p80__fit-e586ab4ff6.stl",
+  "width_mm": 201.2,
+  "projection_mm": 64.85,
+  "cells": 8,
+  "count": 4,
+  "tool_pitch_mm": 50.8,
+  "front_mouth_width_mm": 21.190911403039372,
+  "round_shaft_range_mm": [
+    3,
+    10
+  ],
+  "hex_bit_across_flats_mm": 6.35,
+  "hex_bit_across_corners_mm": 7.332348418708247,
+  "v_included_angle_deg": 40,
+  "seat_slope_deg": 5.0,
+  "top_z_at_board_mm": 5.327239592601313,
+  "print_rotation_x_deg": 175.0,
+  "peg_variant": {
+    "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "canonical_source": "reference/peg-fit.scad",
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+    "print_variant": "inverted-slope5-flat-v1",
+    "print_variant_source": "reference/peg-print-variants.json",
+    "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+    "cap_removal_mm": 0.8,
+    "cut_plane_z_mm": 5.314116293072424,
+    "cut_plane_normal": [
+      0.0,
+      -0.08715574274765817,
+      0.9961946980917455
+    ],
+    "cut_plane_normal_distance_mm": 5.29389447620171,
+    "seat_slope_deg": 5.0,
+    "bed_flat_area_mm2": 10.133539999805787,
+    "bed_flat_width_mm": 3.5777087639996616,
+    "removed_volume_mm3": 4.295987672381327,
+    "removed_nearest_y_mm": -5.879843411056621,
+    "assumed_board_back_y_mm": -3.8,
+    "seated_board_band_change_mm3": 0.0,
+    "peg_subset_of_canonical": true
+  },
+  "mounts": [
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-slope5-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 5.314116293072424,
+        "cut_plane_normal": [
+          0.0,
+          -0.08715574274765817,
+          0.9961946980917455
+        ],
+        "cut_plane_normal_distance_mm": 5.29389447620171,
+        "seat_slope_deg": 5.0,
+        "bed_flat_area_mm2": 10.133539999805787,
+        "bed_flat_width_mm": 3.5777087639996616,
+        "removed_volume_mm3": 4.295987672381327,
+        "removed_nearest_y_mm": -5.879843411056621,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      }
+    },
+    {
+      "board_side_difference_mm3": 0.0,
+      "buried_overlap_mm": 1.25,
+      "single_valid_solid": true,
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-slope5-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 5.314116293072424,
+        "cut_plane_normal": [
+          0.0,
+          -0.08715574274765817,
+          0.9961946980917455
+        ],
+        "cut_plane_normal_distance_mm": 5.29389447620171,
+        "seat_slope_deg": 5.0,
+        "bed_flat_area_mm2": 10.133539999805787,
+        "bed_flat_width_mm": 3.5777087639996616,
+        "removed_volume_mm3": 4.295987672381327,
+        "removed_nearest_y_mm": -5.879843411056621,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      }
+    }
+  ],
+  "motion": [
+    {
+      "tool": 1,
+      "bit_or_shaft_mm": 3,
+      "collar_diameter_above_seat_mm": 0,
+      "bearing": "shaft root / handle shoulder",
+      "seated_y_mm": 40.38396058302105,
+      "motion_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 6.884070514950085
+    },
+    {
+      "tool": 2,
+      "bit_or_shaft_mm": 5,
+      "collar_diameter_above_seat_mm": 0,
+      "bearing": "shaft root / handle shoulder",
+      "seated_y_mm": 43.29663902472083,
+      "motion_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 4.988963731217652
+    },
+    {
+      "tool": 3,
+      "bit_or_shaft_mm": 8,
+      "collar_diameter_above_seat_mm": 0,
+      "bearing": "shaft root / handle shoulder",
+      "seated_y_mm": 47.66565668727051,
+      "motion_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 3.825903466998144
+    },
+    {
+      "tool": 4,
+      "bit_or_shaft_mm": 6.35,
+      "collar_diameter_above_seat_mm": 13,
+      "bearing": "collar tip; collar stays above top",
+      "seated_y_mm": 46.04934399451111,
+      "motion_max_overlap_mm3": 0.0,
+      "grasp_gap_mm": 4.825903466998142
+    }
+  ],
+  "round_shaft_checks": [
+    {
+      "round_diameter_mm": 3,
+      "seat_depth_from_v_apex_mm": 4.4007066002446305,
+      "minimum_shoulder_test_diameter_mm": 5
+    },
+    {
+      "round_diameter_mm": 4,
+      "seat_depth_from_v_apex_mm": 5.862608800326175,
+      "minimum_shoulder_test_diameter_mm": 6
+    },
+    {
+      "round_diameter_mm": 5,
+      "seat_depth_from_v_apex_mm": 7.3245110004077185,
+      "minimum_shoulder_test_diameter_mm": 7
+    },
+    {
+      "round_diameter_mm": 6,
+      "seat_depth_from_v_apex_mm": 8.786413200489262,
+      "minimum_shoulder_test_diameter_mm": 8
+    },
+    {
+      "round_diameter_mm": 6.35,
+      "seat_depth_from_v_apex_mm": 9.298078970517803,
+      "minimum_shoulder_test_diameter_mm": 8.35
+    },
+    {
+      "round_diameter_mm": 7,
+      "seat_depth_from_v_apex_mm": 10.248315400570807,
+      "minimum_shoulder_test_diameter_mm": 9
+    },
+    {
+      "round_diameter_mm": 8,
+      "seat_depth_from_v_apex_mm": 11.710217600652351,
+      "minimum_shoulder_test_diameter_mm": 10
+    },
+    {
+      "round_diameter_mm": 9,
+      "seat_depth_from_v_apex_mm": 13.172119800733894,
+      "minimum_shoulder_test_diameter_mm": 11
+    },
+    {
+      "round_diameter_mm": 10,
+      "seat_depth_from_v_apex_mm": 14.634022000815438,
+      "minimum_shoulder_test_diameter_mm": 12
+    }
+  ],
+  "hex_rotation_checks": [
+    {
+      "rotation_deg": 0,
+      "seat_depth_from_v_apex_mm": 10.087730855987358
+    },
+    {
+      "rotation_deg": 5,
+      "seat_depth_from_v_apex_mm": 10.368929210298305
+    },
+    {
+      "rotation_deg": 10,
+      "seat_depth_from_v_apex_mm": 10.571327911445488
+    },
+    {
+      "rotation_deg": 15,
+      "seat_depth_from_v_apex_mm": 10.693386583101507
+    },
+    {
+      "rotation_deg": 20,
+      "seat_depth_from_v_apex_mm": 10.734176285074014
+    },
+    {
+      "rotation_deg": 25,
+      "seat_depth_from_v_apex_mm": 10.693386583101507
+    },
+    {
+      "rotation_deg": 30,
+      "seat_depth_from_v_apex_mm": 10.57132791144549
+    },
+    {
+      "rotation_deg": 35,
+      "seat_depth_from_v_apex_mm": 10.693386583101507
+    },
+    {
+      "rotation_deg": 40,
+      "seat_depth_from_v_apex_mm": 10.734176285074014
+    },
+    {
+      "rotation_deg": 45,
+      "seat_depth_from_v_apex_mm": 10.693386583101507
+    },
+    {
+      "rotation_deg": 50,
+      "seat_depth_from_v_apex_mm": 10.571327911445488
+    },
+    {
+      "rotation_deg": 55,
+      "seat_depth_from_v_apex_mm": 10.368929210298305
+    },
+    {
+      "rotation_deg": 60,
+      "seat_depth_from_v_apex_mm": 10.08773085598736
+    }
+  ],
+  "host_surface_screen": {
+    "bed_area_mm2": 11661.92431640625,
+    "under_49p5_area_mm2": 0,
+    "worst": []
+  },
+  "whole_part_surface_screen": {
+    "bed_area_mm2": 11682.195373293376,
+    "under_49p5_area_mm2": 100.71244451124221,
+    "worst": [
+      {
+        "area": 0.44478002190589905,
+        "angle": 4.99998542124833,
+        "center": [
+          86.22562662760417,
+          3.500563303629557,
+          31.957763671875
+        ]
+      },
+      {
+        "area": 0.44478002190589905,
+        "angle": 4.99998542124833,
+        "center": [
+          86.30088551839192,
+          4.808899005254109,
+          31.843299865722656
+        ]
+      },
+      {
+        "area": 0.44478002190589905,
+        "angle": 4.99998542124833,
+        "center": [
+          -86.30088551839192,
+          3.500563303629557,
+          31.957763671875
+        ]
+      },
+      {
+        "area": 0.44478002190589905,
+        "angle": 4.99998542124833,
+        "center": [
+          -86.22562662760417,
+          4.808899005254109,
+          31.843299865722656
+        ]
+      },
+      {
+        "area": 0.44476500153541565,
+        "angle": 4.99998542124833,
+        "center": [
+          91.49911499023438,
+          3.500563303629557,
+          31.957763671875
+        ]
+      },
+      {
+        "area": 0.44476500153541565,
+        "angle": 4.99998542124833,
+        "center": [
+          91.57437133789062,
+          4.808899005254109,
+          31.843299865722656
+        ]
+      },
+      {
+        "area": 0.44476500153541565,
+        "angle": 4.99998542124833,
+        "center": [
+          -91.57437133789062,
+          3.500563303629557,
+          31.957763671875
+        ]
+      },
+      {
+        "area": 0.44476500153541565,
+        "angle": 4.99998542124833,
+        "center": [
+          -91.49911499023438,
+          4.808899005254109,
+          31.843299865722656
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 4.99998542124833,
+        "center": [
+          86.22562662760417,
+          1.7903353677441676,
+          6.610366185506185
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 4.99998542124833,
+        "center": [
+          86.30088551839192,
+          0.8844036074976126,
+          6.689624945322673
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 4.99998542124833,
+        "center": [
+          -86.30088551839192,
+          1.7903353677441676,
+          6.610366185506185
+        ]
+      },
+      {
+        "area": 0.3079793453216553,
+        "angle": 4.99998542124833,
+        "center": [
+          -86.22562662760417,
+          0.8844036074976126,
+          6.689624945322673
+        ]
+      }
+    ]
+  },
+  "print_bounds_mm": [
+    201.1999969482422,
+    75.39462566375732,
+    39.6482276916504
+  ],
+  "bed_contact_area_mm2": 11682.191361345052,
+  "seat_recess_mm": 0,
+  "assumptions": "Continuous 40 degree V accepts nominal 3-10 mm round shafts and 1/4-inch hex bits at diameter-dependent depths. Collar tip or shaft root bears on the planar top; collar stays above it. Handle envelopes inform hand spacing only; no handle-shaped pockets.",
+  "retention": "5 degree inward slope supplies a rearward gravity component. Friction may prevent self-seating; no detent, magnet or positive anti-rock lock. Shaft V biases lateral position after full return.",
+  "references": [
+    "https://www.wihatools.com/products/softfinish-magnetic-bit-holder",
+    "https://www.wera.de/en-nz/tools/813-r-bitholding-screwdriver-with-rapidaptor-quick-release-chuck"
+  ],
+  "reference_scope": "Manufacturer sources confirm 1/4-inch bit interfaces and differing sleeve constructions. Collar and shoulder envelopes here are design assumptions, not dimensions taken from those listings.",
+  "qualification": "One solid; STEP round-trip and three coplanar bed contacts checked; nominal tool lift/uphill withdrawal checked. Local peg supports expected. Not sliced or physically tested."
+}

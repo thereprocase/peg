@@ -1,0 +1,133 @@
+{
+  "id": "solder-modules-tweezers",
+  "version": 7,
+  "files": {
+    "installed": "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__installed",
+    "print-right-cheek": "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__print-right-cheek"
+  },
+  "fit": {
+    "canonical_source": "reference/peg-fit.scad",
+    "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "hooks": [
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true
+      },
+      {
+        "board_side_difference_mm3": 0.0,
+        "buried_overlap_mm": 1.25,
+        "single_valid_solid": true
+      }
+    ],
+    "columns_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "straight_rows": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "straight_count": 12,
+    "locator_diameter_mm": 6.449999999999999,
+    "diametral_interference_mm": 0.1,
+    "locator_depth_from_board_face_mm": 3.8,
+    "configuration": {
+      "PEG_FIT_REVISION": "rear-tongue-3p80-interference0p05",
+      "PEG_BOARD_GRIP": 3.8,
+      "PEG_PULL_CLEARANCE": -0.05,
+      "PEG_TONGUE_RUN": 5.0,
+      "PEG_TONGUE_RISE": 3.3,
+      "PEG_HOLE_DIAMETER": 6.35,
+      "PEG_DIAMETER": 5.6,
+      "PEG_TONGUE_DIAMETER": 4.8,
+      "PEG_FACE_Y": 0.15,
+      "PEG_ROOT_Y": 1.4,
+      "PEG_SEAT_DROP": 0.12,
+      "PEG_PITCH": 25.4,
+      "PEG_ARRAY_DIAMETRAL_INTERFERENCE": 0.1,
+      "PEG_ARRAY_DEPTH": 3.8,
+      "PEG_ARRAY_TIP_DIAMETER": 5.2,
+      "PEG_ARRAY_LEAD_LENGTH": 1.0
+    },
+    "scope": "Optional array; upper hook geometry unchanged. Deliberate bore contact needs board/plastic compliance; retention force and wear unmeasured."
+  },
+  "tools": [
+    {
+      "kind": "tweezer",
+      "files": [
+        {
+          "file": "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__tool-1-0-envelope.stl",
+          "material": "steel"
+        }
+      ],
+      "axis": [
+        0.0,
+        0.6427876096865393,
+        0.766044443118978
+      ],
+      "old_tool": 4,
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "tweezer",
+      "files": [
+        {
+          "file": "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__tool-2-0-envelope.stl",
+          "material": "steel"
+        }
+      ],
+      "axis": [
+        0.0,
+        0.6427876096865393,
+        0.766044443118978
+      ],
+      "old_tool": 8,
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "tweezer",
+      "files": [
+        {
+          "file": "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__tool-3-0-envelope.stl",
+          "material": "steel"
+        }
+      ],
+      "axis": [
+        0.0,
+        0.6427876096865393,
+        0.766044443118978
+      ],
+      "old_tool": 9,
+      "overlap_mm3": 0.0
+    },
+    {
+      "kind": "tweezer",
+      "files": [
+        {
+          "file": "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__tool-4-0-envelope.stl",
+          "material": "steel"
+        }
+      ],
+      "axis": [
+        0.0,
+        0.6427876096865393,
+        0.766044443118978
+      ],
+      "old_tool": 10,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "working_geometry_difference_mm3": 0.0,
+  "print_face": "right-cheek",
+  "print_bounds_mm": [
+    180.4529869610378,
+    57.18543809141562,
+    48.80000020000012
+  ],
+  "qualification": "Physical retention correction trial; not sliced, force-tested or physically fit-qualified."
+}

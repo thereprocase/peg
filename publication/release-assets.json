@@ -1,0 +1,686 @@
+{
+  "part-gallery-reference__v-src46ab27ac88__arrays--P01-12--model-bundle.zip": {
+    "sha256": "46ab27ac88ec9d64a1f4a9dab5917c3385fbb9f03c42016bc4a5e4dc004c1144",
+    "bytes": 2657417
+  },
+  "part-arrays-p01-12__v-src288b2b3fbe__pegstr-array-p01-12-small-square-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "64c99864784db2a5d5c646d020059bfdd5fa0bec353f39fd808db2804b414430",
+    "bytes": 1125619
+  },
+  "part-arrays-p01-12__v-src288b2b3fbe__pegstr-array-p01-12-small-square-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "0589d84b709c6e85fe23955dd31c42a1710619f63aea53b4fe2c3684437ff9f6",
+    "bytes": 59045
+  },
+  "part-gallery-reference__v-srcc492889b3c__arrays--P01-24--model-bundle.zip": {
+    "sha256": "c492889b3c66fd3254d8dc2bfd3384cc7fcdad9a1f007fd8ee63f5a1a8e20cc4",
+    "bytes": 3258460
+  },
+  "part-arrays-p01-24__v-src276a5c7516__pegstr-array-p01-24-small-square-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "5158a45309a3a7bbac3ec0286c1b880ffdf710ac1ab22dc018fa6dd81f4d5ecc",
+    "bytes": 2052067
+  },
+  "part-arrays-p01-24__v-src276a5c7516__pegstr-array-p01-24-small-square-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "cd5a24d31f4d168936be5c204c201beb9909ea5387a8aaadd22965ab159d56e6",
+    "bytes": 58386
+  },
+  "part-gallery-reference__v-src357d42eef7__arrays--P01-32--model-bundle.zip": {
+    "sha256": "357d42eef7e2cd2b0cd62d34d7f8db7590ed51b2a0ece10b86d9262a806a5a47",
+    "bytes": 3673501
+  },
+  "part-arrays-p01-32__v-src4ed3a74a57__pegstr-array-p01-32-small-square-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "1267886f783f7c1ababd9f8243ef98ef1e6e7502ce6660b393e9a9b1849b3f67",
+    "bytes": 2708626
+  },
+  "part-arrays-p01-32__v-src4ed3a74a57__pegstr-array-p01-32-small-square-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "c729d3df5b9de614c71e0406e75486752b8f1b5d5b573bbd8ba852457d5c9ea7",
+    "bytes": 58872
+  },
+  "part-gallery-reference__v-srca33106aed3__arrays--P01-48--model-bundle.zip": {
+    "sha256": "a33106aed3349e0f676063ac8b742bb9faa115a541c21398f76ee7968be1fdc3",
+    "bytes": 4388663
+  },
+  "part-arrays-p01-48__v-srcc87b0346c1__pegstr-array-p01-48-small-square-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "b2dd671985fa0d967b598af2083478ccfc0f745756a51026de46c4015bf5ffec",
+    "bytes": 3904495
+  },
+  "part-arrays-p01-48__v-srcc87b0346c1__pegstr-array-p01-48-small-square-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "15ec1a051df5feb32dd30abe88640eaafe59bdf947ddb7e3587aa9bc93a32e51",
+    "bytes": 58401
+  },
+  "part-gallery-reference__v-src48c9f1a151__arrays--P09-16--model-bundle.zip": {
+    "sha256": "48c9f1a151e2065e4d1053dc9c5f259a68868b9537ce53e4f4432ee7616bb7ee",
+    "bytes": 2752592
+  },
+  "part-arrays-p09-16__v-src1cc7daf292__pegstr-array-p09-16-round-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "4970c26b0411dc5a2a549cc177f9a1df9077861b3497359ad8e83355fe266dc6",
+    "bytes": 1271417
+  },
+  "part-arrays-p09-16__v-src1cc7daf292__pegstr-array-p09-16-round-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "7f3207bb85db21d14bdc767a8b7858dcd7037626675f129283779f132ccf706e",
+    "bytes": 58002
+  },
+  "part-gallery-reference__v-src3cb555f4e3__arrays--P09-36--model-bundle.zip": {
+    "sha256": "3cb555f4e39d11fdc0db34794da9a012c9f922c64d25677476b690605872434a",
+    "bytes": 3590902
+  },
+  "part-arrays-p09-36__v-src8230a821c0__pegstr-array-p09-36-round-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "b84b0b72670a816bdae3508de6c6e8f95c81a0ae52cec876a455b35a3ac85298",
+    "bytes": 2656976
+  },
+  "part-arrays-p09-36__v-src8230a821c0__pegstr-array-p09-36-round-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "b313dfc2778472d6f651db2fe5eba16fb3785414e2bd6488306e2a8bed836b23",
+    "bytes": 58444
+  },
+  "part-gallery-reference__v-src7b602b8b3f__arrays--P09-48--model-bundle.zip": {
+    "sha256": "7b602b8b3fa91a91e12110690a2ccbb6dc003700b9ca90e429e648d6f6d7f2d1",
+    "bytes": 4291880
+  },
+  "part-arrays-p09-48__v-src0e00429f35__pegstr-array-p09-48-round-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "1de5ef643a89eadd86b311c6764f59d8edc9ba7a5d86c223f7df6eee646df04a",
+    "bytes": 3553097
+  },
+  "part-arrays-p09-48__v-src0e00429f35__pegstr-array-p09-48-round-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "00a620e0eff6a390a15278692d4ba790f736665981dea9f385876a1077b3a7e8",
+    "bytes": 82014
+  },
+  "part-gallery-reference__v-src90dfa2c728__arrays--P09-72--model-bundle.zip": {
+    "sha256": "90dfa2c72884aff4c8d4d1a3814e14d333fae505aa5e5aa0d7ffc1dbf01bbdc3",
+    "bytes": 5282858
+  },
+  "part-arrays-p09-72__v-src888ff9ece6__pegstr-array-p09-72-round-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "54e19505a8507480aed2447458f9d25ab211e219555be5f1cde11b6e8354e0a6",
+    "bytes": 5216226
+  },
+  "part-arrays-p09-72__v-src888ff9ece6__pegstr-array-p09-72-round-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "cfca357cf403c8be0da296c73945d3fb8737bf613f51a001a62fe878e6c23491",
+    "bytes": 105786
+  },
+  "part-peg-interface__v-srcb7c148d5f2__functional-peg.step": {
+    "sha256": "b7c148d5f2bee87f9a56bae985f07de5d297b7f92ee79b56e73dc4994ee620e0",
+    "bytes": 24858
+  },
+  "part-gallery-reference__v-srcead02a6522__arrays--pegstr-custom-generator.zip": {
+    "sha256": "ead02a65229f17b10314a903fe4e98069ca81c9171c63419ec1e0feb290f2d78",
+    "bytes": 108599
+  },
+  "part-arrays-p01-12__v-src288b2b3fbe__pegstr-array-p01-12-small-square-seats__cad-bundle.zip": {
+    "sha256": "7c6897a1f98268e6428a9bf3763027268c38b648cddc2e96b28d982da6810b1c",
+    "bytes": 2657417
+  },
+  "part-arrays-p01-24__v-src276a5c7516__pegstr-array-p01-24-small-square-seats__cad-bundle.zip": {
+    "sha256": "502dcfebd2a0be9977e00f569520072e3d81fb098a503f7395c5a3c3aa3f1058",
+    "bytes": 3258460
+  },
+  "part-arrays-p01-32__v-src4ed3a74a57__pegstr-array-p01-32-small-square-seats__cad-bundle.zip": {
+    "sha256": "c116c216eacef5456133197d6b71afd8917308ccce1efa8671b7eb23ea991a87",
+    "bytes": 3673501
+  },
+  "part-arrays-p01-48__v-srcc87b0346c1__pegstr-array-p01-48-small-square-seats__cad-bundle.zip": {
+    "sha256": "3f53b06c988a95f0881a836eb380e73ad6bcf3839c112733cb78d672f4fcbf29",
+    "bytes": 4388663
+  },
+  "part-arrays-p09-16__v-src1cc7daf292__pegstr-array-p09-16-round-seats__cad-bundle.zip": {
+    "sha256": "bc85a24f137368012a544e50fea3fab8c894a1a6dee69bffe37de7269d465819",
+    "bytes": 2752592
+  },
+  "part-arrays-p09-36__v-src8230a821c0__pegstr-array-p09-36-round-seats__cad-bundle.zip": {
+    "sha256": "8a7e4e6b1c1c1ea119ccbf84490b75e2a6d21a65c2b0eac8ba9254618a9ce1e7",
+    "bytes": 3590902
+  },
+  "part-arrays-p09-48__v-src0e00429f35__pegstr-array-p09-48-round-seats__cad-bundle.zip": {
+    "sha256": "77ace36d97e6f127886698a86ee919917eb4c54b83ebc5d030db37cb6bb55ebf",
+    "bytes": 4291880
+  },
+  "part-arrays-p09-72__v-src888ff9ece6__pegstr-array-p09-72-round-seats__cad-bundle.zip": {
+    "sha256": "4d7e9770c9e23dd6a2dcfd64bf196cf8a8aa65748d34349010f10d5a1dfc826d",
+    "bytes": 5282858
+  },
+  "part-collection__v-srcccbb104e00__pegstr-p01-p09-parametric-array-generator.zip": {
+    "sha256": "1f45f12470c7f97fcd6d4fd6acb8335def72151f1a78717a6ed31dafd7fbbd73",
+    "bytes": 108599
+  },
+  "part-pegstr-p01__v2__pegstr-p01-16-small-square-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "bd8f00b5381318cf636f114608161e1738dc03f46afcee91482480184a79bffd",
+    "bytes": 24511080
+  },
+  "part-pegstr-p01__v2__pegstr-p01-16-small-square-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "d27066e97ebd381016086c8d511187d85dcbbc1ec522f765e75341d04ed4bf0f",
+    "bytes": 57955
+  },
+  "part-pegstr-p02__v2__pegstr-p02-four-square-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "6a910dabaa904f49a16e3a094cbf9711f0f38969ce4da2091b169a751f1c71b4",
+    "bytes": 22572027
+  },
+  "part-pegstr-p02__v2__pegstr-p02-four-square-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "21c41748d4d2f91b298b6d30b0a399e83084b6e4ff67328d61791f702e255d53",
+    "bytes": 57955
+  },
+  "part-pegstr-p03__v2__pegstr-p03-twin-rectangular-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "ec4e637bf694491d39405e5a024e35a862c2624657b584fc199c1e66dc9aa952",
+    "bytes": 601347
+  },
+  "part-pegstr-p03__v2__pegstr-p03-twin-rectangular-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "838b6f3377f466918725629fe8bba1324aab654567645bfec31ebcc738c3edb3",
+    "bytes": 57955
+  },
+  "part-pegstr-p04__v2__pegstr-p04-windscreen-tool-cradle__installed__fit-9c7be3cc78.step": {
+    "sha256": "c325c3c3d8f4dc1b100da4e6d7469321c7c77f31b566e6c3f5d1aa241b7b968a",
+    "bytes": 548469
+  },
+  "part-pegstr-p04__v2__pegstr-p04-windscreen-tool-cradle__receiver__fit-9c7be3cc78.step": {
+    "sha256": "5ee929b69f6956ad77e8f7d4a46452daed17d96499bd2f4b27fabc913713185b",
+    "bytes": 57955
+  },
+  "part-pegstr-p05__v2__pegstr-p05-mt2-holder__installed__fit-9c7be3cc78.step": {
+    "sha256": "0faaf58bbc8238181aa137c72c3c532e81dd2722e2566faebcfc4b4d21158096",
+    "bytes": 800916
+  },
+  "part-pegstr-p05__v2__pegstr-p05-mt2-holder__receiver__fit-9c7be3cc78.step": {
+    "sha256": "60a29996ad92e9e850e04d1236aa0441a7f82aa4279bdb6f3801434e668d0400",
+    "bytes": 57955
+  },
+  "part-pegstr-p06__v2__pegstr-p06-100x60-bin__installed__fit-9c7be3cc78.step": {
+    "sha256": "cc8e7f78670f8d3fcb114fa683ccfaf5fdc9af7c6c463235fd2efeb1418ad3af",
+    "bytes": 1229603
+  },
+  "part-pegstr-p06__v2__pegstr-p06-100x60-bin__receiver__fit-9c7be3cc78.step": {
+    "sha256": "63c9ef2553d5458cd75ca31fe35b2ae38f1288d3b426801e85dde311c0201687",
+    "bytes": 58684
+  },
+  "part-pegstr-p07__v2__pegstr-p07-60x40-bin__installed__fit-9c7be3cc78.step": {
+    "sha256": "474995b62658aa73ad11fdd9f64b03175b53fcf65811118a28de0dc2dfd952d0",
+    "bytes": 801365
+  },
+  "part-pegstr-p07__v2__pegstr-p07-60x40-bin__receiver__fit-9c7be3cc78.step": {
+    "sha256": "d0c6e2bbe8f2e9699dfe07b8474231bd29b1d15005933439ca4151d653fc4813",
+    "bytes": 59155
+  },
+  "part-pegstr-p08__v2__pegstr-p08-flashlight-ring__installed__fit-9c7be3cc78.step": {
+    "sha256": "7017922dbd288842a945c3c1c8171348938f46f5fc0586b95da03926414aa76c",
+    "bytes": 408416
+  },
+  "part-pegstr-p08__v2__pegstr-p08-flashlight-ring__receiver__fit-9c7be3cc78.step": {
+    "sha256": "dbfeb25758447e2f6d7b4c178311c2f1818e54fce993b169a42ff214e8eba6f4",
+    "bytes": 57955
+  },
+  "part-pegstr-p09__v2__pegstr-p09-24-round-seats__installed__fit-9c7be3cc78.step": {
+    "sha256": "af5c60b515223da4d12720dcb511b5051c2dc23033fe427086c83af5190a19a3",
+    "bytes": 1916971
+  },
+  "part-pegstr-p09__v2__pegstr-p09-24-round-seats__receiver__fit-9c7be3cc78.step": {
+    "sha256": "37dbfb9d3b0573579e9ab4ae9c26892a39ecec6f857ed4ea65caeaa5c89c639e",
+    "bytes": 58898
+  },
+  "part-pegstr-p10__v2__pegstr-p10-low-rectangular-slot__installed__fit-9c7be3cc78.step": {
+    "sha256": "760588a3c4b9a54c817a4c387a32d5887ea5ab02eb5018f5501fa33c1ea32ccf",
+    "bytes": 442575
+  },
+  "part-pegstr-p10__v2__pegstr-p10-low-rectangular-slot__receiver__fit-9c7be3cc78.step": {
+    "sha256": "f1a7fee6cc32c177a389f1b9ac3c9e97f18cf03dc80ae2a7ccce840a1ddd5932",
+    "bytes": 58409
+  },
+  "part-pegstr-p11__v2__pegstr-p11-caliper-slot__installed__fit-9c7be3cc78.step": {
+    "sha256": "bafa4df2a757ac9a101d5bb01eb1fb87bdf207f737b394303724902fc286e050",
+    "bytes": 410039
+  },
+  "part-pegstr-p11__v2__pegstr-p11-caliper-slot__receiver__fit-9c7be3cc78.step": {
+    "sha256": "54f95e1aba435ca8feeaf2958f3d96173d97ee60ac17f061f334a1ecc545c4a5",
+    "bytes": 57955
+  },
+  "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "ee4a48c834e49638a64e8c6a5253c3a815344cd608ad7658558c08fcf4a46706",
+    "bytes": 64791
+  },
+  "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__installed__fit-9c7be3cc78.step": {
+    "sha256": "96a53adf32155c18c9363d27e715128d359edcd0399408764f1335c137d3d92a",
+    "bytes": 306779
+  },
+  "part-solder-modules-barrels__v6__solder-station-3-barrel-rack__print-upright__fit-9c7be3cc78.step": {
+    "sha256": "47cf2eb9f06e75f10abf334182c1c6d100e55f38c8766be04159235284be6b83",
+    "bytes": 316641
+  },
+  "part-solder-modules-braid__v6__solder-station-braid-roll-seat__installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "70de14bfc50c559d95f2948bf48a3dfaa9c88fa38b1e7cbe867eb5daaf05e363",
+    "bytes": 21441
+  },
+  "part-solder-modules-braid__v6__solder-station-braid-roll-seat__installed__fit-9c7be3cc78.step": {
+    "sha256": "7a1a7450a789d05bbdbfdc1a5bd535ac774eb1b067b8871ae2cebe13f96a5a59",
+    "bytes": 76086
+  },
+  "part-solder-modules-braid__v6__solder-station-braid-roll-seat__print-right-cheek__fit-9c7be3cc78.step": {
+    "sha256": "1ded5af935a273a2b438f4bb705b14268479953efed66974b8b0f7fbbd4ca679",
+    "bytes": 79873
+  },
+  "part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "b106431935c5a77054fe21a97d881ae8362958abac7b8be6d0c9bb8edddf90b6",
+    "bytes": 25913
+  },
+  "part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__installed__fit-9c7be3cc78.step": {
+    "sha256": "50f30f206f03ffc68295eb267a78bc1f55efb7a633277a8a6987f25347e0832d",
+    "bytes": 99392
+  },
+  "part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__print-upright__fit-9c7be3cc78.step": {
+    "sha256": "dea26488544aaae36c10d55562ab2e884920accea314a4dd2032a6ee74298f37",
+    "bytes": 102643
+  },
+  "part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__reference-liner-preview.step": {
+    "sha256": "61cc88b52a06940c1d8cf680bd4408a731af43d51885676f7427d012f74a3624",
+    "bytes": 26096
+  },
+  "part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__reference-liner-vase-source.step": {
+    "sha256": "8c6b9173109f9ae8c7eda46ce435a9af8097b6b64b8720bd64f2a28c03b2b543",
+    "bytes": 13452
+  },
+  "part-solder-modules-reel-thick__v6__solder-station-large-solder-spool-seat__installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "f97298958483fba89fa82a8d15a1dd29cb14a8627aedce9b8c776a64fd77065b",
+    "bytes": 21972
+  },
+  "part-solder-modules-reel-thick__v6__solder-station-large-solder-spool-seat__installed__fit-9c7be3cc78.step": {
+    "sha256": "ff8cdd2063160e99709af195a2cfd4bcafbf9b92a7a1612b1b58218d10e6a357",
+    "bytes": 76194
+  },
+  "part-solder-modules-reel-thick__v6__solder-station-large-solder-spool-seat__print-right-cheek__fit-9c7be3cc78.step": {
+    "sha256": "24926dcd644976898dfba1c4f449a431f1eea286718c7e4271663e5e57d3bfe7",
+    "bytes": 80062
+  },
+  "part-solder-modules-reel-thin__v6__solder-station-small-solder-spool-seat__installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "1c1253bacb82d825aaf5884c07e540b44b677c8fdceb49d7c4ec3391436797ba",
+    "bytes": 21975
+  },
+  "part-solder-modules-reel-thin__v6__solder-station-small-solder-spool-seat__installed__fit-9c7be3cc78.step": {
+    "sha256": "d5622b41630eb678a2186d14390bab0b61484d0a3773412e8e33e4cdeb23b018",
+    "bytes": 76194
+  },
+  "part-solder-modules-reel-thin__v6__solder-station-small-solder-spool-seat__print-right-cheek__fit-9c7be3cc78.step": {
+    "sha256": "abd0cbad840e369447213e5885b99e273c4bdd80437fde79c7eb75371730baf8",
+    "bytes": 80062
+  },
+  "part-solder-modules-snips-pliers__v6__solder-station-2-tool-snips-and-pliers-seat__installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "f1626d534a1c3bb3ff2a813853b2279852a516eb4c8e6176a48a4ebae0a00064",
+    "bytes": 168451
+  },
+  "part-solder-modules-snips-pliers__v6__solder-station-2-tool-snips-and-pliers-seat__installed__fit-9c7be3cc78.step": {
+    "sha256": "adbc7c0fe78958c182a204da2854f9e6128bda2c1b3234ea95db10414b821764",
+    "bytes": 711409
+  },
+  "part-solder-modules-snips-pliers__v6__solder-station-2-tool-snips-and-pliers-seat__print-right-cheek__fit-9c7be3cc78.step": {
+    "sha256": "8977ec16d5d382e843db9d6f2820ea22db81f119d0f948f7f9a449345d28c393",
+    "bytes": 731782
+  },
+  "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__installed.FCStd": {
+    "sha256": "e7d198cebf11a5867e362c152ad228015396977243a2063c1551a0303ab0d3c3",
+    "bytes": 41416
+  },
+  "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__installed.step": {
+    "sha256": "2abdd83699589dac57290c444aeb298cfc429a8d2d4eb9effbe83d5bf0c20f37",
+    "bytes": 227683
+  },
+  "part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__print-right-cheek.step": {
+    "sha256": "3d14802b516363f29aa7250608bb5f50c6de244dbe5e4ec25fd71b7e2bd754fb",
+    "bytes": 244771
+  },
+  "part-solder-station-collection__v7__7-modules-with-14-point-tweezer-mount.zip": {
+    "sha256": "f347c2e8397370135fc05b221b01bf04ac978a56ddf17fa88f6aa8d4380c215f",
+    "bytes": 30283341
+  },
+  "part-sd01__v2__6-drivers-5-cells__rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "4a75b1877aa6f6d715bb4e632935a230e6763527f3d943ba2055dc6c83d455c8",
+    "bytes": 58941
+  },
+  "part-sd01__v2__6-drivers-5-cells__rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "e4030f4ff70436b0b91d20b4d8e370d65976d9469f1e8ca39a1770f0021bf586",
+    "bytes": 259946
+  },
+  "part-sd01__v2__6-drivers-5-cells__rack-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "c268a2177d3cb5967484e6aff794e8f9efd225a20373c27bbac2ecc2a6dd78fa",
+    "bytes": 265487
+  },
+  "part-sd01__v2__6-drivers-5-cells__tip-floor-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "ce9a02559a48d85fca94b3f71c277f727956a14e0d36d4cbf33708348e17a445",
+    "bytes": 20562
+  },
+  "part-sd01__v2__6-drivers-5-cells__tip-floor-installed__fit-9c7be3cc78.step": {
+    "sha256": "7a1da64308068168612a557177430474dea6223c275b141099f941078af15b32",
+    "bytes": 69674
+  },
+  "part-sd01__v2__6-drivers-5-cells__tip-floor-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "ae03ea2fa0e7bff7fc9433fbf4418f652c7304faf92fffd69a28fc649c7a0fd7",
+    "bytes": 71417
+  },
+  "part-sd02__v2__5-drivers-6-cells__rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "438a63a80d3abc7455cc74533a8af1e4b5d7e6a4249780fa229690279ca38394",
+    "bytes": 53896
+  },
+  "part-sd02__v2__5-drivers-6-cells__rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "c6c899cf49bc8e5b2fa4148e1a318653287b04551d9a2094941ecfe4045f0aff",
+    "bytes": 225869
+  },
+  "part-sd02__v2__5-drivers-6-cells__rack-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "6d0ad01df69c198f6ed322757d6d87d55a6f58be2edd246cd30e848388fb20b5",
+    "bytes": 231458
+  },
+  "part-sd02__v2__5-drivers-6-cells__tip-floor-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "ba6907b33efe493c4e3ad649715167aac5e9873c2581a631b63ca1a170b09061",
+    "bytes": 20624
+  },
+  "part-sd02__v2__5-drivers-6-cells__tip-floor-installed__fit-9c7be3cc78.step": {
+    "sha256": "8ba270def322f38868ca79c84c24a85d1e2dfae4ca912fbeca788773222fba80",
+    "bytes": 69669
+  },
+  "part-sd02__v2__5-drivers-6-cells__tip-floor-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "8b9ceedbd6ddfd48115fc6bbc0a60c38ac712b5e471c77bbb7df67c3a49ecfd6",
+    "bytes": 71405
+  },
+  "part-sd03__v2__4-drivers-7-cells__rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "c80177a1a3ae16fee3caf6145444c1699861f90882d1bcebf6c459c9515d91ee",
+    "bytes": 47900
+  },
+  "part-sd03__v2__4-drivers-7-cells__rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "41a271cdaf2aafd685515e17aa232ce30fca7f196cbf1cb12e34f9dec641bf10",
+    "bytes": 192066
+  },
+  "part-sd03__v2__4-drivers-7-cells__rack-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "dcdfc02a18cd5c917175b11d661f4f2873a702393087b14b383353ec9b9ac3a2",
+    "bytes": 197400
+  },
+  "part-sd03__v2__4-drivers-7-cells__tip-floor-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "4ec92a5701770acd899dd72e4fe0657430fbbbaee55a9de95890e99df09c4f14",
+    "bytes": 20596
+  },
+  "part-sd03__v2__4-drivers-7-cells__tip-floor-installed__fit-9c7be3cc78.step": {
+    "sha256": "7a70a63b4920bd85db0316b2dac3e799bfb2f0370cccc06bf0b863ab1c58840f",
+    "bytes": 69671
+  },
+  "part-sd03__v2__4-drivers-7-cells__tip-floor-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "96dac69b0781f9985c4358b643324bc9d31ce8caaa02efc6f0ad75e881798000",
+    "bytes": 71401
+  },
+  "part-sd04__v2__4-drivers-9-cells__rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "52de4cd59cda485a08cee7af3bb31c67ed1ad85d1e5a97fb92a2719f8fe0febc",
+    "bytes": 45631
+  },
+  "part-sd04__v2__4-drivers-9-cells__rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "92a5bcbd5422bc139792cba915809710b760c7a73eaec01403de39a86b96cb77",
+    "bytes": 190892
+  },
+  "part-sd04__v2__4-drivers-9-cells__rack-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "f081f77a22fc15f733b9001fff6ac62c40c598a103f9ae99a76b288cf73fee90",
+    "bytes": 196085
+  },
+  "part-sd04__v2__4-drivers-9-cells__tip-floor-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "0cfaff28c9acd8f74878fbb0742d4e046405e604291d09527bba0a309ac47261",
+    "bytes": 20611
+  },
+  "part-sd04__v2__4-drivers-9-cells__tip-floor-installed__fit-9c7be3cc78.step": {
+    "sha256": "cddec5c6aa94efbc0389c5c121bb581e1c7c74a3d9328353538e2fab52c851c3",
+    "bytes": 69859
+  },
+  "part-sd04__v2__4-drivers-9-cells__tip-floor-print-upright__fit-9c7be3cc78.step": {
+    "sha256": "2eb3f14919b27cc395a1f2b76572b85a5902d83586bdcea1221b75db5bf3a48e",
+    "bytes": 71589
+  },
+  "part-screwdriver-family__v2__cad-and-review.zip": {
+    "sha256": "d51e89640125618b42a0c1e1a99b694b66d5ed77c7ccb275e804004d9effba78",
+    "bytes": 19145016
+  },
+  "part-sd01__v3__6-drivers-5-cells__flat-b-rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "f2ff4054a3ecd322d57d5a0793fb4e875122caafccd0d678193f1fae5d23b128",
+    "bytes": 39443
+  },
+  "part-sd01__v3__6-drivers-5-cells__flat-b-rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "726adc74955997d73f9c550ce65b04ba443139b41071c0a2141dbe381a9f3a5f",
+    "bytes": 184197
+  },
+  "part-sd01__v3__6-drivers-5-cells__flat-b-rack-print-diagonal-55__fit-9c7be3cc78.step": {
+    "sha256": "0701d93aae04f3b6e3ec155f4212f5361fb96a1a178d1fe609e20d8aa572572a",
+    "bytes": 202082
+  },
+  "part-sd01__v3__6-drivers-5-cells__unchanged-a-tip-floor-reference-installed__fit-9c7be3cc78.step": {
+    "sha256": "55f6e1accf39100e8b062cee4cfe9812706aa2a2df01aca56051789309c6de99",
+    "bytes": 69674
+  },
+  "part-sd02__v3__5-drivers-6-cells__flat-b-rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "d9389a19c9f6fb74c85634e70b28d89214a39e86bea978da7f2574282ca4a3c0",
+    "bytes": 32909
+  },
+  "part-sd02__v3__5-drivers-6-cells__flat-b-rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "1b5563bb7b4d02fd4f16b915a8bf1258ae3cc9707cc81fc7d102e957ef91c996",
+    "bytes": 143605
+  },
+  "part-sd02__v3__5-drivers-6-cells__flat-b-rack-print-diagonal-55__fit-9c7be3cc78.step": {
+    "sha256": "0acee0f7774eaf38371aed9fa060f4897b312e34800dd1d99868939320a04dff",
+    "bytes": 158870
+  },
+  "part-sd02__v3__5-drivers-6-cells__unchanged-a-tip-floor-reference-installed__fit-9c7be3cc78.step": {
+    "sha256": "ddf026a3e5c03a76a431cd09c3709ebbdb923e13a5a456044a1092e831b01a28",
+    "bytes": 69669
+  },
+  "part-sd03__v3__4-drivers-7-cells__flat-b-rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "7c8700496b6e26cc31c789b8f712c2e026552359ded669e4bd84112d6089ab4d",
+    "bytes": 30252
+  },
+  "part-sd03__v3__4-drivers-7-cells__flat-b-rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "3d7a1b28ceb4be44f5cb379c9aeb5c97c8fb9be7eb36dc9531b23c63ab676d63",
+    "bytes": 125120
+  },
+  "part-sd03__v3__4-drivers-7-cells__flat-b-rack-print-diagonal-55__fit-9c7be3cc78.step": {
+    "sha256": "076e082b2b81a164ab9605a86f18069bc98191b89c348d767a24dbc3ac302e31",
+    "bytes": 138341
+  },
+  "part-sd03__v3__4-drivers-7-cells__unchanged-a-tip-floor-reference-installed__fit-9c7be3cc78.step": {
+    "sha256": "911a8f6a9fa6a94c5864448c0a11b2539422eb74d94288e42367bd1e133ca229",
+    "bytes": 69669
+  },
+  "part-sd04__v3__4-drivers-9-cells__flat-b-rack-installed__fit-9c7be3cc78.FCStd": {
+    "sha256": "2b67c70d240c3ee3d045726548d9f19e4f2ba0bffa95e9ffbdc79d8ed0b79542",
+    "bytes": 30154
+  },
+  "part-sd04__v3__4-drivers-9-cells__flat-b-rack-installed__fit-9c7be3cc78.step": {
+    "sha256": "906553187224dc459f196cd50b76f0542f6f4113fd9a8aae5b381fc4a3d85912",
+    "bytes": 125353
+  },
+  "part-sd04__v3__4-drivers-9-cells__flat-b-rack-print-diagonal-55__fit-9c7be3cc78.step": {
+    "sha256": "aa4552a84f12324885c92cefe39ebf1bf6268d3daaacf0652ac9712ad3b1fa88",
+    "bytes": 138755
+  },
+  "part-sd04__v3__4-drivers-9-cells__unchanged-a-tip-floor-reference-installed__fit-9c7be3cc78.step": {
+    "sha256": "de2b7eac9dcd17e6fc5c799b1b9872c55043c17a8c8099f62af362f2edeceaa6",
+    "bytes": 69859
+  },
+  "part-screwdriver-family__v3__flat-b-cad-review.zip": {
+    "sha256": "968a46c4897cc96c1b565770b6de83df49cbb28772f82129ca9e7defb1f90b6e",
+    "bytes": 25838485
+  },
+  "part-sd03-magnetic-c__v1__4-drivers-7-cells__plug-print-broad-face-quantity-4__fit-e586ab4ff6.step": {
+    "sha256": "3db7a3940ad5a15cca38a95162d1dbef9e189207a71682130c0d4c5a2fe27788",
+    "bytes": 18708
+  },
+  "part-sd03-magnetic-c__v1__4-drivers-7-cells__rack-installed__fit-e586ab4ff6.step": {
+    "sha256": "f9e6b5ab7398590900d2168a2a094ab837bd8cb1289792203d1ddd1c71f034b0",
+    "bytes": 149140
+  },
+  "part-sd03-magnetic-c__v1__4-drivers-7-cells__rack-print-upright__fit-e586ab4ff6.step": {
+    "sha256": "d6b4468ff26b5ee4873ce8924d90a849dbd863e052294b5229a40c14023a996b",
+    "bytes": 148537
+  },
+  "part-sd03-magnetic-c__v1__4-drivers-7-cells__unchanged-tip-floor-reference__fit-e586ab4ff6.step": {
+    "sha256": "cc07af009a9e2b6e28ca9112f0fe334364b605e2b03cda7e7b9b136c5a979f8a",
+    "bytes": 69671
+  },
+  "part-gallery-reference__v-srcb4b20bf892__solder-modules--current-peg-generator.zip": {
+    "sha256": "b4b20bf8928c3e430ae22a7f050937b53c178b4139dbe4d1f11987ae2ee89ab0",
+    "bytes": 107790
+  },
+  "part-solder-modules-tweezers__v7__cad-and-review.zip": {
+    "sha256": "8d9fa54781974d4b1e16566ca2af9769393eb67fc271acf0e97750b655c74ed8",
+    "bytes": 4061826
+  },
+  "part-pb01__v1__pegstr-bin-4-cells-1-pockets-99.6x40x40mm__fit-e586ab4ff6__stl-and-generator.zip": {
+    "sha256": "f5ad46f5c8393099faee5a4529c0d7e206c96fc079cdeb225ad4c95ba2216913",
+    "bytes": 269313
+  },
+  "part-pb02__v1__pegstr-bin-6-cells-1-pockets-150.4x60x50mm__fit-e586ab4ff6__stl-and-generator.zip": {
+    "sha256": "c30e175e0dfa93dc82d76cfddbab4335fe79670b3f6e3fa20e2aff6553e5e600",
+    "bytes": 395762
+  },
+  "part-pb03__v1__pegstr-bin-8-cells-1-pockets-201.2x80x50mm__fit-e586ab4ff6__stl-and-generator.zip": {
+    "sha256": "e4335a4934efa5de9adb401ee3d2be196210208a4e507d5447659d46049f5909",
+    "bytes": 394648
+  },
+  "part-pb04__v1__pegstr-bin-6-cells-3-pockets-150.4x40x45mm__fit-e586ab4ff6__stl-and-generator.zip": {
+    "sha256": "391391b9cf022b40789a1c44ee684f081186aabfc25d457d4c653f3905cb1f76",
+    "bytes": 399316
+  },
+  "part-sd03-inverted-d__v1__4-drivers-7-cells__cad-review.zip": {
+    "sha256": "e1713c466b02594cfaa9e5eadcfb17293dba07b379556807ebcad688a087286b",
+    "bytes": 392838
+  },
+  "part-sd03-inverted-d__v1__4-drivers-7-cells__rack-installed__fit-e586ab4ff6.step": {
+    "sha256": "885c5000b36b2e5be6030c4ca5637b6009fd1c9a88babda3a4f1471e629b65c6",
+    "bytes": 89187
+  },
+  "part-sd03-inverted-d__v1__4-drivers-7-cells__rack-print-flat-top__fit-e586ab4ff6.step": {
+    "sha256": "372d152fdceba476ee8c477c12ba28fec4162259065a995bc368ae17a7f0e51d",
+    "bytes": 94079
+  },
+  "part-sd03-inverted-d__v2__4-drivers-7-cells__cad-review.zip": {
+    "sha256": "efc6a59ad7510ee590d13611905f4629ff24c6f4747174335ca72bad0caadb39",
+    "bytes": 342284
+  },
+  "part-sd03-inverted-d__v2__4-drivers-7-cells__rack-installed__peg-topflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "4511a4a442c5b38b46db8d50a629ea4934280ddfdbb9d3e90696d8887cdf74a8",
+    "bytes": 92547
+  },
+  "part-sd03-inverted-d__v2__4-drivers-7-cells__rack-print-flat-top__peg-topflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "4da2394bd320f30f76f1ebadc7aaad28420a7f57f8506e377f1b2dfe3cb87fe6",
+    "bytes": 97703
+  },
+  "part-bd01-slope-e__v1__4-bit-drivers-8-cells__cad-review.zip": {
+    "sha256": "e2e81eaeb9ab22a835ea3b3d5dbbda9414191ea2e7744c59319295be388cd239",
+    "bytes": 341077
+  },
+  "part-bd01-slope-e__v1__4-bit-drivers-8-cells__rack-installed__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "18f4830df5c9aad4251ad18779cf65d76b7c62c0dcea87d85280ebc450c99064",
+    "bytes": 104741
+  },
+  "part-bd01-slope-e__v1__4-bit-drivers-8-cells__rack-print-sloped-top__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "54b181f270f84d82dc9a95a7a621c03e0eb8bb777b47856f13bb4c002aafded2",
+    "bytes": 111545
+  },
+  "part-bd01-slope-e__v2__4-bit-drivers-8-cells__cad-review.zip": {
+    "sha256": "3ca118b3430301f0eb1346c01755945a926208c45e715a3a9e0006ad2f123cf7",
+    "bytes": 325462
+  },
+  "part-bd01-slope-e__v2__4-bit-drivers-8-cells__rack-installed__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "0df302971e9e6ab307a456a49cad404307fc85f634db52aaef5d7b2accd88646",
+    "bytes": 79639
+  },
+  "part-bd01-slope-e__v2__4-bit-drivers-8-cells__rack-print-sloped-top__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "ccced2058378ca4c574246aa18b903ccf296d56887d944a509fb3c7d784fb8a4",
+    "bytes": 87240
+  },
+  "part-bd01-slope-e__v3__4-bit-drivers-8-cells__cad-review.zip": {
+    "sha256": "c5e98d452d49e024f48d3b108e5c0bc707eb9e42ec81a0a41e03226673abfc6a",
+    "bytes": 325630
+  },
+  "part-bd01-slope-e__v3__4-bit-drivers-8-cells__rack-installed__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "82fc70d2ec66f592b262026ab9cf2f5a8b35ab6277be3c7b73fe63a5f7bf998c",
+    "bytes": 79596
+  },
+  "part-bd01-slope-e__v3__4-bit-drivers-8-cells__rack-print-sloped-top__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "79648b9286afc45a67e240cca0847a4a62e3e3e402bab5e8598b96f363027458",
+    "bytes": 87409
+  },
+  "part-bd01-slope-e__v4__4-bit-drivers-8-cells__cad-review.zip": {
+    "sha256": "891f9e80cf2b21e98a41b50fd85bb7c33ecefce68bf185bf9e86d340bb822b03",
+    "bytes": 353377
+  },
+  "part-bd01-slope-e__v4__4-bit-drivers-8-cells__rack-installed__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "ad07a10a3bb0a343b1707f88234e481c4aad71c7619142e1e2f55e6ede0862c0",
+    "bytes": 87330
+  },
+  "part-bd01-slope-e__v4__4-bit-drivers-8-cells__rack-print-sloped-top__slope5-pegflat0p80__fit-e586ab4ff6.step": {
+    "sha256": "00099eb798cae1139d02c0c2d8c20a2839907d8bf6a5a79c8391211cad7982c0",
+    "bytes": 94806
+  },
+  "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__cad-review.zip": {
+    "sha256": "219723dc2edb1273b1a4679e9a5fe6c157e3a99b03150f99dab560038aff626b",
+    "bytes": 352123
+  },
+  "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__holder-installed__fit-e586ab4ff6.step": {
+    "sha256": "455ab706906f8c23ef623c8a0cc0ea61c8698bff9f6a8d1a65de906a6d7ece7e",
+    "bytes": 102943
+  },
+  "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__holder-print-flat-top__fit-e586ab4ff6.step": {
+    "sha256": "9b783998685ca5ad073d57b2909023e5d896c489b1fc55858425980d0fc9ef60",
+    "bytes": 107401
+  },
+  "part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__plug-print-broad-face-quantity-2__fit-e586ab4ff6.step": {
+    "sha256": "fab9bcaa094b89e64338712cea04d3082d76d98a6ad2be323a0c266f589b9346",
+    "bytes": 7364
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__A-H__installed__fit-e586ab4ff6.step": {
+    "sha256": "3dbcc1fc02df9eebb09d9f7a9534570a4f294cb23882c052ca9be14ef23008f2",
+    "bytes": 545583
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__A-H__print-flat-top__fit-e586ab4ff6.step": {
+    "sha256": "a2389dad6b21b476f2de30538f55dd7401efb2f7bcdcc3b6eeda87bd94c8e5c8",
+    "bytes": 529482
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__I-P__installed__fit-e586ab4ff6.step": {
+    "sha256": "56314585a3cafde74119b98984085a55473d84320356fc56bad1c7ed34455fcc",
+    "bytes": 443324
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__I-P__print-flat-top__fit-e586ab4ff6.step": {
+    "sha256": "232eaa58cf69559c4e51069ad197cead180ae30fa1018672fbc38b518c82b0c7",
+    "bytes": 431566
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__P1S-04-PLA__EDIT-ME.3mf": {
+    "sha256": "7d8c9b833aff718ddc3134554f0b81fdbfe0d097937be94bc53817982d6534b2",
+    "bytes": 283187
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "sha256": "a85c19672bae3a4abbf2a2b8f507d501cae901d63e2ccfb6e3f2b8cc9979fa94",
+    "bytes": 6592095
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__P1S-04-PLA__print-kit.zip": {
+    "sha256": "f2f9bbbb2e2526260cd06b74b1727f7f39620d2dd072f2e5fd2da6e0fa4935e2",
+    "bytes": 15870252
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v1__plug-print-broad-face-quantity-16__fit-e586ab4ff6.step": {
+    "sha256": "e631e87b8fddc20489fb68631dd03ada101eaaf637dcae0060f8d7bae7e32bf2",
+    "bytes": 7326
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__A-H__installed__fit-e586ab4ff6.step": {
+    "sha256": "fc2aad61c4531f731d98c81b616bd35755ef31f9a60dace2f7d1c2bb1e4fc9cd",
+    "bytes": 545583
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__A-H__print-flat-top__fit-e586ab4ff6.step": {
+    "sha256": "3c3a3c53ad225d29bdae2e3d18746f615f372092e46c9ee342d3d8f7ae0fd601",
+    "bytes": 529482
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__I-P__installed__fit-e586ab4ff6.step": {
+    "sha256": "62098f2963381bdeaba21c2c8d3cdec3fead5499ff22f52cd14e3da8afa3130c",
+    "bytes": 443324
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__I-P__print-flat-top__fit-e586ab4ff6.step": {
+    "sha256": "b5378e38ac149d6da8132aad6829800db37c8ca563696ce93a5d8012064259a2",
+    "bytes": 431566
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__P1S-04-PLA__EDIT-ME.3mf": {
+    "sha256": "9b100b9508e671229cccc9ed8ceb00bfd5beff211b8bf39451a144f4b862e8b0",
+    "bytes": 283141
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "sha256": "33db62f81b12fcb218b6df5b5ff32c5cea25c23e46be78a50022e34963a487b3",
+    "bytes": 6585228
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__P1S-04-PLA__print-kit.zip": {
+    "sha256": "ec6d11e8cfccf58705850e541af4e62ad3b008de8c4927380ae37d896041de45",
+    "bytes": 15851616
+  },
+  "part-ms01-shaft-fit-sampler-20x10x3__v2__plug-print-broad-face-quantity-16__fit-e586ab4ff6.step": {
+    "sha256": "8f8c0a7a401467b6ee965b4000de8c5c2570093f11814276ea3c568f05943d57",
+    "bytes": 7255
+  }
+}

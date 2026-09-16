@@ -1,0 +1,113 @@
+{
+  "parts": [
+    {
+      "id": "SD01",
+      "before": {
+        "contact_area_mm2": 1175.0,
+        "contact_depth_mm": 9.4,
+        "height_mm": 49.36321876484,
+        "solid_volume_mm3": 141370.4676233344,
+        "uniform_solid_centroid_y_mm": 12.841485593052065,
+        "uniform_solid_centroid_height_mm": 28.1459194217846,
+        "rear_edge_centroid_margin_mm": 12.691485593052064,
+        "front_edge_centroid_margin_mm": -3.291485593052064
+      },
+      "after": {
+        "contact_area_mm2": 2248.18028867007,
+        "contact_depth_mm": 18.000000000001766,
+        "height_mm": 37.08114590686,
+        "solid_volume_mm3": 120337.68806571393,
+        "uniform_solid_centroid_y_mm": 13.823177213779067,
+        "uniform_solid_centroid_height_mm": 19.597605309372195,
+        "rear_edge_centroid_margin_mm": 13.673177213779066,
+        "front_edge_centroid_margin_mm": 4.326822786222698
+      },
+      "contact_area_multiple": 1.913344926527719,
+      "seat_difference_mm3": 0.0,
+      "peg_difference_mm3": 0.0,
+      "tip_floor_difference_mm3": 0.0
+    },
+    {
+      "id": "SD02",
+      "before": {
+        "contact_area_mm2": 1413.7600000000002,
+        "contact_depth_mm": 9.4,
+        "height_mm": 60.78840281878,
+        "solid_volume_mm3": 249449.97274981663,
+        "uniform_solid_centroid_y_mm": 15.676608991885162,
+        "uniform_solid_centroid_height_mm": 35.58617904857374,
+        "rear_edge_centroid_margin_mm": 15.526608991885162,
+        "front_edge_centroid_margin_mm": -6.126608991885162
+      },
+      "after": {
+        "contact_area_mm2": 3574.2395612930277,
+        "contact_depth_mm": 24.0,
+        "height_mm": 39.93744192034,
+        "solid_volume_mm3": 197124.0010427991,
+        "uniform_solid_centroid_y_mm": 17.44362534727228,
+        "uniform_solid_centroid_height_mm": 21.01264210415941,
+        "rear_edge_centroid_margin_mm": 17.293625347272283,
+        "front_edge_centroid_margin_mm": 6.7063746527277175
+      },
+      "contact_area_multiple": 2.528179861711342,
+      "seat_difference_mm3": 0.0,
+      "peg_difference_mm3": 0.0,
+      "tip_floor_difference_mm3": 0.0
+    },
+    {
+      "id": "SD03",
+      "before": {
+        "contact_area_mm2": 1652.5200000000002,
+        "contact_depth_mm": 9.4,
+        "height_mm": 77.92617889968,
+        "solid_volume_mm3": 456989.52237220324,
+        "uniform_solid_centroid_y_mm": 19.636020494756988,
+        "uniform_solid_centroid_height_mm": 46.753761527446294,
+        "rear_edge_centroid_margin_mm": 19.48602049475699,
+        "front_edge_centroid_margin_mm": -10.086020494756987
+      },
+      "after": {
+        "contact_area_mm2": 5540.029690580026,
+        "contact_depth_mm": 32.00000000000065,
+        "height_mm": 45.65003394731163,
+        "solid_volume_mm3": 339745.5898141982,
+        "uniform_solid_centroid_y_mm": 22.445411808596234,
+        "uniform_solid_centroid_height_mm": 24.03662921481977,
+        "rear_edge_centroid_margin_mm": 22.295411808596235,
+        "front_edge_centroid_margin_mm": 9.704588191404412
+      },
+      "contact_area_multiple": 3.3524736103526886,
+      "seat_difference_mm3": 0.0,
+      "peg_difference_mm3": 0.0,
+      "tip_floor_difference_mm3": 0.0
+    },
+    {
+      "id": "SD04",
+      "before": {
+        "contact_area_mm2": 2130.04,
+        "contact_depth_mm": 9.4,
+        "height_mm": 93.63580697385001,
+        "solid_volume_mm3": 820447.1127606579,
+        "uniform_solid_centroid_y_mm": 23.106871488873153,
+        "uniform_solid_centroid_height_mm": 56.94804489545183,
+        "rear_edge_centroid_margin_mm": 22.956871488873155,
+        "front_edge_centroid_margin_mm": -13.556871488873153
+      },
+      "after": {
+        "contact_area_mm2": 8871.345079887966,
+        "contact_depth_mm": 40.0,
+        "height_mm": 49.93447796754,
+        "solid_volume_mm3": 576592.7816450358,
+        "uniform_solid_centroid_y_mm": 26.953795280649423,
+        "uniform_solid_centroid_height_mm": 26.201005988211953,
+        "rear_edge_centroid_margin_mm": 26.803795280649425,
+        "front_edge_centroid_margin_mm": 13.196204719350575
+      },
+      "contact_area_multiple": 4.164872528162835,
+      "seat_difference_mm3": 0.0,
+      "peg_difference_mm3": 0.0,
+      "tip_floor_difference_mm3": 0.0
+    }
+  ],
+  "scope": "Exact CAD bed faces, no brim. Centroid uses uniform solid density, not sliced infill. No area per sliced mass, adhesion capacity, nozzle loads or calibrated overturning FOS. No slicing or physical print performed for A v2."
+}

@@ -1,0 +1,215 @@
+{
+  "peg_profile": {
+    "variant": "rear-tongue-3p80-interference0p05",
+    "board_grip_assumption_mm": 3.8,
+    "source_board_assumption_mm": 3.94,
+    "clearance_at_assumed_board_mm": -0.05,
+    "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+    "tongue_run_mm": 5.0,
+    "tongue_rise_mm": 3.3,
+    "tongue_angle_deg": 33.4248111826038,
+    "previous_tongue_angle_deg": 30.96375653207352,
+    "elbow_center_y_mm": -2.578176717793985,
+    "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+    "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+    "scope": "Intentional interference: negative clearance requires plastic/board compliance. Assumed board grip, not measured thickness. No force or recoverable deformation claim.",
+    "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+  },
+  "all_seven_rear_geometries_match_current_profile": true,
+  "tool_paths": [
+    {
+      "module": "barrels",
+      "tool": "flux",
+      "lift_mm": 18,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 31,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "barrels",
+      "tool": "paste",
+      "lift_mm": 18,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 31,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "barrels",
+      "tool": "sucker",
+      "lift_mm": 18,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 31,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "tweezers",
+      "tool": "tweezer",
+      "lift_mm": 48,
+      "departure_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 46,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "tweezers",
+      "tool": "tweezer",
+      "lift_mm": 48,
+      "departure_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 46,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "tweezers",
+      "tool": "tweezer",
+      "lift_mm": 48,
+      "departure_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 46,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "tweezers",
+      "tool": "tweezer",
+      "lift_mm": 48,
+      "departure_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 46,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "reel-thick",
+      "tool": "solder",
+      "lift_mm": 16,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "reel-thin",
+      "tool": "solder",
+      "lift_mm": 16,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "braid",
+      "tool": "braid",
+      "lift_mm": 16,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 30,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "snips-pliers",
+      "tool": "micro-snips",
+      "lift_mm": 40,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 42,
+      "max_overlap_mm3": 0.0
+    },
+    {
+      "module": "snips-pliers",
+      "tool": "needle-nose",
+      "lift_mm": 48,
+      "departure_direction": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "departure_mm": 80,
+      "samples": 46,
+      "max_overlap_mm3": 0.0
+    }
+  ],
+  "barrel_grips": [
+    {
+      "tool": "flux",
+      "side": -1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "tool": "flux",
+      "side": 1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "tool": "paste",
+      "side": -1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "tool": "paste",
+      "side": 1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "tool": "sucker",
+      "side": -1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "tool": "sucker",
+      "side": 1,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "scope": "Rigid planning proxies at sampled positions, not measured tools, force/friction, hand population validation, or physical print proof.",
+  "liner_path": {
+    "lift_mm": 13,
+    "forward_mm": 80,
+    "max_overlap_mm3": 0
+  }
+}

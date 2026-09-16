@@ -1,3 +1,5 @@
+> **Current bench collection:** [Open the gallery](https://thereprocase.github.io/peg/gallery/) and [current tighter-fit / integration rules](BENCH_HOLDERS.md). The nominal anchor study below is preserved separately; its certificates do not cover the interference-fit holders.
+
 # Current project handoff
 
 The current design is the **120-degree conformal anchor** in [README.md](README.md), with a full-thickness lower bearing, sharp 5 mm nominal lip and an importable allowed volume for real attached parts. The user authorized updating and publishing this design, README and all current visuals to `main` on [thereprocase/peg](https://github.com/thereprocase/peg).
