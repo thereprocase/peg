@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://warpbus.com/pegs/",
+    "result": "308 https://thereprocase.github.io/peg/gallery/"
+  },
+  {
+    "url": "https://warpbus.com/pegs/shaft-sampler/",
+    "result": "308 https://thereprocase.github.io/peg/gallery/shaft-sampler/"
+  },
+  {
+    "url": "https://warpbus.com/pegs/pegstr.html?part=P01",
+    "result": "308 https://thereprocase.github.io/peg/gallery/pegstr.html?part=P01"
+  },
+  {
+    "url": "https://warpbus.com/pegs/shaft-sampler/part-ms01-shaft-fit-sampler-20x10x3__v2__P1S-04-PLA__print-kit.zip",
+    "result": "308 https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-ms01-shaft-fit-sampler-20x10x3__v2__P1S-04-PLA__print-kit.zip"
+  },
+  {
+    "url": "https://warpbus.com/",
+    "result": "200"
+  },
+  {
+    "url": "https://warpbus.com/domhammer/",
+    "result": "200"
+  },
+  {
+    "url": "https://warpbus.com/domhammer/api/health",
+    "result": "200"
+  },
+  {
+    "url": "https://thereprocase.github.io/peg/gallery/",
+    "result": "200"
+  }
+]
