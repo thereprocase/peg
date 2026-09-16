@@ -26,6 +26,13 @@ for n,v in source.items():
  elif Path(n).suffix not in {'.html'}:assert hashlib.sha256((D/n).read_bytes()).hexdigest()==v['sha256'],n
 assert (D/'index.html').read_text(encoding='utf-8').count('<article>')==4
 assert '1 mm nominal clearance' in (D/'shaft-sampler/index.html').read_text(encoding='utf-8')
+additions=R/'publication/ms01-v3-recoverable-additions.json'
+if additions.exists():
+ for n,v in json.loads(additions.read_text()).items():
+  route='shaft-sampler/recoverable/'+n
+  if route in moves:assert assets[moves[route].split('/')[-1]]==v,route
+  else:assert hashlib.sha256((D/route).read_bytes()).hexdigest()==v['sha256'],route
+ assert 'No pause, no permanent cap' in (D/'shaft-sampler/recoverable/index.html').read_text(encoding='utf-8')
 assert len(list(D.rglob('*.sqlite*')))==0
 report={'source_files':len(source),'release_assets':len(assets),'html_links':links,'errors':errors,'site_bytes':sum(p.stat().st_size for p in (R/'docs').rglob('*') if p.is_file())}
 print(json.dumps(report,indent=2));assert not errors
