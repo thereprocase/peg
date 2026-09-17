@@ -758,5 +758,57 @@
   "part-swd01-screw-dish-magnetic__v1__tray__print-flat.step": {
     "sha256": "5ebb3398f1e4f5a6e267dec2af8406a9adc233e72430a34f2ccd3b8802cba72e",
     "bytes": 24915
+  },
+  "part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__installed__fit-e586ab4ff6.step": {
+    "bytes": 173900,
+    "sha256": "84ae00a722dbe8438015be307b0c1a6c3968c1dc5084dc408218fce185d1b5cf"
+  },
+  "part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 173530,
+    "sha256": "5b6b07d66cf14baa07e6a08ba7307ff04d0592d04a5d359bed7df13dd8a35991"
+  },
+  "part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__plug-print-broad-face-quantity-6__fit-e586ab4ff6.step": {
+    "bytes": 7323,
+    "sha256": "68dc765aa3c370d6db46acc0b4b7e899bad933de603eaa808986beb2fc486f9d"
+  },
+  "part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step": {
+    "bytes": 137777,
+    "sha256": "98c4d0acf2390505088ae95a99dafa932995194346ed6d8bc70d1833a3f54cad"
+  },
+  "part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 140213,
+    "sha256": "a468da7c71d096115508e8bf3c014a75e0b4933e74f9022f4ebfdd04ad328829"
+  },
+  "part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__plug-print-broad-face-quantity-4__fit-e586ab4ff6.step": {
+    "bytes": 7255,
+    "sha256": "37264af91c7912cdbd88ee09ded7d9f611ebfad791e546b6d73ad02b979ec772"
+  },
+  "part-mh03-magnetic-shaft-holder-8mm-round__v1__4-seats-8-cells__installed__fit-e586ab4ff6.step": {
+    "bytes": 137423,
+    "sha256": "b12df29c1599ba0a098c649e5931ecdba784f8121b2aa353a4dcd19616698746"
+  },
+  "part-mh03-magnetic-shaft-holder-8mm-round__v1__4-seats-8-cells__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 139872,
+    "sha256": "a08a1b858153b0ac83ad8a16dc7ce0def07ca338fc30fe442a94ec81a87f9bca"
+  },
+  "part-mh03-magnetic-shaft-holder-8mm-round__v1__4-seats-8-cells__plug-print-broad-face-quantity-4__fit-e586ab4ff6.step": {
+    "bytes": 7289,
+    "sha256": "b6931f1fdbb01a883348f24ad5149640b13cb3334bcae55ea3bed55582ab49b0"
+  },
+  "part-mh04-magnetic-shaft-holder-quarter-inch-hex__v1__4-seats-8-cells__installed__fit-e586ab4ff6.step": {
+    "bytes": 151676,
+    "sha256": "e365da93871592c6f60e2f5185e35c2f99fbfde753c80092cfa20fbc195fc87a"
+  },
+  "part-mh04-magnetic-shaft-holder-quarter-inch-hex__v1__4-seats-8-cells__print-flat-top__fit-e586ab4ff6.step": {
+    "bytes": 153176,
+    "sha256": "f431aef00815ce14e7f2b540cdd0f71cc79bc5557e1625d9d67594ec3d06ba70"
+  },
+  "part-mh04-magnetic-shaft-holder-quarter-inch-hex__v1__4-seats-8-cells__plug-print-broad-face-quantity-4__fit-e586ab4ff6.step": {
+    "bytes": 7287,
+    "sha256": "af17c82498519006f30d633d0e79ea1b6e5103ec84b702998ce381db8f4de651"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__review-cad-kit.zip": {
+    "bytes": 1369786,
+    "sha256": "5cab78ca7b19f6235a6addeea45b4abc8fc51b047a5b8f6ff6aca6803bc39277"
   }
 }
