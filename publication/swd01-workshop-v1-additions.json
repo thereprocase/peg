@@ -1,0 +1,18 @@
+{
+  "part-swd01-screw-dish-magnetic__v1__public-review-bundle__fit-e586ab4ff6.zip": {
+    "sha256": "826f829d3125bc73d3cdb30e7db92f73c6dfdf2ff23fcb33d4be93a677e02271",
+    "bytes": 366643
+  },
+  "part-swd01-screw-dish-magnetic__v1__assembly-reference__installed__fit-e586ab4ff6.step": {
+    "sha256": "3b5d2e623959f4606714c24b417443b4e86567daee112da8ec0c2967e581790e",
+    "bytes": 87726
+  },
+  "part-swd01-screw-dish-magnetic__v1__cradle__print-right-cheek__fit-e586ab4ff6.step": {
+    "sha256": "6c53ee121bc391ab589b8a4140770eb32b1d5c1fc02f25dabe46f987ec56ac29",
+    "bytes": 67461
+  },
+  "part-swd01-screw-dish-magnetic__v1__tray__print-flat.step": {
+    "sha256": "5ebb3398f1e4f5a6e267dec2af8406a9adc233e72430a34f2ccd3b8802cba72e",
+    "bytes": 24915
+  }
+}
