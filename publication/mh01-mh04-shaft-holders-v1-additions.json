@@ -1,7 +1,7 @@
 {
   "magnetic-shaft-holders__v1__README.md": {
-    "bytes": 2800,
-    "sha256": "0f71db66a8f96607f80acbc021f71e88426e33d87232fb2b8f2bd68f7db85232"
+    "bytes": 4519,
+    "sha256": "2e6ebb027384cda8fc49d02857b5471953ddd5652a542913e05a21a112cba1a1"
   },
   "magnetic-shaft-holders__v1__family-loaded.png": {
     "bytes": 796228,
@@ -171,6 +171,10 @@
     "bytes": 684,
     "sha256": "f1a565453c3c9a7bd9f5befa48bc67886c8aa46d6fe72516f1e1619f03725268"
   },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__sliced-job-checks.json": {
+    "bytes": 3402,
+    "sha256": "9777d04ea85024becca7a3c4a46fca258ea74f3b551eaaaae9df373d60ea025b"
+  },
   "part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__installed__fit-e586ab4ff6.step": {
     "bytes": 173900,
     "sha256": "84ae00a722dbe8438015be307b0c1a6c3968c1dc5084dc408218fce185d1b5cf"
@@ -222,5 +226,17 @@
   "part-mh01-mh04-magnetic-shaft-holders__v1__review-cad-kit.zip": {
     "bytes": 1369786,
     "sha256": "5cab78ca7b19f6235a6addeea45b4abc8fc51b047a5b8f6ff6aca6803bc39277"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__print-kit.zip": {
+    "bytes": 12184953,
+    "sha256": "b980d817e2ac61b6b293c8afae5f2ed57386b21ea5c2290b610cc241737a1aa0"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "bytes": 11257113,
+    "sha256": "a2247940c1e5afb35f6eeac634ccfff60c562106ed17d4810371d7bc5c612a4f"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__EDIT-ME.3mf": {
+    "bytes": 385864,
+    "sha256": "1a3e29060adf1f651903dfce7dac619e7441b582de71739237ab12fd9b656ae1"
   }
 }

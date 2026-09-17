@@ -17,6 +17,20 @@ lift/forward withdrawal with neighbours seated, 0.99-1.04 mm magnet gap and paus
 loading path pass. Handle envelopes are nominal. NOT sliced, no supports review,
 no pause-layer verification, no physical print. No job sent to a printer.
 
+### Print kit — same day
+
+User approved the forms and asked for the Orca job. Native P1S / 0.4 / Generic PLA /
+textured PEI five-plate job with the MS01 v2 process overrides: 26 plugs 12.54 g /
+41m48s; MH01 71.72 g / 3h1m29s; MH02 108.04 g / 4h2m19s (print twice); MH03
+120.94 g / 4h27m40s (print twice); MH04 120.87 g / 4h23m24s. One native pause per
+holder plate before layer 38.2 with 38.0 complete; zero extrusion inside any of the
+18 magnet chimneys below 38.0; every chimney first closes at 38.2. Nothing outside
+the bed, no mesh repairs, path accounting and startup clearance pass, embedded
+settings reslice. Orca's bed-temperature notice retained. Desktop GUI opening,
+support removal and the physical print remain untested. No job sent to a printer.
+Second release: mh01-mh04-shaft-holders-v1-print-kit (print kit ZIP, PRINT-ME,
+EDIT-ME). The first release's 13 assets are unchanged.
+
 Gallery: https://thereprocase.github.io/peg/gallery/shaft-holders/
 Release: mh01-mh04-shaft-holders-v1 (12 STEP files and the review CAD kit ZIP).
 Receipts: `mh01-mh04-shaft-holders-v1-additions.json`; `tools/check_gallery.py`

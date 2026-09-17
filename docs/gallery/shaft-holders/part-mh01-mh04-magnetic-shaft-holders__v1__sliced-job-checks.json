@@ -1,0 +1,139 @@
+{
+  "plates": [
+    {
+      "plate": 1,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 12.54,
+      "time": "41m 48s",
+      "pause_count": 0
+    },
+    {
+      "plate": 2,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 71.72,
+      "time": "3h 1m 29s",
+      "pause_count": 1,
+      "id": "MH01",
+      "print_count": 1,
+      "pause_before_layer_z": 38.2,
+      "completed_height": 38.0,
+      "first_cap_layers": [
+        38.2,
+        38.2,
+        38.2,
+        38.2,
+        38.2,
+        38.2
+      ],
+      "pre_pause_pocket_intrusions": 0
+    },
+    {
+      "plate": 3,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 108.04,
+      "time": "4h 2m 19s",
+      "pause_count": 1,
+      "id": "MH02",
+      "print_count": 2,
+      "pause_before_layer_z": 38.2,
+      "completed_height": 38.0,
+      "first_cap_layers": [
+        38.2,
+        38.2,
+        38.2,
+        38.2
+      ],
+      "pre_pause_pocket_intrusions": 0
+    },
+    {
+      "plate": 4,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 120.94,
+      "time": "4h 27m 40s",
+      "pause_count": 1,
+      "id": "MH03",
+      "print_count": 2,
+      "pause_before_layer_z": 38.2,
+      "completed_height": 38.0,
+      "first_cap_layers": [
+        38.2,
+        38.2,
+        38.2,
+        38.2
+      ],
+      "pre_pause_pocket_intrusions": 0
+    },
+    {
+      "plate": 5,
+      "paths": "PASS_PATHS_AND_ACCOUNTING",
+      "startup": "PASS_START_CLEARANCE",
+      "estimated_g": 120.87,
+      "time": "4h 23m 24s",
+      "pause_count": 1,
+      "id": "MH04",
+      "print_count": 1,
+      "pause_before_layer_z": 38.2,
+      "completed_height": 38.0,
+      "first_cap_layers": [
+        38.2,
+        38.2,
+        38.2,
+        38.2
+      ],
+      "pre_pause_pocket_intrusions": 0
+    }
+  ],
+  "mesh_repairs": "none",
+  "native_warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    },
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    },
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    },
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    },
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "settings_preserved": [
+    "layer_height",
+    "initial_layer_print_height",
+    "wall_loops",
+    "sparse_infill_density",
+    "sparse_infill_pattern",
+    "top_shell_layers",
+    "bottom_shell_layers",
+    "enable_support",
+    "support_type",
+    "support_on_build_plate_only",
+    "brim_width",
+    "nozzle_diameter",
+    "filament_type",
+    "machine_start_gcode",
+    "machine_end_gcode",
+    "extruder_offset",
+    "machine_pause_gcode"
+  ],
+  "gui_checks": "Not performed: native desktop control unavailable",
+  "physical_test": "Not yet printed; fit, holding force and hardware loading need user trial."
+}

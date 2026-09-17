@@ -810,5 +810,17 @@
   "part-mh01-mh04-magnetic-shaft-holders__v1__review-cad-kit.zip": {
     "bytes": 1369786,
     "sha256": "5cab78ca7b19f6235a6addeea45b4abc8fc51b047a5b8f6ff6aca6803bc39277"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__print-kit.zip": {
+    "bytes": 12184953,
+    "sha256": "b980d817e2ac61b6b293c8afae5f2ed57386b21ea5c2290b610cc241737a1aa0"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__PRINT-ME.gcode.3mf": {
+    "bytes": 11257113,
+    "sha256": "a2247940c1e5afb35f6eeac634ccfff60c562106ed17d4810371d7bc5c612a4f"
+  },
+  "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__EDIT-ME.3mf": {
+    "bytes": 385864,
+    "sha256": "1a3e29060adf1f651903dfce7dac619e7441b582de71739237ab12fd9b656ae1"
   }
 }
