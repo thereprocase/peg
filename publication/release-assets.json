@@ -846,5 +846,21 @@
   "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print-right-cheek.step": {
     "bytes": 6856996,
     "sha256": "40ee0bc17ba9fb0f98e036d874811822b79c335fc91203dcd87c8f7bbc89433d"
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__installed.step": {
+    "sha256": "f30dcc46cb17a62628ba6cc2f083f2a5855ea75db36fb373115c0819fd32e8a6",
+    "size": 6851552
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print-right-cheek.step": {
+    "sha256": "1d7d6ed798010bdb36f9f5b62983ae528e09b024f1c95dc2637de1a787b5f1bf",
+    "size": 6829370
+  },
+  "part-solder-modules-tweezers__v10__single-throat__print-right-cheek.step": {
+    "sha256": "7b86a2275b542ed98e6292a58a719417f449cd2fe1fe7838f326385ddb12cac6",
+    "size": 3299898
+  },
+  "part-solder-modules-tweezers__v10__cad-source-and-review.zip": {
+    "sha256": "7f1e14bbd63f248c6840a96c2bec0c4cd52a96e8bbb301fd350eb18f8f2a1582",
+    "size": 12134274
   }
 }

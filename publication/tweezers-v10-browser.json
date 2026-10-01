@@ -1,0 +1,42 @@
+{
+  "modelLoaded": true,
+  "views": [
+    {
+      "view": "empty",
+      "src": "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__empty.glb",
+      "loaded": true
+    },
+    {
+      "view": "print",
+      "src": "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print.glb",
+      "loaded": true
+    },
+    {
+      "view": "loaded",
+      "src": "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__loaded.glb",
+      "loaded": true
+    }
+  ],
+  "desktopOverflow": false,
+  "mobileOverflow": false,
+  "errors": [],
+  "downloads": [
+    {
+      "text": "Single-throat test STL",
+      "href": "/gallery/tweezers/part-solder-modules-tweezers__v10__single-throat__print-right-cheek.stl"
+    },
+    {
+      "text": "Four-slot station STL",
+      "href": "/gallery/tweezers/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print-right-cheek.stl"
+    },
+    {
+      "text": "Installed STEP",
+      "href": "https://github.com/thereprocase/peg/releases/download/tweezers-v10-dev-2026-10-01/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__installed.step"
+    },
+    {
+      "text": "CAD + editable source bundle",
+      "href": "https://github.com/thereprocase/peg/releases/download/tweezers-v10-dev-2026-10-01/part-solder-modules-tweezers__v10__cad-source-and-review.zip"
+    }
+  ],
+  "page": "docs/gallery/tweezers/v10.html"
+}

@@ -58,5 +58,13 @@ if additions.exists():
   else:assert hashlib.sha256((D/route).read_bytes()).hexdigest()==v['sha256'],route
  assert 'DEVELOPMENT' in (D/'tweezers/v9.html').read_text(encoding='utf-8')
  assert 'v9.html' in (D/'tweezers/index.html').read_text(encoding='utf-8')
+additions=R/'publication/tweezers-v10-additions.json'
+if additions.exists():
+ for n,v in json.loads(additions.read_text()).items():
+  route='tweezers/'+n
+  if route in moves:assert assets[moves[route].split('/')[-1]]==v,route
+  else:assert hashlib.sha256((D/route).read_bytes()).hexdigest()==v['sha256'],route
+ assert 'Tips down. A closer, lighter layout.' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
+ assert 'not yet physically tested' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
 report={'source_files':len(source),'release_assets':len(assets),'html_links':links,'errors':errors,'site_bytes':sum(p.stat().st_size for p in (R/'docs').rglob('*') if p.is_file())}
 print(json.dumps(report,indent=2));assert not errors
