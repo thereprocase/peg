@@ -1,0 +1,74 @@
+{
+  "part-solder-modules-tweezers__v8__README.txt": {
+    "bytes": 4737,
+    "sha256": "fd44044eae39ae16d2b3642daeeee5848bcf4337da94e987dfdb7ed9b7529ebf"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__design-and-checks.json": {
+    "bytes": 9777,
+    "sha256": "0dcc744cf62742010a241c5bfacab24beba54673c84fbb2d2cd034f3ba00b123"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__detail.png": {
+    "bytes": 45583,
+    "sha256": "98cc70afa1b81f0e9cb688705570b6045d037bf3d74750f29ca8591ac0864eb9"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__empty.glb": {
+    "bytes": 542228,
+    "sha256": "431829527c636b623cb8c75a86b89ba585dab15bfcffd23cd93ce73d5a80ba10"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__empty.png": {
+    "bytes": 47152,
+    "sha256": "eb17cdc6a88d4d9749bcbeedab38615871bf219294819bc153a5a999b46527dc"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__loaded.glb": {
+    "bytes": 3869088,
+    "sha256": "1cae94d4b63f84f3600475c11b2c2fd796eaba0f5f9c43bbf4463de7ddf21d76"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__loaded.png": {
+    "bytes": 75021,
+    "sha256": "334f87c142e06a2409f798ab24085babed404d65dbfdb26af60c91f8cba83122"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__print-right-cheek.stl": {
+    "bytes": 1353084,
+    "sha256": "47cf651e4eee867dda8c1fbc45217453765ea727a1cc12ea39c6cd18b5d7be2a"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__print.glb": {
+    "bytes": 542208,
+    "sha256": "43564aa6ac7b905a709027278f3deea1aaa46b9a6d618e2f7ee29c1ce4223a94"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__print.png": {
+    "bytes": 58325,
+    "sha256": "9eb8c62fe7a39686a5eda3af8b6d3a913e8726dfab7491da9d90581553e1463a"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__rear.png": {
+    "bytes": 52960,
+    "sha256": "52e8da37919b5e0c80323b1a005fada2d9f4c72afb9daad6fdbbdfa73bb5d06b"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__single-throat-test__print-right-cheek.stl": {
+    "bytes": 108684,
+    "sha256": "c54ee9b841f86bc22797373e91f668c7913d31369b340d914b429cbe006ef031"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__test-piece.glb": {
+    "bytes": 44460,
+    "sha256": "13d0e66b3bd8da465f206a8d3a9319fae4ed97882119b5d9ac1b25d20f22fb83"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__test-piece.png": {
+    "bytes": 38583,
+    "sha256": "d22453068cfb3ba619d4b0248a40f56019e58ee6f9ad380c06fb96e8d5d0fa5d"
+  },
+  "part-solder-modules-tweezers__v8__cad-source-and-review.zip": {
+    "bytes": 10355030,
+    "sha256": "3e68bdefcbeddb6db9d07933cbdbad8a4223ccdb996621531f8bcc87ee24f0d6"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__installed.step": {
+    "bytes": 14166059,
+    "sha256": "91c0c71c409bd17054f970cddb92c6846798f5e51ae64b9fd531c328f012007e"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__print-right-cheek.step": {
+    "bytes": 14181487,
+    "sha256": "12a0cce7af52ab064b65378f17c61101de190c06fe73e8cc3c7ba7352eff9681"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__single-throat-test__print-right-cheek.step": {
+    "bytes": 3287840,
+    "sha256": "e1c8aa84eb41e1435774c9393e21f6fb05534edc04aeea679b296ba0950e8371"
+  }
+}

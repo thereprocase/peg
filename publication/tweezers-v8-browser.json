@@ -1,0 +1,59 @@
+{
+  "javascriptExceptions": 0,
+  "checks": [
+    {
+      "view": "loaded",
+      "src": "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__loaded.glb",
+      "selected": "With tweezers",
+      "dimensions": {
+        "x": 0.04879999905824661,
+        "y": 0.23037602752447128,
+        "z": 0.11697782762348652,
+        "toString": {}
+      },
+      "overflow": false
+    },
+    {
+      "view": "empty",
+      "src": "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__empty.glb",
+      "selected": "Empty cradles",
+      "dimensions": {
+        "x": 0.04879999905824661,
+        "y": 0.22699999809265137,
+        "z": 0.11697782762348652,
+        "toString": {}
+      },
+      "overflow": false
+    },
+    {
+      "view": "print",
+      "src": "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__print.glb",
+      "selected": "Print orientation",
+      "dimensions": {
+        "x": 0.22699999809265137,
+        "y": 0.04879999905824661,
+        "z": 0.11697782652461797,
+        "toString": {}
+      },
+      "overflow": false
+    },
+    {
+      "view": "test-piece",
+      "src": "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__test-piece.glb",
+      "selected": "Test piece",
+      "dimensions": {
+        "x": 0.008525334198610686,
+        "y": 0.01989682567550411,
+        "z": 0.057999998231069945,
+        "toString": {}
+      },
+      "overflow": false
+    }
+  ],
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "heading": "Tips down. A longer, steadier throat.",
+    "brokenImages": []
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "version": 8,
+  "orientation": "Tips down for storage, insertion and removal; grasp the heel.",
+  "baseline_sha256": "2abdd83699589dac57290c444aeb298cfc429a8d2d4eb9effbe83d5bf0c20f37",
+  "canonical_peg_fit_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+  "mount_and_receiver_difference_mm3_below_y_5p15": 0.0,
+  "mount_points": 14,
+  "tool_heel_positions_xyz_mm": [
+    [
+      -9.4,
+      105.0,
+      55.0
+    ],
+    [
+      -9.4,
+      105.0,
+      13.0
+    ],
+    [
+      -9.4,
+      105.0,
+      -29.0
+    ],
+    [
+      -9.4,
+      105.0,
+      -71.0
+    ]
+  ],
+  "tool_to_installed_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -0.6427876096865393,
+      0.766044443118978
+    ],
+    [
+      0.0,
+      -0.766044443118978,
+      -0.6427876096865393
+    ]
+  ],
+  "cradle_body_station_range_from_heel_mm": [
+    6,
+    64
+  ],
+  "closer_lateral_bearing_range_mm": [
+    42,
+    61
+  ],
+  "lateral_clearance_per_edge_mm": 0.08,
+  "aft_lateral_clearance_per_edge_mm": 0.35,
+  "lower_face_clearance_mm": 0.35,
+  "wall_mm": 2.4,
+  "tip_region_from_heel_mm": [
+    108,
+    122.76
+  ],
+  "storage_tool": "The measured/scanned 122.76 mm bent tweezer, repeated in all four slots. Other tools not fitted.",
+  "holder": {
+    "valid_single_solid": true,
+    "volume_mm3": 91803.69313282699,
+    "mesh_watertight": true,
+    "mesh_triangles": 27060,
+    "mesh_volume_error_fraction": 2.0209695769600838e-05,
+    "step_roundtrip_volume_error_mm3": 1.90806167665869e-05,
+    "bounds_mm": [
+      48.8,
+      116.97782730428048,
+      227.0
+    ]
+  },
+  "print": {
+    "valid_single_solid": true,
+    "volume_mm3": 91803.69313282688,
+    "mesh_watertight": true,
+    "mesh_triangles": 27060,
+    "mesh_volume_error_fraction": 2.020969576833277e-05,
+    "step_roundtrip_volume_error_mm3": 1.9037644960917532e-05,
+    "bounds_mm": [
+      227.0,
+      116.97782730428048,
+      48.80000000000001
+    ]
+  },
+  "test_piece": {
+    "valid_single_solid": true,
+    "volume_mm3": 3222.2959202353577,
+    "mesh_watertight": true,
+    "mesh_triangles": 2172,
+    "mesh_volume_error_fraction": 1.568593157017925e-09,
+    "step_roundtrip_volume_error_mm3": 4.706663276010659e-06,
+    "bounds_mm": [
+      8.525334517591448,
+      58.0,
+      19.896826432595766
+    ]
+  },
+  "qualification": "Prototype; no physical fit, wear, load or printer-profile qualification. No inherited v6/v7 slicing claim.",
+  "tool_mesh_checks": {
+    "open_rest_holder_and_neighbour_clearance_mm": [
+      0.078034070678249,
+      0.078034070678249,
+      0.07803391256972966,
+      0.07803391256972966
+    ],
+    "point_region_holder_distance_mm": [
+      3.0199999809265137,
+      3.0199999809265137,
+      3.0199999809265137,
+      16.22090244293213
+    ],
+    "gravity_body_stop_detected_by_vertical_drop_mm": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "removal_paths": [
+      {
+        "slot": 1,
+        "translation_waypoints_mm": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            -30,
+            0,
+            5
+          ]
+        ],
+        "distance_evaluations": 40,
+        "continuous_translation_clearance_lower_bound_mm": 0.040552427388694426,
+        "minimum_evaluated_mesh_distance_mm": 0.078034070678249,
+        "passed": true
+      },
+      {
+        "slot": 2,
+        "translation_waypoints_mm": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            -30,
+            0,
+            5
+          ]
+        ],
+        "distance_evaluations": 40,
+        "continuous_translation_clearance_lower_bound_mm": 0.040552427388694426,
+        "minimum_evaluated_mesh_distance_mm": 0.078034070678249,
+        "passed": true
+      },
+      {
+        "slot": 3,
+        "translation_waypoints_mm": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            -30,
+            0,
+            5
+          ]
+        ],
+        "distance_evaluations": 40,
+        "continuous_translation_clearance_lower_bound_mm": 0.04055243286663432,
+        "minimum_evaluated_mesh_distance_mm": 0.07803391256972966,
+        "passed": true
+      },
+      {
+        "slot": 4,
+        "translation_waypoints_mm": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            -30,
+            0,
+            5
+          ]
+        ],
+        "distance_evaluations": 40,
+        "continuous_translation_clearance_lower_bound_mm": 0.04055243286663432,
+        "minimum_evaluated_mesh_distance_mm": 0.07803391256972966,
+        "passed": true
+      }
+    ],
+    "method": "Triangle-mesh distances with rigid translation Lipschitz bounds between adaptively subdivided endpoints. Same reversed path for insertion. Valid only for the supplied nominal open-pose meshes; excludes elasticity, tolerance and hands.",
+    "tip_down_axis_in_world": [
+      0.0,
+      -0.6427876096865393,
+      -0.766044443118978
+    ]
+  },
+  "new_host_mount_check": {
+    "scope": "Added front host only, over the v7 sampled pose paths with continuous interpolation. Unchanged interfering pegs retain the v7 compliance assumptions; no physical mount qualification.",
+    "projected_convex_hull_yz_mm": [
+      [
+        5.550000190734863,
+        5.119999885559082
+      ],
+      [
+        5.550000190734863,
+        -175.0
+      ],
+      [
+        68.0,
+        -127.0
+      ],
+      [
+        69.64030456542969,
+        -124.8757553100586
+      ],
+      [
+        107.0,
+        -74.0
+      ],
+      [
+        107.0,
+        52.0
+      ],
+      [
+        100.43367004394531,
+        50.99916076660156
+      ]
+    ],
+    "cases": [
+      {
+        "board_thickness_mm": 3.8,
+        "new_front_host_envelope": {
+          "passed": true,
+          "minimum_board_front_clearance_mm": 5.347818496151208,
+          "limiting_pose": {
+            "y": 0.93,
+            "z": 0.5,
+            "theta_deg": 11.5
+          },
+          "segment_index": 53,
+          "limiting_vertex_index": 0,
+          "vertices_design_yz_mm": [
+            [
+              5.550000190734863,
+              5.119999885559082
+            ],
+            [
+              5.550000190734863,
+              -175.0
+            ],
+            [
+              68.0,
+              -127.0
+            ],
+            [
+              69.64030456542969,
+              -124.8757553100586
+            ],
+            [
+              107.0,
+              -74.0
+            ],
+            [
+              107.0,
+              52.0
+            ],
+            [
+              100.43367004394531,
+              50.99916076660156
+            ]
+          ],
+          "numerical_tolerance_mm": 1e-09,
+          "method": "Continuous extrema at segment endpoints and every stationary point; monotone derivative intervals and 64-step bisection.",
+          "evaluated_candidates": 1513,
+          "arbitrary_x_width": true,
+          "zero_clearance_contact_allowed": true
+        }
+      },
+      {
+        "board_thickness_mm": 3.94,
+        "new_front_host_envelope": {
+          "passed": true,
+          "minimum_board_front_clearance_mm": 5.347818496151208,
+          "limiting_pose": {
+            "y": 0.93,
+            "z": 0.5,
+            "theta_deg": 11.5
+          },
+          "segment_index": 53,
+          "limiting_vertex_index": 0,
+          "vertices_design_yz_mm": [
+            [
+              5.550000190734863,
+              5.119999885559082
+            ],
+            [
+              5.550000190734863,
+              -175.0
+            ],
+            [
+              68.0,
+              -127.0
+            ],
+            [
+              69.64030456542969,
+              -124.8757553100586
+            ],
+            [
+              107.0,
+              -74.0
+            ],
+            [
+              107.0,
+              52.0
+            ],
+            [
+              100.43367004394531,
+              50.99916076660156
+            ]
+          ],
+          "numerical_tolerance_mm": 1e-09,
+          "method": "Continuous extrema at segment endpoints and every stationary point; monotone derivative intervals and 64-step bisection.",
+          "evaluated_candidates": 1513,
+          "arbitrary_x_width": true,
+          "zero_clearance_contact_allowed": true
+        }
+      }
+    ]
+  },
+  "slice_geometry_review": {
+    "engine": "OrcaSlicer 2.4.2",
+    "machine": "Bambu Lab P1S 0.4 nozzle",
+    "filament": "Generic PLA @BBL P1P",
+    "process": "0.20mm Standard @BBL X1C",
+    "overrides": {
+      "enable_support": true,
+      "support_type": "normal(auto)",
+      "support_on_build_plate_only": true,
+      "wall_loops": 3,
+      "infill_percent": 15,
+      "outer_brim_mm": 5
+    },
+    "slice_result": {
+      "error_string": "Success.",
+      "export_time": 0,
+      "layer_height": 0.20000000298023224,
+      "plate_index": 0,
+      "prepare_time": 0,
+      "return_code": 0,
+      "sliced_plates": [
+        {
+          "id": 1,
+          "sliced_time": 3,
+          "sliced_time_with_cache": 2,
+          "triangle_count": 27060,
+          "warning_message": ""
+        }
+      ],
+      "sparse_infill_density": 15.0,
+      "wall_loops": 3
+    },
+    "plate_outside": false,
+    "supports_used": true,
+    "estimated_time_seconds": 12679,
+    "estimated_total_filament_g": 135.01,
+    "scope": "Geometry review with system presets. No G-code or machine-ready print job published. Re-slice with the intended material and plate profile."
+  }
+}

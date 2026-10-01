@@ -1,0 +1,40 @@
+{
+  "length_mm": 122.76,
+  "joined_rear_length_mm": 16.0,
+  "rear_rounding_radius_mm": 4.85,
+  "edge_radius_mm": 0.12,
+  "open_tip_gap_mm": 11.0,
+  "closed_tip_clearance_mm": 0.06,
+  "width_profile_mm": [
+    [4.85, 9.70], [10, 9.70], [20, 9.45], [30, 9.30],
+    [45, 9.00], [60, 8.15], [70, 7.65], [78, 7.05],
+    [85, 5.80], [91, 4.65], [96, 3.95], [101, 3.20],
+    [106, 2.45], [110, 2.10], [112, 2.05], [115, 1.72],
+    [118, 1.25], [120.5, 0.75], [122.76, 0.16]
+  ],
+  "face_centerline_mm": [
+    [0, 0], [25, 0], [50, -0.15], [70, -0.35],
+    [82, 0.0], [91, 0.45], [102, 0.10], [108, -0.20],
+    [111, -0.15], [114, 0.70], [118, 3.60], [122.76, 6.80]
+  ],
+  "single_arm_thickness_mm": [
+    [0, 0.585], [10, 0.655], [16, 0.70], [30, 1.10],
+    [55, 1.35], [86, 1.47], [100, 1.40], [110, 1.10],
+    [115, 0.80], [120, 0.34], [122.76, 0.14]
+  ],
+  "open_gap_profile_mm": [
+    [16, 0.0], [20, 0.12], [28, 1.15], [38, 2.70],
+    [50, 4.70], [65, 6.90], [80, 8.20], [95, 9.60],
+    [108, 10.50], [122.76, 11.0]
+  ],
+  "evidence": {
+    "length": "122.76 mm overall, from 33813.jpg.",
+    "rear_thickness": "1.17 mm across the entire fused aft end, from 33811.jpg.",
+    "aft_thickness": "1.31 mm total aft-section thickness slightly forward of the rear, from 33810.jpg and the user's correction.",
+    "forward_arm_thickness": "1.47 mm at the separated forward arm gripped in 33809.jpg.",
+    "footprint": "Smooth outline fitted to the textured closed scan, rescaled to the measured length.",
+    "open_pose": "Arm separation estimated from the open scan viewed along the thin edges. Approximately 11 mm clear tip gap.",
+    "estimated_features": "Joined length, exact measurement stations, edge radii, tip grinding, and thickness transitions are interpolated estimates. The closed pose is an estimated smooth pinching deformation.",
+    "closed_clearance": "0.06 mm numerical clearance between the closed tips avoids coincident surfaces and preserves a watertight connected mesh."
+  }
+}

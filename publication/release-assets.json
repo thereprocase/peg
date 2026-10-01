@@ -822,5 +822,21 @@
   "part-mh01-mh04-magnetic-shaft-holders__v1__P1S-04-PLA__EDIT-ME.3mf": {
     "bytes": 385864,
     "sha256": "1a3e29060adf1f651903dfce7dac619e7441b582de71739237ab12fd9b656ae1"
+  },
+  "part-solder-modules-tweezers__v8__cad-source-and-review.zip": {
+    "bytes": 10355030,
+    "sha256": "3e68bdefcbeddb6db9d07933cbdbad8a4223ccdb996621531f8bcc87ee24f0d6"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__installed.step": {
+    "bytes": 14166059,
+    "sha256": "91c0c71c409bd17054f970cddb92c6846798f5e51ae64b9fd531c328f012007e"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__print-right-cheek.step": {
+    "bytes": 14181487,
+    "sha256": "12a0cce7af52ab064b65378f17c61101de190c06fe73e8cc3c7ba7352eff9681"
+  },
+  "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__single-throat-test__print-right-cheek.step": {
+    "bytes": 3287840,
+    "sha256": "e1c8aa84eb41e1435774c9393e21f6fb05534edc04aeea679b296ba0950e8371"
   }
 }
