@@ -1,0 +1,78 @@
+{
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__loaded.png": {
+    "sha256": "d9e4e8c434a5304795997cd5baa2bbfde5f821fbde81091b19945c83fef28ff7",
+    "size": 86535
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__empty.png": {
+    "sha256": "cc6e0bb4c84f325dd0d1fd62224414a86ccaad2021d10ad0cff79c5c8b1ef857",
+    "size": 44236
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__front.png": {
+    "sha256": "307cdfdf4990bdf839e54957325d3cbc27ea7b40f885ff492f80e6ab718bd203",
+    "size": 26989
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__rear.png": {
+    "sha256": "0c5a4d8c1a9ca740cdecf67fe853676db615dfd124483c05f8c06b5df28e99d5",
+    "size": 76734
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print.png": {
+    "sha256": "338357a10ca1c040fb7f4d85eaa86c34c8f73c796cb585736d1e3afb65a33b91",
+    "size": 68367
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__detail.png": {
+    "sha256": "4acc06db5ea2f3aed67c639d5c2774e7401fecdc2ab01081ab7ac78862aeba87",
+    "size": 51856
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__coupon.png": {
+    "sha256": "17c2150548f74449f86cd83b75c1862d78b2af6adaa0ebabeb2c3a165f64b4e8",
+    "size": 70456
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__loaded.glb": {
+    "sha256": "808cc22f71adce595207a6499a35ae50eb5f53c77856cd7bd959bf02b4950a60",
+    "size": 4072872
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__empty.glb": {
+    "sha256": "32ecf59e889786a0f917bcd9de126b0a92fd2e68d06a83f90bc17266feede805",
+    "size": 744236
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print.glb": {
+    "sha256": "afbcd6cd40d59d9ddabdd787a9067237842363ef880fde66dcc7afeab4a072f9",
+    "size": 744220
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print-right-cheek.stl": {
+    "sha256": "44e3f174522b378e7c807868268e8b1d51d40126c28e23a3a8baada707e69a46",
+    "size": 1857884
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__design-and-checks.json": {
+    "sha256": "5af56b21b4cb2e62cdc60f69884d07afc8a6f56a7318f8f348f62515a0e0a10e",
+    "size": 6679
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__README.txt": {
+    "sha256": "35a05ac5cb0d84d617a1685527fca2a28a71acdc4a851d49cec349137f91699c",
+    "size": 4473
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__layout.json": {
+    "sha256": "6a765f78aadc9fc10434c78f3e8b004a4c5888eff94d2604d2a86e9ac1544129",
+    "size": 937
+  },
+  "part-solder-modules-tweezers__v10__single-throat__print-right-cheek.stl": {
+    "sha256": "7444de67418ef09848026049cd4c3647c7bc84053e982173f4f8545ae8aee468",
+    "size": 109484
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__installed.step": {
+    "sha256": "f30dcc46cb17a62628ba6cc2f083f2a5855ea75db36fb373115c0819fd32e8a6",
+    "size": 6851552
+  },
+  "part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__print-right-cheek.step": {
+    "sha256": "1d7d6ed798010bdb36f9f5b62983ae528e09b024f1c95dc2637de1a787b5f1bf",
+    "size": 6829370
+  },
+  "part-solder-modules-tweezers__v10__single-throat__print-right-cheek.step": {
+    "sha256": "7b86a2275b542ed98e6292a58a719417f449cd2fe1fe7838f326385ddb12cac6",
+    "size": 3299898
+  },
+  "part-solder-modules-tweezers__v10__cad-source-and-review.zip": {
+    "sha256": "7f1e14bbd63f248c6840a96c2bec0c4cd52a96e8bbb301fd350eb18f8f2a1582",
+    "size": 12134274
+  }
+}
