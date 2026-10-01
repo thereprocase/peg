@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 1498,
-  "total_size_bytes": 535563034,
+  "file_count": 1508,
+  "total_size_bytes": 543201465,
   "files": [
     {
       "path": ".gitattributes",
@@ -4383,8 +4383,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 69758,
-      "sha256": "6c12d547db4e84768ade872a0dbb6984565bf7d6d3dee5f0cd733990930b3c54"
+      "size_bytes": 70286,
+      "sha256": "9c782d814896187a68c9993e26f7665215dbce53bfec4fa79e22eba191811d59"
     },
     {
       "path": "docs/gallery/research.html",
@@ -6653,8 +6653,8 @@
     },
     {
       "path": "docs/gallery/tweezers/index.html",
-      "size_bytes": 8288,
-      "sha256": "a06bb954ec73018d9cbc1b7e827395c4ef482211bb9b1c33956743f34a2f71f0"
+      "size_bytes": 8331,
+      "sha256": "98cc6e869e84948e5025a607361fa055424cd2d3e16c45946913080e557f3451"
     },
     {
       "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v7__4-tweezer-stack-14-mount-points__fit-e586ab4ff6__installed.stl",
@@ -6802,6 +6802,46 @@
       "sha256": "d22453068cfb3ba619d4b0248a40f56019e58ee6f9ad380c06fb96e8d5d0fa5d"
     },
     {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__design-and-checks.json",
+      "size_bytes": 3512,
+      "sha256": "8d2c8d368eca07c5144e40aae3282d519a5351faa0a35441b14e81a28367a6a7"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__empty.glb",
+      "size_bytes": 744596,
+      "sha256": "2b9f679567f1f848874545f63a1da985faf83196328ca93a2e7582dcda1b3282"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__loaded.glb",
+      "size_bytes": 4071460,
+      "sha256": "ce26ab91263ea986ba9a1e988cb76907df7e716bbc18266812a7e4db8159289f"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__loaded.png",
+      "size_bytes": 85205,
+      "sha256": "00cc6da282c0ba1da8c597fa04ff8e67915ed432e3ee4cf7acb23f4a46ea43e0"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print-right-cheek.stl",
+      "size_bytes": 1858784,
+      "sha256": "f55b824015bc157916463a4e86c9279730a80eea02eaf625847a174289a5135a"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print.glb",
+      "size_bytes": 744580,
+      "sha256": "129f2dd0fe936dfbb3a58fd074a8c444ffba77a3d84b73a06bd64784aad97624"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print.png",
+      "size_bytes": 61320,
+      "sha256": "416d0fdd1e428a405d6b2a000b35f6d332883e12b1263e4fcab96b968f29eb91"
+    },
+    {
+      "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__rear.png",
+      "size_bytes": 57216,
+      "sha256": "cbe619c3d2f04a67da4d22f254bb239f745e72da8d070cc2320bf7aa9ba747df"
+    },
+    {
       "path": "docs/gallery/tweezers/serve-gallery.py",
       "size_bytes": 269,
       "sha256": "d79a2453e057fba5c94d43835a600b3416769144013ada77f95aa4ca1dcb3130"
@@ -6810,6 +6850,11 @@
       "path": "docs/gallery/tweezers/v7.html",
       "size_bytes": 4598,
       "sha256": "43aac962e22f5944dfb762a991e2ccd9ab5a0527d82ea76d051eb0469d8d056a"
+    },
+    {
+      "path": "docs/gallery/tweezers/v9.html",
+      "size_bytes": 7666,
+      "sha256": "7179b1c42b7ddf9b4427a3dd2cc07735694b4e4064b691db0547d9a0c630c6d2"
     },
     {
       "path": "docs/gallery/tweezers/vendor/model-viewer-LICENSE.txt",
@@ -7088,13 +7133,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 41964,
-      "sha256": "a3c8373d009052d60d7c88db1399ee3d6d0cafdc620b77a6b47d4029ca5ce649"
+      "size_bytes": 42364,
+      "sha256": "d5807dd975a5ba666015cdb0abce61d6d0c86f4913ee9a546f1692a8b4829452"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 70213,
-      "sha256": "7ac90793ad89255e978c2da14c601adff8974ad7395eb69e5ed391f390808e0d"
+      "size_bytes": 70749,
+      "sha256": "52c4c1990c518f21e5d8965e737726cb229230e4bdac105373b013275b97f652"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -7115,6 +7160,11 @@
       "path": "publication/tweezers-v8-checks.json",
       "size_bytes": 9777,
       "sha256": "0dcc744cf62742010a241c5bfacab24beba54673c84fbb2d2cd034f3ba00b123"
+    },
+    {
+      "path": "publication/tweezers-v9-additions.json",
+      "size_bytes": 2066,
+      "sha256": "b13a81aadd90e03b63c26d83c485ecf30ebabbc330da1be4061a14e962f864b2"
     },
     {
       "path": "render_bearing.py",
@@ -7273,8 +7323,8 @@
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 3257,
-      "sha256": "3d4f02ff8ff1c38a95b917ddcab65a9bc34112d442c3f84dc8c0d96231471b57"
+      "size_bytes": 3776,
+      "sha256": "b28bde19bbbeca575864ed5b99f584cc19015f763ff13e0dc6f344e0171fa7b4"
     },
     {
       "path": "tools/check_round_toolpaths.py",

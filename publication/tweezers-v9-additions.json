@@ -1,0 +1,46 @@
+{
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__design-and-checks.json": {
+    "bytes": 3512,
+    "sha256": "8d2c8d368eca07c5144e40aae3282d519a5351faa0a35441b14e81a28367a6a7"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__empty.glb": {
+    "bytes": 744596,
+    "sha256": "2b9f679567f1f848874545f63a1da985faf83196328ca93a2e7582dcda1b3282"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__loaded.glb": {
+    "bytes": 4071460,
+    "sha256": "ce26ab91263ea986ba9a1e988cb76907df7e716bbc18266812a7e4db8159289f"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__loaded.png": {
+    "bytes": 85205,
+    "sha256": "00cc6da282c0ba1da8c597fa04ff8e67915ed432e3ee4cf7acb23f4a46ea43e0"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print-right-cheek.stl": {
+    "bytes": 1858784,
+    "sha256": "f55b824015bc157916463a4e86c9279730a80eea02eaf625847a174289a5135a"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print.glb": {
+    "bytes": 744580,
+    "sha256": "129f2dd0fe936dfbb3a58fd074a8c444ffba77a3d84b73a06bd64784aad97624"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print.png": {
+    "bytes": 61320,
+    "sha256": "416d0fdd1e428a405d6b2a000b35f6d332883e12b1263e4fcab96b968f29eb91"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__rear.png": {
+    "bytes": 57216,
+    "sha256": "cbe619c3d2f04a67da4d22f254bb239f745e72da8d070cc2320bf7aa9ba747df"
+  },
+  "v9.html": {
+    "bytes": 7666,
+    "sha256": "7179b1c42b7ddf9b4427a3dd2cc07735694b4e4064b691db0547d9a0c630c6d2"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__installed.step": {
+    "bytes": 6863023,
+    "sha256": "1eeac53c57cf450ca49767528618f02bf2da23386e01036c388ec1131728b213"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print-right-cheek.step": {
+    "bytes": 6856996,
+    "sha256": "40ee0bc17ba9fb0f98e036d874811822b79c335fc91203dcd87c8f7bbc89433d"
+  }
+}

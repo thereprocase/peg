@@ -1,0 +1,132 @@
+{
+  "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+  "top": {
+    "upper_ribs_mm": 0.5,
+    "clamp_mm": 0.49
+  },
+  "latch": {
+    "concept": "LATCH2",
+    "hook_mm": 1.2,
+    "catch_deg": 60,
+    "contact_ref_deg": 60,
+    "crest_mm": 0.3,
+    "gap_mm": 1.8,
+    "body_ribs_mm": 0.3,
+    "orientation": "flexes in Z (rotated 90 deg about the peg axis), hook toward +Z",
+    "detail": {
+      "contact_point_mm": {
+        "x": 3.175,
+        "y_from_rear": -0.20877132402714693
+      },
+      "hook_per_side_mm": 1.2,
+      "catch_angle_deg": 60,
+      "catch_length_mm": 0.8515916470546987,
+      "crest_y_mm": [
+        -4.6915916470546986,
+        -4.991591647054698
+      ],
+      "arm_length_mm": 6.15,
+      "arm_root_thickness_mm": 1.0499999999999998,
+      "head_thickness_mm": 3.175,
+      "flex_gap_mm": 1.8,
+      "crest_length_mm": 0.3,
+      "ramp_angle_deg": 23.032059408466914,
+      "one_sided": true,
+      "band_half_height_mm": 0.8
+    }
+  },
+  "rows": {
+    "hooks": [
+      0
+    ],
+    "bearing": [
+      2,
+      4
+    ],
+    "latch": [
+      6
+    ],
+    "empty": [
+      1,
+      3,
+      5
+    ]
+  },
+  "bearing_peg_widths_mm": [
+    5.550891820239585,
+    5.550891820239656
+  ],
+  "host_outside_envelope_mm3": 0.0,
+  "cheek_thickness_mm": 3.0,
+  "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+  "bed_contact_area_mm2": 17448.576361550004,
+  "files": [
+    {
+      "file": "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__installed.stl",
+      "facets": 37174,
+      "closed": true,
+      "volume_error_fraction": 6.806235141741496e-05,
+      "sha256": "4318751735c5a0ac9c991ffdbea4323867b5e2dfa7ce5cd2f29dee00292b847d"
+    },
+    {
+      "file": "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print-right-cheek.stl",
+      "facets": 37174,
+      "closed": true,
+      "volume_error_fraction": 1.7578096709409896e-05,
+      "sha256": "f55b824015bc157916463a4e86c9279730a80eea02eaf625847a174289a5135a"
+    }
+  ],
+  "print_bounds_mm": [
+    227.0,
+    117.78999999999999,
+    48.80000000000001
+  ],
+  "status": "development - not physically tested yet (first print 2026-10-01)",
+  "mating_check_vs_v8": {
+    "symmetric_difference_left_of_x0p5_mm3": 0.0,
+    "added_material_left_of_x0p5_mm3": 0.0,
+    "tools_max_x_at_rest_mm": -2.5199999809265137,
+    "min_clearance_tool_to_added_material_mm": 3.0199999809265137,
+    "passed": true
+  },
+  "board_sweep": {
+    "poses": 353,
+    "worst_by_group": {
+      "hooks": {
+        "volume_mm3": 2.4784,
+        "pose": [
+          5.58,
+          0.95,
+          20.88
+        ],
+        "depth_x_mm": 4.316,
+        "depth_z_mm": 2.188
+      },
+      "bearing_row2": {
+        "volume_mm3": 0.0
+      },
+      "bearing_row4": {
+        "volume_mm3": 0.0
+      },
+      "latch_row6": {
+        "volume_mm3": 4.7338,
+        "pose": [
+          0.036,
+          0.074,
+          1.49
+        ],
+        "depth_x_mm": 1.6,
+        "depth_z_mm": 1.425
+      }
+    },
+    "note": "Sampled, not certified. Hooks: intended clamp/side-rib squeeze. Latch: depth_z vs its 1.8 mm flex gap."
+  },
+  "front_to_cheek": {
+    "source": "bench/source/tweezers_v8/holder.py (12e4d15), unchanged",
+    "cheek_x_mm": 24.4,
+    "cradle_difference_mm3_where_x_le_12p3": 0.0,
+    "solids": 1,
+    "changed": "cradle floor +X end 12.3 -> 24.4; web X 0.5..2.9 -> 0.5..24.4; nothing on the tool side"
+  },
+  "source": "https://github.com/thereprocase/peg/tree/fit-ladder/bench/source/tweezers_v9"
+}
