@@ -838,5 +838,13 @@
   "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__single-throat-test__print-right-cheek.step": {
     "bytes": 3287840,
     "sha256": "e1c8aa84eb41e1435774c9393e21f6fb05534edc04aeea679b296ba0950e8371"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__installed.step": {
+    "bytes": 6863023,
+    "sha256": "1eeac53c57cf450ca49767528618f02bf2da23386e01036c388ec1131728b213"
+  },
+  "part-solder-modules-tweezers__v9__cheek-cradle__fit-pf02c9-latch__print-right-cheek.step": {
+    "bytes": 6856996,
+    "sha256": "40ee0bc17ba9fb0f98e036d874811822b79c335fc91203dcd87c8f7bbc89433d"
   }
 }
