@@ -1,7 +1,7 @@
 {
   "symmetric_difference_left_of_x0p5_mm3": 0.0,
-  "new_material_min_x_mm": -16.99682643259,
+  "added_material_left_of_x0p5_mm3": 0.0,
   "tools_max_x_at_rest_mm": -2.5199999809265137,
-  "min_clearance_tool_to_new_material_mm": -14.476826451663488,
-  "passed": false
+  "min_clearance_tool_to_added_material_mm": 3.0199999809265137,
+  "passed": true
 }

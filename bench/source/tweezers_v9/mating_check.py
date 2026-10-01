@@ -12,13 +12,14 @@ a = Part.read(str(v8/f'{P8}__installed.step')); b = Part.read(str(v9/f'{N9}__ins
 region = Part.makeBox(120, 300, 400, V(-119.5, 0.15, -300))      # X <= 0.5, in front of the board face
 ra, rb = a.common(region), b.common(region)
 diff = ra.cut(rb).Volume+rb.cut(ra).Volume
-new = b.cut(a)                                                   # everything v9 added
-new_front = new.common(Part.makeBox(200, 300, 400, V(-100, 0.15, -300)))
-real = [so for so in new_front.Solids if so.Volume > 1e-6]      # ignore zero-volume Boolean slivers
-xmin_new = min(so.BoundBox.XMin for so in real)
+# Bounding boxes of lofted B-spline solids are loose (they reported x=-17 for
+# material that is not there), so prove the boundary by exact volume instead:
+# v9 adds no material left of X=0.5 in front of the board.
+new = b.cut(a)
+added_left = new.common(region).Volume
 tools_xmax = max(Mesh.Mesh(str(v8/f'{P8}__reference-tool-{i+1}.stl')).BoundBox.XMax for i in range(4))
-gap = xmin_new-tools_xmax      # removal moves only +Z then -X, so this gap never shrinks
-r = dict(symmetric_difference_left_of_x0p5_mm3=diff, new_material_min_x_mm=xmin_new,
-         tools_max_x_at_rest_mm=tools_xmax, min_clearance_tool_to_new_material_mm=gap,
-         passed=diff < 1e-6 and gap > 0)
+gap = 0.5-tools_xmax           # removal moves only +Z then -X, so this gap never shrinks
+r = dict(symmetric_difference_left_of_x0p5_mm3=diff, added_material_left_of_x0p5_mm3=added_left,
+         tools_max_x_at_rest_mm=tools_xmax, min_clearance_tool_to_added_material_mm=gap,
+         passed=diff < 1e-6 and added_left < 1e-6 and gap > 0)
 (v9/'mating-check.json').write_text(json.dumps(r, indent=2)+'\n'); print(json.dumps(r))
