@@ -5,3 +5,13 @@ __pycache__/
 *.log
 render-preview/
 .DS_Store
+
+# Fit-ladder / v9 study (2026-09-30..10-01): heavy regenerable outputs stay local.
+# Plates regenerate from the committed per-coupon STLs; STEP goes to releases;
+# print/slice*/ holds slicer projects and the exact jobs that were printed.
+/print/slice*/
+docs/gallery/fit-ladder*/*.step
+docs/gallery/fit-ladder*/*__all-*__print-*.stl
+docs/gallery/box-2w/*.step
+bench/reviews/v9-build*/*.step
+bench/reviews/v9-build*/*.stl

@@ -1,0 +1,32 @@
+{
+  "poses": 353,
+  "worst_by_group": {
+    "hooks": {
+      "volume_mm3": 2.4784,
+      "pose": [
+        5.58,
+        0.95,
+        20.88
+      ],
+      "depth_x_mm": 4.316,
+      "depth_z_mm": 2.188
+    },
+    "bearing_row2": {
+      "volume_mm3": 0.0
+    },
+    "bearing_row4": {
+      "volume_mm3": 0.0
+    },
+    "latch_row6": {
+      "volume_mm3": 4.7338,
+      "pose": [
+        0.036,
+        0.074,
+        1.49
+      ],
+      "depth_x_mm": 1.6,
+      "depth_z_mm": 1.425
+    }
+  },
+  "note": "Sampled, not certified. Hooks: intended clamp/side-rib squeeze. Latch: depth_z vs its 1.8 mm flex gap."
+}

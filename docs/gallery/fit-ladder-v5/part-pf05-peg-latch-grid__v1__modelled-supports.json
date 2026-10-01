@@ -1,0 +1,173 @@
+{
+  "plate": {
+    "file": "part-pf05-peg-latch-grid__v1__all-9__print-flat-top-modelled-supports__fit-e586ab4ff6.stl",
+    "facets": 230412,
+    "closed": true,
+    "volume_error_fraction": 4.457387833004573e-05,
+    "sha256": "55bf8e11c824f4f0671288fbface5508804544012c66269fab6f8e6b286ff682"
+  },
+  "coupons": [
+    {
+      "coupon": 1,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 7.800000000001221,
+        "walls_x_mm": [
+          3.8749999999996145,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 2,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 7.800000000000836,
+        "walls_x_mm": [
+          3.875000000000001,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 3,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 7.800000000000836,
+        "walls_x_mm": [
+          3.875000000000001,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353763,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 4,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 8.100000000001213,
+        "walls_x_mm": [
+          3.5749999999996227,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 5,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 8.100000000000836,
+        "walls_x_mm": [
+          3.575,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 6,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 8.100000000000836,
+        "walls_x_mm": [
+          3.575,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 7,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 8.400000000001203,
+        "walls_x_mm": [
+          3.2749999999996318,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 8,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 8.400000000000835,
+        "walls_x_mm": [
+          3.2750000000000004,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    },
+    {
+      "coupon": 9,
+      "lower": {
+        "peg_underside_z_mm": 27.528062575748443,
+        "deck_bottom_z_mm": 26.328062575748444,
+        "bridge_span_mm": 8.400000000000835,
+        "walls_x_mm": [
+          3.2750000000000004,
+          15.675000000000836
+        ],
+        "y_mm": [
+          -0.49999999999999933,
+          10.590000000000002
+        ]
+      },
+      "upper_cradle_mm3": 187.23831469353772,
+      "min_gap_check": "support solids do not intersect the part; Z gap 0.20, XY gap 0.35"
+    }
+  ]
+}

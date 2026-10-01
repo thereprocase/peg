@@ -1,0 +1,378 @@
+{
+  "part": "PF02 peg fit grid",
+  "version": "v1",
+  "base_fit_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+  "lower_ribs_diametral_mm": 0.65,
+  "tail": {
+    "beyond_rear_mm": 7.0,
+    "diameter_mm": 4.8,
+    "raise_mm": 0.4,
+    "chamfer_mm": 0.8
+  },
+  "board_mm": 3.94,
+  "scope": "CAD geometry only. Ribs and clamp deliberately exceed the nominal board and bore. The 7 mm tail cleared a sampled sweep of the baseline removal path (no motion certificate). Force, wear and repeat use unmeasured.",
+  "coupons": [
+    {
+      "coupon": 0,
+      "label": "PF01-7",
+      "upper_ribs_mm": 0.0,
+      "clamp_mm": 0.19,
+      "tail": null,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.19.scad",
+      "fit_sha256": "854f7ff025edce3d00c3524173661a09aa482011faf4760e2460e9acff92e181",
+      "pull_clearance_at_3p80_grip_mm": -0.05,
+      "predicted_clamp_interference_at_3p94_mm": 0.1900000000000001,
+      "elbow_center_y_mm": -2.578176717793985,
+      "upper_rib_rear_y_mm": null,
+      "measured_upper_width_mm": 5.550891820239339,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": null,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-0__installed__fit-e586ab4ff6.stl",
+          "facets": 14230,
+          "closed": true,
+          "volume_error_fraction": 3.0430347525756072e-05,
+          "sha256": "5774fab4476bccaabddf21fb8f01e128e334972637915530351144657368db09"
+        }
+      ]
+    },
+    {
+      "coupon": 1,
+      "label": "S.00C.19",
+      "upper_ribs_mm": 0.0,
+      "clamp_mm": 0.19,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.19.scad",
+      "fit_sha256": "854f7ff025edce3d00c3524173661a09aa482011faf4760e2460e9acff92e181",
+      "pull_clearance_at_3p80_grip_mm": -0.05,
+      "predicted_clamp_interference_at_3p94_mm": 0.1900000000000001,
+      "elbow_center_y_mm": -2.578176717793985,
+      "upper_rib_rear_y_mm": null,
+      "measured_upper_width_mm": 5.550891820239339,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-1__installed__fit-e586ab4ff6.stl",
+          "facets": 25222,
+          "closed": true,
+          "volume_error_fraction": 4.3434749963623624e-05,
+          "sha256": "71f1e7e6e71b941a5437dc5d467c7e21f741cbef3a4457cdda95caadf148a2a6"
+        }
+      ]
+    },
+    {
+      "coupon": 2,
+      "label": "S.00C.34",
+      "upper_ribs_mm": 0.0,
+      "clamp_mm": 0.34,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.34.scad",
+      "fit_sha256": "8e8b39a9cb88bc81622dcf016156500a1f9865894b95ac6bea239c5c8526915f",
+      "pull_clearance_at_3p80_grip_mm": -0.2,
+      "predicted_clamp_interference_at_3p94_mm": 0.34000000000000014,
+      "elbow_center_y_mm": -2.4281767177939857,
+      "upper_rib_rear_y_mm": null,
+      "measured_upper_width_mm": 5.550891820239339,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-2__installed__fit-e586ab4ff6.stl",
+          "facets": 26030,
+          "closed": true,
+          "volume_error_fraction": 3.669032580879851e-05,
+          "sha256": "1d6e7e03af8c0c10dda28418927d65f19191d0cee84b1eebbc0c30c238f4f922"
+        }
+      ]
+    },
+    {
+      "coupon": 3,
+      "label": "S.00C.49",
+      "upper_ribs_mm": 0.0,
+      "clamp_mm": 0.49,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "fit_sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "pull_clearance_at_3p80_grip_mm": -0.35,
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+      "elbow_center_y_mm": -2.2781767177939853,
+      "upper_rib_rear_y_mm": null,
+      "measured_upper_width_mm": 5.550891820239339,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-3__installed__fit-e586ab4ff6.stl",
+          "facets": 27556,
+          "closed": true,
+          "volume_error_fraction": 4.407795279508237e-05,
+          "sha256": "9432e23c3253803f82a233ab3febb0e31adf434413700cae70aaadaf8be1b832"
+        }
+      ]
+    },
+    {
+      "coupon": 4,
+      "label": "S.25C.19",
+      "upper_ribs_mm": 0.25,
+      "clamp_mm": 0.19,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.19.scad",
+      "fit_sha256": "854f7ff025edce3d00c3524173661a09aa482011faf4760e2460e9acff92e181",
+      "pull_clearance_at_3p80_grip_mm": -0.05,
+      "predicted_clamp_interference_at_3p94_mm": 0.1900000000000001,
+      "elbow_center_y_mm": -2.578176717793985,
+      "upper_rib_rear_y_mm": -2.2781767177939853,
+      "measured_upper_width_mm": 6.6000000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-4__installed__fit-e586ab4ff6.stl",
+          "facets": 24374,
+          "closed": true,
+          "volume_error_fraction": 3.7910654295704904e-05,
+          "sha256": "9bd1bc49f6db90d905f8a8daf053f9e4eeba177acfcf99c6d5f36523db00d00a"
+        }
+      ]
+    },
+    {
+      "coupon": 5,
+      "label": "S.25C.34",
+      "upper_ribs_mm": 0.25,
+      "clamp_mm": 0.34,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.34.scad",
+      "fit_sha256": "8e8b39a9cb88bc81622dcf016156500a1f9865894b95ac6bea239c5c8526915f",
+      "pull_clearance_at_3p80_grip_mm": -0.2,
+      "predicted_clamp_interference_at_3p94_mm": 0.34000000000000014,
+      "elbow_center_y_mm": -2.4281767177939857,
+      "upper_rib_rear_y_mm": -2.128176717793986,
+      "measured_upper_width_mm": 6.6000000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-5__installed__fit-e586ab4ff6.stl",
+          "facets": 25436,
+          "closed": true,
+          "volume_error_fraction": 3.5931142644986506e-05,
+          "sha256": "dde741f52398660707e26c7e6c433142543a5767d894989cbf78a3608ca209c1"
+        }
+      ]
+    },
+    {
+      "coupon": 6,
+      "label": "S.25C.49",
+      "upper_ribs_mm": 0.25,
+      "clamp_mm": 0.49,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "fit_sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "pull_clearance_at_3p80_grip_mm": -0.35,
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+      "elbow_center_y_mm": -2.2781767177939853,
+      "upper_rib_rear_y_mm": -1.9781767177939853,
+      "measured_upper_width_mm": 6.6000000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-6__installed__fit-e586ab4ff6.stl",
+          "facets": 26676,
+          "closed": true,
+          "volume_error_fraction": 4.03322008845076e-05,
+          "sha256": "90155e409fe62158b444deb37fec3d6136fb36c3ae49a766bc1b5de0e6b7d2df"
+        }
+      ]
+    },
+    {
+      "coupon": 7,
+      "label": "S.50C.19",
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.19,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.19.scad",
+      "fit_sha256": "854f7ff025edce3d00c3524173661a09aa482011faf4760e2460e9acff92e181",
+      "pull_clearance_at_3p80_grip_mm": -0.05,
+      "predicted_clamp_interference_at_3p94_mm": 0.1900000000000001,
+      "elbow_center_y_mm": -2.578176717793985,
+      "upper_rib_rear_y_mm": -2.2781767177939853,
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-7__installed__fit-e586ab4ff6.stl",
+          "facets": 25134,
+          "closed": true,
+          "volume_error_fraction": 3.849336667506547e-05,
+          "sha256": "effd67ca6221f0793f62c960875b5ba53378ea9343bc7bcd6a7746513bd974b9"
+        }
+      ]
+    },
+    {
+      "coupon": 8,
+      "label": "S.50C.34",
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.34,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.34.scad",
+      "fit_sha256": "8e8b39a9cb88bc81622dcf016156500a1f9865894b95ac6bea239c5c8526915f",
+      "pull_clearance_at_3p80_grip_mm": -0.2,
+      "predicted_clamp_interference_at_3p94_mm": 0.34000000000000014,
+      "elbow_center_y_mm": -2.4281767177939857,
+      "upper_rib_rear_y_mm": -2.128176717793986,
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-8__installed__fit-e586ab4ff6.stl",
+          "facets": 28286,
+          "closed": true,
+          "volume_error_fraction": 3.5326753851726276e-05,
+          "sha256": "1dd20c36a90739d112f4ad8db7ad781f0d97cd63cdc62a3ced3c3bbfe08fad41"
+        }
+      ]
+    },
+    {
+      "coupon": 9,
+      "label": "S.50C.49",
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "fit_sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "pull_clearance_at_3p80_grip_mm": -0.35,
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+      "elbow_center_y_mm": -2.2781767177939853,
+      "upper_rib_rear_y_mm": -1.9781767177939853,
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf02-peg-fit-grid__v1__coupon-9__installed__fit-e586ab4ff6.stl",
+          "facets": 27278,
+          "closed": true,
+          "volume_error_fraction": 4.148213950440454e-05,
+          "sha256": "5a8cc44d1ec91bf70e1109b9a5b419d4af73fbcb465e53d287bfcc1671f136fe"
+        }
+      ]
+    }
+  ],
+  "plate": {
+    "file": "part-pf02-peg-fit-grid__v1__all-10__print-flat-top__fit-e586ab4ff6.stl",
+    "facets": 250070,
+    "closed": true,
+    "volume_error_fraction": 5.2073640214880344e-05,
+    "sha256": "12ebe7e22ca22e44841b3cc1e8d26e9d6ae8f0ba5219c9d0e23d2db4783d3526"
+  }
+}

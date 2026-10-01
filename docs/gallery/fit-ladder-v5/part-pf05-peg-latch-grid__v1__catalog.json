@@ -1,0 +1,448 @@
+{
+  "part": "PF05 latch grid",
+  "version": "v1",
+  "top": {
+    "upper_ribs_mm": 0.5,
+    "clamp_mm": 0.49
+  },
+  "body_ribs_mm": 0.3,
+  "concepts": {
+    "BARB": {
+      "varies": "barb_height_mm",
+      "values": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    "PIN": {
+      "varies": "slot_mm",
+      "values": [
+        1.0,
+        1.25,
+        1.5
+      ]
+    },
+    "HOOP": {
+      "varies": "arm_mm",
+      "values": [
+        0.9,
+        1.2,
+        1.5
+      ]
+    },
+    "LATCH": {
+      "varies": "hook_mm",
+      "values": [
+        0.6,
+        0.9,
+        1.2
+      ]
+    },
+    "FIN": {
+      "varies": "fin_reach_mm",
+      "values": [
+        0.4,
+        0.7,
+        1.0
+      ]
+    }
+  },
+  "scope": "CAD geometry only. Snap, release and pull-out forces, fatigue and board wear are unmeasured. HEEL rejected by heel_window.py.",
+  "coupons": [
+    {
+      "coupon": 1,
+      "concept": "LATCH2",
+      "hook_mm": 0.6,
+      "catch_deg": 40,
+      "label": "H.6 R40",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.6,
+        "catch_angle_deg": 40,
+        "catch_length_mm": 1.042784393519934,
+        "crest_y_mm": [
+          -4.882784393519934,
+          -5.682784393519934
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.9500000000000002,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 0.8999999999999999,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 19.496867129262544,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.6000000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-1__installed__fit-e586ab4ff6.stl",
+          "facets": 18026,
+          "closed": true,
+          "volume_error_fraction": 3.430622172903869e-05,
+          "sha256": "6aaa1b2ee1ec2153d6f9ecdb06fd99b481b899789f84f4a11cb712b73bc62081"
+        }
+      ]
+    },
+    {
+      "coupon": 2,
+      "concept": "LATCH2",
+      "hook_mm": 0.6,
+      "catch_deg": 55,
+      "label": "H.6 R55",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.6,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6126815959334961,
+        "crest_y_mm": [
+          -4.452681595933496,
+          -5.252681595933496
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.9500000000000002,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 0.8999999999999999,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 17.843993992308874,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.6000000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-2__installed__fit-e586ab4ff6.stl",
+          "facets": 21286,
+          "closed": true,
+          "volume_error_fraction": 3.647550267059096e-05,
+          "sha256": "8a30fda52b360a008f9643febbe67b72c42c0501c1e08b8c6832a90ddf9885b7"
+        }
+      ]
+    },
+    {
+      "coupon": 3,
+      "concept": "LATCH2",
+      "hook_mm": 0.6,
+      "catch_deg": 70,
+      "label": "H.6 R70",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.6,
+        "catch_angle_deg": 70,
+        "catch_length_mm": 0.31847395498292713,
+        "crest_y_mm": [
+          -4.158473954982927,
+          -4.958473954982927
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.9500000000000002,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 0.8999999999999999,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 16.86147689666152,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.6000000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-3__installed__fit-e586ab4ff6.stl",
+          "facets": 20746,
+          "closed": true,
+          "volume_error_fraction": 3.312724710053362e-05,
+          "sha256": "9da899d76589472af6b012e3733197b732bab2814f25a4817e61d9db6e516728"
+        }
+      ]
+    },
+    {
+      "coupon": 4,
+      "concept": "LATCH2",
+      "hook_mm": 0.9,
+      "catch_deg": 40,
+      "label": "H.9 R40",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.9,
+        "catch_angle_deg": 40,
+        "catch_length_mm": 1.400310471298197,
+        "crest_y_mm": [
+          -5.240310471298197,
+          -6.040310471298197
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.65,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.2,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 24.799847250726177,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.8999999999999995
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-4__installed__fit-e586ab4ff6.stl",
+          "facets": 17854,
+          "closed": true,
+          "volume_error_fraction": 3.627088214104975e-05,
+          "sha256": "ef28a46ed3e3486bb8283fbf47d0b6e52a43168796c40a614097702a200b797e"
+        }
+      ]
+    },
+    {
+      "coupon": 5,
+      "concept": "LATCH2",
+      "hook_mm": 0.9,
+      "catch_deg": 55,
+      "label": "H.9 R55",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.9,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.8227438573964092,
+        "crest_y_mm": [
+          -4.662743857396409,
+          -5.462743857396409
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.65,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.2,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 21.95505004619766,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.8999999999999995
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-5__installed__fit-e586ab4ff6.stl",
+          "facets": 21372,
+          "closed": true,
+          "volume_error_fraction": 3.717621851518701e-05,
+          "sha256": "b9d74cdd87d366f05667279aa0e0613d1be2a7bd978e177eb0b8784cebf9f99d"
+        }
+      ]
+    },
+    {
+      "coupon": 6,
+      "concept": "LATCH2",
+      "hook_mm": 0.9,
+      "catch_deg": 70,
+      "label": "H.9 R70",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.9,
+        "catch_angle_deg": 70,
+        "catch_length_mm": 0.427665025262788,
+        "crest_y_mm": [
+          -4.2676650252627875,
+          -5.067665025262787
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.65,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.2,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 20.342715273382243,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.8999999999999995
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-6__installed__fit-e586ab4ff6.stl",
+          "facets": 20546,
+          "closed": true,
+          "volume_error_fraction": 3.734368594157081e-05,
+          "sha256": "209489548b5d592ad766c9cc4e71f9e68967e9b50594f150fb709b45edc505c9"
+        }
+      ]
+    },
+    {
+      "coupon": 7,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 40,
+      "label": "H1.2 R40",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 40,
+        "catch_length_mm": 1.75783654907646,
+        "crest_y_mm": [
+          -5.59783654907646,
+          -6.39783654907646
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 30.607095169633382,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-7__installed__fit-e586ab4ff6.stl",
+          "facets": 16056,
+          "closed": true,
+          "volume_error_fraction": 3.472533676684864e-05,
+          "sha256": "847352ccd4e55b4268f029b65a67b401037460f2acd63edb01dc7a39e71c447e"
+        }
+      ]
+    },
+    {
+      "coupon": 8,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 55,
+      "label": "H1.2 R55",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 1.032806118859322,
+        "crest_y_mm": [
+          -4.872806118859322,
+          -5.672806118859322
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 26.207235673688174,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-8__installed__fit-e586ab4ff6.stl",
+          "facets": 21660,
+          "closed": true,
+          "volume_error_fraction": 3.7087175481890404e-05,
+          "sha256": "a2b736370cb4216d540b40ada985e0e5e0f6b49ad8ac9a6a55e4613ed1e8b097"
+        }
+      ]
+    },
+    {
+      "coupon": 9,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 70,
+      "label": "H1.2 R70",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 70,
+        "catch_length_mm": 0.5368560955426487,
+        "crest_y_mm": [
+          -4.3768560955426485,
+          -5.176856095542648
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.8,
+        "ramp_angle_deg": 23.821428183555884,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf05-peg-latch-grid__v1__coupon-9__installed__fit-e586ab4ff6.stl",
+          "facets": 18586,
+          "closed": true,
+          "volume_error_fraction": 3.555697948009099e-05,
+          "sha256": "b40508675a804da046c4b9d27bb499cc15745acfa03ba8eee4883f103bd93315"
+        }
+      ]
+    }
+  ],
+  "plate": {
+    "file": "part-pf05-peg-latch-grid__v1__all-9__print-flat-top__fit-e586ab4ff6.stl",
+    "facets": 176160,
+    "closed": true,
+    "volume_error_fraction": 2.3939005557179536e-05,
+    "sha256": "508bfe4cbcb0a75d21dfb18f496d9e4da1e542e6eb58c940ea51ebf80fc7dc64"
+  }
+}

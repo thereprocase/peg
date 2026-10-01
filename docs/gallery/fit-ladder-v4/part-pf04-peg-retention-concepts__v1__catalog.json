@@ -1,0 +1,649 @@
+{
+  "part": "PF04 lower-peg retention concepts",
+  "version": "v1",
+  "top": {
+    "upper_ribs_mm": 0.5,
+    "clamp_mm": 0.49
+  },
+  "body_ribs_mm": 0.3,
+  "concepts": {
+    "BARB": {
+      "varies": "barb_height_mm",
+      "values": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    "PIN": {
+      "varies": "slot_mm",
+      "values": [
+        1.0,
+        1.25,
+        1.5
+      ]
+    },
+    "HOOP": {
+      "varies": "arm_mm",
+      "values": [
+        0.9,
+        1.2,
+        1.5
+      ]
+    },
+    "LATCH": {
+      "varies": "hook_mm",
+      "values": [
+        0.6,
+        0.9,
+        1.2
+      ]
+    },
+    "FIN": {
+      "varies": "fin_reach_mm",
+      "values": [
+        0.4,
+        0.7,
+        1.0
+      ]
+    }
+  },
+  "scope": "CAD geometry only. Snap, release and pull-out forces, fatigue and board wear are unmeasured. HEEL rejected by heel_window.py.",
+  "coupons": [
+    {
+      "coupon": 1,
+      "concept": "BARB",
+      "barb_height_mm": 0.3,
+      "label": "BARB .3",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "width_across_barbs_mm": 6.949999999999999,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.3676089575600973,
+        "ramp_angle_deg": 14.074024230689604,
+        "crest_y_mm": [
+          -4.2076089575600975,
+          -4.507608957560097
+        ],
+        "catch_bearing_per_side_mm": 0.2999999999999998,
+        "slot_mm": 1.4,
+        "slot_root_from_face_mm": 1.0,
+        "band_half_height_mm": 0.8,
+        "measured_width_across_barbs_mm": 6.949999999999999
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-1__installed__fit-e586ab4ff6.stl",
+          "facets": 20020,
+          "closed": true,
+          "volume_error_fraction": 3.834402641941769e-05,
+          "sha256": "be3dc6514a9992f7439ced299dbad024752de85cab043f56365707f21d8e96d0"
+        }
+      ]
+    },
+    {
+      "coupon": 2,
+      "concept": "BARB",
+      "barb_height_mm": 0.5,
+      "label": "BARB .5",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.5076504652020394,
+        "ramp_angle_deg": 16.118097092773606,
+        "crest_y_mm": [
+          -4.347650465202039,
+          -4.647650465202039
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "slot_mm": 1.4,
+        "slot_root_from_face_mm": 1.0,
+        "band_half_height_mm": 0.8,
+        "measured_width_across_barbs_mm": 7.3500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-2__installed__fit-e586ab4ff6.stl",
+          "facets": 19504,
+          "closed": true,
+          "volume_error_fraction": 4.076983562243357e-05,
+          "sha256": "1789d568480c166634eb841a95096ad1299b0dd38c33cee34932948512af64cc"
+        }
+      ]
+    },
+    {
+      "coupon": 3,
+      "concept": "BARB",
+      "barb_height_mm": 0.7,
+      "label": "BARB .7",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.75,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 18.213278399180968,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.7000000000000002,
+        "slot_mm": 1.4,
+        "slot_root_from_face_mm": 1.0,
+        "band_half_height_mm": 0.8,
+        "measured_width_across_barbs_mm": 7.75
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-3__installed__fit-e586ab4ff6.stl",
+          "facets": 18740,
+          "closed": true,
+          "volume_error_fraction": 3.4856806950679996e-05,
+          "sha256": "2a16301922fc68c28cba517f8754b9e67c79c56b4019cad7dbdee610f092b94c"
+        }
+      ]
+    },
+    {
+      "coupon": 4,
+      "concept": "PIN",
+      "slot_mm": 1.0,
+      "label": "PIN 1",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "width_across_barbs_mm": 6.85,
+        "catch_angle_deg": 45,
+        "catch_length_mm": 0.4749999999999997,
+        "ramp_angle_deg": 13.872385631960105,
+        "crest_y_mm": [
+          -4.3149999999999995,
+          -4.614999999999999
+        ],
+        "catch_bearing_per_side_mm": 0.25,
+        "slot_mm": 1.0,
+        "slot_root_from_face_mm": 1.0,
+        "pin_bore_mm": 1.9,
+        "pin": "1.75 mm filament, about 17 mm long",
+        "pin_spread_total_mm": 0.75,
+        "band_half_height_mm": 0.8,
+        "measured_width_across_barbs_mm": 6.8500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-4__installed__fit-e586ab4ff6.stl",
+          "facets": 11292,
+          "closed": true,
+          "volume_error_fraction": 2.825273216346985e-05,
+          "sha256": "d1df966b789a04b81bf24787576fef5d6fb7dccec4a6de8e27aac962cf9f9ba7"
+        }
+      ]
+    },
+    {
+      "coupon": 5,
+      "concept": "PIN",
+      "slot_mm": 1.25,
+      "label": "PIN 1.25",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "width_across_barbs_mm": 6.85,
+        "catch_angle_deg": 45,
+        "catch_length_mm": 0.4749999999999997,
+        "ramp_angle_deg": 13.872385631960105,
+        "crest_y_mm": [
+          -4.3149999999999995,
+          -4.614999999999999
+        ],
+        "catch_bearing_per_side_mm": 0.25,
+        "slot_mm": 1.25,
+        "slot_root_from_face_mm": 1.0,
+        "pin_bore_mm": 1.9,
+        "pin": "1.75 mm filament, about 17 mm long",
+        "pin_spread_total_mm": 0.5,
+        "band_half_height_mm": 0.8,
+        "measured_width_across_barbs_mm": 6.8500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-5__installed__fit-e586ab4ff6.stl",
+          "facets": 16940,
+          "closed": true,
+          "volume_error_fraction": 3.2057286619252544e-05,
+          "sha256": "e9e0f80c6db1f0dca483fed56c8f6b6e3341481e176ae717e5c0170d4893173b"
+        }
+      ]
+    },
+    {
+      "coupon": 6,
+      "concept": "PIN",
+      "slot_mm": 1.5,
+      "label": "PIN 1.5",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "width_across_barbs_mm": 6.85,
+        "catch_angle_deg": 45,
+        "catch_length_mm": 0.4749999999999997,
+        "ramp_angle_deg": 13.872385631960105,
+        "crest_y_mm": [
+          -4.3149999999999995,
+          -4.614999999999999
+        ],
+        "catch_bearing_per_side_mm": 0.25,
+        "slot_mm": 1.5,
+        "slot_root_from_face_mm": 1.0,
+        "pin_bore_mm": 1.9,
+        "pin": "1.75 mm filament, about 17 mm long",
+        "pin_spread_total_mm": 0.25,
+        "band_half_height_mm": 0.8,
+        "measured_width_across_barbs_mm": 6.8500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-6__installed__fit-e586ab4ff6.stl",
+          "facets": 16044,
+          "closed": true,
+          "volume_error_fraction": 3.069594318064393e-05,
+          "sha256": "d8e4d88dab507c32c740082de8af138b2e40a306dea24ef580a2f65ee9cf083d"
+        }
+      ]
+    },
+    {
+      "coupon": 7,
+      "concept": "HOOP",
+      "arm_mm": 0.9,
+      "label": "HOOP .9",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 1.9802071093977247e-08,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 19.07028571389587,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "arm_mm": 0.9,
+        "closed_nose_mm": 1.2,
+        "band_half_height_mm": 1.4,
+        "measured_width_across_barbs_mm": 7.3500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-7__installed__fit-e586ab4ff6.stl",
+          "facets": 18518,
+          "closed": true,
+          "volume_error_fraction": 2.844385123074441e-05,
+          "sha256": "c5cf1b44e87aa8c8d3400e4506b02f8221a6c546d5a46b0b862e2ffc0349a9a9"
+        }
+      ]
+    },
+    {
+      "coupon": 8,
+      "concept": "HOOP",
+      "arm_mm": 1.2,
+      "label": "HOOP 1.2",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 1.9802071093977247e-08,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 19.07028571389587,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "arm_mm": 1.2,
+        "closed_nose_mm": 1.2,
+        "band_half_height_mm": 1.4,
+        "measured_width_across_barbs_mm": 7.3500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-8__installed__fit-e586ab4ff6.stl",
+          "facets": 20116,
+          "closed": true,
+          "volume_error_fraction": 2.5812056714789216e-05,
+          "sha256": "883361412e874b342f26e20119c444036434a521573762a2414fb6bdb04d6665"
+        }
+      ]
+    },
+    {
+      "coupon": 9,
+      "concept": "HOOP",
+      "arm_mm": 1.5,
+      "label": "HOOP 1.5",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 1.9802071093977247e-08,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 19.07028571389587,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "arm_mm": 1.5,
+        "closed_nose_mm": 1.2,
+        "band_half_height_mm": 1.4,
+        "measured_width_across_barbs_mm": 7.3500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-9__installed__fit-e586ab4ff6.stl",
+          "facets": 19364,
+          "closed": true,
+          "volume_error_fraction": 2.659602887946719e-05,
+          "sha256": "8fdf09d1f373a79b2f39ffd2da548492cea0bdd8ef99e9646219be1446262f0f"
+        }
+      ]
+    },
+    {
+      "coupon": 10,
+      "concept": "LATCH",
+      "hook_mm": 0.6,
+      "label": "LATCH .6",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.6,
+        "catch_angle_deg": 60,
+        "catch_length_mm": 0.5051814855409227,
+        "crest_y_mm": [
+          -4.345181485540922,
+          -4.645181485540922
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 0.8500000000000001,
+        "flex_gap_mm": 1.2,
+        "ramp_angle_deg": 15.9246701805479,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.6000000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-10__installed__fit-e586ab4ff6.stl",
+          "facets": 18230,
+          "closed": true,
+          "volume_error_fraction": 3.488539488136851e-05,
+          "sha256": "f42991ed4bb1a56814743bbb1e02bcf284fd424dbeee362d2e974ed972e10975"
+        }
+      ]
+    },
+    {
+      "coupon": 11,
+      "concept": "LATCH",
+      "hook_mm": 0.9,
+      "label": "LATCH .9",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 0.9,
+        "catch_angle_deg": 60,
+        "catch_length_mm": 0.6783865662978107,
+        "crest_y_mm": [
+          -4.518386566297811,
+          -4.818386566297811
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 0.8500000000000001,
+        "flex_gap_mm": 1.2,
+        "ramp_angle_deg": 19.437322319551207,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.8999999999999995
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-11__installed__fit-e586ab4ff6.stl",
+          "facets": 16404,
+          "closed": true,
+          "volume_error_fraction": 3.27546520473446e-05,
+          "sha256": "f3336b6bceecd58183018e78c6e19ce2250232ef097a98804072d827e8d3501c"
+        }
+      ]
+    },
+    {
+      "coupon": 12,
+      "concept": "LATCH",
+      "hook_mm": 1.2,
+      "label": "LATCH 1.2",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 60,
+        "catch_length_mm": 0.8515916470546984,
+        "crest_y_mm": [
+          -4.6915916470546986,
+          -4.991591647054698
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 0.8500000000000001,
+        "flex_gap_mm": 1.2,
+        "ramp_angle_deg": 23.032059408466914,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-12__installed__fit-e586ab4ff6.stl",
+          "facets": 15684,
+          "closed": true,
+          "volume_error_fraction": 3.735593928751787e-05,
+          "sha256": "1b160ec10639ba881b1e4c979026f4b30c4f56248377c5fc0927a1b183a7c2fa"
+        }
+      ]
+    },
+    {
+      "coupon": 13,
+      "concept": "FIN",
+      "fin_reach_mm": 0.4,
+      "label": "FIN .4",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "fin_reach_past_hole_mm": 0.4,
+        "fin_thickness_mm": 0.8,
+        "fin_rake_deg": 40,
+        "fin_rows_tip_y_from_rear_mm": [
+          -0.1,
+          -2.3
+        ],
+        "spine_half_width_mm": 1.2,
+        "band_half_height_mm": 1.0,
+        "measured_fin_span_mm": 7.149999999999999
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-13__installed__fit-e586ab4ff6.stl",
+          "facets": 11466,
+          "closed": true,
+          "volume_error_fraction": 2.8154052511488947e-05,
+          "sha256": "f759c47e157fb1043f0d2dec1a4a6892d85431b0ff3f999b92bfd38de43bef5c"
+        }
+      ]
+    },
+    {
+      "coupon": 14,
+      "concept": "FIN",
+      "fin_reach_mm": 0.7,
+      "label": "FIN .7",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "fin_reach_past_hole_mm": 0.7,
+        "fin_thickness_mm": 0.8,
+        "fin_rake_deg": 40,
+        "fin_rows_tip_y_from_rear_mm": [
+          -0.1,
+          -2.3
+        ],
+        "spine_half_width_mm": 1.2,
+        "band_half_height_mm": 1.0,
+        "measured_fin_span_mm": 7.75
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-14__installed__fit-e586ab4ff6.stl",
+          "facets": 8944,
+          "closed": true,
+          "volume_error_fraction": 2.8390622169614298e-05,
+          "sha256": "4bffab0b0fc1abb01bd2912114c3f64f64bb3513a1aa8c569d20c151500067a0"
+        }
+      ]
+    },
+    {
+      "coupon": 15,
+      "concept": "FIN",
+      "fin_reach_mm": 1.0,
+      "label": "FIN 1",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "fin_reach_past_hole_mm": 1.0,
+        "fin_thickness_mm": 0.8,
+        "fin_rake_deg": 40,
+        "fin_rows_tip_y_from_rear_mm": [
+          -0.1,
+          -2.3
+        ],
+        "spine_half_width_mm": 1.2,
+        "band_half_height_mm": 1.0,
+        "measured_fin_span_mm": 8.350000000000001
+      },
+      "files": [
+        {
+          "file": "part-pf04-peg-retention-concepts__v1__coupon-15__installed__fit-e586ab4ff6.stl",
+          "facets": 10434,
+          "closed": true,
+          "volume_error_fraction": 2.860412656661097e-05,
+          "sha256": "c019fe3b138b189c3b23b9bbf87dc9d093f3303646c3e74e5f7210bcc1f28e64"
+        }
+      ]
+    }
+  ],
+  "plate": {
+    "file": "part-pf04-peg-retention-concepts__v1__all-15__print-flat-top__fit-e586ab4ff6.stl",
+    "facets": 241726,
+    "closed": true,
+    "volume_error_fraction": 4.6136444816447693e-05,
+    "sha256": "7bfabda39340dc15660c184f89084d20ca21e4befa6c366f2ffd3cf7144f13aa"
+  }
+}

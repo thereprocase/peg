@@ -1,0 +1,426 @@
+{
+  "part": "PF06 latch tune",
+  "version": "v1",
+  "top": {
+    "upper_ribs_mm": 0.5,
+    "clamp_mm": 0.49
+  },
+  "body_ribs_mm": 0.3,
+  "concepts": {
+    "BARB": {
+      "varies": "barb_height_mm",
+      "values": [
+        0.3,
+        0.5,
+        0.7
+      ]
+    },
+    "PIN": {
+      "varies": "slot_mm",
+      "values": [
+        1.0,
+        1.25,
+        1.5
+      ]
+    },
+    "HOOP": {
+      "varies": "arm_mm",
+      "values": [
+        0.9,
+        1.2,
+        1.5
+      ]
+    },
+    "LATCH": {
+      "varies": "hook_mm",
+      "values": [
+        0.6,
+        0.9,
+        1.2
+      ]
+    },
+    "FIN": {
+      "varies": "fin_reach_mm",
+      "values": [
+        0.4,
+        0.7,
+        1.0
+      ]
+    }
+  },
+  "scope": "CAD geometry only. Snap, release and pull-out forces, fatigue and board wear are unmeasured. HEEL rejected by heel_window.py.",
+  "coupons": [
+    {
+      "coupon": 1,
+      "concept": "LATCH",
+      "hook_mm": 1.2,
+      "label": "PF04-12",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 60,
+        "catch_length_mm": 0.8515916470546984,
+        "crest_y_mm": [
+          -4.6915916470546986,
+          -4.991591647054698
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 0.8500000000000001,
+        "flex_gap_mm": 1.2,
+        "ramp_angle_deg": 23.032059408466914,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-1__installed__fit-e586ab4ff6.stl",
+          "facets": 15642,
+          "closed": true,
+          "volume_error_fraction": 3.5167328457545075e-05,
+          "sha256": "929e55e3abcb30b5e553483895c5c8883fa5f09d38457b90c7cb3a1fa4f88281"
+        }
+      ]
+    },
+    {
+      "coupon": 2,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 60,
+      "contact_ref_deg": 60,
+      "crest_mm": 0.3,
+      "label": "H1.2 R60",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "contact_point_mm": {
+          "x": 3.175,
+          "y_from_rear": -0.20877132402714693
+        },
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 60,
+        "catch_length_mm": 0.8515916470546987,
+        "crest_y_mm": [
+          -4.6915916470546986,
+          -4.991591647054698
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.3,
+        "ramp_angle_deg": 23.032059408466914,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-2__installed__fit-e586ab4ff6.stl",
+          "facets": 21286,
+          "closed": true,
+          "volume_error_fraction": 3.583034102651615e-05,
+          "sha256": "dce232b73e1dec86922a2feff5ebdf50c3fdb330105cb97f567d362ab835b11b"
+        }
+      ]
+    },
+    {
+      "coupon": 3,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 55,
+      "contact_ref_deg": 60,
+      "crest_mm": 0.3,
+      "label": "H1.2 R55",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "contact_point_mm": {
+          "x": 3.175,
+          "y_from_rear": -0.20877132402714693
+        },
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.9990203698787985,
+        "crest_y_mm": [
+          -4.839020369878798,
+          -5.139020369878798
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.3,
+        "ramp_angle_deg": 23.65610353972797,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-3__installed__fit-e586ab4ff6.stl",
+          "facets": 20674,
+          "closed": true,
+          "volume_error_fraction": 3.695750999132115e-05,
+          "sha256": "c8bae0b24dfb9f2c3f5109112d2c49e2aef7da01c5774dea3763342aace09c33"
+        }
+      ]
+    },
+    {
+      "coupon": 4,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 50,
+      "contact_ref_deg": 60,
+      "crest_mm": 0.3,
+      "label": "H1.2 R50",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "contact_point_mm": {
+          "x": 3.175,
+          "y_from_rear": -0.20877132402714693
+        },
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 50,
+        "catch_length_mm": 1.1656908814398825,
+        "crest_y_mm": [
+          -5.005690881439882,
+          -5.305690881439882
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.3,
+        "ramp_angle_deg": 24.40104629239688,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-4__installed__fit-e586ab4ff6.stl",
+          "facets": 18178,
+          "closed": true,
+          "volume_error_fraction": 3.586028482496374e-05,
+          "sha256": "8dafbea73eef3b7b332cd0f57c99adf379a3ae8686e68b6775a7882057d88c0e"
+        }
+      ]
+    },
+    {
+      "coupon": 5,
+      "concept": "LATCH2",
+      "hook_mm": 1.2,
+      "catch_deg": 45,
+      "contact_ref_deg": 60,
+      "crest_mm": 0.3,
+      "label": "H1.2 R45",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "contact_point_mm": {
+          "x": 3.175,
+          "y_from_rear": -0.20877132402714693
+        },
+        "hook_per_side_mm": 1.2,
+        "catch_angle_deg": 45,
+        "catch_length_mm": 1.3587713240271473,
+        "crest_y_mm": [
+          -5.198771324027147,
+          -5.498771324027147
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.35,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.5,
+        "crest_length_mm": 0.3,
+        "ramp_angle_deg": 25.32091291825433,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 1.2000000000000002
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-5__installed__fit-e586ab4ff6.stl",
+          "facets": 17144,
+          "closed": true,
+          "volume_error_fraction": 3.649351939900231e-05,
+          "sha256": "4f4863488fc693fc6bf09a32f74c1bff686c1d00ecf376e5a86f9da5da919a28"
+        }
+      ]
+    },
+    {
+      "coupon": 6,
+      "concept": "LATCH2",
+      "hook_mm": 0.9,
+      "catch_deg": 60,
+      "contact_ref_deg": 60,
+      "crest_mm": 0.3,
+      "label": "H.9 R60",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 0.0,
+      "concept_detail": {
+        "contact_point_mm": {
+          "x": 3.175,
+          "y_from_rear": -0.20877132402714693
+        },
+        "hook_per_side_mm": 0.9,
+        "catch_angle_deg": 60,
+        "catch_length_mm": 0.6783865662978101,
+        "crest_y_mm": [
+          -4.51838656629781,
+          -4.81838656629781
+        ],
+        "arm_length_mm": 6.15,
+        "arm_root_thickness_mm": 1.65,
+        "head_thickness_mm": 3.475,
+        "flex_gap_mm": 1.2,
+        "crest_length_mm": 0.3,
+        "ramp_angle_deg": 19.437322319551203,
+        "one_sided": true,
+        "band_half_height_mm": 0.8,
+        "measured_hook_reach_past_hole_mm": 0.8999999999999995
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-6__installed__fit-e586ab4ff6.stl",
+          "facets": 24468,
+          "closed": true,
+          "volume_error_fraction": 3.7241523588025805e-05,
+          "sha256": "10d6ef854d8245c8abbe2e0ff7d478d3b8d8d01c2daafa9772900e23480230c6"
+        }
+      ]
+    },
+    {
+      "coupon": 7,
+      "concept": "HOOP",
+      "arm_mm": 1.2,
+      "tip_half": 2.0,
+      "label": "HOOP T2.0",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 1.9802071093977247e-08,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "arm_mm": 1.2,
+        "closed_nose_mm": 1.2,
+        "band_half_height_mm": 1.4,
+        "measured_width_across_barbs_mm": 7.3500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-7__installed__fit-e586ab4ff6.stl",
+          "facets": 19060,
+          "closed": true,
+          "volume_error_fraction": 2.7549714884344288e-05,
+          "sha256": "8afa15c458811750dc3dedc3ce7d9b0202db5286d5148c4d859e3e36d177dfa0"
+        }
+      ]
+    },
+    {
+      "coupon": 8,
+      "concept": "HOOP",
+      "arm_mm": 1.2,
+      "tip_half": 2.3,
+      "label": "HOOP T2.3",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "body_ribs_mm": 0.3,
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_body_width_mm": 6.649999999999999,
+      "seated_extra_board_overlap_mm3": 1.9802071093977247e-08,
+      "concept_detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 12.902611604321379,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "arm_mm": 1.2,
+        "closed_nose_mm": 1.2,
+        "band_half_height_mm": 1.4,
+        "measured_width_across_barbs_mm": 7.3500000000000005
+      },
+      "files": [
+        {
+          "file": "part-pf06-peg-latch-tune__v1__coupon-8__installed__fit-e586ab4ff6.stl",
+          "facets": 24212,
+          "closed": true,
+          "volume_error_fraction": 2.4977592042917517e-05,
+          "sha256": "df97d12606f43e4346633df30cbc04203294083acc36541ce2da44927590fee3"
+        }
+      ]
+    }
+  ],
+  "plate": {
+    "file": "part-pf06-peg-latch-tune__v1__all-8__print-flat-top__fit-e586ab4ff6.stl",
+    "facets": 160718,
+    "closed": true,
+    "volume_error_fraction": 2.9538559492003282e-05,
+    "sha256": "79ef256d96860433f584e8dfa04b74993763a93d4146ebc1f2905420ae8cab15"
+  }
+}

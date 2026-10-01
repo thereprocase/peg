@@ -1,0 +1,2870 @@
+{
+  "part": "PF01 peg fit ladder",
+  "version": "v1",
+  "fit_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+  "print_variant": "inverted-top-flat-v1",
+  "source": "bench/source/peg_fit_ladder.py",
+  "varied": "Lower-locator diametral interference across two X-facing crush ribs at hole-centre height",
+  "fixed": "Upper hook, tongue clamp, locator core and print variant are the current canonical fit",
+  "scope": "CAD geometry only. Ribs deliberately exceed the nominal bore; the baseline motion certificate does not cover them. Retention force, board wear and repeated-use behaviour are unmeasured.",
+  "coupons": [
+    {
+      "rung": 0,
+      "diametral_interference_mm": null,
+      "label": "STOCK",
+      "ribs": null,
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.7326,
+          -0.9859
+        ],
+        [
+          -2.7843,
+          -0.6712
+        ],
+        [
+          -2.7999,
+          -0.3526
+        ],
+        [
+          -2.7792,
+          -0.0344
+        ],
+        [
+          -2.7224,
+          0.2794
+        ],
+        [
+          -2.6304,
+          0.5848
+        ],
+        [
+          -2.5042,
+          0.8776
+        ],
+        [
+          -2.3455,
+          1.1543
+        ],
+        [
+          -2.1564,
+          1.4111
+        ],
+        [
+          -1.9393,
+          1.6447
+        ],
+        [
+          -1.697,
+          1.8521
+        ],
+        [
+          -1.4328,
+          2.0307
+        ],
+        [
+          -1.1499,
+          2.178
+        ],
+        [
+          -0.8522,
+          2.2922
+        ],
+        [
+          -0.5433,
+          2.3718
+        ],
+        [
+          -0.2275,
+          2.4157
+        ],
+        [
+          0.0914,
+          2.4235
+        ],
+        [
+          0.409,
+          2.395
+        ],
+        [
+          0.7213,
+          2.3305
+        ],
+        [
+          1.0243,
+          2.2309
+        ],
+        [
+          1.314,
+          2.0975
+        ],
+        [
+          1.5866,
+          1.9321
+        ],
+        [
+          1.8387,
+          1.7367
+        ],
+        [
+          2.0669,
+          1.5139
+        ],
+        [
+          2.2683,
+          1.2666
+        ],
+        [
+          2.4402,
+          0.998
+        ],
+        [
+          2.5805,
+          0.7116
+        ],
+        [
+          2.6874,
+          0.4111
+        ],
+        [
+          2.7593,
+          0.1005
+        ],
+        [
+          2.7955,
+          -0.2164
+        ],
+        [
+          2.7954,
+          -0.5353
+        ],
+        [
+          2.759,
+          -0.8522
+        ],
+        [
+          2.6869,
+          -1.1628
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 0.0,
+      "locator_width_at_hole_centre_mm": 5.5508918202394035,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": 0.39955408988029806,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-0__installed__fit-e586ab4ff6.stl",
+          "facets": 18792,
+          "closed": true,
+          "volume_error_fraction": 3.646336503149085e-05,
+          "sha256": "b0b465b337cc634f893b8b4ad584d9daff29cc37974e0be0573897f304561c7e"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-0__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 18792,
+          "closed": true,
+          "volume_error_fraction": 3.90479531259205e-05,
+          "sha256": "377de71df232d0aefb7f6133cb6378b10d0115d0eca14860e7e0460962c9422f"
+        }
+      ]
+    },
+    {
+      "rung": 1,
+      "diametral_interference_mm": 0.0,
+      "label": "0.00",
+      "ribs": {
+        "crest_half_width_mm": 3.175,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 6.3500000000000005
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.7445,
+          -0.9299
+        ],
+        [
+          -3.175,
+          -0.4
+        ],
+        [
+          -3.175,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.175,
+          0.4
+        ],
+        [
+          3.175,
+          -0.4
+        ],
+        [
+          2.7445,
+          -0.9299
+        ],
+        [
+          2.6636,
+          -1.2384
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 5.793318735210796,
+      "locator_width_at_hole_centre_mm": 6.3500000000000005,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -4.440892098500626e-16,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-1__installed__fit-e586ab4ff6.stl",
+          "facets": 15902,
+          "closed": true,
+          "volume_error_fraction": 2.988590433578346e-05,
+          "sha256": "22da6039d01f8c410e8e51c6115eae77475778d97fc77781769d79d44cf71833"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-1__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 15906,
+          "closed": true,
+          "volume_error_fraction": 3.180109145018858e-05,
+          "sha256": "73babb27c0e6897b039d0df774e2a4811fa6e9674a9db0cb6e4d99d69a79fd25"
+        }
+      ]
+    },
+    {
+      "rung": 2,
+      "diametral_interference_mm": 0.1,
+      "label": "+0.10",
+      "ribs": {
+        "crest_half_width_mm": 3.2249999999999996,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 6.449999999999999
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.7353,
+          -0.9733
+        ],
+        [
+          -3.225,
+          -0.4
+        ],
+        [
+          -3.225,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.225,
+          0.4
+        ],
+        [
+          3.225,
+          -0.4
+        ],
+        [
+          2.7353,
+          -0.9733
+        ],
+        [
+          2.6496,
+          -1.2804
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 6.4892016287733485,
+      "locator_width_at_hole_centre_mm": 6.449999999999999,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.04999999999999982,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-2__installed__fit-e586ab4ff6.stl",
+          "facets": 14840,
+          "closed": true,
+          "volume_error_fraction": 3.6638673769312014e-05,
+          "sha256": "6d7cfc0076d321b4db1d0a553b2761a86510c3220ad74d6616f865cef3fbed1d"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-2__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 14840,
+          "closed": true,
+          "volume_error_fraction": 2.8319792540613372e-05,
+          "sha256": "45a46f984c18dcdcaddaac289b31961b34e123d36136d3a3a4389b7d61edc6dc"
+        }
+      ]
+    },
+    {
+      "rung": 3,
+      "diametral_interference_mm": 0.2,
+      "label": "+0.20",
+      "ribs": {
+        "crest_half_width_mm": 3.275,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 6.550000000000001
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.7265,
+          -1.0123
+        ],
+        [
+          -3.275,
+          -0.4
+        ],
+        [
+          -3.275,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.275,
+          0.4
+        ],
+        [
+          3.275,
+          -0.4
+        ],
+        [
+          2.7265,
+          -1.0123
+        ],
+        [
+          2.6364,
+          -1.3182
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 7.195846080579946,
+      "locator_width_at_hole_centre_mm": 6.550000000000001,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.10000000000000053,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-3__installed__fit-e586ab4ff6.stl",
+          "facets": 17788,
+          "closed": true,
+          "volume_error_fraction": 3.492514632608012e-05,
+          "sha256": "1e30d63c921fcf6d94e36ae5bde21c18a8e47dd4314e3f0ee3b91d058253b9f7"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-3__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 17798,
+          "closed": true,
+          "volume_error_fraction": 2.7505227201487738e-05,
+          "sha256": "9032fdd314b3d3bf770887046230c1f100a9605918b02d6857ea825aa48e7fe3"
+        }
+      ]
+    },
+    {
+      "rung": 4,
+      "diametral_interference_mm": 0.3,
+      "label": "+0.30",
+      "ribs": {
+        "crest_half_width_mm": 3.3249999999999997,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 6.649999999999999
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.7181,
+          -1.0474
+        ],
+        [
+          -3.325,
+          -0.4
+        ],
+        [
+          -3.325,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.325,
+          0.4
+        ],
+        [
+          3.325,
+          -0.4
+        ],
+        [
+          2.7181,
+          -1.0474
+        ],
+        [
+          2.624,
+          -1.3521
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 7.911456324568891,
+      "locator_width_at_hole_centre_mm": 6.649999999999999,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.14999999999999947,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-4__installed__fit-e586ab4ff6.stl",
+          "facets": 17116,
+          "closed": true,
+          "volume_error_fraction": 3.458013634096255e-05,
+          "sha256": "3e3fcd2560110e65804ef643e1bfb37704b000cb9f42b70be8c4ed61ab9507fe"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-4__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 17118,
+          "closed": true,
+          "volume_error_fraction": 2.896129813127224e-05,
+          "sha256": "37a4f11d8a7a636b6508b7831bf1829b68e44d5ade3fd41dcccbeda18fb9ac04"
+        }
+      ]
+    },
+    {
+      "rung": 5,
+      "diametral_interference_mm": 0.4,
+      "label": "+0.40",
+      "ribs": {
+        "crest_half_width_mm": 3.375,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 6.75
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.71,
+          -1.0791
+        ],
+        [
+          -3.375,
+          -0.4
+        ],
+        [
+          -3.375,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.375,
+          0.4
+        ],
+        [
+          3.375,
+          -0.4
+        ],
+        [
+          2.71,
+          -1.0791
+        ],
+        [
+          2.6124,
+          -1.3827
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 8.634437189456788,
+      "locator_width_at_hole_centre_mm": 6.75,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.20000000000000018,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-5__installed__fit-e586ab4ff6.stl",
+          "facets": 14608,
+          "closed": true,
+          "volume_error_fraction": 3.410867404326902e-05,
+          "sha256": "68649f94e45bc5962067038168c8095aeff46ebb0bab00845926bb0d4b232222"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-5__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 14608,
+          "closed": true,
+          "volume_error_fraction": 2.759405826334514e-05,
+          "sha256": "6df1ecf2cde86424ee8a5fdb427538df7cf2dab9df962894fa870d03b0d59870"
+        }
+      ]
+    },
+    {
+      "rung": 6,
+      "diametral_interference_mm": 0.5,
+      "label": "+0.50",
+      "ribs": {
+        "crest_half_width_mm": 3.425,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 6.8500000000000005
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.7024,
+          -1.1079
+        ],
+        [
+          -3.425,
+          -0.4
+        ],
+        [
+          -3.425,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.425,
+          0.4
+        ],
+        [
+          3.425,
+          -0.4
+        ],
+        [
+          2.7024,
+          -1.1079
+        ],
+        [
+          2.6015,
+          -1.4104
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 9.363069021468,
+      "locator_width_at_hole_centre_mm": 6.8500000000000005,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.25000000000000044,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-6__installed__fit-e586ab4ff6.stl",
+          "facets": 17856,
+          "closed": true,
+          "volume_error_fraction": 3.68626497942708e-05,
+          "sha256": "ae05991eb4c054df09b42eac6452ae642461a654aea62bffd2f5c7a3eecd61ac"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-6__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 17856,
+          "closed": true,
+          "volume_error_fraction": 2.878126615098648e-05,
+          "sha256": "ba51b8cd898b7ec7373d110d5381f3c60ff8df542e17681a73efa3885d7f67ab"
+        }
+      ]
+    },
+    {
+      "rung": 7,
+      "diametral_interference_mm": 0.65,
+      "label": "+0.65",
+      "ribs": {
+        "crest_half_width_mm": 3.5,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 7.0
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.6917,
+          -1.1461
+        ],
+        [
+          -3.5,
+          -0.4
+        ],
+        [
+          -3.5,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.5,
+          0.4
+        ],
+        [
+          3.5,
+          -0.4
+        ],
+        [
+          2.6917,
+          -1.1461
+        ],
+        [
+          2.6171,
+          -1.3703
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 10.463832822327808,
+      "locator_width_at_hole_centre_mm": 7.0,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.3250000000000002,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-7__installed__fit-e586ab4ff6.stl",
+          "facets": 16870,
+          "closed": true,
+          "volume_error_fraction": 3.127702967095097e-05,
+          "sha256": "20d25e9f20bced6994c844ce34f91e964f8114e6979199ff62e62a455fa2b242"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-7__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 16870,
+          "closed": true,
+          "volume_error_fraction": 2.7003599946862903e-05,
+          "sha256": "041f977339794240e457d27c49f2a649b3d4121edcb155f2416b2b9a4cde4977"
+        }
+      ]
+    },
+    {
+      "rung": 8,
+      "diametral_interference_mm": 0.8,
+      "label": "+0.80",
+      "ribs": {
+        "crest_half_width_mm": 3.5749999999999997,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 7.149999999999999
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6454,
+          -1.2926
+        ],
+        [
+          -2.682,
+          -1.1794
+        ],
+        [
+          -3.575,
+          -0.4
+        ],
+        [
+          -3.575,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.575,
+          0.4
+        ],
+        [
+          3.575,
+          -0.4
+        ],
+        [
+          2.682,
+          -1.1794
+        ],
+        [
+          2.6109,
+          -1.3865
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 11.572249857509405,
+      "locator_width_at_hole_centre_mm": 7.149999999999999,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.39999999999999947,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-8__installed__fit-e586ab4ff6.stl",
+          "facets": 22000,
+          "closed": true,
+          "volume_error_fraction": 3.638696078212687e-05,
+          "sha256": "92b01475433083db6c597b3b066fbfcbb3a823428b73e4fc42bcde3c792fa38c"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-8__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 21976,
+          "closed": true,
+          "volume_error_fraction": 2.4048210566616986e-05,
+          "sha256": "f31bbf609da7b1c1631d295e72423488c658595fb925ab15692dc0380c5a60aa"
+        }
+      ]
+    },
+    {
+      "rung": 9,
+      "diametral_interference_mm": 1.0,
+      "label": "+1.00",
+      "ribs": {
+        "crest_half_width_mm": 3.675,
+        "hole_centre_design_z_mm": -25.279999999999998,
+        "tip_y_mm": -4.29,
+        "full_crest_from_y_mm": -2.79,
+        "crest_height_mm": 0.8,
+        "root_height_mm": 3.2,
+        "measured_width_across_ribs_mm": 7.3500000000000005
+      },
+      "locator_section_xz_about_hole_centre_at_y_minus_1p85": [
+        [
+          2.5239,
+          -1.5875
+        ],
+        [
+          2.7496,
+          -1.5875
+        ],
+        [
+          2.549,
+          -1.893
+        ],
+        [
+          2.3322,
+          -2.1544
+        ],
+        [
+          2.0887,
+          -2.3912
+        ],
+        [
+          1.8214,
+          -2.6006
+        ],
+        [
+          1.5331,
+          -2.7803
+        ],
+        [
+          1.2274,
+          -2.9282
+        ],
+        [
+          0.9076,
+          -3.0425
+        ],
+        [
+          0.5774,
+          -3.1221
+        ],
+        [
+          0.2406,
+          -3.1659
+        ],
+        [
+          -0.0989,
+          -3.1735
+        ],
+        [
+          -0.4373,
+          -3.1447
+        ],
+        [
+          -0.7707,
+          -3.08
+        ],
+        [
+          -1.0953,
+          -2.9801
+        ],
+        [
+          -1.4074,
+          -2.846
+        ],
+        [
+          -1.7033,
+          -2.6794
+        ],
+        [
+          -1.9798,
+          -2.4822
+        ],
+        [
+          -2.2336,
+          -2.2565
+        ],
+        [
+          -2.4618,
+          -2.005
+        ],
+        [
+          -2.6619,
+          -1.7306
+        ],
+        [
+          -2.7496,
+          -1.5875
+        ],
+        [
+          -2.5239,
+          -1.5875
+        ],
+        [
+          -2.6703,
+          -1.2174
+        ],
+        [
+          -3.675,
+          -0.4
+        ],
+        [
+          -3.675,
+          0.4
+        ],
+        [
+          -2.2,
+          1.6
+        ],
+        [
+          -2.2,
+          1.3571
+        ],
+        [
+          -1.9888,
+          1.596
+        ],
+        [
+          -1.7517,
+          1.8094
+        ],
+        [
+          -1.492,
+          1.9944
+        ],
+        [
+          -1.2129,
+          2.1487
+        ],
+        [
+          -0.918,
+          2.2702
+        ],
+        [
+          -0.6113,
+          2.3575
+        ],
+        [
+          -0.2966,
+          2.4092
+        ],
+        [
+          0.0219,
+          2.4249
+        ],
+        [
+          0.3402,
+          2.4043
+        ],
+        [
+          0.654,
+          2.3475
+        ],
+        [
+          0.9594,
+          2.2555
+        ],
+        [
+          1.2523,
+          2.1294
+        ],
+        [
+          1.5289,
+          1.9707
+        ],
+        [
+          1.7858,
+          1.7816
+        ],
+        [
+          2.0194,
+          1.5646
+        ],
+        [
+          2.2,
+          1.3571
+        ],
+        [
+          2.2,
+          1.6
+        ],
+        [
+          3.675,
+          0.4
+        ],
+        [
+          3.675,
+          -0.4
+        ],
+        [
+          2.6703,
+          -1.2174
+        ],
+        [
+          2.5239,
+          -1.5875
+        ]
+      ],
+      "rib_volume_mm3": 13.059521758668545,
+      "locator_width_at_hole_centre_mm": 7.3500000000000005,
+      "hole_diameter_mm": 6.35,
+      "side_gap_each_mm": -0.5000000000000004,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005,
+        "bottom_z": -32.28
+      },
+      "peg_profile": {
+        "config_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+        "canonical_source": "reference/peg-fit.scad",
+        "variant": "rear-tongue-3p80-interference0p05",
+        "board_grip_assumption_mm": 3.8,
+        "source_board_assumption_mm": 3.94,
+        "clearance_at_assumed_board_mm": -0.05,
+        "predicted_clearance_at_3p94_board_mm": -0.1900000000000001,
+        "tongue_run_mm": 5.0,
+        "tongue_rise_mm": 3.3,
+        "tongue_angle_deg": 33.4248111826038,
+        "previous_tongue_angle_deg": 30.96375653207352,
+        "elbow_center_y_mm": -2.578176717793985,
+        "lower_locator": "Exact baseline lower locator, unchanged; designed for 3.94 mm board",
+        "construction": "Canonical cylinder/sphere upper core and exact 120-degree cylindrical lower bearing segment. User-authorized parameter revision.",
+        "scope": "Top-cap subtraction only. Seated assumed board band unchanged; same prescribed insertion poses cannot gain peg collisions. Removal path, hold force and adhesion remain unmeasured.",
+        "baseline_sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+        "print_variant": "inverted-top-flat-v1",
+        "print_variant_source": "reference/peg-print-variants.json",
+        "print_variant_sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7",
+        "cap_removal_mm": 0.8,
+        "cut_plane_z_mm": 4.6450000000000005,
+        "cut_plane_normal": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "cut_plane_normal_distance_mm": 4.6450000000000005,
+        "seat_slope_deg": 0.0,
+        "bed_flat_area_mm2": 10.297030818709432,
+        "bed_flat_width_mm": 3.5777087639996625,
+        "removed_volume_mm3": 4.31908703133421,
+        "removed_nearest_y_mm": -5.645454545454545,
+        "assumed_board_back_y_mm": -3.8,
+        "seated_board_band_change_mm3": 0.0,
+        "peg_subset_of_canonical": true
+      },
+      "files": [
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-9__installed__fit-e586ab4ff6.stl",
+          "facets": 15814,
+          "closed": true,
+          "volume_error_fraction": 3.323023535202308e-05,
+          "sha256": "3f1e28733261de99a9e62ef3d106a431f25782e95552109fd7e8b7713af73497"
+        },
+        {
+          "file": "part-pf01-peg-fit-ladder__v1__rung-9__print-flat-top__fit-e586ab4ff6.stl",
+          "facets": 15814,
+          "closed": true,
+          "volume_error_fraction": 3.0201613273504287e-05,
+          "sha256": "bf13ab044ca035bf69507ea154e759d67f35603f48b35e7ce0afa4ef080cf155"
+        }
+      ]
+    }
+  ],
+  "lineup": [
+    {
+      "file": "part-pf01-peg-fit-ladder__v1__all-10__installed__fit-e586ab4ff6.stl",
+      "facets": 171586,
+      "closed": true,
+      "volume_error_fraction": 4.358467851503575e-05,
+      "sha256": "ac11272e62ca73751df8eb64114634e4d22690ec72fd12a94e02c66a3f0afba0"
+    },
+    {
+      "file": "part-pf01-peg-fit-ladder__v1__all-10__print-flat-top__fit-e586ab4ff6.stl",
+      "facets": 171610,
+      "closed": true,
+      "volume_error_fraction": 4.223400917225916e-05,
+      "sha256": "37d5d22f16afad3c6711acdadf1d6efa951bc880f6e9c9ddd7a03b245ad4ca12"
+    }
+  ]
+}

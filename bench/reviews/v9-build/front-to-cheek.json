@@ -1,0 +1,7 @@
+{
+  "source": "bench/source/tweezers_v8/holder.py (12e4d15), unchanged",
+  "cheek_x_mm": 24.4,
+  "cradle_difference_mm3_where_x_le_12p3": 0.0,
+  "solids": 1,
+  "changed": "cradle floor +X end 12.3 -> 24.4; web X 0.5..2.9 -> 0.5..24.4; nothing on the tool side"
+}

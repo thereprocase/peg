@@ -1,0 +1,134 @@
+{
+  "part": "PF03 peg fit final",
+  "version": "v1",
+  "base_fit_sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+  "lower_ribs_diametral_mm": 0.65,
+  "tail": {
+    "beyond_rear_mm": 7.0,
+    "diameter_mm": 4.8,
+    "raise_mm": 0.4,
+    "chamfer_mm": 0.8
+  },
+  "board_mm": 3.94,
+  "scope": "CAD geometry only. Ribs and clamp deliberately exceed the nominal board and bore. The 7 mm tail cleared a sampled sweep of the baseline removal path (no motion certificate). Force, wear and repeat use unmeasured.",
+  "coupons": [
+    {
+      "coupon": 0,
+      "label": "L.65",
+      "lower_ribs_mm": 0.65,
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "fit_sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "pull_clearance_at_3p80_grip_mm": -0.35,
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+      "elbow_center_y_mm": -2.2781767177939853,
+      "upper_rib_rear_y_mm": -1.9781767177939853,
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_width_mm": 7.0,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf03-peg-fit-final__v1__coupon-0__installed__fit-e586ab4ff6.stl",
+          "facets": 17542,
+          "closed": true,
+          "volume_error_fraction": 3.739283878274006e-05,
+          "sha256": "1a47ddcd1cbec98b4ad0959cceadaffc87ff4f539b91686584f11723f1ba6fe8"
+        }
+      ]
+    },
+    {
+      "coupon": 1,
+      "label": "L.80",
+      "lower_ribs_mm": 0.8,
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "fit_sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "pull_clearance_at_3p80_grip_mm": -0.35,
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+      "elbow_center_y_mm": -2.2781767177939853,
+      "upper_rib_rear_y_mm": -1.9781767177939853,
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_width_mm": 7.149999999999999,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf03-peg-fit-final__v1__coupon-1__installed__fit-e586ab4ff6.stl",
+          "facets": 17116,
+          "closed": true,
+          "volume_error_fraction": 3.85670768911378e-05,
+          "sha256": "2f655fb64a4ad3ed9cf97e75b45d5e5257518f6dac376e4a2b73ea596064b281"
+        }
+      ]
+    },
+    {
+      "coupon": 2,
+      "label": "L.95",
+      "lower_ribs_mm": 0.95,
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49,
+      "tail": {
+        "beyond_rear_mm": 7.0,
+        "diameter_mm": 4.8,
+        "raise_mm": 0.4,
+        "chamfer_mm": 0.8
+      },
+      "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+      "fit_sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "pull_clearance_at_3p80_grip_mm": -0.35,
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+      "elbow_center_y_mm": -2.2781767177939853,
+      "upper_rib_rear_y_mm": -1.9781767177939853,
+      "measured_upper_width_mm": 6.8500000000000005,
+      "measured_lower_width_mm": 7.300000000000001,
+      "lower_tip_y_mm": -10.79,
+      "host": {
+        "width": 20.0,
+        "wall": 5.4,
+        "top_z": 4.6450000000000005
+      },
+      "print_variant": "inverted-top-flat-v1",
+      "files": [
+        {
+          "file": "part-pf03-peg-fit-final__v1__coupon-2__installed__fit-e586ab4ff6.stl",
+          "facets": 16940,
+          "closed": true,
+          "volume_error_fraction": 3.797329755243203e-05,
+          "sha256": "2e81c26c98458d40166e792e2409983af2d506752b4446ac9d0415cff90e0006"
+        }
+      ]
+    }
+  ],
+  "plate": {
+    "file": "part-pf03-peg-fit-final__v1__all-3__print-flat-top__fit-e586ab4ff6.stl",
+    "facets": 51512,
+    "closed": true,
+    "volume_error_fraction": 3.757531679304215e-05,
+    "sha256": "2c2e5e140c9a2ac66be3fcedd1a35a0c23776d660e5f3abfa91366b17bd0eb5b"
+  }
+}
