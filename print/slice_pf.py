@@ -14,12 +14,16 @@ PLATES = {
     'pf06m': ('slice-pf06m', 'fit-ladder-v6/part-pf06-peg-latch-tune__v1', 'PF06-v1-latch-tune-PETG-msup'),
     'tw09m': ('slice-tw09m', '../../bench/reviews/v9-build/TW09-PF06-plate.stl', 'TW09-PF06-tweezer-v9-plus-latch-tune-PETG'),
     'tw09b': ('slice-tw09b', '../../bench/reviews/v9-build-gap01/TW09-PF06-plate-gap01.stl', 'TW09-PF06-tweezer-v9-plus-latch-tune-PETG-z01'),
+    'pf06a': ('slice-pf06a', 'fit-ladder-v6/part-pf06-peg-latch-tune__v1__all-6__print-flat-top__fit-e586ab4ff6.stl', 'PF06-v1-latch-tune-ASA-cyan-organic'),
     'pf03box': ('slice-pf03box', ['fit-ladder-v3/part-pf03-peg-fit-final__v1', 'box-2w/part-bx01-box-2w__v1'], 'PF03-BX01-v1-fit-and-box-PETG'),
 }
 WHICH = sys.argv[1] if len(sys.argv) > 1 else 'pf01'
 folder, stem, JOB = PLATES[WHICH]
 OUT = HERE/folder; OUT.mkdir(exist_ok=True)
 GALLERY = HERE.parent/'docs/gallery'
+# 'a' plates (user, 2026-10-02): cyan PolyLite ASA in AMS slot 4, Orca's generated organic
+# supports, and every coupon its own object so Skip Objects can drop one mid-print.
+ASA = WHICH.endswith('a')
 MODELLED = WHICH.endswith('m') or WHICH in ('tw09b',)   # plate carries print_supports.py supports; slicer supports off
 KIND = 'print-flat-top-modelled-supports' if MODELLED else 'print-flat-top'
 SRCS = ([(GALLERY/stem).resolve()] if isinstance(stem, str) and stem.endswith('.stl') else   # prebuilt plate
@@ -36,7 +40,27 @@ for src in SRCS:   # side by side along X, 10 mm apart, all on the bed
 b = m.BoundBox
 m.translate(128-(b.XMin+b.XMax)/2, 128-(b.YMin+b.YMax)/2, -b.ZMin)
 assert m.BoundBox.XMin > 5 and m.BoundBox.XMax < 251 and m.BoundBox.YMin > 5 and m.BoundBox.YMax < 251
+if ASA:   # the user's calibrated preset shrinks 99.46 % in X/Y; the CLI ignores filament_shrink, so bake it
+    k = 100/99.46; c = FreeCAD.Vector(128, 128, 0)
+    mat = FreeCAD.Matrix(); mat.move(-c); mat.scale(k, k, 1); mat.move(c); m.transform(mat)
 m.write(str(OUT/f'{JOB}.stl'))
+PARTS = []
+if ASA:   # one object per coupon: union-find connected components whose bounding boxes touch
+    comps = m.getSeparateComponents()
+    boxes = [cm.BoundBox for cm in comps]; root = list(range(len(comps)))
+    def find(i):
+        while root[i] != i: i = root[i]
+        return i
+    for i in range(len(comps)):
+        for j in range(i):
+            a, b2 = boxes[i], boxes[j]
+            if a.XMin <= b2.XMax+1 and b2.XMin <= a.XMax+1 and a.YMin <= b2.YMax+1 and b2.YMin <= a.YMax+1:
+                root[find(i)] = find(j)
+    groups = {}
+    for i, cm in enumerate(comps): groups.setdefault(find(i), Mesh.Mesh()).addMesh(cm)
+    for n, g in enumerate(sorted(groups.values(), key=lambda g: (round(g.BoundBox.YMin), g.BoundBox.XMin)), 1):
+        f = OUT/f'{JOB}__part{n}.stl'; g.write(str(f)); PARTS.append(f)
+        print('part', n, [round(v, 1) for v in (g.BoundBox.XMin, g.BoundBox.YMin, g.BoundBox.XMax, g.BoundBox.YMax, g.BoundBox.ZMax)])
 
 proc = json.loads((HERE/'profiles/process.json').read_text())
 # PF04 failed at 22.2 mm (layer 189/284) when something fell: the 22-29 mm
@@ -49,15 +73,23 @@ proc.update({'support_type': 'normal(auto)', 'support_style': 'snug', 'support_b
             else {'support_type': 'tree(auto)'})
 if MODELLED:
     proc.update({'enable_support': '0'})
+if ASA:
+    proc.update({'enable_support': '1', 'support_type': 'tree(auto)', 'support_style': 'organic',
+                 'support_on_build_plate_only': '1'})
 if STURDY:   # user, 2026-10-01: 2 walls, 20% infill, 40% exhaust fan
     proc.update({'wall_loops': '2', 'sparse_infill_density': '20%'})
 (OUT/'process.json').write_text(json.dumps(proc, indent=1))
-fil = json.loads((HERE/'profiles/filament.json').read_text())
-fil.update({k: v for k, v in json.loads(POLY.read_text()).items() if k not in ('inherits', 'name')})
-fil.update({'filament_settings_id': ['Polylite PETG'], 'name': 'Polylite PETG',
-            'nozzle_temperature': [NOZZLE_C], 'nozzle_temperature_initial_layer': [NOZZLE_C],
-            'filament_colour': ['#161616']})
-if STURDY:
+if ASA:   # resolve_filament.py: 'Repro - ASA - Polymaker PolyLite - Calibrated' over its system chain
+    fil = json.loads((HERE/'profiles/filament-asa-polylite-calibrated.json').read_text())
+    fil.update({'filament_settings_id': [fil['name']], 'filament_colour': ['#76D9F4'],
+                'filament_shrink': ['100%', '100%']})   # shrink is baked into the mesh above
+else:
+    fil = json.loads((HERE/'profiles/filament.json').read_text())
+    fil.update({k: v for k, v in json.loads(POLY.read_text()).items() if k not in ('inherits', 'name')})
+    fil.update({'filament_settings_id': ['Polylite PETG'], 'name': 'Polylite PETG',
+                'nozzle_temperature': [NOZZLE_C], 'nozzle_temperature_initial_layer': [NOZZLE_C],
+                'filament_colour': ['#161616']})
+if STURDY and not ASA:   # PETG plates; the ASA preset keeps its own exhaust setting
     fil['during_print_exhaust_fan_speed'] = ['40']
 (OUT/'filament.json').write_text(json.dumps(fil, indent=1))
 cmd = [r'C:\Program Files\OrcaSlicer\orca-slicer.exe', '--datadir', str(OUT/'data'),
@@ -70,7 +102,13 @@ cmd = [r'C:\Program Files\OrcaSlicer\orca-slicer.exe', '--datadir', str(OUT/'dat
 # 0.1 mm Z gap (PEG_SUPPORT_GAP_Z=0.1 in print_supports.py) is one real layer.
 # Stock Orca: --load-assemble-list with per-object height_ranges.
 BANDS = {'tw09b': [(7.8, 9.4), (27.0, 28.4), (33.2, 34.8)]}.get(WHICH)
-if BANDS:
+if PARTS:   # separate objects, each STL already in bed coordinates
+    plan = {'plates': [{'plate_name': JOB, 'need_arrange': False, 'objects': [
+        {'path': str(f), 'count': 1, 'filaments': [1], 'pos_x': [0.0], 'pos_y': [0.0], 'pos_z': [0.0]} for f in PARTS]}]}
+    (OUT/'assemble.json').write_text(json.dumps(plan, indent=1))
+    cmd = [c for i, c in enumerate(cmd[:-1]) if not (c in ('--arrange', '--orient') or cmd[i-1] in ('--arrange', '--orient'))]
+    cmd += ['--load-assemble-list', str(OUT/'assemble.json')]
+elif BANDS:
     plan = {'plates': [{'plate_name': JOB, 'need_arrange': False, 'objects': [{
         'path': str(OUT/f'{JOB}.stl'), 'count': 1, 'filaments': [1], 'pos_x': [0.0], 'pos_y': [0.0], 'pos_z': [0.0],
         'height_ranges': [{'min_z': lo, 'max_z': hi, 'range_params': {'layer_height': '0.1'}} for lo, hi in BANDS]}]}]}
