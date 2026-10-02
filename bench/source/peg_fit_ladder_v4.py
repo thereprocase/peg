@@ -114,6 +114,28 @@ def concept_geometry(e, zl, face):
         tip = rear-TAIL_LEN
         void = [(0.7, face-SLOT_ROOT), (0.7, rear), (R+0.5-t, y0), (R+0.5-t, y1), (0.5, tip+1.2)]
         assert R+0.5-t > 0.7
+        if e.get('even_catch_wall'):
+            # PF07 review: the corner (R+0.5-t, y0) left only 0.574 t between the void and
+            # the 55 deg catch face, a notch thinner than one 0.42 bead at t = 0.7. Run the
+            # void along the catch face offset inward by t instead, from the offset of the
+            # vertical root face down to the old ramp-side void edge; the rest is unchanged.
+            (bx, by), (cx, cy) = half[1], half[2]
+            L = math.hypot(cx-bx, cy-by); ux, uy = (cx-bx)/L, (cy-by)/L
+            nx, ny = uy, -ux                                  # inward normal of the catch face
+            ox, oy = bx+nx*t, by+ny*t                         # a point on the offset catch line
+            v0 = (bx-t, oy+uy*((bx-t)-ox)/ux)                 # meets the offset root face x = x0 - t
+            (px, py), (qx, qy) = (R+0.5-t, y1), (0.5, tip+1.2)
+            wx, wy = qx-px, qy-py
+            det = -ux*wy+wx*uy
+            sx = ((px-ox)*(-wy)+wx*(py-oy))/det
+            r = (ux*(py-oy)-uy*(px-ox))/det
+            assert 0 <= r <= 1, r
+            meet = (ox+ux*sx, oy+uy*sx)
+            void = [(0.7, face-SLOT_ROOT), (0.7, rear), v0, meet, (0.5, tip+1.2)]
+            wall = Part.makePolygon([V(x, y, 0) for x, y in half[1:]])
+            inner = Part.makePolygon([V(x, y, 0) for x, y in void[2:]])
+            info['min_wall_mm'] = round(wall.distToShape(inner)[0], 3)
+            assert info['min_wall_mm'] >= 0.95*t, (info['min_wall_mm'], t)
         cut.append(prism_xy(mirrored(void), zl-6, zl+6))
         info.update(arm_mm=t, closed_nose_mm=1.2, band_half_height_mm=band)
     elif e['concept'] == 'HEEL':

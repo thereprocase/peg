@@ -15,6 +15,7 @@ PLATES = {
     'tw09m': ('slice-tw09m', '../../bench/reviews/v9-build/TW09-PF06-plate.stl', 'TW09-PF06-tweezer-v9-plus-latch-tune-PETG'),
     'tw09b': ('slice-tw09b', '../../bench/reviews/v9-build-gap01/TW09-PF06-plate-gap01.stl', 'TW09-PF06-tweezer-v9-plus-latch-tune-PETG-z01'),
     'pf06a': ('slice-pf06a', 'fit-ladder-v6/part-pf06-peg-latch-tune__v1__all-6__print-flat-top__fit-e586ab4ff6.stl', 'PF06-v1-latch-tune-ASA-cyan-organic'),
+    'pf07a': ('slice-pf07a', 'fit-ladder-v7/part-pf07-peg-hoop-tune__v1__all-6__print-flat-top__fit-e586ab4ff6.stl', 'PF07-v1-hoop-tune-ASA-cyan-organic'),
     'pf03box': ('slice-pf03box', ['fit-ladder-v3/part-pf03-peg-fit-final__v1', 'box-2w/part-bx01-box-2w__v1'], 'PF03-BX01-v1-fit-and-box-PETG'),
 }
 WHICH = sys.argv[1] if len(sys.argv) > 1 else 'pf01'
@@ -76,6 +77,8 @@ if MODELLED:
 if ASA:
     proc.update({'enable_support': '1', 'support_type': 'tree(auto)', 'support_style': 'organic',
                  'support_on_build_plate_only': '1'})
+if WHICH.startswith('pf07'):   # thin hoop arms: Arachne prints 0.6-0.8 mm walls solid (classic split them)
+    proc.update({'wall_generator': 'arachne'})
 if STURDY:   # user, 2026-10-01: 2 walls, 20% infill, 40% exhaust fan
     proc.update({'wall_loops': '2', 'sparse_infill_density': '20%'})
 (OUT/'process.json').write_text(json.dumps(proc, indent=1))
