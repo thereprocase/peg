@@ -1,0 +1,48 @@
+{
+ "overhang_area_pegs_mm2": 199.6248380812864,
+ "overhang_area_elsewhere_mm2": 0.0,
+ "tool_interference": [
+  {
+   "tool": 1,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  },
+  {
+   "tool": 2,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  },
+  {
+   "tool": 3,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  },
+  {
+   "tool": 4,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  }
+ ],
+ "removal_lift_then_pull": [
+  {
+   "tool": 1,
+   "lift_mm": 6.5,
+   "min_clearance_mm": 0.1
+  },
+  {
+   "tool": 2,
+   "lift_mm": 6.5,
+   "min_clearance_mm": 0.1
+  },
+  {
+   "tool": 3,
+   "lift_mm": 6.5,
+   "min_clearance_mm": 0.1
+  },
+  {
+   "tool": 4,
+   "lift_mm": 6.5,
+   "min_clearance_mm": 0.1
+  }
+ ]
+}

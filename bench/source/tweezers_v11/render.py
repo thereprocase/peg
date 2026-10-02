@@ -10,7 +10,7 @@ import trimesh
 import matplotlib
 matplotlib.use('Agg')
 
-NAME = 'part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5'
+NAME = 'part-solder-modules-tweezers__v11p2__edge-trays-right-cheek__fit-pf02c9-hoop5'
 TEAL, STEEL, AMBER = '#4ca191', '#ccd2d5', '#e0a040'
 
 
@@ -64,15 +64,15 @@ def main(d):
     tools = [trimesh.load(d/f'{NAME}__tool-{k}.stl') for k in range(1, 5)]
     wedges = [trimesh.load(d/f'{NAME}__wedge-{k}__installed.stl') for k in range(1, 5)]
     render([(holder, TEAL)]+[(w, AMBER) for w in wedges]+[(t, STEEL) for t in tools], d/f'{NAME}__loaded.png',
-           'v11.1 · tweezers on edge · 15° trays · glued wedges',
+           'v11.2 · tweezers on edge · 15° trays · glued wedges',
            view=(28, 58), labels='Points first along the floor until the wedge meets the crotch; the cant leans each tool on two ribs.')
     render([(holder, TEAL)]+[(w, AMBER) for w in wedges], d/f'{NAME}__empty.png',
-           'v11.1 · empty: flanged cheek, X-brace, corner gussets, chamfered pockets', view=(28, 58))
+           'v11.2 · empty: top and bottom corner webs, X-brace, chamfered pockets', view=(28, 58))
     render([(holder, TEAL)]+[(t, STEEL) for t in tools], d/f'{NAME}__front.png',
-           'v11.1 · from the front, facing the pegboard', view=(8, 90), zoom=1.0,
+           'v11.2 · from the front, facing the pegboard', view=(8, 90), zoom=1.0,
            labels='Floors rise 15° to the left; each tool leans right onto the cheek ribs.')
     hoop = clip(holder, np.array([5.0, -12.0, -160.0]), np.array([20.5, 1.0, -144.5]))
-    render([(hoop, TEAL)], d/f'{NAME}__hoop.png', 'v11.1 bottom peg · PF07 #5 hoop, thinner nose, root gusset',
+    render([(hoop, TEAL)], d/f'{NAME}__hoop.png', 'v11.2 bottom peg · PF07 #5 hoop, thinner nose, root gusset',
            view=(70, 200), zoom=1.15, labels='Hoop lies in the cheek plane, so it flexes in the print layers.')
     pr = trimesh.load(d/f'{NAME}__print-right-cheek.stl')
     w = trimesh.load(d/f'{NAME}__wedge__print.stl')

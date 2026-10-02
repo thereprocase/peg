@@ -9,7 +9,7 @@ import sys
 import numpy as np
 import trimesh
 
-NAME = 'part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5'
+NAME = 'part-solder-modules-tweezers__v11p2__edge-trays-right-cheek__fit-pf02c9-hoop5'
 
 
 def main(d):
@@ -36,6 +36,15 @@ def main(d):
         hits = sum(int(s.contains(v).sum()) for s in solids)
         inside.append(dict(tool=k, sampled=len(v), inside_holder_or_wedges=hits))
     report['tool_interference'] = inside
+    # Removal: the arms straddle the wedge, so a tool comes out by lifting it over the wedge
+    # and sliding out along the rib line (+Y), riding the ribs (0.3 mm off them here).
+    out = []
+    for k in range(1, 5):
+        v = trimesh.load(d/f'{NAME}__tool-{k}.stl').vertices[::20]
+        worst = min(-max(float(s.nearest.signed_distance(v+[0.3, step, 6.5]).max()) for s in solids)
+                    for step in np.arange(0, 132, 4))
+        out.append(dict(tool=k, lift_mm=6.5, min_clearance_mm=round(worst, 2)))
+    report['removal_lift_then_pull'] = out
     print(json.dumps(report, indent=1))
     (d/'quick-checks.json').write_text(json.dumps(report, indent=1))
 

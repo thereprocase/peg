@@ -40,7 +40,7 @@ from peg_fit_ladder import box               # noqa: E402
 from peg_interface import receive_pegs       # noqa: E402
 
 V = A.Vector
-NAME = 'part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5'
+NAME = 'part-solder-modules-tweezers__v11p2__edge-trays-right-cheek__fit-pf02c9-hoop5'
 
 # Receiver and pegs: exactly v9's, except the bottom row.
 PITCH, FACE = 25.4, 0.15
@@ -73,6 +73,8 @@ STRUT_W = 8.0
 BRACE_RIB_W, BRACE_RIB_H = 2.0, 2.5          # rib standing proud along each window diagonal
 GUSSET_L, GUSSET_T = 8.0, 2.4                 # cheek-to-plate corner webs (8: stays 1.1+ clear of the points)
 GUSSET_Z = (-5.0, -47.5, -96.0, -158.0)     # plate solid there, no tool in the way
+WEB_T = 2.4                                  # top/bottom plate-to-cheek webs
+WEB_TOP_Y, WEB_BOTTOM_Y = 40.0, 70.0         # where each web meets the cheek's edge
 TRAYS, TRAY_PITCH = 4, 23.0
 TOP_FLOOR_Z = -66.0                         # valley height of the top tray
 TIP_CLEAR = 3.0
@@ -325,7 +327,29 @@ def cheek(trays):
         tri = [V(INNER-0.01, PLATE['y1']-0.01, zg-GUSSET_T/2), V(INNER+GUSSET_L, PLATE['y1']-0.01, zg-GUSSET_T/2),
                V(INNER-0.01, PLATE['y1']+GUSSET_L, zg-GUSSET_T/2)]
         gussets.append(Part.Face(Part.makePolygon(tri+[tri[0]])).extrude(V(0, 0, GUSSET_T)))
-    return sheet.multiFuse([strut, fillet]+flanges+gussets).removeSplitter()
+    # Owner's sketch: big gussets from the plate's far corners to the cheek's top and bottom
+    # edges, closing the plate-cheek corner into a box section against sideways wag. Each
+    # web's plane contains X, so printed on the cheek it is a vertical wall leaning on the
+    # plate with its free edge as a sloping top: no overhang.
+    def edge_z(p, q, y):
+        return p[1]+(q[1]-p[1])*(y-p[0])/(q[0]-p[0])
+    webs = []
+    for p, q, ye, up in [(outline[2], outline[3], WEB_TOP_Y, -1), (outline[5], outline[4], WEB_BOTTOM_Y, 1)]:
+        zc = p[1]                                        # plate's top (or bottom) edge height
+        ze = edge_z(p, q, ye)                            # the cheek edge where the web lands
+        slope = (ze-zc)/(ye-PLATE['y1'])
+
+        def zs(y):
+            return zc+(y-PLATE['y1'])*slope
+        y0 = PLATE['y1']-2.5                             # start inside the plate to merge
+        tri = [V(CHEEK_X+0.01, y0, zs(y0)), V(PLATE['x1']-0.3, y0, zs(y0)), V(CHEEK_X+0.01, ye, zs(ye))]
+        n = (tri[1]-tri[0]).cross(tri[2]-tri[0]); n.normalize()
+        if (n.z > 0) != (up > 0):
+            n = n*-1.0                                   # into the rack: down from the top edge, up from the bottom
+        web = Part.Face(Part.makePolygon(tri+[tri[0]])).extrude(n*WEB_T)
+        clip = box(-100, -100, PLATE['z0'], 200, 400, PLATE['z1']-PLATE['z0'])   # never past the plate's ends
+        webs.append(web.common(clip))
+    return sheet.multiFuse([strut, fillet]+flanges+gussets+webs).removeSplitter()
 
 
 def print_pose(shape):
