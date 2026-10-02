@@ -1,0 +1,45 @@
+{
+ "overhang_area_pegs_mm2": 199.6248380812864,
+ "overhang_area_elsewhere_mm2": 202.49702200070496,
+ "overhang_elsewhere_bbox": [
+  [
+   71.0,
+   97.7,
+   6.3
+  ],
+  [
+   141.1,
+   111.1,
+   8.2
+  ]
+ ],
+ "overhang_elsewhere_largest_faces": [
+  23.84,
+  25.27,
+  25.27,
+  25.27,
+  25.27
+ ],
+ "tool_interference": [
+  {
+   "tool": 1,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  },
+  {
+   "tool": 2,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  },
+  {
+   "tool": 3,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  },
+  {
+   "tool": 4,
+   "sampled": 1750,
+   "inside_holder_or_wedges": 2
+  }
+ ]
+}

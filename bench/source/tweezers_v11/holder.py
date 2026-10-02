@@ -123,8 +123,12 @@ def receiver():
         shape = shape.multiFuse(add).removeSplitter()
         shape = shape.cut(cut).removeSplitter()
         # Plastic: open the plate between the occupied rows (0, 2, 4, 6).
+        # Pointed at +X, the top when printing on the cheek, at 50 degrees: no bridge.
         for za, zb in [(-42.7, -14.0), (-93.5, -58.7), (-144.3, -109.5)]:
-            shape = shape.cut(rounded_window(-18.4, 13.4, za, zb, 5.0, PLATE['y0']-0.01, PLATE['y1']+0.01))
+            x0, x1, h = -18.4, 13.4, 1.2*(zb-za)/2
+            pent = [(x0, za), (x1-h, za), (x1, (za+zb)/2), (x1-h, zb), (x0, zb)]
+            vs = [V(x, PLATE['y0']-0.01, z) for x, z in pent]
+            shape = shape.cut(Part.Face(Part.makePolygon(vs+[vs[0]])).extrude(V(0, PLATE['y1']-PLATE['y0']+0.02, 0)))
         info = dict(fit_file=str(path.relative_to(P.ROOT)), top=TOP, hoop=dict(HOOP, body_ribs_mm=BODY_RIBS,
                     orientation='hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z',
                     detail=hinfo), rows=dict(hooks=[0], bearing=BEARING_ROWS, hoop=[HOOP_ROW], empty=[1, 3, 5]),

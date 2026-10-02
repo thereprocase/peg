@@ -16,6 +16,8 @@ PLATES = {
     'tw09b': ('slice-tw09b', '../../bench/reviews/v9-build-gap01/TW09-PF06-plate-gap01.stl', 'TW09-PF06-tweezer-v9-plus-latch-tune-PETG-z01'),
     'pf06a': ('slice-pf06a', 'fit-ladder-v6/part-pf06-peg-latch-tune__v1__all-6__print-flat-top__fit-e586ab4ff6.stl', 'PF06-v1-latch-tune-ASA-cyan-organic'),
     'pf07a': ('slice-pf07a', 'fit-ladder-v7/part-pf07-peg-hoop-tune__v1__all-6__print-flat-top__fit-e586ab4ff6.stl', 'PF07-v1-hoop-tune-ASA-cyan-organic'),
+    'tw11a': ('slice-tw11a', '../../bench/reviews/v11-build/TW11-plate.stl', 'TW11-v11-tweezer-station-ASA-cyan-organic'),
+    'tw11sa': ('slice-tw11sa', '../../bench/reviews/v11-build/TW11-seq-plate.stl', 'TW11-v11-tweezer-station-ASA-cyan-yellow-wedges-seq'),
     'pf03box': ('slice-pf03box', ['fit-ladder-v3/part-pf03-peg-fit-final__v1', 'box-2w/part-bx01-box-2w__v1'], 'PF03-BX01-v1-fit-and-box-PETG'),
 }
 WHICH = sys.argv[1] if len(sys.argv) > 1 else 'pf01'
@@ -25,6 +27,10 @@ GALLERY = HERE.parent/'docs/gallery'
 # 'a' plates (user, 2026-10-02): cyan PolyLite ASA in AMS slot 4, Orca's generated organic
 # supports, and every coupon its own object so Skip Objects can drop one mid-print.
 ASA = WHICH.endswith('a')
+# 'sa' plates (user, 2026-10-02): print by object, the low parts first in a second ASA
+# colour (filament 2), then the tall part in cyan (filament 1), far apart on the bed.
+SEQ = WHICH.endswith('sa')
+SECOND_COLOUR = '#FFF144'   # yellow ASA, AMS slot 2
 MODELLED = WHICH.endswith('m') or WHICH in ('tw09b',)   # plate carries print_supports.py supports; slicer supports off
 KIND = 'print-flat-top-modelled-supports' if MODELLED else 'print-flat-top'
 SRCS = ([(GALLERY/stem).resolve()] if isinstance(stem, str) and stem.endswith('.stl') else   # prebuilt plate
@@ -46,6 +52,7 @@ if ASA:   # the user's calibrated preset shrinks 99.46 % in X/Y; the CLI ignores
     mat = FreeCAD.Matrix(); mat.move(-c); mat.scale(k, k, 1); mat.move(c); m.transform(mat)
 m.write(str(OUT/f'{JOB}.stl'))
 PARTS = []
+PART_FIL = {}
 if ASA:   # one object per coupon: union-find connected components whose bounding boxes touch
     comps = m.getSeparateComponents()
     boxes = [cm.BoundBox for cm in comps]; root = list(range(len(comps)))
@@ -59,9 +66,17 @@ if ASA:   # one object per coupon: union-find connected components whose boundin
                 root[find(i)] = find(j)
     groups = {}
     for i, cm in enumerate(comps): groups.setdefault(find(i), Mesh.Mesh()).addMesh(cm)
-    for n, g in enumerate(sorted(groups.values(), key=lambda g: (round(g.BoundBox.YMin), g.BoundBox.XMin)), 1):
+    ordered = sorted(groups.values(), key=lambda g: (round(g.BoundBox.YMin), g.BoundBox.XMin))
+    if SEQ:   # every low part as one object on filament 2, printed first; the tallest on filament 1
+        tall = max(ordered, key=lambda g: g.BoundBox.ZMax)
+        low = Mesh.Mesh()
+        for g in ordered:
+            if g is not tall: low.addMesh(g)
+        ordered = [low, tall]
+    for n, g in enumerate(ordered, 1):
         f = OUT/f'{JOB}__part{n}.stl'; g.write(str(f)); PARTS.append(f)
-        print('part', n, [round(v, 1) for v in (g.BoundBox.XMin, g.BoundBox.YMin, g.BoundBox.XMax, g.BoundBox.YMax, g.BoundBox.ZMax)])
+        PART_FIL[f] = (2 if n == 1 else 1) if SEQ else 1
+        print('part', n, 'filament', PART_FIL[f], [round(v, 1) for v in (g.BoundBox.XMin, g.BoundBox.YMin, g.BoundBox.XMax, g.BoundBox.YMax, g.BoundBox.ZMax)])
 
 proc = json.loads((HERE/'profiles/process.json').read_text())
 # PF04 failed at 22.2 mm (layer 189/284) when something fell: the 22-29 mm
@@ -74,10 +89,12 @@ proc.update({'support_type': 'normal(auto)', 'support_style': 'snug', 'support_b
             else {'support_type': 'tree(auto)'})
 if MODELLED:
     proc.update({'enable_support': '0'})
+if SEQ:
+    proc.update({'print_sequence': 'by object'})
 if ASA:
     proc.update({'enable_support': '1', 'support_type': 'tree(auto)', 'support_style': 'organic',
                  'support_on_build_plate_only': '1'})
-if WHICH.startswith('pf07'):   # thin hoop arms: Arachne prints 0.6-0.8 mm walls solid (classic split them)
+if WHICH.startswith(('pf07', 'tw11')):   # thin hoop arms: Arachne prints 0.6-0.8 mm walls solid (classic split them)
     proc.update({'wall_generator': 'arachne'})
 if STURDY:   # user, 2026-10-01: 2 walls, 20% infill, 40% exhaust fan
     proc.update({'wall_loops': '2', 'sparse_infill_density': '20%'})
@@ -95,9 +112,12 @@ else:
 if STURDY and not ASA:   # PETG plates; the ASA preset keeps its own exhaust setting
     fil['during_print_exhaust_fan_speed'] = ['40']
 (OUT/'filament.json').write_text(json.dumps(fil, indent=1))
+if SEQ:
+    fil2 = dict(fil, filament_colour=[SECOND_COLOUR])
+    (OUT/'filament2.json').write_text(json.dumps(fil2, indent=1))
 cmd = [r'C:\Program Files\OrcaSlicer\orca-slicer.exe', '--datadir', str(OUT/'data'),
        '--load-settings', str(HERE/'profiles/machine.json')+';'+str(OUT/'process.json'),
-       '--load-filaments', str(OUT/'filament.json'),
+       '--load-filaments', str(OUT/'filament.json')+(';'+str(OUT/'filament2.json') if SEQ else ''),
        '--arrange', '0', '--orient', '0', '--slice', '0',
        '--export-3mf', f'{JOB}.gcode.3mf', '--outputdir', str(OUT),
        str(OUT/f'{JOB}.stl')]
@@ -107,7 +127,7 @@ cmd = [r'C:\Program Files\OrcaSlicer\orca-slicer.exe', '--datadir', str(OUT/'dat
 BANDS = {'tw09b': [(7.8, 9.4), (27.0, 28.4), (33.2, 34.8)]}.get(WHICH)
 if PARTS:   # separate objects, each STL already in bed coordinates
     plan = {'plates': [{'plate_name': JOB, 'need_arrange': False, 'objects': [
-        {'path': str(f), 'count': 1, 'filaments': [1], 'pos_x': [0.0], 'pos_y': [0.0], 'pos_z': [0.0]} for f in PARTS]}]}
+        {'path': str(f), 'count': 1, 'filaments': [PART_FIL.get(f, 1)], 'pos_x': [0.0], 'pos_y': [0.0], 'pos_z': [0.0]} for f in PARTS]}]}
     (OUT/'assemble.json').write_text(json.dumps(plan, indent=1))
     cmd = [c for i, c in enumerate(cmd[:-1]) if not (c in ('--arrange', '--orient') or cmd[i-1] in ('--arrange', '--orient'))]
     cmd += ['--load-assemble-list', str(OUT/'assemble.json')]
