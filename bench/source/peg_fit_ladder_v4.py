@@ -132,12 +132,47 @@ def concept_geometry(e, zl, face):
             assert 0 <= r <= 1, r
             meet = (ox+ux*sx, oy+uy*sx)
             void = [(0.7, face-SLOT_ROOT), (0.7, rear), v0, meet, (0.5, tip+1.2)]
+            if e.get('ramp_wall'):
+                # v11 (owner, after PF07): "make the pointy end a little thinner so it's
+                # less stiff there". The ramp-side wall is the ramp offset inward by t (it
+                # used to thicken toward the nose) and the closed nose is nose_mm. The
+                # outer profile, catch and crest are unchanged.
+                (dx, dy), (ex, ey) = half[3], half[4]
+                L2 = math.hypot(ex-dx, ey-dy); vx, vy = (ex-dx)/L2, (ey-dy)/L2
+                mx, my = (vy, -vx) if vy < 0 else (-vy, vx)
+                if mx > 0:
+                    mx, my = -mx, -my                         # inward: toward the peg axis
+                rx, ry = dx+mx*t, dy+my*t                     # a point on the offset ramp line
+                det2 = -ux*vy+vx*uy
+                s2 = ((rx-ox)*(-vy)+vx*(ry-oy))/det2
+                corner = (ox+ux*s2, oy+uy*s2)                 # offset catch meets offset ramp
+                nose = e.get('nose_mm', 1.2)
+                ny_ = tip+nose
+                nose_pt = (rx+vx*(ny_-ry)/vy, ny_)            # offset ramp meets the nose line
+                assert nose_pt[0] > 0.3, nose_pt
+                void = [(0.7, face-SLOT_ROOT), (0.7, rear), v0, corner, nose_pt]
+                info.update(nose_mm=nose, ramp_wall_mm=t)
             wall = Part.makePolygon([V(x, y, 0) for x, y in half[1:]])
             inner = Part.makePolygon([V(x, y, 0) for x, y in void[2:]])
             info['min_wall_mm'] = round(wall.distToShape(inner)[0], 3)
             assert info['min_wall_mm'] >= 0.95*t, (info['min_wall_mm'], t)
+        g = e.get('root_gusset_mm', 0.0)
+        if g:
+            # v11 (owner): "reinforce the gusset to the peg just a hair" after PF07 #2 tore
+            # off at the root. The band grows g taller where it leaves the peg, tapering to
+            # nothing 1.5 mm back, clipped to the board hole (r 3.175, 0.05 margin) so it
+            # adds no install interference; the void cut below keeps the arms free.
+            lg = 1.5
+            tall = prism_xy(mirrored(half), zl-band-g, zl+band+g)
+            slab = box(-5, rear-lg, zl-5, 10, lg+0.6, 10)
+            hole = Part.makeCylinder(R-0.05, lg+2, V(0, rear-lg-0.5, zl), V(0, 1, 0))
+            ramp = [(rear-lg, zl+band), (rear, zl+band+g), (rear+0.6, zl+band+g),
+                    (rear+0.6, zl-band-g), (rear, zl-band-g), (rear-lg, zl-band)]
+            taper = Part.Face(Part.makePolygon([V(-5, y, z) for y, z in ramp+[ramp[0]]])).extrude(V(10, 0, 0))
+            add.append(tall.common(slab).common(hole).common(taper))
+            info.update(root_gusset_mm=g, root_gusset_length_mm=lg)
         cut.append(prism_xy(mirrored(void), zl-6, zl+6))
-        info.update(arm_mm=t, closed_nose_mm=1.2, band_half_height_mm=band)
+        info.update(arm_mm=t, closed_nose_mm=e.get('nose_mm', 1.2), band_half_height_mm=band)
     elif e['concept'] == 'HEEL':
         hb = e['heel_mm']
         add += G.tail(zl, face)

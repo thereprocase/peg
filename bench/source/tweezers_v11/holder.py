@@ -1,0 +1,309 @@
+"""v11 tweezer station: v9/v10's receiver and pegs with the PF07 #5 hoop on the bottom
+row, and the tweezers standing on edge in 15-degree trays on the right cheek.
+
+Owner's design (2026-10-02):
+- Print on the right cheek; nothing prints in the air but the pegs.
+- Each tweezer stands on edge, points toward the board, heel out front. Its right
+  (lower) arm rides the valley between a floor and the cheek. The floor is gravity
+  down but 15 degrees up toward the left when facing the pegboard, so the tool leans
+  into the cheek.
+- A wedge on the floor sits in the crotch of the tweezer; the tool slides along the
+  floor, points first, until the wedge impinges the crotch. The wedges are separate
+  parts printed alongside and glued (CA) into slots in the floors.
+- The tool leans on two low ribs, not the cheek face, so its points clear the cheek.
+- The bottom pegs are PF07 #5 (hoop, 0.8 mm arm, 2.0 tip, even catch wall) with a
+  thinner nose and ramp wall and a 0.4 mm root gusset, turned 90 degrees about the
+  peg axis so the hoop lies in the cheek plane and flexes in the print layers.
+- Minimal plastic without sacrificing looks, strength or function.
+
+Coordinates as v9/v10: X lateral (the right cheek is at -X), Y out of the board
+(pegs at Y < 0.15), Z up. Run with FreeCAD Python: python holder.py OUT_DIR
+"""
+from pathlib import Path
+import hashlib
+import json
+import math
+import sys
+
+import FreeCAD as A
+import Mesh
+import MeshPart
+import Part
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+import peg_profile as P                      # noqa: E402
+import peg_print_variant as PV               # noqa: E402
+import peg_fit_ladder_v2 as G                # noqa: E402
+import peg_fit_ladder_v4 as C                # noqa: E402
+from peg_fit_ladder import box               # noqa: E402
+from peg_interface import receive_pegs       # noqa: E402
+
+V = A.Vector
+NAME = 'part-solder-modules-tweezers__v11__edge-trays-right-cheek__fit-pf02c9-hoop5'
+
+# Receiver and pegs: exactly v9's, except the bottom row.
+PITCH, FACE = 25.4, 0.15
+COLS = [-12.7, 12.7]
+PLATE = dict(x0=-24.4, x1=19.4, y0=0.15, y1=5.55, z0=-175.0, z1=5.12)
+TOP = dict(upper_ribs_mm=0.50, clamp_mm=0.49)
+BEARING_ROWS, HOOP_ROW = [2, 4], 6
+HOOP = {'concept': 'HOOP', 'arm_mm': 0.8, 'tip_half': 2.0, 'even_catch_wall': True,
+        'ramp_wall': True, 'nose_mm': 0.9, 'root_gusset_mm': 0.4}
+BODY_RIBS = 0.30
+
+# Cheek and trays.
+CHEEK_X, CHEEK_T = PLATE['x0'], 2.4
+INNER = CHEEK_X + CHEEK_T                   # cheek face toward the tools
+CANT = math.radians(15.0)
+FLOOR_T = 2.4
+RIB = 1.0                                   # lean ribs, proud of the cheek face
+CONTACT_S = (30.0, 70.0)                    # tool stations (mm from the heel) on the ribs
+FLOOR_S = (18.0, 76.0)                      # tool stations the floor spans
+WEDGE_S = (31.0, 51.0)
+WEDGE_BACK_RELIEF = 0.4                     # wedge narrower than the V at its back end, so
+                                            # the crotch, not the tips' side, meets it first
+SLOT_CLEAR = 0.15
+TRAYS, TRAY_PITCH = 4, 23.0
+TOP_FLOOR_Z = -66.0                         # valley height of the top tray
+TIP_CLEAR = 3.0
+TOOL = Path(__file__).resolve().parents[2] / 'reviews/v8-regen/tweezers_open_rest.stl'
+
+
+def row_z(k):
+    return 0.12-PITCH*k
+
+
+def turn(shape, x, z, deg=-90):
+    """Rotate about the peg axis (parallel to Y) through (x, z); -90 maps +X to +Z."""
+    s = shape.copy(); s.rotate(V(x, 0, z), V(0, 1, 0), deg); return s
+
+
+def rounded_window(x0, x1, z0, z1, r, y0, y1):
+    """A slot through the plate (Y) with rounded corners, from x0..x1, z0..z1."""
+    w = box(x0+r, y0, z0, x1-x0-2*r, y1-y0, z1-z0).fuse(box(x0, y0, z0+r, x1-x0, y1-y0, z1-z0-2*r))
+    for cx, cz in [(x0+r, z0+r), (x1-r, z0+r), (x0+r, z1-r), (x1-r, z1-r)]:
+        w = w.fuse(Part.makeCylinder(r, y1-y0, V(cx, y0, cz), V(0, 1, 0)))
+    return w.removeSplitter()
+
+
+def receiver():
+    """v9's plate and pegs; PF07 #5 v11 hoops on the bottom row."""
+    path = G.fit_file(TOP['clamp_mm'])
+    canonical = P.FIT_SOURCE
+    P.FIT_SOURCE = PV.FIT_SOURCE = path
+    try:
+        fit = P.parse(path.read_bytes())
+        plate = box(PLATE['x0'], PLATE['y0'], PLATE['z0'], PLATE['x1']-PLATE['x0'],
+                    PLATE['y1']-PLATE['y0'], PLATE['z1']-PLATE['z0'])
+        reference = P.load_reference()
+        upper = [s for s in reference.Solids if s.BoundBox.ZMax > -9.9]
+        lower = [s for s in reference.Solids if s.BoundBox.ZMax < -9.9][0]
+        shape, reports = plate, []
+        for x in COLS:
+            ref = Part.makeCompound(upper+[lower]); ref.translate(V(x, 0, 0))
+            shape, r = receive_pegs(ref, shape, include_lower=False)
+            reports.append(r)
+        elbow = reports[0]['peg_profile']['elbow_center_y_mm']
+        add, cut = [], []
+        zu = fit['PEG_SEAT_DROP']
+        zl = row_z(HOOP_ROW)
+        for x in COLS:
+            for s in G.side_ribs(zu, TOP['upper_ribs_mm'], max(elbow, FACE-G.BOARD)+0.3, FACE+1.0, lead=G.UPPER_LEAD)[0]:
+                s = s.copy(); s.translate(V(x, 0, 0)); add.append(s)
+            for k in BEARING_ROWS+[HOOP_ROW]:
+                loc = lower.copy(); loc.translate(V(x, 0, row_z(k)-row_z(1))); add.append(loc)
+            for s in G.side_ribs(zl, BODY_RIBS, FACE-G.BOARD+0.2, FACE+1.0, lead=1.0)[0]:
+                s = s.copy(); s.translate(V(x, 0, 0)); add.append(s)
+            ha, hc, hinfo = C.concept_geometry(HOOP, zl, FACE)
+            for s in ha:
+                s = s.copy(); s.translate(V(x, 0, 0)); add.append(turn(s, x, zl))
+            for s in hc:
+                s = s.copy(); s.translate(V(x, 0, 0)); cut.append(turn(s, x, zl))
+        shape = shape.multiFuse(add).removeSplitter()
+        shape = shape.cut(cut).removeSplitter()
+        # Plastic: open the plate between the occupied rows (0, 2, 4, 6).
+        for za, zb in [(-42.7, -14.0), (-93.5, -58.7), (-144.3, -109.5)]:
+            shape = shape.cut(rounded_window(-18.4, 13.4, za, zb, 5.0, PLATE['y0']-0.01, PLATE['y1']+0.01))
+        info = dict(fit_file=str(path.relative_to(P.ROOT)), top=TOP, hoop=dict(HOOP, body_ribs_mm=BODY_RIBS,
+                    orientation='hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z',
+                    detail=hinfo), rows=dict(hooks=[0], bearing=BEARING_ROWS, hoop=[HOOP_ROW], empty=[1, 3, 5]),
+                    predicted_clamp_interference_at_3p94_mm=-reports[0]['peg_profile']['predicted_clearance_at_3p94_board_mm'])
+        return shape, info
+    finally:
+        P.FIT_SOURCE = PV.FIT_SOURCE = canonical
+
+
+# ---------------------------------------------------------------- tool placement
+def tool_points():
+    m = Mesh.Mesh(str(TOOL))
+    return m, [(p.x, p.y, p.z) for p in m.Points]   # tool frame: x width (+x tips bend), y heel->tips, z opening
+
+
+def slice_at(pts, s, w=0.4):
+    return [p for p in pts if abs(p[1]-s) < w]
+
+
+def outer_right(pts, s):
+    return min(p[2] for p in slice_at(pts, s))
+
+
+def gap(pts, s):
+    sl = slice_at(pts, s)
+    return min(p[2] for p in sl if p[2] > 0) - max(p[2] for p in sl if p[2] < 0)
+
+
+def placement(pts):
+    """Tool frame -> holder frame for the top tray, and the cheek-lean yaw."""
+    z30, z70 = outer_right(pts, CONTACT_S[0]), outer_right(pts, CONTACT_S[1])
+    phi = math.atan2(z30-z70, CONTACT_S[1]-CONTACT_S[0])
+    c, s_ = math.cos(phi), math.sin(phi)
+
+    def lin(p):                                      # (tx, ty, tz) -> holder, before translation
+        X, Y, Z = p[2], -p[1], p[0]
+        return (X*c-Y*s_, X*s_+Y*c, Z)
+    lp = [lin(p) for p in pts]
+    contact = lin((0, CONTACT_S[0], z30))
+    tx = INNER+RIB-contact[0]
+    ty = PLATE['y1']+TIP_CLEAR-min(q[1] for q in lp)
+    t = math.tan(CANT)
+    on_floor = [q for q, p in zip(lp, pts) if FLOOR_S[0] <= p[1] <= FLOOR_S[1]]
+    rest = min(q[2]-((q[0]+tx)-INNER)*t for q in on_floor)
+    tz = TOP_FLOOR_Z-rest
+    pl = A.Placement(V(tx, ty, tz), A.Rotation(V(0, 0, 1), math.degrees(phi)).multiply(
+        A.Rotation(A.Matrix(0, 0, 1, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1))))
+    return pl, math.degrees(phi)
+
+
+def floor_top(x, k):
+    return TOP_FLOOR_Z-k*TRAY_PITCH+(x-INNER)*math.tan(CANT)
+
+
+def tray(k, pl, pts):
+    """Floor (with gusset) and two lean ribs for tray k; the wedge and its slot."""
+    dz = -k*TRAY_PITCH
+    held = [pl.multVec(V(*p)) for p in pts if FLOOR_S[0] <= p[1] <= FLOOR_S[1]]
+    xmax = max(v.x for v in held)+1.5
+    yb, yf = min(v.y for v in held)-1.0, max(v.y for v in held)+1.0
+    tv = FLOOR_T/math.cos(CANT)
+    section = [(CHEEK_X, floor_top(CHEEK_X, k)), (xmax, floor_top(xmax, k)),
+               (xmax, floor_top(xmax, k)-tv), (INNER+4.0, floor_top(INNER+4.0, k)-tv),
+               (INNER, floor_top(INNER, k)-tv-4.0), (CHEEK_X, floor_top(CHEEK_X, k)-tv-4.0)]
+    vs = [V(x, yb, z) for x, z in section]
+    floor = Part.Face(Part.makePolygon(vs+[vs[0]])).extrude(V(0, yf-yb, 0))
+    parts = [floor]
+    for s in CONTACT_S:
+        c = pl.multVec(V(0, s, 0))
+        zc = pl.multVec(V(0, s, 0)).z+dz
+        parts.append(box(INNER-0.01, c.y-2.0, floor_top(INNER, k)-0.5, RIB+0.01, 4.0, zc+3.0-floor_top(INNER, k)))
+    # Wedge in the tool frame: centred between the arms, the V's width at its front.
+    g0, g1 = gap(pts, WEDGE_S[0]), gap(pts, WEDGE_S[1])
+    h0, h1 = g0/2, g1/2-WEDGE_BACK_RELIEF
+    for s in range(int(WEDGE_S[0])+1, int(WEDGE_S[1])):
+        hs = h0+(h1-h0)*(s-WEDGE_S[0])/(WEDGE_S[1]-WEDGE_S[0])
+        assert hs <= gap(pts, s)/2+1e-6, ('wedge wider than the V', s, hs, gap(pts, s))
+
+    def prism(h_front, h_back, grow):
+        prof = [(-h_front-grow, WEDGE_S[0]-grow), (h_front+grow, WEDGE_S[0]-grow),
+                (h_back+grow, WEDGE_S[1]+grow), (-h_back-grow, WEDGE_S[1]+grow)]
+        vs = [V(-30, y, z) for z, y in prof]          # tool frame: (tx, ty, tz)
+        solid = Part.Face(Part.makePolygon(vs+[vs[0]])).extrude(V(30+1.0, 0, 0))   # up to tx = +1.0
+        solid = solid.transformGeometry(pl.toMatrix())
+        solid.translate(V(0, 0, dz))
+        return solid
+    floor_band = floor.copy()
+    wedge = prism(h0, h1, 0.0)
+    # Keep the wedge above the floor's underside: a half-space tilted with the floor.
+    zb0 = floor_top(INNER, k)-tv
+    under = box(INNER-200, -200, zb0-400, 400, 600, 400)
+    under.rotate(V(INNER, 0, zb0), V(0, 1, 0), -math.degrees(CANT))
+    wedge = wedge.cut(under).removeSplitter()
+    slot = prism(h0, h1, SLOT_CLEAR).common(floor_band)
+    return parts, slot, wedge, dict(xmax=xmax, y_back=yb, y_front=yf, wedge_front_mm=2*h0, wedge_back_mm=2*h1)
+
+
+def cheek(trays):
+    y1 = max(t['y_front'] for t in trays)
+    z_lo = floor_top(INNER, TRAYS-1)-FLOOR_T/math.cos(CANT)-6.0
+    z_hi = TOP_FLOOR_Z+16.0
+    outline = [(PLATE['y0'], PLATE['z0']), (PLATE['y0'], PLATE['z1']), (PLATE['y1']+4, PLATE['z1']),
+               (y1, z_hi), (y1, z_lo), (PLATE['y1']+4, PLATE['z0'])]
+    vs = [V(CHEEK_X, y, z) for y, z in outline]
+    sheet = Part.Face(Part.makePolygon(vs+[vs[0]])).extrude(V(CHEEK_T, 0, 0))
+    # Plastic: open the cheek behind the trays, where only the points hover, leaving
+    # 9 mm rails that follow the tapered outline.
+    yb = min(t['y_back'] for t in trays)
+    ya, yz = PLATE['y1']+12, yb-8
+
+    def lo(y):
+        return PLATE['z0']+(z_lo-PLATE['z0'])*(y-PLATE['y1']-4)/(y1-PLATE['y1']-4)
+
+    def hi(y):
+        return PLATE['z1']+(z_hi-PLATE['z1'])*(y-PLATE['y1']-4)/(y1-PLATE['y1']-4)
+    quad = [(ya, lo(ya)+9), (yz, lo(yz)+9), (yz, hi(yz)-9), (ya, hi(ya)-9)]
+    ws = [V(CHEEK_X-1, y, z) for y, z in quad]
+    window = Part.Face(Part.makePolygon(ws+[ws[0]])).extrude(V(CHEEK_T+2, 0, 0))
+    return sheet.cut(window).removeSplitter()
+
+
+def print_pose(shape):
+    """Right cheek (-X) on the bed."""
+    s = shape.copy(); s.rotate(V(), V(0, 1, 0), -90)
+    b = s.BoundBox; s.translate(V(-b.XMin, -b.YMin, -b.ZMin))
+    return s
+
+
+def write(shape, path, lin=0.005):
+    mesh = MeshPart.meshFromShape(Shape=shape, LinearDeflection=lin, AngularDeflection=0.087, Relative=False)
+    for method in ['removeDuplicatedPoints', 'removeDuplicatedFacets', 'harmonizeNormals']:
+        getattr(mesh, method)()
+    mesh.write(str(path))
+    read = Mesh.Mesh(str(path))
+    assert read.isSolid() and not read.hasNonManifolds(), path
+    return dict(file=path.name, facets=read.CountFacets,
+                volume_error_fraction=abs(abs(read.Volume)-shape.Volume)/shape.Volume,
+                sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+
+
+def main(out):
+    out.mkdir(parents=True, exist_ok=True)
+    tool_mesh, pts = tool_points()
+    pl, yaw = placement(pts)
+    host, info = receiver()
+    trays, slots, wedges, extras = [], [], [], []
+    for k in range(TRAYS):
+        parts, slot, wedge, t = tray(k, pl, pts)
+        extras += parts; slots.append(slot); wedges.append(wedge); trays.append(t)
+    shape = host.multiFuse([cheek(trays)]+extras).removeSplitter()
+    shape = shape.cut(slots).removeSplitter()
+    assert shape.isValid() and len(shape.Solids) == 1, (shape.isValid(), len(shape.Solids))
+    for w in wedges:
+        assert w.isValid() and len(w.Solids) == 1
+    shape.exportStep(str(out/f'{NAME}__installed.step'))
+    files = [write(shape, out/f'{NAME}__installed.stl')]
+    files.append(write(print_pose(shape), out/f'{NAME}__print-right-cheek.stl'))
+    # Tools as placed, and the glued wedges in place.
+    for k in range(TRAYS):
+        m = tool_mesh.copy(); mp = A.Placement(pl); mp.move(V(0, 0, -k*TRAY_PITCH))
+        m.Placement = mp; m.write(str(out/f'{NAME}__tool-{k+1}.stl'))
+        wedges[k].exportStep(str(out/f'{NAME}__wedge-{k+1}__installed.step'))
+        write(wedges[k], out/f'{NAME}__wedge-{k+1}__installed.stl', lin=0.005)
+    # Wedge print pose: lie it on its tool-right tapered face.
+    w = wedges[0].copy()
+    inv = pl.inverse(); w = w.transformGeometry(inv.toMatrix())       # back to the tool frame
+    h0, h1 = trays[0]['wedge_front_mm']/2, trays[0]['wedge_back_mm']/2
+    n = V(0, -(h1-h0), -(WEDGE_S[1]-WEDGE_S[0])); n.normalize()       # tool-right tapered face, outward
+    w = w.transformGeometry(A.Placement(V(), A.Rotation(n, V(0, 0, -1))).toMatrix())
+    b = w.BoundBox; w.translate(V(-b.XMin, -b.YMin, -b.ZMin))
+    files.append(write(w, out/f'{NAME}__wedge__print.stl', lin=0.005))
+    info.update(name=NAME, tool=str(TOOL.name), tool_yaw_deg=yaw, trays=trays, tray_pitch_mm=TRAY_PITCH,
+                cant_deg=15.0, rib_mm=RIB, contact_stations_mm=CONTACT_S, floor_stations_mm=FLOOR_S,
+                wedge_stations_mm=WEDGE_S, slot_clearance_mm=SLOT_CLEAR, cheek_thickness_mm=CHEEK_T,
+                floor_thickness_mm=FLOOR_T, volume_mm3=shape.Volume, wedge_volume_mm3=wedges[0].Volume,
+                placement=dict(base=[pl.Base.x, pl.Base.y, pl.Base.z], rotation=list(pl.Rotation.Q)), files=files)
+    (out/f'{NAME}__design.json').write_text(json.dumps(info, indent=1))
+    print(json.dumps({k: info[k] for k in ('tool_yaw_deg', 'volume_mm3', 'wedge_volume_mm3', 'trays')}, indent=1))
+
+
+if __name__ == '__main__':
+    main(Path(sys.argv[1]))
