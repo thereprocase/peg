@@ -67,7 +67,7 @@ def main(d):
            'v11.1 · tweezers on edge · 15° trays · glued wedges',
            view=(28, 58), labels='Points first along the floor until the wedge meets the crotch; the cant leans each tool on two ribs.')
     render([(holder, TEAL)]+[(w, AMBER) for w in wedges], d/f'{NAME}__empty.png',
-           'v11.1 · empty: flanged cheek, strut, chamfered wedge pockets', view=(28, 58))
+           'v11.1 · empty: flanged cheek, X-brace, corner gussets, chamfered pockets', view=(28, 58))
     render([(holder, TEAL)]+[(t, STEEL) for t in tools], d/f'{NAME}__front.png',
            'v11.1 · from the front, facing the pegboard', view=(8, 90), zoom=1.0,
            labels='Floors rise 15° to the left; each tool leans right onto the cheek ribs.')

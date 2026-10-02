@@ -103,7 +103,7 @@
  "slot_clearance_mm": 0.15,
  "cheek_thickness_mm": 3.0,
  "floor_thickness_mm": 2.4,
- "volume_mm3": 86434.35200700506,
+ "volume_mm3": 90787.90558506551,
  "wedge_volume_mm3": 440.38342946606366,
  "placement": {
   "base": [
@@ -121,15 +121,15 @@
  "files": [
   {
    "file": "part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5__installed.stl",
-   "facets": 26236,
-   "volume_error_fraction": 3.200196959692527e-05,
-   "sha256": "42eba6cbf0278195d883845f14b13623574564b1b923d0d550f8278a7b47392a"
+   "facets": 26388,
+   "volume_error_fraction": 5.713134400543301e-05,
+   "sha256": "c2860fe34362d706754957bd31748af2946fa9b4e2c9b5bd0a815f3abf917618"
   },
   {
    "file": "part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
-   "facets": 26236,
-   "volume_error_fraction": 9.043794357281672e-06,
-   "sha256": "1ea7a890e802c5d921fe7772043de8744b15ec4d9aaf370ca295975f47ad99cc"
+   "facets": 26388,
+   "volume_error_fraction": 9.630523580291528e-06,
+   "sha256": "45c27b36962ad444206f795ae0fd7615aba39af908ea403f5a09d2e4bcda21cc"
   },
   {
    "file": "part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5__wedge__print.stl",

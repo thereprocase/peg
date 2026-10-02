@@ -70,6 +70,9 @@ GLUE_GAP = 0.1                              # wedge foot stops short of the pock
 CHAMFER_DEG = 50.0                          # pocket/foot chamfer on the print-top side, from horizontal
 FLANGE_W, FLANGE_H = 2.0, 5.0               # cheek edge flanges (in-plane width, height off the cheek)
 STRUT_W = 8.0
+BRACE_RIB_W, BRACE_RIB_H = 2.0, 2.5          # rib standing proud along each window diagonal
+GUSSET_L, GUSSET_T = 8.0, 2.4                 # cheek-to-plate corner webs (8: stays 1.1+ clear of the points)
+GUSSET_Z = (-5.0, -47.5, -96.0, -158.0)     # plate solid there, no tool in the way
 TRAYS, TRAY_PITCH = 4, 23.0
 TOP_FLOOR_Z = -66.0                         # valley height of the top tray
 TIP_CLEAR = 3.0
@@ -297,8 +300,17 @@ def cheek(trays):
         return Part.Face(Part.makePolygon(pv+[pv[0]])).extrude(V(height-0.01, 0, 0))
     q0, q1, q2, q3 = quad
     mid = ((q3[0]+q1[0])/2, (q3[1]+q1[1])/2)
-    strut = band((q3[0], q3[1]), (q1[0], q1[1]), (0, 1), STRUT_W/2, CHEEK_T, extend=6.0)
-    strut = strut.fuse(band((q3[0], q3[1]), (q1[0], q1[1]), (0, -1), STRUT_W/2, CHEEK_T, extend=6.0))
+    # Owner: "gusset the wall with some diagonal struts for stiffness". Both window
+    # diagonals (an X), each a flat 8 mm strut with a rib standing BRACE_RIB_H proud of
+    # the cheek face (a T section, for out-of-plane stiffness); behind the trays, where
+    # the hovering points stay farther from the cheek.
+    strut = None
+    for a_, b_ in [(q3, q1), (q0, q2)]:
+        for side in [(0, 1), (0, -1)]:
+            piece = band((a_[0], a_[1]), (b_[0], b_[1]), side, STRUT_W/2, CHEEK_T, extend=6.0)
+            rib = band((a_[0], a_[1]), (b_[0], b_[1]), side, BRACE_RIB_W/2, CHEEK_T+BRACE_RIB_H, extend=-2.0)
+            piece = piece.fuse(rib)
+            strut = piece if strut is None else strut.fuse(piece)
     centre = (sum(y for y, _ in outline)/len(outline), sum(z for _, z in outline)/len(outline))
     flanges = []
     for p, q in [(outline[1], outline[2]), (outline[2], outline[3]), (outline[0], outline[5]), (outline[5], outline[4])]:
@@ -307,7 +319,13 @@ def cheek(trays):
     fillet = Part.Face(Part.makePolygon([V(INNER-0.01, PLATE['y1']-0.01, 0), V(INNER+5, PLATE['y1']-0.01, 0),
                                          V(INNER-0.01, PLATE['y1']+5, 0), V(INNER-0.01, PLATE['y1']-0.01, 0)]))
     fillet = fillet.extrude(V(0, 0, PLATE['z1']-PLATE['z0']-6)); fillet.translate(V(0, 0, PLATE['z0']+3))
-    return sheet.multiFuse([strut, fillet]+flanges).removeSplitter()
+    # Corner gussets between the cheek and the receiver plate, in bands with no tool.
+    gussets = []
+    for zg in GUSSET_Z:
+        tri = [V(INNER-0.01, PLATE['y1']-0.01, zg-GUSSET_T/2), V(INNER+GUSSET_L, PLATE['y1']-0.01, zg-GUSSET_T/2),
+               V(INNER-0.01, PLATE['y1']+GUSSET_L, zg-GUSSET_T/2)]
+        gussets.append(Part.Face(Part.makePolygon(tri+[tri[0]])).extrude(V(0, 0, GUSSET_T)))
+    return sheet.multiFuse([strut, fillet]+flanges+gussets).removeSplitter()
 
 
 def print_pose(shape):
