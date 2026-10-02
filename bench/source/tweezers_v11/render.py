@@ -10,7 +10,7 @@ import trimesh
 import matplotlib
 matplotlib.use('Agg')
 
-NAME = 'part-solder-modules-tweezers__v11__edge-trays-right-cheek__fit-pf02c9-hoop5'
+NAME = 'part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5'
 TEAL, STEEL, AMBER = '#4ca191', '#ccd2d5', '#e0a040'
 
 
@@ -64,15 +64,15 @@ def main(d):
     tools = [trimesh.load(d/f'{NAME}__tool-{k}.stl') for k in range(1, 5)]
     wedges = [trimesh.load(d/f'{NAME}__wedge-{k}__installed.stl') for k in range(1, 5)]
     render([(holder, TEAL)]+[(w, AMBER) for w in wedges]+[(t, STEEL) for t in tools], d/f'{NAME}__loaded.png',
-           'v11 · tweezers on edge · 15° trays · glued wedges',
+           'v11.1 · tweezers on edge · 15° trays · glued wedges',
            view=(28, 58), labels='Points first along the floor until the wedge meets the crotch; the cant leans each tool on two ribs.')
     render([(holder, TEAL)]+[(w, AMBER) for w in wedges], d/f'{NAME}__empty.png',
-           'v11 · empty: floors, lean ribs, wedges (amber, glued)', view=(28, 58))
+           'v11.1 · empty: flanged cheek, strut, chamfered wedge pockets', view=(28, 58))
     render([(holder, TEAL)]+[(t, STEEL) for t in tools], d/f'{NAME}__front.png',
-           'v11 · from the front, facing the pegboard', view=(8, 90), zoom=1.0,
+           'v11.1 · from the front, facing the pegboard', view=(8, 90), zoom=1.0,
            labels='Floors rise 15° to the left; each tool leans right onto the cheek ribs.')
     hoop = clip(holder, np.array([5.0, -12.0, -160.0]), np.array([20.5, 1.0, -144.5]))
-    render([(hoop, TEAL)], d/f'{NAME}__hoop.png', 'v11 bottom peg · PF07 #5 hoop, thinner nose, root gusset',
+    render([(hoop, TEAL)], d/f'{NAME}__hoop.png', 'v11.1 bottom peg · PF07 #5 hoop, thinner nose, root gusset',
            view=(70, 200), zoom=1.15, labels='Hoop lies in the cheek plane, so it flexes in the print layers.')
     pr = trimesh.load(d/f'{NAME}__print-right-cheek.stl')
     w = trimesh.load(d/f'{NAME}__wedge__print.stl')
@@ -81,7 +81,7 @@ def main(d):
     for k in range(4):
         wk = w.copy(); wk.apply_translation([x0, 5+k*8.0-w.bounds[0][1], -w.bounds[0][2]]); plate.append((wk, AMBER))
     render(plate, d/f'{NAME}__print.png', 'Print: right cheek on the bed, four wedges alongside',
-           view=(35, -60), labels='Only the pegs print in the air. Glue the wedges into the floor slots with CA.')
+           view=(35, -60), labels='Only the pegs print in the air. CA the wedges into their chamfered pockets.')
 
 
 if __name__ == '__main__':

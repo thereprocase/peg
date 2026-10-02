@@ -9,7 +9,7 @@ import sys
 import numpy as np
 import trimesh
 
-NAME = 'part-solder-modules-tweezers__v11__edge-trays-right-cheek__fit-pf02c9-hoop5'
+NAME = 'part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5'
 
 
 def main(d):

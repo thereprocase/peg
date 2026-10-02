@@ -40,7 +40,7 @@ from peg_fit_ladder import box               # noqa: E402
 from peg_interface import receive_pegs       # noqa: E402
 
 V = A.Vector
-NAME = 'part-solder-modules-tweezers__v11__edge-trays-right-cheek__fit-pf02c9-hoop5'
+NAME = 'part-solder-modules-tweezers__v11p1__edge-trays-right-cheek__fit-pf02c9-hoop5'
 
 # Receiver and pegs: exactly v9's, except the bottom row.
 PITCH, FACE = 25.4, 0.15
@@ -53,17 +53,23 @@ HOOP = {'concept': 'HOOP', 'arm_mm': 0.8, 'tip_half': 2.0, 'even_catch_wall': Tr
 BODY_RIBS = 0.30
 
 # Cheek and trays.
-CHEEK_X, CHEEK_T = PLATE['x0'], 2.4
+CHEEK_X, CHEEK_T = PLATE['x0'], 3.0            # v11.1: 2.4 was "too flexy"
 INNER = CHEEK_X + CHEEK_T                   # cheek face toward the tools
 CANT = math.radians(15.0)
 FLOOR_T = 2.4
-RIB = 1.0                                   # lean ribs, proud of the cheek face
+RIB = 3.5                                   # lean ribs, proud of the cheek face (v11.1: 1.0 left
+                                            # the wedge 2.15 mm off the cheek; owner wanted more)
 CONTACT_S = (30.0, 70.0)                    # tool stations (mm from the heel) on the ribs
 FLOOR_S = (18.0, 76.0)                      # tool stations the floor spans
 WEDGE_S = (31.0, 51.0)
 WEDGE_BACK_RELIEF = 0.4                     # wedge narrower than the V at its back end, so
                                             # the crotch, not the tips' side, meets it first
 SLOT_CLEAR = 0.15
+POCKET_D = 1.5                              # blind wedge pocket, normal to the floor
+GLUE_GAP = 0.1                              # wedge foot stops short of the pocket floor
+CHAMFER_DEG = 50.0                          # pocket/foot chamfer on the print-top side, from horizontal
+FLANGE_W, FLANGE_H = 2.0, 5.0               # cheek edge flanges (in-plane width, height off the cheek)
+STRUT_W = 8.0
 TRAYS, TRAY_PITCH = 4, 23.0
 TOP_FLOOR_Z = -66.0                         # valley height of the top tray
 TIP_CLEAR = 3.0
@@ -216,20 +222,49 @@ def tray(k, pl, pts):
         solid.translate(V(0, 0, dz))
         return solid
     floor_band = floor.copy()
-    wedge = prism(h0, h1, 0.0)
-    # Keep the wedge above the floor's underside: a half-space tilted with the floor.
-    zb0 = floor_top(INNER, k)-tv
-    under = box(INNER-200, -200, zb0-400, 400, 600, 400)
-    under.rotate(V(INNER, 0, zb0), V(0, 1, 0), -math.degrees(CANT))
-    wedge = wedge.cut(under).removeSplitter()
-    slot = prism(h0, h1, SLOT_CLEAR).common(floor_band)
+    def below(depth):
+        """Half-space under a plane parallel to the floor top, depth below it (normal)."""
+        z0 = floor_top(INNER, k)-depth/math.cos(CANT)
+        b = box(INNER-200, -200, z0-400, 400, 600, 400)
+        b.rotate(V(INNER, 0, z0), V(0, 1, 0), -math.degrees(CANT))
+        return b
+    # v11.1 (owner): "wedge pocket should be a pocket - not a through hole. That way you
+    # always have wall to web to so this isn't a pure cantilever." The through-slot's top
+    # edge printed as spaghetti; a blind pocket keeps its back wall under every layer.
+    # Owner: a 90 on the bed side and a chamfer on the other, "so the back wall is
+    # supporting a 45 chamfer on the socket growing upwards". Printed on the cheek, +X is
+    # up: the pocket's cheek-side wall stays vertical, and its far side slopes down into
+    # the floor at CHAMFER_DEG, so no layer of the socket hangs over air.
+    def cavity_side(grow):
+        """Half-space on the cheek side of the chamfer plane through the pocket's far
+        (+X) opening edge, for the wedge outline grown by grow."""
+        ends = []
+        for ty, tz in [(WEDGE_S[0]-grow, h0+grow), (WEDGE_S[1]+grow, h1+grow)]:
+            q = pl.multVec(V(0, ty, tz))
+            ends.append(V(q.x, q.y, floor_top(q.x, k)))
+        a = math.radians(CHAMFER_DEG)
+        w = V(-math.sin(a), 0, -math.cos(a))           # into the floor, falling in the print pose
+        d = ends[1]-ends[0]
+        m = d.cross(w); m.normalize()
+        if m.x < 0:
+            m = m*-1.0                                  # toward the material beyond the far edge
+        e1 = V(d); e1.normalize()
+        e2 = m.cross(e1); e2.normalize()
+        c = ends[0]
+        sq = [c+e1*300+e2*300, c-e1*300+e2*300, c-e1*300-e2*300, c+e1*300-e2*300]
+        return Part.Face(Part.makePolygon(sq+[sq[0]])).extrude(m*-300.0)
+    body = prism(h0, h1, 0.0)
+    foot = body.common(below(0.0)).cut(below(POCKET_D-GLUE_GAP)).common(cavity_side(0.0))
+    wedge = body.cut(below(0.0)).fuse(foot).removeSplitter()
+    slot = (prism(h0, h1, SLOT_CLEAR).common(floor_band).cut(below(POCKET_D))
+            .common(cavity_side(SLOT_CLEAR)).removeSplitter())
     return parts, slot, wedge, dict(xmax=xmax, y_back=yb, y_front=yf, wedge_front_mm=2*h0, wedge_back_mm=2*h1)
 
 
 def cheek(trays):
     y1 = max(t['y_front'] for t in trays)
-    z_lo = floor_top(INNER, TRAYS-1)-FLOOR_T/math.cos(CANT)-6.0
-    z_hi = TOP_FLOOR_Z+16.0
+    z_lo = floor_top(INNER, TRAYS-1)-FLOOR_T/math.cos(CANT)-4.0-FLANGE_W-2.0   # below the gusset and flange
+    z_hi = TOP_FLOOR_Z+24.0                                                     # top flange clears the top tool
     outline = [(PLATE['y0'], PLATE['z0']), (PLATE['y0'], PLATE['z1']), (PLATE['y1']+4, PLATE['z1']),
                (y1, z_hi), (y1, z_lo), (PLATE['y1']+4, PLATE['z0'])]
     vs = [V(CHEEK_X, y, z) for y, z in outline]
@@ -247,7 +282,32 @@ def cheek(trays):
     quad = [(ya, lo(ya)+9), (yz, lo(yz)+9), (yz, hi(yz)-9), (ya, hi(ya)-9)]
     ws = [V(CHEEK_X-1, y, z) for y, z in quad]
     window = Part.Face(Part.makePolygon(ws+[ws[0]])).extrude(V(CHEEK_T+2, 0, 0))
-    return sheet.cut(window).removeSplitter()
+    sheet = sheet.cut(window)
+    # v11.1 stiffness (owner: "the cheek is too flexy"): a diagonal strut triangulates the
+    # window, flanges along the top and bottom edges make the cheek a channel, and a fillet
+    # stiffens the cheek-to-plate joint. All of them rise straight off the bed.
+    def band(p, q, inward, width, height, extend=0.0):
+        dy, dz = q[0]-p[0], q[1]-p[1]; L = math.hypot(dy, dz); uy, uz = dy/L, dz/L
+        ny, nz = -uz, uy
+        if ny*inward[0]+nz*inward[1] < 0:
+            ny, nz = -ny, -nz
+        a = (p[0]-uy*extend, p[1]-uz*extend); b = (q[0]+uy*extend, q[1]+uz*extend)
+        poly = [a, b, (b[0]+ny*width, b[1]+nz*width), (a[0]+ny*width, a[1]+nz*width)]
+        pv = [V(CHEEK_X+0.01, y, z) for y, z in poly]
+        return Part.Face(Part.makePolygon(pv+[pv[0]])).extrude(V(height-0.01, 0, 0))
+    q0, q1, q2, q3 = quad
+    mid = ((q3[0]+q1[0])/2, (q3[1]+q1[1])/2)
+    strut = band((q3[0], q3[1]), (q1[0], q1[1]), (0, 1), STRUT_W/2, CHEEK_T, extend=6.0)
+    strut = strut.fuse(band((q3[0], q3[1]), (q1[0], q1[1]), (0, -1), STRUT_W/2, CHEEK_T, extend=6.0))
+    centre = (sum(y for y, _ in outline)/len(outline), sum(z for _, z in outline)/len(outline))
+    flanges = []
+    for p, q in [(outline[1], outline[2]), (outline[2], outline[3]), (outline[0], outline[5]), (outline[5], outline[4])]:
+        inward = (centre[0]-(p[0]+q[0])/2, centre[1]-(p[1]+q[1])/2)
+        flanges.append(band(p, q, inward, FLANGE_W, CHEEK_T+FLANGE_H))
+    fillet = Part.Face(Part.makePolygon([V(INNER-0.01, PLATE['y1']-0.01, 0), V(INNER+5, PLATE['y1']-0.01, 0),
+                                         V(INNER-0.01, PLATE['y1']+5, 0), V(INNER-0.01, PLATE['y1']-0.01, 0)]))
+    fillet = fillet.extrude(V(0, 0, PLATE['z1']-PLATE['z0']-6)); fillet.translate(V(0, 0, PLATE['z0']+3))
+    return sheet.multiFuse([strut, fillet]+flanges).removeSplitter()
 
 
 def print_pose(shape):

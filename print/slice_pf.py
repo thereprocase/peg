@@ -18,6 +18,7 @@ PLATES = {
     'pf07a': ('slice-pf07a', 'fit-ladder-v7/part-pf07-peg-hoop-tune__v1__all-6__print-flat-top__fit-e586ab4ff6.stl', 'PF07-v1-hoop-tune-ASA-cyan-organic'),
     'tw11a': ('slice-tw11a', '../../bench/reviews/v11-build/TW11-plate.stl', 'TW11-v11-tweezer-station-ASA-cyan-organic'),
     'tw11sa': ('slice-tw11sa', '../../bench/reviews/v11-build/TW11-seq-plate.stl', 'TW11-v11-tweezer-station-ASA-cyan-yellow-wedges-seq'),
+    'tw11p1sa': ('slice-tw11p1sa', '../../bench/reviews/v11p1-build/TW11p1-seq-plate.stl', 'TW11p1-v11.1-tweezer-station-ASA-cyan-yellow-wedges-seq'),
     'pf03box': ('slice-pf03box', ['fit-ladder-v3/part-pf03-peg-fit-final__v1', 'box-2w/part-bx01-box-2w__v1'], 'PF03-BX01-v1-fit-and-box-PETG'),
 }
 WHICH = sys.argv[1] if len(sys.argv) > 1 else 'pf01'
