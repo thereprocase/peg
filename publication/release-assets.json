@@ -1390,5 +1390,205 @@
   "part-solder-drip-tray-liner__v12__vase-filled__cad-source-and-review.zip": {
     "sha256": "df851cf869460f2fda5f6a6fa5fea1c0cf0285e8fee926258dd2042ead4cfe4b",
     "bytes": 4093298
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.step": {
+    "sha256": "11cf7e4b91cbfb95b5193763eea5d722b4a109107ceec9599b77ec8f6f828f8e",
+    "bytes": 37499
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.iges": {
+    "sha256": "2692156b7f9926955be5dab7fac78c75816d5ec30782bb1aaf31882cb9bb552e",
+    "bytes": 85050
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.brep": {
+    "sha256": "018e7842d567b81ac82a29b5c14defbbd6e94fa611c193fcaae571ee00299b9f",
+    "bytes": 48265
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.FCStd": {
+    "sha256": "693d8ad8875d444d55261ec3cde0295bd0f4576ee4ad2cdd012830b447edbb5b",
+    "bytes": 32604
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.stl": {
+    "sha256": "f5560b155305f470581e4105c9ff8724a75f77141e2cbce5d8a23ec1092883f8",
+    "bytes": 1384484
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.obj": {
+    "sha256": "25006f78b2330c5b9bdd63cf18b4ab0bda367ec8676f4851fd2f03223c16e69b",
+    "bytes": 996055
+  },
+  "peg-upper-hook__v1__pf02c9-hoop5__nub120.3mf": {
+    "sha256": "ab93a95658269e96ab28ac85d6308c0ef074368399d918c16d93ddafa83e017e",
+    "bytes": 401616
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.step": {
+    "sha256": "e6a79dc4d3ed391441f8d911576e8b9dc33c8252da7c20841e2216c614e9aaf1",
+    "bytes": 101782
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.iges": {
+    "sha256": "4a6aa7c13066b03841d4a21f109e7854da4c6c6837c3b96d62e1cfa5d9b26dd2",
+    "bytes": 232551
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.brep": {
+    "sha256": "d6a01755350f9e7a4afb005ae450a988171addfeb93323209b7892b021fcb1bb",
+    "bytes": 117659
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.FCStd": {
+    "sha256": "324c9c7aaba9cffb8ab9b73e3aae58cbde0a3dee1a8dfb2b5d9a4276ba6a75a2",
+    "bytes": 59663
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.stl": {
+    "sha256": "2b5c4563c814cc40c38d6be54f9598374b3379919c0419277f061d1fd582be8e",
+    "bytes": 131484
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.obj": {
+    "sha256": "e1b210b218bcb7091e847f68ff2e15925aa6270602731436a6e126217aabe680",
+    "bytes": 86105
+  },
+  "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.3mf": {
+    "sha256": "6b061a736e72054d9da9f37d95475f6f33e112bf5df2f6dfbda49b74e9051b27",
+    "bytes": 32410
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.step": {
+    "sha256": "3bbb672f910a67a00b2ebb45621632851b6f98bbd8fa3c2a0e2002d312e34e24",
+    "bytes": 93117
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.iges": {
+    "sha256": "92529849e527d132bca10092b92dfdcff2ad8dd77d054709b9a9bedda4765795",
+    "bytes": 208089
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.brep": {
+    "sha256": "771ba3ed20e2ac236c6581b85ecf2177b511d091fc4384c1f37087cc4a2f759d",
+    "bytes": 104612
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.FCStd": {
+    "sha256": "c7aba5d8bc873c93387d12ec8895bdb7089668bc2b92abc27f00d5b4e6ce4775",
+    "bytes": 49934
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.stl": {
+    "sha256": "132d5f2e52e804efd01155b5913de51bf2a471cf298deabb865491ca1456a4ae",
+    "bytes": 128784
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.obj": {
+    "sha256": "0a3204249d6df9067e165381785bee164741a24b467f5d781e1effdeb9073d8b",
+    "bytes": 84168
+  },
+  "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.3mf": {
+    "sha256": "988059c333f2af90fef8ea26614548e3fbff30f13a91475520a235755caee25b",
+    "bytes": 31268
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.step": {
+    "sha256": "a89bd924f7424df7ddaec4b269d8c7dbc51c4bb2b80d8649a5726e1aab41edb3",
+    "bytes": 12256
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.iges": {
+    "sha256": "a6010183d9accb73f8a7ac96996fd7a7f46a013908a82634708eca9108738b5a",
+    "bytes": 31752
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.brep": {
+    "sha256": "c56368ed9cfa4aa0eb97d89ac3e8f7b50d1a35a0d7e8f6beaaeea5653dda5495",
+    "bytes": 10789
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.FCStd": {
+    "sha256": "be37c3248af8d03387d5254eb1d7b9cf57180809328c1ae5bac2ba63baa97dcb",
+    "bytes": 9020
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.stl": {
+    "sha256": "586ff51d18d9e4587c424e8b88132faa280aa6ecd26a3b12a0e4353b3a9b0e53",
+    "bytes": 158984
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.obj": {
+    "sha256": "1bf7093e16a7966a98c80551a8068c8a2493099b066ea32d82bc4e889aaae490",
+    "bytes": 105449
+  },
+  "peg-bearing-locator__v1__pf02c9-hoop5__nub120.3mf": {
+    "sha256": "752fc4810d899c336626566499d2b930a36cb02dcef918ae8f7bbcd345babc0f",
+    "bytes": 34683
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.step": {
+    "sha256": "4196607abbc10438aed6dd50d88f1d920f0ad17a79057d3e0eb71f8456e6d27b",
+    "bytes": 140141
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.iges": {
+    "sha256": "5567dd34a5ba70c40965d66c90873b6b89aaefe3619213d73a05bfa5ccca0cd2",
+    "bytes": 318735
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.brep": {
+    "sha256": "ac858baa3a82bda269847dc5528d902bea8fa4367f9b3f8db077221719ca31c1",
+    "bytes": 168362
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.FCStd": {
+    "sha256": "1ed35da6507eeeff8e1d0a85fe76273cdbaa9d56b3bbef5bc5792d53cbc867c9",
+    "bytes": 90058
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.stl": {
+    "sha256": "9d8961c23980edab56ea89b8242903f821bc461126574a7b706f79c39eb69959",
+    "bytes": 1515884
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.obj": {
+    "sha256": "695e6267abc33f06b7ce1f3968dd1ba1f2e9b538025c443705a4abb8f55baf62",
+    "bytes": 1098525
+  },
+  "peg-pair-upright__v1__pf02c9-hoop5__nub120.3mf": {
+    "sha256": "819a007cc509b24d1d8936900ae3587f772ecf84a4d8bd14dc8d8ceb4b846137",
+    "bytes": 432772
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.step": {
+    "sha256": "8e812904fa81d87c6b008709cc4cb182175979d25c95839181ea17a84cc7434e",
+    "bytes": 131460
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.iges": {
+    "sha256": "c4bd411c98fc1266f8225706e587cea848392a3889e78e1a86809d992f0bcb59",
+    "bytes": 294273
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.brep": {
+    "sha256": "64300174675770416fd31e40c560d51b61152b2b2c20dcb93b0621ea4e2779bd",
+    "bytes": 156087
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.FCStd": {
+    "sha256": "8ec6bc5e9445ebec38f4f522e161790336ce33652cf2e5cf2de1873dae8d1888",
+    "bytes": 80352
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.stl": {
+    "sha256": "9a239469846d72fc22aa1c944a0f3fed2150089164249c22cbd6274840e8e4d2",
+    "bytes": 1513184
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.obj": {
+    "sha256": "78a395b81f1ef9343776cc64fe093dba938d5f20d749db1822b953f6b77d82fa",
+    "bytes": 1096402
+  },
+  "peg-pair-cheek__v1__pf02c9-hoop5__nub120.3mf": {
+    "sha256": "c4dd1af4a766070ddf812ec6675e6832a27e17d02121aeb35d7f45c4b95bc09b",
+    "bytes": 431786
+  },
+  "pegs-current-fit__v1__nub120__step.zip": {
+    "sha256": "e60262eddf7ee4dd1f5fad73e525d8c0a13702483fd939b748b81bed45c84afd",
+    "bytes": 114090
+  },
+  "pegs-current-fit__v1__nub120__FCStd.zip": {
+    "sha256": "2fab1448f7eff349ab4f46a4d9979394344a320caf60c281856d2c81d5804f24",
+    "bytes": 319012
+  },
+  "pegs-current-fit__v1__nub120__iges.zip": {
+    "sha256": "f1247f21f0a96439f6b41c10f4b1463cb3be71687eb503dc1d95ed675ddbc9d1",
+    "bytes": 136327
+  },
+  "pegs-current-fit__v1__nub120__brep.zip": {
+    "sha256": "c26b22cb9f0a1842c8f0afcf67cba3edd9342d97b09a7e607e1bc47df15529ed",
+    "bytes": 143564
+  },
+  "pegs-current-fit__v1__nub120__stl.zip": {
+    "sha256": "58545d2357b115031dd67513b1af1a9e7c73b37fe64144bf5dd08f8ded3ebcc9",
+    "bytes": 1889755
+  },
+  "pegs-current-fit__v1__nub120__obj.zip": {
+    "sha256": "ce48227223d2fa9d55cad64b29e420ec56c753d9686a8621deca21e1952e6503",
+    "bytes": 998873
+  },
+  "pegs-current-fit__v1__nub120__3mf.zip": {
+    "sha256": "0ecff39ddaed02f79d2e0b98a480dfc97ce205d93112f48077d413ee6f80f8f5",
+    "bytes": 1304098
+  },
+  "pegs-current-fit__v1__nub120__all-formats-and-source.zip": {
+    "sha256": "dba649d43d5c7a2c07d19b1d4a3f84c19a4de94f204bbddc609b733510e699b9",
+    "bytes": 4963217
   }
 }

@@ -1,6 +1,22 @@
-> **Current bench collection:** [Open the gallery](https://thereprocase.github.io/peg/gallery/) and [current tighter-fit / integration rules](BENCH_HOLDERS.md). The nominal anchor study below is preserved separately; its certificates do not cover the interference-fit holders.
+# Pegboard connectors and holders
 
-# Conformal pegboard anchor
+**[Get the current peg downloads](https://thereprocase.github.io/peg/)** — native hook, hoop and bearing-locator CAD with a flat mounting reference and a **2 mm joining nub, +20% diameter**. Six individual connectors and pre-spaced pairs use the current PF02 #9 / PF07 #5 fit. Their functional board-side shapes are unchanged.
+
+| Download | Intended use |
+|---|---|
+| [STEP pack](https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__step.zip) | Native solids for Fusion, Onshape and other solid modelers |
+| [FreeCAD pack](https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__FCStd.zip) | Native solids and named holder datum planes |
+| [All formats + construction source](https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__all-formats-and-source.zip) | STEP, FCStd, BREP, IGES, STL, OBJ and geometry-only 3MF |
+
+Align the flat shoulder at **Y = 0.15 mm** to the holder's rear plane, embed the nub toward **+Y**, and Boolean union it into the body. Nub diameter is **6.72 mm** on the upper hook and **7.62 mm** on the lower parts. All dimensions are millimeters. Native solid exports preserve arcs and surfaces; STL/OBJ/3MF are separate tessellations. [Full integration notes](docs/pegs/integration.txt) · [Native build and validation](bench/reviews/peg-connectors-v1/BUILD.json).
+
+**[Browse all 44 holder designs](https://thereprocase.github.io/peg/gallery/current-pegs/)** · [New bench designs](https://thereprocase.github.io/peg/gallery/current-pegs/?family=new) · [36-hole screwdriver remix](https://thereprocase.github.io/peg/gallery/current-pegs/#P09-36) · [Current fit / printing rules](BENCH_HOLDERS.md).
+
+The original nominal anchor study is preserved below and on its [own page](https://thereprocase.github.io/peg/anchor-study/). Its movement certificates do not cover the current interference-fit connectors or complete holders. The new exports pass native solid round-trips, unchanged board-side geometry checks and sample host unions; physical fit and loads depend on the finished print and board.
+
+---
+
+# Original nominal conformal anchor study
 
 A reusable rear attachment for holders, bins and brackets on **6.35 mm (1/4-inch) holes at 25.4 mm (1-inch) pitch**. Both pegs match the bore's lower curve over **120 degrees**. The lower peg bears through the full **3.94 mm board thickness**. A sharp **5 mm nominal lip above the upper hole center** sits flush against the board; taller attached parts can take any shape inside the supplied movement envelope.
 

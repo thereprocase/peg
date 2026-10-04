@@ -1,0 +1,246 @@
+{
+  "units": "mm",
+  "tag": "peg-connectors-v1-2026-10-04",
+  "parts": [
+    {
+      "id": "upper-hook",
+      "name": "PF02 #9 upper hook",
+      "links": {
+        "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.step",
+        "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.stl",
+        "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.obj",
+        "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-upper-hook__v1__pf02c9-hoop5__nub120.3mf"
+      },
+      "preview": "upper-hook.glb",
+      "interface": {
+        "shaft_reference_diameter_mm": 5.6,
+        "nub_diameter_mm": 6.72,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 70.93464884393467,
+        "sample_union_one_solid": true
+      },
+      "solids": 1
+    },
+    {
+      "id": "lower-hoop-upright",
+      "name": "PF07 #5 lower hoop \u00b7 upright",
+      "links": {
+        "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.step",
+        "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.stl",
+        "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.obj",
+        "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.3mf"
+      },
+      "preview": "lower-hoop-upright.glb",
+      "interface": {
+        "shaft_reference_diameter_mm": 6.35,
+        "nub_diameter_mm": 7.619999999999999,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 91.20734623754956,
+        "sample_union_one_solid": true
+      },
+      "solids": 1
+    },
+    {
+      "id": "lower-hoop-cheek",
+      "name": "PF07 #5 lower hoop \u00b7 cheek",
+      "links": {
+        "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.step",
+        "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.stl",
+        "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.obj",
+        "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.3mf"
+      },
+      "preview": "lower-hoop-cheek.glb",
+      "interface": {
+        "shaft_reference_diameter_mm": 6.35,
+        "nub_diameter_mm": 7.619999999999999,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 91.20734623754956,
+        "sample_union_one_solid": true
+      },
+      "solids": 1
+    },
+    {
+      "id": "bearing-locator",
+      "name": "120\u00b0 intermediate bearing locator",
+      "links": {
+        "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.step",
+        "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.stl",
+        "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.obj",
+        "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-bearing-locator__v1__pf02c9-hoop5__nub120.3mf"
+      },
+      "preview": "bearing-locator.glb",
+      "interface": {
+        "shaft_reference_diameter_mm": 6.35,
+        "nub_diameter_mm": 7.619999999999999,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 91.2073462375495,
+        "sample_union_one_solid": true
+      },
+      "solids": 1
+    },
+    {
+      "id": "pair-upright",
+      "name": "Pre-spaced hook + hoop pair \u00b7 upright",
+      "links": {
+        "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.step",
+        "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.stl",
+        "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.obj",
+        "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-upright__v1__pf02c9-hoop5__nub120.3mf"
+      },
+      "preview": "pair-upright.glb",
+      "interface": {
+        "pitch_mm": 25.4,
+        "separate_solids": 2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "component_ids": [
+          "upper-hook",
+          "lower-hoop-upright"
+        ]
+      },
+      "solids": 2
+    },
+    {
+      "id": "pair-cheek",
+      "name": "Pre-spaced hook + hoop pair \u00b7 cheek",
+      "links": {
+        "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.step",
+        "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.stl",
+        "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.obj",
+        "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/peg-pair-cheek__v1__pf02c9-hoop5__nub120.3mf"
+      },
+      "preview": "pair-cheek.glb",
+      "interface": {
+        "pitch_mm": 25.4,
+        "separate_solids": 2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "component_ids": [
+          "upper-hook",
+          "lower-hoop-cheek"
+        ]
+      },
+      "solids": 2
+    }
+  ],
+  "all_formats": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__all-formats-and-source.zip",
+  "formats": {
+    "step": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__step.zip",
+    "freecad": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__FCStd.zip",
+    "iges": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__iges.zip",
+    "brep": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__brep.zip",
+    "stl": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__stl.zip",
+    "obj": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__obj.zip",
+    "3mf": "https://github.com/thereprocase/peg/releases/download/peg-connectors-v1-2026-10-04/pegs-current-fit__v1__nub120__3mf.zip"
+  },
+  "validation": [
+    {
+      "id": "upper-hook",
+      "watertight": true,
+      "mesh_solids": 1,
+      "native_cylindrical_faces": 4,
+      "native_face_types": [
+        "Cylinder",
+        "Plane",
+        "Sphere"
+      ],
+      "mesh_source_sha256": "f5560b155305f470581e4105c9ff8724a75f77141e2cbce5d8a23ec1092883f8"
+    },
+    {
+      "id": "lower-hoop-upright",
+      "watertight": true,
+      "mesh_solids": 1,
+      "native_cylindrical_faces": 11,
+      "native_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane"
+      ],
+      "mesh_source_sha256": "2b5c4563c814cc40c38d6be54f9598374b3379919c0419277f061d1fd582be8e"
+    },
+    {
+      "id": "lower-hoop-cheek",
+      "watertight": true,
+      "mesh_solids": 1,
+      "native_cylindrical_faces": 9,
+      "native_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane"
+      ],
+      "mesh_source_sha256": "132d5f2e52e804efd01155b5913de51bf2a471cf298deabb865491ca1456a4ae"
+    },
+    {
+      "id": "bearing-locator",
+      "watertight": true,
+      "mesh_solids": 1,
+      "native_cylindrical_faces": 3,
+      "native_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane"
+      ],
+      "mesh_source_sha256": "586ff51d18d9e4587c424e8b88132faa280aa6ecd26a3b12a0e4353b3a9b0e53"
+    },
+    {
+      "id": "pair-upright",
+      "watertight": true,
+      "mesh_solids": 2,
+      "native_cylindrical_faces": 15,
+      "native_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane",
+        "Sphere"
+      ],
+      "mesh_source_sha256": "9d8961c23980edab56ea89b8242903f821bc461126574a7b706f79c39eb69959"
+    },
+    {
+      "id": "pair-cheek",
+      "watertight": true,
+      "mesh_solids": 2,
+      "native_cylindrical_faces": 13,
+      "native_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane",
+        "Sphere"
+      ],
+      "mesh_source_sha256": "9a239469846d72fc22aa1c944a0f3fed2150089164249c22cbd6274840e8e4d2"
+    }
+  ]
+}

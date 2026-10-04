@@ -1,0 +1,76 @@
+[
+  {
+    "id": "upper-hook",
+    "watertight": true,
+    "mesh_solids": 1,
+    "native_cylindrical_faces": 4,
+    "native_face_types": [
+      "Cylinder",
+      "Plane",
+      "Sphere"
+    ],
+    "mesh_source_sha256": "f5560b155305f470581e4105c9ff8724a75f77141e2cbce5d8a23ec1092883f8"
+  },
+  {
+    "id": "lower-hoop-upright",
+    "watertight": true,
+    "mesh_solids": 1,
+    "native_cylindrical_faces": 11,
+    "native_face_types": [
+      "Cone",
+      "Cylinder",
+      "Plane"
+    ],
+    "mesh_source_sha256": "2b5c4563c814cc40c38d6be54f9598374b3379919c0419277f061d1fd582be8e"
+  },
+  {
+    "id": "lower-hoop-cheek",
+    "watertight": true,
+    "mesh_solids": 1,
+    "native_cylindrical_faces": 9,
+    "native_face_types": [
+      "Cone",
+      "Cylinder",
+      "Plane"
+    ],
+    "mesh_source_sha256": "132d5f2e52e804efd01155b5913de51bf2a471cf298deabb865491ca1456a4ae"
+  },
+  {
+    "id": "bearing-locator",
+    "watertight": true,
+    "mesh_solids": 1,
+    "native_cylindrical_faces": 3,
+    "native_face_types": [
+      "Cone",
+      "Cylinder",
+      "Plane"
+    ],
+    "mesh_source_sha256": "586ff51d18d9e4587c424e8b88132faa280aa6ecd26a3b12a0e4353b3a9b0e53"
+  },
+  {
+    "id": "pair-upright",
+    "watertight": true,
+    "mesh_solids": 2,
+    "native_cylindrical_faces": 15,
+    "native_face_types": [
+      "Cone",
+      "Cylinder",
+      "Plane",
+      "Sphere"
+    ],
+    "mesh_source_sha256": "9d8961c23980edab56ea89b8242903f821bc461126574a7b706f79c39eb69959"
+  },
+  {
+    "id": "pair-cheek",
+    "watertight": true,
+    "mesh_solids": 2,
+    "native_cylindrical_faces": 13,
+    "native_face_types": [
+      "Cone",
+      "Cylinder",
+      "Plane",
+      "Sphere"
+    ],
+    "mesh_source_sha256": "9a239469846d72fc22aa1c944a0f3fed2150089164249c22cbd6274840e8e4d2"
+  }
+]

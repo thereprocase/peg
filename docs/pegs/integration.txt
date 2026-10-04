@@ -1,0 +1,12 @@
+Current peg connectors — millimeters
+
+PF02 #9 upper hook and PF07 #5 lower hoop, using the unchanged current-fit analytical solids and original analytical locator STEP. The demonstration handle is omitted.
+
+Align the flat nub shoulder (Y = 0.15 mm) with the holder rear/board-facing plane. The nub extends 2 mm toward +Y into the body; give it real shared volume and Boolean Union / Combine Join / Part Fuse. Nub diameter is +20%: 6.72 mm upper (5.6 reference), 7.62 mm lower (6.35 reference). The original hole axis is Z = 0.12 mm. Individual parts share that hole axis; pre-spaced pairs place the lower peg 25.4 mm below the upper. Choose upright or cheek hoops to match the eventual print-layer flex direction.
+
+Use STEP for Fusion/Onshape/solid CAD exchange. FCStd contains native solid features and named holder datum planes; Python source controls construction dimensions. BREP preserves OpenCascade topology. IGES exports native curved surfaces and may require sewing in the destination CAD app. STL/OBJ/3MF are tessellated geometry inputs, not editable solid source or printer jobs. GLB is display only. No proprietary F3D/Parasolid file is claimed.
+
+Native STEP/BREP and sewn IGES round-trips passed exact solid comparisons; the holder-side nub preserves the functional board-side shapes and passes a sample one-solid host union. These checks do not establish physical fit, loads or support release. The complete holder needs its own installation clearance and printing review. The original nominal anchor motion study does not certify this interference variant.
+
+Rebuild with FreeCAD Python and numpy:
+  freecad-python bench/source/peg_connectors_v1/build.py fresh-output

@@ -1,6 +1,7 @@
 # Publishing the curated gallery
 
-Canonical public site: https://thereprocase.github.io/peg/gallery/
+Canonical public front page: https://thereprocase.github.io/peg/
+Current holder collection: https://thereprocase.github.io/peg/gallery/current-pegs/
 GitHub Pages builds `main:/docs`. `docs/gallery` contains the static gallery, local scripts and 3D media. CAD STEP/FCStd, ZIP bundles and 3MF print jobs are GitHub Release assets. `release-downloads.json` maps original relative paths to immutable release URLs, including compatibility aliases; `release-assets.json` records exact SHA256 and size.
 
 Preserve four groups, tombstones, Pegstr credit, model-specific limitations, explicit part/version filenames and private-data exclusions. This migration imported ONLY the previous public allowlist, recorded in gallery-source-manifest.json. No votes, photos, databases, credentials, workspace history or machine caches were imported.
@@ -18,3 +19,9 @@ Warpbus now keeps legacy redirects only, following GitHub verification. Historic
 `prepare_current_pegs_media.py --selection SELECTED.json` converts the selected installed/print meshes to GLB. `build_current_pegs.py BUILD_DIR RELEASE_DIR --selection SELECTED.json --tag RELEASE_TAG --generation-source-map SOURCE_MAP.json` packages 114 native/source release assets and writes the catalog, receipts and redirect map. The generation-source map is local build state; the ZIPs preserve exact execution code and public provenance. Each bundle retains its true original input suffix, any original STEP/STL ancestry, the shared fit snapshot, native CAD, meshes and review evidence.
 
 Run `python3 tools/check_gallery.py`, check the actual mobile/desktop viewer and both poses, review scoped staged paths, refresh `release_manifest.json`, upload immutable release assets, then publish the matching Pages commit. No current G-code or sliced job is included. Historical loose parts and print jobs remain in their original galleries. Print support/toolpath and changed-fit physical qualification are separate from the recorded CAD checks.
+
+## Featured connector downloads
+
+The front page features six current-fit connector/pair variants with +20% diameter, 2 mm holder-side joining nubs. `bench/source/peg_connectors_v1/build.py` constructs native solids and datum planes from the unchanged fit snapshot. Native STEP/BREP/IGES round-trips, unchanged board-side geometry and a sample host union are checked during generation. IGES topology is sewn for its solid comparison. Meshes are tessellated directly from the native solids without mesh repair.
+
+`build_peg_downloads.py RELEASE_DIR` packages STEP, FCStd, BREP, IGES, STL, OBJ and geometry-only 3MF, plus all-format/source bundles. Native exports remain GitHub Release assets; `docs/pegs` holds the catalog, display GLBs and integration notes. `peg-connectors-v1-additions.json` records release/local receipts. Run `tools/check_peg_downloads.py` (also included in the gallery check) and review the actual front-page viewer before publishing. The original nominal study stays at `/peg/anchor-study/`; its CAD and certificates are unchanged.

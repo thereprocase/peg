@@ -1,0 +1,262 @@
+{
+  "version": "peg-connectors-v1",
+  "units": "mm",
+  "holder_plane_y_mm": 0.15,
+  "nub_depth_mm": 2.0,
+  "diameter_scale": 1.2,
+  "fit": "PF02 #9 / PF07 #5 clipped roots",
+  "geometry_source": "Analytical FreeCAD/OpenCascade solids. No STL-to-solid conversion. Existing lower locator imported from its original analytic STEP.",
+  "parts": [
+    {
+      "id": "upper-hook",
+      "name": "PF02 #9 upper hook",
+      "prefix": "peg-upper-hook__v1__pf02c9-hoop5__nub120",
+      "assets": {
+        "step": "peg-upper-hook__v1__pf02c9-hoop5__nub120.step",
+        "iges": "peg-upper-hook__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "peg-upper-hook__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "peg-upper-hook__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "peg-upper-hook__v1__pf02c9-hoop5__nub120.stl"
+      },
+      "interface": {
+        "shaft_reference_diameter_mm": 5.6,
+        "nub_diameter_mm": 6.72,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 70.93464884393467,
+        "sample_union_one_solid": true
+      },
+      "analytical_cylindrical_faces": 4,
+      "analytic_face_types": [
+        "Cylinder",
+        "Plane",
+        "Sphere"
+      ],
+      "solids": 1,
+      "volume_mm3": 279.6560890756498,
+      "hashes": {
+        "step": "11cf7e4b91cbfb95b5193763eea5d722b4a109107ceec9599b77ec8f6f828f8e",
+        "iges": "2692156b7f9926955be5dab7fac78c75816d5ec30782bb1aaf31882cb9bb552e",
+        "brep": "018e7842d567b81ac82a29b5c14defbbd6e94fa611c193fcaae571ee00299b9f",
+        "freecad": "693d8ad8875d444d55261ec3cde0295bd0f4576ee4ad2cdd012830b447edbb5b",
+        "stl": "f5560b155305f470581e4105c9ff8724a75f77141e2cbce5d8a23ec1092883f8"
+      }
+    },
+    {
+      "id": "lower-hoop-upright",
+      "name": "PF07 #5 lower hoop \u00b7 upright",
+      "prefix": "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120",
+      "assets": {
+        "step": "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.step",
+        "iges": "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "peg-lower-hoop-upright__v1__pf02c9-hoop5__nub120.stl"
+      },
+      "interface": {
+        "shaft_reference_diameter_mm": 6.35,
+        "nub_diameter_mm": 7.619999999999999,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 91.20734623754956,
+        "sample_union_one_solid": true
+      },
+      "analytical_cylindrical_faces": 11,
+      "analytic_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane"
+      ],
+      "solids": 1,
+      "volume_mm3": 218.40644273468652,
+      "hashes": {
+        "step": "e6a79dc4d3ed391441f8d911576e8b9dc33c8252da7c20841e2216c614e9aaf1",
+        "iges": "4a6aa7c13066b03841d4a21f109e7854da4c6c6837c3b96d62e1cfa5d9b26dd2",
+        "brep": "d6a01755350f9e7a4afb005ae450a988171addfeb93323209b7892b021fcb1bb",
+        "freecad": "324c9c7aaba9cffb8ab9b73e3aae58cbde0a3dee1a8dfb2b5d9a4276ba6a75a2",
+        "stl": "2b5c4563c814cc40c38d6be54f9598374b3379919c0419277f061d1fd582be8e"
+      }
+    },
+    {
+      "id": "lower-hoop-cheek",
+      "name": "PF07 #5 lower hoop \u00b7 cheek",
+      "prefix": "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120",
+      "assets": {
+        "step": "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.step",
+        "iges": "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "peg-lower-hoop-cheek__v1__pf02c9-hoop5__nub120.stl"
+      },
+      "interface": {
+        "shaft_reference_diameter_mm": 6.35,
+        "nub_diameter_mm": 7.619999999999999,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 91.20734623754956,
+        "sample_union_one_solid": true
+      },
+      "analytical_cylindrical_faces": 9,
+      "analytic_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane"
+      ],
+      "solids": 1,
+      "volume_mm3": 215.9718290310843,
+      "hashes": {
+        "step": "3bbb672f910a67a00b2ebb45621632851b6f98bbd8fa3c2a0e2002d312e34e24",
+        "iges": "92529849e527d132bca10092b92dfdcff2ad8dd77d054709b9a9bedda4765795",
+        "brep": "771ba3ed20e2ac236c6581b85ecf2177b511d091fc4384c1f37087cc4a2f759d",
+        "freecad": "c7aba5d8bc873c93387d12ec8895bdb7089668bc2b92abc27f00d5b4e6ce4775",
+        "stl": "132d5f2e52e804efd01155b5913de51bf2a471cf298deabb865491ca1456a4ae"
+      }
+    },
+    {
+      "id": "bearing-locator",
+      "name": "120\u00b0 intermediate bearing locator",
+      "prefix": "peg-bearing-locator__v1__pf02c9-hoop5__nub120",
+      "assets": {
+        "step": "peg-bearing-locator__v1__pf02c9-hoop5__nub120.step",
+        "iges": "peg-bearing-locator__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "peg-bearing-locator__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "peg-bearing-locator__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "peg-bearing-locator__v1__pf02c9-hoop5__nub120.stl"
+      },
+      "interface": {
+        "shaft_reference_diameter_mm": 6.35,
+        "nub_diameter_mm": 7.619999999999999,
+        "diameter_scale": 1.2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "hole_axis_z_mm": 0.12,
+        "board_side_symmetric_difference_mm3": 0.0,
+        "sample_holder_overlap_mm3": 91.2073462375495,
+        "sample_union_one_solid": true
+      },
+      "analytical_cylindrical_faces": 3,
+      "analytic_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane"
+      ],
+      "solids": 1,
+      "volume_mm3": 200.4403756232037,
+      "hashes": {
+        "step": "a89bd924f7424df7ddaec4b269d8c7dbc51c4bb2b80d8649a5726e1aab41edb3",
+        "iges": "a6010183d9accb73f8a7ac96996fd7a7f46a013908a82634708eca9108738b5a",
+        "brep": "c56368ed9cfa4aa0eb97d89ac3e8f7b50d1a35a0d7e8f6beaaeea5653dda5495",
+        "freecad": "be37c3248af8d03387d5254eb1d7b9cf57180809328c1ae5bac2ba63baa97dcb",
+        "stl": "586ff51d18d9e4587c424e8b88132faa280aa6ecd26a3b12a0e4353b3a9b0e53"
+      }
+    },
+    {
+      "id": "pair-upright",
+      "name": "Pre-spaced hook + hoop pair \u00b7 upright",
+      "prefix": "peg-pair-upright__v1__pf02c9-hoop5__nub120",
+      "assets": {
+        "step": "peg-pair-upright__v1__pf02c9-hoop5__nub120.step",
+        "iges": "peg-pair-upright__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "peg-pair-upright__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "peg-pair-upright__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "peg-pair-upright__v1__pf02c9-hoop5__nub120.stl"
+      },
+      "interface": {
+        "pitch_mm": 25.4,
+        "separate_solids": 2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "component_ids": [
+          "upper-hook",
+          "lower-hoop-upright"
+        ]
+      },
+      "analytical_cylindrical_faces": 15,
+      "analytic_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane",
+        "Sphere"
+      ],
+      "solids": 2,
+      "volume_mm3": 498.062530979209,
+      "hashes": {
+        "step": "4196607abbc10438aed6dd50d88f1d920f0ad17a79057d3e0eb71f8456e6d27b",
+        "iges": "5567dd34a5ba70c40965d66c90873b6b89aaefe3619213d73a05bfa5ccca0cd2",
+        "brep": "ac858baa3a82bda269847dc5528d902bea8fa4367f9b3f8db077221719ca31c1",
+        "freecad": "1ed35da6507eeeff8e1d0a85fe76273cdbaa9d56b3bbef5bc5792d53cbc867c9",
+        "stl": "9d8961c23980edab56ea89b8242903f821bc461126574a7b706f79c39eb69959"
+      }
+    },
+    {
+      "id": "pair-cheek",
+      "name": "Pre-spaced hook + hoop pair \u00b7 cheek",
+      "prefix": "peg-pair-cheek__v1__pf02c9-hoop5__nub120",
+      "assets": {
+        "step": "peg-pair-cheek__v1__pf02c9-hoop5__nub120.step",
+        "iges": "peg-pair-cheek__v1__pf02c9-hoop5__nub120.iges",
+        "brep": "peg-pair-cheek__v1__pf02c9-hoop5__nub120.brep",
+        "freecad": "peg-pair-cheek__v1__pf02c9-hoop5__nub120.FCStd",
+        "stl": "peg-pair-cheek__v1__pf02c9-hoop5__nub120.stl"
+      },
+      "interface": {
+        "pitch_mm": 25.4,
+        "separate_solids": 2,
+        "holder_plane_y_mm": 0.15,
+        "embed_mm": 2.0,
+        "component_ids": [
+          "upper-hook",
+          "lower-hoop-cheek"
+        ]
+      },
+      "analytical_cylindrical_faces": 13,
+      "analytic_face_types": [
+        "Cone",
+        "Cylinder",
+        "Plane",
+        "Sphere"
+      ],
+      "solids": 2,
+      "volume_mm3": 495.62791734986195,
+      "hashes": {
+        "step": "8e812904fa81d87c6b008709cc4cb182175979d25c95839181ea17a84cc7434e",
+        "iges": "c4bd411c98fc1266f8225706e587cea848392a3889e78e1a86809d992f0bcb59",
+        "brep": "64300174675770416fd31e40c560d51b61152b2b2c20dcb93b0621ea4e2779bd",
+        "freecad": "8ec6bc5e9445ebec38f4f522e161790336ce33652cf2e5cf2de1873dae8d1888",
+        "stl": "9a239469846d72fc22aa1c944a0f3fed2150089164249c22cbd6274840e8e4d2"
+      }
+    }
+  ],
+  "source_hashes": {
+    "bench/source/peg_connectors_v1/build.py": "b66b327918534243e82fbddf56db6783174e38aceef4b16d4b768561ffae405e",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/SNAPSHOT.json": "ee78f96a25810a25f449a2184d9f1ed0c3a2fce16487ba9c36d4d429d34c6ae8",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_120.step": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_120_geometry.json": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_motion_results.json": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/reference/peg-fit.scad": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder.py": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder_v2.py": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder_v4.py": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_interface.py": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_print_variant.py": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_profile.py": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/reviews/pf02-fits/peg-fit-clamp-0.49.scad": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a"
+  },
+  "limits": "Geometry integration exports, not a new physical fit or load rating. Completed holder installation and print/support strategy need checking. Nominal anchor-study certificates do not cover this interference fit.",
+  "mesh_tessellation": {
+    "linear_deflection_mm": 0.005,
+    "angular_deflection_rad": 0.05,
+    "native_solid_source": true,
+    "mesh_repairs": false
+  }
+}
