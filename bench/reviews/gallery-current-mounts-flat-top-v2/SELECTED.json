@@ -1,0 +1,1881 @@
+{
+  "schema_version": 1,
+  "count": 38,
+  "selection": "19 planar-top v2 Pegstr/arrays + 19 v1 remaining mounted bodies; no spool wall rack or retired studies",
+  "products": [
+    {
+      "id": "P03",
+      "name": "Twin rectangular seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P03-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p03__v2__pegstr-p03-twin-rectangular-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "ce2e324bc561d3e154b4afd708fbfe0cc251182ec101fa010ebc5f054968cebf",
+        "installed.step": "a258a7247a49a21ca31e85f29b6610c808c433bf5293588911249407b7912321",
+        "installed.FCStd": "b53d33576a9fd9ea66244d387aafae0d0a2f4de7232404ecc5b9f818b6eae19d",
+        "print.stl": "e97cb6d6001182513b3779da70c493d4c3ca9ae7ba300c5d2dcdf30befc561af",
+        "print.step": "d5adfa4f9ef39a27b4df7e992ee055577c6a3f5fd8389668e21b5192733a9405",
+        "print.FCStd": "db0b075bbd3cc184f5810d8a74a3948cbf1fd264338a6a1b58304b1a546318eb",
+        "report.json": "27f7308e9d698e8f08fea3893e37a0d8cd3ece1a1df08f378c31700b20ad3676",
+        "mesh-checks.json": "95d3954ae1e2cefd2c0a887a9c5c694ed46c524c3da83e64f280f18568882432",
+        "native-checks.json": "3b89fd96df20016e71de4f1b88c60d2b2d9ab231c25cb894824222005966f8d1",
+        "NOTES.md": "eeb3226578a99808913be14f890b97ef3ec3ee413a5403e21598c099f43e680b",
+        "seat-checks.json": "19265cd82ba140bf7a61534766934f97daea14637322acab9a8d99413ad5f61e"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Windscreen tool cradle",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P04-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p04__v2__pegstr-p04-windscreen-tool-cradle__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "95d8226465be036e0f4cf82c8fd4d85956982038c6890591630e235a4944f898",
+        "installed.step": "32de33faa993bc3f1b667eba190e9a112a45668d5fff7fa8b8e4ba808c4899ec",
+        "installed.FCStd": "7258fb2171a9cce1e94143fd1c7c853cb9c0028d4e9109780d62693a88ebc837",
+        "print.stl": "ff901d31ef2006062f1a182d2191ad68d28743a75813a5ef9f0ef037883f401c",
+        "print.step": "f6b795e7a1582e85063874ec8f4e609f8c84f8bcc3bbbadd14785e0313ff3ce9",
+        "print.FCStd": "90bf5dcf4dd3b1ffdb3a94715b3c283a16befc1d402579bd1d33ea0fcdebdf1a",
+        "report.json": "deb1fab4821954715083a5e7238e55e9dd54c6eec7d4bb5fc14920b5d7bbdb01",
+        "mesh-checks.json": "5890c55ff3cf3c7799237893769121a55d9f178fb9c5a675d9c357be5256d84f",
+        "native-checks.json": "e3617f9b36d775a55679e0a600733190c7181da6c4e0b1273741e756384f9da3",
+        "NOTES.md": "65773dbd1ae4195263a9e398bd006376a6430682e5c145675cbcf29f5a17283c",
+        "seat-checks.json": "b05024ccdf0da1980d7381bd412f603bcc8da42bc6016daf7b2f3bffdee755c2"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "MT2 holder",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P05-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p05__v2__pegstr-p05-mt2-holder__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909",
+        "installed.step": "0c3f255bd8bf6e2950c4afb7d7cdf8b2541341d972362b900c45c230bf4254f6",
+        "installed.FCStd": "10b95f9eb048e57e27447c0db68849c1ad3128aeadf578b1c3e5d8edc714bae0",
+        "print.stl": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77",
+        "print.step": "7f2a204f2a60e769595186d13c967a175de53b3344bc8316f1c2d78c26db4931",
+        "print.FCStd": "d154275cdf7a44b364c7823bce32e648ba895d6aabccb3194b54e2569f2e6945",
+        "report.json": "e71417c25451780c94b3895a1b3207e9a6392c112b1bbe3ffd87f5a6781bebc3",
+        "mesh-checks.json": "2bbe23872037bf6f1ad9a86a90b539d503ad64a7b4c1ef6fb9d5383cb550f2a1",
+        "native-checks.json": "afff8cb65d979dee894d794a860e5d1cae0321add7a1abe11051c5ffd33bec59",
+        "NOTES.md": "f99898d95bceb29ea94e2858345b11302fe6c1568f278313b6a2a33108f692b4",
+        "seat-checks.json": "6d9b65f022b12febab628ab8eb9f9c0db46e2b2c1f9324d094994d020f448514"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "60 \u00d7 40 bin",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P07-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p07__v2__pegstr-p07-60x40-bin__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "ea5ce58d31859ac1097106e208f66cf2fe668971d990ea271fb0b9ea1c7626ca",
+        "installed.step": "76a4631564fdfdecf3a0d0ca64f4c4531a8ec392280fca783fc133a6ba3bcaa5",
+        "installed.FCStd": "52a881da2efd95efb7b5bc02b55a249d2b65a2e8fb80022533afa1a9050c2c38",
+        "print.stl": "696785cdaed16e42d2c8d9f142afbd457a9f26d517cdc92485bf6819cd624821",
+        "print.step": "90ad0a510e563930cf0076f27bb272598fe02aa8e884b33b97a7f70d7b843685",
+        "print.FCStd": "4e6b12f3fed82b66876a3772c1b0acf5f6da07d872d735cca1efb8e6e4879c50",
+        "report.json": "28c6c8846438b917c14c4308aeb1dbb6321db169d1652e94f4d70ae16033d6d8",
+        "mesh-checks.json": "1fbaf8abb00793138e9596216b79cc0620980deb0a90b3f8aabad5341050ec82",
+        "native-checks.json": "e127714ec09e489a5ac25ef9f4402f896790bd9548316282a7fe68db97a54ddc",
+        "NOTES.md": "47f70b2538f2e117d7ae7c1ac205f062914510da104279c32575e5f825161fe5",
+        "seat-checks.json": "45fa221983ee18afcabd4e80afa28167e6108026370645fc38afb16b622509bb"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "name": "100 \u00d7 60 bin",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P06-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p06__v2__pegstr-p06-100x60-bin__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "c528f3ade174f5dcf3a73e05c7ee06d8a2f95ff6ccb4fc2230808347c991fb4e",
+        "installed.step": "8ddaa1ca6f15ede26c8e52358e77bbf352bede11414bd8b36a2919b89b0724bc",
+        "installed.FCStd": "08503a48e80438cea081f7981c0ea1a64aabfd311daf5e94370272af4f08389d",
+        "print.stl": "4144c5c3b57214a100857afdd12606f3963fc2d2882f2a7a108218327081e6fe",
+        "print.step": "e469923be49861106b9423feff7c4b36b09bca4859c03b87e901785c3006975a",
+        "print.FCStd": "cf03055574f5c3f31cbd3c08dbd42d68e44030743cab3ef0a05728e611b3b029",
+        "report.json": "e96dc290e7199d1c26203a91f37f92b35973fe953a6084a8a23ae0a5b59cf90e",
+        "mesh-checks.json": "5c161b0de83a3d20a45898ee712677604b72640a0efaa2119a7c26dfcbdda19a",
+        "native-checks.json": "d2d536f37cbaa15ec9a2c4012dfa1cfabcd8cc0021b776ee173c0f9643819893",
+        "NOTES.md": "5e1de20b5379d03f994c6349859aa8832e82fb1c45815acaea07ecba17e8e761",
+        "seat-checks.json": "47cd4fa88788353e1e17fd74f1bef28d5a64dc30013bd1b430dd9ae0a4ff8305"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        },
+        {
+          "source_file": "flat_top_p06_export.py",
+          "generation_source_sha256": "b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0/flat_top_p06_export.py",
+          "packaged_source_sha256": "b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0",
+          "ast_equal": true,
+          "post_generation_whitespace_only": false,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top_p06_export.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top_p06_export.py"
+        }
+      ]
+    },
+    {
+      "id": "P08",
+      "name": "Flashlight ring",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P08-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p08__v2__pegstr-p08-flashlight-ring__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "946c173ec5a9fed5dbbfd3d78fcc3e13d298940d0d1285469dbc57c8c7b5d386",
+        "installed.step": "8dbf0b11eea11070214849d282d11a9989757143ea88d8808a7f37c7785d5d55",
+        "installed.FCStd": "2682cd8473e887c86db1fdfc886b4332567b6ff28ad6cf1296ea5afd5652b0f5",
+        "print.stl": "a72cdaf78cec053b4a1e81c6937441f9d9c78bd748974ccc61b0dbc4c3be3c5b",
+        "print.step": "0c352842c650b649ccca1fce549b4cab886ac179e1bb568fa63df319eb5fd45e",
+        "print.FCStd": "b18bda3140b16c89cf0f1b038ca8595ec0a36cb5b9818ae6edae7f3b3536fda0",
+        "report.json": "561c47cc0c660c96cf7f372b7a5bab38097b91cdc2cb82fb8e5902fcec952b93",
+        "mesh-checks.json": "42b3b55be867fcfefe7b61e690de8e9cfdef04711636f246daf0030331a126c0",
+        "native-checks.json": "987a42ce4d993f1bd4a20ea253c2423252c78580a3b9c700fd583f88bf690ca6",
+        "NOTES.md": "9de461c679139d605c3c82277d3a3a320edba52f3e7e24ea224c00bcbe62d471",
+        "seat-checks.json": "8201cf03c96da98dc857c195c02e3cf38c26d436a857e9e415bf8a545149ce9a"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P10",
+      "name": "Low rectangular slot",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P10-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p10__v2__pegstr-p10-low-rectangular-slot__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "b4926faee4a336f2e6713e55229ef0afe01fd38267bb031c8ad574e95e18b6bf",
+        "installed.step": "39512f476a17bbeb6b010dac744ca47f799c43fee0a7f048784979d38a7a7f36",
+        "installed.FCStd": "e7597e0adf03b77a35d6ba8acf0657d323008f8eabaac3e5d168e7564ba84893",
+        "print.stl": "f34d0caa44a54b1a9aa7ddbb060925ace1a0fd2dfe4751b6163d7187e98077f2",
+        "print.step": "ff44cb2841af2a9d799063e003ce7f209647174810094daf6223165dabe8cd0d",
+        "print.FCStd": "c6ae585cb12bce9008ab003e96b39aabcafceb652868e508df7c12486ea1d6e3",
+        "report.json": "3dff8f845cbde4211ad5f2e6d736be56f231eb12d82dbb74cec7667b3dbebcac",
+        "mesh-checks.json": "eae753c7e65fc4481595b082230d6a6fe59dbb3cce55682b2281f3881c80b900",
+        "native-checks.json": "cd996e8c6f484faaad9f1ff8bd11efbb4781074bdd8894be76d76820b83d394c",
+        "NOTES.md": "b145e7146ab54b015b26329a57b900a498bacb0f0759fa2aee2eccf2c5b0984b",
+        "seat-checks.json": "d707ea2b1992707254c0b3b53706e68c1ac434438388fc1b5f0e1e0a04afb295"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P11",
+      "name": "Caliper slot",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P11-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p11__v2__pegstr-p11-caliper-slot__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "e851eabd3c671daf028dff06004d697350b2809d2be3880a20689f43f5b3d694",
+        "installed.step": "13d56e3cc71c5903bd4df8c0d596c808f0085445333fb42f501c812703681de8",
+        "installed.FCStd": "66544d5d25c3e7f93a99981dff5869feebda105b5109a89e4bf1ed886467c097",
+        "print.stl": "3ad66fbc05c120ed70c0cc1400bbca1041c61bd0e3938fdf1d0b0d6746bf946c",
+        "print.step": "28013c50a4c75c7b76f4292909bed679b5ee864bc826397d71ec61071372678f",
+        "print.FCStd": "f3bb18680c851b5c708dfda4fa63e562d0b510f4b3ff9a5b95ce6e24db4d0796",
+        "report.json": "2fbd9c5e17d6b806f60cbfa94b36bf0e7153933b372d3bd92977109d7d4cbc74",
+        "mesh-checks.json": "52ea90052e6acbe8949f172d347b8c950002080303c96849d643a2df437abc04",
+        "native-checks.json": "2b42585caf45f1eb636383bbacc4f25b3fc0b97d46a569e691b09e9761cad1a1",
+        "NOTES.md": "a7b7e4ae53736a8fb9c0a90eb797988bfdc3b7872ebb3b65fcbcfad9c810f876",
+        "seat-checks.json": "5c719c6af09ea2e1147b6f392a38cfcc5bca6b993c60a03137c97140fc766eea"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "name": "24 round seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P09-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p09__v2__pegstr-p09-24-round-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "d80de995bf7557cafe4fbe31d8250d2124d020884c7763e46fea1c703dec3287",
+        "installed.step": "da3e845592730287faf46e6d03d1bb1e9994db5303acb2c5c6dc3e81c329b6c3",
+        "installed.FCStd": "80f48672b00c9b055c47bad49394fa9292261b006ea655c591867c26a07fa2ab",
+        "print.stl": "ec8eecbfa124acac90bac2b6a666bb79f8aa0868e10ef44265deb2bd9f19b4a6",
+        "print.step": "89c9bc78d31fb5f66742892ad9a7050c86f984b7e1318cbd34dab8bcff554909",
+        "print.FCStd": "de2b80aafda93327ea0a27873389bce51535111a67d25882557a7d0bf43e895b",
+        "report.json": "e7835c171640f0e1e17306e99cc7877b33f8150767faeef0650f738b9e8a3fa4",
+        "mesh-checks.json": "a684737da903cb08a518cfb83692b1ab77027954acda1c1443e93638f968a87b",
+        "native-checks.json": "79fd4459abf5cd8aa25eb7e7ceaa55253f44a58a7c89c2d47dfdfa4dc62c408d",
+        "NOTES.md": "cf5d7e1b1a9218dcaa9605de31420bc68019416df0d3a950b869935a612d4216",
+        "seat-checks.json": "d5c3e7b918f99e9095dd6577c1700c56510a9f73a04d9920bf20c17216771e4f"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Four square seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P02-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/P02-body-y0151.stl",
+      "input_kind": ".stl",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "8f1ed41ac13b95525a13bb2fe7c4bc43df678e6de0008179ffc82a47895ca65a",
+        "installed.step": "c72c19f5d0284ce5f432ca06e009ffa75803e5e022511eca43b79ef180ccb7d9",
+        "installed.FCStd": "c340248ae35fc4c52a04d952e688c5a6dba2ed4ef789a246b415a7d23c75555e",
+        "print.stl": "808907baa4f076aa053dc8a3d8e1ea6461927305f0346aa61c1167ccd630dd97",
+        "print.step": "4817d92e81f79f72e3e80dd2b466ad6608c9882cae71cdf19298115f01aa3225",
+        "print.FCStd": "d0b4d35439721eab5b5a34cbb638e5b44e2fe14bedbe9c8a89ad4a1124437282",
+        "report.json": "89bac5b5f9ddfc1b462bb04e5345882e3b6a88c2e3550d64904430eb7f180145",
+        "mesh-checks.json": "199a507701fc965a2e08dcc2659b765d3eff4215ef02d9210251bab0514a545d",
+        "native-checks.json": "7f52ec3182ba48584b020d3c262fb7e8b4656c9c08dc9f0932a778542a928abc",
+        "NOTES.md": "5cc5286853da19f5a45ff35401b758fd33ad34e7325e38f0075483a69367377f",
+        "seat-checks.json": "5310e21dd246f489fa6952da610f90231d24a01f0a5bb7d770a16d3cf63d8dcc"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P01",
+      "name": "16 small square seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P01-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/P01-body-y0151.stl",
+      "input_kind": ".stl",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "423770769449b09a8b8266ec725b289132d126c301be26931ca622902ab9a7d2",
+        "installed.step": "804b26774aef728651d658eba875d44fe4a78250e66344a967ad750ca043427c",
+        "installed.FCStd": "d3fc6ec42e6da5e8a087e5578f0cf08f606c90609164a84de974f5d005cb494f",
+        "print.stl": "cc0827b6ed7eb0b48e95383894d48214c7a2a4f1d2db6cf57f5366df8c2bc17e",
+        "print.step": "a0cb9057e1072ff49ec71f254e87265add2ceffdc4a28e8c443e417aa1de775d",
+        "print.FCStd": "f8e8fbfaa30285472f40a6dfb1abb9df10c1ce4431c20a72dad4f4edf456271a",
+        "report.json": "2874aeba664b97d667e499758b206e460bcc047f62fb43190bc2f05ccf1c3337",
+        "mesh-checks.json": "a8a0a2119fbd8e3c7188d29788aeb65b6aa73268e4463a67ccadcf1a60a8d7cd",
+        "native-checks.json": "87c134af028057ac55a98e7c8996046f3961d172bfe8006a88cbb9836e36ef84",
+        "NOTES.md": "2a79650e68995eae5d9f89b75bdaa7d52bab34465dfe16e607cd8652fd21881f",
+        "seat-checks.json": "9cb95fb0a4d417d596427fb4bb9f1d21ec1622cf24fef350cda30d3d591484f6"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P01-12",
+      "name": "12 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P01-12-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p01-12__v-src288b2b3fbe__pegstr-array-p01-12-small-square-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "264e6bd18bf942f8aed86c15094412d6aa2ca387bc2943778d54f8261975bf61",
+        "installed.step": "f51140d1fd44d746d28891662364d4aa128f8df21bd36131a918908428bfd9e8",
+        "installed.FCStd": "b93d4153ad42fec73ef8105f2d5e91a8363d0c71c924d7811f1bd77e6fe3a631",
+        "print.stl": "eb9db41ff0cc81f7fd90509346fe9a1627a80f700b540360d40be6ab0718ee71",
+        "print.step": "69893a0fc36a114393ff12c74114db94372680af0c11135c9e4861bd26c2bf74",
+        "print.FCStd": "230e0995381284c8c4ae11df19065bf176277bf349c4ae651b9f5594d36c521d",
+        "report.json": "6d9547c5ea4306155e84392ee53ec51536d2824c9eca3264bca7b1753937b856",
+        "mesh-checks.json": "57538fdceb13b56dab5848fdd358b58788fefaa11b23e5fc430424505555fb4e",
+        "native-checks.json": "ca44913cd08c6218e445015732760fb2f712aea25933b77d0e237a15609bd104",
+        "NOTES.md": "409bcb7e31d6d6ea95db432707d4e81bfe24a65047754b9b2f73e67047149dcf",
+        "seat-checks.json": "252cfa0d65ad2f37e2ea4c72e5430f389e496e9d412e62c8248cc0c71c0dc1ed"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P01-24",
+      "name": "24 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P01-24-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p01-24__v-src276a5c7516__pegstr-array-p01-24-small-square-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "47f0e26b448dbdf199c7fe3b34beb8e39e0b061938827b5bca79fd77ecbfe676",
+        "installed.step": "5866f1e57f7079095a7b02159e646727b56c147969dca98e0cb5e96f5649a2f3",
+        "installed.FCStd": "0b830f2f6fa0545a74f3ed0162260e5968bbfb8a539f66abba6604d9d666b40f",
+        "print.stl": "8d7441c9da5356551fcf35c955347f43916797f0e9a33623829d94e969cd371e",
+        "print.step": "d776520e4a8296b37922fabaa561e438bca14c8d2950de175f748afefc96939e",
+        "print.FCStd": "1b4f02cd6e134580fb9d72ae166536197e6577b3d6524a88008e388de8452e27",
+        "report.json": "197256f75c6ee6d1ff376588225f77b1630e56d5c685683a2423dea2e1fa87bb",
+        "mesh-checks.json": "974d7da3c3f4c13631c30f0da8170ea4e254c9844894df13501982a0e695bb18",
+        "native-checks.json": "33e0f405a0e170f7e9ded1dd8af5f5011f278535481f4d6c18c821679ae6018a",
+        "NOTES.md": "1408f46ae51c424f501b3d6a7446f4ae0f7c1b6bf7af53d3dea81cd4d0ca73ca",
+        "seat-checks.json": "24d76005b231751011356829b454d03ca5cdb2c0eec5950a50f30c66195de5b4"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P09-16",
+      "name": "16 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P09-16-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p09-16__v-src1cc7daf292__pegstr-array-p09-16-round-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "b3c90248b064e5c9847f590165e4d6b2fca0f82968a374b011ed3ea24f05f1e5",
+        "installed.step": "ca7b9aa09a9808b08dfd993ceecb78d9c821e994fccd2c8af8fda7e4d6ca2f46",
+        "installed.FCStd": "2679946c1d838c100b270cdee432bad930e4f16eec1cdad1d5aa50849493c7cf",
+        "print.stl": "d10bf33dc5eda52588f0d88194f9ee890cb9c0f69e97b9d701e43dd55d9d68f7",
+        "print.step": "d5d4437362528eaea398ad88527d07f77eac0dc17ba24206e22d73fe5288ac09",
+        "print.FCStd": "c22b76c7ade5cd6087e84952ec0812e88d7f3983e743fe7cb7201da4e04c328f",
+        "report.json": "82199095ea4b8d4c3f9fd29abb5f1ce1ea45c54d9dc978b07bbe4881c3a41586",
+        "mesh-checks.json": "18f5680b1ae714aa0e004e5d0d7f1a6928967b4daa9615499547483ee9af30e1",
+        "native-checks.json": "beb993a76e9214d71538d34ba4e821e8aa5c4a3a21ac3300695e8ccd93ce6acf",
+        "NOTES.md": "b45b9997d2d634f38b4061e5d6271583db24c515f4e7e3cf1bfa3fd079636f90",
+        "seat-checks.json": "0aab7b7949c91126eebb8471514fce5aa011d86de74aa3e131a54a7273e62840"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P01-32",
+      "name": "32 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P01-32-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p01-32__v-src4ed3a74a57__pegstr-array-p01-32-small-square-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "0deceff410ebfae7dbd70f70356330c2c70a992c8c948c680f9b71bcf00ee752",
+        "installed.step": "1b042d223b6cdebefae8097cb0ede989d5c5794fe615a8e5e0f05cfaeae2e594",
+        "installed.FCStd": "1ee4bf99d398c6b87a9dc765ecdedcac3d180e87c09578975667a0df29380809",
+        "print.stl": "897ac9f0c4fa7e6f1c2b285f8a112ee4d3e167a946521d7e7c6a570d3d1864e6",
+        "print.step": "7fe929aac153e77002b5fef797876edb7374f5858276eca21ea9cfa1c6e6d6e4",
+        "print.FCStd": "08985aad4471349448029c0515844a7d874c762e2917803118519c44f0eedef4",
+        "report.json": "0a74419ae7c6bcc479aeb464a549d3a4771a69e2724899b3d803edeec1c5f581",
+        "mesh-checks.json": "d66c27e61b574edfb911a4989ff4ab6060d15de2561f97a642e7e368b5abaef6",
+        "native-checks.json": "962c15700fe4be4e9a2b215563c8bea1b7c8a0ed473de32c75f543b931ac96a6",
+        "NOTES.md": "52c4cbc5d0e9ec915902a895c960f9e67dfb7dc232ff0257e36914720a387354",
+        "seat-checks.json": "c7b07c57736167a7e479ebf125647a8a523eb3de75595d58d7f212205fdd7bf2"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P01-48",
+      "name": "48 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P01-48-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p01-48__v-srcc87b0346c1__pegstr-array-p01-48-small-square-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "4367772c54095f1a0913bafe9f9b11b8ac4b2c4fad87316428cd43c5ecfb640f",
+        "installed.step": "2c93e76b451f6cc494898aa31bd9f7fe12d84e0f3cafa28c589220477824fbb0",
+        "installed.FCStd": "64dc9ba1c2230cf13183b875e0ca25d082db87b4b76b86ac493e8fdc56fd0fa5",
+        "print.stl": "e6b12e87c19aea176be8621b64d716fbceeb5cd99e77d3abe16ad4bf8d06ea58",
+        "print.step": "5f5c47a66f2c611ffd5519a38b26209cbb2e2b2b6a331869af134360c6232568",
+        "print.FCStd": "ac12c86cb0f99cbf2dd1f42808f3283b1ac41ac9a8edb71f853683563d48a270",
+        "report.json": "615b2347e850eef6df69bd455eb4a0c851cd4f7476010e077ae8d67b99b59574",
+        "mesh-checks.json": "591ca7b6a79768e5c45e804f53523f95be429730312c75543f6082c8276fd438",
+        "native-checks.json": "d4c1178d3e5cbd464b72b8d37fa12c10a23838195ca51800bd21c23c0daf10bc",
+        "NOTES.md": "8f21c2bbed4e038b57cf4fa24934e2a296acf6d1fd1e44e29f0c359826f4cb34",
+        "seat-checks.json": "455d6a3228abbb6f38d1adea067c4e76fabbd0bce26fea56bf9075f4114cfcab"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P09-36",
+      "name": "36 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P09-36-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p09-36__v-src8230a821c0__pegstr-array-p09-36-round-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "e6412ce3762198d3c60cf684e45f8087082fe493ae7ea44ea19af442e64fc41c",
+        "installed.step": "2009e1f46bde3a2391c266542f951655b5cf5e4dd244435394360902eb85420e",
+        "installed.FCStd": "6ef60bae9fe4035cea9b764d90fe0b0fb0b2ccda600637080704d10e98281941",
+        "print.stl": "c742c35e5e4199fdae3c2347d0324dafc00ba47c098537ded687051438aaf1a7",
+        "print.step": "578d2e716968386a37049b3a352106f625f9eb7afc52e79dbce8801b2f239343",
+        "print.FCStd": "58b6c9e2b89f18c9fe74f12c215cb83c588cb9396fe78854c9238acf104c64c9",
+        "report.json": "ee7b553442d759c63cc28dc9262e5219916afcb0760abcff9549828617bc614f",
+        "mesh-checks.json": "26b95b6af993c1d50c6cc7fc23edf627e1827b580e6c440a6cd29f39ceecc947",
+        "native-checks.json": "bb0346be4f5609cde9675b60ab823ee7e5d355950828fc226db95519a13273dd",
+        "NOTES.md": "eeb8417cfb231322b979db3e63beb618e66d45c3f7c1ea83ceaa8b098d398199",
+        "seat-checks.json": "67090082bb5b8f0685199a92fc42c9c9ffca7b714b2c43ed02b73a71d0de35ad"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": false,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P09-48",
+      "name": "48 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P09-48-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p09-48__v-src0e00429f35__pegstr-array-p09-48-round-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "9a2a60154f6810be2a09a698bb8767f024685179c5934b22daf7efc08d200aaa",
+        "installed.step": "c087b52d2ff55b1b593cbd80ebd6fc175cdc7445b2681226a91d31c1dcac6b86",
+        "installed.FCStd": "abec0485da84ec65dab756ed5b0263be710818c9dda8be2631cbc92e2983f6e4",
+        "print.stl": "3491ad7eab4ec5dcf7ea4df6cf51707ca7664a1c6ec0ae6f319ea29476d2b378",
+        "print.step": "8b17e01f857ca85d0277ccc180c396e2488c128a06b4feba648d631cead47e6d",
+        "print.FCStd": "93aa21267f8484ff1ceb2d31d7124abb15d94f177131e27046892e820013dc9d",
+        "report.json": "e5d7929cc7c496c143aa0a34086940854135694f1aaa28cf8d97f90232978cd9",
+        "mesh-checks.json": "4182d02ff831c98b17331bb16650e32500aee11c8d569ffd3dd4cdee8b01bc2c",
+        "native-checks.json": "dfdd436f1d764921690f036bb3250fb6d11a967e3b5512fba0827e52fb05464d",
+        "NOTES.md": "e3d5801f767a4c529d07d1109a2a3b8013f8e2b4316b7eadee0a6652174b1cfe",
+        "seat-checks.json": "457cbbbca8e4f7a760cbe4eebb12c389d6a40b6243d1b78349864a486ee03ade"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "P09-72",
+      "name": "72 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "pose": "inverted-flat-top",
+      "report": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/P09-72-flat-top.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p09-72__v-src888ff9ece6__pegstr-array-p09-72-round-seats__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/NOTES.md",
+        "seat-checks.json": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/seat-checks.json"
+      },
+      "hashes": {
+        "installed.stl": "8ffe6ada1303fc969dd203b81cd25f412876a3fd32c25f9b745e147f49a7f3d7",
+        "installed.step": "20e85209dc2f4b91fd7243dfba1f00a2b13f605e75d2c70c0295dbed3e7fa31d",
+        "installed.FCStd": "18fada09606630f7729115ef146f790a5f07388ad2122151f618bc7a0c9a6195",
+        "print.stl": "f6d41dd6023273fdf6a3ac6989635a5c75f20609876632ae9f3be29539b22f6b",
+        "print.step": "5a99c5666b559f39466c42ff0e60aabd158bbb6140aed655811297b25110ac2f",
+        "print.FCStd": "af081bcdcfe63d573d33f328902848cefd0ae17f7610b6f58369b417a77cb940",
+        "report.json": "f9f2bda7071ebc4894b7f773c37c0c250b73cb7106cb5964a8f0d97450d5ca80",
+        "mesh-checks.json": "663e6df5726e05671058513f86b389d5121db95b4e52e5efcf84d11480cf0ece",
+        "native-checks.json": "9d71b558ec222d1bf4e0193754763acd83589e046043cc5c50e5f1c4f56768c8",
+        "NOTES.md": "4a456c9d823b3e84f3f192da0733d03261d404b54750ab8f15b224026a51b97e",
+        "seat-checks.json": "3b9d417703518903f962225bd581252fb46e154efedfcec4715811c87c104b4c"
+      },
+      "generation_sources": [
+        {
+          "source_file": "flat_top.py",
+          "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+          "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/flat_top.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/flat_top.py"
+        }
+      ]
+    },
+    {
+      "id": "barrels",
+      "name": "Three barrels",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "upright",
+      "report": "bench/reviews/gallery-current-mounts-v1/barrels/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/barrels.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-barrels__v6__solder-station-3-barrel-rack__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/barrels/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/barrels/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/barrels/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/barrels/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/barrels/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/barrels/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/barrels/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/barrels/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/barrels/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/barrels/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "2b27926e784c1bf993322654c663f1c1bb9883c0aec5ab36dff050670359c4da",
+        "installed.step": "57f0bc94d85838c3b89e68002ca51273fdd179f1794295cbd3aa38132acc7f54",
+        "installed.FCStd": "32a40fca1cde2ccc4efcf1f9a3b2a8cb548e52825a2a3a1cca3dd6f3c13ed43f",
+        "print.stl": "d9703b23613f56873b1a34b45cb90ed54f452e8486cd31bd372ab559d1cbef23",
+        "print.step": "39bdd7540a2ca26a27656f441f5e05f72eeb5135e6ffd68adb8f0ce5bc477066",
+        "print.FCStd": "d7b2b63c3491f19520bec07cd6efbf5c6b896604a7964692aff148b654fc3767",
+        "report.json": "b42b675f5ab7ab28fffc90bfe4585d8494fc0f900be39abb31991fb8e15ac540",
+        "mesh-checks.json": "46c2834978d320f6d5a13b0c90f91391d0c85a0a092391cc0ed85e1dc70c8bbe",
+        "native-checks.json": "fa6de7cd80a9a34404794b714a4da3bc98b0de2251c273ff843434cd18c53792",
+        "NOTES.md": "d10baef9cbc56fd873a8ca2b94d4ef111c88f10231b3cadb26ae5e83e07fb4db"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "reel-thick",
+      "name": "Large solder reel",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/reel-thick/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/reel-thick.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-reel-thick__v6__solder-station-large-solder-spool-seat__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/reel-thick/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/reel-thick/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/reel-thick/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/reel-thick/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/reel-thick/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/reel-thick/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/reel-thick/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/reel-thick/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/reel-thick/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/reel-thick/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+        "installed.step": "e327a26bcde5e0eb4488923796dc461c126f650e8593a20b3f26623d30d4b275",
+        "installed.FCStd": "2446f490e83a49694667ffb57ab54e3711a25b86f2b936e4ab31678e3adae03d",
+        "print.stl": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+        "print.step": "185bc13e18d2e96adf77e606b1228f5c43e770ea5842b48024b11f1d7212a0e5",
+        "print.FCStd": "cca7dfa384b2508a627bcce9b045b8ab533cb991e61e8955605d1a908e1d1d52",
+        "report.json": "ff84caf205b2a8837944e50cf45332415c0632223e8a96c63e43365ed580f73a",
+        "mesh-checks.json": "555aeebdaa1af3690d8044560fcb7309a95e1bf9cc060a4558795cef8ac6516e",
+        "native-checks.json": "705c39d73d391d13654808c6459dae1dd2af4b23b31be4d4f6c73e04a9744d4d",
+        "NOTES.md": "0e7a6a65f4c60eddbac8b8dc5cc4b132c860d5fde48e1d8c457ab3e98f1a829a"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "reel-thin",
+      "name": "Small solder reel",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/reel-thin/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/reel-thin.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-reel-thin__v6__solder-station-small-solder-spool-seat__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/reel-thin/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/reel-thin/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/reel-thin/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/reel-thin/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/reel-thin/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/reel-thin/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/reel-thin/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/reel-thin/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/reel-thin/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/reel-thin/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+        "installed.step": "24d8c905907f71cd05391da6567d33220f50af623f0acbc81cde6569435c4b7d",
+        "installed.FCStd": "ce8ef81142f090444b171863ffa27450a9f53332d41905258399c4ea7d33f22c",
+        "print.stl": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+        "print.step": "a1aef54411a65b11e7428ac0cca0c5cc6adefef36e976847900d7fcee2158fd7",
+        "print.FCStd": "2d54abdf28decf474651dd560e1a9ec5b380c3a5b4e795ce42943ce888ab5574",
+        "report.json": "788643fa4f60ca93b7c0306d5491f3c09ca8470b512d9c16c452a716bae9d5c8",
+        "mesh-checks.json": "555aeebdaa1af3690d8044560fcb7309a95e1bf9cc060a4558795cef8ac6516e",
+        "native-checks.json": "c1c142389b80ee50e4b94188f2b83ebb1af5b81ad72f98520dc4800b92d913fa",
+        "NOTES.md": "431f26d7b77f93401410da443385d825db41ab5007c7405a0bdf50f3a3c0f05d"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "braid",
+      "name": "Braid roll",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/braid/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/braid.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-braid__v6__solder-station-braid-roll-seat__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/braid/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/braid/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/braid/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/braid/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/braid/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/braid/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/braid/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/braid/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/braid/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/braid/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "d0dbf7f4a33b4917b73af0f5d1070f3b30c7bab73a2bf3746e2c24baa591e6fa",
+        "installed.step": "8832bb88be4b67cc77e6f0031868d672efff11f0a3b7b05f695b7d105f550176",
+        "installed.FCStd": "563008dbf00685681066e28d28e395f2041463619d85933f8aacf32d5da6205d",
+        "print.stl": "f0adba17e990380d58ec3e9bada70a13b967313e943f85688f5383cc19c1b6b8",
+        "print.step": "e6247aed0b9415357f493db6c5f6740f7eceb7cd8f9c8a6d28cc6af620a408f2",
+        "print.FCStd": "00337860b67d27013d1fc03a67827aca2d8feb7bbcae38f449b4797a377b4c0f",
+        "report.json": "182a334a49b56cac9d204ed2ea4841601526add85b51be4e50b117ea38b38f9a",
+        "mesh-checks.json": "f35fbcb892fc00f4e8da60a81d0289f2becf019afa78dd3440783de8b4b53ce3",
+        "native-checks.json": "11a99369ef9ef7d1d82a11f91b7ffbeedc6fed78c1855d69f10636c2583b4375",
+        "NOTES.md": "5c0fcbd8ff191fe9568ecd2e66fdd88119a9603fecc6373131d22a562061a0fa"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "drip-tray",
+      "name": "Removable drip tray",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "upright",
+      "report": "bench/reviews/gallery-current-mounts-v1/drip-tray/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/drip-tray.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/drip-tray/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/drip-tray/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/drip-tray/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/drip-tray/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/drip-tray/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/drip-tray/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/drip-tray/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/drip-tray/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/drip-tray/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/drip-tray/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "bbf6496f3346704dcc832531b4ff9d85ca78e933ac8886951238ae2ae16bbb19",
+        "installed.step": "f7983ac0e8c5ac3c15cbfe56e72b50fea676afed50b5b12cca3d8dc4152e8627",
+        "installed.FCStd": "9689f357594a44d11bac3890f789bf20278babde813d442e96580631ae07bdcc",
+        "print.stl": "d8fc5215b82187668c21eb0911be958f8d277b7457282a3a13191da5b2239e96",
+        "print.step": "6fa18d23cd92e2819b02c2d2aa0cd44be558251f2df34e16d2c202d899324011",
+        "print.FCStd": "7aaf856eb673ef9f5c5c4e96c5fdffb353c689c19ed024ccb371438cbcec8eb3",
+        "report.json": "7a152916d0a0e2383d41ee2c38d54cfbdcf5fdf19b27814c54f46075b01a8fce",
+        "mesh-checks.json": "4209eb4ca2deeb95b6b84cc484f9115f7d1e608d5a9b7106d75e2edf36d22513",
+        "native-checks.json": "3b1b408ed51067cdb83ac11c6d02641c837eea790bfa91c86a82e494c08d3aa1",
+        "NOTES.md": "ab8124abff4779604715dc6af6cbb758209a3ec0003afa5d1912694b0bb28c58"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "snips-pliers",
+      "name": "Snips + small pliers",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/snips-pliers/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/snips-pliers.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-snips-pliers__v6__solder-station-2-tool-snips-and-pliers-seat__installed__fit-9c7be3cc78.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/snips-pliers/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/snips-pliers/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/snips-pliers/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/snips-pliers/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/snips-pliers/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/snips-pliers/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/snips-pliers/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/snips-pliers/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/snips-pliers/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/snips-pliers/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "369582363dc73729bbf8212a979d58655938aae8cf0ddb7a6a30e88eebf54a04",
+        "installed.step": "c1dc9d96cef057e8ee27971bed7f69c168586319322bc180e276ed0363532dec",
+        "installed.FCStd": "1f5c381fb630a93d3b958e7c607845688e58ca104e948585a9575bf1e4275e74",
+        "print.stl": "09d22b954a4560004e761499c1c4beee746a74f4d791706a496b7ae75972e59b",
+        "print.step": "e7134ce3a7b5f4a0c42c1239b7bd997aaebe007be1ac2363070a201578656fd7",
+        "print.FCStd": "e5408d249bc27d9f67c0203cc344829b0ed544991749375c50e279ad4d241c04",
+        "report.json": "83968e542242a9b712110fa0012041abfb4496af4f417a1878722fc1c4fa79e6",
+        "mesh-checks.json": "d64cd82d2f25c24bb54e45ff0a1d020fe5a9225d12eb221e0a87165e513eb015",
+        "native-checks.json": "4f1a2c112a4632f15471e80368b8803f46177074bc34fefd46cadd70fe0127dc",
+        "NOTES.md": "99fa613aedd2914b224301d2ba3156bee0c78d287e7067f5bb0d772220582888"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "tweezers-v8",
+      "name": "Tweezer holder v8",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/tweezers-v8.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__installed.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088",
+        "installed.step": "c7abedd4d6a0a356af684d4978b1341ed93b88c5dc43cab2f9ad2ef5de1a06b8",
+        "installed.FCStd": "d74847a7ab2b302e38ea026a1262062e3eae1142914f24a7deff7cf674614544",
+        "print.stl": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa",
+        "print.step": "742eac8cab83a7062f9ec483b8884ffda8856b70b91e0abfe46a1ad26c566cf0",
+        "print.FCStd": "abaa737d93a60ef09a23ee6c2a8d2857335596cabe7c544a8edd6bc4d39ebee2",
+        "report.json": "938667e5b6770a4e5023330bddecf89cddd49918d2fd3afc17a8cc0e6cc6a4bb",
+        "mesh-checks.json": "3d7a5ab4e3cd24f14c69da63407b674e3c0fd8837e0c75b04e5aae81b1275df0",
+        "native-checks.json": "f8d3ad629deffc98df6a6ca8e2ffad5f7220aa997bb7ea215e5c4c52bac65f72",
+        "NOTES.md": "a6ed6ea07ad6be54b3a8eda1d817ec6c65ad5db28181b5a46a8c7f5196b95037"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "tweezers-v10",
+      "name": "Tweezer holder v10",
+      "family": "solder",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/tweezers-v10.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__installed.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "a75dfc81f2022c9dd62e335aae974107e2c998eee5fd6d53e5b32f8bb4959a97",
+        "installed.step": "8d46a7c18d8861171ea02b99c8f9ce2a6eeaf08f67eac4cf0faeb5bcb11f38b9",
+        "installed.FCStd": "1bfc57fba501838ecc28ef4b8e99ebca8bd5e3312402b4feb8afeed381de1980",
+        "print.stl": "7ee97ec3fc8cc91c593a8fb139d528ba6a2f589a3d506af6f537669c7f94bacd",
+        "print.step": "47e7664560927a2babcbf9a1cf1c7dd8216902f0b8a51a705343f4d1708e1ada",
+        "print.FCStd": "a23196f89091d9fab4a14faa47d5fc8c8bcc21ff7d2c4c376f9d52010a94b172",
+        "report.json": "24a3bd523085b12b41c6ecb8f58e3ed6a0410ed2f7f83f2b3bd43845aeefc3cc",
+        "mesh-checks.json": "cc5ccf2f471a879074869fccc4b9c75a2c9a6df979dda56cc3276ae7bb7275f5",
+        "native-checks.json": "f792519c71f64bb996e8b451be3532d4ccba49961870eaaeaa337c2e0cedffb5",
+        "NOTES.md": "3457335a3aeccd07b85e909cdc3a09a23cb0b4301b5b7b4efbebd7f811e3e2e9"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "MH01",
+      "name": "MH01",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "pose": "flat-top",
+      "report": "bench/reviews/gallery-current-mounts-v1/MH01/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/MH01.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/MH01/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/MH01/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/MH01/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/MH01/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/MH01/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/MH01/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/MH01/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/MH01/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/MH01/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/MH01/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "3167eb2e60892fe026dfce73fdd491951a1483cd207f22780ede6b9c2a908ff5",
+        "installed.step": "1e602e130cb61676c2548dc91ee6c49d9352b8bc6531df8fe5a622a7910179f6",
+        "installed.FCStd": "687c7065de736fd16753f3aae717a0b6bd9df21bf7b1895bcfea8c05c428d5f5",
+        "print.stl": "dcf73914065e3396bf01f6bdf647c0e5b814f5b175e1d6012cf8699445a7c802",
+        "print.step": "24159c6d9c768d046503008ea2f1cce68691ce3c578215a3019fb70dcb8d2f52",
+        "print.FCStd": "7af31ba50f3c019aad4889495ce596cbf64724f32bac3e0753fc83ede676b83c",
+        "report.json": "36d26fe04e9bf4a326e4ed1bdc097d7b53a6c3f77b53b6db3b4f44eef30927f7",
+        "mesh-checks.json": "71e5f64dba680b9b19044447174f539f02bb1a2f327166f9a1a6982f531b68a1",
+        "native-checks.json": "3581b33ae5636741b479fcfa4f4e687be25cf43de95e8573d3c3a3ce41b2c8a9",
+        "NOTES.md": "1e274c7a2473e6a628589be6ba95d7b2919d1d883c984b0deef6350b4d8b4a36"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "MH02",
+      "name": "MH02",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "pose": "flat-top",
+      "report": "bench/reviews/gallery-current-mounts-v1/MH02/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/MH02.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/MH02/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/MH02/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/MH02/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/MH02/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/MH02/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/MH02/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/MH02/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/MH02/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/MH02/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/MH02/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900",
+        "installed.step": "8acd28db1a6f8495ac111c474fd99ee4f980adfe5b66942760459f9eee998bc4",
+        "installed.FCStd": "d6d8824d30373837ff90e882d76624e9f7edcb7dadd5b86729b4c2149aca4b1d",
+        "print.stl": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687",
+        "print.step": "78016ad989290b3c05f1841ef081505c2dfba232d5a0ce9ad1c1a647ba91de97",
+        "print.FCStd": "99f7d2a2de6d9d9dbd668ebd40a627bcbb6d09d69f4f0a70819b5d969f0dcdb8",
+        "report.json": "b9af535d56c64f35d32004f6c930e2393897fa292a0fee853016674fcb3988ac",
+        "mesh-checks.json": "03a566bb3dcbaef39a6c50d4b612ab56f4577fea68443516d6515c80cd55c452",
+        "native-checks.json": "ca3b9a5316d4309e25b9875c2bd7af3ae82a6cd2fd6d0ee1862e1ea53a86535a",
+        "NOTES.md": "1373ba00c1afbd424331424e1532f4399b335fcb6009249a905a614c934a67da"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "MH03",
+      "name": "MH03",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "pose": "flat-top",
+      "report": "bench/reviews/gallery-current-mounts-v1/MH03/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/MH03.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-mh03-magnetic-shaft-holder-8mm-round__v1__4-seats-8-cells__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/MH03/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/MH03/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/MH03/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/MH03/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/MH03/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/MH03/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/MH03/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/MH03/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/MH03/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/MH03/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "6fd496c3d0214ae91e51c5c34423314b93cad594d679a34cc531c9f2a73731de",
+        "installed.step": "19a1323c943707bfe2cf3c50248077a912922c796fbfd9503c6ed0a735d6bd1f",
+        "installed.FCStd": "3a49466576416e3a6cacc9c25181ff43176a449fc9b882fa37a3a2c281416039",
+        "print.stl": "51cecc932119b5ac84e3c40610c4e5e56e199f326e8a4963fad637240f8b1a8f",
+        "print.step": "72d1d20617956ed5e6f6f44b8531b50fb544b2fc980ab08e701925af29c1fbcf",
+        "print.FCStd": "d9016926b88c951371f8d7be300049ae295fdfea7541a46d31ae62e0a86e8ca0",
+        "report.json": "ba6be1878e506677a43dab50ce4e5bed1dab7a5878f271197ace9f89998a0b44",
+        "mesh-checks.json": "d10fc626de248386a282c0a7f80a5ce1f1910af68b46053f68e7e8eec91e6e62",
+        "native-checks.json": "2ccd38cc3533ef2f7216d9a3a72f36f285ac14bcf0637c65934df27f433c4c25",
+        "NOTES.md": "6a90dfc2da699e1f0dee9be143014c583e94ef09946b60801f6a6a819495b98c"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "MH04",
+      "name": "MH04",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "pose": "flat-top",
+      "report": "bench/reviews/gallery-current-mounts-v1/MH04/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/MH04.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-mh04-magnetic-shaft-holder-quarter-inch-hex__v1__4-seats-8-cells__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/MH04/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/MH04/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/MH04/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/MH04/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/MH04/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/MH04/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/MH04/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/MH04/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/MH04/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/MH04/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "aed7bdcc7499332d7c7125245047f0a53fdd7d86f3e5b3c85b60516cf7ea0412",
+        "installed.step": "4c900a2312ac06c0e693d89ad87db7ac1492c7a3419eac6a1531908b5852d48a",
+        "installed.FCStd": "3932775dadfc38f3ab0adaec3921f8cb564c92b5bf5d3c88832dbd88f8e548ed",
+        "print.stl": "16d93cc6cbf83be515d6c808647cece07ec8cb9b9815817b9b2c568ed1f9389e",
+        "print.step": "3c9331923257703a176be199775f61e8cd73284d12e7c558fd484d9dfe77ff8c",
+        "print.FCStd": "c1654880ba8b6380c4313174e1967d2dd7f3b5394906477ed2277d8577a88979",
+        "report.json": "2a6e1db9f995afaa52cb600eb0027fa1997b374bb3cf85218971eeac5467e5e4",
+        "mesh-checks.json": "4ce27dc52e3e3456fc5798953b5097942c28ccf5be1e57f711d4218a39472abf",
+        "native-checks.json": "d16207ab41f151ee04e5c81fd66453181f6158d8de3002300f4882b41e2defc6",
+        "NOTES.md": "1fb6260f3cb9214f6ec080dc83a24b5c2ee759ea2b9bd5a780e2172726920a9e"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "MS01-A-H",
+      "name": "MS01-A-H",
+      "family": "shaft-sampler",
+      "version": "current-mounts-v1",
+      "pose": "flat-top",
+      "report": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/MS01-A-H.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "84ac83ff48e4466b40a05a891e0083bd36316dba817de54215571039c99f3305",
+        "installed.step": "d3fcf97e3a435d2353262ac516334065bf3c5e4cc7de2a19672fe4d31c2d54a3",
+        "installed.FCStd": "ec5889db3d83a19751bb3cbdcc160e58749516176348926437bcd8e5d318bd5d",
+        "print.stl": "0e0c201211eb25d18837ba4feed41bae26ced787ec721b6a4f937a4cf6b83bab",
+        "print.step": "a4ca49f64edf8df03f817a387b84b90d95be5283964f595885374b9a667d7c9f",
+        "print.FCStd": "3e6b934ae289eaace414e3349683a8eef886f9a8196e20df83a1dfd85242264f",
+        "report.json": "c7b4f08c27a3ded2dcb1f323867d591616a2a0091b2d7f09824d1ee3cc6485e4",
+        "mesh-checks.json": "beab86be9239c5abaaf9f8391e487ca34aeb8c13f4cf3eae78804b0c2328e0ee",
+        "native-checks.json": "ef7a1127e63c42111ea38516cef055c595717e0e0551e4f148954c1b4e6e0397",
+        "NOTES.md": "ad60faca15c514c6cffdb7876f90d5c94825b60c1cc6d13cf5ac17c9e76c7a41"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "MS01-I-P",
+      "name": "MS01-I-P",
+      "family": "shaft-sampler",
+      "version": "current-mounts-v1",
+      "pose": "flat-top",
+      "report": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/MS01-I-P.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+        "installed.step": "289db037456ba96cb33a17a9bff2b442477bb55685d0828511625f274c152202",
+        "installed.FCStd": "830d9aff953ae4b81b9e657666302500ad6194e95dceadc46115939a8ace0740",
+        "print.stl": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960",
+        "print.step": "3b2ff9dd56e872739bc6c82ac889420edb678e0bb9debef546dd2ca5bcfc2dfc",
+        "print.FCStd": "56ccd937c4e2ab6dfc16ada7db76f5d6ab4651300c60349f2ff50905549f5ccf",
+        "report.json": "615387d7dc8efa9c21b100831d6a3831a3d8059641df4bfe588ee6f886deb331",
+        "mesh-checks.json": "6ceee9cf5d92ce81787089269b1a7a8088fdac01b8e5c8d8744f308590402207",
+        "native-checks.json": "171716b4d29bd17fcb0638b1b228ce26b0e0f770cbe1cbb0de370746f43e79ac",
+        "NOTES.md": "5860cb85e50d214c39ac23b60d3bfa4ccafa53c3b8569ba67cab6ff60cae25ef"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "SWD01",
+      "name": "SWD01",
+      "family": "workshop",
+      "version": "current-mounts-v1",
+      "pose": "right-cheek",
+      "report": "bench/reviews/gallery-current-mounts-v1/SWD01/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/SWD01.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-swd01-screw-dish-magnetic__v1__cradle__installed__fit-e586ab4ff6.step",
+      "input_kind": ".step",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/SWD01/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/SWD01/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/SWD01/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/SWD01/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/SWD01/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/SWD01/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/SWD01/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/SWD01/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/SWD01/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/SWD01/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171",
+        "installed.step": "1410d4629420dd9ffc2a48515e566aebab8378df5e0dbf8b843724fa0a448469",
+        "installed.FCStd": "9775daeab1385145ef70a6c886dffd0b8f0866aa780580c857909f15d914b64d",
+        "print.stl": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a",
+        "print.step": "aeff77e7eecb1fc09286f550cade37baaa87d638106cd781439e3039da43c20c",
+        "print.FCStd": "f8bcf1bfcbe7628a8f411a5120f313305867271668da13cfe4f101cb5d73465e",
+        "report.json": "f30134bdb6fe7f4a625276e023f2cd16e7534374f3046ea6bcdd659e020bd62f",
+        "mesh-checks.json": "6b3ba9d049252a77ae490008d3c16d851318f3d0392a6ce895301d355c75a34f",
+        "native-checks.json": "9e3511296ab70382e4d778005cb38aa985e7de91df75481bf7d7d38877221b9e",
+        "NOTES.md": "ba27629fb31965b66e6af6bf67427cd7ce92c72a7f6cd025c5597e8164803631"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "PB01",
+      "name": "PB01",
+      "family": "bins",
+      "version": "current-mounts-v1",
+      "pose": "upright",
+      "report": "bench/reviews/gallery-current-mounts-v1/PB01/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/PB01.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pb01__v1__pegstr-bin-4-cells-1-pockets-99.6x40x40mm__fit-e586ab4ff6__print-flat-base.stl",
+      "input_kind": ".stl",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/PB01/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/PB01/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/PB01/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/PB01/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/PB01/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/PB01/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/PB01/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/PB01/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/PB01/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/PB01/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1",
+        "installed.step": "cdd34f49e7bcc7e2bc53b38543c0f12e5702100ff7f44ebaab37a67dcb14a42d",
+        "installed.FCStd": "c0c488fa3c124ccfc6801f892d8f4d58c0f9bb417ea72c53f1ed81ceab4997f8",
+        "print.stl": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406",
+        "print.step": "d3b2fe203ece20d2696ef9fd846277a64bf7bbd465e8fac08e99638833156605",
+        "print.FCStd": "57730a95ce68eec61f2f7193f82448ed0f18b4605e170db421025a4e4398f871",
+        "report.json": "593f3fdc43d8ad0f01867c20cc51399e2d23885eaa634b0d82d97c497009fd6f",
+        "mesh-checks.json": "c8a0e3c947dc4cb7560dd1eaa4688454b5a4e7b1132de6efaeddf891bbc89bd8",
+        "native-checks.json": "9f9798c7963cd482b1074aed800b00c4c85e63e82828cdb3d9d14eaa72e77e9c",
+        "NOTES.md": "695037bff4fb11e8666780fa2f10574ede3e6820d654913ae5313a6c505475a0"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "PB02",
+      "name": "PB02",
+      "family": "bins",
+      "version": "current-mounts-v1",
+      "pose": "upright",
+      "report": "bench/reviews/gallery-current-mounts-v1/PB02/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/PB02.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pb02__v1__pegstr-bin-6-cells-1-pockets-150.4x60x50mm__fit-e586ab4ff6__print-flat-base.stl",
+      "input_kind": ".stl",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/PB02/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/PB02/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/PB02/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/PB02/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/PB02/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/PB02/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/PB02/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/PB02/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/PB02/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/PB02/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "eb09a866d199e7136a15e186d9a846f3960090c21a4520a78e33fdb5a17c073a",
+        "installed.step": "31fbd1d0bcc884ea0bec41024b7436be83732c93a53744fc7c09c64bb25eaa74",
+        "installed.FCStd": "df8d8453100ec50713c6aa9baafce8461c5f2d0367c9ee354d48bd77c6803c70",
+        "print.stl": "a6f16cf62d89f99f75829521441f67d834c1740d9fcc287999a86998faffa8d1",
+        "print.step": "f1d8b0bc27671b4d4f27e9d48534b01f7d0c2f779db4f07be7840f9a83c76c0a",
+        "print.FCStd": "b3fb386b974a4e2cd97d9df8d883f7b02df706b980a3fe4eb84ccebf3a507b6b",
+        "report.json": "4b6d3caae68baa3aaafc11a775200a307e272af6be78ebd6ea857f950cae2695",
+        "mesh-checks.json": "470ee57b77703423d0ab9d5abda66e2bdad378cca3bfb10e0644e756bf480c16",
+        "native-checks.json": "2d214fc7b0b148db05d6f4cdc7b8aa5a4460620f1e0a4755689678cd0dfe1e40",
+        "NOTES.md": "93e3d7db0d65da82f33c1a8a418b34e5685dbdc88f6959026032671fe7ea5c31"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "PB03",
+      "name": "PB03",
+      "family": "bins",
+      "version": "current-mounts-v1",
+      "pose": "upright",
+      "report": "bench/reviews/gallery-current-mounts-v1/PB03/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/PB03.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pb03__v1__pegstr-bin-8-cells-1-pockets-201.2x80x50mm__fit-e586ab4ff6__print-flat-base.stl",
+      "input_kind": ".stl",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/PB03/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/PB03/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/PB03/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/PB03/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/PB03/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/PB03/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/PB03/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/PB03/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/PB03/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/PB03/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "d654d880058175640be0c3ce08b0c2b70227eee2441845072a5391b3f920bc23",
+        "installed.step": "aef6afc540122c45de201631994834e231eb01feb43c4f0e23d40af25c775547",
+        "installed.FCStd": "c30433d8de0a09c4304613ab34b0bf4eb2870e159f750d801b9086a09ad8951e",
+        "print.stl": "6a9bcf8e9ea0f81d688a7dad2722361bb02d75bb6b4cf5da8a61740f7e157858",
+        "print.step": "529c059d686e5b0a4a2270e39e7a4111c0e81b6869c03bff9f5912c4b3f25f47",
+        "print.FCStd": "cad02ccf91ef2bedac00c048aedd28d38f43a0f39792197cd2ae3ca40c0f9120",
+        "report.json": "85119e3dc000d99ff4cadc952e8a36dcefc09844f19989f678a4838b559df9ba",
+        "mesh-checks.json": "314dc7989e169f98c67a1a5e44ff7b79261c55c35e6cf461cb15122bff59a192",
+        "native-checks.json": "3b2cc0eb9b441bcc0baea6dbe2ac865bb1917404787fa4fac0426147b9bcf113",
+        "NOTES.md": "401df6a1baeef6b52c3db26ce56bbf13646f33316bd7473044efb2ce23f58039"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    },
+    {
+      "id": "PB04",
+      "name": "PB04",
+      "family": "bins",
+      "version": "current-mounts-v1",
+      "pose": "upright",
+      "report": "bench/reviews/gallery-current-mounts-v1/PB04/report.json",
+      "source_spec": "bench/source/gallery_current_mounts_v1/PB04.json",
+      "input": "bench/reviews/gallery-current-mounts-v1/inputs/part-pb04__v1__pegstr-bin-6-cells-3-pockets-150.4x40x45mm__fit-e586ab4ff6__print-flat-base.stl",
+      "input_kind": ".stl",
+      "assets": {
+        "installed.stl": "bench/reviews/gallery-current-mounts-v1/PB04/installed.stl",
+        "installed.step": "bench/reviews/gallery-current-mounts-v1/PB04/installed.step",
+        "installed.FCStd": "bench/reviews/gallery-current-mounts-v1/PB04/installed.FCStd",
+        "print.stl": "bench/reviews/gallery-current-mounts-v1/PB04/print.stl",
+        "print.step": "bench/reviews/gallery-current-mounts-v1/PB04/print.step",
+        "print.FCStd": "bench/reviews/gallery-current-mounts-v1/PB04/print.FCStd",
+        "report.json": "bench/reviews/gallery-current-mounts-v1/PB04/report.json",
+        "mesh-checks.json": "bench/reviews/gallery-current-mounts-v1/PB04/mesh-checks.json",
+        "native-checks.json": "bench/reviews/gallery-current-mounts-v1/PB04/native-checks.json",
+        "NOTES.md": "bench/reviews/gallery-current-mounts-v1/PB04/NOTES.md"
+      },
+      "hashes": {
+        "installed.stl": "ab8c3841d3d3afefbe502750afd4a09babbc41a8d461ae6f3dcafa329932a6bc",
+        "installed.step": "7a45923483f4705a19d6f16ec5418376c7036ed3e245ab0f46ea55b94bc6ed77",
+        "installed.FCStd": "48beb871b434e6af73688bf4a008b85be3f9b753cb621d73d30b756b48372e9c",
+        "print.stl": "45e8a9ddeb970239955417f385cdf2153e46fe2ed74f1cbca9f5b0dbb698fe9b",
+        "print.step": "935e84c34b056ea4532e5ec4beae0cbc56ee67e111348d9d7e4b0309290515df",
+        "print.FCStd": "8525468d636207ea91cd3349d5c1295a73a76cbf7c396b1e2a2c1be5db2ce5c6",
+        "report.json": "24cb678411184bb70446e32496c8aa83b96cf2b6ddbf6cc92a6a312a8d24bd4b",
+        "mesh-checks.json": "8ebd33dc98ba45459e2ddbcb311660b64489381fb6c25bf968ea866858b7cf90",
+        "native-checks.json": "151b1c98d91fed3c3672b0ac97bf8ac22eefd9c00bb59a09979e51990168ea6d",
+        "NOTES.md": "0759623bc7a5cda2ac59c82d69f0a97c013a0c9a7f4702e05c768dcd6b21dca7"
+      },
+      "generation_sources": [
+        {
+          "source_file": "remount.py",
+          "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+          "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+          "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+          "ast_equal": true,
+          "post_generation_whitespace_only": true,
+          "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+          "role": "geometry generation",
+          "bundle_path": "generation-sources/remount.py"
+        }
+      ]
+    }
+  ],
+  "presentation": "GLB/PNG and browser reviews owned by root; not modified or hashed by this modeling selection."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "SWD01",
+  "family": "workshop",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-swd01-screw-dish-magnetic__v1__cradle__installed__fit-e586ab4ff6.step",
+  "input_sha256": "7157ac2019a75d049f59ae068543d459f5744a56a7c09024b2e2ad9f1cf1e297",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/swd01-workshop-v1-20260916/part-swd01-screw-dish-magnetic__v1__public-review-bundle__fit-e586ab4ff6.zip",
+  "columns": [
+    -25.4,
+    25.4
+  ],
+  "pose": "right-cheek",
+  "hoop_row": 1
+}

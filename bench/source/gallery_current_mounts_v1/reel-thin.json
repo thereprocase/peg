@@ -1,0 +1,13 @@
+{
+  "id": "reel-thin",
+  "family": "solder",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-reel-thin__v6__solder-station-small-solder-spool-seat__installed__fit-9c7be3cc78.step",
+  "input_sha256": "d5622b41630eb678a2186d14390bab0b61484d0a3773412e8e33e4cdeb23b018",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-solder-modules-reel-thin__v6__solder-station-small-solder-spool-seat__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -25.4,
+    25.4
+  ],
+  "pose": "right-cheek",
+  "name": "Small solder reel"
+}

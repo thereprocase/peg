@@ -1,0 +1,33 @@
+{
+  "id": "P01",
+  "family": "pegstr",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/P01-body-y0151.stl",
+  "input_sha256": "7abd55c14d7271d81db0c628285e32c258bbe1bb35dd4c6664d5e1922b338890",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-pegstr-p01__v2__pegstr-p01-16-small-square-seats__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "inverted-flat-top",
+  "hoop_row": 1,
+  "name": "16 small square seats",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  },
+  "original_step": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p01__v2__pegstr-p01-16-small-square-seats__installed__fit-9c7be3cc78.step",
+  "original_step_sha256": "bd8f00b5381318cf636f114608161e1738dc03f46afcee91482480184a79bffd",
+  "original_mesh": "/home/repro/code/peg-gallery-current-mounts/docs/gallery/pegstr/P01/model.stl",
+  "original_mesh_sha256": "121176c251fbc0948a81e68cabe8d5d4c20805b1994f7c0b0fc86e9177592291",
+  "preparation": "Historical faceted STEP Boolean returns empty at Y=.15 and invalid solid at .151. Exact published installed STL clipped by manifold at .151; one micron of full back wall restored by the receiver. No seat remeshing or smoothing.",
+  "preparation_source_sha256": "aca63d4d8a637c4f38aa6491cd82d95c5e8b84facc7ae7bb553726254fde4539",
+  "level_at_original_z_mm": 5.0,
+  "flat_top_installed_z_mm": 5.6,
+  "body_translation_mm": [
+    0,
+    0,
+    0.6
+  ],
+  "plate_bottom": -32.0
+}

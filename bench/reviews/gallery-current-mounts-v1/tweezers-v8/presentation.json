@@ -1,0 +1,104 @@
+{
+  "id": "tweezers-v8",
+  "input_stl_sha256": {
+    "installed": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088",
+    "print": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa"
+  },
+  "display_transform": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assets": {
+    "installed_glb": "installed.glb",
+    "print_glb": "print.glb",
+    "installed_png": "installed.png",
+    "print_png": "print.png",
+    "preview_png": "installed.png",
+    "rear_png": "rear.png"
+  },
+  "render_input_stl_sha256": {
+    "installed": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088",
+    "print": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa"
+  },
+  "public_notes": {
+    "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+    "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+    "supports": "The forward body begins 7.40 mm above the bed, so body supports or validated bridging are required as well as peg supports. Review the actual toolpaths.",
+    "mount": "2 mounting columns; lower hoop row 6, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+    "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+  },
+  "public_name": "Four tweezers \u00b7 long cradle v8",
+  "credit": "",
+  "root_mesh_metrics": {
+    "id": "tweezers-v8",
+    "meshes": {
+      "installed": {
+        "sha256": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            -24.399999618530273,
+            -10.789999961853027,
+            -175.0
+          ],
+          [
+            24.399999618530273,
+            107.0,
+            52.0
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            1.0002781891671475e-07,
+            0.0,
+            0.0
+          ],
+          [
+            227.0,
+            117.79000091552734,
+            48.79999923706055
+          ]
+        ]
+      }
+    },
+    "pose_nearest_vertex_max_error_mm": 1.521749346124718e-05,
+    "pose_surface_max_error_mm": 1.521749346124718e-05,
+    "broad_front_body_bed_area_mm2": 0.0,
+    "bed_contact_area_mm2": 972.6480972976678,
+    "body_min_z_above_bed_mm": 7.403173446655273,
+    "front_body_downfacing_over45_area_mm2": 13694.844391203369,
+    "passed": true
+  }
+}

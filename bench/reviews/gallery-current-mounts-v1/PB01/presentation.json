@@ -1,0 +1,104 @@
+{
+  "id": "PB01",
+  "input_stl_sha256": {
+    "installed": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1",
+    "print": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406"
+  },
+  "display_transform": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assets": {
+    "installed_glb": "installed.glb",
+    "print_glb": "print.glb",
+    "installed_png": "installed.png",
+    "print_png": "print.png",
+    "preview_png": "installed.png",
+    "rear_png": "rear.png"
+  },
+  "render_input_stl_sha256": {
+    "installed": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1",
+    "print": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406"
+  },
+  "public_notes": {
+    "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+    "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+    "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+    "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+    "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+  },
+  "public_name": "Compact utility bin",
+  "credit": "",
+  "root_mesh_metrics": {
+    "id": "PB01",
+    "meshes": {
+      "installed": {
+        "sha256": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            -49.79999923706055,
+            -10.789999961853027,
+            -34.880001068115234
+          ],
+          [
+            49.79999923706055,
+            40.150001525878906,
+            5.445000171661377
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            99.5999984741211,
+            50.94000244140625,
+            40.32500076293945
+          ]
+        ]
+      }
+    },
+    "pose_nearest_vertex_max_error_mm": 4.3175228311069295e-06,
+    "pose_surface_max_error_mm": 4.3175228311069295e-06,
+    "broad_front_body_bed_area_mm2": 3444.561350038777,
+    "bed_contact_area_mm2": 3982.4013987906073,
+    "body_min_z_above_bed_mm": 0.0,
+    "front_body_downfacing_over45_area_mm2": 0.0,
+    "passed": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "PB03",
+  "family": "bins",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-pb03__v1__pegstr-bin-8-cells-1-pockets-201.2x80x50mm__fit-e586ab4ff6__print-flat-base.stl",
+  "input_sha256": "51857ea0672f201557c1d1e2ee801797b608a4259bc69e8b2b931cbfaf03080c",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-pb03__v1__pegstr-bin-8-cells-1-pockets-201.2x80x50mm__fit-e586ab4ff6__stl-and-generator.zip",
+  "columns": [
+    -88.89999999999999,
+    12.7,
+    88.89999999999999
+  ],
+  "pose": "upright",
+  "body_translation_mm": [
+    0,
+    0,
+    -74.88
+  ],
+  "source_archive_sha256": "e4335a4934efa5de9adb401ee3d2be196210208a4e507d5447659d46049f5909",
+  "source_member": "part-pb03__v1__pegstr-bin-8-cells-1-pockets-201.2x80x50mm__fit-e586ab4ff6__print-flat-base.stl"
+}

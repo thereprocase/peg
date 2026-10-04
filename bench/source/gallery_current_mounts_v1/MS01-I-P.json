@@ -1,0 +1,18 @@
+{
+  "id": "MS01-I-P",
+  "family": "shaft-sampler",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__installed__fit-e586ab4ff6.step",
+  "input_sha256": "0cd0467b7e82541e358aeacb878eeae1c366bd31f36c040b5a028d99fbbbf9d9",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/ms01-v3-recoverable/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__I-P__installed__fit-e586ab4ff6.step",
+  "columns": [
+    -63.5,
+    63.5
+  ],
+  "pose": "flat-top",
+  "hoop_row": 1,
+  "body_translation_mm": [
+    0,
+    3,
+    2
+  ]
+}

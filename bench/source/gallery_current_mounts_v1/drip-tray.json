@@ -1,0 +1,13 @@
+{
+  "id": "drip-tray",
+  "family": "solder",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__installed__fit-9c7be3cc78.step",
+  "input_sha256": "50f30f206f03ffc68295eb267a78bc1f55efb7a633277a8a6987f25347e0832d",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-solder-modules-drip-tray__v6__solder-station-drip-tray-with-vase-liner__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -50.8,
+    50.8
+  ],
+  "pose": "upright",
+  "name": "Removable drip tray"
+}

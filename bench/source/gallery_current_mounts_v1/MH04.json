@@ -1,0 +1,18 @@
+{
+  "id": "MH04",
+  "family": "shaft-holders",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-mh04-magnetic-shaft-holder-quarter-inch-hex__v1__4-seats-8-cells__installed__fit-e586ab4ff6.step",
+  "input_sha256": "e365da93871592c6f60e2f5185e35c2f99fbfde753c80092cfa20fbc195fc87a",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/mh01-mh04-shaft-holders-v1/part-mh04-magnetic-shaft-holder-quarter-inch-hex__v1__4-seats-8-cells__installed__fit-e586ab4ff6.step",
+  "columns": [
+    -88.89999999999999,
+    88.89999999999999
+  ],
+  "pose": "flat-top",
+  "hoop_row": 1,
+  "body_translation_mm": [
+    0,
+    3,
+    2
+  ]
+}

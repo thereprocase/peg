@@ -1,0 +1,104 @@
+{
+  "id": "SWD01",
+  "input_stl_sha256": {
+    "installed": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171",
+    "print": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a"
+  },
+  "display_transform": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assets": {
+    "installed_glb": "installed.glb",
+    "print_glb": "print.glb",
+    "installed_png": "installed.png",
+    "print_png": "print.png",
+    "preview_png": "installed.png",
+    "rear_png": "rear.png"
+  },
+  "render_input_stl_sha256": {
+    "installed": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171",
+    "print": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a"
+  },
+  "public_notes": {
+    "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+    "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+    "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+    "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+    "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+  },
+  "public_name": "Removable magnetic screw-dish cradle",
+  "credit": "",
+  "root_mesh_metrics": {
+    "id": "SWD01",
+    "meshes": {
+      "installed": {
+        "sha256": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            -37.099998474121094,
+            -10.789999961853027,
+            -34.0
+          ],
+          [
+            37.099998474121094,
+            49.95000076293945,
+            5.445000171661377
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            39.44499969482422,
+            60.7400016784668,
+            74.19999694824219
+          ]
+        ]
+      }
+    },
+    "pose_nearest_vertex_max_error_mm": 4.500140422625659e-06,
+    "pose_surface_max_error_mm": 4.500140422625659e-06,
+    "broad_front_body_bed_area_mm2": 244.20000839233398,
+    "bed_contact_area_mm2": 455.4480291934012,
+    "body_min_z_above_bed_mm": 0.0,
+    "front_body_downfacing_over45_area_mm2": 63.0,
+    "passed": true
+  }
+}

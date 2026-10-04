@@ -1,0 +1,27 @@
+{
+  "id": "P09-16",
+  "family": "arrays",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p09-16__v-src1cc7daf292__pegstr-array-p09-16-round-seats__installed__fit-9c7be3cc78.step",
+  "input_sha256": "4970c26b0411dc5a2a549cc177f9a1df9077861b3497359ad8e83355fe266dc6",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-arrays-p09-16__v-src1cc7daf292__pegstr-array-p09-16-round-seats__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "inverted-flat-top",
+  "hoop_row": 1,
+  "name": "16 round seats",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  },
+  "level_at_original_z_mm": 5.0,
+  "flat_top_installed_z_mm": 5.6,
+  "body_translation_mm": [
+    0,
+    0,
+    0.6
+  ],
+  "plate_bottom": -32.0
+}

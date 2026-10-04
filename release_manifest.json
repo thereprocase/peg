@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 1532,
-  "total_size_bytes": 551219627,
+  "file_count": 2146,
+  "total_size_bytes": 787343381,
   "files": [
     {
       "path": ".gitattributes",
@@ -33,8 +33,8 @@
     },
     {
       "path": "BENCH_HOLDERS.md",
-      "size_bytes": 3391,
-      "sha256": "dc2007406335808d939ca9fd6d35b62ab19a56bc26f972de09f3362c450cd4a0"
+      "size_bytes": 4386,
+      "sha256": "47a4e358c3e865370376828611d8cfd1ed9fc98548ef345b7b6081e9922f55f3"
     },
     {
       "path": "CONFORMAL_STUDY.md",
@@ -140,6 +140,1516 @@
       "path": "bench/reference/peg-print-variants.json",
       "size_bytes": 587,
       "sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/BUILD.json",
+      "size_bytes": 111001,
+      "sha256": "8b37a0ffb6a0ccdf2f692fc49cee4f0a7192d5c9a1a6b8b6b9221f228c08c624"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/CHECKS.json",
+      "size_bytes": 29630,
+      "sha256": "e5f10335e06318d3a5f02dfb2c443553188b052ec8ecca47adc0f063f83f5a6f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/NOTES.md",
+      "size_bytes": 5751,
+      "sha256": "0cafc26d1c9bedada688be23f37a13002cc2d71127f277f10c87c764b676e29a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/NOTES.md",
+      "size_bytes": 3433,
+      "sha256": "409bcb7e31d6d6ea95db432707d4e81bfe24a65047754b9b2f73e67047149dcf"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/mesh-checks.json",
+      "size_bytes": 1308,
+      "sha256": "57538fdceb13b56dab5848fdd358b58788fefaa11b23e5fc430424505555fb4e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "ca44913cd08c6218e445015732760fb2f712aea25933b77d0e237a15609bd104"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/presentation.json",
+      "size_bytes": 3524,
+      "sha256": "0e4b03bbfad9fa944b6dd4f8a233cf8d5764bbce6972ff786da6be32bbfa51b4"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/report.json",
+      "size_bytes": 16873,
+      "sha256": "6d9547c5ea4306155e84392ee53ec51536d2824c9eca3264bca7b1753937b856"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-12/seat-checks.json",
+      "size_bytes": 1532,
+      "sha256": "252cfa0d65ad2f37e2ea4c72e5430f389e496e9d412e62c8248cc0c71c0dc1ed"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/NOTES.md",
+      "size_bytes": 3434,
+      "sha256": "1408f46ae51c424f501b3d6a7446f4ae0f7c1b6bf7af53d3dea81cd4d0ca73ca"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/mesh-checks.json",
+      "size_bytes": 1323,
+      "sha256": "974d7da3c3f4c13631c30f0da8170ea4e254c9844894df13501982a0e695bb18"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "33e0f405a0e170f7e9ded1dd8af5f5011f278535481f4d6c18c821679ae6018a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/presentation.json",
+      "size_bytes": 3542,
+      "sha256": "9e8e84414e48f2575fd1120f992c479e4a8b772dfc340e27a4a65c14f97b8da2"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/report.json",
+      "size_bytes": 16911,
+      "sha256": "197256f75c6ee6d1ff376588225f77b1630e56d5c685683a2423dea2e1fa87bb"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-24/seat-checks.json",
+      "size_bytes": 1532,
+      "sha256": "24d76005b231751011356829b454d03ca5cdb2c0eec5950a50f30c66195de5b4"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/NOTES.md",
+      "size_bytes": 3434,
+      "sha256": "52c4cbc5d0e9ec915902a895c960f9e67dfb7dc232ff0257e36914720a387354"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/mesh-checks.json",
+      "size_bytes": 1323,
+      "sha256": "d66c27e61b574edfb911a4989ff4ab6060d15de2561f97a642e7e368b5abaef6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/native-checks.json",
+      "size_bytes": 452,
+      "sha256": "962c15700fe4be4e9a2b215563c8bea1b7c8a0ed473de32c75f543b931ac96a6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/presentation.json",
+      "size_bytes": 3541,
+      "sha256": "afe60c2102f7287dfb32efbfcaebd43b3ffc99751243b73d5de953660e6ca291"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/report.json",
+      "size_bytes": 16898,
+      "sha256": "0a74419ae7c6bcc479aeb464a549d3a4771a69e2724899b3d803edeec1c5f581"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-32/seat-checks.json",
+      "size_bytes": 1532,
+      "sha256": "c7b07c57736167a7e479ebf125647a8a523eb3de75595d58d7f212205fdd7bf2"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/NOTES.md",
+      "size_bytes": 3465,
+      "sha256": "8f21c2bbed4e038b57cf4fa24934e2a296acf6d1fd1e44e29f0c359826f4cb34"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/mesh-checks.json",
+      "size_bytes": 1326,
+      "sha256": "591ca7b6a79768e5c45e804f53523f95be429730312c75543f6082c8276fd438"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/native-checks.json",
+      "size_bytes": 453,
+      "sha256": "d4c1178d3e5cbd464b72b8d37fa12c10a23838195ca51800bd21c23c0daf10bc"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/presentation.json",
+      "size_bytes": 3544,
+      "sha256": "3dec09ee71fd239272fad38498ed35dffd9752e0d8b22bcf8c568fad99ae4e76"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/report.json",
+      "size_bytes": 16967,
+      "sha256": "615b2347e850eef6df69bd455eb4a0c851cd4f7476010e077ae8d67b99b59574"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01-48/seat-checks.json",
+      "size_bytes": 1530,
+      "sha256": "455d6a3228abbb6f38d1adea067c4e76fabbd0bce26fea56bf9075f4114cfcab"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/NOTES.md",
+      "size_bytes": 3659,
+      "sha256": "2a79650e68995eae5d9f89b75bdaa7d52bab34465dfe16e607cd8652fd21881f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/mesh-checks.json",
+      "size_bytes": 1309,
+      "sha256": "a8a0a2119fbd8e3c7188d29788aeb65b6aa73268e4463a67ccadcf1a60a8d7cd"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "87c134af028057ac55a98e7c8996046f3961d172bfe8006a88cbb9836e36ef84"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/presentation.json",
+      "size_bytes": 3517,
+      "sha256": "2b33fa8be55977f6452d9ea5420e0540ee7a48fad8eb387d68e780dff87ff5b6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/report.json",
+      "size_bytes": 17511,
+      "sha256": "2874aeba664b97d667e499758b206e460bcc047f62fb43190bc2f05ccf1c3337"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P01/seat-checks.json",
+      "size_bytes": 1527,
+      "sha256": "9cb95fb0a4d417d596427fb4bb9f1d21ec1622cf24fef350cda30d3d591484f6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/NOTES.md",
+      "size_bytes": 3655,
+      "sha256": "5cc5286853da19f5a45ff35401b758fd33ad34e7325e38f0075483a69367377f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/mesh-checks.json",
+      "size_bytes": 1321,
+      "sha256": "199a507701fc965a2e08dcc2659b765d3eff4215ef02d9210251bab0514a545d"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "7f52ec3182ba48584b020d3c262fb7e8b4656c9c08dc9f0932a778542a928abc"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/presentation.json",
+      "size_bytes": 3543,
+      "sha256": "4bef36107d536cc5ba88751398c281faf8199825d7a5a16ebec21f3fba68fcb2"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/report.json",
+      "size_bytes": 17521,
+      "sha256": "89bac5b5f9ddfc1b462bb04e5345882e3b6a88c2e3550d64904430eb7f180145"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P02/seat-checks.json",
+      "size_bytes": 1522,
+      "sha256": "5310e21dd246f489fa6952da610f90231d24a01f0a5bb7d770a16d3cf63d8dcc"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/NOTES.md",
+      "size_bytes": 3431,
+      "sha256": "eeb3226578a99808913be14f890b97ef3ec3ee413a5403e21598c099f43e680b"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/mesh-checks.json",
+      "size_bytes": 1303,
+      "sha256": "95d3954ae1e2cefd2c0a887a9c5c694ed46c524c3da83e64f280f18568882432"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "3b89fd96df20016e71de4f1b88c60d2b2d9ab231c25cb894824222005966f8d1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/presentation.json",
+      "size_bytes": 3529,
+      "sha256": "ca7394ac9fa6742dde362b80711a895528b51c371c694509e0bc6f5e09714b3b"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/report.json",
+      "size_bytes": 16797,
+      "sha256": "27f7308e9d698e8f08fea3893e37a0d8cd3ece1a1df08f378c31700b20ad3676"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P03/seat-checks.json",
+      "size_bytes": 1521,
+      "sha256": "19265cd82ba140bf7a61534766934f97daea14637322acab9a8d99413ad5f61e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/NOTES.md",
+      "size_bytes": 3431,
+      "sha256": "65773dbd1ae4195263a9e398bd006376a6430682e5c145675cbcf29f5a17283c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/mesh-checks.json",
+      "size_bytes": 1302,
+      "sha256": "5890c55ff3cf3c7799237893769121a55d9f178fb9c5a675d9c357be5256d84f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "e3617f9b36d775a55679e0a600733190c7181da6c4e0b1273741e756384f9da3"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/presentation.json",
+      "size_bytes": 3527,
+      "sha256": "96bf777c9f85afb491ba7c477e4246a5f1edff346dec4b3a1da916ce400bbb9f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/report.json",
+      "size_bytes": 16800,
+      "sha256": "deb1fab4821954715083a5e7238e55e9dd54c6eec7d4bb5fc14920b5d7bbdb01"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P04/seat-checks.json",
+      "size_bytes": 1466,
+      "sha256": "b05024ccdf0da1980d7381bd412f603bcc8da42bc6016daf7b2f3bffdee755c2"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/NOTES.md",
+      "size_bytes": 3419,
+      "sha256": "f99898d95bceb29ea94e2858345b11302fe6c1568f278313b6a2a33108f692b4"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/mesh-checks.json",
+      "size_bytes": 1283,
+      "sha256": "2bbe23872037bf6f1ad9a86a90b539d503ad64a7b4c1ef6fb9d5383cb550f2a1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "afff8cb65d979dee894d794a860e5d1cae0321add7a1abe11051c5ffd33bec59"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/presentation.json",
+      "size_bytes": 3496,
+      "sha256": "0f670f6f775989c607d6296462b99136f0705317742418bf28c6e2f4b490f53a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/report.json",
+      "size_bytes": 16719,
+      "sha256": "e71417c25451780c94b3895a1b3207e9a6392c112b1bbe3ffd87f5a6781bebc3"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P05/seat-checks.json",
+      "size_bytes": 1523,
+      "sha256": "6d9b65f022b12febab628ab8eb9f9c0db46e2b2c1f9324d094994d020f448514"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/NOTES.md",
+      "size_bytes": 4107,
+      "sha256": "5e1de20b5379d03f994c6349859aa8832e82fb1c45815acaea07ecba17e8e761"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/mesh-checks.json",
+      "size_bytes": 1277,
+      "sha256": "5c161b0de83a3d20a45898ee712677604b72640a0efaa2119a7c26dfcbdda19a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "d2d536f37cbaa15ec9a2c4012dfa1cfabcd8cc0021b776ee173c0f9643819893"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/presentation.json",
+      "size_bytes": 3539,
+      "sha256": "48b5590eaa16dab74b62e7d4946fd05b0c6d27b3cf47993725a528c95783d94c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/report.json",
+      "size_bytes": 18996,
+      "sha256": "e96dc290e7199d1c26203a91f37f92b35973fe953a6084a8a23ae0a5b59cf90e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P06/seat-checks.json",
+      "size_bytes": 1521,
+      "sha256": "47cd4fa88788353e1e17fd74f1bef28d5a64dc30013bd1b430dd9ae0a4ff8305"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/NOTES.md",
+      "size_bytes": 3796,
+      "sha256": "47f70b2538f2e117d7ae7c1ac205f062914510da104279c32575e5f825161fe5"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/mesh-checks.json",
+      "size_bytes": 1349,
+      "sha256": "1fbaf8abb00793138e9596216b79cc0620980deb0a90b3f8aabad5341050ec82"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/native-checks.json",
+      "size_bytes": 453,
+      "sha256": "e127714ec09e489a5ac25ef9f4402f896790bd9548316282a7fe68db97a54ddc"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/presentation.json",
+      "size_bytes": 3625,
+      "sha256": "183ef7345e2d5d9b7f199494b0fe0547fbe90004e5acb80509db4188e391d0b1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/report.json",
+      "size_bytes": 16817,
+      "sha256": "28c6c8846438b917c14c4308aeb1dbb6321db169d1652e94f4d70ae16033d6d8"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P07/seat-checks.json",
+      "size_bytes": 1521,
+      "sha256": "45fa221983ee18afcabd4e80afa28167e6108026370645fc38afb16b622509bb"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/NOTES.md",
+      "size_bytes": 3424,
+      "sha256": "9de461c679139d605c3c82277d3a3a320edba52f3e7e24ea224c00bcbe62d471"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/mesh-checks.json",
+      "size_bytes": 1320,
+      "sha256": "42b3b55be867fcfefe7b61e690de8e9cfdef04711636f246daf0030331a126c0"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "987a42ce4d993f1bd4a20ea253c2423252c78580a3b9c700fd583f88bf690ca6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/presentation.json",
+      "size_bytes": 3535,
+      "sha256": "273b9608294a9b3dd5f7f1958e596608974d4dbade31b010f852fcecaf401317"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/report.json",
+      "size_bytes": 16782,
+      "sha256": "561c47cc0c660c96cf7f372b7a5bab38097b91cdc2cb82fb8e5902fcec952b93"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P08/seat-checks.json",
+      "size_bytes": 1520,
+      "sha256": "8201cf03c96da98dc857c195c02e3cf38c26d436a857e9e415bf8a545149ce9a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/NOTES.md",
+      "size_bytes": 3429,
+      "sha256": "b45b9997d2d634f38b4061e5d6271583db24c515f4e7e3cf1bfa3fd079636f90"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/mesh-checks.json",
+      "size_bytes": 1288,
+      "sha256": "18f5680b1ae714aa0e004e5d0d7f1a6928967b4daa9615499547483ee9af30e1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "beb993a76e9214d71538d34ba4e821e8aa5c4a3a21ac3300695e8ccd93ce6acf"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/presentation.json",
+      "size_bytes": 3496,
+      "sha256": "7dee6892db9171423e21d630b59ae9a5095ba6358ca9fe34f9731279fb8a1f37"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/report.json",
+      "size_bytes": 16807,
+      "sha256": "82199095ea4b8d4c3f9fd29abb5f1ce1ea45c54d9dc978b07bbe4881c3a41586"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-16/seat-checks.json",
+      "size_bytes": 1530,
+      "sha256": "0aab7b7949c91126eebb8471514fce5aa011d86de74aa3e131a54a7273e62840"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/NOTES.md",
+      "size_bytes": 3797,
+      "sha256": "eeb8417cfb231322b979db3e63beb618e66d45c3f7c1ea83ceaa8b098d398199"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/independent-checks.json",
+      "size_bytes": 1176,
+      "sha256": "b575938a424cfc6be300c14efe674c7c9e3d139f1fad680a64cbf8c185763f62"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/mesh-checks.json",
+      "size_bytes": 1267,
+      "sha256": "26b95b6af993c1d50c6cc7fc23edf627e1827b580e6c440a6cd29f39ceecc947"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "bb0346be4f5609cde9675b60ab823ee7e5d355950828fc226db95519a13273dd"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/presentation.json",
+      "size_bytes": 3476,
+      "sha256": "47185b9c7ed09ab4f39d142fc718ebf66a3a1177a4413694da2ef6ee8bd2b69e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/report.json",
+      "size_bytes": 16353,
+      "sha256": "ee7b553442d759c63cc28dc9262e5219916afcb0760abcff9549828617bc614f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-36/seat-checks.json",
+      "size_bytes": 9207,
+      "sha256": "67090082bb5b8f0685199a92fc42c9c9ffca7b714b2c43ed02b73a71d0de35ad"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/NOTES.md",
+      "size_bytes": 3461,
+      "sha256": "e3d5801f767a4c529d07d1109a2a3b8013f8e2b4316b7eadee0a6652174b1cfe"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/mesh-checks.json",
+      "size_bytes": 1291,
+      "sha256": "4182d02ff831c98b17331bb16650e32500aee11c8d569ffd3dd4cdee8b01bc2c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "dfdd436f1d764921690f036bb3250fb6d11a967e3b5512fba0827e52fb05464d"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/presentation.json",
+      "size_bytes": 3498,
+      "sha256": "b204ed2cd98aaf22a7f12398df7d8f01ff55ef84f8d4dbecb2209a3408e5a17e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/report.json",
+      "size_bytes": 16877,
+      "sha256": "e5d7929cc7c496c143aa0a34086940854135694f1aaa28cf8d97f90232978cd9"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-48/seat-checks.json",
+      "size_bytes": 1532,
+      "sha256": "457cbbbca8e4f7a760cbe4eebb12c389d6a40b6243d1b78349864a486ee03ade"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/NOTES.md",
+      "size_bytes": 3473,
+      "sha256": "4a456c9d823b3e84f3f192da0733d03261d404b54750ab8f15b224026a51b97e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/mesh-checks.json",
+      "size_bytes": 1273,
+      "sha256": "663e6df5726e05671058513f86b389d5121db95b4e52e5efcf84d11480cf0ece"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "9d71b558ec222d1bf4e0193754763acd83589e046043cc5c50e5f1c4f56768c8"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/presentation.json",
+      "size_bytes": 3481,
+      "sha256": "791cf720260954706a9288bd12f74be2c714321ae4dc4b97e11930bc6ea34a3e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/report.json",
+      "size_bytes": 16418,
+      "sha256": "f9f2bda7071ebc4894b7f773c37c0c250b73cb7106cb5964a8f0d97450d5ca80"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09-72/seat-checks.json",
+      "size_bytes": 1532,
+      "sha256": "3b9d417703518903f962225bd581252fb46e154efedfcec4715811c87c104b4c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/NOTES.md",
+      "size_bytes": 3426,
+      "sha256": "cf5d7e1b1a9218dcaa9605de31420bc68019416df0d3a950b869935a612d4216"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/mesh-checks.json",
+      "size_bytes": 1314,
+      "sha256": "a684737da903cb08a518cfb83692b1ab77027954acda1c1443e93638f968a87b"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "79fd4459abf5cd8aa25eb7e7ceaa55253f44a58a7c89c2d47dfdfa4dc62c408d"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/presentation.json",
+      "size_bytes": 3533,
+      "sha256": "79054daa9731ba614aeaba4972e6f9586c1e79f137db22b333cf1fc8dc2fc943"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/report.json",
+      "size_bytes": 16770,
+      "sha256": "e7835c171640f0e1e17306e99cc7877b33f8150767faeef0650f738b9e8a3fa4"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P09/seat-checks.json",
+      "size_bytes": 1525,
+      "sha256": "d5c3e7b918f99e9095dd6577c1700c56510a9f73a04d9920bf20c17216771e4f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/NOTES.md",
+      "size_bytes": 3429,
+      "sha256": "b145e7146ab54b015b26329a57b900a498bacb0f0759fa2aee2eccf2c5b0984b"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/mesh-checks.json",
+      "size_bytes": 1288,
+      "sha256": "eae753c7e65fc4481595b082230d6a6fe59dbb3cce55682b2281f3881c80b900"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "cd996e8c6f484faaad9f1ff8bd11efbb4781074bdd8894be76d76820b83d394c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/presentation.json",
+      "size_bytes": 3506,
+      "sha256": "35b0886e654deb04d9f5aea36d8c905cad76d9df0c32d44f34d908753b14495e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/report.json",
+      "size_bytes": 16776,
+      "sha256": "3dff8f845cbde4211ad5f2e6d736be56f231eb12d82dbb74cec7667b3dbebcac"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P10/seat-checks.json",
+      "size_bytes": 1523,
+      "sha256": "d707ea2b1992707254c0b3b53706e68c1ac434438388fc1b5f0e1e0a04afb295"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/NOTES.md",
+      "size_bytes": 3421,
+      "sha256": "a7b7e4ae53736a8fb9c0a90eb797988bfdc3b7872ebb3b65fcbcfad9c810f876"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/mesh-checks.json",
+      "size_bytes": 1290,
+      "sha256": "52ea90052e6acbe8949f172d347b8c950002080303c96849d643a2df437abc04"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "2b42585caf45f1eb636383bbacc4f25b3fc0b97d46a569e691b09e9761cad1a1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/presentation.json",
+      "size_bytes": 3506,
+      "sha256": "d12f859a588c99cceabf3f08c42ebce02ff81649aa9f44eb16fa2b60058b8400"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/report.json",
+      "size_bytes": 16722,
+      "sha256": "2fbd9c5e17d6b806f60cbfa94b36bf0e7153933b372d3bd92977109d7d4cbc74"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/P11/seat-checks.json",
+      "size_bytes": 1522,
+      "sha256": "5c719c6af09ea2e1147b6f392a38cfcc5bca6b993c60a03137c97140fc766eea"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/SELECTED.json",
+      "size_bytes": 125567,
+      "sha256": "aa28bcf73ce98e2d85ade66f6ce5e745e20a8ac6ce6fb881280ac5952bb5ef4a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-flat-top-v2/independent-mesh-review.json",
+      "size_bytes": 56622,
+      "sha256": "3b0f93c4039e40e743014844fe33bde0bd87ce07ec864dc3699ecb5def4ca7d5"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH01/NOTES.md",
+      "size_bytes": 2808,
+      "sha256": "1e274c7a2473e6a628589be6ba95d7b2919d1d883c984b0deef6350b4d8b4a36"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH01/mesh-checks.json",
+      "size_bytes": 1631,
+      "sha256": "71e5f64dba680b9b19044447174f539f02bb1a2f327166f9a1a6982f531b68a1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH01/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "3581b33ae5636741b479fcfa4f4e687be25cf43de95e8573d3c3a3ce41b2c8a9"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH01/presentation.json",
+      "size_bytes": 3537,
+      "sha256": "b043156e4ce32e2febf54717e4be00c7e6fb37ab014bc9eca16ebffe8fe26488"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH01/report.json",
+      "size_bytes": 16012,
+      "sha256": "36d26fe04e9bf4a326e4ed1bdc097d7b53a6c3f77b53b6db3b4f44eef30927f7"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH02/NOTES.md",
+      "size_bytes": 2807,
+      "sha256": "1373ba00c1afbd424331424e1532f4399b335fcb6009249a905a614c934a67da"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH02/mesh-checks.json",
+      "size_bytes": 1526,
+      "sha256": "03a566bb3dcbaef39a6c50d4b612ab56f4577fea68443516d6515c80cd55c452"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH02/native-checks.json",
+      "size_bytes": 453,
+      "sha256": "ca3b9a5316d4309e25b9875c2bd7af3ae82a6cd2fd6d0ee1862e1ea53a86535a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH02/presentation.json",
+      "size_bytes": 3531,
+      "sha256": "6da3a0f2eab86d77f18e26e5134595215b57d97c21af01c5074631997f7c83c3"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH02/report.json",
+      "size_bytes": 15692,
+      "sha256": "b9af535d56c64f35d32004f6c930e2393897fa292a0fee853016674fcb3988ac"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH03/NOTES.md",
+      "size_bytes": 2807,
+      "sha256": "6a90dfc2da699e1f0dee9be143014c583e94ef09946b60801f6a6a819495b98c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH03/mesh-checks.json",
+      "size_bytes": 1528,
+      "sha256": "d10fc626de248386a282c0a7f80a5ce1f1910af68b46053f68e7e8eec91e6e62"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH03/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "2ccd38cc3533ef2f7216d9a3a72f36f285ac14bcf0637c65934df27f433c4c25"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH03/presentation.json",
+      "size_bytes": 3535,
+      "sha256": "d651968dedd81cac93bb43801431054c54292851426411d5a6ed18299ef97169"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH03/report.json",
+      "size_bytes": 15698,
+      "sha256": "ba6be1878e506677a43dab50ce4e5bed1dab7a5878f271197ace9f89998a0b44"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH04/NOTES.md",
+      "size_bytes": 2807,
+      "sha256": "1fb6260f3cb9214f6ec080dc83a24b5c2ee759ea2b9bd5a780e2172726920a9e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH04/mesh-checks.json",
+      "size_bytes": 1529,
+      "sha256": "4ce27dc52e3e3456fc5798953b5097942c28ccf5be1e57f711d4218a39472abf"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH04/native-checks.json",
+      "size_bytes": 453,
+      "sha256": "d16207ab41f151ee04e5c81fd66453181f6158d8de3002300f4882b41e2defc6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH04/presentation.json",
+      "size_bytes": 3540,
+      "sha256": "29ef7a3e0d3d4221bbc67de5e68fb54f0ab4c30e27c282b7258a2c3eca252714"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MH04/report.json",
+      "size_bytes": 15721,
+      "sha256": "2a6e1db9f995afaa52cb600eb0027fa1997b374bb3cf85218971eeac5467e5e4"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/NOTES.md",
+      "size_bytes": 2789,
+      "sha256": "ad60faca15c514c6cffdb7876f90d5c94825b60c1cc6d13cf5ac17c9e76c7a41"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/mesh-checks.json",
+      "size_bytes": 1334,
+      "sha256": "beab86be9239c5abaaf9f8391e487ca34aeb8c13f4cf3eae78804b0c2328e0ee"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "ef7a1127e63c42111ea38516cef055c595717e0e0551e4f148954c1b4e6e0397"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/presentation.json",
+      "size_bytes": 3535,
+      "sha256": "50bb85f0f2f61cb881fcb95326bbb5c44ecca42a00ae6f8919f0c59ce67d6062"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-A-H/report.json",
+      "size_bytes": 15407,
+      "sha256": "c7b4f08c27a3ded2dcb1f323867d591616a2a0091b2d7f09824d1ee3cc6485e4"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/NOTES.md",
+      "size_bytes": 2789,
+      "sha256": "5860cb85e50d214c39ac23b60d3bfa4ccafa53c3b8569ba67cab6ff60cae25ef"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/mesh-checks.json",
+      "size_bytes": 1336,
+      "sha256": "6ceee9cf5d92ce81787089269b1a7a8088fdac01b8e5c8d8744f308590402207"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "171716b4d29bd17fcb0638b1b228ce26b0e0f770cbe1cbb0de370746f43e79ac"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/presentation.json",
+      "size_bytes": 3533,
+      "sha256": "fc433d9aeb8d5899f74c4f3afda4027d45ac173e315dede22aa9afe913dcf7b0"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/MS01-I-P/report.json",
+      "size_bytes": 15406,
+      "sha256": "615387d7dc8efa9c21b100831d6a3831a3d8059641df4bfe588ee6f886deb331"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB01/NOTES.md",
+      "size_bytes": 2652,
+      "sha256": "695037bff4fb11e8666780fa2f10574ede3e6820d654913ae5313a6c505475a0"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB01/mesh-checks.json",
+      "size_bytes": 1290,
+      "sha256": "c8a0e3c947dc4cb7560dd1eaa4688454b5a4e7b1132de6efaeddf891bbc89bd8"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB01/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "9f9798c7963cd482b1074aed800b00c4c85e63e82828cdb3d9d14eaa72e77e9c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB01/presentation.json",
+      "size_bytes": 3240,
+      "sha256": "d883f1d6c453ee5d4e81dff58b95b8d2fb0a1147e049570daabe885e75ed273b"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB01/report.json",
+      "size_bytes": 15506,
+      "sha256": "593f3fdc43d8ad0f01867c20cc51399e2d23885eaa634b0d82d97c497009fd6f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB02/NOTES.md",
+      "size_bytes": 2631,
+      "sha256": "93e3d7db0d65da82f33c1a8a418b34e5685dbdc88f6959026032671fe7ea5c31"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB02/mesh-checks.json",
+      "size_bytes": 1296,
+      "sha256": "470ee57b77703423d0ab9d5abda66e2bdad378cca3bfb10e0644e756bf480c16"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB02/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "2d214fc7b0b148db05d6f4cdc7b8aa5a4460620f1e0a4755689678cd0dfe1e40"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB02/presentation.json",
+      "size_bytes": 3236,
+      "sha256": "7a3cbd73ba54ae95e3191567255a1b3fcc0c5b7372a1b718d8a1e72fa9253be0"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB02/report.json",
+      "size_bytes": 15479,
+      "sha256": "4b6d3caae68baa3aaafc11a775200a307e272af6be78ebd6ea857f950cae2695"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB03/NOTES.md",
+      "size_bytes": 2657,
+      "sha256": "401df6a1baeef6b52c3db26ce56bbf13646f33316bd7473044efb2ce23f58039"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB03/mesh-checks.json",
+      "size_bytes": 1290,
+      "sha256": "314dc7989e169f98c67a1a5e44ff7b79261c55c35e6cf461cb15122bff59a192"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB03/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "3b2cc0eb9b441bcc0baea6dbe2ac865bb1917404787fa4fac0426147b9bcf113"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB03/presentation.json",
+      "size_bytes": 3234,
+      "sha256": "9bda39449b4ad9cdbfd0d5ad0426e79af5813f93ecfc1b07604e03d2c4d78f23"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB03/report.json",
+      "size_bytes": 15531,
+      "sha256": "85119e3dc000d99ff4cadc952e8a36dcefc09844f19989f678a4838b559df9ba"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB04/NOTES.md",
+      "size_bytes": 2631,
+      "sha256": "0759623bc7a5cda2ac59c82d69f0a97c013a0c9a7f4702e05c768dcd6b21dca7"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB04/mesh-checks.json",
+      "size_bytes": 1291,
+      "sha256": "8ebd33dc98ba45459e2ddbcb311660b64489381fb6c25bf968ea866858b7cf90"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB04/native-checks.json",
+      "size_bytes": 453,
+      "sha256": "151b1c98d91fed3c3672b0ac97bf8ac22eefd9c00bb59a09979e51990168ea6d"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB04/presentation.json",
+      "size_bytes": 3242,
+      "sha256": "f64bc6b918d45c34ec336266f27db517363dc556d37c3446ea14d4cfc126a06f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/PB04/report.json",
+      "size_bytes": 15481,
+      "sha256": "24cb678411184bb70446e32496c8aa83b96cf2b6ddbf6cc92a6a312a8d24bd4b"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/SWD01/NOTES.md",
+      "size_bytes": 2443,
+      "sha256": "ba27629fb31965b66e6af6bf67427cd7ce92c72a7f6cd025c5597e8164803631"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/SWD01/mesh-checks.json",
+      "size_bytes": 1280,
+      "sha256": "6b3ba9d049252a77ae490008d3c16d851318f3d0392a6ce895301d355c75a34f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/SWD01/native-checks.json",
+      "size_bytes": 456,
+      "sha256": "9e3511296ab70382e4d778005cb38aa985e7de91df75481bf7d7d38877221b9e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/SWD01/presentation.json",
+      "size_bytes": 3307,
+      "sha256": "4f66bad0e66b86e4681fd15224a9f38e941b1ff6bb069bd42d2fe86a49b93f56"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/SWD01/report.json",
+      "size_bytes": 15408,
+      "sha256": "f30134bdb6fe7f4a625276e023f2cd16e7534374f3046ea6bcdd659e020bd62f"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/barrels/NOTES.md",
+      "size_bytes": 2434,
+      "sha256": "d10baef9cbc56fd873a8ca2b94d4ef111c88f10231b3cadb26ae5e83e07fb4db"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/barrels/mesh-checks.json",
+      "size_bytes": 1239,
+      "sha256": "46c2834978d320f6d5a13b0c90f91391d0c85a0a092391cc0ed85e1dc70c8bbe"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/barrels/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "fa6de7cd80a9a34404794b714a4da3bc98b0de2251c273ff843434cd18c53792"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/barrels/presentation.json",
+      "size_bytes": 3203,
+      "sha256": "4688184124e25ae03771606e9bd4be8fa507b97fe25cac5ca7add831e3ea4988"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/barrels/report.json",
+      "size_bytes": 15305,
+      "sha256": "b42b675f5ab7ab28fffc90bfe4585d8494fc0f900be39abb31991fb8e15ac540"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/braid/NOTES.md",
+      "size_bytes": 2449,
+      "sha256": "5c0fcbd8ff191fe9568ecd2e66fdd88119a9603fecc6373131d22a562061a0fa"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/braid/mesh-checks.json",
+      "size_bytes": 1315,
+      "sha256": "f35fbcb892fc00f4e8da60a81d0289f2becf019afa78dd3440783de8b4b53ce3"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/braid/native-checks.json",
+      "size_bytes": 455,
+      "sha256": "11a99369ef9ef7d1d82a11f91b7ffbeedc6fed78c1855d69f10636c2583b4375"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/braid/presentation.json",
+      "size_bytes": 3353,
+      "sha256": "3c259584fb21e023f4de669dea0863d7281835edfeaa8614dca691851adcde51"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/braid/report.json",
+      "size_bytes": 15309,
+      "sha256": "182a334a49b56cac9d204ed2ea4841601526add85b51be4e50b117ea38b38f9a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/drip-tray/NOTES.md",
+      "size_bytes": 2440,
+      "sha256": "ab8124abff4779604715dc6af6cbb758209a3ec0003afa5d1912694b0bb28c58"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/drip-tray/mesh-checks.json",
+      "size_bytes": 1223,
+      "sha256": "4209eb4ca2deeb95b6b84cc484f9115f7d1e608d5a9b7106d75e2edf36d22513"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/drip-tray/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "3b1b408ed51067cdb83ac11c6d02641c837eea790bfa91c86a82e494c08d3aa1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/drip-tray/presentation.json",
+      "size_bytes": 3178,
+      "sha256": "d37a01b19d7ea97f08e8072548799aa5d9796c243c0993484426e48ed9fa358c"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/drip-tray/report.json",
+      "size_bytes": 15132,
+      "sha256": "7a152916d0a0e2383d41ee2c38d54cfbdcf5fdf19b27814c54f46075b01a8fce"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thick/NOTES.md",
+      "size_bytes": 2461,
+      "sha256": "0e7a6a65f4c60eddbac8b8dc5cc4b132c860d5fde48e1d8c457ab3e98f1a829a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thick/mesh-checks.json",
+      "size_bytes": 1279,
+      "sha256": "555aeebdaa1af3690d8044560fcb7309a95e1bf9cc060a4558795cef8ac6516e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thick/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "705c39d73d391d13654808c6459dae1dd2af4b23b31be4d4f6c73e04a9744d4d"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thick/presentation.json",
+      "size_bytes": 3315,
+      "sha256": "f1c073076298ace661fcda7f1bc031531bf0e7f8279029a66b122fb44e887b29"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thick/report.json",
+      "size_bytes": 15365,
+      "sha256": "ff84caf205b2a8837944e50cf45332415c0632223e8a96c63e43365ed580f73a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thin/NOTES.md",
+      "size_bytes": 2460,
+      "sha256": "431f26d7b77f93401410da443385d825db41ab5007c7405a0bdf50f3a3c0f05d"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thin/mesh-checks.json",
+      "size_bytes": 1279,
+      "sha256": "555aeebdaa1af3690d8044560fcb7309a95e1bf9cc060a4558795cef8ac6516e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thin/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "c1c142389b80ee50e4b94188f2b83ebb1af5b81ad72f98520dc4800b92d913fa"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thin/presentation.json",
+      "size_bytes": 3313,
+      "sha256": "4ad33b4ddd1a9922789da3abe8cc229d21316c052eab584e820d00bed6563bb1"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/reel-thin/report.json",
+      "size_bytes": 15360,
+      "sha256": "788643fa4f60ca93b7c0306d5491f3c09ca8470b512d9c16c452a716bae9d5c8"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/snips-pliers/NOTES.md",
+      "size_bytes": 2466,
+      "sha256": "99fa613aedd2914b224301d2ba3156bee0c78d287e7067f5bb0d772220582888"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/snips-pliers/mesh-checks.json",
+      "size_bytes": 1315,
+      "sha256": "d64cd82d2f25c24bb54e45ff0a1d020fe5a9225d12eb221e0a87165e513eb015"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/snips-pliers/native-checks.json",
+      "size_bytes": 454,
+      "sha256": "4f1a2c112a4632f15471e80368b8803f46177074bc34fefd46cadd70fe0127dc"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/snips-pliers/presentation.json",
+      "size_bytes": 3371,
+      "sha256": "958ec5c9af115ad1489150f3015904a4f290039d3206953b009e3ed8b38f939a"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/snips-pliers/report.json",
+      "size_bytes": 15409,
+      "sha256": "83968e542242a9b712110fa0012041abfb4496af4f417a1878722fc1c4fa79e6"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/NOTES.md",
+      "size_bytes": 2760,
+      "sha256": "3457335a3aeccd07b85e909cdc3a09a23cb0b4301b5b7b4efbebd7f811e3e2e9"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/mesh-checks.json",
+      "size_bytes": 1320,
+      "sha256": "cc5ccf2f471a879074869fccc4b9c75a2c9a6df979dda56cc3276ae7bb7275f5"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/native-checks.json",
+      "size_bytes": 556,
+      "sha256": "f792519c71f64bb996e8b451be3532d4ccba49961870eaaeaa337c2e0cedffb5"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/presentation.json",
+      "size_bytes": 3393,
+      "sha256": "a2432ef9723cfd92b3b4e8d1304affaf2182e0439033774a0b32a9e00b05e0ba"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v10/report.json",
+      "size_bytes": 15626,
+      "sha256": "24a3bd523085b12b41c6ecb8f58e3ed6a0410ed2f7f83f2b3bd43845aeefc3cc"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/NOTES.md",
+      "size_bytes": 2635,
+      "sha256": "a6ed6ea07ad6be54b3a8eda1d817ec6c65ad5db28181b5a46a8c7f5196b95037"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/mesh-checks.json",
+      "size_bytes": 1261,
+      "sha256": "3d7a5ab4e3cd24f14c69da63407b674e3c0fd8837e0c75b04e5aae81b1275df0"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/native-checks.json",
+      "size_bytes": 452,
+      "sha256": "f8d3ad629deffc98df6a6ca8e2ffad5f7220aa997bb7ea215e5c4c52bac65f72"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/presentation.json",
+      "size_bytes": 3325,
+      "sha256": "f84d5913c03a2840807346d30a83c24ff801b00181379354a6b92e5e15e69a1e"
+    },
+    {
+      "path": "bench/reviews/gallery-current-mounts-v1/tweezers-v8/report.json",
+      "size_bytes": 15636,
+      "sha256": "938667e5b6770a4e5023330bddecf89cddd49918d2fd3afc17a8cc0e6cc6a4bb"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/MH01.json",
+      "size_bytes": 704,
+      "sha256": "5e592f50b245077f541e8cfbe59e101e15ed6578442da4ab5a2f8402d07a9fae"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/MH02.json",
+      "size_bytes": 686,
+      "sha256": "83c3acd2e28f68370735b309555b48ef8624e88c7fe7cd675a17ff846cf70ac7"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/MH03.json",
+      "size_bytes": 686,
+      "sha256": "cb26644519a62c48386ff817a13e8f67999a84ee20226b5d56c0c541b92266d2"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/MH04.json",
+      "size_bytes": 700,
+      "sha256": "18f64f0914799fd0aafc99f4e0e3ade06731e900b39903b3379a0ede6374e16e"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/MS01-A-H.json",
+      "size_bytes": 645,
+      "sha256": "0541f55f4b71b71a83235622fe1687762eba95e3b6b5d28c13903ec980766036"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/MS01-I-P.json",
+      "size_bytes": 645,
+      "sha256": "fadd88c10510185fe9731912be509e0dfe5ba7b0a193679b087aac3021aaa862"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-12-flat-top.json",
+      "size_bytes": 1044,
+      "sha256": "29dd8d84ff1b8212c4ddfe0a8506470b3663d6c507003ba659f91acdec502184"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-12.json",
+      "size_bytes": 892,
+      "sha256": "8f712b3f4b7f7b28278b08af03d649bb7008b2888c1f9a85d352aa078b108187"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-24-flat-top.json",
+      "size_bytes": 1057,
+      "sha256": "13158822703d88a5f086e9e17497982e954c3e46f823dca1edd7440a4e07c267"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-24.json",
+      "size_bytes": 892,
+      "sha256": "c64d972f46b0c977ef1eda02ac8c766e94aa9755a7e9cc7dff5448571d94107a"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-32-flat-top.json",
+      "size_bytes": 1058,
+      "sha256": "d3763fba6727502905ff4069c8f6af53ab3691871e8501afae9a097374cd9066"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-32.json",
+      "size_bytes": 892,
+      "sha256": "6ca87a3740a76dd61194ba34f3f8daa64300ffccdc525b692616a6b63ae68100"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-48-flat-top.json",
+      "size_bytes": 1086,
+      "sha256": "238ad9bb7278cb228390640cb4ad77df1be21dc6011e6e1e080416dc1a0768af"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-48.json",
+      "size_bytes": 920,
+      "sha256": "2d3d56233ee2b813026f72c4241a21a7539f9b81ceba4bd6da0466a94e53430b"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01-flat-top.json",
+      "size_bytes": 1764,
+      "sha256": "cc2cc0c2cb5629ec620afee3b7d5fb19acb417e7de9757be925e04fec34bee62"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P01.json",
+      "size_bytes": 1612,
+      "sha256": "f85f00e6822d82e919b6662a6a5580872e9154ef67aacac28fd56159729c2923"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P02-flat-top.json",
+      "size_bytes": 1752,
+      "sha256": "925163866b20dcf453ad0b5455e4ab4841a92c3a348a5c866ab701fa87fdb5a9"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P02.json",
+      "size_bytes": 1600,
+      "sha256": "632688c646321a6e4e7e7924437602695eb5b49b9aa782e8195567da7268c08b"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P03-flat-top.json",
+      "size_bytes": 1000,
+      "sha256": "e0e0cade551378ce29a4b3a561bece2664eb4262d8d96a129a1b2b2babf42015"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P03.json",
+      "size_bytes": 848,
+      "sha256": "82d39d1d2d364c27ac914ed8775ef336454ed2d8588f8e3678ae8b995f4a4a7c"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P04-flat-top.json",
+      "size_bytes": 1000,
+      "sha256": "a1a22c7bb1b886c0c160caf92917ca07c089629ba57b7878bcfc6595db5b76a6"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P04.json",
+      "size_bytes": 848,
+      "sha256": "d09351bece0b0f473696a392971addfa8841e902fc6f9a5b91e3f1dcfcf6f2d2"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P05-flat-top.json",
+      "size_bytes": 964,
+      "sha256": "8721eb69d15faa21a3d27e3e84030e5a7a84f1848774a9de007f022c398539fa"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P05.json",
+      "size_bytes": 812,
+      "sha256": "bb7d87a68e09d6c1c16c684673fa9a8301525c8d15f9c2a295dfa44acf3eab22"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P06-flat-top.json",
+      "size_bytes": 1012,
+      "sha256": "47d923302a1a08d25d901fcb8ccb9c14468eee14f44156cdacff5da0510a74c0"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P06.json",
+      "size_bytes": 843,
+      "sha256": "97eb0056b2cf922d3fcd73e13ba35803a05e31ab630ce1ea995c279ed4eebee9"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P07-flat-top.json",
+      "size_bytes": 982,
+      "sha256": "850900af794e4994584cb8fbad397f47ff0e591b6ae7edf46248d5cc50e29e4a"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P07.json",
+      "size_bytes": 812,
+      "sha256": "ec83da4c3a3b56d5847ec6d0fc092e91895c51e62d5f4adf218e5d9df05790b4"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P08-flat-top.json",
+      "size_bytes": 979,
+      "sha256": "93b6b754d53abc08e043d4fc2a3e748775a13954ba3c9b149137ee9a5822a4cf"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P08.json",
+      "size_bytes": 827,
+      "sha256": "7459e7d2c045da986db7efa64c6cc744ed768474bb0780d2916cfa6e73eabb7c"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-16-flat-top.json",
+      "size_bytes": 1023,
+      "sha256": "12de932c215a77c52ae54d9918f2ac9b8d5e5e0f8c2ea9293c65c54138b5c7a2"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-16.json",
+      "size_bytes": 871,
+      "sha256": "413f33c87a9af00ba656ddb92d270831bb1b26e9bb65a7620fa653eeac62f784"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-36-flat-top.json",
+      "size_bytes": 1023,
+      "sha256": "fe3f3fdfad1dfd72dff698beffa8857a2a3269d4741523f54ad953417315b1d6"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-36.json",
+      "size_bytes": 871,
+      "sha256": "3f773badcb852f4ac95406180451259a1026326c13c7c74c21eae53c165e2bb9"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-48-flat-top.json",
+      "size_bytes": 1058,
+      "sha256": "b15f199cebeb189432bf90906e1804d7dd5905ce56c6b42d3213055e17041b2b"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-48.json",
+      "size_bytes": 906,
+      "sha256": "66c64d2786354840a422fce10a44142c41c4ce40add3d322976287ddc67966c8"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-72-flat-top.json",
+      "size_bytes": 1074,
+      "sha256": "428d843ad1cb0e18d06564c0df84b1a0f7e06367a7113c754d3482d1cc6c7df9"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-72.json",
+      "size_bytes": 922,
+      "sha256": "080993884ee0eee9f061824a191619330131ce9c3103cfb5da1e1f624a8be34f"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09-flat-top.json",
+      "size_bytes": 976,
+      "sha256": "357b5042990e4f64fff4056a865adc04ed22d23563a1868b87c6971cc062b103"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P09.json",
+      "size_bytes": 824,
+      "sha256": "9627d5212ea389bd831d7539c5a9f2d0d0f7511f04aea4c5e8f254055053973d"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P10-flat-top.json",
+      "size_bytes": 994,
+      "sha256": "3914b81db75bcbe88a3cd5975925178c2fc9cb2ca0a7abaf1a99837ecbce6c74"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P10.json",
+      "size_bytes": 842,
+      "sha256": "cb39c80d51b19af79eff09725c7cb8192a01c4430f4f3d5d3f944bad097595c7"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P11-flat-top.json",
+      "size_bytes": 970,
+      "sha256": "47ba25840b92f70a1f46e4afcd77e3ff74172967e6754767f88baa4db04e301c"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/P11.json",
+      "size_bytes": 818,
+      "sha256": "3ba2535a402c259b413932f9b6b3ba8986ee7d9a5c04d284a23994a8e7214af1"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/PB01.json",
+      "size_bytes": 869,
+      "sha256": "bbfbba3152a6200b2c39a335499dc8a2738b4587b8c2c8799ed4dd875ed694be"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/PB02.json",
+      "size_bytes": 854,
+      "sha256": "aaf13063fa176822dd8c04d7d6043f724b4a366303a1f572b7ba1aa846025104"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/PB03.json",
+      "size_bytes": 880,
+      "sha256": "42470536acb005dbed42d89ffbaf99700d11bd95ff807017a33a40f9728635b0"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/PB04.json",
+      "size_bytes": 854,
+      "sha256": "1d17b84dcc40b2b2a1bd7660db1f2be45a8d2be125b67860300d46339633f891"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/SWD01.json",
+      "size_bytes": 569,
+      "sha256": "d14304dcb0ee9a3e9ec3b673a6f18bb37519f7501fdb440bea0a2da99a3644a1"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/barrels.json",
+      "size_bytes": 603,
+      "sha256": "6f4589a37a10acc7407fc1d94e9ef9d57ddef2347fb5815125b855d22d6da096"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/braid.json",
+      "size_bytes": 602,
+      "sha256": "c95276ab8f7d14c4fd76965774a7c5db32aad0b1d337d32088d3f59e961f75c3"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/drip-tray.json",
+      "size_bytes": 639,
+      "sha256": "edfb8fbfe427504e5a8e80b58f2bb49d351df5c390aaf3d26c1a264189d4e1f6"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat-top-products.json",
+      "size_bytes": 198,
+      "sha256": "7e14e5be504f49dd4374912a2625fc98ec67450c06f82d625c52d8c42e884274"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat_native_audit.py",
+      "size_bytes": 1366,
+      "sha256": "73c7c2cdd6d39175bce8bb3b979178c3681c426c2f9c544fb64b17407e99fea1"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat_seat_checks.py",
+      "size_bytes": 2449,
+      "sha256": "a4b75c0823ed9de8b6549fda643d01bfbac164be21fca50d821080da99131c23"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat_top.py",
+      "size_bytes": 6466,
+      "sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat_top_mesh.py",
+      "size_bytes": 5876,
+      "sha256": "9c5246402d33be143f26f37a7b11878e84efcf0dd2d17577a912544e95227329"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat_top_p06_export.py",
+      "size_bytes": 1932,
+      "sha256": "b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/flat_top_source_normalization.json",
+      "size_bytes": 9153,
+      "sha256": "8cb36fd652343d562d310cecf1d579fb4fc3cbc2ca42da4ee2a653144077106a"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/mesh_gates.py",
+      "size_bytes": 5425,
+      "sha256": "dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/mesh_review.py",
+      "size_bytes": 5328,
+      "sha256": "70008bf5a95d836df6e2438e2c78e582245f93cbb3d1a874bb30542ee5fc07e9"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/native_audit.py",
+      "size_bytes": 1357,
+      "sha256": "2cce37136f81507fd9e48263f776f8d6e7bc0fe2e8e18832489f019ead25870b"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/p09_flat_seats.py",
+      "size_bytes": 1058,
+      "sha256": "5da08b67a9bf6bdbeab8b786551ef4b577699cec6eaa69355a341e9d71cca246"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/p09_seats.py",
+      "size_bytes": 1044,
+      "sha256": "f153cbad3135ad19677a9978f6fc23e7262bc07dab097f8ecf376202ac86d6d5"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/packaged_source_provenance.json",
+      "size_bytes": 8345,
+      "sha256": "fe5899692671c73228292413e2bfb1808fa3290bf5fd1a3720f5447470d8ec5e"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/prepare_mesh.py",
+      "size_bytes": 1351,
+      "sha256": "aca63d4d8a637c4f38aa6491cd82d95c5e8b84facc7ae7bb553726254fde4539"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/products.json",
+      "size_bytes": 440,
+      "sha256": "59d02da8e901ddbe5f3e6d4bf19946c804bd84cae0498de543d6733b8704b223"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/reel-thick.json",
+      "size_bytes": 640,
+      "sha256": "c20411b4f49ffbcda3b10144f8a302322c6671f6af1a45849bfc6167dbee2d12"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/reel-thin.json",
+      "size_bytes": 637,
+      "sha256": "169ecf9deb5ad459e62c5966133a00a98a092d386a8a88b8911f3eb19ba3eb7e"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/remount.py",
+      "size_bytes": 6046,
+      "sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/snips-pliers.json",
+      "size_bytes": 659,
+      "sha256": "1e4857505406f7db3099efc356ab30f66e09cfaf7376cef356d946f1f19321bf"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/SNAPSHOT.json",
+      "size_bytes": 2845,
+      "sha256": "ee78f96a25810a25f449a2184d9f1ed0c3a2fce16487ba9c36d4d429d34c6ae8"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_120.step",
+      "size_bytes": 94259,
+      "sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_120_geometry.json",
+      "size_bytes": 3611,
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_motion_results.json",
+      "size_bytes": 11536,
+      "sha256": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/reference/peg-fit.scad",
+      "size_bytes": 2423,
+      "sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "size_bytes": 2405,
+      "sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder.py",
+      "size_bytes": 9823,
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder_v2.py",
+      "size_bytes": 8349,
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder_v4.py",
+      "size_bytes": 19624,
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_interface.py",
+      "size_bytes": 4268,
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_print_variant.py",
+      "size_bytes": 2401,
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_profile.py",
+      "size_bytes": 4074,
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py",
+      "size_bytes": 13327,
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/tweezers-v10.json",
+      "size_bytes": 798,
+      "sha256": "c2c9aa2753aa2b23d254c68e2439edc1b6b426bcbaa4ee4d3410b755053c8474"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/tweezers-v8.json",
+      "size_bytes": 774,
+      "sha256": "4c391a6ff589303aaa9e9c04957f32de047147b70f6d5f77f7deb59411b46651"
+    },
+    {
+      "path": "bench/source/gallery_current_mounts_v1/verify_selection.py",
+      "size_bytes": 2325,
+      "sha256": "eb052ee07c3cc7ab93f3cdf24d4a6955ee806b6cac76df3e96f5790bd46a3987"
     },
     {
       "path": "bench/source/geometry.py",
@@ -633,8 +2143,8 @@
     },
     {
       "path": "docs/gallery/arrays.html",
-      "size_bytes": 25960,
-      "sha256": "8b9d0295e5b32a7fee729b9459bb87b8db8617a6b529e4bb2a0772a4acbaa1b5"
+      "size_bytes": 26424,
+      "sha256": "83d8a13a07571016a4c0ccbc6aec6dbc123a5ef33ff3c22851741ccb3e433f61"
     },
     {
       "path": "docs/gallery/arrays.js",
@@ -1673,8 +3183,8 @@
     },
     {
       "path": "docs/gallery/bin-expansion/index.html",
-      "size_bytes": 8859,
-      "sha256": "720ee4015f91aa61a43adae524aeae0850ee9ca281a6a6937cf60ba8ce370b71"
+      "size_bytes": 9338,
+      "sha256": "fec1fa0d634a865744e7f8765ba770d4ecd48c144d5f7922d0c42e19d90575a9"
     },
     {
       "path": "docs/gallery/bin-expansion/part-pegstr-bin-expansion__v1__four-bin-lineup.png",
@@ -1955,6 +3465,1546 @@
       "path": "docs/gallery/current-fit/index.html",
       "size_bytes": 2781,
       "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
+    },
+    {
+      "path": "docs/gallery/current-pegs/catalog.json",
+      "size_bytes": 105709,
+      "sha256": "cf7e38c332369d03ceb0f0694da24f39d0328f443a23bcf88d31ce5af1b5e0f0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/current-pegs.css",
+      "size_bytes": 2750,
+      "sha256": "8b4c6ddd6ffbfb8bf24428bfb6ad8c7024ed954151593f01dff8c3a436b7d0b0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/current-pegs.js",
+      "size_bytes": 5004,
+      "sha256": "0d989faec49fadb082db25e41df548867dbf66c63a8d37517b6650ee8e942986"
+    },
+    {
+      "path": "docs/gallery/current-pegs/index.html",
+      "size_bytes": 3413,
+      "sha256": "b5e32c73d530da9aaecb482b72f39b21f77bd2cacd59c7827e2ba45c9546eac3"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15305,
+      "sha256": "b42b675f5ab7ab28fffc90bfe4585d8494fc0f900be39abb31991fb8e15ac540"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1762992,
+      "sha256": "8652ac51772b1bbe8dc92a0f608c813cfb024bd51f7c66b19a70f9cfe51027a5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 26404,
+      "sha256": "fdfd2223f1aaf196fe548e0d07728e01ca88ca1a20c516480aeb4e3d1ab36db1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1468184,
+      "sha256": "2b27926e784c1bf993322654c663f1c1bb9883c0aec5ab36dff050670359c4da"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 26404,
+      "sha256": "fdfd2223f1aaf196fe548e0d07728e01ca88ca1a20c516480aeb4e3d1ab36db1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1468184,
+      "sha256": "d9703b23613f56873b1a34b45cb90ed54f452e8486cd31bd372ab559d1cbef23"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1762932,
+      "sha256": "3dc02f1a93daa3ca91dd5a48f0e6d7f32a145ed7a5fe3f21aa650af352153fee"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 20356,
+      "sha256": "d53ffd2d77fddc7f61678ebe29f610d53adae3b8afd48703680bcff7a10f5f66"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15309,
+      "sha256": "182a334a49b56cac9d204ed2ea4841601526add85b51be4e50b117ea38b38f9a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1336176,
+      "sha256": "2b35a7791d2b442570609986fc4560b54a3574166e50a314328531ee8deb1425"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 14642,
+      "sha256": "26baea48ed9ac7c5a6c95a68242fefb7753244ad033d7a39bd64aa0e182007c4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1112484,
+      "sha256": "d0dbf7f4a33b4917b73af0f5d1070f3b30c7bab73a2bf3746e2c24baa591e6fa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 14642,
+      "sha256": "26baea48ed9ac7c5a6c95a68242fefb7753244ad033d7a39bd64aa0e182007c4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1112484,
+      "sha256": "f0adba17e990380d58ec3e9bada70a13b967313e943f85688f5383cc19c1b6b8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1336140,
+      "sha256": "589712cdb884e76d67b4aeba1abe24416838e62059851d8ff8e26f5574698708"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 23703,
+      "sha256": "f7b2abc37620104fb47e0a9c8c8383cba2bb5b60460e90f5e30041737ddb4387"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15132,
+      "sha256": "7a152916d0a0e2383d41ee2c38d54cfbdcf5fdf19b27814c54f46075b01a8fce"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1332912,
+      "sha256": "d5a859db496c8e2c0288d002ccda8b6a268945894b77d69dce2084139de95caa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 17312,
+      "sha256": "9caa634fb512a5191ef2928302e9216b54d4fcf11c5630729bc36c8b7b3cd132"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1109784,
+      "sha256": "bbf6496f3346704dcc832531b4ff9d85ca78e933ac8886951238ae2ae16bbb19"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 17312,
+      "sha256": "9caa634fb512a5191ef2928302e9216b54d4fcf11c5630729bc36c8b7b3cd132"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1110084,
+      "sha256": "d8fc5215b82187668c21eb0911be958f8d277b7457282a3a13191da5b2239e96"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1333212,
+      "sha256": "18190f142d735ae0302ca00bbdb8d42c3d982257da35b0fdb16dff786c303e87"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 20494,
+      "sha256": "42bd345776f58b78bf809bd8b9a66fcde87d30bc3cc4365ca2e234666bb00a59"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16012,
+      "sha256": "36d26fe04e9bf4a326e4ed1bdc097d7b53a6c3f77b53b6db3b4f44eef30927f7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1377212,
+      "sha256": "656b15bc171e213926375bd4870e64d8a6385cf1b1a7951c771e98775a82d220"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22514,
+      "sha256": "99fac655df70d104217e746a3e001bf6d808c6ad8a8c766cafef01f5db7ea6b1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1146684,
+      "sha256": "3167eb2e60892fe026dfce73fdd491951a1483cd207f22780ede6b9c2a908ff5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22514,
+      "sha256": "99fac655df70d104217e746a3e001bf6d808c6ad8a8c766cafef01f5db7ea6b1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+      "size_bytes": 1146684,
+      "sha256": "dcf73914065e3396bf01f6bdf647c0e5b814f5b175e1d6012cf8699445a7c802"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1377180,
+      "sha256": "73647ec3002c8bb5216dc6543b2b60299a32daa933c26c3b592f879952191753"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 26973,
+      "sha256": "2fb22dbad77e292172e269ac6af0074cc43796ce684602a219b1a11d37805b08"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15692,
+      "sha256": "b9af535d56c64f35d32004f6c930e2393897fa292a0fee853016674fcb3988ac"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1338332,
+      "sha256": "9c4b13f739eb3b505bb9b2139d56f1a3a358fc132b99c25973913c4621e2bceb"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 17581,
+      "sha256": "2a15e6a0ac0d6fcfa0974231b7847a23f8b8b16a5a0f1cf1eb6616c976d6ca5d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1114284,
+      "sha256": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 17581,
+      "sha256": "2a15e6a0ac0d6fcfa0974231b7847a23f8b8b16a5a0f1cf1eb6616c976d6ca5d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+      "size_bytes": 1114284,
+      "sha256": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1338300,
+      "sha256": "6a850e4e792fcb00d324de3f06a8de50e487e9645da47c4987d829623f66ed5c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 22363,
+      "sha256": "7abac2aaa2de015aef2d502b4f2ebf0302ca95d007dc70a98c2e107a05824404"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15698,
+      "sha256": "ba6be1878e506677a43dab50ce4e5bed1dab7a5878f271197ace9f89998a0b44"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1338328,
+      "sha256": "df6ef8c090f930dc2b6997e91e8f3e6a2ea1e6dad4253d863027dbeb658adae5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 16684,
+      "sha256": "650574e2e2ed4e9c57bdfc88c0eecd447f786e0d08a5e555745366df2cc259a1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1114284,
+      "sha256": "6fd496c3d0214ae91e51c5c34423314b93cad594d679a34cc531c9f2a73731de"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 16684,
+      "sha256": "650574e2e2ed4e9c57bdfc88c0eecd447f786e0d08a5e555745366df2cc259a1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+      "size_bytes": 1114284,
+      "sha256": "51cecc932119b5ac84e3c40610c4e5e56e199f326e8a4963fad637240f8b1a8f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1338300,
+      "sha256": "4a3ffb01b726a8e7969d8b19892a23065c37db55c57b90f8d302b25d80812fbf"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 22618,
+      "sha256": "ed33e7900f326d95590d0e084c0fa5b6ee4c7f269e8b0093cb4c1b547abf975a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15721,
+      "sha256": "2a6e1db9f995afaa52cb600eb0027fa1997b374bb3cf85218971eeac5467e5e4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1271128,
+      "sha256": "46eb02a05071a90d47eb8bb59d67faf682f7e93141cd2e29bd5efa9f90d4ed33"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 14991,
+      "sha256": "b6466633d4e027ed03db8029202013b8ce86618c448e6411d7d96cb32eaf2c04"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1058284,
+      "sha256": "aed7bdcc7499332d7c7125245047f0a53fdd7d86f3e5b3c85b60516cf7ea0412"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 14991,
+      "sha256": "b6466633d4e027ed03db8029202013b8ce86618c448e6411d7d96cb32eaf2c04"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+      "size_bytes": 1058284,
+      "sha256": "16d93cc6cbf83be515d6c808647cece07ec8cb9b9815817b9b2c568ed1f9389e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1271100,
+      "sha256": "e5ebdbc2f4956edf37a822576502d8f1a08c0630232141185c9307c7a45aaf04"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 20539,
+      "sha256": "00c6c2eba3628a46c8245c6f4180620e3766bf6c6e30537061a0e50676377501"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15407,
+      "sha256": "c7b4f08c27a3ded2dcb1f323867d591616a2a0091b2d7f09824d1ee3cc6485e4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1833696,
+      "sha256": "10ab55e24b2c2cfee1a86665e145fbd795c038326ad5ac4957b5d502e5c92a49"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 21754,
+      "sha256": "4d6a2f6b09597168894aa09d8817cdb7d75da69736f62f58228a3fa9affd341d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1527084,
+      "sha256": "84ac83ff48e4466b40a05a891e0083bd36316dba817de54215571039c99f3305"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 21754,
+      "sha256": "4d6a2f6b09597168894aa09d8817cdb7d75da69736f62f58228a3fa9affd341d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+      "size_bytes": 1527284,
+      "sha256": "0e0c201211eb25d18837ba4feed41bae26ced787ec721b6a4f937a4cf6b83bab"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1833924,
+      "sha256": "a3c4eaa1e78b081d7fe5ad3c20d42d4fbc9e463509b8f7632ff1f03d4b18851d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 26238,
+      "sha256": "1999adc93e5cebd09990dcd62df46877702c40644610f57bdba62ba9f7fb7e25"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15406,
+      "sha256": "615387d7dc8efa9c21b100831d6a3831a3d8059641df4bfe588ee6f886deb331"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1636896,
+      "sha256": "949e58f3d466020b7c49b9dc17053ba6b9a78ea436238cef30b4288b757e55c5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 23225,
+      "sha256": "6599c9c56f8a74c994091cf99a61af7e3643f4e5c9ca4fce791e9d48f6121f55"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1363084,
+      "sha256": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 23225,
+      "sha256": "6599c9c56f8a74c994091cf99a61af7e3643f4e5c9ca4fce791e9d48f6121f55"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+      "size_bytes": 1362984,
+      "sha256": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1636764,
+      "sha256": "9cf847f54387dde2098dba569d9c0ec8928d2d9375ea47321629b9c7fe50f634"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 26472,
+      "sha256": "de5d60498bd82f237a9f163f791bff40c5f8d2641472e93c5216601836c7c08d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16873,
+      "sha256": "6d9547c5ea4306155e84392ee53ec51536d2824c9eca3264bca7b1753937b856"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1362332,
+      "sha256": "eefeadd953254f5ee6743ef691acb90a742b04c0217522e899f2d44005876fcd"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 24490,
+      "sha256": "338c1758bbe4b0f74fce0a0a5603f1e8ca933233001da1cf055f9625c4438c34"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1134284,
+      "sha256": "264e6bd18bf942f8aed86c15094412d6aa2ca387bc2943778d54f8261975bf61"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 24490,
+      "sha256": "338c1758bbe4b0f74fce0a0a5603f1e8ca933233001da1cf055f9625c4438c34"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1134284,
+      "sha256": "eb9db41ff0cc81f7fd90509346fe9a1627a80f700b540360d40be6ab0718ee71"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1362300,
+      "sha256": "c532bb7437ed15bd56a68d258a6ca079071b51f5675c08bf503e4328b0431bf2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 26380,
+      "sha256": "e439ad8adda54b1fba6cc39fb076112771ee5ece4a4ee6441042917cc586b0a7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16911,
+      "sha256": "197256f75c6ee6d1ff376588225f77b1630e56d5c685683a2423dea2e1fa87bb"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1459776,
+      "sha256": "f05b41619a75ef23a8fff279a86c53714a4eb6e8331bd33415cdd7954f5d8ace"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 26675,
+      "sha256": "82effa5645c0ddc2fcb6758c07da9c5f1f12b425f3b08d1d2ed91753dbc50478"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1215484,
+      "sha256": "47f0e26b448dbdf199c7fe3b34beb8e39e0b061938827b5bca79fd77ecbfe676"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 26675,
+      "sha256": "82effa5645c0ddc2fcb6758c07da9c5f1f12b425f3b08d1d2ed91753dbc50478"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1215484,
+      "sha256": "8d7441c9da5356551fcf35c955347f43916797f0e9a33623829d94e969cd371e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1459760,
+      "sha256": "6f458b1350e9248afd32b28e8c4d337ad074929154bf1a76234dcbfe370c436b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 32244,
+      "sha256": "0bce9c47b90f0955ec888c2b4d38272f9e4608fdd0ea6a1a59faa77143924554"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16898,
+      "sha256": "0a74419ae7c6bcc479aeb464a549d3a4771a69e2724899b3d803edeec1c5f581"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1526016,
+      "sha256": "1be9f3b7435868253dc5fa1366dc2f89ce015d88d365db9007cada83f148cd53"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 26569,
+      "sha256": "0399e967e52d74ba7dada0b7499eaa84b865ed127b16f4e52506efdd50616b46"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1270684,
+      "sha256": "0deceff410ebfae7dbd70f70356330c2c70a992c8c948c680f9b71bcf00ee752"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 26569,
+      "sha256": "0399e967e52d74ba7dada0b7499eaa84b865ed127b16f4e52506efdd50616b46"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1270684,
+      "sha256": "897ac9f0c4fa7e6f1c2b285f8a112ee4d3e167a946521d7e7c6a570d3d1864e6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1526000,
+      "sha256": "b8665a4da4219fde5c1cfbbae99b16eefd7858fee5c37187bda725743ae46d98"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 35991,
+      "sha256": "f3190923145585b5c96933fcb557e1edbcfe380c10525269d504ff32debe72e2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16967,
+      "sha256": "615b2347e850eef6df69bd455eb4a0c851cd4f7476010e077ae8d67b99b59574"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1655856,
+      "sha256": "aed25def17b460c3b985524b5053a75ec98026b683249ef48abe27451d715b93"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 27089,
+      "sha256": "da8d1f1a003b3d59c88b9674b48d10cd4e1f3a1963f3d6c346beab9013df0ec6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1378884,
+      "sha256": "4367772c54095f1a0913bafe9f9b11b8ac4b2c4fad87316428cd43c5ecfb640f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 27089,
+      "sha256": "da8d1f1a003b3d59c88b9674b48d10cd4e1f3a1963f3d6c346beab9013df0ec6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1378884,
+      "sha256": "e6b12e87c19aea176be8621b64d716fbceeb5cd99e77d3abe16ad4bf8d06ea58"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1655840,
+      "sha256": "5a2be30eab85b0992cf4b2e50584ca6f1454d594e9e194c2a9d4f8a2101a56b6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 37249,
+      "sha256": "576ff5322e72b164f627efb1c09773b0194b855d686e9d607e62a445b8da7c06"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 17511,
+      "sha256": "2874aeba664b97d667e499758b206e460bcc047f62fb43190bc2f05ccf1c3337"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1414888,
+      "sha256": "8304c226707a7f28fbe2b0acfe7c6b7f6d213533c7875ebae82252f77820eed2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22602,
+      "sha256": "5ef7042f0ba99a233c86b6f0b1e750d596678fe2fc5ab5b74207e5790f8a17f2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1178084,
+      "sha256": "423770769449b09a8b8266ec725b289132d126c301be26931ca622902ab9a7d2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22602,
+      "sha256": "5ef7042f0ba99a233c86b6f0b1e750d596678fe2fc5ab5b74207e5790f8a17f2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1178084,
+      "sha256": "cc0827b6ed7eb0b48e95383894d48214c7a2a4f1d2db6cf57f5366df8c2bc17e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1414856,
+      "sha256": "d9079c6c061abf570c0b2682247ca5977e47abb168a3cc25bd293c481c10b732"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 29024,
+      "sha256": "59da61ea6adcee3012430e8de910e598add8cf2b8e2f7b68ec5b7fe22caa5e56"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 17521,
+      "sha256": "89bac5b5f9ddfc1b462bb04e5345882e3b6a88c2e3550d64904430eb7f180145"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1312288,
+      "sha256": "4c8cfc01b8d3dbee21d90b20a9b54a69727d0f03e0099987e0aac7dbdc822eff"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 21497,
+      "sha256": "6d331fbe3734763126cf26c3a793f61ada77c9a8b082e79bde11e578c151d5ab"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1092584,
+      "sha256": "8f1ed41ac13b95525a13bb2fe7c4bc43df678e6de0008179ffc82a47895ca65a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 21497,
+      "sha256": "6d331fbe3734763126cf26c3a793f61ada77c9a8b082e79bde11e578c151d5ab"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1092584,
+      "sha256": "808907baa4f076aa053dc8a3d8e1ea6461927305f0346aa61c1167ccd630dd97"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1312260,
+      "sha256": "b133d8efbabe5ace6bac436dc216fc73f96d9dde57aa59e929076b929af1e9be"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 24089,
+      "sha256": "14fb82e6c5a079b119c85303765bcbc776d89d4c3f5c3d1d157dc2ace94b83c4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16797,
+      "sha256": "27f7308e9d698e8f08fea3893e37a0d8cd3ece1a1df08f378c31700b20ad3676"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1311568,
+      "sha256": "4f607a5859be6428240e4a74aa055fe518974a0366920655a429e452215cff70"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22999,
+      "sha256": "b7e877f1ca75b704409f49d9f02b170e3f1428f3fce761d1e7026c94a72b2026"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1091984,
+      "sha256": "ce2e324bc561d3e154b4afd708fbfe0cc251182ec101fa010ebc5f054968cebf"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22999,
+      "sha256": "b7e877f1ca75b704409f49d9f02b170e3f1428f3fce761d1e7026c94a72b2026"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1091984,
+      "sha256": "e97cb6d6001182513b3779da70c493d4c3ca9ae7ba300c5d2dcdf30befc561af"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1311520,
+      "sha256": "71200872d1acc07e00c2d2fb70268be3f4ea755ab94bbc5bb6143ac3ec83c220"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 26642,
+      "sha256": "fdced415e40bd8dfc7e4461c5161b963aec1678f691103bcecd4b6901d1fca52"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16800,
+      "sha256": "deb1fab4821954715083a5e7238e55e9dd54c6eec7d4bb5fc14920b5d7bbdb01"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1306648,
+      "sha256": "bbf857caa3d8e5a5cafcd0172a169780555befcfed4f8028c36e68e8d1bcc3a4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22349,
+      "sha256": "4650f737d72697fbfb276ad9d225a4d82aa7107b1c70f7a037d2e11391bdf6f3"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1087884,
+      "sha256": "95d8226465be036e0f4cf82c8fd4d85956982038c6890591630e235a4944f898"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22349,
+      "sha256": "4650f737d72697fbfb276ad9d225a4d82aa7107b1c70f7a037d2e11391bdf6f3"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1087884,
+      "sha256": "ff901d31ef2006062f1a182d2191ad68d28743a75813a5ef9f0ef037883f401c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1306600,
+      "sha256": "c8f54854a9262049e5026d4e0847b1272605ebe42bfcccab1ba7c0d254ed1995"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 24049,
+      "sha256": "8f42ce63499de81f565f921c95f45d19e4e6dbe6bbf1aa55a6eeafa5524952ba"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16719,
+      "sha256": "e71417c25451780c94b3895a1b3207e9a6392c112b1bbe3ffd87f5a6781bebc3"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1326088,
+      "sha256": "37358c0e5d25e7c1cacc3f2d0b130ae93b835284c2576481409467472a34f94d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 25911,
+      "sha256": "53737c9a3c9096f3955e40c0389f15a2872b433ac571a4ce49a84ee7b02d076a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1104084,
+      "sha256": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 25911,
+      "sha256": "53737c9a3c9096f3955e40c0389f15a2872b433ac571a4ce49a84ee7b02d076a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1104084,
+      "sha256": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1326020,
+      "sha256": "40671e7cfa3e9c97d8fc836b1f767ecf89d0d632590e24f685961052f08bce40"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 24142,
+      "sha256": "9c78bcf464e7405d9f62ee4e14191e9d2484905e903cce1ecfb683ff067443bb"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 18996,
+      "sha256": "e96dc290e7199d1c26203a91f37f92b35973fe953a6084a8a23ae0a5b59cf90e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1377092,
+      "sha256": "840b08c9712f90e1fc8aae2cec45e9d6a9a0d05320795ebe3ac7c3bd5a0b1385"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 15986,
+      "sha256": "934fba9d5f85588ca81c167caf5dd33a81b8dd78ac65131faa036a6de87bd265"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1146584,
+      "sha256": "c528f3ade174f5dcf3a73e05c7ee06d8a2f95ff6ccb4fc2230808347c991fb4e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 15986,
+      "sha256": "934fba9d5f85588ca81c167caf5dd33a81b8dd78ac65131faa036a6de87bd265"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1146584,
+      "sha256": "4144c5c3b57214a100857afdd12606f3963fc2d2882f2a7a108218327081e6fe"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1377020,
+      "sha256": "ae5d4e3f4fadcbb6d350c0034209aa3dd541fd385347bd9f951cbd34453d4c48"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 17308,
+      "sha256": "b426fa2a65835538c73bba847d227dcc6d1d56d3bf274c25bc386d9f7d439e82"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16817,
+      "sha256": "28c6c8846438b917c14c4308aeb1dbb6321db169d1652e94f4d70ae16033d6d8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1313732,
+      "sha256": "96534f2eb60bc2a7a8a6afd9617a70b031b76c8ac43b7b237e99f044eea324c8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 16330,
+      "sha256": "bcfcb704759d044ce884fbec729305f74c6dac42d2aed9e4a1aa7cc0bb6c9aca"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1093784,
+      "sha256": "ea5ce58d31859ac1097106e208f66cf2fe668971d990ea271fb0b9ea1c7626ca"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 16330,
+      "sha256": "bcfcb704759d044ce884fbec729305f74c6dac42d2aed9e4a1aa7cc0bb6c9aca"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1093784,
+      "sha256": "696785cdaed16e42d2c8d9f142afbd457a9f26d517cdc92485bf6819cd624821"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1313720,
+      "sha256": "b9ddbce155c0e850fb942d58bef6e9be949621c1b3ead97ec37ce1804ecbb4de"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 15381,
+      "sha256": "aa557ba0eca3549950a5a85c012c48d9de3fd73639a188c43dfec2e6e6b6cfac"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16782,
+      "sha256": "561c47cc0c660c96cf7f372b7a5bab38097b91cdc2cb82fb8e5902fcec952b93"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1299448,
+      "sha256": "27e05fe59eae823ef12c84fcf3b111c338488337c7975aa766e1f1735f2e6efa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22382,
+      "sha256": "99980f105bbec0cbf5a421265964652d474a348ad6913109d5423513df3ced60"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1081884,
+      "sha256": "946c173ec5a9fed5dbbfd3d78fcc3e13d298940d0d1285469dbc57c8c7b5d386"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22382,
+      "sha256": "99980f105bbec0cbf5a421265964652d474a348ad6913109d5423513df3ced60"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1081884,
+      "sha256": "a72cdaf78cec053b4a1e81c6937441f9d9c78bd748974ccc61b0dbc4c3be3c5b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1299420,
+      "sha256": "0cfd0a7ffd87803062212a96be3b295733c31cde2503f9692167799b4441f509"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 23599,
+      "sha256": "393f2757893fb41c0ad8ed62a0af9d07efb33d29e94d94c6a5b37b6a6c14f4bf"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16807,
+      "sha256": "82199095ea4b8d4c3f9fd29abb5f1ce1ea45c54d9dc978b07bbe4881c3a41586"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1381296,
+      "sha256": "32b7ddc8b0726a86586892851736884d94dc83f7748d0af950424be7b1743cf6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 25312,
+      "sha256": "9bce91075c5087b0e1bcf8ac358d18afdf6c6045c7734e0f10258c1777eb9462"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1150084,
+      "sha256": "b3c90248b064e5c9847f590165e4d6b2fca0f82968a374b011ed3ea24f05f1e5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 25312,
+      "sha256": "9bce91075c5087b0e1bcf8ac358d18afdf6c6045c7734e0f10258c1777eb9462"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1150084,
+      "sha256": "d10bf33dc5eda52588f0d88194f9ee890cb9c0f69e97b9d701e43dd55d9d68f7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1381280,
+      "sha256": "9668fe3c95bdd4f616dbdf51994ea66a6fd62e5ef2fca479462566ef1680c4d0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 29632,
+      "sha256": "9c40759a3384f7e0ec108da17767241f1ca73b9b8d11444894dbdd187fd79292"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16353,
+      "sha256": "ee7b553442d759c63cc28dc9262e5219916afcb0760abcff9549828617bc614f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1532136,
+      "sha256": "d03dc065baac102264a7853d6417af196f7f960d30ebfcb6d1dcdb6eb7fad2ac"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 24707,
+      "sha256": "92a4471576ed15a49c7ff69be4914310c1ccbcd71d6e4c419fcde60e0012b3a0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1275784,
+      "sha256": "e6412ce3762198d3c60cf684e45f8087082fe493ae7ea44ea19af442e64fc41c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 24707,
+      "sha256": "92a4471576ed15a49c7ff69be4914310c1ccbcd71d6e4c419fcde60e0012b3a0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1275784,
+      "sha256": "c742c35e5e4199fdae3c2347d0324dafc00ba47c098537ded687051438aaf1a7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1532100,
+      "sha256": "af572c3155acd7129d6864de940822995a5ec99e39bebba23aa8d82b9daa22bc"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 36017,
+      "sha256": "7cdd3da838701a040fae7c629ad062a682685e9609214dc4467ab84b7e91ec84"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16877,
+      "sha256": "e5d7929cc7c496c143aa0a34086940854135694f1aaa28cf8d97f90232978cd9"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 2249620,
+      "sha256": "55d6d898895c5e13f64d98518812ae1678e0b4be8fdfe90bedf1f6f74cd7c5c0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 25781,
+      "sha256": "e6fad487aeb33429252e2e46ac1063b211c58cefcff5b01218c6deb568a68765"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1873684,
+      "sha256": "9a2a60154f6810be2a09a698bb8767f024685179c5934b22daf7efc08d200aaa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 25781,
+      "sha256": "e6fad487aeb33429252e2e46ac1063b211c58cefcff5b01218c6deb568a68765"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1873684,
+      "sha256": "3491ad7eab4ec5dcf7ea4df6cf51707ca7664a1c6ec0ae6f319ea29476d2b378"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 2249604,
+      "sha256": "a6501d8f658fcb116ba21fce15593298740bb54e5e322dc4eec2213908d425b9"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 35688,
+      "sha256": "3472d9476f941279ebf061938c195beb2a568d29d8a7efbb3e6e8cb2383e857a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16418,
+      "sha256": "f9f2bda7071ebc4894b7f773c37c0c250b73cb7106cb5964a8f0d97450d5ca80"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 3055660,
+      "sha256": "e75511a1a3e78a4176a9958613b6519fedd92f9ef49bfaa8e1d3808fbdedc842"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 25133,
+      "sha256": "d0fc482347a804d30f95cb82bfc9364e344244fa637715348b4263e53c1d9928"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 2545384,
+      "sha256": "8ffe6ada1303fc969dd203b81cd25f412876a3fd32c25f9b745e147f49a7f3d7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 25133,
+      "sha256": "d0fc482347a804d30f95cb82bfc9364e344244fa637715348b4263e53c1d9928"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 2545384,
+      "sha256": "f6d41dd6023273fdf6a3ac6989635a5c75f20609876632ae9f3be29539b22f6b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 3055628,
+      "sha256": "711c0dc325375979477445786de1bfb83bb166ca7800f792f53e04826165c9ac"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 35308,
+      "sha256": "39ce30bc853921643377d746149e2aeefe49814b1317ebdd1cbaaf3dfae31089"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16770,
+      "sha256": "e7835c171640f0e1e17306e99cc7877b33f8150767faeef0650f738b9e8a3fa4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1451972,
+      "sha256": "3c85aa362e6506367142bd7450d6ec79fe92c3c498bb3585a773c815f81a0dc0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 28692,
+      "sha256": "418283bfe974dee3ea1d0f2cd665b233080e4a8faee09ba99429a2b16780d39a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1208984,
+      "sha256": "d80de995bf7557cafe4fbe31d8250d2124d020884c7763e46fea1c703dec3287"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 28692,
+      "sha256": "418283bfe974dee3ea1d0f2cd665b233080e4a8faee09ba99429a2b16780d39a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1208984,
+      "sha256": "ec8eecbfa124acac90bac2b6a666bb79f8aa0868e10ef44265deb2bd9f19b4a6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1451936,
+      "sha256": "9b2536815b0bad9c581c61207ff0a4a1b84635172b17d4c38677afd2169da1d3"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 38274,
+      "sha256": "916351dc9ad26005ef7592c1a28ed4191db307f2954ddf4325846ff1f7ec1e26"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16776,
+      "sha256": "3dff8f845cbde4211ad5f2e6d736be56f231eb12d82dbb74cec7667b3dbebcac"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1300652,
+      "sha256": "ad11ad0819d582f0f0eff14caa282c501395401091e9aef94a14acc89f508531"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 14969,
+      "sha256": "07027fbce57046dbbc24b59a6e8403358aba62aae755b0bb3c888670138fb5f0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1082884,
+      "sha256": "b4926faee4a336f2e6713e55229ef0afe01fd38267bb031c8ad574e95e18b6bf"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 14969,
+      "sha256": "07027fbce57046dbbc24b59a6e8403358aba62aae755b0bb3c888670138fb5f0"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1082884,
+      "sha256": "f34d0caa44a54b1a9aa7ddbb060925ace1a0fd2dfe4751b6163d7187e98077f2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1300604,
+      "sha256": "8e9a98f4a17e25566a7f905508bd37fd85034e8153eacf69bd9a73bb8066ae2b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 20833,
+      "sha256": "6eb8ba17cbbc330b05e7aa41be6d8b44ce718b76ee06ccd9414281bd48388920"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 16722,
+      "sha256": "2fbd9c5e17d6b806f60cbfa94b36bf0e7153933b372d3bd92977109d7d4cbc74"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1297648,
+      "sha256": "cc02dcf86117c314084b66f43eb998b98a17d1e3edf88e6efc031c5cdcd2ef5d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22445,
+      "sha256": "577f03349aa9a6adf9603c1d2c7e6c564887ea8b84ca929896b16a0d104ea741"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1080384,
+      "sha256": "e851eabd3c671daf028dff06004d697350b2809d2be3880a20689f43f5b3d694"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22445,
+      "sha256": "577f03349aa9a6adf9603c1d2c7e6c564887ea8b84ca929896b16a0d104ea741"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+      "size_bytes": 1080384,
+      "sha256": "3ad66fbc05c120ed70c0cc1400bbca1041c61bd0e3938fdf1d0b0d6746bf946c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1297596,
+      "sha256": "ea2696ea5e8e9a98a6329259173a2152af1d4b331c72385b240c0675d80caea4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 23584,
+      "sha256": "7c6400dfdd74279d2b153700f78737793bb5fa883433eb8893b8a23922921a33"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15506,
+      "sha256": "593f3fdc43d8ad0f01867c20cc51399e2d23885eaa634b0d82d97c497009fd6f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1284816,
+      "sha256": "86f3ecca9f9c130d19b22918e3834e062d3622c5a0e60f036c67f97e32b936d8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 13350,
+      "sha256": "3b7fd70c46e6d8f7f88dd925c5ca5a4c49f194f3e23440bab7f74d5215f42bd5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1069684,
+      "sha256": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 13350,
+      "sha256": "3b7fd70c46e6d8f7f88dd925c5ca5a4c49f194f3e23440bab7f74d5215f42bd5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1069684,
+      "sha256": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1284744,
+      "sha256": "1dbd1d0d8370dc855d7e6d14230246fee63b540be7d5c33d2d3b47e90e44f4f8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 24825,
+      "sha256": "8b0274d1c11f3b65122d65996dc3ff6168cf54e82a48cf66789e61379980dac7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15479,
+      "sha256": "4b6d3caae68baa3aaafc11a775200a307e272af6be78ebd6ea857f950cae2695"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1912772,
+      "sha256": "92e16ab925fbd3a6fff57e5d2c29328bae367fb9857d60f999a1be91d01ff9d2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 13375,
+      "sha256": "51224e86b6f689097d917109f048c6697738e42d3d46c5a75aa87f23278145be"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1592984,
+      "sha256": "eb09a866d199e7136a15e186d9a846f3960090c21a4520a78e33fdb5a17c073a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 13375,
+      "sha256": "51224e86b6f689097d917109f048c6697738e42d3d46c5a75aa87f23278145be"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1592984,
+      "sha256": "a6f16cf62d89f99f75829521441f67d834c1740d9fcc287999a86998faffa8d1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1912704,
+      "sha256": "af9e7c5dac923af6dac6021280eb4e3481ac49aa9b140a2f037b16d3f2598881"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 22494,
+      "sha256": "712ed6d75f35bdaf28ef8a8b18e287534c7fd40c1e934d28a77e0c996b19ae45"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15531,
+      "sha256": "85119e3dc000d99ff4cadc952e8a36dcefc09844f19989f678a4838b559df9ba"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1912772,
+      "sha256": "3316500f02dd8a09daf8a5b39e022fdff5896943eedf1626a79dcfcf656589b3"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 13158,
+      "sha256": "474dd186f3b48d92987967c1a9d3d1ceae5ba1b5398e105d78622c841ce87fbd"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1592984,
+      "sha256": "d654d880058175640be0c3ce08b0c2b70227eee2441845072a5391b3f920bc23"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 13158,
+      "sha256": "474dd186f3b48d92987967c1a9d3d1ceae5ba1b5398e105d78622c841ce87fbd"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1592984,
+      "sha256": "6a9bcf8e9ea0f81d688a7dad2722361bb02d75bb6b4cf5da8a61740f7e157858"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1912700,
+      "sha256": "aa9a275f6aed8776238202dc34177653107314b1177262cf22ac101ba60778ab"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 21135,
+      "sha256": "b68aae54dbf3900f3af4d4d531da47ecb61cf14764fc197d6c55415c348ae795"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15481,
+      "sha256": "24cb678411184bb70446e32496c8aa83b96cf2b6ddbf6cc92a6a312a8d24bd4b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1948772,
+      "sha256": "ca98b750f28b4469614c48e05dc609bb41c7bfe0efa9c22cc83207e861c063db"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 14755,
+      "sha256": "6a1dc672cb8176c404b0ed50a1bd4960ba8bd2a1d2423b8da096ae9c97c85c86"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1622984,
+      "sha256": "ab8c3841d3d3afefbe502750afd4a09babbc41a8d461ae6f3dcafa329932a6bc"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 14755,
+      "sha256": "6a1dc672cb8176c404b0ed50a1bd4960ba8bd2a1d2423b8da096ae9c97c85c86"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1622984,
+      "sha256": "45e8a9ddeb970239955417f385cdf2153e46fe2ed74f1cbca9f5b0dbb698fe9b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1948704,
+      "sha256": "71526cfc4daf623a1271e8734a4f9b97f43db2fdf256b2728ffb75dc92e81433"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 24939,
+      "sha256": "3911057267c51ea8404fd457d2d9276c50c6a5ff108e047bf15c5358b2323ac8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15365,
+      "sha256": "ff84caf205b2a8837944e50cf45332415c0632223e8a96c63e43365ed580f73a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1330060,
+      "sha256": "dc3fec6462c6add0f8501e9c4c9ae2be904f63bb2f6bfda66f135396b31c03aa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 16511,
+      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1107384,
+      "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 16511,
+      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1107384,
+      "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1329988,
+      "sha256": "21b568ef10b09297611c94ea1affb320125790b5d36f19513f3b42ec78e01ad9"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 21092,
+      "sha256": "f2002079075abd8c91f82c22aecf77f2c9393c7774a7014f052cb92e089e6c30"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15360,
+      "sha256": "788643fa4f60ca93b7c0306d5491f3c09ca8470b512d9c16c452a716bae9d5c8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1330056,
+      "sha256": "08ab9ca6685c4831847fb83043d8c8288ad9de91627502332545fcc38ca9b6a6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 16511,
+      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1107384,
+      "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 16511,
+      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1107384,
+      "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1329988,
+      "sha256": "7ed5a72f04d630ae616d62bd90b7afc2a9a3f34c98148f3cd26bc850f120d6b4"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 21092,
+      "sha256": "f2002079075abd8c91f82c22aecf77f2c9393c7774a7014f052cb92e089e6c30"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15409,
+      "sha256": "83968e542242a9b712110fa0012041abfb4496af4f417a1878722fc1c4fa79e6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 5773792,
+      "sha256": "d08e2b4a50ee7d2b95f95ad3102fe3f73945945db3f626b80b49ba9f10bf9539"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 22278,
+      "sha256": "a245529a568719c922b8e2f8c18c55e02d326c5f7079829ebd2501b1be8c7f3d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 4810484,
+      "sha256": "369582363dc73729bbf8212a979d58655938aae8cf0ddb7a6a30e88eebf54a04"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 22278,
+      "sha256": "a245529a568719c922b8e2f8c18c55e02d326c5f7079829ebd2501b1be8c7f3d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 4803784,
+      "sha256": "09d22b954a4560004e761499c1c4beee746a74f4d791706a496b7ae75972e59b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 5765716,
+      "sha256": "f59c186c329bfe48894b801c3677cf6bfa3046d14dfaea61659f3d9ab97c97d5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 28722,
+      "sha256": "939cdc3b9b13a8cbca2fc076ca4a0e1bbc38758948167e4347047feceb90ea29"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15408,
+      "sha256": "f30134bdb6fe7f4a625276e023f2cd16e7534374f3046ea6bcdd659e020bd62f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1256256,
+      "sha256": "7eaec1f8f349ea8f9119401ccb50b94055659a22b763d71c5df380d248898fe8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 8715,
+      "sha256": "c37709375403690db5e41f6dde3b936d30ae34139754293c0143b075564390bf"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1045884,
+      "sha256": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 8715,
+      "sha256": "c37709375403690db5e41f6dde3b936d30ae34139754293c0143b075564390bf"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1045884,
+      "sha256": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1256184,
+      "sha256": "c8b0e24de2cabb75061a4fa26060845b617d0bb72ec1cc27bf8e724704c0acc8"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 21381,
+      "sha256": "7f4d8846e4cbf4a657bd998794e24237be8c3c20b853457ec144928a5fde9285"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15626,
+      "sha256": "24a3bd523085b12b41c6ecb8f58e3ed6a0410ed2f7f83f2b3bd43845aeefc3cc"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 2070104,
+      "sha256": "8f1748f46914035a608b41f2f094a4b10be941d45f5567d6918f89f131144169"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 18756,
+      "sha256": "1acf0e57a39b6e218df7bffe03bd91a15d01483b0357f277382fbeeea9ea1ce1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1724084,
+      "sha256": "a75dfc81f2022c9dd62e335aae974107e2c998eee5fd6d53e5b32f8bb4959a97"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 18756,
+      "sha256": "1acf0e57a39b6e218df7bffe03bd91a15d01483b0357f277382fbeeea9ea1ce1"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1723984,
+      "sha256": "7ee97ec3fc8cc91c593a8fb139d528ba6a2f589a3d506af6f537669c7f94bacd"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 2069952,
+      "sha256": "8ee4a47aa37bf9ad742c2e39627faeb0f59fae4e4556e9f771432ba6ac1bc4a5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 27439,
+      "sha256": "bd9c6a034631894759d18733060240489fc88d127093b49920f4d0dbb139e834"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 15636,
+      "sha256": "938667e5b6770a4e5023330bddecf89cddd49918d2fd3afc17a8cc0e6cc6a4bb"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 2070828,
+      "sha256": "a7e6f3e078e158281e0a3a2da855bde08513e7d38aed4a6329b5b2f735e8d857"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 16297,
+      "sha256": "e8801b96c98fa0a134b4ff5f421e8ba13c0289df0f49b6cc6506453017f374a7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1724684,
+      "sha256": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 16297,
+      "sha256": "e8801b96c98fa0a134b4ff5f421e8ba13c0289df0f49b6cc6506453017f374a7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1724684,
+      "sha256": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 2070772,
+      "sha256": "4edb8fd341e49e5fce409c88ef1ce6953f753cb2923cb3163cb4f7e96f95b040"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 18014,
+      "sha256": "79efddaf47136d19a8870d25d0523598ed5d966c19bd653c0891f72bc2377a25"
     },
     {
       "path": "docs/gallery/dioramas.css",
@@ -3398,8 +6448,8 @@
     },
     {
       "path": "docs/gallery/index.html",
-      "size_bytes": 5990,
-      "sha256": "19fc0622206226fd6c894414be99119a9157a0d6a9f3aeaa4b1695d2b1e363cb"
+      "size_bytes": 6735,
+      "sha256": "7624304747e5a2e6c216b2b847ede1ec337908a820eb8062b88eb9089c4cf211"
     },
     {
       "path": "docs/gallery/keepers.html",
@@ -3538,8 +6588,8 @@
     },
     {
       "path": "docs/gallery/pegstr.html",
-      "size_bytes": 6410,
-      "sha256": "265d0e7fa7bb28907800e11cb4f6d5789323a4e9e60525d0c67bdb27838fc659"
+      "size_bytes": 6877,
+      "sha256": "c5be2cd569de64aa348c701e92da13bec6604e66d13cabc7daf5f939ac0c755d"
     },
     {
       "path": "docs/gallery/pegstr.js",
@@ -4408,8 +7458,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 71298,
-      "sha256": "8277362401a897a20728fb8b318cdcb265882c1c6ef0283e5d966386eca3caa8"
+      "size_bytes": 99790,
+      "sha256": "cdb10c06679c32f3f4721589182ee1ac5c0da02231d1ff2d6306c9d641793b71"
     },
     {
       "path": "docs/gallery/research.html",
@@ -4423,8 +7473,8 @@
     },
     {
       "path": "docs/gallery/screwdriver-wip/index.html",
-      "size_bytes": 8085,
-      "sha256": "662bdfdfe6e99b9807b5d4770c7db92916798225d72dc39376c6f1f29a38904f"
+      "size_bytes": 8578,
+      "sha256": "30c06e3245e51af7559ef05179c31cbdbc23205d6c00094eca9dd8b35a2cbcc7"
     },
     {
       "path": "docs/gallery/screwdrivers-b/SD01/part-sd01__v1__a-loaded-review.png",
@@ -5818,8 +8868,8 @@
     },
     {
       "path": "docs/gallery/shaft-holders/index.html",
-      "size_bytes": 18601,
-      "sha256": "6c57f45585b3a2e5583af59dcba759ce5e5f67ec28ece4f20285669fa0cc6054"
+      "size_bytes": 19077,
+      "sha256": "b79dc2d2dabf95bbe2ea16bd80daa5e62bb7f566f05e2bcf71b230167673a2a1"
     },
     {
       "path": "docs/gallery/shaft-holders/magnetic-shaft-holders__v1__README.md",
@@ -6243,8 +9293,8 @@
     },
     {
       "path": "docs/gallery/shaft-sampler/recoverable/index.html",
-      "size_bytes": 10610,
-      "sha256": "d505de9023c959e66cd945c969d6d2cad974f001708ab6d631d369885972b49a"
+      "size_bytes": 11090,
+      "sha256": "a7c2f07876349178407f60e559183809f569c7f09906daf9187ca41ee910df2a"
     },
     {
       "path": "docs/gallery/shaft-sampler/recoverable/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H-seats.png",
@@ -6473,8 +9523,8 @@
     },
     {
       "path": "docs/gallery/solder-modules/index.html",
-      "size_bytes": 15227,
-      "sha256": "601c6317e2243dd08969dd277088cd0ac6f6f55b9ddb7ec0dde0a59affac27c2"
+      "size_bytes": 15705,
+      "sha256": "c966f11d51c0825f65fecb293241108e2016452938025f0781397b838085cc25"
     },
     {
       "path": "docs/gallery/solder-modules/loaded.glb",
@@ -6678,8 +9728,8 @@
     },
     {
       "path": "docs/gallery/tweezers/index.html",
-      "size_bytes": 8444,
-      "sha256": "ff7fe80a2abc05a101072033e6b0777d2de82cef623949297a052b729b183cd7"
+      "size_bytes": 8913,
+      "sha256": "de2c3f7e377e1c0892f3bd982b6f8988338d367c748ad6c6c8ed9ddc6889b290"
     },
     {
       "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__README.txt",
@@ -7008,8 +10058,8 @@
     },
     {
       "path": "docs/gallery/workshop-2026-09-16/index.html",
-      "size_bytes": 10725,
-      "sha256": "0f5d2abd1d4e11e437f06cc9ea4472b532f839c78cfff65fda9f46dc1be951cd"
+      "size_bytes": 11192,
+      "sha256": "e0d09a4898a99603739022a6c09ff95ec0e829f92634a4484ce0460827afe9f8"
     },
     {
       "path": "docs/gallery/workshop-2026-09-16/report.md",
@@ -7168,8 +10218,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 1595,
-      "sha256": "cd2f45242eb77bfff58e45c86d4594a740a3d4d2aeb4f590e458b54edbf90217"
+      "size_bytes": 3066,
+      "sha256": "22ac4b7c3ce2cbf92004ff700072313bab1c11b0ca4388a2a2f1ab79e00540e5"
     },
     {
       "path": "publication/browser-verification.json",
@@ -7177,9 +10227,19 @@
       "sha256": "559ea26208f3900d9b97778ed330261bb5d60007053fe41f18b521b1518553ec"
     },
     {
+      "path": "publication/build_current_pegs.py",
+      "size_bytes": 10463,
+      "sha256": "baaa1bc5c73e0875df72d047b521b7e917e146954b718a4ddac76251d9662df3"
+    },
+    {
       "path": "publication/build_tweezers_v10.py",
       "size_bytes": 14574,
       "sha256": "f15417a30dcdf8160c61fc08769771652f33a83afb3e6349cdaaf5e35322e570"
+    },
+    {
+      "path": "publication/current-pegs-v1-additions.json",
+      "size_bytes": 77477,
+      "sha256": "c08206ac02ca2ca5b069ada42fb54cabba6af65b8f954ca44c35ea8b5c29c9d4"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -7242,14 +10302,19 @@
       "sha256": "7e69fa6c88f70c341afbaa9946de9a7ed0c26ed88a0b2a3ccfc121fe89b38a93"
     },
     {
+      "path": "publication/prepare_current_pegs_media.py",
+      "size_bytes": 2651,
+      "sha256": "8417f912c1205f2fc102b6ccd77f72b7c77cdcce228321ced6582d8187ed5d83"
+    },
+    {
       "path": "publication/release-assets.json",
-      "size_bytes": 43137,
-      "sha256": "14d418860890bcbd61b0aca1c9bf1dca37c8ee3e787521352ac503da684b54ba"
+      "size_bytes": 64858,
+      "sha256": "7ceac95447eeceafae0c313912f04230f087041db817739527ecdca23556bc37"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 71777,
-      "sha256": "60d5181d457e10459096629bed5b2c927a50bbd2832a79889aa343c0a785071e"
+      "size_bytes": 100725,
+      "sha256": "3eefd58df61ff38c1b599d32d573b1c7b47d91654427881327d8dea6cd9211d5"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -7442,9 +10507,14 @@
       "sha256": "8df79ae107d7bfbbda8388145ee0ba079aeda67871997589599655b70081ba48"
     },
     {
+      "path": "tools/check_current_pegs.py",
+      "size_bytes": 3151,
+      "sha256": "ad36391731c0b65ea11dac03950024321845414b35453d746ca0fc0696f93e9b"
+    },
+    {
       "path": "tools/check_gallery.py",
-      "size_bytes": 4279,
-      "sha256": "cd59d142a59ad88f7f2555bed2565dbfa8893770147f879525d20cd68f067831"
+      "size_bytes": 4412,
+      "sha256": "07c6364edb5419421c28ac1457b6bf3086f3dc008c529e98e0ae62de80dc9a66"
     },
     {
       "path": "tools/check_round_toolpaths.py",

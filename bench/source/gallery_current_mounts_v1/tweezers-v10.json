@@ -1,0 +1,15 @@
+{
+  "id": "tweezers-v10",
+  "family": "solder",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__installed.step",
+  "input_sha256": "f30dcc46cb17a62628ba6cc2f083f2a5855ea75db36fb373115c0819fd32e8a6",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/tweezers-v10-dev-2026-10-01/part-solder-modules-tweezers__v10__cad-source-and-review.zip",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "right-cheek",
+  "name": "Tweezer holder v10",
+  "source_archive_sha256": "7f1e14bbd63f248c6840a96c2bec0c4cd52a96e8bbb301fd350eb18f8f2a1582",
+  "source_member": "exports/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__installed.step"
+}

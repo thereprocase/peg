@@ -1,0 +1,33 @@
+{
+  "id": "P02",
+  "family": "pegstr",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/P02-body-y0151.stl",
+  "input_sha256": "b1aba283dd3274e25adebe595045149487b1c39829f211542f083b9211dd1158",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-pegstr-p02__v2__pegstr-p02-four-square-seats__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "inverted-flat-top",
+  "hoop_row": 1,
+  "name": "Four square seats",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  },
+  "original_step": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p02__v2__pegstr-p02-four-square-seats__installed__fit-9c7be3cc78.step",
+  "original_step_sha256": "6a910dabaa904f49a16e3a094cbf9711f0f38969ce4da2091b169a751f1c71b4",
+  "original_mesh": "/home/repro/code/peg-gallery-current-mounts/docs/gallery/pegstr/P02/model.stl",
+  "original_mesh_sha256": "702031da60d14faf8a876fcdb01e55d7cdd30f12b23f27e5f632ae8740d7653c",
+  "preparation": "Historical faceted STEP Boolean returns empty at Y=.15 and invalid solid at .151. Exact published installed STL clipped by manifold at .151; one micron of full back wall restored by the receiver. No seat remeshing or smoothing.",
+  "preparation_source_sha256": "aca63d4d8a637c4f38aa6491cd82d95c5e8b84facc7ae7bb553726254fde4539",
+  "level_at_original_z_mm": 5.0,
+  "flat_top_installed_z_mm": 5.6,
+  "body_translation_mm": [
+    0,
+    0,
+    0.6
+  ],
+  "plate_bottom": -32.0
+}

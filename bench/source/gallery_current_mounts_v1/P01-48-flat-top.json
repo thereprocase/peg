@@ -1,0 +1,27 @@
+{
+  "id": "P01-48",
+  "family": "arrays",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p01-48__v-srcc87b0346c1__pegstr-array-p01-48-small-square-seats__installed__fit-9c7be3cc78.step",
+  "input_sha256": "b2dd671985fa0d967b598af2083478ccfc0f745756a51026de46c4015bf5ffec",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-arrays-p01-48__v-srcc87b0346c1__pegstr-array-p01-48-small-square-seats__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -38.099999999999994,
+    38.099999999999994
+  ],
+  "pose": "inverted-flat-top",
+  "hoop_row": 1,
+  "name": "48 small square seats",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  },
+  "level_at_original_z_mm": 5.0,
+  "flat_top_installed_z_mm": 5.6,
+  "body_translation_mm": [
+    0,
+    0,
+    0.6
+  ],
+  "plate_bottom": -32.000000000010914
+}

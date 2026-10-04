@@ -1,0 +1,16 @@
+{
+  "installed": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 234001.01983282497,
+    "sha256": "20e85209dc2f4b91fd7243dfba1f00a2b13f605e75d2c70c0295dbed3e7fa31d"
+  },
+  "print": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 234001.01983276973,
+    "sha256": "5a99c5666b559f39466c42ff0e60aabd158bbb6140aed655811297b25110ac2f"
+  },
+  "pass": true,
+  "scope": "Basic native STEP round-trip validity, not exhaustive BOP qualification."
+}

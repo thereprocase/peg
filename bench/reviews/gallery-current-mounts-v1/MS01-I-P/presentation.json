@@ -1,0 +1,104 @@
+{
+  "id": "MS01-I-P",
+  "input_stl_sha256": {
+    "installed": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+    "print": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960"
+  },
+  "display_transform": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assets": {
+    "installed_glb": "installed.glb",
+    "print_glb": "print.glb",
+    "installed_png": "installed.png",
+    "print_png": "print.png",
+    "preview_png": "installed.png",
+    "rear_png": "rear.png"
+  },
+  "render_input_stl_sha256": {
+    "installed": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+    "print": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960"
+  },
+  "public_notes": {
+    "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+    "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+    "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+    "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+    "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. Recoverable magnet channels and removable spacers are retained; earlier print kits are historical."
+  },
+  "public_name": "Recoverable shaft sampler \u00b7 I\u2013P",
+  "credit": "",
+  "root_mesh_metrics": {
+    "id": "MS01-I-P",
+    "meshes": {
+      "installed": {
+        "sha256": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            -75.19999694824219,
+            -10.789999961853027,
+            -32.53367233276367
+          ],
+          [
+            75.19999694824219,
+            50.31879806518555,
+            11.148968696594238
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            9.999999406318238e-08,
+            1.0000098171758509e-07,
+            1.0000034933455026e-07
+          ],
+          [
+            150.39999389648438,
+            60.7003059387207,
+            40.0
+          ]
+        ]
+      }
+    },
+    "pose_nearest_vertex_max_error_mm": 0.259221636384196,
+    "pose_surface_max_error_mm": 0.0024202910569270973,
+    "broad_front_body_bed_area_mm2": 6030.582368125313,
+    "bed_contact_area_mm2": 6030.582368125313,
+    "body_min_z_above_bed_mm": 1.0000034933455026e-07,
+    "front_body_downfacing_over45_area_mm2": 106.39699157738232,
+    "passed": true
+  }
+}

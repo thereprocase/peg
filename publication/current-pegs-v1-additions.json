@@ -1,0 +1,1690 @@
+{
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "ce2e324bc561d3e154b4afd708fbfe0cc251182ec101fa010ebc5f054968cebf",
+    "bytes": 1091984
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "e97cb6d6001182513b3779da70c493d4c3ca9ae7ba300c5d2dcdf30befc561af",
+    "bytes": 1091984
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "4f607a5859be6428240e4a74aa055fe518974a0366920655a429e452215cff70",
+    "bytes": 1311568
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "71200872d1acc07e00c2d2fb70268be3f4ea755ab94bbc5bb6143ac3ec83c220",
+    "bytes": 1311520
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "b7e877f1ca75b704409f49d9f02b170e3f1428f3fce761d1e7026c94a72b2026",
+    "bytes": 22999
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "fdced415e40bd8dfc7e4461c5161b963aec1678f691103bcecd4b6901d1fca52",
+    "bytes": 26642
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "b7e877f1ca75b704409f49d9f02b170e3f1428f3fce761d1e7026c94a72b2026",
+    "bytes": 22999
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "27f7308e9d698e8f08fea3893e37a0d8cd3ece1a1df08f378c31700b20ad3676",
+    "bytes": 16797
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "a258a7247a49a21ca31e85f29b6610c808c433bf5293588911249407b7912321",
+    "bytes": 786060
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "d5adfa4f9ef39a27b4df7e992ee055577c6a3f5fd8389668e21b5192733a9405",
+    "bytes": 834487
+  },
+  "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "e89da9095b43dcae436228cc4f496d0abdd1a4984ad56e42880f7835fe8a436c",
+    "bytes": 2631652
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "95d8226465be036e0f4cf82c8fd4d85956982038c6890591630e235a4944f898",
+    "bytes": 1087884
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "ff901d31ef2006062f1a182d2191ad68d28743a75813a5ef9f0ef037883f401c",
+    "bytes": 1087884
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "bbf857caa3d8e5a5cafcd0172a169780555befcfed4f8028c36e68e8d1bcc3a4",
+    "bytes": 1306648
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "c8f54854a9262049e5026d4e0847b1272605ebe42bfcccab1ba7c0d254ed1995",
+    "bytes": 1306600
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "4650f737d72697fbfb276ad9d225a4d82aa7107b1c70f7a037d2e11391bdf6f3",
+    "bytes": 22349
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "8f42ce63499de81f565f921c95f45d19e4e6dbe6bbf1aa55a6eeafa5524952ba",
+    "bytes": 24049
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "4650f737d72697fbfb276ad9d225a4d82aa7107b1c70f7a037d2e11391bdf6f3",
+    "bytes": 22349
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "deb1fab4821954715083a5e7238e55e9dd54c6eec7d4bb5fc14920b5d7bbdb01",
+    "bytes": 16800
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "32de33faa993bc3f1b667eba190e9a112a45668d5fff7fa8b8e4ba808c4899ec",
+    "bytes": 761629
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "f6b795e7a1582e85063874ec8f4e609f8c84f8bcc3bbbadd14785e0313ff3ce9",
+    "bytes": 808168
+  },
+  "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "50bfe07ef88b39ed5e72f9ee82853ae62a138bc53272e78cb1f565200fc2fba6",
+    "bytes": 2598409
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909",
+    "bytes": 1104084
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77",
+    "bytes": 1104084
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "37358c0e5d25e7c1cacc3f2d0b130ae93b835284c2576481409467472a34f94d",
+    "bytes": 1326088
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "40671e7cfa3e9c97d8fc836b1f767ecf89d0d632590e24f685961052f08bce40",
+    "bytes": 1326020
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "53737c9a3c9096f3955e40c0389f15a2872b433ac571a4ce49a84ee7b02d076a",
+    "bytes": 25911
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "9c78bcf464e7405d9f62ee4e14191e9d2484905e903cce1ecfb683ff067443bb",
+    "bytes": 24142
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "53737c9a3c9096f3955e40c0389f15a2872b433ac571a4ce49a84ee7b02d076a",
+    "bytes": 25911
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "e71417c25451780c94b3895a1b3207e9a6392c112b1bbe3ffd87f5a6781bebc3",
+    "bytes": 16719
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "0c3f255bd8bf6e2950c4afb7d7cdf8b2541341d972362b900c45c230bf4254f6",
+    "bytes": 980953
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "7f2a204f2a60e769595186d13c967a175de53b3344bc8316f1c2d78c26db4931",
+    "bytes": 1034320
+  },
+  "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "1f5b0ef31cf07e08aa6f6a1f7abaf26e5cf5c41ae1f2dafc139589b4982c2a7d",
+    "bytes": 2821556
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "ea5ce58d31859ac1097106e208f66cf2fe668971d990ea271fb0b9ea1c7626ca",
+    "bytes": 1093784
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "696785cdaed16e42d2c8d9f142afbd457a9f26d517cdc92485bf6819cd624821",
+    "bytes": 1093784
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "96534f2eb60bc2a7a8a6afd9617a70b031b76c8ac43b7b237e99f044eea324c8",
+    "bytes": 1313732
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "b9ddbce155c0e850fb942d58bef6e9be949621c1b3ead97ec37ce1804ecbb4de",
+    "bytes": 1313720
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "bcfcb704759d044ce884fbec729305f74c6dac42d2aed9e4a1aa7cc0bb6c9aca",
+    "bytes": 16330
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "aa557ba0eca3549950a5a85c012c48d9de3fd73639a188c43dfec2e6e6b6cfac",
+    "bytes": 15381
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "bcfcb704759d044ce884fbec729305f74c6dac42d2aed9e4a1aa7cc0bb6c9aca",
+    "bytes": 16330
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "28c6c8846438b917c14c4308aeb1dbb6321db169d1652e94f4d70ae16033d6d8",
+    "bytes": 16817
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "76a4631564fdfdecf3a0d0ca64f4c4531a8ec392280fca783fc133a6ba3bcaa5",
+    "bytes": 651965
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "90ad0a510e563930cf0076f27bb272598fe02aa8e884b33b97a7f70d7b843685",
+    "bytes": 710251
+  },
+  "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "de3995a3aa597e72ad420a165d1c9ed4daf7ff3be8813fde5175d883e946fd16",
+    "bytes": 2525088
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "c528f3ade174f5dcf3a73e05c7ee06d8a2f95ff6ccb4fc2230808347c991fb4e",
+    "bytes": 1146584
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "4144c5c3b57214a100857afdd12606f3963fc2d2882f2a7a108218327081e6fe",
+    "bytes": 1146584
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "840b08c9712f90e1fc8aae2cec45e9d6a9a0d05320795ebe3ac7c3bd5a0b1385",
+    "bytes": 1377092
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "ae5d4e3f4fadcbb6d350c0034209aa3dd541fd385347bd9f951cbd34453d4c48",
+    "bytes": 1377020
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "934fba9d5f85588ca81c167caf5dd33a81b8dd78ac65131faa036a6de87bd265",
+    "bytes": 15986
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "b426fa2a65835538c73bba847d227dcc6d1d56d3bf274c25bc386d9f7d439e82",
+    "bytes": 17308
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "934fba9d5f85588ca81c167caf5dd33a81b8dd78ac65131faa036a6de87bd265",
+    "bytes": 15986
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "e96dc290e7199d1c26203a91f37f92b35973fe953a6084a8a23ae0a5b59cf90e",
+    "bytes": 18996
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8ddaa1ca6f15ede26c8e52358e77bbf352bede11414bd8b36a2919b89b0724bc",
+    "bytes": 1187563
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "e469923be49861106b9423feff7c4b36b09bca4859c03b87e901785c3006975a",
+    "bytes": 1259225
+  },
+  "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "d3ab519f501b06587f34a1289051d18e24fdf5aeaa7a3ce7580483749b8fdc6b",
+    "bytes": 3265104
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "946c173ec5a9fed5dbbfd3d78fcc3e13d298940d0d1285469dbc57c8c7b5d386",
+    "bytes": 1081884
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "a72cdaf78cec053b4a1e81c6937441f9d9c78bd748974ccc61b0dbc4c3be3c5b",
+    "bytes": 1081884
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "27e05fe59eae823ef12c84fcf3b111c338488337c7975aa766e1f1735f2e6efa",
+    "bytes": 1299448
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "0cfd0a7ffd87803062212a96be3b295733c31cde2503f9692167799b4441f509",
+    "bytes": 1299420
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "99980f105bbec0cbf5a421265964652d474a348ad6913109d5423513df3ced60",
+    "bytes": 22382
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "393f2757893fb41c0ad8ed62a0af9d07efb33d29e94d94c6a5b37b6a6c14f4bf",
+    "bytes": 23599
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "99980f105bbec0cbf5a421265964652d474a348ad6913109d5423513df3ced60",
+    "bytes": 22382
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "561c47cc0c660c96cf7f372b7a5bab38097b91cdc2cb82fb8e5902fcec952b93",
+    "bytes": 16782
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8dbf0b11eea11070214849d282d11a9989757143ea88d8808a7f37c7785d5d55",
+    "bytes": 609298
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "0c352842c650b649ccca1fce549b4cab886ac179e1bb568fa63df319eb5fd45e",
+    "bytes": 669008
+  },
+  "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "5fbe32f0a76d4d1efcb77381670a3fb657d2af13afd4ac20d18b8b8520dc0788",
+    "bytes": 2417018
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "b4926faee4a336f2e6713e55229ef0afe01fd38267bb031c8ad574e95e18b6bf",
+    "bytes": 1082884
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "f34d0caa44a54b1a9aa7ddbb060925ace1a0fd2dfe4751b6163d7187e98077f2",
+    "bytes": 1082884
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "ad11ad0819d582f0f0eff14caa282c501395401091e9aef94a14acc89f508531",
+    "bytes": 1300652
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "8e9a98f4a17e25566a7f905508bd37fd85034e8153eacf69bd9a73bb8066ae2b",
+    "bytes": 1300604
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "07027fbce57046dbbc24b59a6e8403358aba62aae755b0bb3c888670138fb5f0",
+    "bytes": 14969
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "6eb8ba17cbbc330b05e7aa41be6d8b44ce718b76ee06ccd9414281bd48388920",
+    "bytes": 20833
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "07027fbce57046dbbc24b59a6e8403358aba62aae755b0bb3c888670138fb5f0",
+    "bytes": 14969
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "3dff8f845cbde4211ad5f2e6d736be56f231eb12d82dbb74cec7667b3dbebcac",
+    "bytes": 16776
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "39512f476a17bbeb6b010dac744ca47f799c43fee0a7f048784979d38a7a7f36",
+    "bytes": 617863
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "ff44cb2841af2a9d799063e003ce7f209647174810094daf6223165dabe8cd0d",
+    "bytes": 660688
+  },
+  "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "e760416c26ad3960178e32892ea34f2da17d83370d56c40f0fb3a091534ce1df",
+    "bytes": 2422801
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "e851eabd3c671daf028dff06004d697350b2809d2be3880a20689f43f5b3d694",
+    "bytes": 1080384
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "3ad66fbc05c120ed70c0cc1400bbca1041c61bd0e3938fdf1d0b0d6746bf946c",
+    "bytes": 1080384
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "cc02dcf86117c314084b66f43eb998b98a17d1e3edf88e6efc031c5cdcd2ef5d",
+    "bytes": 1297648
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "ea2696ea5e8e9a98a6329259173a2152af1d4b331c72385b240c0675d80caea4",
+    "bytes": 1297596
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "577f03349aa9a6adf9603c1d2c7e6c564887ea8b84ca929896b16a0d104ea741",
+    "bytes": 22445
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "7c6400dfdd74279d2b153700f78737793bb5fa883433eb8893b8a23922921a33",
+    "bytes": 23584
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "577f03349aa9a6adf9603c1d2c7e6c564887ea8b84ca929896b16a0d104ea741",
+    "bytes": 22445
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "2fbd9c5e17d6b806f60cbfa94b36bf0e7153933b372d3bd92977109d7d4cbc74",
+    "bytes": 16722
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "13d56e3cc71c5903bd4df8c0d596c808f0085445333fb42f501c812703681de8",
+    "bytes": 600841
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "28013c50a4c75c7b76f4292909bed679b5ee864bc826397d71ec61071372678f",
+    "bytes": 639218
+  },
+  "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "045af4c6bceb962319a52713086452180b053750d8857c82bb0a3a9cc30ad56d",
+    "bytes": 2397591
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "d80de995bf7557cafe4fbe31d8250d2124d020884c7763e46fea1c703dec3287",
+    "bytes": 1208984
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "ec8eecbfa124acac90bac2b6a666bb79f8aa0868e10ef44265deb2bd9f19b4a6",
+    "bytes": 1208984
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "3c85aa362e6506367142bd7450d6ec79fe92c3c498bb3585a773c815f81a0dc0",
+    "bytes": 1451972
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "9b2536815b0bad9c581c61207ff0a4a1b84635172b17d4c38677afd2169da1d3",
+    "bytes": 1451936
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "418283bfe974dee3ea1d0f2cd665b233080e4a8faee09ba99429a2b16780d39a",
+    "bytes": 28692
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "916351dc9ad26005ef7592c1a28ed4191db307f2954ddf4325846ff1f7ec1e26",
+    "bytes": 38274
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "418283bfe974dee3ea1d0f2cd665b233080e4a8faee09ba99429a2b16780d39a",
+    "bytes": 28692
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "e7835c171640f0e1e17306e99cc7877b33f8150767faeef0650f738b9e8a3fa4",
+    "bytes": 16770
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "da3e845592730287faf46e6d03d1bb1e9994db5303acb2c5c6dc3e81c329b6c3",
+    "bytes": 1856508
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "89c9bc78d31fb5f66742892ad9a7050c86f984b7e1318cbd34dab8bcff554909",
+    "bytes": 1972867
+  },
+  "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "a300d96a5dd49db02b9e63e43774db4f2cbd9434d07e5eb24d6b7f7d5fc89e98",
+    "bytes": 3922532
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "8f1ed41ac13b95525a13bb2fe7c4bc43df678e6de0008179ffc82a47895ca65a",
+    "bytes": 1092584
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "808907baa4f076aa053dc8a3d8e1ea6461927305f0346aa61c1167ccd630dd97",
+    "bytes": 1092584
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "4c8cfc01b8d3dbee21d90b20a9b54a69727d0f03e0099987e0aac7dbdc822eff",
+    "bytes": 1312288
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "b133d8efbabe5ace6bac436dc216fc73f96d9dde57aa59e929076b929af1e9be",
+    "bytes": 1312260
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "6d331fbe3734763126cf26c3a793f61ada77c9a8b082e79bde11e578c151d5ab",
+    "bytes": 21497
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "14fb82e6c5a079b119c85303765bcbc776d89d4c3f5c3d1d157dc2ace94b83c4",
+    "bytes": 24089
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "6d331fbe3734763126cf26c3a793f61ada77c9a8b082e79bde11e578c151d5ab",
+    "bytes": 21497
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "89bac5b5f9ddfc1b462bb04e5345882e3b6a88c2e3550d64904430eb7f180145",
+    "bytes": 17521
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "c72c19f5d0284ce5f432ca06e009ffa75803e5e022511eca43b79ef180ccb7d9",
+    "bytes": 703172
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "4817d92e81f79f72e3e80dd2b466ad6608c9882cae71cdf19298115f01aa3225",
+    "bytes": 760163
+  },
+  "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "d0d251b37d615ef38cfbf9f0d98d941c1745e5579f51a210c0beca6460e76f68",
+    "bytes": 8189473
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "423770769449b09a8b8266ec725b289132d126c301be26931ca622902ab9a7d2",
+    "bytes": 1178084
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "cc0827b6ed7eb0b48e95383894d48214c7a2a4f1d2db6cf57f5366df8c2bc17e",
+    "bytes": 1178084
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "8304c226707a7f28fbe2b0acfe7c6b7f6d213533c7875ebae82252f77820eed2",
+    "bytes": 1414888
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "d9079c6c061abf570c0b2682247ca5977e47abb168a3cc25bd293c481c10b732",
+    "bytes": 1414856
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "5ef7042f0ba99a233c86b6f0b1e750d596678fe2fc5ab5b74207e5790f8a17f2",
+    "bytes": 22602
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "59da61ea6adcee3012430e8de910e598add8cf2b8e2f7b68ec5b7fe22caa5e56",
+    "bytes": 29024
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "5ef7042f0ba99a233c86b6f0b1e750d596678fe2fc5ab5b74207e5790f8a17f2",
+    "bytes": 22602
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "2874aeba664b97d667e499758b206e460bcc047f62fb43190bc2f05ccf1c3337",
+    "bytes": 17511
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "804b26774aef728651d658eba875d44fe4a78250e66344a967ad750ca043427c",
+    "bytes": 1502104
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "a0cb9057e1072ff49ec71f254e87265add2ceffdc4a28e8c443e417aa1de775d",
+    "bytes": 1604727
+  },
+  "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "6c9a1ea5b158cb4560f4c515f06ae5aa4991290a2226595a8d489ace66c95b37",
+    "bytes": 9408843
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "264e6bd18bf942f8aed86c15094412d6aa2ca387bc2943778d54f8261975bf61",
+    "bytes": 1134284
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "eb9db41ff0cc81f7fd90509346fe9a1627a80f700b540360d40be6ab0718ee71",
+    "bytes": 1134284
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "eefeadd953254f5ee6743ef691acb90a742b04c0217522e899f2d44005876fcd",
+    "bytes": 1362332
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "c532bb7437ed15bd56a68d258a6ca079071b51f5675c08bf503e4328b0431bf2",
+    "bytes": 1362300
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "338c1758bbe4b0f74fce0a0a5603f1e8ca933233001da1cf055f9625c4438c34",
+    "bytes": 24490
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "e439ad8adda54b1fba6cc39fb076112771ee5ece4a4ee6441042917cc586b0a7",
+    "bytes": 26380
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "338c1758bbe4b0f74fce0a0a5603f1e8ca933233001da1cf055f9625c4438c34",
+    "bytes": 24490
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "6d9547c5ea4306155e84392ee53ec51536d2824c9eca3264bca7b1753937b856",
+    "bytes": 16873
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "f51140d1fd44d746d28891662364d4aa128f8df21bd36131a918908428bfd9e8",
+    "bytes": 1135989
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "69893a0fc36a114393ff12c74114db94372680af0c11135c9e4861bd26c2bf74",
+    "bytes": 1213200
+  },
+  "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "e48658cd9e48ee5745137bfac1e4872494e73c09872d28743c89428777f02d7d",
+    "bytes": 3082250
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "47f0e26b448dbdf199c7fe3b34beb8e39e0b061938827b5bca79fd77ecbfe676",
+    "bytes": 1215484
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "8d7441c9da5356551fcf35c955347f43916797f0e9a33623829d94e969cd371e",
+    "bytes": 1215484
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "f05b41619a75ef23a8fff279a86c53714a4eb6e8331bd33415cdd7954f5d8ace",
+    "bytes": 1459776
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "6f458b1350e9248afd32b28e8c4d337ad074929154bf1a76234dcbfe370c436b",
+    "bytes": 1459760
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "82effa5645c0ddc2fcb6758c07da9c5f1f12b425f3b08d1d2ed91753dbc50478",
+    "bytes": 26675
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "0bce9c47b90f0955ec888c2b4d38272f9e4608fdd0ea6a1a59faa77143924554",
+    "bytes": 32244
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "82effa5645c0ddc2fcb6758c07da9c5f1f12b425f3b08d1d2ed91753dbc50478",
+    "bytes": 26675
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "197256f75c6ee6d1ff376588225f77b1630e56d5c685683a2423dea2e1fa87bb",
+    "bytes": 16911
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "5866f1e57f7079095a7b02159e646727b56c147969dca98e0cb5e96f5649a2f3",
+    "bytes": 1915691
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "d776520e4a8296b37922fabaa561e438bca14c8d2950de175f748afefc96939e",
+    "bytes": 2039440
+  },
+  "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "9d7c2748e2097a7bb09df97d966057d80b6dcf776dce421b8cacc49d39e35a44",
+    "bytes": 3979564
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "b3c90248b064e5c9847f590165e4d6b2fca0f82968a374b011ed3ea24f05f1e5",
+    "bytes": 1150084
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "d10bf33dc5eda52588f0d88194f9ee890cb9c0f69e97b9d701e43dd55d9d68f7",
+    "bytes": 1150084
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "32b7ddc8b0726a86586892851736884d94dc83f7748d0af950424be7b1743cf6",
+    "bytes": 1381296
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "9668fe3c95bdd4f616dbdf51994ea66a6fd62e5ef2fca479462566ef1680c4d0",
+    "bytes": 1381280
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "9bce91075c5087b0e1bcf8ac358d18afdf6c6045c7734e0f10258c1777eb9462",
+    "bytes": 25312
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "9c40759a3384f7e0ec108da17767241f1ca73b9b8d11444894dbdd187fd79292",
+    "bytes": 29632
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "9bce91075c5087b0e1bcf8ac358d18afdf6c6045c7734e0f10258c1777eb9462",
+    "bytes": 25312
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "82199095ea4b8d4c3f9fd29abb5f1ce1ea45c54d9dc978b07bbe4881c3a41586",
+    "bytes": 16807
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "ca7b9aa09a9808b08dfd993ceecb78d9c821e994fccd2c8af8fda7e4d6ca2f46",
+    "bytes": 1298643
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "d5d4437362528eaea398ad88527d07f77eac0dc17ba24206e22d73fe5288ac09",
+    "bytes": 1372694
+  },
+  "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "de6949de82bf3a6133803ab5f65e6dfbeeaf25b55a7de38b9b72aa39c72ef035",
+    "bytes": 3237792
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "0deceff410ebfae7dbd70f70356330c2c70a992c8c948c680f9b71bcf00ee752",
+    "bytes": 1270684
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "897ac9f0c4fa7e6f1c2b285f8a112ee4d3e167a946521d7e7c6a570d3d1864e6",
+    "bytes": 1270684
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "1be9f3b7435868253dc5fa1366dc2f89ce015d88d365db9007cada83f148cd53",
+    "bytes": 1526016
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "b8665a4da4219fde5c1cfbbae99b16eefd7858fee5c37187bda725743ae46d98",
+    "bytes": 1526000
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "0399e967e52d74ba7dada0b7499eaa84b865ed127b16f4e52506efdd50616b46",
+    "bytes": 26569
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "f3190923145585b5c96933fcb557e1edbcfe380c10525269d504ff32debe72e2",
+    "bytes": 35991
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "0399e967e52d74ba7dada0b7499eaa84b865ed127b16f4e52506efdd50616b46",
+    "bytes": 26569
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "0a74419ae7c6bcc479aeb464a549d3a4771a69e2724899b3d803edeec1c5f581",
+    "bytes": 16898
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "1b042d223b6cdebefae8097cb0ede989d5c5794fe615a8e5e0f05cfaeae2e594",
+    "bytes": 2450301
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "7fe929aac153e77002b5fef797876edb7374f5858276eca21ea9cfa1c6e6d6e4",
+    "bytes": 2603853
+  },
+  "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "894a8248064bd42217b661836b3b9f420d448341b817147e2f8dcf3b38db8151",
+    "bytes": 4608713
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "4367772c54095f1a0913bafe9f9b11b8ac4b2c4fad87316428cd43c5ecfb640f",
+    "bytes": 1378884
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "e6b12e87c19aea176be8621b64d716fbceeb5cd99e77d3abe16ad4bf8d06ea58",
+    "bytes": 1378884
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "aed25def17b460c3b985524b5053a75ec98026b683249ef48abe27451d715b93",
+    "bytes": 1655856
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "5a2be30eab85b0992cf4b2e50584ca6f1454d594e9e194c2a9d4f8a2101a56b6",
+    "bytes": 1655840
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "da8d1f1a003b3d59c88b9674b48d10cd4e1f3a1963f3d6c346beab9013df0ec6",
+    "bytes": 27089
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "576ff5322e72b164f627efb1c09773b0194b855d686e9d607e62a445b8da7c06",
+    "bytes": 37249
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "da8d1f1a003b3d59c88b9674b48d10cd4e1f3a1963f3d6c346beab9013df0ec6",
+    "bytes": 27089
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "615b2347e850eef6df69bd455eb4a0c851cd4f7476010e077ae8d67b99b59574",
+    "bytes": 16967
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "2c93e76b451f6cc494898aa31bd9f7fe12d84e0f3cafa28c589220477824fbb0",
+    "bytes": 3450400
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "5f5c47a66f2c611ffd5519a38b26209cbb2e2b2b6a331869af134360c6232568",
+    "bytes": 3665803
+  },
+  "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "82652c784fe11a7dc2624004d2626089bfed12beca19a6b727b3019c04e275fb",
+    "bytes": 5719657
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "e6412ce3762198d3c60cf684e45f8087082fe493ae7ea44ea19af442e64fc41c",
+    "bytes": 1275784
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "c742c35e5e4199fdae3c2347d0324dafc00ba47c098537ded687051438aaf1a7",
+    "bytes": 1275784
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "d03dc065baac102264a7853d6417af196f7f960d30ebfcb6d1dcdb6eb7fad2ac",
+    "bytes": 1532136
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "af572c3155acd7129d6864de940822995a5ec99e39bebba23aa8d82b9daa22bc",
+    "bytes": 1532100
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "92a4471576ed15a49c7ff69be4914310c1ccbcd71d6e4c419fcde60e0012b3a0",
+    "bytes": 24707
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "7cdd3da838701a040fae7c629ad062a682685e9609214dc4467ab84b7e91ec84",
+    "bytes": 36017
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "92a4471576ed15a49c7ff69be4914310c1ccbcd71d6e4c419fcde60e0012b3a0",
+    "bytes": 24707
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "ee7b553442d759c63cc28dc9262e5219916afcb0760abcff9549828617bc614f",
+    "bytes": 16353
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "2009e1f46bde3a2391c266542f951655b5cf5e4dd244435394360902eb85420e",
+    "bytes": 2517894
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "578d2e716968386a37049b3a352106f625f9eb7afc52e79dbce8801b2f239343",
+    "bytes": 2655492
+  },
+  "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "4dd00f1aae64879c4954bb8c93ef6ceed2430a95f95f75de0bc59b568021869b",
+    "bytes": 4534256
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "9a2a60154f6810be2a09a698bb8767f024685179c5934b22daf7efc08d200aaa",
+    "bytes": 1873684
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "3491ad7eab4ec5dcf7ea4df6cf51707ca7664a1c6ec0ae6f319ea29476d2b378",
+    "bytes": 1873684
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "55d6d898895c5e13f64d98518812ae1678e0b4be8fdfe90bedf1f6f74cd7c5c0",
+    "bytes": 2249620
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "a6501d8f658fcb116ba21fce15593298740bb54e5e322dc4eec2213908d425b9",
+    "bytes": 2249604
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "e6fad487aeb33429252e2e46ac1063b211c58cefcff5b01218c6deb568a68765",
+    "bytes": 25781
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "3472d9476f941279ebf061938c195beb2a568d29d8a7efbb3e6e8cb2383e857a",
+    "bytes": 35688
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "e6fad487aeb33429252e2e46ac1063b211c58cefcff5b01218c6deb568a68765",
+    "bytes": 25781
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "e5d7929cc7c496c143aa0a34086940854135694f1aaa28cf8d97f90232978cd9",
+    "bytes": 16877
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "c087b52d2ff55b1b593cbd80ebd6fc175cdc7445b2681226a91d31c1dcac6b86",
+    "bytes": 3388913
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "8b17e01f857ca85d0277ccc180c396e2488c128a06b4feba648d631cead47e6d",
+    "bytes": 3590845
+  },
+  "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "0221d37bb6105d904d84f1d4550c85472c277b8bced4b00b912bd8cc15cba5bb",
+    "bytes": 6221729
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "8ffe6ada1303fc969dd203b81cd25f412876a3fd32c25f9b745e147f49a7f3d7",
+    "bytes": 2545384
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl": {
+    "sha256": "f6d41dd6023273fdf6a3ac6989635a5c75f20609876632ae9f3be29539b22f6b",
+    "bytes": 2545384
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "e75511a1a3e78a4176a9958613b6519fedd92f9ef49bfaa8e1d3808fbdedc842",
+    "bytes": 3055660
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "711c0dc325375979477445786de1bfb83bb166ca7800f792f53e04826165c9ac",
+    "bytes": 3055628
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "d0fc482347a804d30f95cb82bfc9364e344244fa637715348b4263e53c1d9928",
+    "bytes": 25133
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png": {
+    "sha256": "39ce30bc853921643377d746149e2aeefe49814b1317ebdd1cbaaf3dfae31089",
+    "bytes": 35308
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "d0fc482347a804d30f95cb82bfc9364e344244fa637715348b4263e53c1d9928",
+    "bytes": 25133
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "f9f2bda7071ebc4894b7f773c37c0c250b73cb7106cb5964a8f0d97450d5ca80",
+    "bytes": 16418
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "20e85209dc2f4b91fd7243dfba1f00a2b13f605e75d2c70c0295dbed3e7fa31d",
+    "bytes": 4989974
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step": {
+    "sha256": "5a99c5666b559f39466c42ff0e60aabd158bbb6140aed655811297b25110ac2f",
+    "bytes": 5258786
+  },
+  "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "c60cb4e669b214605ec5fc5bc95e9adc728076b38bd777e9e7889027022601e6",
+    "bytes": 8609966
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "2b27926e784c1bf993322654c663f1c1bb9883c0aec5ab36dff050670359c4da",
+    "bytes": 1468184
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "d9703b23613f56873b1a34b45cb90ed54f452e8486cd31bd372ab559d1cbef23",
+    "bytes": 1468184
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "8652ac51772b1bbe8dc92a0f608c813cfb024bd51f7c66b19a70f9cfe51027a5",
+    "bytes": 1762992
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "3dc02f1a93daa3ca91dd5a48f0e6d7f32a145ed7a5fe3f21aa650af352153fee",
+    "bytes": 1762932
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "fdfd2223f1aaf196fe548e0d07728e01ca88ca1a20c516480aeb4e3d1ab36db1",
+    "bytes": 26404
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "d53ffd2d77fddc7f61678ebe29f610d53adae3b8afd48703680bcff7a10f5f66",
+    "bytes": 20356
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "fdfd2223f1aaf196fe548e0d07728e01ca88ca1a20c516480aeb4e3d1ab36db1",
+    "bytes": 26404
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "b42b675f5ab7ab28fffc90bfe4585d8494fc0f900be39abb31991fb8e15ac540",
+    "bytes": 15305
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "57f0bc94d85838c3b89e68002ca51273fdd179f1794295cbd3aa38132acc7f54",
+    "bytes": 550005
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "39bdd7540a2ca26a27656f441f5e05f72eeb5135e6ffd68adb8f0ce5bc477066",
+    "bytes": 545297
+  },
+  "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "7bb83083b387b27008e16d70e95cccc1f815f664b934101c8012e036e63dbc27",
+    "bytes": 2839114
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+    "bytes": 1107384
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+    "bytes": 1107384
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "dc3fec6462c6add0f8501e9c4c9ae2be904f63bb2f6bfda66f135396b31c03aa",
+    "bytes": 1330060
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "21b568ef10b09297611c94ea1affb320125790b5d36f19513f3b42ec78e01ad9",
+    "bytes": 1329988
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115",
+    "bytes": 16511
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "f2002079075abd8c91f82c22aecf77f2c9393c7774a7014f052cb92e089e6c30",
+    "bytes": 21092
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115",
+    "bytes": 16511
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "ff84caf205b2a8837944e50cf45332415c0632223e8a96c63e43365ed580f73a",
+    "bytes": 15365
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "e327a26bcde5e0eb4488923796dc461c126f650e8593a20b3f26623d30d4b275",
+    "bytes": 291380
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "185bc13e18d2e96adf77e606b1228f5c43e770ea5842b48024b11f1d7212a0e5",
+    "bytes": 295870
+  },
+  "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "c5af5cbf5202efb43804f262b9ab66122d0a15b171b082b7c0461ef47bedf399",
+    "bytes": 2080407
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+    "bytes": 1107384
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+    "bytes": 1107384
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "08ab9ca6685c4831847fb83043d8c8288ad9de91627502332545fcc38ca9b6a6",
+    "bytes": 1330056
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "7ed5a72f04d630ae616d62bd90b7afc2a9a3f34c98148f3cd26bc850f120d6b4",
+    "bytes": 1329988
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115",
+    "bytes": 16511
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "f2002079075abd8c91f82c22aecf77f2c9393c7774a7014f052cb92e089e6c30",
+    "bytes": 21092
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115",
+    "bytes": 16511
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "788643fa4f60ca93b7c0306d5491f3c09ca8470b512d9c16c452a716bae9d5c8",
+    "bytes": 15360
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "24d8c905907f71cd05391da6567d33220f50af623f0acbc81cde6569435c4b7d",
+    "bytes": 291380
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "a1aef54411a65b11e7428ac0cca0c5cc6adefef36e976847900d7fcee2158fd7",
+    "bytes": 295870
+  },
+  "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "0260b424ca2304e1ed5c6f0a5a8c7e6a3f8bc6c508be25375c79a7eca28b0225",
+    "bytes": 2080352
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "d0dbf7f4a33b4917b73af0f5d1070f3b30c7bab73a2bf3746e2c24baa591e6fa",
+    "bytes": 1112484
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "f0adba17e990380d58ec3e9bada70a13b967313e943f85688f5383cc19c1b6b8",
+    "bytes": 1112484
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "2b35a7791d2b442570609986fc4560b54a3574166e50a314328531ee8deb1425",
+    "bytes": 1336176
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "589712cdb884e76d67b4aeba1abe24416838e62059851d8ff8e26f5574698708",
+    "bytes": 1336140
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "26baea48ed9ac7c5a6c95a68242fefb7753244ad033d7a39bd64aa0e182007c4",
+    "bytes": 14642
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "f7b2abc37620104fb47e0a9c8c8383cba2bb5b60460e90f5e30041737ddb4387",
+    "bytes": 23703
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "26baea48ed9ac7c5a6c95a68242fefb7753244ad033d7a39bd64aa0e182007c4",
+    "bytes": 14642
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "182a334a49b56cac9d204ed2ea4841601526add85b51be4e50b117ea38b38f9a",
+    "bytes": 15309
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8832bb88be4b67cc77e6f0031868d672efff11f0a3b7b05f695b7d105f550176",
+    "bytes": 277427
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "e6247aed0b9415357f493db6c5f6740f7eceb7cd8f9c8a6d28cc6af620a408f2",
+    "bytes": 282142
+  },
+  "part-braid__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "1fc2118292ee759d98ad9d682cce52ba542ddf9681a7345261a620008e48e249",
+    "bytes": 2077336
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "bbf6496f3346704dcc832531b4ff9d85ca78e933ac8886951238ae2ae16bbb19",
+    "bytes": 1109784
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "d8fc5215b82187668c21eb0911be958f8d277b7457282a3a13191da5b2239e96",
+    "bytes": 1110084
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "d5a859db496c8e2c0288d002ccda8b6a268945894b77d69dce2084139de95caa",
+    "bytes": 1332912
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "18190f142d735ae0302ca00bbdb8d42c3d982257da35b0fdb16dff786c303e87",
+    "bytes": 1333212
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "9caa634fb512a5191ef2928302e9216b54d4fcf11c5630729bc36c8b7b3cd132",
+    "bytes": 17312
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "42bd345776f58b78bf809bd8b9a66fcde87d30bc3cc4365ca2e234666bb00a59",
+    "bytes": 20494
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "9caa634fb512a5191ef2928302e9216b54d4fcf11c5630729bc36c8b7b3cd132",
+    "bytes": 17312
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "7a152916d0a0e2383d41ee2c38d54cfbdcf5fdf19b27814c54f46075b01a8fce",
+    "bytes": 15132
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "f7983ac0e8c5ac3c15cbfe56e72b50fea676afed50b5b12cca3d8dc4152e8627",
+    "bytes": 318484
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "6fa18d23cd92e2819b02c2d2aa0cd44be558251f2df34e16d2c202d899324011",
+    "bytes": 316006
+  },
+  "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "61de5a3ff2e16021d035b103c147c10f4b7a9e9ca1ad5b1eb8d2fa8d6a19e2b7",
+    "bytes": 2080486
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "369582363dc73729bbf8212a979d58655938aae8cf0ddb7a6a30e88eebf54a04",
+    "bytes": 4810484
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "09d22b954a4560004e761499c1c4beee746a74f4d791706a496b7ae75972e59b",
+    "bytes": 4803784
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "d08e2b4a50ee7d2b95f95ad3102fe3f73945945db3f626b80b49ba9f10bf9539",
+    "bytes": 5773792
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "f59c186c329bfe48894b801c3677cf6bfa3046d14dfaea61659f3d9ab97c97d5",
+    "bytes": 5765716
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "a245529a568719c922b8e2f8c18c55e02d326c5f7079829ebd2501b1be8c7f3d",
+    "bytes": 22278
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "939cdc3b9b13a8cbca2fc076ca4a0e1bbc38758948167e4347047feceb90ea29",
+    "bytes": 28722
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "a245529a568719c922b8e2f8c18c55e02d326c5f7079829ebd2501b1be8c7f3d",
+    "bytes": 22278
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "83968e542242a9b712110fa0012041abfb4496af4f417a1878722fc1c4fa79e6",
+    "bytes": 15409
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "c1dc9d96cef057e8ee27971bed7f69c168586319322bc180e276ed0363532dec",
+    "bytes": 920258
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "e7134ce3a7b5f4a0c42c1239b7bd997aaebe007be1ac2363070a201578656fd7",
+    "bytes": 943936
+  },
+  "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "295625c651185f03c74fa47888740437a5cd5dc8e58e46fc39b98d6104130e96",
+    "bytes": 8704057
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088",
+    "bytes": 1724684
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa",
+    "bytes": 1724684
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "a7e6f3e078e158281e0a3a2da855bde08513e7d38aed4a6329b5b2f735e8d857",
+    "bytes": 2070828
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "4edb8fd341e49e5fce409c88ef1ce6953f753cb2923cb3163cb4f7e96f95b040",
+    "bytes": 2070772
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "e8801b96c98fa0a134b4ff5f421e8ba13c0289df0f49b6cc6506453017f374a7",
+    "bytes": 16297
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "79efddaf47136d19a8870d25d0523598ed5d966c19bd653c0891f72bc2377a25",
+    "bytes": 18014
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "e8801b96c98fa0a134b4ff5f421e8ba13c0289df0f49b6cc6506453017f374a7",
+    "bytes": 16297
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "938667e5b6770a4e5023330bddecf89cddd49918d2fd3afc17a8cc0e6cc6a4bb",
+    "bytes": 15636
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "c7abedd4d6a0a356af684d4978b1341ed93b88c5dc43cab2f9ad2ef5de1a06b8",
+    "bytes": 6966641
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "742eac8cab83a7062f9ec483b8884ffda8856b70b91e0abfe46a1ad26c566cf0",
+    "bytes": 6978775
+  },
+  "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "947d2c2cfe10de78dea9b12863932958cac534264b0cb558f22882e0515d4e3a",
+    "bytes": 8736219
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "a75dfc81f2022c9dd62e335aae974107e2c998eee5fd6d53e5b32f8bb4959a97",
+    "bytes": 1724084
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "7ee97ec3fc8cc91c593a8fb139d528ba6a2f589a3d506af6f537669c7f94bacd",
+    "bytes": 1723984
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "8f1748f46914035a608b41f2f094a4b10be941d45f5567d6918f89f131144169",
+    "bytes": 2070104
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "8ee4a47aa37bf9ad742c2e39627faeb0f59fae4e4556e9f771432ba6ac1bc4a5",
+    "bytes": 2069952
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "1acf0e57a39b6e218df7bffe03bd91a15d01483b0357f277382fbeeea9ea1ce1",
+    "bytes": 18756
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "bd9c6a034631894759d18733060240489fc88d127093b49920f4d0dbb139e834",
+    "bytes": 27439
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "1acf0e57a39b6e218df7bffe03bd91a15d01483b0357f277382fbeeea9ea1ce1",
+    "bytes": 18756
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "24a3bd523085b12b41c6ecb8f58e3ed6a0410ed2f7f83f2b3bd43845aeefc3cc",
+    "bytes": 15626
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8d46a7c18d8861171ea02b99c8f9ce2a6eeaf08f67eac4cf0faeb5bcb11f38b9",
+    "bytes": 6964523
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "47e7664560927a2babcbf9a1cf1c7dd8216902f0b8a51a705343f4d1708e1ada",
+    "bytes": 6943679
+  },
+  "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "02a89b214bfd5ec96437bc2727a586f6340d76e87225150e8db538caacd405a9",
+    "bytes": 8521490
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "3167eb2e60892fe026dfce73fdd491951a1483cd207f22780ede6b9c2a908ff5",
+    "bytes": 1146684
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl": {
+    "sha256": "dcf73914065e3396bf01f6bdf647c0e5b814f5b175e1d6012cf8699445a7c802",
+    "bytes": 1146684
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "656b15bc171e213926375bd4870e64d8a6385cf1b1a7951c771e98775a82d220",
+    "bytes": 1377212
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "73647ec3002c8bb5216dc6543b2b60299a32daa933c26c3b592f879952191753",
+    "bytes": 1377180
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "99fac655df70d104217e746a3e001bf6d808c6ad8a8c766cafef01f5db7ea6b1",
+    "bytes": 22514
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "2fb22dbad77e292172e269ac6af0074cc43796ce684602a219b1a11d37805b08",
+    "bytes": 26973
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "99fac655df70d104217e746a3e001bf6d808c6ad8a8c766cafef01f5db7ea6b1",
+    "bytes": 22514
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "36d26fe04e9bf4a326e4ed1bdc097d7b53a6c3f77b53b6db3b4f44eef30927f7",
+    "bytes": 16012
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "1e602e130cb61676c2548dc91ee6c49d9352b8bc6531df8fe5a622a7910179f6",
+    "bytes": 390808
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step": {
+    "sha256": "24159c6d9c768d046503008ea2f1cce68691ce3c578215a3019fb70dcb8d2f52",
+    "bytes": 424888
+  },
+  "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "88b08af08b02bea4511632533d6d5882eca92ef872ab738c5567e20fd4229491",
+    "bytes": 2194552
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900",
+    "bytes": 1114284
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl": {
+    "sha256": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687",
+    "bytes": 1114284
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "9c4b13f739eb3b505bb9b2139d56f1a3a358fc132b99c25973913c4621e2bceb",
+    "bytes": 1338332
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "6a850e4e792fcb00d324de3f06a8de50e487e9645da47c4987d829623f66ed5c",
+    "bytes": 1338300
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "2a15e6a0ac0d6fcfa0974231b7847a23f8b8b16a5a0f1cf1eb6616c976d6ca5d",
+    "bytes": 17581
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "7abac2aaa2de015aef2d502b4f2ebf0302ca95d007dc70a98c2e107a05824404",
+    "bytes": 22363
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "2a15e6a0ac0d6fcfa0974231b7847a23f8b8b16a5a0f1cf1eb6616c976d6ca5d",
+    "bytes": 17581
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "b9af535d56c64f35d32004f6c930e2393897fa292a0fee853016674fcb3988ac",
+    "bytes": 15692
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8acd28db1a6f8495ac111c474fd99ee4f980adfe5b66942760459f9eee998bc4",
+    "bytes": 354536
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step": {
+    "sha256": "78016ad989290b3c05f1841ef081505c2dfba232d5a0ce9ad1c1a647ba91de97",
+    "bytes": 390562
+  },
+  "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "d659560483117678f6b42bb5efbadafd6cf9e7f45e9c9b31d8fe108c9b23a3d3",
+    "bytes": 2121859
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "6fd496c3d0214ae91e51c5c34423314b93cad594d679a34cc531c9f2a73731de",
+    "bytes": 1114284
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl": {
+    "sha256": "51cecc932119b5ac84e3c40610c4e5e56e199f326e8a4963fad637240f8b1a8f",
+    "bytes": 1114284
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "df6ef8c090f930dc2b6997e91e8f3e6a2ea1e6dad4253d863027dbeb658adae5",
+    "bytes": 1338328
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "4a3ffb01b726a8e7969d8b19892a23065c37db55c57b90f8d302b25d80812fbf",
+    "bytes": 1338300
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "650574e2e2ed4e9c57bdfc88c0eecd447f786e0d08a5e555745366df2cc259a1",
+    "bytes": 16684
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "ed33e7900f326d95590d0e084c0fa5b6ee4c7f269e8b0093cb4c1b547abf975a",
+    "bytes": 22618
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "650574e2e2ed4e9c57bdfc88c0eecd447f786e0d08a5e555745366df2cc259a1",
+    "bytes": 16684
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "ba6be1878e506677a43dab50ce4e5bed1dab7a5878f271197ace9f89998a0b44",
+    "bytes": 15698
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "19a1323c943707bfe2cf3c50248077a912922c796fbfd9503c6ed0a735d6bd1f",
+    "bytes": 354261
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step": {
+    "sha256": "72d1d20617956ed5e6f6f44b8531b50fb544b2fc980ab08e701925af29c1fbcf",
+    "bytes": 390192
+  },
+  "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "71fd502bdbc8d9ac28fc61cbd682904ea8477e79c6f6d8a504be759a2f3096ff",
+    "bytes": 2119437
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "aed7bdcc7499332d7c7125245047f0a53fdd7d86f3e5b3c85b60516cf7ea0412",
+    "bytes": 1058284
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl": {
+    "sha256": "16d93cc6cbf83be515d6c808647cece07ec8cb9b9815817b9b2c568ed1f9389e",
+    "bytes": 1058284
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "46eb02a05071a90d47eb8bb59d67faf682f7e93141cd2e29bd5efa9f90d4ed33",
+    "bytes": 1271128
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "e5ebdbc2f4956edf37a822576502d8f1a08c0630232141185c9307c7a45aaf04",
+    "bytes": 1271100
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "b6466633d4e027ed03db8029202013b8ce86618c448e6411d7d96cb32eaf2c04",
+    "bytes": 14991
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "00c6c2eba3628a46c8245c6f4180620e3766bf6c6e30537061a0e50676377501",
+    "bytes": 20539
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "b6466633d4e027ed03db8029202013b8ce86618c448e6411d7d96cb32eaf2c04",
+    "bytes": 14991
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "2a6e1db9f995afaa52cb600eb0027fa1997b374bb3cf85218971eeac5467e5e4",
+    "bytes": 15721
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "4c900a2312ac06c0e693d89ad87db7ac1492c7a3419eac6a1531908b5852d48a",
+    "bytes": 368531
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step": {
+    "sha256": "3c9331923257703a176be199775f61e8cd73284d12e7c558fd484d9dfe77ff8c",
+    "bytes": 404315
+  },
+  "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "74bed040e6c9346ab8e4286e8fda79da2c61acdf1bafc48171244b92d3fb81bc",
+    "bytes": 2068121
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "84ac83ff48e4466b40a05a891e0083bd36316dba817de54215571039c99f3305",
+    "bytes": 1527084
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl": {
+    "sha256": "0e0c201211eb25d18837ba4feed41bae26ced787ec721b6a4f937a4cf6b83bab",
+    "bytes": 1527284
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "10ab55e24b2c2cfee1a86665e145fbd795c038326ad5ac4957b5d502e5c92a49",
+    "bytes": 1833696
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "a3c4eaa1e78b081d7fe5ad3c20d42d4fbc9e463509b8f7632ff1f03d4b18851d",
+    "bytes": 1833924
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "4d6a2f6b09597168894aa09d8817cdb7d75da69736f62f58228a3fa9affd341d",
+    "bytes": 21754
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "1999adc93e5cebd09990dcd62df46877702c40644610f57bdba62ba9f7fb7e25",
+    "bytes": 26238
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "4d6a2f6b09597168894aa09d8817cdb7d75da69736f62f58228a3fa9affd341d",
+    "bytes": 21754
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "c7b4f08c27a3ded2dcb1f323867d591616a2a0091b2d7f09824d1ee3cc6485e4",
+    "bytes": 15407
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "d3fcf97e3a435d2353262ac516334065bf3c5e4cc7de2a19672fe4d31c2d54a3",
+    "bytes": 770518
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step": {
+    "sha256": "a4ca49f64edf8df03f817a387b84b90d95be5283964f595885374b9a667d7c9f",
+    "bytes": 810714
+  },
+  "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "8dbbcd63752c92001593366085797d7c4c04771781313112bc7748c5670317ee",
+    "bytes": 3271625
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+    "bytes": 1363084
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl": {
+    "sha256": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960",
+    "bytes": 1362984
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "949e58f3d466020b7c49b9dc17053ba6b9a78ea436238cef30b4288b757e55c5",
+    "bytes": 1636896
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "9cf847f54387dde2098dba569d9c0ec8928d2d9375ea47321629b9c7fe50f634",
+    "bytes": 1636764
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "6599c9c56f8a74c994091cf99a61af7e3643f4e5c9ca4fce791e9d48f6121f55",
+    "bytes": 23225
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "de5d60498bd82f237a9f163f791bff40c5f8d2641472e93c5216601836c7c08d",
+    "bytes": 26472
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "6599c9c56f8a74c994091cf99a61af7e3643f4e5c9ca4fce791e9d48f6121f55",
+    "bytes": 23225
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "615387d7dc8efa9c21b100831d6a3831a3d8059641df4bfe588ee6f886deb331",
+    "bytes": 15406
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "289db037456ba96cb33a17a9bff2b442477bb55685d0828511625f274c152202",
+    "bytes": 664743
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step": {
+    "sha256": "3b2ff9dd56e872739bc6c82ac889420edb678e0bb9debef546dd2ca5bcfc2dfc",
+    "bytes": 705773
+  },
+  "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "90ff0fae25c2fb891cedb0b1206030c0a8a1107a586b8fbbec7a6ac00e70ec1c",
+    "bytes": 2897260
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171",
+    "bytes": 1045884
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a",
+    "bytes": 1045884
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "7eaec1f8f349ea8f9119401ccb50b94055659a22b763d71c5df380d248898fe8",
+    "bytes": 1256256
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "c8b0e24de2cabb75061a4fa26060845b617d0bb72ec1cc27bf8e724704c0acc8",
+    "bytes": 1256184
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "c37709375403690db5e41f6dde3b936d30ae34139754293c0143b075564390bf",
+    "bytes": 8715
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "7f4d8846e4cbf4a657bd998794e24237be8c3c20b853457ec144928a5fde9285",
+    "bytes": 21381
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "c37709375403690db5e41f6dde3b936d30ae34139754293c0143b075564390bf",
+    "bytes": 8715
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "f30134bdb6fe7f4a625276e023f2cd16e7534374f3046ea6bcdd659e020bd62f",
+    "bytes": 15408
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "1410d4629420dd9ffc2a48515e566aebab8378df5e0dbf8b843724fa0a448469",
+    "bytes": 264107
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "aeff77e7eecb1fc09286f550cade37baaa87d638106cd781439e3039da43c20c",
+    "bytes": 267949
+  },
+  "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "f4c63e92dec039bcbbaf45bb1312623e58f907aa3e0d0f6ccb1921ceddc0f08a",
+    "bytes": 1943194
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1",
+    "bytes": 1069684
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406",
+    "bytes": 1069684
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "86f3ecca9f9c130d19b22918e3834e062d3622c5a0e60f036c67f97e32b936d8",
+    "bytes": 1284816
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "1dbd1d0d8370dc855d7e6d14230246fee63b540be7d5c33d2d3b47e90e44f4f8",
+    "bytes": 1284744
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "3b7fd70c46e6d8f7f88dd925c5ca5a4c49f194f3e23440bab7f74d5215f42bd5",
+    "bytes": 13350
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "8b0274d1c11f3b65122d65996dc3ff6168cf54e82a48cf66789e61379980dac7",
+    "bytes": 24825
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "3b7fd70c46e6d8f7f88dd925c5ca5a4c49f194f3e23440bab7f74d5215f42bd5",
+    "bytes": 13350
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "593f3fdc43d8ad0f01867c20cc51399e2d23885eaa634b0d82d97c497009fd6f",
+    "bytes": 15506
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "cdd34f49e7bcc7e2bc53b38543c0f12e5702100ff7f44ebaab37a67dcb14a42d",
+    "bytes": 445644
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "d3b2fe203ece20d2696ef9fd846277a64bf7bbd465e8fac08e99638833156605",
+    "bytes": 448722
+  },
+  "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "69c1a5f949fa1faa06c28e8b4c53e85c100f463e34949148aad93bd72858a79d",
+    "bytes": 2343588
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "eb09a866d199e7136a15e186d9a846f3960090c21a4520a78e33fdb5a17c073a",
+    "bytes": 1592984
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "a6f16cf62d89f99f75829521441f67d834c1740d9fcc287999a86998faffa8d1",
+    "bytes": 1592984
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "92e16ab925fbd3a6fff57e5d2c29328bae367fb9857d60f999a1be91d01ff9d2",
+    "bytes": 1912772
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "af9e7c5dac923af6dac6021280eb4e3481ac49aa9b140a2f037b16d3f2598881",
+    "bytes": 1912704
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "51224e86b6f689097d917109f048c6697738e42d3d46c5a75aa87f23278145be",
+    "bytes": 13375
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "712ed6d75f35bdaf28ef8a8b18e287534c7fd40c1e934d28a77e0c996b19ae45",
+    "bytes": 22494
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "51224e86b6f689097d917109f048c6697738e42d3d46c5a75aa87f23278145be",
+    "bytes": 13375
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "4b6d3caae68baa3aaafc11a775200a307e272af6be78ebd6ea857f950cae2695",
+    "bytes": 15479
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "31fbd1d0bcc884ea0bec41024b7436be83732c93a53744fc7c09c64bb25eaa74",
+    "bytes": 584669
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "f1d8b0bc27671b4d4f27e9d48534b01f7d0c2f779db4f07be7840f9a83c76c0a",
+    "bytes": 591038
+  },
+  "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "23d7fab6ee874b063ba72c3de121666ba835f25367151b4933c2e41eaf3d5c15",
+    "bytes": 3311912
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "d654d880058175640be0c3ce08b0c2b70227eee2441845072a5391b3f920bc23",
+    "bytes": 1592984
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "6a9bcf8e9ea0f81d688a7dad2722361bb02d75bb6b4cf5da8a61740f7e157858",
+    "bytes": 1592984
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "3316500f02dd8a09daf8a5b39e022fdff5896943eedf1626a79dcfcf656589b3",
+    "bytes": 1912772
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "aa9a275f6aed8776238202dc34177653107314b1177262cf22ac101ba60778ab",
+    "bytes": 1912700
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "474dd186f3b48d92987967c1a9d3d1ceae5ba1b5398e105d78622c841ce87fbd",
+    "bytes": 13158
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "b68aae54dbf3900f3af4d4d531da47ecb61cf14764fc197d6c55415c348ae795",
+    "bytes": 21135
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "474dd186f3b48d92987967c1a9d3d1ceae5ba1b5398e105d78622c841ce87fbd",
+    "bytes": 13158
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "85119e3dc000d99ff4cadc952e8a36dcefc09844f19989f678a4838b559df9ba",
+    "bytes": 15531
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "aef6afc540122c45de201631994834e231eb01feb43c4f0e23d40af25c775547",
+    "bytes": 585040
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "529c059d686e5b0a4a2270e39e7a4111c0e81b6869c03bff9f5912c4b3f25f47",
+    "bytes": 591033
+  },
+  "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "5700e56a4dad890811bec9b5108388ecbc2a2ab7c016a8978672093ed7d5d77c",
+    "bytes": 3316714
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "ab8c3841d3d3afefbe502750afd4a09babbc41a8d461ae6f3dcafa329932a6bc",
+    "bytes": 1622984
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "45e8a9ddeb970239955417f385cdf2153e46fe2ed74f1cbca9f5b0dbb698fe9b",
+    "bytes": 1622984
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "ca98b750f28b4469614c48e05dc609bb41c7bfe0efa9c22cc83207e861c063db",
+    "bytes": 1948772
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "71526cfc4daf623a1271e8734a4f9b97f43db2fdf256b2728ffb75dc92e81433",
+    "bytes": 1948704
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "6a1dc672cb8176c404b0ed50a1bd4960ba8bd2a1d2423b8da096ae9c97c85c86",
+    "bytes": 14755
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.png": {
+    "sha256": "3911057267c51ea8404fd457d2d9276c50c6a5ff108e047bf15c5358b2323ac8",
+    "bytes": 24939
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "6a1dc672cb8176c404b0ed50a1bd4960ba8bd2a1d2423b8da096ae9c97c85c86",
+    "bytes": 14755
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "24cb678411184bb70446e32496c8aa83b96cf2b6ddbf6cc92a6a312a8d24bd4b",
+    "bytes": 15481
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "7a45923483f4705a19d6f16ec5418376c7036ed3e245ab0f46ea55b94bc6ed77",
+    "bytes": 830708
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "935e84c34b056ea4532e5ec4beae0cbc56ee67e111348d9d7e4b0309290515df",
+    "bytes": 835951
+  },
+  "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "c3ae5b5186f5a64faacd382b0f016e19ba43327de23f949f5d38c589340f936d",
+    "bytes": 3503941
+  },
+  "catalog.json": {
+    "sha256": "cf7e38c332369d03ceb0f0694da24f39d0328f443a23bcf88d31ce5af1b5e0f0",
+    "bytes": 105709
+  },
+  "index.html": {
+    "sha256": "b5e32c73d530da9aaecb482b72f39b21f77bd2cacd59c7827e2ba45c9546eac3",
+    "bytes": 3413
+  },
+  "current-pegs.js": {
+    "sha256": "0d989faec49fadb082db25e41df548867dbf66c63a8d37517b6650ee8e942986",
+    "bytes": 5004
+  },
+  "current-pegs.css": {
+    "sha256": "8b4c6ddd6ffbfb8bf24428bfb6ad8c7024ed954151593f01dff8c3a436b7d0b0",
+    "bytes": 2750
+  }
+}

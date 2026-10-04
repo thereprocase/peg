@@ -1,0 +1,27 @@
+{
+  "id": "P11",
+  "family": "pegstr",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p11__v2__pegstr-p11-caliper-slot__installed__fit-9c7be3cc78.step",
+  "input_sha256": "bafa4df2a757ac9a101d5bb01eb1fb87bdf207f737b394303724902fc286e050",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-pegstr-p11__v2__pegstr-p11-caliper-slot__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "inverted-flat-top",
+  "hoop_row": 1,
+  "name": "Caliper slot",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  },
+  "level_at_original_z_mm": 5.0,
+  "flat_top_installed_z_mm": 5.6,
+  "body_translation_mm": [
+    0,
+    0,
+    0.6
+  ],
+  "plate_bottom": -32.0
+}

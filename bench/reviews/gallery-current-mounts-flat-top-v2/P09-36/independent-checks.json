@@ -1,0 +1,49 @@
+{
+  "model": "P09-36 current-mounts-flat-top-v2",
+  "checks": {
+    "installed": {
+      "watertight": true,
+      "one_component": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          -61.25,
+          -10.789999961853027,
+          -32.0
+        ],
+        [
+          61.25,
+          60.5,
+          5.599999904632568
+        ]
+      ],
+      "volume_mm3": 119479.95168650315
+    },
+    "print": {
+      "watertight": true,
+      "one_component": true,
+      "winding_consistent": true,
+      "bounds_mm": [
+        [
+          0.0,
+          8.881784197001252e-13,
+          2.6645352591003757e-15
+        ],
+        [
+          122.5,
+          71.29000091552734,
+          37.599998474121094
+        ]
+      ],
+      "volume_mm3": 119479.93824800715
+    }
+  },
+  "pose_max_nearest_vertex_error_mm": 5.606437705867046e-06,
+  "broad_front_body_bed_area_mm2": 3454.3798597927976,
+  "front_body_downfacing_over45_area_mm2": 0.0,
+  "source_mismatches": [],
+  "36_openings_in_all_sections": true,
+  "native_readback": "PASS",
+  "body_motion": "Sampled nominal front-body board-plane check passes; changed fit/physical pending",
+  "passed": true
+}

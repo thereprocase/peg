@@ -1,0 +1,65 @@
+{
+  "authority": "Exact station PF02 #9 / PF07 #5 recipe, copied unchanged; old public sources not overwritten",
+  "files": [
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/solder_v12/common.py",
+      "snapshot": "source/solder_v12/common.py",
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/peg_profile.py",
+      "snapshot": "source/peg_profile.py",
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/peg_print_variant.py",
+      "snapshot": "source/peg_print_variant.py",
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/peg_fit_ladder.py",
+      "snapshot": "source/peg_fit_ladder.py",
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/peg_fit_ladder_v2.py",
+      "snapshot": "source/peg_fit_ladder_v2.py",
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/peg_fit_ladder_v4.py",
+      "snapshot": "source/peg_fit_ladder_v4.py",
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/source/peg_interface.py",
+      "snapshot": "source/peg_interface.py",
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/reference/peg-fit.scad",
+      "snapshot": "reference/peg-fit.scad",
+      "sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/reference/conformal_120.step",
+      "snapshot": "reference/conformal_120.step",
+      "sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/reference/conformal_120_geometry.json",
+      "snapshot": "reference/conformal_120_geometry.json",
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/reference/conformal_motion_results.json",
+      "snapshot": "reference/conformal_motion_results.json",
+      "sha256": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c"
+    },
+    {
+      "source": "/home/repro/code/peg-bt2/bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "snapshot": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a"
+    }
+  ]
+}

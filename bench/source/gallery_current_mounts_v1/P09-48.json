@@ -1,0 +1,20 @@
+{
+  "id": "P09-48",
+  "family": "arrays",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-arrays-p09-48__v-src0e00429f35__pegstr-array-p09-48-round-seats__installed__fit-9c7be3cc78.step",
+  "input_sha256": "1de5ef643a89eadd86b311c6764f59d8edc9ba7a5d86c223f7df6eee646df04a",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-arrays-p09-48__v-src0e00429f35__pegstr-array-p09-48-round-seats__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -76.19999999999999,
+    0.0,
+    76.19999999999999
+  ],
+  "pose": "right-cheek",
+  "hoop_row": 1,
+  "name": "48 round seats",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  }
+}

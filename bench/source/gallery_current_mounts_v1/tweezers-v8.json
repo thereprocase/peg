@@ -1,0 +1,15 @@
+{
+  "id": "tweezers-v8",
+  "family": "solder",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__installed.step",
+  "input_sha256": "91c0c71c409bd17054f970cddb92c6846798f5e51ae64b9fd531c328f012007e",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/tweezers-v8-2026-10-01/part-solder-modules-tweezers__v8__cad-source-and-review.zip",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "right-cheek",
+  "name": "Tweezer holder v8",
+  "source_archive_sha256": "3e68bdefcbeddb6db9d07933cbdbad8a4223ccdb996621531f8bcc87ee24f0d6",
+  "source_member": "part-solder-modules-tweezers__v8__long-body-cradle__fit-e586ab4ff6__installed.step"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "MH02",
+  "family": "shaft-holders",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step",
+  "input_sha256": "98c4d0acf2390505088ae95a99dafa932995194346ed6d8bc70d1833a3f54cad",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/mh01-mh04-shaft-holders-v1/part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step",
+  "columns": [
+    -76.19999999999999,
+    76.19999999999999
+  ],
+  "pose": "flat-top",
+  "hoop_row": 1,
+  "body_translation_mm": [
+    0,
+    3,
+    2
+  ]
+}

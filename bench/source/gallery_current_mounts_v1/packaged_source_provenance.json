@@ -1,0 +1,133 @@
+{
+  "scope": "Authored top-level Python only. Station snapshot remains byte-for-byte unchanged. input_hashes in affected reports describe current packaged sources; generation_sources identify actual execution bytes.",
+  "changes": [
+    {
+      "file": "remount.py",
+      "before_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+      "after_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+      "ast_equal": true
+    }
+  ],
+  "versions": [
+    {
+      "source_file": "flat_native_audit.py",
+      "generation_source_sha256": "73c7c2cdd6d39175bce8bb3b979178c3681c426c2f9c544fb64b17407e99fea1",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/73c7c2cdd6d39175bce8bb3b979178c3681c426c2f9c544fb64b17407e99fea1/flat_native_audit.py",
+      "packaged_source_sha256": "73c7c2cdd6d39175bce8bb3b979178c3681c426c2f9c544fb64b17407e99fea1",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "flat_seat_checks.py",
+      "generation_source_sha256": "a4b75c0823ed9de8b6549fda643d01bfbac164be21fca50d821080da99131c23",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/a4b75c0823ed9de8b6549fda643d01bfbac164be21fca50d821080da99131c23/flat_seat_checks.py",
+      "packaged_source_sha256": "a4b75c0823ed9de8b6549fda643d01bfbac164be21fca50d821080da99131c23",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "flat_top.py",
+      "generation_source_sha256": "c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/c15416dde8056aa0bab1dd7fd10f95bb89421328ca637e00772a3a84eb1964ed/flat_top.py",
+      "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+      "ast_equal": true,
+      "post_generation_whitespace_only": true
+    },
+    {
+      "source_file": "flat_top.py",
+      "generation_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc/flat_top.py",
+      "packaged_source_sha256": "eea07017d445cbc0b8e3fbba6750e636a655b3031a53fdfede81f5bbd75efbfc",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "flat_top_mesh.py",
+      "generation_source_sha256": "9c5246402d33be143f26f37a7b11878e84efcf0dd2d17577a912544e95227329",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/9c5246402d33be143f26f37a7b11878e84efcf0dd2d17577a912544e95227329/flat_top_mesh.py",
+      "packaged_source_sha256": "9c5246402d33be143f26f37a7b11878e84efcf0dd2d17577a912544e95227329",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "flat_top_p06_export.py",
+      "generation_source_sha256": "b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0/flat_top_p06_export.py",
+      "packaged_source_sha256": "b94d48debed1b845aa61ab0a2b196c88bb80233e471cbe34f3fc3a158f39c8f0",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "mesh_gates.py",
+      "generation_source_sha256": "dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392/mesh_gates.py",
+      "packaged_source_sha256": "dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "mesh_review.py",
+      "generation_source_sha256": "70008bf5a95d836df6e2438e2c78e582245f93cbb3d1a874bb30542ee5fc07e9",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/70008bf5a95d836df6e2438e2c78e582245f93cbb3d1a874bb30542ee5fc07e9/mesh_review.py",
+      "packaged_source_sha256": "70008bf5a95d836df6e2438e2c78e582245f93cbb3d1a874bb30542ee5fc07e9",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "native_audit.py",
+      "generation_source_sha256": "2cce37136f81507fd9e48263f776f8d6e7bc0fe2e8e18832489f019ead25870b",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2cce37136f81507fd9e48263f776f8d6e7bc0fe2e8e18832489f019ead25870b/native_audit.py",
+      "packaged_source_sha256": "2cce37136f81507fd9e48263f776f8d6e7bc0fe2e8e18832489f019ead25870b",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "p09_flat_seats.py",
+      "generation_source_sha256": "5da08b67a9bf6bdbeab8b786551ef4b577699cec6eaa69355a341e9d71cca246",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/5da08b67a9bf6bdbeab8b786551ef4b577699cec6eaa69355a341e9d71cca246/p09_flat_seats.py",
+      "packaged_source_sha256": "5da08b67a9bf6bdbeab8b786551ef4b577699cec6eaa69355a341e9d71cca246",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "p09_seats.py",
+      "generation_source_sha256": "f153cbad3135ad19677a9978f6fc23e7262bc07dab097f8ecf376202ac86d6d5",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/f153cbad3135ad19677a9978f6fc23e7262bc07dab097f8ecf376202ac86d6d5/p09_seats.py",
+      "packaged_source_sha256": "f153cbad3135ad19677a9978f6fc23e7262bc07dab097f8ecf376202ac86d6d5",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "prepare_mesh.py",
+      "generation_source_sha256": "aca63d4d8a637c4f38aa6491cd82d95c5e8b84facc7ae7bb553726254fde4539",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/aca63d4d8a637c4f38aa6491cd82d95c5e8b84facc7ae7bb553726254fde4539/prepare_mesh.py",
+      "packaged_source_sha256": "aca63d4d8a637c4f38aa6491cd82d95c5e8b84facc7ae7bb553726254fde4539",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "remount.py",
+      "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+      "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+      "ast_equal": true,
+      "post_generation_whitespace_only": true
+    },
+    {
+      "source_file": "remount.py",
+      "generation_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e/remount.py",
+      "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    },
+    {
+      "source_file": "verify_selection.py",
+      "generation_source_sha256": "eb052ee07c3cc7ab93f3cdf24d4a6955ee806b6cac76df3e96f5790bd46a3987",
+      "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/eb052ee07c3cc7ab93f3cdf24d4a6955ee806b6cac76df3e96f5790bd46a3987/verify_selection.py",
+      "packaged_source_sha256": "eb052ee07c3cc7ab93f3cdf24d4a6955ee806b6cac76df3e96f5790bd46a3987",
+      "ast_equal": true,
+      "post_generation_whitespace_only": false
+    }
+  ]
+}

@@ -66,5 +66,8 @@ if additions.exists():
   else:assert hashlib.sha256((D/route).read_bytes()).hexdigest()==v['sha256'],route
  assert 'Tips down. A closer, lighter layout.' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
  assert 'not yet physically tested' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
+if (D/'current-pegs/catalog.json').exists():
+ import runpy
+ runpy.run_path(str(R/'tools/check_current_pegs.py'),run_name='__main__')
 report={'source_files':len(source),'release_assets':len(assets),'html_links':links,'errors':errors,'site_bytes':sum(p.stat().st_size for p in (R/'docs').rglob('*') if p.is_file())}
 print(json.dumps(report,indent=2));assert not errors

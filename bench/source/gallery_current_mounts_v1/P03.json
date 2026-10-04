@@ -1,0 +1,19 @@
+{
+  "id": "P03",
+  "family": "pegstr",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-pegstr-p03__v2__pegstr-p03-twin-rectangular-seats__installed__fit-9c7be3cc78.step",
+  "input_sha256": "ec4e637bf694491d39405e5a024e35a862c2624657b584fc199c1e66dc9aa952",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-pegstr-p03__v2__pegstr-p03-twin-rectangular-seats__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "right-cheek",
+  "hoop_row": 1,
+  "name": "Twin rectangular seats",
+  "credits": {
+    "original_author": "Marius Gheorghescu / mgx",
+    "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+    "source_url": "https://www.thingiverse.com/thing:537516"
+  }
+}

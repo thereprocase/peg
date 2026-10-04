@@ -1,0 +1,18 @@
+{
+  "id": "MH01",
+  "family": "shaft-holders",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__installed__fit-e586ab4ff6.step",
+  "input_sha256": "84ae00a722dbe8438015be307b0c1a6c3968c1dc5084dc408218fce185d1b5cf",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/mh01-mh04-shaft-holders-v1/part-mh01-magnetic-shaft-holder-jeweler-4mm-round__v1__6-seats-4-cells__installed__fit-e586ab4ff6.step",
+  "columns": [
+    -38.099999999999994,
+    38.099999999999994
+  ],
+  "pose": "flat-top",
+  "hoop_row": 1,
+  "body_translation_mm": [
+    0,
+    3,
+    2
+  ]
+}

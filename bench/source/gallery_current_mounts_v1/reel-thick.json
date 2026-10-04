@@ -1,0 +1,13 @@
+{
+  "id": "reel-thick",
+  "family": "solder",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-reel-thick__v6__solder-station-large-solder-spool-seat__installed__fit-9c7be3cc78.step",
+  "input_sha256": "ff8cdd2063160e99709af195a2cfd4bcafbf9b92a7a1612b1b58218d10e6a357",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-solder-modules-reel-thick__v6__solder-station-large-solder-spool-seat__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -25.4,
+    25.4
+  ],
+  "pose": "right-cheek",
+  "name": "Large solder reel"
+}

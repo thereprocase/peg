@@ -1,0 +1,104 @@
+{
+  "id": "P05",
+  "input_stl_sha256": {
+    "installed": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909",
+    "print": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77"
+  },
+  "display_transform": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assets": {
+    "installed_glb": "installed.glb",
+    "print_glb": "print.glb",
+    "installed_png": "installed.png",
+    "print_png": "print.png",
+    "preview_png": "installed.png",
+    "rear_png": "rear.png"
+  },
+  "render_input_stl_sha256": {
+    "installed": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909",
+    "print": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77"
+  },
+  "public_notes": {
+    "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+    "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+    "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+    "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+    "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+  },
+  "public_name": "MT2 holder",
+  "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)",
+  "root_mesh_metrics": {
+    "id": "P05",
+    "meshes": {
+      "installed": {
+        "sha256": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            -17.780000686645508,
+            -10.789999961853027,
+            -32.0
+          ],
+          [
+            17.780000686645508,
+            48.76110076904297,
+            5.599999904632568
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            35.560001373291016,
+            59.55110168457031,
+            37.599998474121094
+          ]
+        ]
+      }
+    },
+    "pose_nearest_vertex_max_error_mm": 3.3446721264171763e-06,
+    "pose_surface_max_error_mm": 3.3446721264171763e-06,
+    "broad_front_body_bed_area_mm2": 390.9909587542875,
+    "bed_contact_area_mm2": 610.8063312370582,
+    "body_min_z_above_bed_mm": 1.7763568394002505e-15,
+    "front_body_downfacing_over45_area_mm2": 21.04873151989143,
+    "passed": true
+  }
+}

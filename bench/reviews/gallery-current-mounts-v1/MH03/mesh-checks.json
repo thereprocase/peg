@@ -1,0 +1,61 @@
+{
+  "installed": {
+    "watertight": true,
+    "consistent_winding": true,
+    "volume_mm3": 218576.9899164026,
+    "bounds_mm": [
+      [
+        -100.5999984741211,
+        -10.789999961853027,
+        -32.53367233276367
+      ],
+      [
+        100.5999984741211,
+        50.31879806518555,
+        11.148968696594238
+      ]
+    ],
+    "components": 5,
+    "input_sha256": "6fd496c3d0214ae91e51c5c34423314b93cad594d679a34cc531c9f2a73731de",
+    "shell_signed_volumes_mm3": [
+      223527.39044884924,
+      -1237.6002465988265,
+      -1237.6000196243235,
+      -1237.600019624324,
+      -1237.6002465988247
+    ],
+    "positive_material_shells": 1,
+    "internal_cavity_shells": 4
+  },
+  "print": {
+    "watertight": true,
+    "consistent_winding": true,
+    "volume_mm3": 218576.99262914443,
+    "bounds_mm": [
+      [
+        0.0,
+        2.7071678232459817e-12,
+        7.780442956573097e-13
+      ],
+      [
+        201.1999969482422,
+        60.7003059387207,
+        40.0
+      ]
+    ],
+    "components": 5,
+    "input_sha256": "51cecc932119b5ac84e3c40610c4e5e56e199f326e8a4963fad637240f8b1a8f",
+    "shell_signed_volumes_mm3": [
+      223527.39214582174,
+      -1237.6001628875654,
+      -1237.600389862091,
+      -1237.5994819639882,
+      -1237.599481963989
+    ],
+    "positive_material_shells": 1,
+    "internal_cavity_shells": 4,
+    "downfacing_over45deg_area_mm2": 880.8334390183122,
+    "overhang_scope": "Geometric face-normal screen; not toolpaths or a support-removal qualification."
+  },
+  "pass": true
+}

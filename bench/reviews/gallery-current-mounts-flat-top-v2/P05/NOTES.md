@@ -1,0 +1,17 @@
+# P05 — genuinely planar top / upside-down print, v2
+
+MT2 holder. Selected replacement for this product's interim cheek/upright remount. The owner requested a genuinely flat top for upside-down printing. Archived source geometry and interim evidence remain unchanged.
+
+The original top is planed at Z = 5.00 mm, removing **43.3413 mm³** in a top band no deeper than **0.1200 mm**. The remaining body moves **+0.60 mm in Z** without X/Y scaling or smoothing. Its broad top and the continuous 5.4 mm receiver now share the exact **Z = 5.60 mm plane**. Exact post-planing CAD preservation: missing retained-body material 0 mm³; new material beyond mounting wall 0 mm³. This explicitly scoped top removal supersedes the old strict unchanged-forward-body requirement.
+
+Print **inverted-flat-top, X rotation 180°**. Bare bounds **35.56 × 59.55 × 37.60 mm**. Coplanar bed contact **610.81 mm²**, including at least **360.08 mm²** in triangles wholly forward of the mounting wall (conservative where triangles straddle Y = 5.55). Forward body starts at print Z = 0.0000001 mm. The full hook crown sits **0.1550 mm below the installed top plane**, so it does not float the body. No crown pads, towers or hook trimming. The bare body fits the recorded P1S envelope/exclusion as documented in report.json; supports and brim require fresh placement/toolpaths.
+
+PF02 #9 top hooks (0.49 mm nominal clamp interference at 3.94 mm board, 0.50 mm upper ribs) and corrected PF07 #5 lower hoops (0.8 mm arms, 2.95 mm root clip). Columns [-12.7, 12.7] mm; rows {'hooks': [0], 'bearing': [], 'hoop': [1], 'empty': []}. Horizontal hoop flex is X in both installed and print coordinates, exactly in the print layers. The cheek-only 0.10 mm correction is not used. Exact rear-interface symmetric difference from the shared recipe: 0 mm³.
+
+Upper extension/root and body clear the board-plane screen on 1340 sampled nominal reference-route poses, maximum point step 0.05 mm and tessellation 0.005 mm. This is not a continuous proof or physical installation qualification for interference-fit pegs. One valid native solid and independent watertight, consistently wound mesh are required; native-checks.json records STEP read-back. No FEA/load rating or physical fit/retention claim.
+
+Opening checks compare the original and shifted meshes at original Z = 4, 2 and 0 mm, below the authorized planing band. Counts and unioned opening sections match within the recorded mesh tolerance. These counts are closed section voids and may include non-seat gaps; array seat counts are checked explicitly against source metadata. The exact remaining CAD body is also preserved.
+
+**Bare print-preparation inputs, not a sliced job.** Local peg supports and any remaining body overhangs require fresh layer/support-release review. Do not reuse old G-code/3MF. Physical tool fit, adhesion, spring behavior, board installation and loads remain pending.
+
+Original credits: {"original_author": "Marius Gheorghescu / mgx", "license": "Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)", "source_url": "https://www.thingiverse.com/thing:537516"}. Faceted source body retained honestly; receiver/pegs retain analytic CAD surfaces. Exact source/spec hashes in report.json. Evidence: report.json, mesh-checks.json, seat-checks.json, native-checks.json. Root owns derived GLB/PNG presentation, public packaging and integration.

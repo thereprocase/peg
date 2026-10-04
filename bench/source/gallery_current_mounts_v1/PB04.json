@@ -1,0 +1,20 @@
+{
+  "id": "PB04",
+  "family": "bins",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-pb04__v1__pegstr-bin-6-cells-3-pockets-150.4x40x45mm__fit-e586ab4ff6__print-flat-base.stl",
+  "input_sha256": "9e5b06f151317f7b58b231f379a01d090bf7f1b9822f2add1a9c78653a6ed70f",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-pb04__v1__pegstr-bin-6-cells-3-pockets-150.4x40x45mm__fit-e586ab4ff6__stl-and-generator.zip",
+  "columns": [
+    -63.5,
+    12.7,
+    63.5
+  ],
+  "pose": "upright",
+  "body_translation_mm": [
+    0,
+    0,
+    -34.88
+  ],
+  "source_archive_sha256": "391391b9cf022b40789a1c44ee684f081186aabfc25d457d4c653f3905cb1f76",
+  "source_member": "part-pb04__v1__pegstr-bin-6-cells-3-pockets-150.4x40x45mm__fit-e586ab4ff6__print-flat-base.stl"
+}

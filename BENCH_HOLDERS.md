@@ -1,5 +1,7 @@
 # Current bench holders and fit
 
+The [October 4 current-mount collection](https://thereprocase.github.io/peg/gallery/current-pegs/) contains all 38 active gallery bodies with PF02 #9 upper hooks (.49 mm clamp, .50 mm crush ribs) and PF07 #5 lower hoops with clipped rigid roots. All 19 Pegstr remixes and arrays have truly planar tops for 180° upside-down printing, broad body bed contact, and full hook crowns below the bed face. Other bodies retain their reviewed upright, cheek or compensated top print poses. Horizontal hoop flex stays within the layers. The shared recipe is preserved under `bench/source/gallery_current_mounts_v1/station_snapshot/`; `bench/reviews/gallery-current-mounts-flat-top-v2/SELECTED.json` records the exact 38-part selection. Per-part support notes and geometry evidence accompany each export. P06/P07 inverted bins require interior support review. Changed-fit physical installation and slicing remain pending. The fit snapshot and older exports described below retain their original versions.
+
 The [curated gallery](https://thereprocase.github.io/peg/gallery/) now lives on GitHub Pages. It contains only Pegstr remixes, the array/bin expansion pack, solder WIP and screwdriver WIP. Earlier collections remain tombstoned. Work one model at a time through discussion, test print and feedback.
 
 ## Current fit versus the original anchor study

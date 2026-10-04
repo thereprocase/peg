@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "id": "MH02",
+  "name": "MH02",
+  "family": "shaft-holders",
+  "version": "current-mounts-v1",
+  "fit_label": "PF02 #9 / PF07 #5, clipped root; physical fit pending",
+  "pose": "flat-top",
+  "print_bounds_mm": [
+    175.80000020000887,
+    60.7003075412628,
+    40.00145863752192
+  ],
+  "installed_bounds_mm": [
+    -87.90000010000443,
+    -10.790000100000016,
+    -32.533671730593696,
+    87.90000010000443,
+    50.318796525946695,
+    11.148969073973433
+  ],
+  "print_matrix": [
+    1.0,
+    0.0,
+    0.0,
+    87.90000000000015,
+    0.0,
+    -0.9961946980917455,
+    -0.0871557427476582,
+    47.62605133234349,
+    0.0,
+    0.0871557427476582,
+    -0.9961946980917455,
+    7.0248166441428745,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "mount": {
+    "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+    "top": {
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49
+    },
+    "columns_x_mm": [
+      -76.19999999999999,
+      76.19999999999999
+    ],
+    "plate": {
+      "x0": -87.90000000000015,
+      "x1": 87.90000000000003,
+      "y0": 0.15,
+      "y1": 5.55,
+      "z0": -32.0,
+      "z1": 5.12
+    },
+    "hoop": {
+      "concept": "HOOP",
+      "arm_mm": 0.8,
+      "tip_half": 2.0,
+      "even_catch_wall": true,
+      "ramp_wall": true,
+      "nose_mm": 0.9,
+      "root_gusset_mm": 0.4,
+      "body_ribs_mm": 0.3,
+      "orientation": "hoop band horizontal, flexes in X (the print layers)",
+      "detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "nose_mm": 0.9,
+        "ramp_wall_mm": 0.8,
+        "min_wall_mm": 0.8,
+        "root_gusset_mm": 0.4,
+        "root_gusset_length_mm": 1.5,
+        "arm_mm": 0.8,
+        "closed_nose_mm": 0.9,
+        "band_half_height_mm": 1.4,
+        "root_clip_radius_mm": 2.95,
+        "cheek_offset_down_mm": 0.0
+      }
+    },
+    "rows": {
+      "hooks": [
+        0
+      ],
+      "bearing": [],
+      "hoop": [
+        1
+      ],
+      "empty": []
+    },
+    "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+  },
+  "body_translation_mm": [
+    0,
+    3,
+    2
+  ],
+  "source": {
+    "id": "MH02",
+    "family": "shaft-holders",
+    "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step",
+    "input_sha256": "98c4d0acf2390505088ae95a99dafa932995194346ed6d8bc70d1833a3f54cad",
+    "source_url": "https://github.com/thereprocase/peg/releases/download/mh01-mh04-shaft-holders-v1/part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step",
+    "columns": [
+      -76.19999999999999,
+      76.19999999999999
+    ],
+    "pose": "flat-top",
+    "hoop_row": 1,
+    "body_translation_mm": [
+      0,
+      3,
+      2
+    ]
+  },
+  "checks": {
+    "valid_one_solid": true,
+    "rear_interface_symmetric_difference_mm3": 0.0,
+    "preserved_body_missing_mm3": 0.0,
+    "new_material_beyond_back_wall_mm3": 0.0,
+    "upper_body_motion": {
+      "pass": true,
+      "minimum_front_board_y_mm": -8.326672684688674e-17,
+      "poses": 1429,
+      "max_point_step_mm": 0.05,
+      "mesh_deflection_mm": 0.005,
+      "worst": {
+        "point_yz": [
+          0.1499999999999999,
+          -25.679999999999996
+        ],
+        "translation_y": -0.15,
+        "angle_deg": 0.0
+      },
+      "scope": "Front material vs board plane only; sampled nominal reference route, not certification of changed interference pegs or physical installation."
+    },
+    "bed_contact_area_mm2": 7516.251542076299,
+    "mesh": {
+      "installed": {
+        "file": "installed.stl",
+        "facets": 22284,
+        "volume_error_fraction": 1.1653414909701487e-07,
+        "sha256": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900"
+      },
+      "print": {
+        "file": "print.stl",
+        "facets": 22284,
+        "volume_error_fraction": 3.856911737146414e-06,
+        "sha256": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687"
+      }
+    },
+    "pass": true,
+    "independent_mesh": {
+      "installed": {
+        "watertight": true,
+        "consistent_winding": true,
+        "volume_mm3": 192685.93281086974,
+        "bounds_mm": [
+          [
+            -87.9000015258789,
+            -10.789999961853027,
+            -32.53367233276367
+          ],
+          [
+            87.9000015258789,
+            50.31879806518555,
+            11.148968696594238
+          ]
+        ],
+        "components": 5,
+        "input_sha256": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900",
+        "shell_signed_volumes_mm3": [
+          197636.33322910438,
+          -1237.6002180457829,
+          -1237.5999910712867,
+          -1237.5999910712871,
+          -1237.6002180457829
+        ],
+        "positive_material_shells": 1,
+        "internal_cavity_shells": 4
+      },
+      "print": {
+        "watertight": true,
+        "consistent_winding": true,
+        "volume_mm3": 192685.92767160726,
+        "bounds_mm": [
+          [
+            0.0,
+            2.6219026949547697e-12,
+            5.089262344881718e-13
+          ],
+          [
+            175.8000030517578,
+            60.7003059387207,
+            40.0
+          ]
+        ],
+        "components": 5,
+        "input_sha256": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687",
+        "shell_signed_volumes_mm3": [
+          197636.32718828524,
+          -1237.6001628875656,
+          -1237.600389862091,
+          -1237.59948196399,
+          -1237.599481963989
+        ],
+        "positive_material_shells": 1,
+        "internal_cavity_shells": 4,
+        "downfacing_over45deg_area_mm2": 804.6332074170703,
+        "overhang_scope": "Geometric face-normal screen; not toolpaths or a support-removal qualification."
+      },
+      "pass": true
+    }
+  },
+  "assets": {
+    "installed_stl": "installed.stl",
+    "installed_step": "installed.step",
+    "installed_fcstd": "installed.FCStd",
+    "print_stl": "print.stl",
+    "print_step": "print.step",
+    "print_fcstd": "print.FCStd",
+    "mesh_checks": "mesh-checks.json"
+  },
+  "notes": [
+    "Original forward body and functional cavities retained; shared receiver integrated at the back wall.",
+    "Pegs require local support planning; bare print pose is not sliced or support-qualified.",
+    "Changed interference-fit peg motion, physical fit and load testing remain pending."
+  ],
+  "input_hashes": {
+    "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-mh02-magnetic-shaft-holder-6mm-round__v1__4-seats-7-cells__installed__fit-e586ab4ff6.step": "98c4d0acf2390505088ae95a99dafa932995194346ed6d8bc70d1833a3f54cad",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/remount.py": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/SNAPSHOT.json": "ee78f96a25810a25f449a2184d9f1ed0c3a2fce16487ba9c36d4d429d34c6ae8",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_profile.py": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_print_variant.py": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder.py": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder_v2.py": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_fit_ladder_v4.py": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/peg_interface.py": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/reference/peg-fit.scad": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_120.step": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_120_geometry.json": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/reference/conformal_motion_results.json": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/reviews/pf02-fits/peg-fit-clamp-0.49.scad": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/mesh_gates.py": "dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/packaged_source_provenance.json": "fe5899692671c73228292413e2bfb1808fa3290bf5fd1a3720f5447470d8ec5e"
+  },
+  "upper_material": {
+    "highest_front_material_z_mm": 11.148968696594238,
+    "above_nominal_lip_mm": 6.028968696594238,
+    "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+    "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+  },
+  "print_review": {
+    "hoop_flex_installed_direction": [
+      1,
+      0,
+      0
+    ],
+    "hoop_flex_print_direction": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "hoop_flex_out_of_layer_component": 0.0,
+    "machine_envelope_mm": [
+      256,
+      256,
+      250
+    ],
+    "excluded_front_left_rectangle_mm": [
+      18,
+      28
+    ],
+    "machine_source": "Released MS01 v3 used Repro P1S - 0.4 nozzle -> Bambu Lab P1S 0.4 nozzle -> fdm_bbl_3dp_001_common -> fdm_machine_common. Height 250 mm; machine-specific exclusion overrides parent.",
+    "bare_body_aabb_placement_options": [
+      {
+        "rotate_z_90": false,
+        "offset_xy_mm": [
+          18,
+          0
+        ],
+        "placed_bounds_mm": [
+          193.80000020000887,
+          60.7003075412628,
+          40.00145863752192
+        ]
+      },
+      {
+        "rotate_z_90": false,
+        "offset_xy_mm": [
+          0,
+          28
+        ],
+        "placed_bounds_mm": [
+          175.80000020000887,
+          88.7003075412628,
+          40.00145863752192
+        ]
+      },
+      {
+        "rotate_z_90": true,
+        "offset_xy_mm": [
+          18,
+          0
+        ],
+        "placed_bounds_mm": [
+          78.7003075412628,
+          175.80000020000887,
+          40.00145863752192
+        ]
+      },
+      {
+        "rotate_z_90": true,
+        "offset_xy_mm": [
+          0,
+          28
+        ],
+        "placed_bounds_mm": [
+          60.7003075412628,
+          203.80000020000887,
+          40.00145863752192
+        ]
+      }
+    ],
+    "within_machine": true,
+    "bed_contact_note": "Original planar top and any coplanar receiver; hook material does not set the bed plane.",
+    "support_and_brim_scope": "Bare body only; local peg supports, body bridges and brim need a new plate/toolpath review. No prior print job applies.",
+    "forward_body_lowest_print_z_mm": -5.324349876545398e-07
+  },
+  "export_hashes": {
+    "installed.step": "8acd28db1a6f8495ac111c474fd99ee4f980adfe5b66942760459f9eee998bc4",
+    "installed.stl": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900",
+    "installed.FCStd": "d6d8824d30373837ff90e882d76624e9f7edcb7dadd5b86729b4c2149aca4b1d",
+    "print.step": "78016ad989290b3c05f1841ef081505c2dfba232d5a0ce9ad1c1a647ba91de97",
+    "print.stl": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687",
+    "print.FCStd": "99f7d2a2de6d9d9dbd668ebd40a627bcbb6d09d69f4f0a70819b5d969f0dcdb8"
+  },
+  "source_provenance": {
+    "record": "bench/source/gallery_current_mounts_v1/packaged_source_provenance.json",
+    "input_hashes_scope": "Current packaged source bytes. Actual execution SHA-256 and exact archived source bytes are separately recorded below. Post-generation changes are trailing-whitespace-only and AST-equal; no geometry rerun is implied.",
+    "executed_authored_sources": [
+      {
+        "source_file": "remount.py",
+        "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+        "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+        "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+        "ast_equal": true,
+        "post_generation_whitespace_only": true,
+        "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+        "role": "geometry generation",
+        "bundle_path": "generation-sources/remount.py"
+      },
+      {
+        "source_file": "mesh_gates.py",
+        "generation_source_sha256": "dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392",
+        "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392/mesh_gates.py",
+        "packaged_source_sha256": "dec3ad077585e741cc63dd150594b45c4d151746d831cf7f5dd8da9869086392",
+        "ast_equal": true,
+        "post_generation_whitespace_only": false,
+        "packaged_source_file": "bench/source/gallery_current_mounts_v1/mesh_gates.py",
+        "role": "recorded check/export source",
+        "bundle_path": "generation-sources/mesh_gates.py"
+      }
+    ],
+    "generation_sources": [
+      {
+        "source_file": "remount.py",
+        "generation_source_sha256": "2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6",
+        "generation_source_path": "/home/repro/.local/state/peg-astra-3d/generation-sources/gallery-current-mounts/2824408ba3f425d69c92f8079bbabf573d84515544213126e7ff5f92e751eea6/remount.py",
+        "packaged_source_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e",
+        "ast_equal": true,
+        "post_generation_whitespace_only": true,
+        "packaged_source_file": "bench/source/gallery_current_mounts_v1/remount.py",
+        "role": "geometry generation",
+        "bundle_path": "generation-sources/remount.py"
+      }
+    ],
+    "post_generation_whitespace_sources": [
+      "remount.py"
+    ]
+  }
+}

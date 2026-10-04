@@ -1,0 +1,729 @@
+{
+  "pass": true,
+  "products_checked": 38,
+  "checks": [
+    {
+      "id": "P03",
+      "pass": true,
+      "print_bounds_mm": [
+        35.56000214549364,
+        40.89000086757251,
+        37.60000068225411
+      ],
+      "bed_contact_area_mm2": 494.7351488796278,
+      "forward_body_min_print_z_mm": 9.536743394988889e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P04",
+      "pass": true,
+      "print_bounds_mm": [
+        35.56000214549364,
+        49.693000364032514,
+        37.60000068225412
+      ],
+      "bed_contact_area_mm2": 440.48454124434886,
+      "forward_body_min_print_z_mm": 9.536743394988889e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P05",
+      "pass": true,
+      "print_bounds_mm": [
+        35.56000217728282,
+        59.55110125514552,
+        37.600000835783355
+      ],
+      "bed_contact_area_mm2": 610.8063980170007,
+      "forward_body_min_print_z_mm": 9.536743394988889e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P07",
+      "pass": true,
+      "print_bounds_mm": [
+        63.20000135552906,
+        58.24000115368004,
+        38.58000013482259
+      ],
+      "bed_contact_area_mm2": 592.0310667028474,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P06",
+      "pass": true,
+      "print_bounds_mm": [
+        107.60360022518898,
+        80.54000039074333,
+        38.58000031444185
+      ],
+      "bed_contact_area_mm2": 1357.310889440202,
+      "forward_body_min_print_z_mm": 9.536743483806731e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P08",
+      "pass": true,
+      "print_bounds_mm": [
+        35.56000214549364,
+        53.77930026027252,
+        37.60000068225411
+      ],
+      "bed_contact_area_mm2": 644.8862188692958,
+      "forward_body_min_print_z_mm": 9.773478826247128e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P10",
+      "pass": true,
+      "print_bounds_mm": [
+        56.803398904529644,
+        30.540000486102514,
+        37.60000067683874
+      ],
+      "bed_contact_area_mm2": 575.5785348369303,
+      "forward_body_min_print_z_mm": 9.536743394988889e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P11",
+      "pass": true,
+      "print_bounds_mm": [
+        35.56000214549364,
+        38.79000048610252,
+        37.60000068225412
+      ],
+      "bed_contact_area_mm2": 507.19719242620477,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P09",
+      "pass": true,
+      "print_bounds_mm": [
+        83.41000446610016,
+        71.62000231715753,
+        37.600000835783355
+      ],
+      "bed_contact_area_mm2": 2867.622126980062,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P02",
+      "pass": true,
+      "print_bounds_mm": [
+        35.560002209073886,
+        40.940000104632574,
+        37.60000083578287
+      ],
+      "bed_contact_area_mm2": 416.85453056602864,
+      "forward_body_min_print_z_mm": 9.536744105531625e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P01",
+      "pass": true,
+      "print_bounds_mm": [
+        35.560001954760764,
+        50.0400002500001,
+        37.60000058146975
+      ],
+      "bed_contact_area_mm2": 710.7470084077587,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P01-12",
+      "pass": true,
+      "print_bounds_mm": [
+        35.56000207913722,
+        50.04000029947672,
+        37.600000772205014
+      ],
+      "bed_contact_area_mm2": 692.8892465074307,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P01-24",
+      "pass": true,
+      "print_bounds_mm": [
+        51.58800172970478,
+        50.040000255965694,
+        37.60000050265506
+      ],
+      "bed_contact_area_mm2": 1029.377328635083,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P09-16",
+      "pass": true,
+      "print_bounds_mm": [
+        56.250000478484644,
+        71.29000025596761,
+        37.60000050265503
+      ],
+      "bed_contact_area_mm2": 2014.4727471789809,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P01-32",
+      "pass": true,
+      "print_bounds_mm": [
+        68.18800401852423,
+        50.0400002559661,
+        37.60000050266594
+      ],
+      "bed_contact_area_mm2": 1349.37254299141,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P01-48",
+      "pass": true,
+      "print_bounds_mm": [
+        101.38800096676518,
+        50.04000025596756,
+        37.60000050266594
+      ],
+      "bed_contact_area_mm2": 1989.362403115393,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P09-36",
+      "pass": true,
+      "print_bounds_mm": [
+        122.50000047848464,
+        71.29000025596875,
+        37.600000502655014
+      ],
+      "bed_contact_area_mm2": 4306.295148460678,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P09-48",
+      "pass": true,
+      "print_bounds_mm": [
+        162.25000047848476,
+        71.2900002559751,
+        37.60000050265503
+      ],
+      "bed_contact_area_mm2": 5681.388699716495,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "P09-72",
+      "pass": true,
+      "print_bounds_mm": [
+        241.75000047848422,
+        71.29000025604695,
+        37.60000050265503
+      ],
+      "bed_contact_area_mm2": 8431.576018216665,
+      "forward_body_min_print_z_mm": 9.536743750260257e-08,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.599999904632568,
+        "above_nominal_lip_mm": 0.47999990463256825,
+        "approach": "Body top planed at original Z=5.0, remaining body raised 0.60 mm, integral receiver ends at the same Z=5.60 mm top. Full hooks unchanged; no crown pads.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "inverted-flat-top"
+    },
+    {
+      "id": "barrels",
+      "pass": true,
+      "print_bounds_mm": [
+        125.00000020000098,
+        77.44000020001481,
+        125.4506732474286
+      ],
+      "bed_contact_area_mm2": 4765.069636017362,
+      "forward_body_min_print_z_mm": 0.0,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "upright"
+    },
+    {
+      "id": "reel-thick",
+      "pass": true,
+      "print_bounds_mm": [
+        75.44931218713674,
+        58.94000020000956,
+        74.20000020001642
+      ],
+      "bed_contact_area_mm2": 3140.6600080482876,
+      "forward_body_min_print_z_mm": 1.5258789076710855e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "reel-thin",
+      "pass": true,
+      "print_bounds_mm": [
+        75.44931218713674,
+        58.94000020000956,
+        74.20000020001642
+      ],
+      "bed_contact_area_mm2": 3140.6600080482876,
+      "forward_body_min_print_z_mm": 1.5258789076710855e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "braid",
+      "pass": true,
+      "print_bounds_mm": [
+        62.44931218712771,
+        53.94000020000007,
+        48.8000002000064
+      ],
+      "bed_contact_area_mm2": 2293.6100080482865,
+      "forward_body_min_print_z_mm": 3.8146972514141453e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "drip-tray",
+      "pass": true,
+      "print_bounds_mm": [
+        125.00000020000581,
+        85.79000020000004,
+        53.4493121871294
+      ],
+      "bed_contact_area_mm2": 9340.249999999998,
+      "forward_body_min_print_z_mm": 0.0,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "upright"
+    },
+    {
+      "id": "snips-pliers",
+      "pass": true,
+      "print_bounds_mm": [
+        71.44931218712983,
+        65.55474114526278,
+        48.80000020001775
+      ],
+      "bed_contact_area_mm2": 3177.988636286877,
+      "forward_body_min_print_z_mm": 4.814711509482095e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "tweezers-v8",
+      "pass": true,
+      "print_bounds_mm": [
+        227.00000020003984,
+        117.7900002000713,
+        48.80000020000098
+      ],
+      "bed_contact_area_mm2": 972.6480000000001,
+      "forward_body_min_print_z_mm": 7.403173828125006,
+      "upper_material": {
+        "highest_front_material_z_mm": 52.0,
+        "above_nominal_lip_mm": 46.88,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "tweezers-v10",
+      "pass": true,
+      "print_bounds_mm": [
+        220.99916225004105,
+        103.01968720004112,
+        48.80000025001947
+      ],
+      "bed_contact_area_mm2": 15148.343173765108,
+      "forward_body_min_print_z_mm": 3.8146972514141453e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 45.49916076660156,
+        "above_nominal_lip_mm": 40.379160766601565,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "MH01",
+      "pass": true,
+      "print_bounds_mm": [
+        99.60000020001763,
+        60.7003075412669,
+        40.00099564148866
+      ],
+      "bed_contact_area_mm2": 4190.167670300775,
+      "forward_body_min_print_z_mm": -5.42976634321235e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 11.148968696594238,
+        "above_nominal_lip_mm": 6.028968696594238,
+        "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "flat-top"
+    },
+    {
+      "id": "MH02",
+      "pass": true,
+      "print_bounds_mm": [
+        175.80000020000887,
+        60.7003075412628,
+        40.00145863752192
+      ],
+      "bed_contact_area_mm2": 7516.251542076299,
+      "forward_body_min_print_z_mm": -5.324349876545398e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 11.148968696594238,
+        "above_nominal_lip_mm": 6.028968696594238,
+        "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "flat-top"
+    },
+    {
+      "id": "MH03",
+      "pass": true,
+      "print_bounds_mm": [
+        201.20000020000646,
+        60.7003075412616,
+        40.001921633562155
+      ],
+      "bed_contact_area_mm2": 8547.11742807801,
+      "forward_body_min_print_z_mm": -6.148320208509972e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 11.148968696594238,
+        "above_nominal_lip_mm": 6.028968696594238,
+        "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "flat-top"
+    },
+    {
+      "id": "MH04",
+      "pass": true,
+      "print_bounds_mm": [
+        201.20000020000828,
+        60.70030754126224,
+        40.0000002000081
+      ],
+      "bed_contact_area_mm2": 8585.483507301464,
+      "forward_body_min_print_z_mm": -3.6410602533010206e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 11.148968696594238,
+        "above_nominal_lip_mm": 6.028968696594238,
+        "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "flat-top"
+    },
+    {
+      "id": "MS01-A-H",
+      "pass": true,
+      "print_bounds_mm": [
+        150.40000020001028,
+        60.70030754126324,
+        40.02536860943772
+      ],
+      "bed_contact_area_mm2": 6252.388569231478,
+      "forward_body_min_print_z_mm": -5.238636724413936e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 11.148968696594238,
+        "above_nominal_lip_mm": 6.028968696594238,
+        "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "flat-top"
+    },
+    {
+      "id": "MS01-I-P",
+      "pass": true,
+      "print_bounds_mm": [
+        150.40000020000878,
+        60.70030754126276,
+        40.01343987821223
+      ],
+      "bed_contact_area_mm2": 6030.5824865907925,
+      "forward_body_min_print_z_mm": -5.148321191583705e-07,
+      "upper_material": {
+        "highest_front_material_z_mm": 11.148968696594238,
+        "above_nominal_lip_mm": 6.028968696594238,
+        "approach": "Original functional body shifted 3 mm forward / 2 mm up, overlapping the 5.4 mm receiver by 2.4 mm; no hook shortening or separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "flat-top"
+    },
+    {
+      "id": "SWD01",
+      "pass": true,
+      "print_bounds_mm": [
+        39.449312187127724,
+        60.74000020000006,
+        74.20000020000103
+      ],
+      "bed_contact_area_mm2": 455.4480000000001,
+      "forward_body_min_print_z_mm": 1.5258789076710855e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "right-cheek"
+    },
+    {
+      "id": "PB01",
+      "pass": true,
+      "print_bounds_mm": [
+        99.59999912049366,
+        50.940001949065206,
+        40.329312410313506
+      ],
+      "bed_contact_area_mm2": 3982.4012646490382,
+      "forward_body_min_print_z_mm": -1.0681152318170462e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "upright"
+    },
+    {
+      "id": "PB02",
+      "pass": true,
+      "print_bounds_mm": [
+        150.3999945415324,
+        60.940001948402944,
+        60.32931240965123
+      ],
+      "bed_contact_area_mm2": 7518.401105107052,
+      "forward_body_min_print_z_mm": -1.0681152318170462e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "upright"
+    },
+    {
+      "id": "PB03",
+      "pass": true,
+      "print_bounds_mm": [
+        201.19999759461473,
+        60.94000194906522,
+        80.32931241031349
+      ],
+      "bed_contact_area_mm2": 10058.401330414723,
+      "forward_body_min_print_z_mm": 2.7465820267025265e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "upright"
+    },
+    {
+      "id": "PB04",
+      "pass": true,
+      "print_bounds_mm": [
+        150.39999454285692,
+        55.94000194906522,
+        40.329312410313506
+      ],
+      "bed_contact_area_mm2": 6766.353617206301,
+      "forward_body_min_print_z_mm": -1.0681152318170462e-06,
+      "upper_material": {
+        "highest_front_material_z_mm": 5.119999885559082,
+        "above_nominal_lip_mm": 0,
+        "approach": "Original forward body retained and fused into full-thickness integral receiver; no separate crown pad.",
+        "root_continuity": "Single valid fused solid; exact shared rear interface; front motion includes all upper body material."
+      },
+      "native_readback_pass": true,
+      "pose": "upright"
+    }
+  ],
+  "scope": "CAD, mesh, selected print pose and sampled front-body board clearance only. No new slices, printer actions, FEA, physical fit or load qualification."
+}

@@ -1,0 +1,53 @@
+{
+  "installed": {
+    "watertight": true,
+    "consistent_winding": true,
+    "volume_mm3": 145597.34938420416,
+    "bounds_mm": [
+      [
+        -75.19999694824219,
+        -10.789999961853027,
+        -32.53367233276367
+      ],
+      [
+        75.19999694824219,
+        50.31879806518555,
+        11.148968696594238
+      ]
+    ],
+    "components": 1,
+    "input_sha256": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+    "shell_signed_volumes_mm3": [
+      145597.34938420373
+    ],
+    "positive_material_shells": 1,
+    "internal_cavity_shells": 0
+  },
+  "print": {
+    "watertight": true,
+    "consistent_winding": true,
+    "volume_mm3": 145597.35679059257,
+    "bounds_mm": [
+      [
+        9.999999406318238e-08,
+        1.0000098171758509e-07,
+        1.0000034933455026e-07
+      ],
+      [
+        150.39999389648438,
+        60.7003059387207,
+        40.0
+      ]
+    ],
+    "components": 1,
+    "input_sha256": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960",
+    "shell_signed_volumes_mm3": [
+      145597.35679059272
+    ],
+    "positive_material_shells": 1,
+    "internal_cavity_shells": 0,
+    "downfacing_over45deg_area_mm2": 693.3904654237191,
+    "overhang_scope": "Geometric face-normal screen; not toolpaths or a support-removal qualification."
+  },
+  "pass": true
+}

@@ -1,0 +1,1299 @@
+{
+  "schema_version": 1,
+  "expected_count": 38,
+  "parts": [
+    {
+      "id": "P03",
+      "name": "Twin rectangular seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.56000214549364,
+        40.89000086757251,
+        37.60000068225411
+      ],
+      "assets": {
+        "installed_stl": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P04",
+      "name": "Windscreen tool cradle",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.56000214549364,
+        49.693000364032514,
+        37.60000068225412
+      ],
+      "assets": {
+        "installed_stl": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P05",
+      "name": "MT2 holder",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.56000217728282,
+        59.55110125514552,
+        37.600000835783355
+      ],
+      "assets": {
+        "installed_stl": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P07",
+      "name": "60 \u00d7 40 bin",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        63.20000135552906,
+        58.24000115368004,
+        38.58000013482259
+      ],
+      "assets": {
+        "installed_stl": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "The bin rim now lies flat for upside-down printing. Its closed floor becomes a ceiling and needs suitable accessible cavity supports or a validated bridge. Peg supports also need a fresh slicer review.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P06",
+      "name": "100 \u00d7 60 bin",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        107.60360022518898,
+        80.54000039074333,
+        38.58000031444185
+      ],
+      "assets": {
+        "installed_stl": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "The bin rim now lies flat for upside-down printing. Its closed floor becomes a ceiling and needs suitable accessible cavity supports or a validated bridge. Peg supports also need a fresh slicer review.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P08",
+      "name": "Flashlight ring",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.56000214549364,
+        53.77930026027252,
+        37.60000068225411
+      ],
+      "assets": {
+        "installed_stl": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P10",
+      "name": "Low rectangular slot",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        56.803398904529644,
+        30.540000486102514,
+        37.60000067683874
+      ],
+      "assets": {
+        "installed_stl": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P11",
+      "name": "Caliper slot",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.56000214549364,
+        38.79000048610252,
+        37.60000068225412
+      ],
+      "assets": {
+        "installed_stl": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P09",
+      "name": "24 round seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        83.41000446610016,
+        71.62000231715753,
+        37.600000835783355
+      ],
+      "assets": {
+        "installed_stl": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P02",
+      "name": "Four square seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.560002209073886,
+        40.940000104632574,
+        37.60000083578287
+      ],
+      "assets": {
+        "installed_stl": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P01",
+      "name": "16 small square seats",
+      "family": "pegstr",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.560001954760764,
+        50.0400002500001,
+        37.60000058146975
+      ],
+      "assets": {
+        "installed_stl": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P01-12",
+      "name": "12 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        35.56000207913722,
+        50.04000029947672,
+        37.600000772205014
+      ],
+      "assets": {
+        "installed_stl": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P01-24",
+      "name": "24 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        51.58800172970478,
+        50.040000255965694,
+        37.60000050265506
+      ],
+      "assets": {
+        "installed_stl": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P09-16",
+      "name": "16 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        56.250000478484644,
+        71.29000025596761,
+        37.60000050265503
+      ],
+      "assets": {
+        "installed_stl": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P01-32",
+      "name": "32 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        68.18800401852423,
+        50.0400002559661,
+        37.60000050266594
+      ],
+      "assets": {
+        "installed_stl": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P01-48",
+      "name": "48 small square seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        101.38800096676518,
+        50.04000025596756,
+        37.60000050266594
+      ],
+      "assets": {
+        "installed_stl": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P09-36",
+      "name": "36 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        122.50000047848464,
+        71.29000025596875,
+        37.600000502655014
+      ],
+      "assets": {
+        "installed_stl": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P09-48",
+      "name": "48 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        162.25000047848476,
+        71.2900002559751,
+        37.60000050265503
+      ],
+      "assets": {
+        "installed_stl": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "3 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "P09-72",
+      "name": "72 round seats",
+      "family": "arrays",
+      "version": "current-mounts-flat-top-v2",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "inverted-flat-top",
+      "print_bounds_mm": [
+        241.75000047848422,
+        71.29000025604695,
+        37.60000050265503
+      ],
+      "assets": {
+        "installed_stl": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
+        "installed_glb": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upside down on the genuinely planar top. The STL is already rotated 180\u00b0 and placed on the bed; all 19 Pegstr and array models use this top-down orientation.",
+        "upper_pegs": "The integral receiving wall meets the flat top at Z = 5.60 mm. The full hook crowns remain below that bed plane. The front body, including all material above the peg row, passes the sampled nominal tilt-in board-clearance screen.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "4 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": "Marius Gheorghescu / mgx \u00b7 Creative Commons Attribution Non-Commercial (supplied notice; version unspecified)"
+    },
+    {
+      "id": "barrels",
+      "name": "Three barrels",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        125.00000020000098,
+        77.44000020001481,
+        125.4506732474286
+      ],
+      "assets": {
+        "installed_stl": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+        "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 4, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "reel-thick",
+      "name": "Large solder reel",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        75.44931218713674,
+        58.94000020000956,
+        74.20000020001642
+      ],
+      "assets": {
+        "installed_stl": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 2, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "reel-thin",
+      "name": "Small solder reel",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        75.44931218713674,
+        58.94000020000956,
+        74.20000020001642
+      ],
+      "assets": {
+        "installed_stl": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 2, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "braid",
+      "name": "Braid roll",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        62.44931218712771,
+        53.94000020000007,
+        48.8000002000064
+      ],
+      "assets": {
+        "installed_stl": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-braid__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-braid__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 2, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "drip-tray",
+      "name": "Removable drip tray",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        125.00000020000581,
+        85.79000020000004,
+        53.4493121871294
+      ],
+      "assets": {
+        "installed_stl": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+        "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "snips-pliers",
+      "name": "Snips + small pliers",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        71.44931218712983,
+        65.55474114526278,
+        48.80000020001775
+      ],
+      "assets": {
+        "installed_stl": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 2, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "tweezers-v8",
+      "name": "Four tweezers \u00b7 long cradle v8",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        227.00000020003984,
+        117.7900002000713,
+        48.80000020000098
+      ],
+      "assets": {
+        "installed_stl": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "The forward body begins 7.40 mm above the bed, so body supports or validated bridging are required as well as peg supports. Review the actual toolpaths.",
+        "mount": "2 mounting columns; lower hoop row 6, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "tweezers-v10",
+      "name": "Four tweezers \u00b7 compact cradle v10",
+      "family": "solder-modules",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        220.99916225004105,
+        103.01968720004112,
+        48.80000025001947
+      ],
+      "assets": {
+        "installed_stl": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 6, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "MH01",
+      "name": "Jeweler driver shaft holder",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "flat-top",
+      "print_bounds_mm": [
+        99.60000020001763,
+        60.7003075412669,
+        40.00099564148866
+      ],
+      "assets": {
+        "installed_stl": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+        "installed_glb": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-mh01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+        "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. The sealed magnet cavities are retained; the new geometry needs its own pause-layer and loading-path check. Earlier print kits are historical."
+      },
+      "credit": ""
+    },
+    {
+      "id": "MH02",
+      "name": "6 mm driver shaft holder",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "flat-top",
+      "print_bounds_mm": [
+        175.80000020000887,
+        60.7003075412628,
+        40.00145863752192
+      ],
+      "assets": {
+        "installed_stl": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+        "installed_glb": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-mh02__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+        "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. The sealed magnet cavities are retained; the new geometry needs its own pause-layer and loading-path check. Earlier print kits are historical."
+      },
+      "credit": ""
+    },
+    {
+      "id": "MH03",
+      "name": "8 mm driver shaft holder",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "flat-top",
+      "print_bounds_mm": [
+        201.20000020000646,
+        60.7003075412616,
+        40.001921633562155
+      ],
+      "assets": {
+        "installed_stl": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+        "installed_glb": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-mh03__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+        "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. The sealed magnet cavities are retained; the new geometry needs its own pause-layer and loading-path check. Earlier print kits are historical."
+      },
+      "credit": ""
+    },
+    {
+      "id": "MH04",
+      "name": "Quarter-inch hex shaft holder",
+      "family": "shaft-holders",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "flat-top",
+      "print_bounds_mm": [
+        201.20000020000828,
+        60.70030754126224,
+        40.0000002000081
+      ],
+      "assets": {
+        "installed_stl": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+        "installed_glb": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-mh04__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+        "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. The sealed magnet cavities are retained; the new geometry needs its own pause-layer and loading-path check. Earlier print kits are historical."
+      },
+      "credit": ""
+    },
+    {
+      "id": "MS01-A-H",
+      "name": "Recoverable shaft sampler \u00b7 A\u2013H",
+      "family": "shaft-sampler",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "flat-top",
+      "print_bounds_mm": [
+        150.40000020001028,
+        60.70030754126324,
+        40.02536860943772
+      ],
+      "assets": {
+        "installed_stl": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+        "installed_glb": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+        "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. Recoverable magnet channels and removable spacers are retained; earlier print kits are historical."
+      },
+      "credit": ""
+    },
+    {
+      "id": "MS01-I-P",
+      "name": "Recoverable shaft sampler \u00b7 I\u2013P",
+      "family": "shaft-sampler",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "flat-top",
+      "print_bounds_mm": [
+        150.40000020000878,
+        60.70030754126276,
+        40.01343987821223
+      ],
+      "assets": {
+        "installed_stl": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
+        "installed_glb": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print inverted on the existing flat bearing face. The supplied pose includes the 5\u00b0 adjustment needed to put that face on the bed; horizontal hoops flex within the layers.",
+        "upper_pegs": "The full hooks are integrated into the receiver. The holder placement keeps its bearing face on the bed and its upper front material clear of the board along the sampled nominal route.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested. Recoverable magnet channels and removable spacers are retained; earlier print kits are historical."
+      },
+      "credit": ""
+    },
+    {
+      "id": "SWD01",
+      "name": "Removable magnetic screw-dish cradle",
+      "family": "workshop",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        39.449312187127724,
+        60.74000020000006,
+        74.20000020000103
+      ],
+      "assets": {
+        "installed_stl": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-swd01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+        "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "PB01",
+      "name": "Compact utility bin",
+      "family": "bin-expansion",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        99.59999912049366,
+        50.940001949065206,
+        40.329312410313506
+      ],
+      "assets": {
+        "installed_stl": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-pb01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+        "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "2 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "PB02",
+      "name": "Wide utility bin",
+      "family": "bin-expansion",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        150.3999945415324,
+        60.940001948402944,
+        60.32931240965123
+      ],
+      "assets": {
+        "installed_stl": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-pb02__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+        "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "3 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "PB03",
+      "name": "Large utility bin",
+      "family": "bin-expansion",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        201.19999759461473,
+        60.94000194906522,
+        80.32931241031349
+      ],
+      "assets": {
+        "installed_stl": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-pb03__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+        "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "3 mounting columns; lower hoop row 2, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "PB04",
+      "name": "Three-pocket parts bin",
+      "family": "bin-expansion",
+      "version": "current-mounts-v1",
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        150.39999454285692,
+        55.94000194906522,
+        40.329312410313506
+      ],
+      "assets": {
+        "installed_stl": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.glb",
+        "installed_png": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
+        "print_png": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
+        "checks": "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print-upright.step",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/current-pegs-v2-2026-10-04/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "notes": {
+        "orientation": "Print upright on the flat bottom in the supplied orientation. The horizontal lower hoops flex within the print layers.",
+        "upper_pegs": "The full hooks are integrated into the receiving wall. The sampled nominal board-clearance screen includes all front material above the top peg row.",
+        "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+        "mount": "3 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+        "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    }
+  ],
+  "build_note": "October 4, 2026 \u00b7 Per-model CAD and print-orientation checks; physical testing pending."
+}

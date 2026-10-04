@@ -1,0 +1,104 @@
+{
+  "id": "reel-thin",
+  "input_stl_sha256": {
+    "installed": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+    "print": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920"
+  },
+  "display_transform": [
+    [
+      0.001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      -0.001,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assets": {
+    "installed_glb": "installed.glb",
+    "print_glb": "print.glb",
+    "installed_png": "installed.png",
+    "print_png": "print.png",
+    "preview_png": "installed.png",
+    "rear_png": "rear.png"
+  },
+  "render_input_stl_sha256": {
+    "installed": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+    "print": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920"
+  },
+  "public_notes": {
+    "orientation": "Print on the broad side cheek in the supplied orientation. The STL is already placed on the bed; the turned lower hoops flex within the print layers.",
+    "upper_pegs": "The integral receiver retains the full hooks. All front material above the top peg row is included in the sampled nominal board-clearance screen; no separate crown pads are added.",
+    "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
+    "mount": "2 mounting columns; lower hoop row 2, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
+    "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+  },
+  "public_name": "Small solder reel",
+  "credit": "",
+  "root_mesh_metrics": {
+    "id": "reel-thin",
+    "meshes": {
+      "installed": {
+        "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            -37.099998474121094,
+            -10.789999961853027,
+            -70.0
+          ],
+          [
+            37.099998474121094,
+            48.150001525878906,
+            5.445000171661377
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+        "watertight": true,
+        "winding_consistent": true,
+        "positive_material_shells": 1,
+        "void_shells": 0,
+        "bounds_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            75.44499969482422,
+            58.939998626708984,
+            74.19999694824219
+          ]
+        ]
+      }
+    },
+    "pose_nearest_vertex_max_error_mm": 4.913644386553482e-06,
+    "pose_surface_max_error_mm": 4.913644386553482e-06,
+    "broad_front_body_bed_area_mm2": 2934.8320533241617,
+    "bed_contact_area_mm2": 3140.6600825106766,
+    "body_min_z_above_bed_mm": 0.0,
+    "front_body_downfacing_over45_area_mm2": 951.7702206610542,
+    "passed": true
+  }
+}

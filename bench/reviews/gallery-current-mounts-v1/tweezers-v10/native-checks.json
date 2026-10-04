@@ -1,0 +1,20 @@
+{
+  "installed": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 102792.74214882491,
+    "sha256": "8d46a7c18d8861171ea02b99c8f9ce2a6eeaf08f67eac4cf0faeb5bcb11f38b9"
+  },
+  "print": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 102792.7421488468,
+    "sha256": "47e7664560927a2babcbf9a1cf1c7dd8216902f0b8a51a705343f4d1708e1ada"
+  },
+  "legacy_v10_difference_mm3": {
+    "upper_hook_rear": 0.0,
+    "all_rear": 209.00168169767443
+  },
+  "pass": true,
+  "scope": "Basic native STEP round-trip validity, not exhaustive BOP qualification."
+}

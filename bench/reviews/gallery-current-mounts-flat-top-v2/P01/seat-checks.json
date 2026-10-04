@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "expected_array_seats": null,
+  "sections": [
+    {
+      "original_z_mm": 4.0,
+      "new_z_mm": 4.6,
+      "original_openings": 16,
+      "new_openings": 16,
+      "opening_symmetric_difference_mm2": 3.496160413564995e-07
+    },
+    {
+      "original_z_mm": 2.0,
+      "new_z_mm": 2.6,
+      "original_openings": 16,
+      "new_openings": 16,
+      "opening_symmetric_difference_mm2": 3.286595935114928e-07
+    },
+    {
+      "original_z_mm": 0.0,
+      "new_z_mm": 0.6,
+      "original_openings": 16,
+      "new_openings": 16,
+      "opening_symmetric_difference_mm2": 3.4332881834917704e-07
+    }
+  ],
+  "tolerance_mm2": 0.01,
+  "scope": "Cross-section preservation below authorized planing band. Closed section void counts can include structural gaps; only declared array seat counts are treated as capacity. Does not establish physical tool fit; open-sided seats may not form closed loops. Exact remaining-body preservation is checked independently in CAD.",
+  "input_hashes": {
+    "/home/repro/code/peg-gallery-current-mounts/docs/gallery/pegstr/P01/model.stl": "121176c251fbc0948a81e68cabe8d5d4c20805b1994f7c0b0fc86e9177592291",
+    "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-flat-top-v2/P01/installed.stl": "423770769449b09a8b8266ec725b289132d126c301be26931ca622902ab9a7d2",
+    "/home/repro/code/peg-gallery-current-mounts/bench/source/gallery_current_mounts_v1/flat_seat_checks.py": "a4b75c0823ed9de8b6549fda643d01bfbac164be21fca50d821080da99131c23"
+  }
+}

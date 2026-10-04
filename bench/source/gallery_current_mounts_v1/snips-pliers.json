@@ -1,0 +1,13 @@
+{
+  "id": "snips-pliers",
+  "family": "solder",
+  "input": "/home/repro/code/peg-gallery-current-mounts/bench/reviews/gallery-current-mounts-v1/inputs/part-solder-modules-snips-pliers__v6__solder-station-2-tool-snips-and-pliers-seat__installed__fit-9c7be3cc78.step",
+  "input_sha256": "adbc7c0fe78958c182a204da2854f9e6128bda2c1b3234ea95db10414b821764",
+  "source_url": "https://github.com/thereprocase/peg/releases/download/holders-2026-09-16/part-solder-modules-snips-pliers__v6__solder-station-2-tool-snips-and-pliers-seat__installed__fit-9c7be3cc78.step",
+  "columns": [
+    -12.7,
+    12.7
+  ],
+  "pose": "right-cheek",
+  "name": "Snips + small pliers"
+}

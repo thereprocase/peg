@@ -1,0 +1,1906 @@
+{
+  "passed": true,
+  "products": 38,
+  "records": [
+    {
+      "id": "P03",
+      "meshes": {
+        "installed": {
+          "sha256": "ce2e324bc561d3e154b4afd708fbfe0cc251182ec101fa010ebc5f054968cebf",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              30.100000381469727,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "e97cb6d6001182513b3779da70c493d4c3ca9ae7ba300c5d2dcdf30befc561af",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              4.476419235288631e-13,
+              0.0
+            ],
+            [
+              35.560001373291016,
+              40.88999938964844,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.3050029696992526e-06,
+      "pose_surface_max_error_mm": 3.3050029696992526e-06,
+      "broad_front_body_bed_area_mm2": 266.26400966645326,
+      "bed_contact_area_mm2": 494.7351666514047,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 1.9330130084260528,
+      "passed": true
+    },
+    {
+      "id": "P04",
+      "meshes": {
+        "installed": {
+          "sha256": "95d8226465be036e0f4cf82c8fd4d85956982038c6890591630e235a4944f898",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              38.90299987792969,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "ff901d31ef2006062f1a182d2191ad68d28743a75813a5ef9f0ef037883f401c",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              2.0676793610618915e-12,
+              0.0
+            ],
+            [
+              35.560001373291016,
+              49.69300079345703,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.344673195189517e-06,
+      "pose_surface_max_error_mm": 3.344673195189517e-06,
+      "broad_front_body_bed_area_mm2": 219.50120838127128,
+      "bed_contact_area_mm2": 440.48447305896394,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 9.880775972365832,
+      "passed": true
+    },
+    {
+      "id": "P05",
+      "meshes": {
+        "installed": {
+          "sha256": "1ad89c0e146ceeb0673ac6b6c4d57d26b83b101bbe73e03c139619ebf0d94909",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              48.76110076904297,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "d7f7a157e28a15b5025fb7993b80329cac9598f52005e9d9dc1ecc3cfe3ddc77",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              35.560001373291016,
+              59.55110168457031,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.3446721264171763e-06,
+      "pose_surface_max_error_mm": 3.3446721264171763e-06,
+      "broad_front_body_bed_area_mm2": 390.9909587542875,
+      "bed_contact_area_mm2": 610.8063312370582,
+      "body_min_z_above_bed_mm": 1.7763568394002505e-15,
+      "front_body_downfacing_over45_area_mm2": 21.04873151989143,
+      "passed": true
+    },
+    {
+      "id": "P07",
+      "meshes": {
+        "installed": {
+          "sha256": "ea5ce58d31859ac1097106e208f66cf2fe668971d990ea271fb0b9ea1c7626ca",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -31.600000381469727,
+              -10.789999961853027,
+              -32.97999954223633
+            ],
+            [
+              31.600000381469727,
+              47.45000076293945,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "696785cdaed16e42d2c8d9f142afbd457a9f26d517cdc92485bf6819cd624821",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              3.552713678800501e-15,
+              1.4210854715202004e-14,
+              1.7763568394002505e-15
+            ],
+            [
+              63.20000076293945,
+              58.2400016784668,
+              38.57999801635742
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.3583183870535443e-06,
+      "pose_surface_max_error_mm": 3.3583183870535443e-06,
+      "broad_front_body_bed_area_mm2": 232.55739768369506,
+      "bed_contact_area_mm2": 592.03083137406,
+      "body_min_z_above_bed_mm": 1.7763568394002505e-15,
+      "front_body_downfacing_over45_area_mm2": 2391.737124288309,
+      "passed": true
+    },
+    {
+      "id": "P06",
+      "meshes": {
+        "installed": {
+          "sha256": "c528f3ade174f5dcf3a73e05c7ee06d8a2f95ff6ccb4fc2230808347c991fb4e",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -53.80179977416992,
+              -10.789999961853027,
+              -32.97999954223633
+            ],
+            [
+              53.80179977416992,
+              69.75,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "4144c5c3b57214a100857afdd12606f3963fc2d2882f2a7a108218327081e6fe",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              107.60359954833984,
+              80.54000091552734,
+              38.58000183105469
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 2.059253444702199e-05,
+      "pose_surface_max_error_mm": 2.059253444702199e-05,
+      "broad_front_body_bed_area_mm2": 631.6316421901307,
+      "bed_contact_area_mm2": 1357.3108162471315,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 5992.657546475251,
+      "passed": true
+    },
+    {
+      "id": "P08",
+      "meshes": {
+        "installed": {
+          "sha256": "946c173ec5a9fed5dbbfd3d78fcc3e13d298940d0d1285469dbc57c8c7b5d386",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              42.98929977416992,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "a72cdaf78cec053b4a1e81c6937441f9d9c78bd748974ccc61b0dbc4c3be3c5b",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              5.044853423896711e-13,
+              2.367353424403973e-09
+            ],
+            [
+              35.560001373291016,
+              53.779300689697266,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.343052804035958e-06,
+      "pose_surface_max_error_mm": 3.343052804035958e-06,
+      "broad_front_body_bed_area_mm2": 452.8622271115996,
+      "bed_contact_area_mm2": 644.8861531369871,
+      "body_min_z_above_bed_mm": 2.367356088939232e-09,
+      "front_body_downfacing_over45_area_mm2": 22.32709098965266,
+      "passed": true
+    },
+    {
+      "id": "P10",
+      "meshes": {
+        "installed": {
+          "sha256": "b4926faee4a336f2e6713e55229ef0afe01fd38267bb031c8ad574e95e18b6bf",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -28.40169906616211,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              28.40169906616211,
+              19.75,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "f34d0caa44a54b1a9aa7ddbb060925ace1a0fd2dfe4751b6163d7187e98077f2",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              1.0658141036401503e-14,
+              0.0
+            ],
+            [
+              56.80339813232422,
+              30.540000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.128284676536146e-06,
+      "pose_surface_max_error_mm": 3.128284676536146e-06,
+      "broad_front_body_bed_area_mm2": 202.459719015008,
+      "bed_contact_area_mm2": 575.5785549626726,
+      "body_min_z_above_bed_mm": 8.881784197001252e-16,
+      "front_body_downfacing_over45_area_mm2": 7.77784441743526,
+      "passed": true
+    },
+    {
+      "id": "P11",
+      "meshes": {
+        "installed": {
+          "sha256": "e851eabd3c671daf028dff06004d697350b2809d2be3880a20689f43f5b3d694",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              28.0,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "3ad66fbc05c120ed70c0cc1400bbca1041c61bd0e3938fdf1d0b0d6746bf946c",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              2.6645352591003757e-15
+            ],
+            [
+              35.560001373291016,
+              38.790000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.0990729069133165e-06,
+      "pose_surface_max_error_mm": 3.0990729069133165e-06,
+      "broad_front_body_bed_area_mm2": 274.4357434010021,
+      "bed_contact_area_mm2": 507.19721462894177,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 21.11587967810219,
+      "passed": true
+    },
+    {
+      "id": "P09",
+      "meshes": {
+        "installed": {
+          "sha256": "d80de995bf7557cafe4fbe31d8250d2124d020884c7763e46fea1c703dec3287",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -41.70500183105469,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              41.70500183105469,
+              60.83000183105469,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "ec8eecbfa124acac90bac2b6a666bb79f8aa0868e10ef44265deb2bd9f19b4a6",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              2.1600499167107046e-12,
+              0.0,
+              2.6645352591003757e-15
+            ],
+            [
+              83.41000366210938,
+              71.62000274658203,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 5.606436265147141e-06,
+      "pose_surface_max_error_mm": 5.606436265147141e-06,
+      "broad_front_body_bed_area_mm2": 2283.3278484644447,
+      "bed_contact_area_mm2": 2867.621947545657,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 4.62109889948455,
+      "passed": true
+    },
+    {
+      "id": "P02",
+      "meshes": {
+        "installed": {
+          "sha256": "8f1ed41ac13b95525a13bb2fe7c4bc43df678e6de0008179ffc82a47895ca65a",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              30.149999618530273,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "808907baa4f076aa053dc8a3d8e1ea6461927305f0346aa61c1167ccd630dd97",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              1.0658141036401503e-14,
+              7.105427357601002e-15
+            ],
+            [
+              35.560001373291016,
+              40.939998626708984,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.3050009636790078e-06,
+      "pose_surface_max_error_mm": 3.3050009636790078e-06,
+      "broad_front_body_bed_area_mm2": 213.06005065344038,
+      "bed_contact_area_mm2": 416.8545414686025,
+      "body_min_z_above_bed_mm": 9.769962616701378e-15,
+      "front_body_downfacing_over45_area_mm2": 11.841658703182521,
+      "passed": true
+    },
+    {
+      "id": "P01",
+      "meshes": {
+        "installed": {
+          "sha256": "423770769449b09a8b8266ec725b289132d126c301be26931ca622902ab9a7d2",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              39.25,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "cc0827b6ed7eb0b48e95383894d48214c7a2a4f1d2db6cf57f5366df8c2bc17e",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              7.105427357601002e-15,
+              3.552713678800501e-15
+            ],
+            [
+              35.560001373291016,
+              50.040000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.3446704384007504e-06,
+      "pose_surface_max_error_mm": 3.3446704384007504e-06,
+      "broad_front_body_bed_area_mm2": 502.3386309015228,
+      "bed_contact_area_mm2": 710.7469400834883,
+      "body_min_z_above_bed_mm": 6.217248937900877e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P01-12",
+      "meshes": {
+        "installed": {
+          "sha256": "264e6bd18bf942f8aed86c15094412d6aa2ca387bc2943778d54f8261975bf61",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -17.780000686645508,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              17.780000686645508,
+              39.25,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "eb9db41ff0cc81f7fd90509346fe9a1627a80f700b540360d40be6ab0718ee71",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              5.329070518200751e-13,
+              2.6645352591003757e-15
+            ],
+            [
+              35.560001373291016,
+              50.040000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.344672346755997e-06,
+      "pose_surface_max_error_mm": 3.344672346755997e-06,
+      "broad_front_body_bed_area_mm2": 484.93045431206485,
+      "bed_contact_area_mm2": 692.8892101829742,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P01-24",
+      "meshes": {
+        "installed": {
+          "sha256": "47f0e26b448dbdf199c7fe3b34beb8e39e0b061938827b5bca79fd77ecbfe676",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -25.79400062561035,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              25.79400062561035,
+              39.25,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "8d7441c9da5356551fcf35c955347f43916797f0e9a33623829d94e969cd371e",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.7834622667578515e-12,
+              1.0658141036401503e-12,
+              2.6645352591003757e-15
+            ],
+            [
+              51.5880012512207,
+              50.040000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.3583181055771543e-06,
+      "pose_surface_max_error_mm": 3.3583181055771543e-06,
+      "broad_front_body_bed_area_mm2": 733.1541280255381,
+      "bed_contact_area_mm2": 1029.3772299291509,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P09-16",
+      "meshes": {
+        "installed": {
+          "sha256": "b3c90248b064e5c9847f590165e4d6b2fca0f82968a374b011ed3ea24f05f1e5",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -28.125,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              28.125,
+              60.5,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "d10bf33dc5eda52588f0d88194f9ee890cb9c0f69e97b9d701e43dd55d9d68f7",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.9184653865522705e-13,
+              6.394884621840902e-13,
+              2.6645352591003757e-15
+            ],
+            [
+              56.25,
+              71.29000091552734,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.529702489688684e-06,
+      "pose_surface_max_error_mm": 4.529702489688684e-06,
+      "broad_front_body_bed_area_mm2": 1636.2450501795515,
+      "bed_contact_area_mm2": 2014.47259627852,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P01-32",
+      "meshes": {
+        "installed": {
+          "sha256": "0deceff410ebfae7dbd70f70356330c2c70a992c8c948c680f9b71bcf00ee752",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -34.09400177001953,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              34.09400177001953,
+              39.25,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "897ac9f0c4fa7e6f1c2b285f8a112ee4d3e167a946521d7e7c6a570d3d1864e6",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.2576606422953773e-12,
+              1.1368683772161603e-12,
+              2.6645352591003757e-15
+            ],
+            [
+              68.18800354003906,
+              50.040000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.217783870730273e-06,
+      "pose_surface_max_error_mm": 4.217783870730273e-06,
+      "broad_front_body_bed_area_mm2": 955.2093202486826,
+      "bed_contact_area_mm2": 1349.3723798302296,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P01-48",
+      "meshes": {
+        "installed": {
+          "sha256": "4367772c54095f1a0913bafe9f9b11b8ac4b2c4fad87316428cd43c5ecfb640f",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -50.694000244140625,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              50.694000244140625,
+              39.25,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "e6b12e87c19aea176be8621b64d716fbceeb5cd99e77d3abe16ad4bf8d06ea58",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.7905676941154525e-12,
+              1.1368683772161603e-12,
+              2.6645352591003757e-15
+            ],
+            [
+              101.38800048828125,
+              50.040000915527344,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.710863376454328e-06,
+      "pose_surface_max_error_mm": 4.710863376454328e-06,
+      "broad_front_body_bed_area_mm2": 1399.3192050054558,
+      "bed_contact_area_mm2": 1989.362207275372,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P09-36",
+      "meshes": {
+        "installed": {
+          "sha256": "e6412ce3762198d3c60cf684e45f8087082fe493ae7ea44ea19af442e64fc41c",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -61.25,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              61.25,
+              60.5,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "c742c35e5e4199fdae3c2347d0324dafc00ba47c098537ded687051438aaf1a7",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              8.881784197001252e-13,
+              2.6645352591003757e-15
+            ],
+            [
+              122.5,
+              71.29000091552734,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 5.606437705867046e-06,
+      "pose_surface_max_error_mm": 5.606437705867046e-06,
+      "broad_front_body_bed_area_mm2": 3454.3798597927976,
+      "bed_contact_area_mm2": 4306.294755177647,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P09-48",
+      "meshes": {
+        "installed": {
+          "sha256": "9a2a60154f6810be2a09a698bb8767f024685179c5934b22daf7efc08d200aaa",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -81.125,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              81.125,
+              60.5,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "3491ad7eab4ec5dcf7ea4df6cf51707ca7664a1c6ec0ae6f319ea29476d2b378",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.0231815394945443e-12,
+              1.2647660696529783e-12,
+              2.6645352591003757e-15
+            ],
+            [
+              162.25,
+              71.29000091552734,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 8.665326112806402e-06,
+      "pose_surface_max_error_mm": 8.665326112806402e-06,
+      "broad_front_body_bed_area_mm2": 4545.261000873007,
+      "bed_contact_area_mm2": 5681.388308673935,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "P09-72",
+      "meshes": {
+        "installed": {
+          "sha256": "8ffe6ada1303fc969dd203b81cd25f412876a3fd32c25f9b745e147f49a7f3d7",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -120.875,
+              -10.789999961853027,
+              -32.0
+            ],
+            [
+              120.875,
+              60.5,
+              5.599999904632568
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "f6d41dd6023273fdf6a3ac6989635a5c75f20609876632ae9f3be29539b22f6b",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              1.2079226507921703e-11,
+              2.6645352591003757e-15
+            ],
+            [
+              241.75,
+              71.29000091552734,
+              37.599998474121094
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 8.665331774474904e-06,
+      "pose_surface_max_error_mm": 8.665331774474904e-06,
+      "broad_front_body_bed_area_mm2": 6727.024918253682,
+      "bed_contact_area_mm2": 8431.577051048505,
+      "body_min_z_above_bed_mm": 2.6645352591003757e-15,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "barrels",
+      "meshes": {
+        "installed": {
+          "sha256": "2b27926e784c1bf993322654c663f1c1bb9883c0aec5ab36dff050670359c4da",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -62.5,
+              -10.789999961853027,
+              -120.0
+            ],
+            [
+              62.5,
+              66.6500015258789,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "d9703b23613f56873b1a34b45cb90ed54f452e8486cd31bd372ab559d1cbef23",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              125.0,
+              77.44000244140625,
+              125.44499969482422
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 6.9795409098035885e-06,
+      "pose_surface_max_error_mm": 6.9795409098035885e-06,
+      "broad_front_body_bed_area_mm2": 4090.0702402116876,
+      "bed_contact_area_mm2": 4765.070311737261,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 748.8456923496335,
+      "passed": true
+    },
+    {
+      "id": "reel-thick",
+      "meshes": {
+        "installed": {
+          "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -37.099998474121094,
+              -10.789999961853027,
+              -70.0
+            ],
+            [
+              37.099998474121094,
+              48.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              75.44499969482422,
+              58.939998626708984,
+              74.19999694824219
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.913644386553482e-06,
+      "pose_surface_max_error_mm": 4.913644386553482e-06,
+      "broad_front_body_bed_area_mm2": 2934.8320533241617,
+      "bed_contact_area_mm2": 3140.6600825106766,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 951.7702206610542,
+      "passed": true
+    },
+    {
+      "id": "reel-thin",
+      "meshes": {
+        "installed": {
+          "sha256": "857de90f77b98cafeae6f5d489889e80e903fe57f9135fc49cc1c14e5d583fed",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -37.099998474121094,
+              -10.789999961853027,
+              -70.0
+            ],
+            [
+              37.099998474121094,
+              48.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "4881a003fbf37a691b9369614df800c78c3682493f6c24e5b152157953279920",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              75.44499969482422,
+              58.939998626708984,
+              74.19999694824219
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.913644386553482e-06,
+      "pose_surface_max_error_mm": 4.913644386553482e-06,
+      "broad_front_body_bed_area_mm2": 2934.8320533241617,
+      "bed_contact_area_mm2": 3140.6600825106766,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 951.7702206610542,
+      "passed": true
+    },
+    {
+      "id": "braid",
+      "meshes": {
+        "installed": {
+          "sha256": "d0dbf7f4a33b4917b73af0f5d1070f3b30c7bab73a2bf3746e2c24baa591e6fa",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -57.0
+            ],
+            [
+              24.399999618530273,
+              43.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "f0adba17e990380d58ec3e9bada70a13b967313e943f85688f5383cc19c1b6b8",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -8.881784197001252e-16,
+              0.0,
+              -7.105427357601002e-15
+            ],
+            [
+              62.44499969482422,
+              53.939998626708984,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.211477940644551e-06,
+      "pose_surface_max_error_mm": 4.211477940644551e-06,
+      "broad_front_body_bed_area_mm2": 2122.882040878712,
+      "bed_contact_area_mm2": 2293.610066345897,
+      "body_min_z_above_bed_mm": -7.105427357601002e-15,
+      "front_body_downfacing_over45_area_mm2": 313.2273758939018,
+      "passed": true
+    },
+    {
+      "id": "drip-tray",
+      "meshes": {
+        "installed": {
+          "sha256": "bbf6496f3346704dcc832531b4ff9d85ca78e933ac8886951238ae2ae16bbb19",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -62.5,
+              -10.789999961853027,
+              -48.0
+            ],
+            [
+              62.5,
+              75.0,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "d8fc5215b82187668c21eb0911be958f8d277b7457282a3a13191da5b2239e96",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              125.0,
+              85.79000091552734,
+              53.44499969482422
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 3.01104928696579,
+      "pose_surface_max_error_mm": 2.1702286217730285e-06,
+      "broad_front_body_bed_area_mm2": 9340.250166893005,
+      "bed_contact_area_mm2": 9340.250166893005,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "snips-pliers",
+      "meshes": {
+        "installed": {
+          "sha256": "369582363dc73729bbf8212a979d58655938aae8cf0ddb7a6a30e88eebf54a04",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -66.0
+            ],
+            [
+              24.399999618530273,
+              54.764739990234375,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "09d22b954a4560004e761499c1c4beee746a74f4d791706a496b7ae75972e59b",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -8.881784197001252e-16,
+              0.0,
+              1.000014151486539e-07
+            ],
+            [
+              71.44499969482422,
+              65.55474090576172,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 1.087599801980856,
+      "pose_surface_max_error_mm": 0.004925480560336997,
+      "broad_front_body_bed_area_mm2": 3177.9886354778755,
+      "bed_contact_area_mm2": 3177.9886354778755,
+      "body_min_z_above_bed_mm": 1.000014151486539e-07,
+      "front_body_downfacing_over45_area_mm2": 1455.658471177771,
+      "passed": true
+    },
+    {
+      "id": "tweezers-v8",
+      "meshes": {
+        "installed": {
+          "sha256": "201a363cb1af794bfd7783755ea8273bdcb7e87308b85233bccd5b370e1d5088",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -175.0
+            ],
+            [
+              24.399999618530273,
+              107.0,
+              52.0
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "3228e177430f93f7e0281661334a01c0f552b96cf1fb181a491a41ac4d7fb7fa",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.0002781891671475e-07,
+              0.0,
+              0.0
+            ],
+            [
+              227.0,
+              117.79000091552734,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 1.521749346124718e-05,
+      "pose_surface_max_error_mm": 1.521749346124718e-05,
+      "broad_front_body_bed_area_mm2": 0.0,
+      "bed_contact_area_mm2": 972.6480972976678,
+      "body_min_z_above_bed_mm": 7.403173446655273,
+      "front_body_downfacing_over45_area_mm2": 13694.844391203369,
+      "passed": true
+    },
+    {
+      "id": "tweezers-v10",
+      "meshes": {
+        "installed": {
+          "sha256": "a75dfc81f2022c9dd62e335aae974107e2c998eee5fd6d53e5b32f8bb4959a97",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -175.5
+            ],
+            [
+              24.399999618530273,
+              92.22969055175781,
+              45.49916076660156
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "7ee97ec3fc8cc91c593a8fb139d528ba6a2f589a3d506af6f537669c7f94bacd",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              1.000000082740371e-07,
+              0.0,
+              -7.105427357601002e-15
+            ],
+            [
+              220.99916076660156,
+              103.01968383789062,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 1.1487760460984,
+      "pose_surface_max_error_mm": 1.3312792815518554e-07,
+      "broad_front_body_bed_area_mm2": 15148.342870167045,
+      "bed_contact_area_mm2": 15148.342870167045,
+      "body_min_z_above_bed_mm": -7.105427357601002e-15,
+      "front_body_downfacing_over45_area_mm2": 801.8887629872705,
+      "passed": true
+    },
+    {
+      "id": "MH01",
+      "meshes": {
+        "installed": {
+          "sha256": "3167eb2e60892fe026dfce73fdd491951a1483cd207f22780ede6b9c2a908ff5",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 6,
+          "bounds_mm": [
+            [
+              -49.79999923706055,
+              -10.789999961853027,
+              -32.53367233276367
+            ],
+            [
+              49.79999923706055,
+              50.31879806518555,
+              11.148968696594238
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "dcf73914065e3396bf01f6bdf647c0e5b814f5b175e1d6012cf8699445a7c802",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 6,
+          "bounds_mm": [
+            [
+              0.0,
+              1.0871303857129533e-12,
+              5.32018873400375e-13
+            ],
+            [
+              99.5999984741211,
+              60.7003059387207,
+              40.0
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 5.2653842823712435e-06,
+      "pose_surface_max_error_mm": 5.2653842823712435e-06,
+      "broad_front_body_bed_area_mm2": 4190.167673384793,
+      "bed_contact_area_mm2": 4190.167673384793,
+      "body_min_z_above_bed_mm": 5.32018873400375e-13,
+      "front_body_downfacing_over45_area_mm2": 212.16004332542548,
+      "passed": true
+    },
+    {
+      "id": "MH02",
+      "meshes": {
+        "installed": {
+          "sha256": "208d7b2be83b312cbdfcd3c68729de8f064eb0db054fcf94e451df645d91f900",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 4,
+          "bounds_mm": [
+            [
+              -87.9000015258789,
+              -10.789999961853027,
+              -32.53367233276367
+            ],
+            [
+              87.9000015258789,
+              50.31879806518555,
+              11.148968696594238
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "92e35e46a977ac0296af2a6aa2e4947cd1a1833fdf15018e18fdd8b12693d687",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 4,
+          "bounds_mm": [
+            [
+              0.0,
+              2.6219026949547697e-12,
+              5.089262344881718e-13
+            ],
+            [
+              175.8000030517578,
+              60.7003059387207,
+              40.0
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 9.60659451477669e-06,
+      "pose_surface_max_error_mm": 9.60659451477669e-06,
+      "broad_front_body_bed_area_mm2": 7516.251796401602,
+      "bed_contact_area_mm2": 7516.251796401602,
+      "body_min_z_above_bed_mm": 5.089262344881718e-13,
+      "front_body_downfacing_over45_area_mm2": 141.43998619078957,
+      "passed": true
+    },
+    {
+      "id": "MH03",
+      "meshes": {
+        "installed": {
+          "sha256": "6fd496c3d0214ae91e51c5c34423314b93cad594d679a34cc531c9f2a73731de",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 4,
+          "bounds_mm": [
+            [
+              -100.5999984741211,
+              -10.789999961853027,
+              -32.53367233276367
+            ],
+            [
+              100.5999984741211,
+              50.31879806518555,
+              11.148968696594238
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "51cecc932119b5ac84e3c40610c4e5e56e199f326e8a4963fad637240f8b1a8f",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 4,
+          "bounds_mm": [
+            [
+              0.0,
+              2.7071678232459817e-12,
+              7.780442956573097e-13
+            ],
+            [
+              201.1999969482422,
+              60.7003059387207,
+              40.0
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 9.631723412351245e-06,
+      "pose_surface_max_error_mm": 9.631723412351245e-06,
+      "broad_front_body_bed_area_mm2": 8547.117458420438,
+      "bed_contact_area_mm2": 8547.117458420438,
+      "body_min_z_above_bed_mm": 7.780442956573097e-13,
+      "front_body_downfacing_over45_area_mm2": 141.43998619078957,
+      "passed": true
+    },
+    {
+      "id": "MH04",
+      "meshes": {
+        "installed": {
+          "sha256": "aed7bdcc7499332d7c7125245047f0a53fdd7d86f3e5b3c85b60516cf7ea0412",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 4,
+          "bounds_mm": [
+            [
+              -100.5999984741211,
+              -10.789999961853027,
+              -32.53367233276367
+            ],
+            [
+              100.5999984741211,
+              50.31879806518555,
+              11.148968696594238
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "16d93cc6cbf83be515d6c808647cece07ec8cb9b9815817b9b2c568ed1f9389e",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 4,
+          "bounds_mm": [
+            [
+              0.0,
+              1.5845103007450234e-12,
+              2.531308496145357e-13
+            ],
+            [
+              201.1999969482422,
+              60.7003059387207,
+              40.0
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 9.631723566354458e-06,
+      "pose_surface_max_error_mm": 9.631723566354458e-06,
+      "broad_front_body_bed_area_mm2": 8585.483597044611,
+      "bed_contact_area_mm2": 8585.483597044611,
+      "body_min_z_above_bed_mm": 2.531308496145357e-13,
+      "front_body_downfacing_over45_area_mm2": 141.43994651794856,
+      "passed": true
+    },
+    {
+      "id": "MS01-A-H",
+      "meshes": {
+        "installed": {
+          "sha256": "84ac83ff48e4466b40a05a891e0083bd36316dba817de54215571039c99f3305",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -75.19999694824219,
+              -10.789999961853027,
+              -32.53367233276367
+            ],
+            [
+              75.19999694824219,
+              50.31879806518555,
+              11.148968696594238
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "0e0c201211eb25d18837ba4feed41bae26ced787ec721b6a4f937a4cf6b83bab",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              9.999999406318238e-08,
+              1.0000012906630218e-07,
+              1.0000021433143047e-07
+            ],
+            [
+              150.39999389648438,
+              60.7003059387207,
+              40.0
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 0.15734228924431598,
+      "pose_surface_max_error_mm": 0.0025306798446363744,
+      "broad_front_body_bed_area_mm2": 6252.388490102547,
+      "bed_contact_area_mm2": 6252.388490102547,
+      "body_min_z_above_bed_mm": 1.0000021433143047e-07,
+      "front_body_downfacing_over45_area_mm2": 117.43200686371347,
+      "passed": true
+    },
+    {
+      "id": "MS01-I-P",
+      "meshes": {
+        "installed": {
+          "sha256": "79103318bb05aed5b313d7cfb45278bf934ef458662e3ee9cb951ff67b46102d",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -75.19999694824219,
+              -10.789999961853027,
+              -32.53367233276367
+            ],
+            [
+              75.19999694824219,
+              50.31879806518555,
+              11.148968696594238
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "b0c07434f563f6e05be1dbdfe727c97d3ce091a67d0e6e550ddc94a10884c960",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              9.999999406318238e-08,
+              1.0000098171758509e-07,
+              1.0000034933455026e-07
+            ],
+            [
+              150.39999389648438,
+              60.7003059387207,
+              40.0
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 0.259221636384196,
+      "pose_surface_max_error_mm": 0.0024202910569270973,
+      "broad_front_body_bed_area_mm2": 6030.582368125313,
+      "bed_contact_area_mm2": 6030.582368125313,
+      "body_min_z_above_bed_mm": 1.0000034933455026e-07,
+      "front_body_downfacing_over45_area_mm2": 106.39699157738232,
+      "passed": true
+    },
+    {
+      "id": "SWD01",
+      "meshes": {
+        "installed": {
+          "sha256": "085bbf12b985e8ceb831cd605f8cb22fb6cabd290bdab25fb1f0eccb12ec2171",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -37.099998474121094,
+              -10.789999961853027,
+              -34.0
+            ],
+            [
+              37.099998474121094,
+              49.95000076293945,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "d571d6bdf1074c673551a232ed07bb4d92526043256c6dcf40d73a0ec671e07a",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              39.44499969482422,
+              60.7400016784668,
+              74.19999694824219
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.500140422625659e-06,
+      "pose_surface_max_error_mm": 4.500140422625659e-06,
+      "broad_front_body_bed_area_mm2": 244.20000839233398,
+      "bed_contact_area_mm2": 455.4480291934012,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 63.0,
+      "passed": true
+    },
+    {
+      "id": "PB01",
+      "meshes": {
+        "installed": {
+          "sha256": "283c989fb95d90b0d16648cceb662565d3d3b04128f5919b74114b54109b48c1",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -49.79999923706055,
+              -10.789999961853027,
+              -34.880001068115234
+            ],
+            [
+              49.79999923706055,
+              40.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "ae84b493e99acf292ab83759a8e877f5118b6e77cb49e76ad1402e5123210406",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              99.5999984741211,
+              50.94000244140625,
+              40.32500076293945
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 4.3175228311069295e-06,
+      "pose_surface_max_error_mm": 4.3175228311069295e-06,
+      "broad_front_body_bed_area_mm2": 3444.561350038777,
+      "bed_contact_area_mm2": 3982.4013987906073,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "PB02",
+      "meshes": {
+        "installed": {
+          "sha256": "eb09a866d199e7136a15e186d9a846f3960090c21a4520a78e33fdb5a17c073a",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -75.19999694824219,
+              -10.789999961853027,
+              -54.880001068115234
+            ],
+            [
+              75.19999694824219,
+              50.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "a6f16cf62d89f99f75829521441f67d834c1740d9fcc287999a86998faffa8d1",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              150.39999389648438,
+              60.94000244140625,
+              60.32500076293945
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 7.892828965727698e-06,
+      "pose_surface_max_error_mm": 7.892828965727698e-06,
+      "broad_front_body_bed_area_mm2": 6706.241253455541,
+      "bed_contact_area_mm2": 7518.401306556123,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "PB03",
+      "meshes": {
+        "installed": {
+          "sha256": "d654d880058175640be0c3ce08b0c2b70227eee2441845072a5391b3f920bc23",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -100.5999984741211,
+              -10.789999961853027,
+              -74.87999725341797
+            ],
+            [
+              100.5999984741211,
+              50.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "6a9bcf8e9ea0f81d688a7dad2722361bb02d75bb6b4cf5da8a61740f7e157858",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              201.1999969482422,
+              60.94000244140625,
+              80.32499694824219
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 8.58179718977528e-06,
+      "pose_surface_max_error_mm": 8.58179718977528e-06,
+      "broad_front_body_bed_area_mm2": 8971.921498929769,
+      "bed_contact_area_mm2": 10058.401597577838,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "id": "PB04",
+      "meshes": {
+        "installed": {
+          "sha256": "ab8c3841d3d3afefbe502750afd4a09babbc41a8d461ae6f3dcafa329932a6bc",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              -75.19999694824219,
+              -10.789999961853027,
+              -34.880001068115234
+            ],
+            [
+              75.19999694824219,
+              45.150001525878906,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "45e8a9ddeb970239955417f385cdf2153e46fe2ed74f1cbca9f5b0dbb698fe9b",
+          "watertight": true,
+          "winding_consistent": true,
+          "positive_material_shells": 1,
+          "void_shells": 0,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              150.39999389648438,
+              55.94000244140625,
+              40.32500076293945
+            ]
+          ]
+        }
+      },
+      "pose_nearest_vertex_max_error_mm": 7.892828965727698e-06,
+      "pose_surface_max_error_mm": 7.892828965727698e-06,
+      "broad_front_body_bed_area_mm2": 6765.818399896227,
+      "bed_contact_area_mm2": 6766.353818654134,
+      "body_min_z_above_bed_mm": 0.0,
+      "front_body_downfacing_over45_area_mm2": 0.0,
+      "passed": true
+    }
+  ]
+}
