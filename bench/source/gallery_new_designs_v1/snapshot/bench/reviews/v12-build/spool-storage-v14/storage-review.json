@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "shared_checks_passed": true,
+  "sweeps_contained": true,
+  "projection_method": "Orthographic union of STL triangles. External occupied perimeter fills internal holes only; no convex hull or bounding-box replacement.",
+  "cases": [
+    {
+      "id": "narrow-40x8",
+      "outside_installed_occupied_perimeter_mm2": 0.0,
+      "extra_z_above_installed_perimeter_mm": 0,
+      "extra_z_above_flat_plate_edge_mm": 0,
+      "extra_x_mm": 0,
+      "required_lift_mm": 8,
+      "front_translation_mm": 65
+    },
+    {
+      "id": "narrow-40x12",
+      "outside_installed_occupied_perimeter_mm2": 0.0,
+      "extra_z_above_installed_perimeter_mm": 0,
+      "extra_z_above_flat_plate_edge_mm": 0,
+      "extra_x_mm": 0,
+      "required_lift_mm": 8,
+      "front_translation_mm": 65
+    },
+    {
+      "id": "small-40x20",
+      "outside_installed_occupied_perimeter_mm2": 0.0,
+      "extra_z_above_installed_perimeter_mm": 0,
+      "extra_z_above_flat_plate_edge_mm": 0,
+      "extra_x_mm": 0,
+      "required_lift_mm": 8,
+      "front_translation_mm": 65
+    },
+    {
+      "id": "nominal-55x30",
+      "outside_installed_occupied_perimeter_mm2": 0.0,
+      "extra_z_above_installed_perimeter_mm": 0,
+      "extra_z_above_flat_plate_edge_mm": 0,
+      "extra_x_mm": 0,
+      "required_lift_mm": 8,
+      "front_translation_mm": 65
+    },
+    {
+      "id": "large-65x34",
+      "outside_installed_occupied_perimeter_mm2": 0.0,
+      "extra_z_above_installed_perimeter_mm": 0,
+      "extra_z_above_flat_plate_edge_mm": 0,
+      "extra_x_mm": 0,
+      "required_lift_mm": 8,
+      "front_translation_mm": 65
+    }
+  ],
+  "body_bounds": [
+    [
+      -24.399999618530273,
+      -10.789999961853027,
+      -71.5999984741211
+    ],
+    [
+      24.399999618530273,
+      61.599998474121094,
+      5.445000171661377
+    ]
+  ],
+  "body_growth_from_braid_mm": {
+    "downward": 34.09179847412109,
+    "forward": 6.464398474121097,
+    "lateral": 0
+  },
+  "reduction_from_v13": {
+    "volume_fraction": 0.5122995945684128,
+    "bottom_height_mm": -1.0999984741210938,
+    "front_depth_mm": 18.400001525878906
+  },
+  "hand_clearance": "Additional to spool sweep. Open top and front allow a direct grasp; no qualified hand envelope.",
+  "inputs": {
+    "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a",
+    "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__design.json": "75acf7277745585a2f6c684ca76bb7355dc22b9174591caaa2e5985aa3a5b80f",
+    "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks.json": "3714de73283138737efe96d2fcff35583731dee617cef72c1424ff53887b05c9",
+    "payload__large-65x34.stl": "6738ee345c4187250d40b919e4ec708d75afdc09c509becfa124c0ecd67fdacd",
+    "payload__narrow-40x12.stl": "fe32c362a0e6300d0f5d7e707167d93e9c10e32c0b1f5ace76743046c2ebc602",
+    "payload__narrow-40x8.stl": "33a507beffd012402cecd2b2465348d2817b69432d3801eefba44c0c56f943fe",
+    "payload__nominal-55x30.stl": "efaf0422f9a69f0c5a4ac046f61927c8ba57072168be2c191fb0d5fab82c7683",
+    "payload__small-40x20.stl": "822b462dbe8cb46bc3fd5da57436c97f5d6c273078cdd464ca80397de78484ab"
+  },
+  "source_sha256": "d6846e6178ae6c56c392709792fb08e4dbca1e2f4ea02f042058c4e361f69bfe"
+}

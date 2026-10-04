@@ -1,0 +1,26 @@
+{
+  "inputs": {
+    "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+    "bench/reviews/knipex-engineering-model-v2/fixed_metal.stl": "f560e2e48ace279e4bef72ea43158857a82c7ed5684d319e7a5b81401207ff7f",
+    "bench/reviews/knipex-engineering-model-v2/fixed_grip_red.stl": "822782971a65eee327d34476ec850907a5d1e970b1033c75516b69c1c281af23",
+    "bench/reviews/knipex-engineering-model-v2/fixed_grip_blue.stl": "40d3bd470e69ff11ec834a61b12a76aec637441f60d615b25d0c412ba9561e70",
+    "bench/reviews/knipex-engineering-model-v2/moving_metal.stl": "e7eb05a6e3623acc21b3343803aaf2f3ed128f4628e9baecbb00c5cb75117bd6",
+    "bench/reviews/knipex-engineering-model-v2/moving_grip_red.stl": "ccf46f984317e2408b8fe878396855a321d77534a90e65d0ea2c2b6d11167bc1",
+    "bench/reviews/knipex-engineering-model-v2/moving_grip_blue.stl": "47ea164c44181359e9542eb3c512ffce3eecb358e92009fb6ce9aa7cfcc43515",
+    "bench/reviews/knipex-engineering-model-v2/main_rivet.stl": "238057d1f60737f2ae27a8e38f035f882581e9dbc7f0fb2c0414c9389ccc030f",
+    "bench/reviews/knipex-engineering-model-v2/spring_limiter_ring.stl": "4768ea2ef94c65a5a3bb14b38ab5089886e9ba0daf484e427eb9a1f9a8753678",
+    "bench/reviews/knipex-engineering-model-v2/spring_limiter_pin.stl": "cbdcc3dee6876568cd4925eb83e3b0d54a194079cf7c79e6c2e83aa2e0ed58ba",
+    "bench/reviews/klein-engineering-model-v2/fixed_metal.stl": "1fa62d9aa16b970d7155e50241449617b7c881f9b595fa71d50dfcb5bcff24bb",
+    "bench/reviews/klein-engineering-model-v2/fixed_grip_red.stl": "aa64c3437a229c03fba24958971203c3c1106be68d4b41b37b4fc608dfbf7ac9",
+    "bench/reviews/klein-engineering-model-v2/fixed_grip_blue.stl": "1169576e8d1473c21ef8b1ffaf349d56ac21018d153eee8ca40c3187282952e8",
+    "bench/reviews/klein-engineering-model-v2/moving_metal.stl": "297c01bebcfbf5d661e9558271e57cea10096447d262b1766dfae58005963100",
+    "bench/reviews/klein-engineering-model-v2/moving_grip_red.stl": "96845e7ac45247745f2fc3b36f2b13ae57da34525317d56fd9cbc0ca1d691925",
+    "bench/reviews/klein-engineering-model-v2/moving_grip_blue.stl": "5e64e366be30820b6f66e24f5fec5cc7d305bcab90dead2cdea7682e8840bed3",
+    "bench/reviews/klein-engineering-model-v2/main_rivet.stl": "3cc682788c53259faf6e7915475733c4433ecdcf2e920f8a0786fda057a4c2df",
+    "bench/reviews/klein-engineering-model-v2/opening_coil.stl": "b8fbc4f469cf83a94d8038e98086db1d3d8ec23338821e9bca27c46291005443",
+    "bench/reviews/klein-engineering-model-v2/released_latch.stl": "f0e13802b934795c960e4bb2fc2ea8fe9c7d5c599c5e0039fd1e725bca080676",
+    "bench/reviews/klein-engineering-model-v2/latch_pin.stl": "1354a241aa34ec53a28ab3453c6198775875bb4d2a921269acec68b6e8553e15",
+    "bench/reviews/klein-engineering-model-v2/coil-open-10.stl": "38682c617ee0bf22092a7e1d3b75613d4c610d959ed8d5479d176d337232a915"
+  },
+  "scope": "Complete frozen CAD tessellations transformed into seating poses; normals only smoothed. Coil at recorded0/+10 poses included. One holder geometry reused for both instances."
+}

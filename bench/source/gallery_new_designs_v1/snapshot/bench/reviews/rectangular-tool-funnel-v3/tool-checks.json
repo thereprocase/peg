@@ -1,0 +1,160 @@
+[
+  {
+    "id": "knipex-open0",
+    "contacts": [
+      {
+        "component": "moving_grip_red",
+        "penetration_after_008mm_lowering_mm3": 9.575746551813459e-05,
+        "gap_mm": 0.002823040685682486
+      }
+    ],
+    "hardware": [
+      {
+        "component": "main_rivet",
+        "gap_mm": 2.3644227981567383,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "spring_limiter_ring",
+        "gap_mm": 2.5305771827697754,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "spring_limiter_pin",
+        "gap_mm": 2.672090565708346,
+        "intersection_mm3": 0.0
+      }
+    ],
+    "board_gap_mm": 25.384929275512697,
+    "bottom_12mm_tip_gap_mm": 2.869422674179077,
+    "vertical_pickup": {
+      "lift_mm": 110,
+      "minimum_lift_mm": 63,
+      "samples": 56,
+      "max_intersection_mm3": 0.0,
+      "final_tip_above_rim_mm": 50.991750984191896
+    },
+    "passed": true
+  },
+  {
+    "id": "knipex-open10",
+    "contacts": [
+      {
+        "component": "moving_grip_red",
+        "penetration_after_008mm_lowering_mm3": 9.394583774062037e-05,
+        "gap_mm": 0.0027041635543537364
+      }
+    ],
+    "hardware": [
+      {
+        "component": "main_rivet",
+        "gap_mm": 2.3644227981567374,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "spring_limiter_ring",
+        "gap_mm": 2.5402042959213738,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "spring_limiter_pin",
+        "gap_mm": 2.7447119073567463,
+        "intersection_mm3": 0.0
+      }
+    ],
+    "board_gap_mm": 16.694933187203507,
+    "bottom_12mm_tip_gap_mm": 2.8694226741790763,
+    "vertical_pickup": {
+      "lift_mm": 110,
+      "minimum_lift_mm": 62,
+      "samples": 56,
+      "max_intersection_mm3": 0.0,
+      "final_tip_above_rim_mm": 51.57072627524602
+    },
+    "passed": true
+  },
+  {
+    "id": "klein-open0",
+    "contacts": [
+      {
+        "component": "moving_grip_red",
+        "penetration_after_008mm_lowering_mm3": 0.0001693263090291219,
+        "gap_mm": 0.003218302585791542
+      }
+    ],
+    "hardware": [
+      {
+        "component": "main_rivet",
+        "gap_mm": 1.7501087188720703,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "opening_coil",
+        "gap_mm": 3.806261648194028,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "released_latch",
+        "gap_mm": 3.452072203820124,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "latch_pin",
+        "gap_mm": 3.492040029241545,
+        "intersection_mm3": 0.0
+      }
+    ],
+    "board_gap_mm": 14.365792846679687,
+    "bottom_12mm_tip_gap_mm": 37.98975139687048,
+    "vertical_pickup": {
+      "lift_mm": 110,
+      "minimum_lift_mm": 107,
+      "samples": 56,
+      "max_intersection_mm3": 0.0,
+      "final_tip_above_rim_mm": 6.235421209335328
+    },
+    "passed": true
+  },
+  {
+    "id": "klein-open10",
+    "contacts": [
+      {
+        "component": "moving_grip_red",
+        "penetration_after_008mm_lowering_mm3": 0.00019541774962285893,
+        "gap_mm": 0.003418305338466904
+      }
+    ],
+    "hardware": [
+      {
+        "component": "main_rivet",
+        "gap_mm": 1.7501087188720694,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "opening_coil",
+        "gap_mm": 3.792356518078538,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "released_latch",
+        "gap_mm": 2.5057538957566092,
+        "intersection_mm3": 0.0
+      },
+      {
+        "component": "latch_pin",
+        "gap_mm": 3.4664843581355114,
+        "intersection_mm3": 0.0
+      }
+    ],
+    "board_gap_mm": 8.19598338382456,
+    "bottom_12mm_tip_gap_mm": 36.609370584814265,
+    "vertical_pickup": {
+      "lift_mm": 110,
+      "minimum_lift_mm": 106,
+      "samples": 56,
+      "max_intersection_mm3": 0.0,
+      "final_tip_above_rim_mm": 7.624345852527128
+    },
+    "passed": true
+  }
+]

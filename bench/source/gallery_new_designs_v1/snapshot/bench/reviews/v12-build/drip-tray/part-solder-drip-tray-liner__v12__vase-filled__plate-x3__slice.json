@@ -1,0 +1,19 @@
+{
+ "file": "print/slice-v12/V12-drip-tray-liner-stagger3-ASA-vase/V12-drip-tray-liner-stagger3-ASA-vase.gcode.3mf",
+ "minutes": 55.0,
+ "layers": 303,
+ "filament_g": 29.04,
+ "support_g": 0.0,
+ "support_fraction": 0.0,
+ "bridge_g": 0.0,
+ "internal_bridge_g": 0.0,
+ "overhang_wall_g": 0.0,
+ "grams_by_feature": {
+  "Internal solid infill": 11.11,
+  "Outer wall": 10.99,
+  "Top surface": 3.71,
+  "Bottom surface": 3.69,
+  "Brim": 0.94,
+  "Custom": 0.03
+ }
+}

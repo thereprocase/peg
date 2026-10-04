@@ -1,0 +1,793 @@
+{
+  "candidate": "tweezer-inward20-v4",
+  "status": "Frozen fin-only checkpoint; all four paths and five-object local slice checked. Curved-guide interpretation pending; no body change or launch.",
+  "created_utc": "2026-10-04T02:36:00.109846+00:00",
+  "baseline_commit": "6665ad4153906943f115eca67e228f8ec12a7d7b",
+  "selected": {
+    "ridge_gain_tool_x_mm": 1.8,
+    "ridge_gain_global_z_mm": 1.691446717414635,
+    "ridge_gain_floor_normal_mm": 1.7386664873203228,
+    "roof_deg": 55,
+    "initial_lift_mm": 6.75,
+    "out_distance_mm": 135,
+    "out_slope_deg": 20,
+    "body": "Exact byte-identical v3",
+    "fin_print": "Broad station-51 end down; nominal 20 mm tall"
+  },
+  "new_sources": [
+    {
+      "path": "bench/source/tweezers_v11/inward20_v4.py",
+      "bytes": 9428,
+      "sha256": "937885777d7f1cf8d200f6d38a149f029bfae80aa167f7cf62c1033dcb0914f3"
+    },
+    {
+      "path": "bench/source/tweezers_v11/inward20_v4_check.py",
+      "bytes": 7231,
+      "sha256": "65f828123bc0937c32bc53ef4e562be6d0c8563b8bbb0af3725bb0e7a43b3602"
+    },
+    {
+      "path": "bench/source/tweezers_v11/inward20_v4_plate.py",
+      "bytes": 3331,
+      "sha256": "b762ac6aecf8276fa732dac08064c076fcfeab274f43f9c3faf7c129766c2b39"
+    },
+    {
+      "path": "bench/source/tweezers_v11/inward20_v4_render.py",
+      "bytes": 5087,
+      "sha256": "a209ff5e515915a493770ec5fef76fd636fec0c82a2c0aeafa5368b8a2ee8eba"
+    },
+    {
+      "path": "bench/source/tweezers_v11/inward20_v4_slice.py",
+      "bytes": 4555,
+      "sha256": "0bc4903b309beedab1fd5d5210513a43dab40e07acdf28fb55101654782e2147"
+    },
+    {
+      "path": "bench/source/tweezers_v11/inward20_v4_toolpaths.py",
+      "bytes": 6716,
+      "sha256": "72c89a1d8df1324f9a8bf702626b0da19f92ba1f02a02473eae00e9a9c1436d0"
+    }
+  ],
+  "shared_source_inputs": [
+    {
+      "path": "bench/source/peg_fit_ladder.py",
+      "bytes": 9823,
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500"
+    },
+    {
+      "path": "bench/source/peg_fit_ladder_v2.py",
+      "bytes": 8349,
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919"
+    },
+    {
+      "path": "bench/source/peg_fit_ladder_v4.py",
+      "bytes": 19624,
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f"
+    },
+    {
+      "path": "bench/source/peg_interface.py",
+      "bytes": 4268,
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b"
+    },
+    {
+      "path": "bench/source/peg_print_variant.py",
+      "bytes": 2401,
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa"
+    },
+    {
+      "path": "bench/source/peg_profile.py",
+      "bytes": 4074,
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981"
+    },
+    {
+      "path": "bench/source/solder_v12/checks.py",
+      "bytes": 9345,
+      "sha256": "f987780e2c04bce00ca6bc8e25dffb3f489619d28339e5c9cf870bb6b3fced58"
+    },
+    {
+      "path": "bench/source/solder_v12/common.py",
+      "bytes": 13327,
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    {
+      "path": "bench/source/solder_v12/fea.py",
+      "bytes": 5946,
+      "sha256": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1"
+    },
+    {
+      "path": "bench/source/solder_v12/spool_front_render.py",
+      "bytes": 9087,
+      "sha256": "15cef7688a9a8efd225a2144c9ad2aa0ad0b1801175f20fdf0ba052fc65e5be3"
+    },
+    {
+      "path": "bench/source/tweezers_v11/holder.py",
+      "bytes": 21547,
+      "sha256": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af"
+    },
+    {
+      "path": "bench/source/tweezers_v11/inward20_v3_render.py",
+      "bytes": 7885,
+      "sha256": "7a9b954dcf9dac80ef60404f98dc72fdfe06b42bcc513efff2896b707bccf4a9"
+    },
+    {
+      "path": "bench/source/tweezers_v11/variants.py",
+      "bytes": 20733,
+      "sha256": "6ee869b1ed205a688a33dc65d5c3b180600258239713385203b4552dccd3e64d"
+    }
+  ],
+  "reference_inputs": [
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/BUILD.json",
+      "bytes": 31910,
+      "sha256": "ec9f912d853b749bacb710f08672451a787e43155772a4e77a9adb66a7e8d1e7"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/NOTES.md",
+      "bytes": 14535,
+      "sha256": "de9e74301809a185a984f7e002ad31d1c338e1391b27ae0d32541480e5af3295"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/OWNER-TEST.md",
+      "bytes": 1651,
+      "sha256": "039a458f8af288241d74c1d7b5d25a1a247495d9ff4c6089c99bf94e79ab3363"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/candidate.json",
+      "bytes": 10913,
+      "sha256": "1c67b6357ac6dae64e90de66e020412c48df212d65dd2c22b89695881f0a2c17"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/checks.json",
+      "bytes": 19527,
+      "sha256": "15166f421fa4bad3f6678946fa7df6468a087a5a2b31ffc9bbd6926b5b129101"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/fea-provenance.json",
+      "bytes": 1157,
+      "sha256": "15edc0c14447a543501fe4015b6bbed9196e2e45019ca09065682248ef616bd9"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+      "bytes": 77084,
+      "sha256": "b22e30a02353bf43b17ff84898c2cf26fba7614b8c5daa73ba1f55d15cfead5f"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+      "bytes": 3384,
+      "sha256": "0c04ef626dc51dcf624050e9e39c3dc2f2d4f04cb36debd304da53e8e5fa3ef7"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+      "bytes": 14384,
+      "sha256": "03408ff3460584eb15d7cdad90973e9335bcee195b39a67bdf59606af9ae9476"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl",
+      "bytes": 16884,
+      "sha256": "4aa030beecff4c1bc36c7392f6260851bb02022da26e4cd25cdb4402ed7fa769"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "bytes": 2622,
+      "sha256": "0684718d1e800de189472f6d6e6953c3ac520c59bb932b4aa6635d8385174ccb"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "bytes": 4510,
+      "sha256": "3239a37a87d81815e549b8de5a50b926035c05dfc2156924b5a616bcacab03d0"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+      "bytes": 307284,
+      "sha256": "0479e5ca8e961ea39436ba765f8c096fa808137302fe460c2731d73d7966c33d"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "bytes": 483910,
+      "sha256": "2b33911d859bb48609843e7acf76e039776a84dcd2040c6a70853d7eb3505c2b"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "bytes": 1395084,
+      "sha256": "12cece2e1a0b8cd14a5800f1330b415cad30f7dfc2fe7cb5764e9dba68653c4e"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "bytes": 507953,
+      "sha256": "14b47c0239e79692b5d84fb5905ead4c3a635de296e46c173942fa05d6e97fd5"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "bytes": 1395084,
+      "sha256": "658d6f446e5d3e2c2aa076b31023641ce7f147c22a3dec62e840e23d28263298"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+      "bytes": 4374384,
+      "sha256": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+      "bytes": 4374384,
+      "sha256": "aa3e8db4a411d77780483eda15b4d3a9b471035a49c3a1f496bf98eeb1c49093"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+      "bytes": 4374384,
+      "sha256": "b0dd90adb0b360e642832ecff4c60db3c1ee596c8b20d57946e1695956e7cd71"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+      "bytes": 4374384,
+      "sha256": "3f2af4417e3a5f4548037c8e78f25ed41cc08c58a62ca0944eaf735c08372b6b"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.step",
+      "bytes": 12739,
+      "sha256": "a5852b3fa56d673b6590b83881b0f05f8c64436b81ea74ae7188d98adce10100"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.step",
+      "bytes": 12752,
+      "sha256": "720bcbe37fb4086a6bd7f04040164f0ec973c452d6353b8e958b00871731807c"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.step",
+      "bytes": 12752,
+      "sha256": "5b3e3c4d521671a9da996174bad4e069a7b90a1cbf487beb2ee1f7d27fe21141"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.step",
+      "bytes": 12743,
+      "sha256": "ecb627b719b1c11c587574f43d8f5b2e527060daf022ada1239fd8c914fda9eb"
+    },
+    {
+      "path": "bench/reviews/v8-regen/tweezers_open_rest.stl",
+      "bytes": 4374384,
+      "sha256": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201"
+    }
+  ],
+  "selected_artifacts": [
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/NOTES.md",
+      "bytes": 9833,
+      "sha256": "c6660a03c36a531df6df76f1a6af392f71da25994be4640e25466b3b25277d8c"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/OWNER-TEST.md",
+      "bytes": 1739,
+      "sha256": "8a815afeee5d4d7b4a3263b9b0fd049b36814d61cc220d072a05fa74f2a08724"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/candidate.json",
+      "bytes": 24839,
+      "sha256": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/checks.json",
+      "bytes": 26387,
+      "sha256": "189505d3d46fae419a38ce9af30dca32244b8a76269ca739c551acfb6be93e34"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/empty.png",
+      "bytes": 44713,
+      "sha256": "6a9dacf38e1284ba278c66c6392db3113d14b877a33ad40365dea6d25fd040ea"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/fea-inheritance.json",
+      "bytes": 6477,
+      "sha256": "d08977b900e0bdbdb11a2c3e171026625a935459626f16ddfcd33b83548873c2"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+      "bytes": 5115,
+      "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/fin-comparison.png",
+      "bytes": 26531,
+      "sha256": "ffd84630a2a6a97dac6b9dd6aafc213d6a8354e6b95412212192ca896c969ef7"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/fin-section.png",
+      "bytes": 66693,
+      "sha256": "7840835cf6e7672ec177d086ce56953f127da944a88f42936b1653f574052457"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/fin-v3__tool-frame.stl",
+      "bytes": 884,
+      "sha256": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/fin-v4__tool-frame.stl",
+      "bytes": 1684,
+      "sha256": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/headroom-path.png",
+      "bytes": 743721,
+      "sha256": "f1c7fde3f9f67c603baa32d0535d5663f8fccba766619c35c3eaf9c42d0b8b5f"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/lift-out.png",
+      "bytes": 82835,
+      "sha256": "2603ed292625a61eb319b7bf2d27228c7625220f82de0fbce78be0cfa76b0328"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/loaded.png",
+      "bytes": 85522,
+      "sha256": "95ff155b53bf2a113bd4dfe85d1037a278e83945b824dd22ed218df2d239d9da"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/mounted-side.png",
+      "bytes": 57514,
+      "sha256": "d819fad5333ee013e56e51ddbd9c1753aa8e6f1227c47806bb03381ceb2ef41b"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+      "bytes": 77084,
+      "sha256": "b22e30a02353bf43b17ff84898c2cf26fba7614b8c5daa73ba1f55d15cfead5f"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+      "bytes": 3384,
+      "sha256": "0c04ef626dc51dcf624050e9e39c3dc2f2d4f04cb36debd304da53e8e5fa3ef7"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+      "bytes": 14384,
+      "sha256": "03408ff3460584eb15d7cdad90973e9335bcee195b39a67bdf59606af9ae9476"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl",
+      "bytes": 16884,
+      "sha256": "4aa030beecff4c1bc36c7392f6260851bb02022da26e4cd25cdb4402ed7fa769"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__design.json",
+      "bytes": 19112,
+      "sha256": "2484293998be1e2a197c941453d4b4d418c02d9b0e7af623fd15175703ffa724"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+      "bytes": 307284,
+      "sha256": "0479e5ca8e961ea39436ba765f8c096fa808137302fe460c2731d73d7966c33d"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "bytes": 483910,
+      "sha256": "2b33911d859bb48609843e7acf76e039776a84dcd2040c6a70853d7eb3505c2b"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "bytes": 1395084,
+      "sha256": "12cece2e1a0b8cd14a5800f1330b415cad30f7dfc2fe7cb5764e9dba68653c4e"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "bytes": 507953,
+      "sha256": "14b47c0239e79692b5d84fb5905ead4c3a635de296e46c173942fa05d6e97fd5"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "bytes": 1395084,
+      "sha256": "658d6f446e5d3e2c2aa076b31023641ce7f147c22a3dec62e840e23d28263298"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+      "bytes": 4374384,
+      "sha256": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+      "bytes": 4374384,
+      "sha256": "aa3e8db4a411d77780483eda15b4d3a9b471035a49c3a1f496bf98eeb1c49093"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+      "bytes": 4374384,
+      "sha256": "b0dd90adb0b360e642832ecff4c60db3c1ee596c8b20d57946e1695956e7cd71"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+      "bytes": 4374384,
+      "sha256": "3f2af4417e3a5f4548037c8e78f25ed41cc08c58a62ca0944eaf735c08372b6b"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.step",
+      "bytes": 22294,
+      "sha256": "e411219aa0c0745158f6513da638ff58ba3e3fe63b78728b751dbbd5744ab750"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+      "bytes": 1684,
+      "sha256": "fc218ac084e4738ab19dd9ed2971fc9c63c834a19ca97ff67ffa11955b6edda4"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.step",
+      "bytes": 22317,
+      "sha256": "873de28d3874075007eda090a0d0dd71882598e5b1a304d1bc16cd62867fdf18"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+      "bytes": 1684,
+      "sha256": "55f228205c693c63a0936c96f6606fbc09000c5f57c972fbcab933070032f6db"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.step",
+      "bytes": 22316,
+      "sha256": "a818ed1bbc63f04bdda857526eadaa3ba6f0a82c4fd66a3aa55a66fc78b4e832"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+      "bytes": 1684,
+      "sha256": "c64578c3c614cea2652fa605c7e04843532dca0c09b1b42c5024509e09c57910"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.step",
+      "bytes": 22311,
+      "sha256": "d3525ede530aab1e4cc722e0b318c94e23f91595793ca0a8e442160624b5c913"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl",
+      "bytes": 1684,
+      "sha256": "ba85f0430d587c2d12a6d786a2fb8c62554cbcd68284b65f717844f644b7d685"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+      "bytes": 22151,
+      "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+      "bytes": 1684,
+      "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/print-plate.png",
+      "bytes": 42050,
+      "sha256": "a899aab19c1bbae7a1b5a2e3bb5493e29cb9f4c8299f1e0879a258fef25736a2"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/print-pose.png",
+      "bytes": 44799,
+      "sha256": "490c8f1923f1c228029480be4deb0d0dae03a46e5a0df5305992277e829aa3a9"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/roof-clearance.json",
+      "bytes": 2550,
+      "sha256": "5fecb7b53442b09d0d1f201ddc598671e45f85b5e67967a7d622792383560910"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/toolpaths.json",
+      "bytes": 2929,
+      "sha256": "452574c8b02a09e06ed8ff19223d6d18af5c613f9423222fea52cf5fff71906b"
+    },
+    {
+      "path": "bench/reviews/tweezer-inward20-v4/toolpaths.png",
+      "bytes": 773518,
+      "sha256": "c1420363eb314553ab54c39752e6ca251b0377dd36eb48c0429ddf64011a106a"
+    }
+  ],
+  "local_machine_specific_not_for_publication": [
+    {
+      "path": "print/slice-tweezer-inward20-v4/TW-INWARD20-v4-ASA-yellow-organic.gcode.3mf",
+      "bytes": 2141342,
+      "sha256": "0a75359362a5d1d24449801690d3c261eb34ec67df1882dd82ac6b0558ea9636"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/plate.json",
+      "bytes": 7086,
+      "sha256": "30c6a6e4ebba0953520034106c926fd7d034052a69ecb68c6bfb14fd94346587"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/assemble.json",
+      "bytes": 1990,
+      "sha256": "d9043e1ff2247f096b222f09441385139fddc4057ff98b4b27fca28d19bdecd7"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/process.json",
+      "bytes": 7002,
+      "sha256": "a7af33ffa4886f2739d1056e2fa4da2c00e37ce1f953feffd1a444cca4640133"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/filament.json",
+      "bytes": 9217,
+      "sha256": "f25b62e8f5c465223df956b932ea5d08f847556936fdd40905604d46e7e1113d"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/slice-summary.json",
+      "bytes": 2306,
+      "sha256": "f0f4d9a4a7d1d2188157aa6fe2ba37615c2e4adcb97027df65f84ae2c951e9f8"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/toolpaths.json",
+      "bytes": 2929,
+      "sha256": "452574c8b02a09e06ed8ff19223d6d18af5c613f9423222fea52cf5fff71906b"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/inward20-v4-A4p0-tall1p8__body__asa-baked.stl",
+      "bytes": 1395084,
+      "sha256": "7fa72c96f5205a3b0ec0baa4afc66a8906ae86a320eadfb148520ab0ccf93b34"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/inward20-v4-A4p0-tall1p8__wedge-1__asa-baked.stl",
+      "bytes": 1684,
+      "sha256": "acbbbb6dd24b4bbfb908ffa5dfa43c519e1422d928b3ef4e512f4dbd738262ea"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/inward20-v4-A4p0-tall1p8__wedge-2__asa-baked.stl",
+      "bytes": 1684,
+      "sha256": "8b6b556a4cde06e88335ed5cc026e186382c939fa83add4530afc5cace70a2e6"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/inward20-v4-A4p0-tall1p8__wedge-3__asa-baked.stl",
+      "bytes": 1684,
+      "sha256": "8ad28bee6d9d04f80f397d129ab171702f143436bddddd867715a8b8acba31bf"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/inward20-v4-A4p0-tall1p8__wedge-4__asa-baked.stl",
+      "bytes": 1684,
+      "sha256": "5475d7bfee7eb6f10f02580dfd974a03f3333189f4b100ae3755f1fa6d52e90d"
+    },
+    {
+      "path": "print/slice-tweezer-inward20-v4/TW-INWARD20-v4__plate-asa-baked.stl",
+      "bytes": 1401484,
+      "sha256": "f09e35ed142be9a770500fdf8f215c951adc3af48f28bb809dfbb2926cd2ae4c"
+    }
+  ],
+  "validation": {
+    "geometry_passed": true,
+    "all_four_outward_intersection_mm3": 0,
+    "collision_noise_tolerance_mm3": 1e-08,
+    "body_immutable_copy_count": 13,
+    "fea_inherited": true,
+    "fea_rerun": false,
+    "actual_toolpaths_passed": true,
+    "source_compilation_count": 6,
+    "preexisting_staged_hashes_preserved": 269,
+    "linked_input_hash_checks": [
+      {
+        "group": "design sources",
+        "path": "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v4.py",
+        "sha256": "937885777d7f1cf8d200f6d38a149f029bfae80aa167f7cf62c1033dcb0914f3"
+      },
+      {
+        "group": "design sources",
+        "path": "/home/repro/code/peg-bt2/bench/source/tweezers_v11/holder.py",
+        "sha256": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af"
+      },
+      {
+        "group": "design sources",
+        "path": "/home/repro/code/peg-bt2/bench/source/solder_v12/common.py",
+        "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+      },
+      {
+        "group": "design sources",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/v8-regen/tweezers_open_rest.stl",
+        "sha256": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201"
+      },
+      {
+        "group": "design sources",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/candidate.json",
+        "sha256": "1c67b6357ac6dae64e90de66e020412c48df212d65dd2c22b89695881f0a2c17"
+      },
+      {
+        "group": "design sources",
+        "path": "/home/repro/code/peg-bt2/bench/source/tweezers_v11/variants.py",
+        "sha256": "6ee869b1ed205a688a33dc65d5c3b180600258239713385203b4552dccd3e64d"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/candidate.json",
+        "sha256": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+        "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fea-inheritance.json",
+        "sha256": "d08977b900e0bdbdb11a2c3e171026625a935459626f16ddfcd33b83548873c2"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v4_check.py",
+        "sha256": "65f828123bc0937c32bc53ef4e562be6d0c8563b8bbb0af3725bb0e7a43b3602"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/source/solder_v12/checks.py",
+        "sha256": "f987780e2c04bce00ca6bc8e25dffb3f489619d28339e5c9cf870bb6b3fced58"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/candidate.json",
+        "sha256": "1c67b6357ac6dae64e90de66e020412c48df212d65dd2c22b89695881f0a2c17"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/checks.json",
+        "sha256": "15166f421fa4bad3f6678946fa7df6468a087a5a2b31ffc9bbd6926b5b129101"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "sha256": "12cece2e1a0b8cd14a5800f1330b415cad30f7dfc2fe7cb5764e9dba68653c4e"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "sha256": "658d6f446e5d3e2c2aa076b31023641ce7f147c22a3dec62e840e23d28263298"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+        "sha256": "0479e5ca8e961ea39436ba765f8c096fa808137302fe460c2731d73d7966c33d"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "sha256": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+        "sha256": "aa3e8db4a411d77780483eda15b4d3a9b471035a49c3a1f496bf98eeb1c49093"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+        "sha256": "b0dd90adb0b360e642832ecff4c60db3c1ee596c8b20d57946e1695956e7cd71"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+        "sha256": "3f2af4417e3a5f4548037c8e78f25ed41cc08c58a62ca0944eaf735c08372b6b"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+        "sha256": "b22e30a02353bf43b17ff84898c2cf26fba7614b8c5daa73ba1f55d15cfead5f"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+        "sha256": "0c04ef626dc51dcf624050e9e39c3dc2f2d4f04cb36debd304da53e8e5fa3ef7"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+        "sha256": "03408ff3460584eb15d7cdad90973e9335bcee195b39a67bdf59606af9ae9476"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl",
+        "sha256": "4aa030beecff4c1bc36c7392f6260851bb02022da26e4cd25cdb4402ed7fa769"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+        "sha256": "fc218ac084e4738ab19dd9ed2971fc9c63c834a19ca97ff67ffa11955b6edda4"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+        "sha256": "55f228205c693c63a0936c96f6606fbc09000c5f57c972fbcab933070032f6db"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+        "sha256": "c64578c3c614cea2652fa605c7e04843532dca0c09b1b42c5024509e09c57910"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl",
+        "sha256": "ba85f0430d587c2d12a6d786a2fb8c62554cbcd68284b65f717844f644b7d685"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-v3__tool-frame.stl",
+        "sha256": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3"
+      },
+      {
+        "group": "geometry inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-v4__tool-frame.stl",
+        "sha256": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a"
+      },
+      {
+        "group": "inherited FEA inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "sha256": "2b33911d859bb48609843e7acf76e039776a84dcd2040c6a70853d7eb3505c2b"
+      },
+      {
+        "group": "inherited FEA inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+        "sha256": "0684718d1e800de189472f6d6e6953c3ac520c59bb932b4aa6635d8385174ccb"
+      },
+      {
+        "group": "inherited FEA inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__fea.json",
+        "sha256": "3239a37a87d81815e549b8de5a50b926035c05dfc2156924b5a616bcacab03d0"
+      },
+      {
+        "group": "inherited FEA inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/fea-provenance.json",
+        "sha256": "15edc0c14447a543501fe4015b6bbed9196e2e45019ca09065682248ef616bd9"
+      },
+      {
+        "group": "roof gap inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/candidate.json",
+        "sha256": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6"
+      },
+      {
+        "group": "roof gap inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "sha256": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764"
+      },
+      {
+        "group": "roof gap inputs",
+        "path": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+        "sha256": "fc218ac084e4738ab19dd9ed2971fc9c63c834a19ca97ff67ffa11955b6edda4"
+      },
+      {
+        "group": "slice profiles",
+        "path": "/home/repro/code/peg-bt2/print/profiles/machine.json",
+        "sha256": "e0d23672522e8dedf1287e195b8c9196f3ded2f305a52a33eb1e411783dc9136"
+      },
+      {
+        "group": "slice profiles",
+        "path": "/home/repro/code/peg-bt2/print/profiles/process.json",
+        "sha256": "487826bea843114576fc79397d51857911d64f2c66b14d752f91e6782b7ffd8c"
+      },
+      {
+        "group": "slice profiles",
+        "path": "/home/repro/code/peg-bt2/print/profiles/filament-asa-polylite-calibrated.json",
+        "sha256": "0b2dbfd9b67a2fb39e26549f9e18b3e2ca76e6b7eef469b06b899658a5200e4d"
+      }
+    ],
+    "gcode_md5": "F6FBFFF0F9367CA5DE01CEA675B805FB",
+    "images_inspected": [
+      "empty.png",
+      "fin-comparison.png",
+      "fin-section.png",
+      "headroom-path.png",
+      "lift-out.png",
+      "loaded.png",
+      "mounted-side.png",
+      "print-plate.png",
+      "print-pose.png",
+      "toolpaths.png"
+    ],
+    "roof_gap_reproduction_embedded_and_hash_verified": true
+  },
+  "runtime": {
+    "FreeCAD": [
+      "1",
+      "1",
+      "3",
+      "44987 (Git)",
+      "https://github.com/FreeCAD/FreeCAD.git",
+      "2026/07/25 04:52:02",
+      "(HEAD detached at 1.1.3)",
+      "145529fe741292ff0b3977a01195bf0247425794"
+    ],
+    "OpenCascade": "7.8.1"
+  },
+  "limits": [
+    "Reference tools and sampled geometry, not continuous proof or measured return/capture success.",
+    "Local roof gaps 0.065\u20130.105 mm are not a manufacturing allowance or full-path minimum.",
+    "Seated overhead reserve is not a permitted outward-path lift range; unchanged body collides at 7 mm lift/out.",
+    "Exact body FEA is inherited v3 evidence; no new solve, fin/glue or printed structure qualification.",
+    "Fin print orientation differs from v3; physical adhesion, layer strength and finish require checking.",
+    "Orca calibrated 100 C bed warning retained; final archive/toolpaths verified.",
+    "No CAD added for the pending curved guide interpretation.",
+    "No index, commit, publication or printer action by Astra."
+  ],
+  "self_hash_note": "BUILD.json excludes itself; root owns integration and inventory. Transient local caches/logs/raw G-code are not selected additions."
+}

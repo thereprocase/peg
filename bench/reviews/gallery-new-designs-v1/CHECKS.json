@@ -1,0 +1,277 @@
+{
+  "pass": true,
+  "products": 6,
+  "checks": [
+    {
+      "id": "SPOOL-V14",
+      "mesh": {
+        "installed": {
+          "sha256": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 29166.607750559924,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -71.5999984741211
+            ],
+            [
+              24.399999618530273,
+              61.599998474121094,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "8db348453f14c18d7232dd2590a837d583cf4ccd296bb33ec72081c7acfab014",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 29166.60962195293,
+          "bounds_mm": [
+            [
+              -8.881784197001252e-16,
+              0.0,
+              3.552713678800501e-15
+            ],
+            [
+              77.04499816894531,
+              72.38999938964844,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "status": "geometry checks; physical qualification recorded separately",
+      "pose_surface_match": true,
+      "mesh_tessellation_tolerance_mm": 0.05,
+      "recorded_checks_pass": true
+    },
+    {
+      "id": "TW-GUIDED-V5",
+      "mesh": {
+        "installed": {
+          "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 108645.50871602568,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -126.55811309814453
+            ],
+            [
+              24.399999618530273,
+              135.57867431640625,
+              30.731489181518555
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 108645.50086433899,
+          "bounds_mm": [
+            [
+              4.51146115665324e-05,
+              0.0,
+              -3.552713678800501e-15
+            ],
+            [
+              157.28964233398438,
+              146.36866760253906,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "status": "geometry checks; physical qualification recorded separately",
+      "pose_surface_match": true,
+      "mesh_tessellation_tolerance_mm": 0.05,
+      "recorded_checks_pass": true,
+      "four_fins_required": true
+    },
+    {
+      "id": "TOOL-FUNNEL-V3",
+      "mesh": {
+        "installed": {
+          "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 71476.58807704561,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -64.0
+            ],
+            [
+              24.399999618530273,
+              89.7725830078125,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 71476.5940787001,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              9.999999406318238e-08
+            ],
+            [
+              48.79999923706055,
+              100.56258392333984,
+              69.44499969482422
+            ]
+          ]
+        }
+      },
+      "status": "geometry checks; physical qualification recorded separately",
+      "pose_surface_max_error_mm": 0.006023142515051569,
+      "pose_surface_match": true,
+      "mesh_tessellation_tolerance_mm": 0.05,
+      "recorded_checks_pass": true
+    },
+    {
+      "id": "BRAID-V12",
+      "mesh": {
+        "installed": {
+          "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 16465.159683927628,
+          "bounds_mm": [
+            [
+              -24.399999618530273,
+              -10.789999961853027,
+              -37.508201599121094
+            ],
+            [
+              24.399999618530273,
+              55.13560104370117,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 16465.159724787092,
+          "bounds_mm": [
+            [
+              -8.881784197001252e-16,
+              0.0,
+              0.0
+            ],
+            [
+              42.95320129394531,
+              65.92559814453125,
+              48.79999923706055
+            ]
+          ]
+        }
+      },
+      "status": "geometry checks; physical qualification recorded separately",
+      "pose_surface_match": true,
+      "mesh_tessellation_tolerance_mm": 0.05,
+      "recorded_checks_pass": true
+    },
+    {
+      "id": "DRIP-TRAY-V12",
+      "mesh": {
+        "installed": {
+          "sha256": "1785f2a562dc78b0fc996f31b2a43f5e13f8f58f8505b16ad8227a85b7abaaa5",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 57417.822363833046,
+          "bounds_mm": [
+            [
+              -62.5,
+              -10.789999961853027,
+              -46.0
+            ],
+            [
+              62.5,
+              79.66534423828125,
+              5.445000171661377
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "9d5927a73bad887234a6f7a71fc506939034a4350210e17593589d0a220c1cfb",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 57417.82014694776,
+          "bounds_mm": [
+            [
+              2.1316282072803006e-14,
+              0.0,
+              2.1316282072803006e-14
+            ],
+            [
+              125.0,
+              90.4553451538086,
+              51.44499969482422
+            ]
+          ]
+        }
+      },
+      "status": "geometry checks; physical qualification recorded separately",
+      "pose_surface_match": true,
+      "mesh_tessellation_tolerance_mm": 0.05,
+      "recorded_checks_pass": true
+    },
+    {
+      "id": "LINER-V12",
+      "mesh": {
+        "installed": {
+          "sha256": "b7bf7b654218bfcff1088bbcf693215e5009a0b22cd2e8405a65211d7012417d",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 10098.254817765943,
+          "bounds_mm": [
+            [
+              -58.099998474121094,
+              7.550000190734863,
+              -44.0
+            ],
+            [
+              58.099998474121094,
+              71.0,
+              -24.0
+            ]
+          ]
+        },
+        "print": {
+          "sha256": "9baff5ed71288cf8f5198099924e13cab80e76c62bee23cc741d41d50427677f",
+          "watertight": true,
+          "winding_consistent": true,
+          "volume_mm3": 135350.57678702593,
+          "bounds_mm": [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              116.19999694824219,
+              63.45000076293945,
+              20.0
+            ]
+          ]
+        }
+      },
+      "status": "geometry checks; physical qualification recorded separately",
+      "pose_surface_match": "Intentionally different: hollow in-use mesh; filled spiral-vase print template.",
+      "recorded_checks_pass": true
+    }
+  ]
+}

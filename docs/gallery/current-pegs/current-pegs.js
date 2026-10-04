@@ -1,8 +1,8 @@
 'use strict';
 (async()=>{
   const $=id=>document.getElementById(id);
-  const families={pegstr:'Pegstr remixes',arrays:'Seat arrays','bin-expansion':'Flat-bottom bins','solder-modules':'Solder station','shaft-holders':'Shaft holders','shaft-sampler':'Shaft sampler',workshop:'Screw dish'};
-  const belongs=(row,family)=>family==='all'||(family==='expansion'?['arrays','bin-expansion'].includes(row.family):family==='screwdriver'?['shaft-holders','shaft-sampler'].includes(row.family):row.family===family);
+  const families={pegstr:'Pegstr remixes',arrays:'Seat arrays','bin-expansion':'Flat-bottom bins','solder-modules':'Solder station','shaft-holders':'Shaft holders','shaft-sampler':'Shaft sampler',workshop:'Screw dish',accessories:'Removable accessories'};
+  const belongs=(row,family)=>family==='all'||(family==='new'&&row.new_design)||(family==='solder-modules'&&row.family==='accessories')||(family==='expansion'?['arrays','bin-expansion'].includes(row.family):family==='screwdriver'?['shaft-holders','shaft-sampler'].includes(row.family):row.family===family);
   let catalog,selected,view='installed';
   function modelView(next){
     view=next;const asset=selected.assets[next+'_glb'];const model=$('model');
@@ -19,25 +19,25 @@
     $('bounds').textContent='Print bounds: '+record.print_bounds_mm.map(n=>Number(n).toFixed(1)).join(' × ')+' mm.';
     $('supports').textContent=record.notes.supports;$('mount').textContent=record.notes.mount;
     $('qualification').textContent=record.notes.qualification;$('credit').textContent=record.credit||'';
-    const links=[['print_stl','Print STL'],['installed_stl','Installed STL'],['installed_step','Installed STEP'],['print_step','Print STEP'],['cad_bundle','CAD + source'],['checks','Mounting checks']];
-    $('downloads').replaceChildren(...links.filter(([k])=>record.assets[k]).map(([k,label])=>{const a=document.createElement('a');a.href=record.assets[k];a.textContent=label;if(k.endsWith('stl'))a.setAttribute('download','');return a;}));
+    const links=[['print_stl',record.kind==='accessory'?'Vase-mode filled STL':'Print STL'],['installed_stl','Installed STL'],['installed_step','Installed STEP'],['print_step','Print STEP'],['cad_bundle','CAD + source'],['checks','Mounting checks']];
+    $('downloads').replaceChildren(...links.filter(([k])=>record.assets[k]).map(([k,label])=>{const a=document.createElement('a');a.href=record.assets[k];a.textContent=label;if(k.endsWith('stl'))a.setAttribute('download','');return a;}),...(record.extra_downloads||[]).map(item=>{const a=document.createElement('a');a.href=item.url;a.textContent=item.label;return a;}));
     document.querySelectorAll('.part').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.id===record.id)));
     modelView(view);if(scroll)$('detail').scrollIntoView({block:'start'});
   }
   function render(){
     const query=$('search').value.trim().toLowerCase(),family=$('family').value;
     const rows=catalog.parts.filter(r=>belongs(r,family)&&(!query||(r.id+' '+r.name).toLowerCase().includes(query)));
-    $('count').textContent=rows.length+' of '+catalog.parts.length+' holders';$('empty').hidden=rows.length>0;
+    $('count').textContent=rows.length+' of '+catalog.parts.length+' designs';$('empty').hidden=rows.length>0;
     $('parts').replaceChildren(...rows.map(r=>{const b=document.createElement('button');b.className='part';b.dataset.id=r.id;b.setAttribute('aria-pressed',String(selected?.id===r.id));
       const img=document.createElement('img');img.src=r.assets.preview_png;img.alt='';img.loading='lazy';
-      const title=document.createElement('span');title.append(document.createTextNode(r.id+' · '+r.name));const small=document.createElement('small');small.textContent=r.pose+' · '+families[r.family];title.append(small);b.append(img,title);
+      const title=document.createElement('span');title.append(document.createTextNode(r.id+' · '+r.name));const small=document.createElement('small');small.textContent=(r.notes.status?r.notes.status+' · ':'')+r.pose+' · '+families[r.family];title.append(small);b.append(img,title);
       b.addEventListener('click',()=>{history.replaceState(null,'','#'+encodeURIComponent(r.id));select(r,true);});return b;}));
   }
   try{
     const response=await fetch('catalog.json');if(!response.ok)throw Error('Catalog HTTP '+response.status);catalog=await response.json();
-    const family=new URLSearchParams(location.search).get('family');if(families[family]||['expansion','screwdriver'].includes(family))$('family').value=family;
+    const family=new URLSearchParams(location.search).get('family');if(families[family]||['expansion','screwdriver','new'].includes(family))$('family').value=family;
     const id=decodeURIComponent(location.hash.slice(1));const initial=catalog.parts.find(r=>r.id===id)||catalog.parts.find(r=>belongs(r,$('family').value));
-    render();await customElements.whenDefined('model-viewer');if(initial)select(initial);$('build').textContent=catalog.build_note;
+    render();await customElements.whenDefined('model-viewer');if(initial)select(initial,Boolean(id));$('build').textContent=catalog.build_note;
     $('search').addEventListener('input',render);$('family').addEventListener('change',render);
     document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>modelView(b.dataset.view)));
     $('model').addEventListener('load',()=>{$('model-status').textContent=view==='print'?'Print STL uses this orientation.':'Rotate to inspect the integral mounts.';});

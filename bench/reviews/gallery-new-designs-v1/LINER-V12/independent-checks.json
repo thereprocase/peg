@@ -1,0 +1,44 @@
+{
+  "id": "LINER-V12",
+  "mesh": {
+    "installed": {
+      "sha256": "b7bf7b654218bfcff1088bbcf693215e5009a0b22cd2e8405a65211d7012417d",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 10098.254817765943,
+      "bounds_mm": [
+        [
+          -58.099998474121094,
+          7.550000190734863,
+          -44.0
+        ],
+        [
+          58.099998474121094,
+          71.0,
+          -24.0
+        ]
+      ]
+    },
+    "print": {
+      "sha256": "9baff5ed71288cf8f5198099924e13cab80e76c62bee23cc741d41d50427677f",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 135350.57678702593,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          116.19999694824219,
+          63.45000076293945,
+          20.0
+        ]
+      ]
+    }
+  },
+  "status": "geometry checks; physical qualification recorded separately",
+  "pose_surface_match": "Intentionally different: hollow in-use mesh; filled spiral-vase print template.",
+  "recorded_checks_pass": true
+}

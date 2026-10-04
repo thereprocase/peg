@@ -1,7 +1,247 @@
 {
   "schema_version": 1,
-  "expected_count": 38,
+  "expected_count": 44,
   "parts": [
+    {
+      "id": "SPOOL-V14",
+      "name": "Open bench-spool cradle",
+      "family": "solder-modules",
+      "version": "v14",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        77.04499816894531,
+        72.38999938964844,
+        48.79999923706055
+      ],
+      "assets": {
+        "installed_stl": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print.glb",
+        "preview_png": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__preview.png",
+        "installed_png": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__preview.png",
+        "print_png": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-preview.png",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "checks": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "extra_downloads": [],
+      "notes": {
+        "orientation": "Print on the right cheek; the STL is already oriented on the bed. Open curved-bottom storage, with an 8 mm lift then pull forward. Provisional 40\u201365 mm spool diameter and 8\u201334 mm overall width.",
+        "upper_pegs": "Original PF02 #9 upper hooks retained. Upper body extensions are described in the matching frozen geometry checks. Nominal body screens do not certify interference-fit installation.",
+        "supports": "Inspect local peg supports and actual toolpaths with your material and printer settings.",
+        "mount": "PF02 #9 upper hooks and PF07 #5 lower hoops, with clipped roots and flex aligned within the print layers.",
+        "qualification": "Geometry and nominal up/out paths pass. Downward stiffness target missed: 0.577 mm at 5 N against a 0.5 mm target. Unsliced prototype; physical seating, narrow-spool lean and bump retention remain untested.",
+        "status": "Prototype \u00b7 stiffness target missed"
+      },
+      "credit": ""
+    },
+    {
+      "id": "TW-GUIDED-V5",
+      "name": "Guided four-stack tweezers",
+      "family": "solder-modules",
+      "version": "inward20-v5",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        157.2895972193728,
+        146.36866760253906,
+        48.79999923706055
+      ],
+      "assets": {
+        "installed_stl": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print.glb",
+        "preview_png": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__preview.png",
+        "installed_png": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__preview.png",
+        "print_png": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-preview.png",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "checks": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "extra_downloads": [
+        {
+          "label": "Fin STL \u00b7 print four",
+          "url": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl"
+        },
+        {
+          "label": "Fin STEP",
+          "url": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step"
+        }
+      ],
+      "notes": {
+        "orientation": "Print on the right cheek; the STL is already oriented on the bed. Print FOUR separate fins from the fin STL, then bond their feet into the blind seats.",
+        "upper_pegs": "Raised top rail and open R6 roof guides; 20\u00b0 inward slope, taller fins, 28 mm stack spacing and extra tip room. All four sampled pickup routes clear three stored neighbors; natural rightward return remains a physical handling test.",
+        "supports": "Inspect local peg supports and actual toolpaths with your material and printer settings.",
+        "mount": "PF02 #9 upper hooks and PF07 #5 lower hoops, with clipped roots and flex aligned within the print layers.",
+        "qualification": "Geometry, sampled routes and stiffness checks pass. Local ASA organic-support toolpaths were reviewed; no physical curved-guide test or launch is recorded. Reslice for your setup.",
+        "status": "Toolpaths reviewed \u00b7 physical test pending"
+      },
+      "credit": ""
+    },
+    {
+      "id": "TOOL-FUNNEL-V3",
+      "name": "Snips + strippers funnel",
+      "family": "solder-modules",
+      "version": "v3",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        48.79999923706055,
+        100.56258392333984,
+        69.44499959482422
+      ],
+      "assets": {
+        "installed_stl": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print.glb",
+        "preview_png": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__preview.png",
+        "installed_png": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__preview.png",
+        "print_png": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-preview.png",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+        "checks": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__gallery-checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "extra_downloads": [],
+      "notes": {
+        "orientation": "Print upright on the flat bottom; the STL is already oriented on the bed. One rectangular tapered through-hole holds Knipex flush cuts or Klein strippers edge-on; R2 exterior rounds and 0.6 mm rim breaks.",
+        "upper_pegs": "Original PF02 #9 upper hooks retained. Upper body extensions are described in the matching frozen geometry checks. Nominal body screens do not certify interference-fit installation.",
+        "supports": "Review rear-peg supports and the short 45\u00b0 internal transition. Preserve the open bottom. Native installed STEP is provided; use the oriented STL for printing.",
+        "mount": "PF02 #9 upper hooks and PF07 #5 lower hoops, with clipped roots and flex aligned within the print layers.",
+        "qualification": "Nominal and +10\u00b0 tool poses, 110 mm vertical pickup paths, geometry and stiffness checks pass. Unsliced; physical settling, rattle and support release remain untested.",
+        "status": "CAD prototype"
+      },
+      "credit": ""
+    },
+    {
+      "id": "BRAID-V12",
+      "name": "Braid holder",
+      "family": "solder-modules",
+      "version": "v12",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "right-cheek",
+      "print_bounds_mm": [
+        42.95320129394531,
+        65.92559814453125,
+        48.79999923706055
+      ],
+      "assets": {
+        "installed_stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_glb": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.glb",
+        "preview_png": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__preview.png",
+        "installed_png": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__preview.png",
+        "print_png": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-preview.png",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "checks": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "extra_downloads": [],
+      "notes": {
+        "orientation": "Print on the right cheek; the STL is already oriented on the bed.",
+        "upper_pegs": "Original PF02 #9 upper hooks retained. Upper body extensions are described in the matching frozen geometry checks. Nominal body screens do not certify interference-fit installation.",
+        "supports": "Inspect local peg supports and actual toolpaths with your material and printer settings.",
+        "mount": "PF02 #9 upper hooks and PF07 #5 lower hoops, with clipped roots and flex aligned within the print layers.",
+        "qualification": "CAD and local slicing checks pass. Owner photos show a cyan holder mounted and carrying a solder spool; physical fit force, loads and bump retention are not measured.",
+        "status": "Photographed mounted \u00b7 measured fit pending"
+      },
+      "credit": ""
+    },
+    {
+      "id": "DRIP-TRAY-V12",
+      "name": "Drip tray + removable liner",
+      "family": "solder-modules",
+      "version": "v12",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "print_bounds_mm": [
+        124.99999999999997,
+        90.4553451538086,
+        51.4449996948242
+      ],
+      "assets": {
+        "installed_stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_glb": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.glb",
+        "print_glb": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.glb",
+        "preview_png": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__preview.png",
+        "installed_png": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__preview.png",
+        "print_png": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-preview.png",
+        "installed_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+        "checks": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__gallery-checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__cad-source-and-review.zip"
+      },
+      "extra_downloads": [],
+      "notes": {
+        "orientation": "Print upright on the flat bottom; the STL is already oriented on the bed. Deep side webs, front finger scallop and removable vase-mode liner. Liner is a separate print.",
+        "upper_pegs": "Original PF02 #9 upper hooks retained. Upper body extensions are described in the matching frozen geometry checks. Nominal body screens do not certify interference-fit installation.",
+        "supports": "Inspect local peg supports and actual toolpaths with your material and printer settings.",
+        "mount": "PF02 #9 upper hooks and PF07 #5 lower hoops, with clipped roots and flex aligned within the print layers.",
+        "qualification": "Tray, liner seat and lift-out CAD checks pass; local ASA slicing was reviewed. Physical tray/liner fit and load testing remain unconfirmed.",
+        "status": "Toolpaths reviewed \u00b7 physical fit pending"
+      },
+      "credit": ""
+    },
+    {
+      "id": "LINER-V12",
+      "name": "Removable drip-tray liner",
+      "family": "accessories",
+      "version": "v12-vase-filled",
+      "kind": "accessory",
+      "new_design": true,
+      "fit_label": "Removable accessory \u00b7 no pegs",
+      "pose": "vase",
+      "print_bounds_mm": [
+        116.19999694824219,
+        63.45000076293945,
+        20.0
+      ],
+      "assets": {
+        "installed_stl": "part-solder-drip-tray-liner__v12__vase-filled__installed.stl",
+        "print_stl": "part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
+        "installed_glb": "part-solder-drip-tray-liner__v12__vase-filled__installed.glb",
+        "print_glb": "part-solder-drip-tray-liner__v12__vase-filled__print.glb",
+        "preview_png": "part-solder-drip-tray-liner__v12__vase-filled__preview.png",
+        "installed_png": "part-solder-drip-tray-liner__v12__vase-filled__preview.png",
+        "print_png": "part-solder-drip-tray-liner__v12__vase-filled__print-preview.png",
+        "print_step": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+        "checks": "part-solder-drip-tray-liner__v12__vase-filled__gallery-checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-drip-tray-liner__v12__vase-filled__cad-source-and-review.zip"
+      },
+      "extra_downloads": [
+        {
+          "label": "Filled vase template STEP \u00b7 installed coordinates",
+          "url": "https://github.com/thereprocase/peg/releases/download/new-designs-v1-2026-10-04/part-solder-drip-tray-liner__v12__vase-filled__installed.step"
+        }
+      ],
+      "notes": {
+        "orientation": "SPIRAL VASE MODE REQUIRED. The print STL/STEP is intentionally a FILLED template: use one spiral perimeter, zero infill and zero top layers. The reviewed liner used 0.6 mm wall width and a 1 mm bottom. The installed 3D view is the hollow in-use model; the thumbnail shows it in its matching tray.",
+        "upper_pegs": "No pegs: this is a removable liner for the v12 drip tray.",
+        "supports": "Print separately upright, without supports, using a reviewed vase-mode setup. Ordinary solid slicing would produce a filled block.",
+        "mount": "Loose accessory. Lift the front 6.4 mm, then pull forward from the matching v12 tray.",
+        "qualification": "Hollow seat/removal and filled-template CAD checks pass; local vase-mode toolpaths were reviewed. Physical liner fit is unconfirmed.",
+        "status": "Vase-mode accessory"
+      },
+      "credit": ""
+    },
     {
       "id": "P03",
       "name": "Twin rectangular seats",
@@ -1295,5 +1535,5 @@
       "credit": ""
     }
   ],
-  "build_note": "October 4, 2026 \u00b7 Per-model CAD and print-orientation checks; physical testing pending."
+  "build_note": "October 4, 2026 \u00b7 Six new session designs plus 38 remounted gallery parts. Test status is stated per design."
 }

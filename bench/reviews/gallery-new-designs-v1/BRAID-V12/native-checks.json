@@ -1,0 +1,33 @@
+{
+  "id": "BRAID-V12",
+  "pass": true,
+  "native": [
+    {
+      "role": "installed_step",
+      "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "939e686e1a25e92761196e204297c487d9f525cace2ad53baad88a95970047bc",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        48.8,
+        65.9256,
+        42.95320000000003
+      ],
+      "volume_mm3": 16465.77078433363
+    },
+    {
+      "role": "print_step",
+      "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "sha256": "93b0ae18afaf2754a877d5a4d7ad08e580a6beb30e0278b3c50ebf7a3a74f86c",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        42.95320000000003,
+        65.9256,
+        48.8
+      ],
+      "volume_mm3": 16465.77078432987
+    }
+  ],
+  "note": "STEP is frozen original export; no geometry regeneration."
+}

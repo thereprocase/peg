@@ -1,0 +1,2271 @@
+{
+  "count": 6,
+  "snapshot": "bench/source/gallery_new_designs_v1/snapshot",
+  "products": [
+    {
+      "id": "SPOOL-V14",
+      "name": "Open bench-spool cradle",
+      "family": "solder-modules",
+      "version": "v14",
+      "pose": "right-cheek",
+      "kind": "mounted",
+      "origin_folder": "bench/reviews/v12-build/spool-storage-v14",
+      "origin_metadata": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__design.json",
+      "prefix": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5",
+      "assets": {
+        "installed_stl": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_step": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "print_step": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "installed_glb": "installed.glb",
+        "print_glb": "print.glb"
+      },
+      "source_paths": [
+        "bench/reference/conformal_120.step",
+        "bench/reference/conformal_120_geometry.json",
+        "bench/reference/peg-fit.scad",
+        "bench/reference/peg-print-variants.json",
+        "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/spool-front-v13/BUILD.json",
+        "bench/reviews/v12-build/spool-storage-v14/BUILD.json",
+        "bench/reviews/v12-build/spool-storage-v14/NOTES.md",
+        "bench/reviews/v12-build/spool-storage-v14/empty.png",
+        "bench/reviews/v12-build/spool-storage-v14/envelope__largest-installed.stl",
+        "bench/reviews/v12-build/spool-storage-v14/envelope__largest-up-out-sweep.stl",
+        "bench/reviews/v12-build/spool-storage-v14/fea-provenance.json",
+        "bench/reviews/v12-build/spool-storage-v14/footprint-lift.png",
+        "bench/reviews/v12-build/spool-storage-v14/front.png",
+        "bench/reviews/v12-build/spool-storage-v14/largest-loaded.png",
+        "bench/reviews/v12-build/spool-storage-v14/lifted-out.png",
+        "bench/reviews/v12-build/spool-storage-v14/loaded.png",
+        "bench/reviews/v12-build/spool-storage-v14/narrow-loaded.png",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks.json",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "bench/reviews/v12-build/spool-storage-v14/payload__large-65x34.stl",
+        "bench/reviews/v12-build/spool-storage-v14/payload__narrow-40x12.stl",
+        "bench/reviews/v12-build/spool-storage-v14/payload__narrow-40x8.stl",
+        "bench/reviews/v12-build/spool-storage-v14/payload__nominal-55x30.stl",
+        "bench/reviews/v12-build/spool-storage-v14/payload__small-40x20.stl",
+        "bench/reviews/v12-build/spool-storage-v14/print.png",
+        "bench/reviews/v12-build/spool-storage-v14/projected-outlines.json",
+        "bench/reviews/v12-build/spool-storage-v14/range.png",
+        "bench/reviews/v12-build/spool-storage-v14/side-sections.json",
+        "bench/reviews/v12-build/spool-storage-v14/storage-review.json",
+        "bench/reviews/v12-build/spool-storage-v14/up-out-path.png",
+        "bench/source/peg_fit_ladder.py",
+        "bench/source/peg_fit_ladder_v2.py",
+        "bench/source/peg_fit_ladder_v4.py",
+        "bench/source/peg_interface.py",
+        "bench/source/peg_print_variant.py",
+        "bench/source/peg_profile.py",
+        "bench/source/solder_v12/BRIEF.md",
+        "bench/source/solder_v12/checks.py",
+        "bench/source/solder_v12/common.py",
+        "bench/source/solder_v12/fea.py",
+        "bench/source/solder_v12/spool_front_render.py",
+        "bench/source/solder_v12/spool_storage_v14.py",
+        "bench/source/solder_v12/spool_storage_v14_fea.py",
+        "bench/source/solder_v12/spool_storage_v14_render.py",
+        "bench/source/solder_v12/spool_storage_v14_review.py"
+      ],
+      "is_new": true,
+      "print_bounds_mm": [
+        77.04499816894531,
+        72.38999938964844,
+        48.79999923706055
+      ],
+      "pose_matrix": [
+        6.123233995736766e-17,
+        0.0,
+        -1.0,
+        5.445,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        1.0,
+        0.0,
+        6.123233995736766e-17,
+        24.400000000000006,
+        0,
+        0,
+        0,
+        1
+      ],
+      "geometry_checks_file": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "checks": {
+        "id": "SPOOL-V14",
+        "mesh": {
+          "installed": {
+            "sha256": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 29166.607750559924,
+            "bounds_mm": [
+              [
+                -24.399999618530273,
+                -10.789999961853027,
+                -71.5999984741211
+              ],
+              [
+                24.399999618530273,
+                61.599998474121094,
+                5.445000171661377
+              ]
+            ]
+          },
+          "print": {
+            "sha256": "8db348453f14c18d7232dd2590a837d583cf4ccd296bb33ec72081c7acfab014",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 29166.60962195293,
+            "bounds_mm": [
+              [
+                -8.881784197001252e-16,
+                0.0,
+                3.552713678800501e-15
+              ],
+              [
+                77.04499816894531,
+                72.38999938964844,
+                48.79999923706055
+              ]
+            ]
+          }
+        },
+        "status": "geometry checks; physical qualification recorded separately",
+        "pose_surface_match": true,
+        "mesh_tessellation_tolerance_mm": 0.05,
+        "recorded_checks_pass": true
+      }
+    },
+    {
+      "id": "TW-GUIDED-V5",
+      "name": "Guided four-stack tweezers",
+      "family": "solder-modules",
+      "version": "inward20-v5",
+      "pose": "right-cheek",
+      "kind": "mounted",
+      "origin_folder": "bench/reviews/tweezer-inward20-v5",
+      "origin_metadata": "candidate.json",
+      "prefix": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5",
+      "assets": {
+        "installed_stl": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_step": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "print_step": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "installed_glb": "installed.glb",
+        "print_glb": "print.glb"
+      },
+      "source_paths": [
+        "bench/reference/conformal_motion_results.json",
+        "bench/reviews/tweezer-inward20-v2/candidate.json",
+        "bench/reviews/tweezer-inward20-v4/BUILD.json",
+        "bench/reviews/tweezer-inward20-v4/NOTES.md",
+        "bench/reviews/tweezer-inward20-v4/candidate.json",
+        "bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+        "bench/reviews/tweezer-inward20-v4/fin-v3__tool-frame.stl",
+        "bench/reviews/tweezer-inward20-v4/fin-v4__tool-frame.stl",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.step",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.step",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.step",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.step",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+        "bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "bench/reviews/tweezer-inward20-v5/BUILD.json",
+        "bench/reviews/tweezer-inward20-v5/NOTES.md",
+        "bench/reviews/tweezer-inward20-v5/OWNER-TEST.md",
+        "bench/reviews/tweezer-inward20-v5/candidate.json",
+        "bench/reviews/tweezer-inward20-v5/checks.json",
+        "bench/reviews/tweezer-inward20-v5/empty-body.png",
+        "bench/reviews/tweezer-inward20-v5/empty.png",
+        "bench/reviews/tweezer-inward20-v5/fea-provenance.json",
+        "bench/reviews/tweezer-inward20-v5/fin-comparison.json",
+        "bench/reviews/tweezer-inward20-v5/fin-v3__tool-frame.stl",
+        "bench/reviews/tweezer-inward20-v5/fin-v4__tool-frame.stl",
+        "bench/reviews/tweezer-inward20-v5/four-guide-paths.png",
+        "bench/reviews/tweezer-inward20-v5/guide-1.step",
+        "bench/reviews/tweezer-inward20-v5/guide-1.stl",
+        "bench/reviews/tweezer-inward20-v5/guide-2.step",
+        "bench/reviews/tweezer-inward20-v5/guide-2.stl",
+        "bench/reviews/tweezer-inward20-v5/guide-3.step",
+        "bench/reviews/tweezer-inward20-v5/guide-3.stl",
+        "bench/reviews/tweezer-inward20-v5/guide-4.step",
+        "bench/reviews/tweezer-inward20-v5/guide-4.stl",
+        "bench/reviews/tweezer-inward20-v5/guide-addition.stl",
+        "bench/reviews/tweezer-inward20-v5/guide-closeup.png",
+        "bench/reviews/tweezer-inward20-v5/guide-contacts.json",
+        "bench/reviews/tweezer-inward20-v5/guide-empty-closeup.png",
+        "bench/reviews/tweezer-inward20-v5/guide-junctions.json",
+        "bench/reviews/tweezer-inward20-v5/guide-section.png",
+        "bench/reviews/tweezer-inward20-v5/guide-toolpaths.png",
+        "bench/reviews/tweezer-inward20-v5/loaded.png",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+        "bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "bench/reviews/tweezer-inward20-v5/pickup.png",
+        "bench/reviews/tweezer-inward20-v5/print-plate.png",
+        "bench/reviews/tweezer-inward20-v5/print-pose.png",
+        "bench/reviews/tweezer-inward20-v5/toolpaths.json",
+        "bench/reviews/tweezer-inward20-v5/toolpaths.png",
+        "bench/reviews/v8-regen/tweezers_open_rest.stl",
+        "bench/source/peg_fit_ladder.py",
+        "bench/source/peg_fit_ladder_v2.py",
+        "bench/source/peg_fit_ladder_v4.py",
+        "bench/source/peg_interface.py",
+        "bench/source/peg_print_variant.py",
+        "bench/source/peg_profile.py",
+        "bench/source/solder_v12/checks.py",
+        "bench/source/solder_v12/common.py",
+        "bench/source/solder_v12/fea.py",
+        "bench/source/solder_v12/spool_front_render.py",
+        "bench/source/tweezers_v11/holder.py",
+        "bench/source/tweezers_v11/inward20_v3.py",
+        "bench/source/tweezers_v11/inward20_v3_render.py",
+        "bench/source/tweezers_v11/inward20_v5.py",
+        "bench/source/tweezers_v11/inward20_v5_check.py",
+        "bench/source/tweezers_v11/inward20_v5_fea.py",
+        "bench/source/tweezers_v11/inward20_v5_frame.py",
+        "bench/source/tweezers_v11/inward20_v5_guide_check.py",
+        "bench/source/tweezers_v11/inward20_v5_junction_check.py",
+        "bench/source/tweezers_v11/inward20_v5_render.py",
+        "bench/source/tweezers_v11/variants.py"
+      ],
+      "is_new": true,
+      "print_bounds_mm": [
+        157.2895972193728,
+        146.36866760253906,
+        48.79999923706055
+      ],
+      "pose_matrix": [
+        6.123233995736766e-17,
+        0.0,
+        -1.0,
+        30.731534906189715,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        1.0,
+        0.0,
+        6.123233995736766e-17,
+        24.400000000000006,
+        0,
+        0,
+        0,
+        1
+      ],
+      "geometry_checks_file": "checks.json",
+      "extra_downloads": [
+        {
+          "label": "Fin STL \u00b7 print four",
+          "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+          "role": "extra"
+        },
+        {
+          "label": "Fin STEP",
+          "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+          "role": "extra"
+        }
+      ],
+      "checks": {
+        "id": "TW-GUIDED-V5",
+        "mesh": {
+          "installed": {
+            "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 108645.50871602568,
+            "bounds_mm": [
+              [
+                -24.399999618530273,
+                -10.789999961853027,
+                -126.55811309814453
+              ],
+              [
+                24.399999618530273,
+                135.57867431640625,
+                30.731489181518555
+              ]
+            ]
+          },
+          "print": {
+            "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 108645.50086433899,
+            "bounds_mm": [
+              [
+                4.51146115665324e-05,
+                0.0,
+                -3.552713678800501e-15
+              ],
+              [
+                157.28964233398438,
+                146.36866760253906,
+                48.79999923706055
+              ]
+            ]
+          }
+        },
+        "status": "geometry checks; physical qualification recorded separately",
+        "pose_surface_match": true,
+        "mesh_tessellation_tolerance_mm": 0.05,
+        "recorded_checks_pass": true,
+        "four_fins_required": true
+      }
+    },
+    {
+      "id": "TOOL-FUNNEL-V3",
+      "name": "Snips + strippers funnel",
+      "family": "solder-modules",
+      "version": "v3",
+      "pose": "upright",
+      "kind": "mounted",
+      "origin_folder": "bench/reviews/rectangular-tool-funnel-v3",
+      "origin_metadata": "candidate.json",
+      "prefix": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5",
+      "assets": {
+        "installed_stl": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_step": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+        "installed_glb": "installed.glb",
+        "print_glb": "print.glb"
+      },
+      "source_paths": [
+        "bench/reference/conformal_120.step",
+        "bench/reference/conformal_120_geometry.json",
+        "bench/reference/conformal_motion_results.json",
+        "bench/reference/peg-fit.scad",
+        "bench/reviews/klein-engineering-model-v2/cad.json",
+        "bench/reviews/klein-engineering-model-v2/coil-open-10.stl",
+        "bench/reviews/klein-engineering-model-v2/fixed_grip_blue.stl",
+        "bench/reviews/klein-engineering-model-v2/fixed_grip_red.stl",
+        "bench/reviews/klein-engineering-model-v2/fixed_metal.stl",
+        "bench/reviews/klein-engineering-model-v2/latch_pin.stl",
+        "bench/reviews/klein-engineering-model-v2/main_rivet.stl",
+        "bench/reviews/klein-engineering-model-v2/moving_grip_blue.stl",
+        "bench/reviews/klein-engineering-model-v2/moving_grip_red.stl",
+        "bench/reviews/klein-engineering-model-v2/moving_metal.stl",
+        "bench/reviews/klein-engineering-model-v2/opening_coil.stl",
+        "bench/reviews/klein-engineering-model-v2/released_latch.stl",
+        "bench/reviews/knipex-engineering-model-v2/cad.json",
+        "bench/reviews/knipex-engineering-model-v2/fixed_grip_blue.stl",
+        "bench/reviews/knipex-engineering-model-v2/fixed_grip_red.stl",
+        "bench/reviews/knipex-engineering-model-v2/fixed_metal.stl",
+        "bench/reviews/knipex-engineering-model-v2/main_rivet.stl",
+        "bench/reviews/knipex-engineering-model-v2/moving_grip_blue.stl",
+        "bench/reviews/knipex-engineering-model-v2/moving_grip_red.stl",
+        "bench/reviews/knipex-engineering-model-v2/moving_metal.stl",
+        "bench/reviews/knipex-engineering-model-v2/spring_limiter_pin.stl",
+        "bench/reviews/knipex-engineering-model-v2/spring_limiter_ring.stl",
+        "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "bench/reviews/rectangular-tool-funnel-v1/part-rectangular-tool-funnel__v1__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/rectangular-tool-funnel-v2/part-rectangular-tool-funnel__v2__upright__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/rectangular-tool-funnel-v3/BUILD.json",
+        "bench/reviews/rectangular-tool-funnel-v3/NOTES.md",
+        "bench/reviews/rectangular-tool-funnel-v3/OWNER-TEST.md",
+        "bench/reviews/rectangular-tool-funnel-v3/bed-contact.png",
+        "bench/reviews/rectangular-tool-funnel-v3/bed-contact.stl",
+        "bench/reviews/rectangular-tool-funnel-v3/candidate.json",
+        "bench/reviews/rectangular-tool-funnel-v3/checks.json",
+        "bench/reviews/rectangular-tool-funnel-v3/dimensions.png",
+        "bench/reviews/rectangular-tool-funnel-v3/editable.FCStd",
+        "bench/reviews/rectangular-tool-funnel-v3/empty.png",
+        "bench/reviews/rectangular-tool-funnel-v3/fea-provenance.json",
+        "bench/reviews/rectangular-tool-funnel-v3/front-material.stl",
+        "bench/reviews/rectangular-tool-funnel-v3/loaded.png",
+        "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "bench/reviews/rectangular-tool-funnel-v3/poses.json",
+        "bench/reviews/rectangular-tool-funnel-v3/preservation.json",
+        "bench/reviews/rectangular-tool-funnel-v3/print-pose.png",
+        "bench/reviews/rectangular-tool-funnel-v3/receiver-reference.stl",
+        "bench/reviews/rectangular-tool-funnel-v3/rim-top.png",
+        "bench/reviews/rectangular-tool-funnel-v3/sections.json",
+        "bench/reviews/rectangular-tool-funnel-v3/tool-checks.json",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/holder-print.stl",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/holder.FCStd",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/holder.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/index.html",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-latch_pin.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-main_rivet.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-opening_coil.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-released_latch.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-latch_pin.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-main_rivet.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-opening_coil.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-released_latch.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-main_rivet.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-spring_limiter_pin.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-spring_limiter_ring.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-main_rivet.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_grip_blue.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_grip_red.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_metal.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-spring_limiter_pin.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-spring_limiter_ring.bin",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/models.json",
+        "bench/reviews/rectangular-tool-funnel-v3/viewer/packing.json",
+        "bench/source/peg_fit_ladder.py",
+        "bench/source/peg_fit_ladder_v2.py",
+        "bench/source/peg_fit_ladder_v4.py",
+        "bench/source/peg_interface.py",
+        "bench/source/peg_print_variant.py",
+        "bench/source/peg_profile.py",
+        "bench/source/solder_v12/common.py",
+        "bench/source/solder_v12/fea.py",
+        "bench/source/tool_holders/rectangular_funnel_check_v1.py",
+        "bench/source/tool_holders/rectangular_funnel_check_v3.py",
+        "bench/source/tool_holders/rectangular_funnel_fea_v1.py",
+        "bench/source/tool_holders/rectangular_funnel_fea_v3.py",
+        "bench/source/tool_holders/rectangular_funnel_figures_v3.py",
+        "bench/source/tool_holders/rectangular_funnel_v3.py",
+        "bench/source/tool_holders/rectangular_funnel_viewer_v1.html",
+        "bench/source/tool_holders/rectangular_funnel_viewer_v1.py",
+        "bench/source/tool_holders/rectangular_funnel_viewer_v3.py",
+        "bench/source/tool_models/engineering_reference_v2.py",
+        "bench/source/tool_models/engineering_viewer_v2.py"
+      ],
+      "is_new": true,
+      "print_bounds_mm": [
+        48.79999923706055,
+        100.56258392333984,
+        69.44499959482422
+      ],
+      "pose_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        24.4,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        0.0,
+        0.0,
+        1.0,
+        64.0000001,
+        0,
+        0,
+        0,
+        1
+      ],
+      "geometry_checks_file": "checks.json",
+      "checks": {
+        "id": "TOOL-FUNNEL-V3",
+        "mesh": {
+          "installed": {
+            "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 71476.58807704561,
+            "bounds_mm": [
+              [
+                -24.399999618530273,
+                -10.789999961853027,
+                -64.0
+              ],
+              [
+                24.399999618530273,
+                89.7725830078125,
+                5.445000171661377
+              ]
+            ]
+          },
+          "print": {
+            "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 71476.5940787001,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                9.999999406318238e-08
+              ],
+              [
+                48.79999923706055,
+                100.56258392333984,
+                69.44499969482422
+              ]
+            ]
+          }
+        },
+        "status": "geometry checks; physical qualification recorded separately",
+        "pose_surface_max_error_mm": 0.006023142515051569,
+        "pose_surface_match": true,
+        "mesh_tessellation_tolerance_mm": 0.05,
+        "recorded_checks_pass": true
+      }
+    },
+    {
+      "id": "BRAID-V12",
+      "name": "Braid holder",
+      "family": "solder-modules",
+      "version": "v12",
+      "pose": "right-cheek",
+      "kind": "mounted",
+      "origin_folder": "bench/reviews/v12-build/braid",
+      "origin_metadata": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+      "prefix": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5",
+      "assets": {
+        "installed_stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "installed_step": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "print_step": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "installed_glb": "installed.glb",
+        "print_glb": "print.glb"
+      },
+      "source_paths": [
+        "bench/reference/conformal_120.step",
+        "bench/reference/conformal_120_geometry.json",
+        "bench/reference/conformal_motion_results.json",
+        "bench/reference/peg-fit.scad",
+        "bench/reference/peg-print-variants.json",
+        "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "bench/reviews/v12-build/braid/NOTES.md",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.v1.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__empty.glb",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__empty.png",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__front.png",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__loaded.glb",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__loaded.png",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.glb",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.png",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__side.png",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__slice.json",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-bobbin-38x6-bore10.5.stl",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-bobbin-52x12-bore7.stl",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-chemtronics-44.5-domed.stl",
+        "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-tail.stl",
+        "bench/source/peg_fit_ladder.py",
+        "bench/source/peg_fit_ladder_v2.py",
+        "bench/source/peg_fit_ladder_v4.py",
+        "bench/source/peg_interface.py",
+        "bench/source/peg_print_variant.py",
+        "bench/source/peg_profile.py",
+        "bench/source/solder_v12/braid.py",
+        "bench/source/solder_v12/checks.py",
+        "bench/source/solder_v12/common.py",
+        "bench/source/solder_v12/fea.py"
+      ],
+      "is_new": true,
+      "print_bounds_mm": [
+        42.95320129394531,
+        65.92559814453125,
+        48.79999923706055
+      ],
+      "pose_matrix": [
+        6.123233995736766e-17,
+        0.0,
+        -1.0,
+        5.445,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        1.0,
+        0.0,
+        6.123233995736766e-17,
+        24.400000000000002,
+        0,
+        0,
+        0,
+        1
+      ],
+      "geometry_checks_file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "checks": {
+        "id": "BRAID-V12",
+        "mesh": {
+          "installed": {
+            "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 16465.159683927628,
+            "bounds_mm": [
+              [
+                -24.399999618530273,
+                -10.789999961853027,
+                -37.508201599121094
+              ],
+              [
+                24.399999618530273,
+                55.13560104370117,
+                5.445000171661377
+              ]
+            ]
+          },
+          "print": {
+            "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 16465.159724787092,
+            "bounds_mm": [
+              [
+                -8.881784197001252e-16,
+                0.0,
+                0.0
+              ],
+              [
+                42.95320129394531,
+                65.92559814453125,
+                48.79999923706055
+              ]
+            ]
+          }
+        },
+        "status": "geometry checks; physical qualification recorded separately",
+        "pose_surface_match": true,
+        "mesh_tessellation_tolerance_mm": 0.05,
+        "recorded_checks_pass": true
+      }
+    },
+    {
+      "id": "DRIP-TRAY-V12",
+      "name": "Drip tray + removable liner",
+      "family": "solder-modules",
+      "version": "v12",
+      "pose": "upright",
+      "kind": "mounted",
+      "origin_folder": "bench/reviews/v12-build/drip-tray",
+      "origin_metadata": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+      "prefix": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5",
+      "assets": {
+        "installed_stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+        "print_stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "installed_step": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+        "print_step": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+        "installed_glb": "installed.glb",
+        "print_glb": "print.glb"
+      },
+      "source_paths": [
+        "bench/reference/conformal_120.step",
+        "bench/reference/conformal_120_geometry.json",
+        "bench/reference/conformal_motion_results.json",
+        "bench/reference/peg-fit.scad",
+        "bench/reference/peg-print-variants.json",
+        "bench/reference/solder-tools/barrels__holder_007.stl",
+        "bench/reference/solder-tools/barrels__tool-0-0.stl",
+        "bench/reference/solder-tools/barrels__tool-0-1.stl",
+        "bench/reference/solder-tools/barrels__tool-0-2.stl",
+        "bench/reference/solder-tools/barrels__tool-0-3.stl",
+        "bench/reference/solder-tools/barrels__tool-1-0.stl",
+        "bench/reference/solder-tools/barrels__tool-1-1.stl",
+        "bench/reference/solder-tools/barrels__tool-1-2.stl",
+        "bench/reference/solder-tools/barrels__tool-2-0.stl",
+        "bench/reference/solder-tools/barrels__tool-2-1.stl",
+        "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__slice.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-flux.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-paste.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-sucker.stl",
+        "bench/reviews/v12-build/drip-tray/NOTES.md",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__installed.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__plate-x3__slice.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__slice.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__empty.glb",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__empty.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__front.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__loaded.glb",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__loaded.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.glb",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__ref-b6-nozzles.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__side.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__slice.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__tool-liner.stl",
+        "bench/source/peg_fit_ladder.py",
+        "bench/source/peg_fit_ladder_v2.py",
+        "bench/source/peg_fit_ladder_v4.py",
+        "bench/source/peg_interface.py",
+        "bench/source/peg_print_variant.py",
+        "bench/source/peg_profile.py",
+        "bench/source/solder_v12/barrels.py",
+        "bench/source/solder_v12/barrels_b6seats.py",
+        "bench/source/solder_v12/checks.py",
+        "bench/source/solder_v12/common.py",
+        "bench/source/solder_v12/drip_tray.py",
+        "bench/source/solder_v12/fea.py"
+      ],
+      "is_new": true,
+      "print_bounds_mm": [
+        124.99999999999997,
+        90.4553451538086,
+        51.4449996948242
+      ],
+      "pose_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        62.50000000000002,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        0.0,
+        0.0,
+        1.0,
+        46.00000000000002,
+        0,
+        0,
+        0,
+        1
+      ],
+      "geometry_checks_file": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "checks": {
+        "id": "DRIP-TRAY-V12",
+        "mesh": {
+          "installed": {
+            "sha256": "1785f2a562dc78b0fc996f31b2a43f5e13f8f58f8505b16ad8227a85b7abaaa5",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 57417.822363833046,
+            "bounds_mm": [
+              [
+                -62.5,
+                -10.789999961853027,
+                -46.0
+              ],
+              [
+                62.5,
+                79.66534423828125,
+                5.445000171661377
+              ]
+            ]
+          },
+          "print": {
+            "sha256": "9d5927a73bad887234a6f7a71fc506939034a4350210e17593589d0a220c1cfb",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 57417.82014694776,
+            "bounds_mm": [
+              [
+                2.1316282072803006e-14,
+                0.0,
+                2.1316282072803006e-14
+              ],
+              [
+                125.0,
+                90.4553451538086,
+                51.44499969482422
+              ]
+            ]
+          }
+        },
+        "status": "geometry checks; physical qualification recorded separately",
+        "pose_surface_match": true,
+        "mesh_tessellation_tolerance_mm": 0.05,
+        "recorded_checks_pass": true
+      }
+    },
+    {
+      "id": "LINER-V12",
+      "name": "Removable drip-tray liner",
+      "family": "accessories",
+      "version": "v12-vase-filled",
+      "pose": "vase",
+      "kind": "accessory",
+      "origin_folder": "bench/reviews/v12-build/drip-tray",
+      "origin_metadata": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+      "prefix": "part-solder-drip-tray-liner__v12__vase-filled",
+      "assets": {
+        "installed_stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__tool-liner.stl",
+        "print_stl": "part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
+        "print_step": "part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+        "installed_glb": "installed.glb",
+        "print_glb": "print.glb"
+      },
+      "source_paths": [
+        "bench/reference/conformal_120.step",
+        "bench/reference/conformal_120_geometry.json",
+        "bench/reference/conformal_motion_results.json",
+        "bench/reference/peg-fit.scad",
+        "bench/reference/peg-print-variants.json",
+        "bench/reference/solder-tools/barrels__holder_007.stl",
+        "bench/reference/solder-tools/barrels__tool-0-0.stl",
+        "bench/reference/solder-tools/barrels__tool-0-1.stl",
+        "bench/reference/solder-tools/barrels__tool-0-2.stl",
+        "bench/reference/solder-tools/barrels__tool-0-3.stl",
+        "bench/reference/solder-tools/barrels__tool-1-0.stl",
+        "bench/reference/solder-tools/barrels__tool-1-1.stl",
+        "bench/reference/solder-tools/barrels__tool-1-2.stl",
+        "bench/reference/solder-tools/barrels__tool-2-0.stl",
+        "bench/reference/solder-tools/barrels__tool-2-1.stl",
+        "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__slice.json",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-flux.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-paste.stl",
+        "bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-sucker.stl",
+        "bench/reviews/v12-build/drip-tray/NOTES.md",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__installed.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__plate-x3__slice.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__slice.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__empty.glb",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__empty.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__front.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__loaded.glb",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__loaded.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.glb",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__ref-b6-nozzles.stl",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__side.png",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__slice.json",
+        "bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__tool-liner.stl",
+        "bench/source/peg_fit_ladder.py",
+        "bench/source/peg_fit_ladder_v2.py",
+        "bench/source/peg_fit_ladder_v4.py",
+        "bench/source/peg_interface.py",
+        "bench/source/peg_print_variant.py",
+        "bench/source/peg_profile.py",
+        "bench/source/solder_v12/barrels.py",
+        "bench/source/solder_v12/barrels_b6seats.py",
+        "bench/source/solder_v12/checks.py",
+        "bench/source/solder_v12/common.py",
+        "bench/source/solder_v12/drip_tray.py",
+        "bench/source/solder_v12/fea.py"
+      ],
+      "is_new": true,
+      "print_bounds_mm": [
+        116.19999694824219,
+        63.45000076293945,
+        20.0
+      ],
+      "pose_matrix": null,
+      "print_model_kind": "filled spiral-vase template",
+      "geometry_checks_file": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "checks": {
+        "id": "LINER-V12",
+        "mesh": {
+          "installed": {
+            "sha256": "b7bf7b654218bfcff1088bbcf693215e5009a0b22cd2e8405a65211d7012417d",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 10098.254817765943,
+            "bounds_mm": [
+              [
+                -58.099998474121094,
+                7.550000190734863,
+                -44.0
+              ],
+              [
+                58.099998474121094,
+                71.0,
+                -24.0
+              ]
+            ]
+          },
+          "print": {
+            "sha256": "9baff5ed71288cf8f5198099924e13cab80e76c62bee23cc741d41d50427677f",
+            "watertight": true,
+            "winding_consistent": true,
+            "volume_mm3": 135350.57678702593,
+            "bounds_mm": [
+              [
+                0.0,
+                0.0,
+                0.0
+              ],
+              [
+                116.19999694824219,
+                63.45000076293945,
+                20.0
+              ]
+            ]
+          }
+        },
+        "status": "geometry checks; physical qualification recorded separately",
+        "pose_surface_match": "Intentionally different: hollow in-use mesh; filled spiral-vase print template.",
+        "recorded_checks_pass": true
+      }
+    }
+  ],
+  "snapshot_files": [
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/conformal_120.step",
+      "sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/conformal_120_geometry.json",
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/conformal_motion_results.json",
+      "sha256": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/peg-fit.scad",
+      "sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/peg-print-variants.json",
+      "sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__holder_007.stl",
+      "sha256": "906e7dc04cf6df17b0135261b9722744936baf54e3a75bcfe406f6c106441dbf"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-0-0.stl",
+      "sha256": "2650fbfc3421c2331f242ddd5785947781b6f615f5ad9d4c48c77bfe89b5e2b3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-0-1.stl",
+      "sha256": "e2ea6c0e0ff36860fcee1113b7fd589b3bbc94166774d8cac1f301f7c7dae1e8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-0-2.stl",
+      "sha256": "3b6a3a5cb4488623aa39189f4d259866c6f1579c34eb280eadefe2da02831f25"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-0-3.stl",
+      "sha256": "74a30b2980f69a73568a16cfb16debe0681e61b193ef0cc731d5a701bdc44e7b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-1-0.stl",
+      "sha256": "6691ff0ad94379d7c2cf730f66b3be7fa145dc2a203b54ddb2dae8896cb8310f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-1-1.stl",
+      "sha256": "2bb5e27d267916d5f123567976d88bed47ddfed78565222af18118f92976d2fe"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-1-2.stl",
+      "sha256": "929a6d256d588cccf9c47672f0fac88d322819794162f2f7addfafafbf25876f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-2-0.stl",
+      "sha256": "7e3a9ba9663aa8f5cc1cb9a56cdc942ab6507cf7f22cf48dec1b27fa70c01e48"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/solder-tools/barrels__tool-2-1.stl",
+      "sha256": "a21bf5071d59d2ed3a8fe6d1807310ff6200069887d2a8765e59658d0998edd6"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/cad.json",
+      "sha256": "cd9395a86e33ca0f47fe99de033ed5c3613f8af76886fe9efac1188f1418e1c0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/coil-open-10.stl",
+      "sha256": "38682c617ee0bf22092a7e1d3b75613d4c610d959ed8d5479d176d337232a915"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/fixed_grip_blue.stl",
+      "sha256": "1169576e8d1473c21ef8b1ffaf349d56ac21018d153eee8ca40c3187282952e8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/fixed_grip_red.stl",
+      "sha256": "aa64c3437a229c03fba24958971203c3c1106be68d4b41b37b4fc608dfbf7ac9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/fixed_metal.stl",
+      "sha256": "1fa62d9aa16b970d7155e50241449617b7c881f9b595fa71d50dfcb5bcff24bb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/latch_pin.stl",
+      "sha256": "1354a241aa34ec53a28ab3453c6198775875bb4d2a921269acec68b6e8553e15"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/main_rivet.stl",
+      "sha256": "3cc682788c53259faf6e7915475733c4433ecdcf2e920f8a0786fda057a4c2df"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/moving_grip_blue.stl",
+      "sha256": "5e64e366be30820b6f66e24f5fec5cc7d305bcab90dead2cdea7682e8840bed3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/moving_grip_red.stl",
+      "sha256": "96845e7ac45247745f2fc3b36f2b13ae57da34525317d56fd9cbc0ca1d691925"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/moving_metal.stl",
+      "sha256": "297c01bebcfbf5d661e9558271e57cea10096447d262b1766dfae58005963100"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/opening_coil.stl",
+      "sha256": "b8fbc4f469cf83a94d8038e98086db1d3d8ec23338821e9bca27c46291005443"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/released_latch.stl",
+      "sha256": "f0e13802b934795c960e4bb2fc2ea8fe9c7d5c599c5e0039fd1e725bca080676"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/cad.json",
+      "sha256": "3db553d4945fd5c4e83d18bdda17c54dd88f39d0f65eb69f086e8c7864805a68"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/fixed_grip_blue.stl",
+      "sha256": "40d3bd470e69ff11ec834a61b12a76aec637441f60d615b25d0c412ba9561e70"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/fixed_grip_red.stl",
+      "sha256": "822782971a65eee327d34476ec850907a5d1e970b1033c75516b69c1c281af23"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/fixed_metal.stl",
+      "sha256": "f560e2e48ace279e4bef72ea43158857a82c7ed5684d319e7a5b81401207ff7f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/main_rivet.stl",
+      "sha256": "238057d1f60737f2ae27a8e38f035f882581e9dbc7f0fb2c0414c9389ccc030f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/moving_grip_blue.stl",
+      "sha256": "47ea164c44181359e9542eb3c512ffce3eecb358e92009fb6ce9aa7cfcc43515"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/moving_grip_red.stl",
+      "sha256": "ccf46f984317e2408b8fe878396855a321d77534a90e65d0ea2c2b6d11167bc1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/moving_metal.stl",
+      "sha256": "e7eb05a6e3623acc21b3343803aaf2f3ed128f4628e9baecbb00c5cb75117bd6"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/spring_limiter_pin.stl",
+      "sha256": "cbdcc3dee6876568cd4925eb83e3b0d54a194079cf7c79e6c2e83aa2e0ed58ba"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/spring_limiter_ring.stl",
+      "sha256": "4768ea2ef94c65a5a3bb14b38ab5089886e9ba0daf484e427eb9a1f9a8753678"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v1/part-rectangular-tool-funnel__v1__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "b5f1fcbb5587bb52ff2ba9648fa48b1633fd12610738b6fd6ed1ba70f4b390d9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v2/part-rectangular-tool-funnel__v2__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "437706941cc65141132e7cfd6ca6d9ba90af9b30ada93acb1b7cd5d53b3895f3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/BUILD.json",
+      "sha256": "0751dfdb4f4e4fffd64fb10a064bf916164fc01c342a8dd2af97aaf62ebddee4"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/NOTES.md",
+      "sha256": "d9a8a00c46122422796093c6bcf10a4f350091ab231eb21c9231d135cbc37944"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/OWNER-TEST.md",
+      "sha256": "357a40ada13bd76b87f71ee2946bdcf3e60acafe33d04de14965bd47854b9091"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/bed-contact.png",
+      "sha256": "7270ce4341fe6c65f2f54544f88e09835e7cc70de0a6b4313392aba7650afefe"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/bed-contact.stl",
+      "sha256": "4a28b1741a8330a5a1232ca37c58ba58528fad031b13dbcf1dc282236da540bd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/candidate.json",
+      "sha256": "66eed8fe25b266040556ab745d7557aa3847c51e959c33940d6f099c90466904"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/checks.json",
+      "sha256": "282e80080450e3300f4c029dfae4ca1407781991bbd7327e773870cf61611f5d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/dimensions.png",
+      "sha256": "d078a0b750add76d9fb80a0ad67bbd61e654cd65c6d58e1c640652c65d353d75"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/editable.FCStd",
+      "sha256": "2e33e6520f00c4474ca05ac71409e8aa5f306f9b9380a69e8101c26c069be66c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/empty.png",
+      "sha256": "73a6f194d5df7469efe0ec2eb618579f6f993e023e2b7eb840f34de375c63bb7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/fea-provenance.json",
+      "sha256": "2e42786414b690be7e37f210c951c3faa96cca7eb80c9173f326d95889008ad2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/front-material.stl",
+      "sha256": "1c19b43e829b43f846b88954d7bcc46b2d3423eb87ec8788b5e270f6c8b57975"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/loaded.png",
+      "sha256": "e707e911d63caaf4d1daf8c1d28ae5fb208a5b62ff840519c5c58038d164485d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "47dab2fa1487086f6e2ee10396124a839e76a1fbe768d0a7e0179026e1ae74b2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea.json",
+      "sha256": "f1010aa47be69110460af1e3db5ea3ade4bcd7f7fff5ee72a76e19bb5765fd43"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
+      "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/poses.json",
+      "sha256": "61c35d9ba47195653f0ac88348b45d634b311dafe593bfe55ae1876882a01230"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/preservation.json",
+      "sha256": "6901ca91f7bfbadbabc498f3b4c4cef6b9a6ba01791d09f8be2547a0d47fe2c0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/print-pose.png",
+      "sha256": "145b51d0b4532f2b8544d25fdb08d819bb1d279a8cde72f4631923157674593e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/receiver-reference.stl",
+      "sha256": "197e07d0c50e6d5dd59bb66675035e626bee6f26c5aef7e3f4a79bccb5300949"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/rim-top.png",
+      "sha256": "7bb8aaa80a82352a9e30067fac883cd92f52e2b25776574ad4c9f99cf91fe2ac"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/sections.json",
+      "sha256": "e2e5a7eb7153e51a25404d31fbf6f8c53b07ff36b51af17fff1b996b61dff6c3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/tool-checks.json",
+      "sha256": "c2a6a88fe9aef5d94041b0b219fbec3e47b70ffb8227d6bf90869c3d73bc3ab1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/holder-print.stl",
+      "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/holder.FCStd",
+      "sha256": "2e33e6520f00c4474ca05ac71409e8aa5f306f9b9380a69e8101c26c069be66c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/holder.bin",
+      "sha256": "81607cd5ed2aa1c228792e24c3a07aeacf3e77486dd8efa6d07e79b58607e313"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/index.html",
+      "sha256": "bd9694f2034affb01ada1a2c5a4f381409ea3a0f66812ffaf7182dfccda39c6f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_grip_blue.bin",
+      "sha256": "ab0db97f31f54f5bcd9bc33173bef648700ecf104ba14195cd88497fa815baa8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_grip_red.bin",
+      "sha256": "431fa51eec3b8c52074eec8992e1301e4b0d164d55a0cf2aae3c6d9b7bac4a2d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_metal.bin",
+      "sha256": "507987c855608601a7fc97a670cb4ce2374cf9e06c52f8f8fd3923f7f79e1346"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-latch_pin.bin",
+      "sha256": "7479bf8449ddacc3c0a05c979b118048517f9420cccbbab3895d01480bffba99"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-main_rivet.bin",
+      "sha256": "2bd296e2ef0c0c60ac579d0e276a987d64c8f48f105b8568a1357376c2dce080"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_grip_blue.bin",
+      "sha256": "a8a402c5e3f845129fca7d80b6b1d1496e49a45bbff4837749349ca61f20f97d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_grip_red.bin",
+      "sha256": "e9993a0b7e3ca6cea882710d3d583c4d4d7e55d94f7d425ba89474b58e84649e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_metal.bin",
+      "sha256": "588da500233d643c98cc892be15f8c7c4e149880e1182549e82913dcdc11a24d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-opening_coil.bin",
+      "sha256": "612956ba1f10a4bcbbe32302a5c4887c86e12ddedd9db22d778e5ed8f651e0dc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-released_latch.bin",
+      "sha256": "d4323ab6654629a98a0c505099602731aa181d574970c69abffb51317e2f59b3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_grip_blue.bin",
+      "sha256": "d32f061970f3ebb59951b9693a2d200be01b7311e0a8437f2e33058711022651"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_grip_red.bin",
+      "sha256": "dbdeb7ac49d3bb7393f499bdd61ddab8984723bdabbbbc2265931efb9362bbae"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_metal.bin",
+      "sha256": "a3bb51d3d895aeb12bba47461790a5ef850478cd51e4a0479961eda8c4a7493e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-latch_pin.bin",
+      "sha256": "d83ddb8f6d499a1af3ffdb751fe1def47bd6fbe5c42f409c8b26ba23e4035c87"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-main_rivet.bin",
+      "sha256": "2cba9d4444b9cd858ffbb11c94d1748156047ee8edcf4b6275e91d3507177a8c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_grip_blue.bin",
+      "sha256": "0a34227dc30e1caf06c59e7c080d450616c2bda2f370efca72392494c3966078"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_grip_red.bin",
+      "sha256": "7e8cce39bb602f8410ef255d138363b5ff9b97cf167154aef8d6a10d7110273a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_metal.bin",
+      "sha256": "5c7265bf276ac4ef09f213a9cb54e3958d424ceba6ed96c9d8244a7623ec52dd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-opening_coil.bin",
+      "sha256": "9032d5e6ead29355387a4eab73616c190ed8c3e7407aa01621b98aaa0c6f8ce2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-released_latch.bin",
+      "sha256": "7d7a6784db133865ae01881809660f3d92f638e69c756e16c349223215b040e0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_grip_blue.bin",
+      "sha256": "a8cac19ec9cd190526f0c2e239fa1174e9ebf47be1d861fb202204a8f6776c69"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_grip_red.bin",
+      "sha256": "71c97b069469ee5ec159fb2ffabc0b377adba77896a76f7e2cbad7fa4b71ab96"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_metal.bin",
+      "sha256": "452301fb58bd5d38539aab2348d92a5728e0a7a06a00545395393ccfc27e0ad0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-main_rivet.bin",
+      "sha256": "96744a0cde7d172de163c43b6c7e68563ace6fd2388257de8aae71bcc3d66dcf"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_grip_blue.bin",
+      "sha256": "1ba04e5b45c62138a7037074d4209262b60611ae368d047da150054e0f88cc51"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_grip_red.bin",
+      "sha256": "52fa54b965f0aefcf087a665072002b9f3dfec2e9fed5639be7fb78925f7664e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_metal.bin",
+      "sha256": "9f32dfa70ef81a85a7fe22aee535e6413e30627c433ae33576838767bc022531"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-spring_limiter_pin.bin",
+      "sha256": "ffbb738f20ebb73afe28c35aeba9ec6e5ccddf235a25d64436d1e4a0d8f3b689"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-spring_limiter_ring.bin",
+      "sha256": "0e889a9ce393ab116ee7d1d1b6511415d12945fd8f470397fb341e3a43a66160"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_grip_blue.bin",
+      "sha256": "6b083abfbfc1cd3e21d64c96c72866d892df5052c632002b10f286f1d5618e8f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_grip_red.bin",
+      "sha256": "36fd373aabd45e97f2a46c633c5f48ec04577a25b4e9579f40b5243b91fa75df"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_metal.bin",
+      "sha256": "6be2570b2a8d54a6404fda9086a55f991e62eb960cde9dca21247d3928228d00"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-main_rivet.bin",
+      "sha256": "cfd2e9de0a351db7353fb1157d7d510a96b0fb9fa3d456ab97bfa5b3aef61a49"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_grip_blue.bin",
+      "sha256": "bf59eb1b5263f5c08295dd2b67903abd10c123f8dc7f693d6a29f97a66c615c4"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_grip_red.bin",
+      "sha256": "97d5b42fe0c228eacd502ff26a501a1f531d2f0f5ecc9d39d304aae749fee537"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_metal.bin",
+      "sha256": "6a77a7e16284f74faeb296d598fc8800a741ea03737ca241377d7243d3e41e2a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-spring_limiter_pin.bin",
+      "sha256": "bdf2e28c8c26648286dc2abb6e7fe52317da197bf601ea85cf60f6d0bbe4f8b0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-spring_limiter_ring.bin",
+      "sha256": "af222fe08eee98b95d7a18ce8c73bf3b2caf19cd09549333ef39722c8469b495"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/models.json",
+      "sha256": "dac535d811480742753ba58cecc3da82dd80f0bbd0ebdce79d1541ffe09a6593"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/packing.json",
+      "sha256": "d1513c477e16c7a9bd238ce9ae05fb636a70696ff63fe9165278493cf3c39731"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v2/candidate.json",
+      "sha256": "f3f166feb1e6d811340697ae4c2e477c183cc9b2190d624b055f21bc7d156b57"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/BUILD.json",
+      "sha256": "08086453217376f65bd5d3f7022fdc1d6c6a80f6a5ae6196c071e9dfa45b375e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/NOTES.md",
+      "sha256": "c6660a03c36a531df6df76f1a6af392f71da25994be4640e25466b3b25277d8c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/candidate.json",
+      "sha256": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+      "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/fin-v3__tool-frame.stl",
+      "sha256": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/fin-v4__tool-frame.stl",
+      "sha256": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "2b33911d859bb48609843e7acf76e039776a84dcd2040c6a70853d7eb3505c2b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+      "sha256": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+      "sha256": "aa3e8db4a411d77780483eda15b4d3a9b471035a49c3a1f496bf98eeb1c49093"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+      "sha256": "b0dd90adb0b360e642832ecff4c60db3c1ee596c8b20d57946e1695956e7cd71"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+      "sha256": "3f2af4417e3a5f4548037c8e78f25ed41cc08c58a62ca0944eaf735c08372b6b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.step",
+      "sha256": "e411219aa0c0745158f6513da638ff58ba3e3fe63b78728b751dbbd5744ab750"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.step",
+      "sha256": "873de28d3874075007eda090a0d0dd71882598e5b1a304d1bc16cd62867fdf18"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.step",
+      "sha256": "a818ed1bbc63f04bdda857526eadaa3ba6f0a82c4fd66a3aa55a66fc78b4e832"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.step",
+      "sha256": "d3525ede530aab1e4cc722e0b318c94e23f91595793ca0a8e442160624b5c913"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+      "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+      "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/BUILD.json",
+      "sha256": "c8d3e31572d8ce3be527977f87bca0436a0cf6bc5ac5825bc838d548888e3c3b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/NOTES.md",
+      "sha256": "79349180c3237105cb0e61f754c966fad28295e0a7a6e3a51c10344a9d190c85"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/OWNER-TEST.md",
+      "sha256": "37c02851a363cea74ca07235debd885bce856db18a5d6f07da4c06ba166044b8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/candidate.json",
+      "sha256": "7fe8a4fc41a5ac39de5439fb110fb2d4731eb191207fc5f4a982b876b20f24c9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/checks.json",
+      "sha256": "0e71663487ca777057e13cb4ae1346740620d9f85e0afb5db5a4987eca4b3aff"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/empty-body.png",
+      "sha256": "f0d1626939eeda54ea5bab90516e1dbc831703a517554bec958bd978cf042071"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/empty.png",
+      "sha256": "904a52bf076da45c0df419cd52516eae5f60115ca31c39f30bd591c2b506258a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/fea-provenance.json",
+      "sha256": "4c3741d2f55e75c16e58a3b86ca2d1487fca6e0de42bead1a0babfd56d691426"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/fin-comparison.json",
+      "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/fin-v3__tool-frame.stl",
+      "sha256": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/fin-v4__tool-frame.stl",
+      "sha256": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/four-guide-paths.png",
+      "sha256": "83cd136df454588df15924369db9fa6e1150ec2667f598f2b1070f8f634b74a8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-1.step",
+      "sha256": "c34015b07456776c2f74f20ba16365cad43dac2ebb2ade1c6e6eef45117ea182"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-1.stl",
+      "sha256": "ebdd4675bd5bec352056fd14b470a3ee9e32653a382a40d4944f76047bbdff95"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-2.step",
+      "sha256": "4b7bc3c0fa90521978feb6fdbe5fe5e1ad7d443f933bbda87921a36bf7ebb95b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-2.stl",
+      "sha256": "5f40f79066b338a1c502791d64e07dc718c6a0f442d7eaaf09d1a3bc8d4ef84a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-3.step",
+      "sha256": "feb775a3d45b664787e0a032837bad1abe968cfb8acc4a95b106810a85c82b57"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-3.stl",
+      "sha256": "3c298638c8b27878504ceee38e3a6ee3461a49ec001cace4af4267175bd11c5d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-4.step",
+      "sha256": "79250f448e69dd26039d85e10e791baea4b491240a6fa1fd48c421bcf67ea426"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-4.stl",
+      "sha256": "75d9609cf3f7236e2cad7363b0d1045da44bba520824f33fdac4f50c8c41bd66"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-addition.stl",
+      "sha256": "3d43a2657dfa77cd3e15ee1d04b1cd727de6d3a5964e58e437ebe37394099c0f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-closeup.png",
+      "sha256": "8d07509c5a6abb37acd0429039cdfd272c654a38eec9c2f92aabe64caec54c29"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-contacts.json",
+      "sha256": "10ae55aa6c9e07f2a36fd4d2fe8e57d24322302abe54b5f766ca3042ec6c033f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-empty-closeup.png",
+      "sha256": "c2e1abbc94588dcb03fba48a2f49cff0e1617778d62e36c1e0eb74cad361bd12"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-junctions.json",
+      "sha256": "f51241e379d6f1205596e95dd7b571f15fe6be59cc5e20a0a96f2ae314c8d665"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-section.png",
+      "sha256": "195d0e05b805e6011228b85163e6c6e77d1b32e5bf43a9cc04b047c68f9d2d57"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-toolpaths.png",
+      "sha256": "d93acb31d44fe96ab7ea3afafa0301d1d451d4c511dfb8f74b1dc8d128dc7d1b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/loaded.png",
+      "sha256": "b28ea9cbdcae44ecc04824ba6f8c83ad4aece478fba623b2a19ab5ac8c90e70c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__design.json",
+      "sha256": "288ef94831edc41987db91f3cd3fe4b8524c4517cfaec8f2b3066389a0126aea"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "a13a16cbadcb040aa42b7f48185a9cede29011423463da987c32b884891beb8b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "sha256": "5884aa1721d657eb5ab28cf0bc547460db2617c4b65081c3e844ee31fdf2dfdc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+      "sha256": "ba6c68b818e4e4342b46b84bfeb559f0bc15d556ff255ebfd8534db83459049f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "sha256": "43380f4ab0abf39b89f9abcaf2928b76ff30a05a76722c0c897efe14afec904b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+      "sha256": "31f734bee7b08266950ecf67d14211c27052cc525d2b54af4356f4f8de337fb2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+      "sha256": "5aac6121757060b151fdb144d4f82a163f6271dd253311453c90922ed6b452e8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+      "sha256": "22d82db656bb66fdc8ba25b083d2f535443d11180877ec376a7d1c692daa384b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+      "sha256": "a51a155cb3b273763b4ef25927e34eb0e842f7742654ffb20b9b58113201c7f4"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.step",
+      "sha256": "4d9b4675340251ecb0786e3f04df162c1d0d648018e80ee04b44b99410c1dda0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+      "sha256": "fc218ac084e4738ab19dd9ed2971fc9c63c834a19ca97ff67ffa11955b6edda4"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.step",
+      "sha256": "a960899a1d34bc5e4648e2ffb6b2e48136ad550544d8346e7a081b95757a20aa"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+      "sha256": "35756a68cd481e3d52195908ffd098c35f81665e2a072347f4aab989deb804b1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.step",
+      "sha256": "e2adff24e0ee4d672c4bbfd947b95adea96fb63c73fb616e75506b99f67138b3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+      "sha256": "95ca693a88f874885793e0ec7b1d06677b2f6400b647cf2285bc52722439ddec"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.step",
+      "sha256": "e8569bf37d6b585eb69afc0dd439aabcc046235fe6efc701a0b3d7dd5f512372"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl",
+      "sha256": "3f08fd6e8d0ef61de7d370e224414fd1e1b66b0479f96e00d4cd8eec34ff9f34"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+      "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+      "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/pickup.png",
+      "sha256": "479b5c5da726f2a5e88bd5ce32080fc339e0798892698804e1b51984369e2fb4"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/print-plate.png",
+      "sha256": "be8945c7f1f75babe4e761c9cc66776bde6fd5a4b248c7a4be3ec8be804ee143"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/print-pose.png",
+      "sha256": "f145e1ca65145bb2ce232933a336e4f2568944f274a6b70b1c91a3842895d123"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/toolpaths.json",
+      "sha256": "7bcd62b781657197bb949bba1fd25322197e23362e5158dc20b8f48ea3901af2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/toolpaths.png",
+      "sha256": "3e673131c1ce29e32cb7578f1029111de5818807961a809385c970f190757030"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+      "sha256": "2102ca21e271da0d8d0fdb5e5f422f9beb075e7dedc4681b45083fa09884504c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "sha256": "c1e7845d5e41ffd725f1e22d6861858728b0e1635ccf470eb6c8321660796816"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+      "sha256": "7acd163e88edbcd906621458e2ef5a0b4b4d1c1e0f181e26381b56b6d09b66e3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__design.json",
+      "sha256": "2ab4fb3b89ffe1e572a03f9afcf507bc984e67bab207ba2ea27b053bc9f3054b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "756cbe3715ecc3f6cb3d53394ed6188ae5e1677372661c3acfbe9bb79a6233dc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea.json",
+      "sha256": "f6b97e85ac15213a8cadd796600368c8a7ddd243a64c32f1a1d00355264a7e69"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "ffc1069c5a096e8105af8caf377fac0c58f701ef1d0cfc9433c17003e68748bd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+      "sha256": "3ac5e67a85b5a4e6d295381f0935bf606ed35e180d1f84038b066512efab5575"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__slice.json",
+      "sha256": "c89c1dad570f0e28b73ef08488abc75ff7924c5d48cc4792284701cbcabebf0f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-flux.stl",
+      "sha256": "8b06aea22b75ba0a379bde332e739fa2caf287ce7585f988e766217932c65622"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-paste.stl",
+      "sha256": "b31d1ae8a4509c7280d5b5ca3424f1f5ce7d66b4b120e6ff83c99cbc75c46a5b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-sucker.stl",
+      "sha256": "89ee643482cd39c493185899af98f99bf418b26535a2b808c7aff8c0f6bdfa14"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/NOTES.md",
+      "sha256": "0049a37c464a7601a66f330a1a31f1bf02c6b77908e7478fbdf456476dc47517"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+      "sha256": "2d48e322eddf53001d07f6454b27fdb7fbe9ed00b968102dd739988249a2cb3e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "sha256": "5ee6d5f50f8690f159ed609032c51cc2a177e2ed755c383c59243ac941db1534"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.v1.json",
+      "sha256": "c1e1bddb9d336d886822d68156b0c6a892207cfc88c71215de81744cf1a7d60d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+      "sha256": "2e73c7f99076272fe7dfde8e33c106ef097578ea2c12819bbddde13bfd7ce090"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__empty.glb",
+      "sha256": "04f29b63b7afdb97ca1ec9a8317ec6c1d3760c6bca6faf5259d32b4510d11d33"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__empty.png",
+      "sha256": "6c6dca5fe6e96943347cd3b5fa5711c7e085b7c172f0fa6206c8c5369feb4c8b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "4797286f2cf5aa5f4ea171220432704d19fcf01936dbfaef8aa6b80d018225cb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "sha256": "b7e9e77dd013b86503ee3427961a03cdc26c67c258e2be1da140dd061f06c986"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__front.png",
+      "sha256": "57465486d28f62432fcd372a981a8146bfbeab33639f059103bebf73164b0caf"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "939e686e1a25e92761196e204297c487d9f525cace2ad53baad88a95970047bc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__loaded.glb",
+      "sha256": "712aa05d30e917002ca647e099206c5d17b51ecfbe4dc2a282c9b11f0de1af49"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__loaded.png",
+      "sha256": "f117236bbb9fe26eb75827769bbc48f50f98f8e2bd73cfe4199ca85aa5877664"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "sha256": "93b0ae18afaf2754a877d5a4d7ad08e580a6beb30e0278b3c50ebf7a3a74f86c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.glb",
+      "sha256": "70baf202b55d30c32497bd8beaac642064b3bad81181c5b61af181903b057016"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.png",
+      "sha256": "93bf45c9e1713ec9eb2f3b1852be7652ad2bdf49263c72097085fc602f579d0b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__side.png",
+      "sha256": "afd54b888c87ae444c8c1e9baf5905fa0252924f08c27e5aa57252e3352651d5"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__slice.json",
+      "sha256": "4ee50aafc3a4abd41a44ccba029587fee835b4ca1295f882e4653823f5d55da1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-bobbin-38x6-bore10.5.stl",
+      "sha256": "15fd7b3520e65e13317436408cf1a99df1a7a5cec44168aae9cd0191f5cd6d91"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-bobbin-52x12-bore7.stl",
+      "sha256": "453aa5a762f32c6a674459a1407efcfaf16ef945b7e1c33341797f68c75c8b82"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-chemtronics-44.5-domed.stl",
+      "sha256": "6513b98a706b8e6054b4c517d31ce492072df97ca6671c012d27ee4a21a99c08"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-tail.stl",
+      "sha256": "dc78a8327afa82fd73816140e6d5997d1584828bf089d0c3d6b30a7aecca4f1e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/NOTES.md",
+      "sha256": "8c2170281e6f8c7069243a7008b4e854d8384e9a50d01e860a2f71e4b70f8588"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__installed.step",
+      "sha256": "d08326fbbe382e2bae8747d55ae0961d77720ccab467fe6d6594f6711e0221e8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__plate-x3__slice.json",
+      "sha256": "0fcd46b6830a3ffeb567516d2f007ef191f12e7330b260891f865fab519bf857"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+      "sha256": "66b5936e684f512fb7f34d887608aaef30bf4a6bbca139409b7de2df3de1dc2c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
+      "sha256": "9baff5ed71288cf8f5198099924e13cab80e76c62bee23cc741d41d50427677f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__slice.json",
+      "sha256": "febbbcbbae4deda16436b442eb2e7f7733b0d02a766efe67cf2b0bc6ce6d5652"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+      "sha256": "64b6ba84765eca409b3f34d96aedf109f20463933fed1cafc91cd6143a99bd35"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "sha256": "9b91c8d08791fd3041147e6eb2c1bec4d2439a1105a5694364c08c10a1d4317c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+      "sha256": "6a4f54e67152fc67d4f77f8a3b7cf4ea3711b03a8fc6eeb8bac99b2c5d35bd6f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+      "sha256": "ba8b80c13577bc1dbbb5699f9d73a3a168c73743cd5bf106710c0bda0d3506ee"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__empty.glb",
+      "sha256": "3ae88ccb72f1ed7b5cd7d81ab8a6d33844b6248907b3178b05af006d104489e8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__empty.png",
+      "sha256": "7f0869aebd288e73ebd13179517dfe7e99390271d95532388e86b142c8b17bf2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "f9e546fedff6cd5f97a0574fe07f2341feb1c1db35287c0135faf8daea420c54"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea.json",
+      "sha256": "6ed5a65c549f60a1cdee86671751cfe05fb76216bdc5564c412b6deb03a04ec3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__front.png",
+      "sha256": "740bb3ab15a6715f3dd0356c90c9f45d0ac6a2d257b38b396086f2812147894c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "8ad2945515c40c733ac4b6234bc8be9d9463a1214e18edb919f8e57b50d00eb2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "1785f2a562dc78b0fc996f31b2a43f5e13f8f58f8505b16ad8227a85b7abaaa5"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__loaded.glb",
+      "sha256": "b61df98f58700d669e79d3f5f3f1201dff533ebc9a0842b8467d88ef2a0fbfa5"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__loaded.png",
+      "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+      "sha256": "04c04054e1cf80923e92bedaca9f021277a9d5ab215647da13b46cdac8351647"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+      "sha256": "9d5927a73bad887234a6f7a71fc506939034a4350210e17593589d0a220c1cfb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.glb",
+      "sha256": "2d07b599579b015d6f019c626482d848474f59abb833f368d4132ebcca6a337d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.png",
+      "sha256": "2dcda723a66023d6a5ad8e8efb6e6c5b3d718795062e6b3fa56e7d612559a72d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__ref-b6-nozzles.stl",
+      "sha256": "9f806fa3d8b36115a81ecee9fbf4c685afea295513a051f8ad0053e946ba7e48"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__side.png",
+      "sha256": "b1ad5bcdbcc691144865d3291b347b72a2ee381757dacd262874f05990f5073b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__slice.json",
+      "sha256": "6154037962ee5678fa55fd828016480d20b0c13520f730b3e9f2a46f1dbd4e03"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__tool-liner.stl",
+      "sha256": "b7bf7b654218bfcff1088bbcf693215e5009a0b22cd2e8405a65211d7012417d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-front-v13/BUILD.json",
+      "sha256": "62d962f18e88ea9cfe3f32a23b0b69091b9c594966875f838e1dfd736e7500e7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/BUILD.json",
+      "sha256": "35bba57c94ae3cbda0540028b66ed286a976aac56a567ee8abc411512e46ed2b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/NOTES.md",
+      "sha256": "64b5efe0aa462765e109b69bbcd66a1c922f30e082f2df8c3e77854b64d858cd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/empty.png",
+      "sha256": "f7cf6263387f392f773c07ef5c8ad9d95359b9941c3c5a99e96e98b3f257d41f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/envelope__largest-installed.stl",
+      "sha256": "00c92941e268be5a7e202bf45aa9c367bb7f9d38badabc285728ff6f46891100"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/envelope__largest-up-out-sweep.stl",
+      "sha256": "07a50329ef610663fe0ad592131cdd28ebcb5a8b87dd511cbc029bad5e488736"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/fea-provenance.json",
+      "sha256": "7c8dfb49e414fdb0438baa9924367c95a75ebbcb9cfc74f5527d34d3e664685d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/footprint-lift.png",
+      "sha256": "7aa397739053b7394fedf90b28e05219425bd0ede0ae9369c1e7922dbc3d7e80"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/front.png",
+      "sha256": "60577941d27c724dc44b12151c8f91c8c6bfa492d23f774b0999781a25ce624d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/largest-loaded.png",
+      "sha256": "d558b77cce12606f189a973009b1a1da2d0223b89c980f2840a8a97244551c62"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/lifted-out.png",
+      "sha256": "d1be182f6038726171cffa403df5b1e872d0a70e5a94e232eb5983069c954891"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/loaded.png",
+      "sha256": "542c0f6b95396418ec53ad27e09f08a49c91d9ff0438f2785d9230be9485b8f5"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/narrow-loaded.png",
+      "sha256": "7986af21aeab734635e0037c180a4c52d82c4cc4e898bf7ad6322cf18ade48b6"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+      "sha256": "b14d41afe1a49e7eda86b27ce77cc2610b3212f1947752a2a34b5e94cf59a84c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "sha256": "3714de73283138737efe96d2fcff35583731dee617cef72c1424ff53887b05c9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__design.json",
+      "sha256": "75acf7277745585a2f6c684ca76bb7355dc22b9174591caaa2e5985aa3a5b80f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "ea55439921711250843b9c12fb937d457bdf8875430944f60fd923d25d9b98cd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "sha256": "1df3d22b7bc98e3f638a809aa48b82152ee491184a825e3ff0ebf3ac05ca5758"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "a41a4e206dd3d855b8bf47fdd5362eca81dbaeab4042ba143db442305a3e33e7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "sha256": "b598dd6bbc4e27e07ba5eba66287b0bf2badbbcbca35154b8e5c370a1a91273c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "sha256": "8db348453f14c18d7232dd2590a837d583cf4ccd296bb33ec72081c7acfab014"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/payload__large-65x34.stl",
+      "sha256": "6738ee345c4187250d40b919e4ec708d75afdc09c509becfa124c0ecd67fdacd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/payload__narrow-40x12.stl",
+      "sha256": "fe32c362a0e6300d0f5d7e707167d93e9c10e32c0b1f5ace76743046c2ebc602"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/payload__narrow-40x8.stl",
+      "sha256": "33a507beffd012402cecd2b2465348d2817b69432d3801eefba44c0c56f943fe"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/payload__nominal-55x30.stl",
+      "sha256": "efaf0422f9a69f0c5a4ac046f61927c8ba57072168be2c191fb0d5fab82c7683"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/payload__small-40x20.stl",
+      "sha256": "822b462dbe8cb46bc3fd5da57436c97f5d6c273078cdd464ca80397de78484ab"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/print.png",
+      "sha256": "a53f01b27da053b9630d38ccf808e53451f5c926c633d19e410125b4029eea5e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/projected-outlines.json",
+      "sha256": "086db7a50b1048a6c45d4a96156a91b360477675a332025cd8e49dc12bc67acd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/range.png",
+      "sha256": "e4885d094ca30486ae0d0d787cca9a3a3aee16bf8acb5ffe16e0e57c2d4fbe23"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/side-sections.json",
+      "sha256": "30c08cbf7ac888d9275c3fe214b5df58c6353a44a441910b2fcc9d008b5fe83b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/storage-review.json",
+      "sha256": "641a67a1d2bc2f49205bf67492ba11d37ea2b5a0de4e248adf7cbc95ead29948"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/up-out-path.png",
+      "sha256": "b1dd796d48bd26891cd46109e5a2ebb1fbbf6afb798fd71039a30a3f8e57d67f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v8-regen/tweezers_open_rest.stl",
+      "sha256": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_fit_ladder.py",
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_fit_ladder_v2.py",
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_fit_ladder_v4.py",
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_interface.py",
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_print_variant.py",
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_profile.py",
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/BRIEF.md",
+      "sha256": "83df189261db966c917af5e33c9e710f90e7c17a3dfeb02464d52bba8b2d5547"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/barrels.py",
+      "sha256": "738da610c95633bcb4b07fb57395e6a162e911d5b5ad7177d07a7c093a1fa001"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/barrels_b6seats.py",
+      "sha256": "e479b0c115662e20d7c501ce2f987db444d7577dc577403bacde6d253f4f2458"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/braid.py",
+      "sha256": "2aaef1bf6bd19b78743958fc2cf79baf047cecc65a45606638ad55665fa79369"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/checks.py",
+      "sha256": "f987780e2c04bce00ca6bc8e25dffb3f489619d28339e5c9cf870bb6b3fced58"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/common.py",
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/drip_tray.py",
+      "sha256": "4bae4dc72eec01ed2973f7a4eaec920284fce2eae3106abfb29b2b8bf18ad83e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/fea.py",
+      "sha256": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_front_render.py",
+      "sha256": "15cef7688a9a8efd225a2144c9ad2aa0ad0b1801175f20fdf0ba052fc65e5be3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14.py",
+      "sha256": "9fe67d3e1b69916a233849efcc434d119504fa52e4dcc89e82faac4c2c453e0a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14_fea.py",
+      "sha256": "b4706141ea7244c50cd393c1312ceec4842109d9b101ddba6c879d66bd0da433"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14_render.py",
+      "sha256": "8b51c802e39b3b6c008766dcf92e17e12816dfd5494d113dd4c4f9428259fa5e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14_review.py",
+      "sha256": "d6846e6178ae6c56c392709792fb08e4dbca1e2f4ea02f042058c4e361f69bfe"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_check_v1.py",
+      "sha256": "6bde39367ca8be0564108701c0da8438de3b8ca13ca7a573572da13ea6e12901"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_check_v3.py",
+      "sha256": "8cf1d01683e117bb9816c0d408716bea833b229ce47167ea6564ef9c27ffdd10"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_fea_v1.py",
+      "sha256": "5f91004498f194cd0e9e3a25955b0adf9f906b41f854cd73b852a51d0bd047fa"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_fea_v3.py",
+      "sha256": "940fbf7981f39cbb3c290ee9a2a8a989f2f89a0bb23fa2211652f48d2c345123"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_figures_v3.py",
+      "sha256": "5d2523fbabaa1a863541fa15da3fde06a9f242708090adc3a3175b9513aad058"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_v3.py",
+      "sha256": "55fbb8ec683a59f9e9987538e2133dc03352dd5b7a4ec1e0cf65b36b4112737a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_viewer_v1.html",
+      "sha256": "a1a903d447ee04f58a1556dff21a633db3e067db9a08fad911868b1eabdeb54d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_viewer_v1.py",
+      "sha256": "e0d54e5d56f3904e17b28c2610e27c7a9dcd27a0e5cac4a54678b0f311097825"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_viewer_v3.py",
+      "sha256": "59e2a26ad68b24ffc09797a85f4c90167327d956be7371ed76be0d73fa392e4d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_models/engineering_reference_v2.py",
+      "sha256": "01cae95b1454c3a1751791e51c1cc707c5301e862c8fce1ce17f37dba8eb96ca"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_models/engineering_viewer_v2.py",
+      "sha256": "5b2b07f9ac362247d24e0c59d8797c1c69a74857f9ed4c1bd3fbd501c208b3e5"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/holder.py",
+      "sha256": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v3.py",
+      "sha256": "55657c2fc653fa3d39931a3092574c295627b684ead8b9c9855359ae7972e8dc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v3_render.py",
+      "sha256": "7a9b954dcf9dac80ef60404f98dc72fdfe06b42bcc513efff2896b707bccf4a9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5.py",
+      "sha256": "2a8c2e9019696488d50208169db4fad3f0170efeab7686173e681c9f96cbb224"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_check.py",
+      "sha256": "a84a4d20e72feeb784dfaf788438fb1260276cead1ab4c48e3d79e9830ea3432"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_fea.py",
+      "sha256": "801b42d0c77b8d43b1ac21cf0f99f131fbb86e2017bcee31743f5ba09a71cbad"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_frame.py",
+      "sha256": "ed29899dea2568fdb17d2b16f16248f3798b10879b1777a732716f3a1a6d3a38"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_guide_check.py",
+      "sha256": "65e4a8af319d2ff0652ed3abe9d10def23604e0f9744778ae297490ba269fb44"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_junction_check.py",
+      "sha256": "c5bdea73142dace358c2f05321fd1e0e093cf2ba9a84704021735db5bc209e23"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_render.py",
+      "sha256": "41941e2e1e0a240304098bda994e08cc542693b2e179794082eb01842b4802bb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/variants.py",
+      "sha256": "6ee869b1ed205a688a33dc65d5c3b180600258239713385203b4552dccd3e64d"
+    }
+  ]
+}

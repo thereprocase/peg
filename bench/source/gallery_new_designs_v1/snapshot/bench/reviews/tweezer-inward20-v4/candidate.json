@@ -1,0 +1,752 @@
+{
+  "cases": [
+    {
+      "name": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5",
+      "pose": "right-cheek",
+      "print_file": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "pose_matrix": [
+        6.123233995736766e-17,
+        0.0,
+        -1.0,
+        24.943712401357523,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        1.0,
+        0.0,
+        6.123233995736766e-17,
+        24.40000000000001,
+        0,
+        0,
+        0,
+        1
+      ],
+      "volume_mm3": 88044.76583772014,
+      "solid_mass_asa_g": 94.20789944636057,
+      "bounds_installed": [
+        -24.400000000000002,
+        -10.79,
+        -111.66367332216791,
+        24.4,
+        135.57866853353005,
+        24.943217335830283
+      ],
+      "print_bounds": [
+        136.608,
+        146.369,
+        48.801
+      ],
+      "files": [
+        {
+          "file": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.stl",
+          "facets": 27900,
+          "volume_error_fraction": 8.432076717797706e-06,
+          "sha256": "12cece2e1a0b8cd14a5800f1330b415cad30f7dfc2fe7cb5764e9dba68653c4e"
+        },
+        {
+          "file": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+          "facets": 27900,
+          "volume_error_fraction": 2.3982143403840457e-06,
+          "sha256": "658d6f446e5d3e2c2aa076b31023641ce7f147c22a3dec62e840e23d28263298"
+        }
+      ],
+      "receiver": {
+        "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "top": {
+          "upper_ribs_mm": 0.5,
+          "clamp_mm": 0.49
+        },
+        "columns_x_mm": [
+          -12.7,
+          12.7
+        ],
+        "plate": {
+          "x0": -24.4,
+          "x1": 24.4,
+          "y0": 0.15,
+          "y1": 5.55,
+          "z0": -107.47999999999999,
+          "z1": 5.12
+        },
+        "hoop": {
+          "concept": "HOOP",
+          "arm_mm": 0.8,
+          "tip_half": 2.0,
+          "even_catch_wall": true,
+          "ramp_wall": true,
+          "nose_mm": 0.9,
+          "root_gusset_mm": 0.4,
+          "body_ribs_mm": 0.3,
+          "orientation": "hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z",
+          "detail": {
+            "width_across_barbs_mm": 7.35,
+            "catch_angle_deg": 55,
+            "catch_length_mm": 0.6476919728439815,
+            "ramp_angle_deg": 15.592255624701878,
+            "crest_y_mm": [
+              -4.487691972843981,
+              -4.787691972843981
+            ],
+            "catch_bearing_per_side_mm": 0.5,
+            "nose_mm": 0.9,
+            "ramp_wall_mm": 0.8,
+            "min_wall_mm": 0.8,
+            "root_gusset_mm": 0.4,
+            "root_gusset_length_mm": 1.5,
+            "arm_mm": 0.8,
+            "closed_nose_mm": 0.9,
+            "band_half_height_mm": 1.4,
+            "root_clip_radius_mm": 2.95,
+            "cheek_offset_down_mm": 0.1
+          }
+        },
+        "rows": {
+          "hooks": [
+            0
+          ],
+          "bearing": [
+            2
+          ],
+          "hoop": [
+            4
+          ],
+          "empty": [
+            1,
+            3
+          ]
+        },
+        "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+      },
+      "id": "inward20-v4-A4p0-tall1p8",
+      "lean_mm": 4.0,
+      "lean_definition": "Reference right-arm outer edge to cheek in receiving frame; not universal slot width",
+      "fore_aft_pitch_deg": 20.0,
+      "lateral_cant_in_receiving_frame_deg": 15,
+      "global_lateral_plane_angle_deg": 15.915265864261167,
+      "receiving_transform": {
+        "base": [
+          0.0,
+          25.63839854364563,
+          -40.420201433256686
+        ],
+        "quaternion": [
+          0.17364817766693033,
+          0.0,
+          0.0,
+          0.984807753012208
+        ]
+      },
+      "tool_pose": {
+        "base": [
+          -18.012450494169574,
+          146.35431732930178,
+          11.98548020497303
+        ],
+        "quaternion": [
+          0.690749222391131,
+          -0.09415597153889993,
+          0.7008099978050868,
+          -0.15121346423532508
+        ]
+      },
+      "tray_pitch_vertical_mm": 23.0,
+      "tools": [
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl"
+      ],
+      "wedges": [
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+        "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl"
+      ],
+      "wedge_print": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+      "wedge_count": 4,
+      "wedge_volume_mm3": 484.8782935880952,
+      "peg_symmetric_difference_mm3": 0.0,
+      "removal": {
+        "lift_mm": 6.75,
+        "lift_direction": [
+          0,
+          0,
+          1
+        ],
+        "out_distance_mm": 135,
+        "out_direction": [
+          0.0,
+          0.9396926207859084,
+          0.3420201433256687
+        ],
+        "reverse_for_insertion": true,
+        "reason": "Taller fin requires extra release lift; preserve frame/pitch and verify all four loaded-neighbor paths."
+      },
+      "added_tip_clearance_global_y_mm": 19.05,
+      "top_translation_from_v2_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "v2_comparison": {
+        "candidate": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v2/candidate.json",
+        "sha256": "f3f166feb1e6d811340697ae4c2e477c183cc9b2190d624b055f21bc7d156b57",
+        "top_two_positions_unchanged": true,
+        "orientation_unchanged": true,
+        "plate_gap_mm": 23.05
+      },
+      "clearance_meshes": {
+        "plate-region": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+        "root-corner": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+        "root-web-1": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+        "root-web-2": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl"
+      },
+      "cheek": {
+        "thickness_mm": 3,
+        "perimeter_rise_mm": 12,
+        "outer_radius_mm": 3.0,
+        "window_radius_mm": 2.5,
+        "outline_yz_mm": [
+          [
+            5.25,
+            -107.48
+          ],
+          [
+            5.25,
+            5.12
+          ],
+          [
+            32,
+            5.12
+          ],
+          [
+            135.57866853353005,
+            25.594784390251075
+          ],
+          [
+            135.57866853353005,
+            -78.40521560974892
+          ],
+          [
+            75,
+            -106
+          ],
+          [
+            25,
+            -111.7
+          ]
+        ],
+        "windows_yz_mm": [
+          [
+            [
+              18,
+              -43
+            ],
+            [
+              18,
+              -7
+            ],
+            [
+              65.12526054430553,
+              -7
+            ],
+            [
+              65.12526054430553,
+              -43
+            ]
+          ],
+          [
+            [
+              18,
+              -98
+            ],
+            [
+              18,
+              -54
+            ],
+            [
+              65.12526054430553,
+              -54
+            ],
+            [
+              65.12526054430553,
+              -98
+            ]
+          ],
+          [
+            [
+              75.12526054430553,
+              -18.90845667777728
+            ],
+            [
+              128.57866853353005,
+              0.546992750387659
+            ],
+            [
+              128.57866853353005,
+              9.046992750387659
+            ],
+            [
+              75.12526054430553,
+              -10.40845667777728
+            ]
+          ],
+          [
+            [
+              75.12526054430553,
+              -41.90845667777728
+            ],
+            [
+              128.57866853353005,
+              -22.45300724961234
+            ],
+            [
+              128.57866853353005,
+              -13.953007249612341
+            ],
+            [
+              75.12526054430553,
+              -33.40845667777728
+            ]
+          ],
+          [
+            [
+              75.12526054430553,
+              -64.90845667777728
+            ],
+            [
+              128.57866853353005,
+              -45.45300724961234
+            ],
+            [
+              128.57866853353005,
+              -36.95300724961234
+            ],
+            [
+              75.12526054430553,
+              -56.40845667777728
+            ]
+          ],
+          [
+            [
+              75.12526054430553,
+              -87.90845667777728
+            ],
+            [
+              128.57866853353005,
+              -68.45300724961234
+            ],
+            [
+              128.57866853353005,
+              -59.95300724961234
+            ],
+            [
+              75.12526054430553,
+              -79.40845667777728
+            ]
+          ]
+        ]
+      },
+      "wedge_print_face": "Wide tool-station-51 end down, 20 mm tall; same geometry, brim required",
+      "wedge_print_pose_matrix": [
+        1.0,
+        -0.0,
+        0.0,
+        7.983232993454253,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        2.001823859070178,
+        -0.0,
+        -1.0,
+        2.220446049250313e-16,
+        51.00000010000661,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "wedge_print_bounds_mm": [
+        10.783232893401548,
+        4.003647518153267,
+        20.000000000007894
+      ],
+      "fin": {
+        "ridge_tool_x_before_mm": 1.0,
+        "ridge_tool_x_after_mm": 2.8,
+        "increase_tool_x_mm": 1.7999999999999998,
+        "roof_deg": 55.0,
+        "shoulders_tool_x_mm": [
+          1.690528175216333,
+          1.0
+        ],
+        "ridge_delta_installed_xyz_mm": [
+          3.996802888650563e-16,
+          -0.6156362579862035,
+          1.691446717414635
+        ],
+        "ridge_increase_floor_normal_mm": 1.7386664873203228,
+        "heights_above_floor": [
+          {
+            "tool_station_mm": 31.0,
+            "old_ridge_above_floor_normal_mm": 7.119104376726407,
+            "new_ridge_above_floor_normal_mm": 8.85777086404673
+          },
+          {
+            "tool_station_mm": 41.0,
+            "old_ridge_above_floor_normal_mm": 6.907215729064184,
+            "new_ridge_above_floor_normal_mm": 8.645882216384507
+          },
+          {
+            "tool_station_mm": 51.0,
+            "old_ridge_above_floor_normal_mm": 6.6953270814019605,
+            "new_ridge_above_floor_normal_mm": 8.433993568722284
+          }
+        ],
+        "old_volume_mm3": 440.3834294657387,
+        "new_volume_mm3": 484.87829358809523,
+        "added_volume_mm3": 44.494864122356546,
+        "below_old_crest_difference_mm3": 0.0,
+        "removed_old_material_mm3": 0.0,
+        "foot_difference_mm3": 0.0,
+        "original_reconstruction_difference_mm3": 0.0,
+        "foot_and_body_fit": [
+          {
+            "tray": 1,
+            "ordinary_reference_symmetric_difference_mm3": 0.0,
+            "body_intersection_mm3": 0.0,
+            "foot_symmetric_difference_mm3": 0.0,
+            "below_old_crest_symmetric_difference_mm3": 0.0
+          },
+          {
+            "tray": 2,
+            "ordinary_reference_symmetric_difference_mm3": 0.0,
+            "body_intersection_mm3": 0.0,
+            "foot_symmetric_difference_mm3": 0.0,
+            "below_old_crest_symmetric_difference_mm3": 0.0
+          },
+          {
+            "tray": 3,
+            "ordinary_reference_symmetric_difference_mm3": 0.0,
+            "body_intersection_mm3": 0.0,
+            "foot_symmetric_difference_mm3": 0.0,
+            "below_old_crest_symmetric_difference_mm3": 0.0
+          },
+          {
+            "tray": 4,
+            "ordinary_reference_symmetric_difference_mm3": 0.0,
+            "body_intersection_mm3": 0.0,
+            "foot_symmetric_difference_mm3": 0.0,
+            "below_old_crest_symmetric_difference_mm3": 0.0
+          }
+        ],
+        "plan_outline_tool_zy_mm": [
+          [
+            -0.7768605351448059,
+            31.0
+          ],
+          [
+            0.7768605351448059,
+            31.0
+          ],
+          [
+            2.0018237590789796,
+            51.0
+          ],
+          [
+            -2.0018237590789796,
+            51.0
+          ]
+        ],
+        "section_tool_y_mm": 41,
+        "section_curves": {
+          "v3": [
+            [
+              [
+                1.0000000000000746,
+                41.0,
+                1.3893421471168768
+              ],
+              [
+                -5.779852448599176,
+                41.0,
+                1.3893421471168075
+              ]
+            ],
+            [
+              [
+                1.000000000000652,
+                40.99999999999999,
+                -1.3893421471033993
+              ],
+              [
+                1.0000000000008047,
+                41.0,
+                1.3893421471168765
+              ]
+            ],
+            [
+              [
+                -5.779852448602776,
+                41.0,
+                1.3893421471191978
+              ],
+              [
+                -7.9012481612807335,
+                41.0,
+                -1.127076864991067
+              ]
+            ],
+            [
+              [
+                1.0000000000018474,
+                41.0,
+                -1.3893421471033989
+              ],
+              [
+                -7.971286038474532,
+                41.0,
+                -1.3893421471034033
+              ]
+            ],
+            [
+              [
+                -7.971286038407705,
+                41.0,
+                -1.389342147121269
+              ],
+              [
+                -7.901248161208102,
+                41.0,
+                -1.1270768649769707
+              ]
+            ]
+          ],
+          "v4": [
+            [
+              [
+                -5.779852448602776,
+                41.0,
+                1.3893421471191978
+              ],
+              [
+                -7.9012481612807335,
+                41.0,
+                -1.127076864991067
+              ]
+            ],
+            [
+              [
+                1.0000000000000746,
+                41.0,
+                1.3893421471168768
+              ],
+              [
+                -5.779852448599176,
+                41.0,
+                1.3893421471168075
+              ]
+            ],
+            [
+              [
+                -7.971286038407705,
+                41.0,
+                -1.389342147121269
+              ],
+              [
+                -7.901248161208102,
+                41.0,
+                -1.1270768649769707
+              ]
+            ],
+            [
+              [
+                1.0000000000018474,
+                41.0,
+                -1.3893421471033989
+              ],
+              [
+                -7.971286038474532,
+                41.0,
+                -1.3893421471034033
+              ]
+            ],
+            [
+              [
+                1.0000000000007976,
+                41.0,
+                1.260372968776474
+              ],
+              [
+                1.0000000000008047,
+                41.0,
+                1.389342147116877
+              ]
+            ],
+            [
+              [
+                2.799999999999997,
+                41.0,
+                0.0
+              ],
+              [
+                0.9999999999998721,
+                41.0,
+                1.2603735687775668
+              ]
+            ],
+            [
+              [
+                1.000000000000064,
+                41.0,
+                -1.2603735687774318
+              ],
+              [
+                2.8000000000000185,
+                41.0,
+                1.4210854715202004e-14
+              ]
+            ],
+            [
+              [
+                1.000000000000652,
+                41.0,
+                -1.389342147103399
+              ],
+              [
+                1.000000000000659,
+                41.0,
+                -1.2603729687678535
+              ]
+            ]
+          ]
+        }
+      },
+      "immutable_copies": [
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__installed.step",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.step",
+          "sha256": "2b33911d859bb48609843e7acf76e039776a84dcd2040c6a70853d7eb3505c2b"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__installed.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.stl",
+          "sha256": "12cece2e1a0b8cd14a5800f1330b415cad30f7dfc2fe7cb5764e9dba68653c4e"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+          "sha256": "14b47c0239e79692b5d84fb5905ead4c3a635de296e46c173942fa05d6e97fd5"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+          "sha256": "658d6f446e5d3e2c2aa076b31023641ce7f147c22a3dec62e840e23d28263298"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__front-material.stl",
+          "sha256": "0479e5ca8e961ea39436ba765f8c096fa808137302fe460c2731d73d7966c33d"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+          "sha256": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+          "sha256": "aa3e8db4a411d77780483eda15b4d3a9b471035a49c3a1f496bf98eeb1c49093"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+          "sha256": "b0dd90adb0b360e642832ecff4c60db3c1ee596c8b20d57946e1695956e7cd71"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+          "sha256": "3f2af4417e3a5f4548037c8e78f25ed41cc08c58a62ca0944eaf735c08372b6b"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+          "sha256": "b22e30a02353bf43b17ff84898c2cf26fba7614b8c5daa73ba1f55d15cfead5f"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+          "sha256": "0c04ef626dc51dcf624050e9e39c3dc2f2d4f04cb36debd304da53e8e5fa3ef7"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+          "sha256": "03408ff3460584eb15d7cdad90973e9335bcee195b39a67bdf59606af9ae9476"
+        },
+        {
+          "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/part-tweezers__inward20-v3-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl",
+          "target": "part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl",
+          "sha256": "4aa030beecff4c1bc36c7392f6260851bb02022da26e4cd25cdb4402ed7fa769"
+        }
+      ],
+      "inherited_body_contact_equivalence": [
+        {
+          "tray": 1,
+          "floor_mm3": 0.0,
+          "pocket_mm3": 0.0
+        },
+        {
+          "tray": 2,
+          "floor_mm3": 0.0,
+          "pocket_mm3": 0.0
+        },
+        {
+          "tray": 3,
+          "floor_mm3": 0.0,
+          "pocket_mm3": 0.0
+        },
+        {
+          "tray": 4,
+          "floor_mm3": 0.0,
+          "pocket_mm3": 0.0
+        }
+      ],
+      "inherited_sources": {
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v3.py": "55657c2fc653fa3d39931a3092574c295627b684ead8b9c9855359ae7972e8dc",
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/holder.py": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af",
+        "/home/repro/code/peg-bt2/bench/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+        "/home/repro/code/peg-bt2/bench/reviews/v8-regen/tweezers_open_rest.stl": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201"
+      },
+      "sources": {
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v4.py": "937885777d7f1cf8d200f6d38a149f029bfae80aa167f7cf62c1033dcb0914f3",
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/holder.py": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af",
+        "/home/repro/code/peg-bt2/bench/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+        "/home/repro/code/peg-bt2/bench/reviews/v8-regen/tweezers_open_rest.stl": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201",
+        "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/candidate.json": "1c67b6357ac6dae64e90de66e020412c48df212d65dd2c22b89695881f0a2c17",
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/variants.py": "6ee869b1ed205a688a33dc65d5c3b180600258239713385203b4552dccd3e64d"
+      },
+      "v3_comparison": {
+        "candidate": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v3/candidate.json",
+        "sha256": "1c67b6357ac6dae64e90de66e020412c48df212d65dd2c22b89695881f0a2c17",
+        "body_and_pockets": "Exact same installed/print STEP and STL bytes",
+        "tools": "Exact same four STL bytes",
+        "only_change": "Exposed wedge fin above tool X=1; same foot and original taper"
+      },
+      "historical_roof_reference": "variants.py add_tall inspired the roof; v4 uses 55 degrees instead of historical 40. Old capture studies do not qualify this compound four-stack"
+    }
+  ],
+  "runtime": {
+    "FreeCAD": [
+      "1",
+      "1",
+      "3",
+      "44987 (Git)",
+      "https://github.com/FreeCAD/FreeCAD.git",
+      "2026/07/25 04:52:02",
+      "(HEAD detached at 1.1.3)",
+      "145529fe741292ff0b3977a01195bf0247425794"
+    ],
+    "OpenCascade": "7.8.1"
+  }
+}

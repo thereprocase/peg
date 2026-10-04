@@ -1,0 +1,62 @@
+{
+ "name": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 2.0,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 98225,
+   "elements": 59229,
+   "fixed_nodes": 5061,
+   "loads": [
+    {
+     "id": "front-side-5N",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      12,
+      74,
+      -20
+     ],
+     "what": "",
+     "deflection_at_load_mm": 0.0954,
+     "stiffness_N_per_mm": 52.4,
+     "max_deflection_mm": 0.1124,
+     "max_at": [
+      14.5,
+      79.7,
+      -10.0
+     ]
+    },
+    {
+     "id": "front-down-5N",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      12,
+      74,
+      -20
+     ],
+     "what": "",
+     "deflection_at_load_mm": 0.0146,
+     "stiffness_N_per_mm": 342.3,
+     "max_deflection_mm": 0.0266,
+     "max_at": [
+      14.5,
+      85.7,
+      -10.0
+     ]
+    }
+   ]
+  }
+ ]
+}

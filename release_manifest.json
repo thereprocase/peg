@@ -3,13 +3,13 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2146,
-  "total_size_bytes": 787343381,
+  "file_count": 2351,
+  "total_size_bytes": 810251160,
   "files": [
     {
       "path": ".gitattributes",
-      "size_bytes": 143,
-      "sha256": "25b8cd545bf39403981f27de7e14bd0d8207bd5f689a8c078b7a10af2bcd151f"
+      "size_bytes": 315,
+      "sha256": "9c71bb66b971fcf4b4e81a20cfb00ab0aa63611ceeb783f494faa68bf5795f2b"
     },
     {
       "path": ".gitignore",
@@ -33,8 +33,8 @@
     },
     {
       "path": "BENCH_HOLDERS.md",
-      "size_bytes": 4386,
-      "sha256": "47a4e358c3e865370376828611d8cfd1ed9fc98548ef345b7b6081e9922f55f3"
+      "size_bytes": 4815,
+      "sha256": "3dae25f597f512615b682dfdec1887594ee656b584ef8c4699f45a81e5960499"
     },
     {
       "path": "CONFORMAL_STUDY.md",
@@ -1217,6 +1217,231 @@
       "sha256": "938667e5b6770a4e5023330bddecf89cddd49918d2fd3afc17a8cc0e6cc6a4bb"
     },
     {
+      "path": "bench/reviews/gallery-new-designs-v1/BRAID-V12/NOTES.md",
+      "size_bytes": 14111,
+      "sha256": "0049a37c464a7601a66f330a1a31f1bf02c6b77908e7478fbdf456476dc47517"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/BRAID-V12/independent-checks.json",
+      "size_bytes": 1103,
+      "sha256": "f851e90c806def0b5484777d5a3f89f86ffe1cf4b63c36a57636b5414cd8ea34"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/BRAID-V12/native-checks.json",
+      "size_bytes": 895,
+      "sha256": "4da1cfcc304484b76e17ee252723e532b596d70f854f507ae95731e17b791cb0"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/BRAID-V12/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 2737,
+      "sha256": "5ee6d5f50f8690f159ed609032c51cc2a177e2ed755c383c59243ac941db1534"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/BRAID-V12/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 6627,
+      "sha256": "2e73c7f99076272fe7dfde8e33c106ef097578ea2c12819bbddde13bfd7ce090"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/BRAID-V12/public-checks.json",
+      "size_bytes": 14295,
+      "sha256": "9c75b6b1f73e8e8d3b6eb6437324f4665b9188d666b0fbdc8e70dde7c4a7fcce"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/CHECKS.json",
+      "size_bytes": 7802,
+      "sha256": "07db06e32fa7f38c4e384041255efbe71efaa072d71228c56d5b154ebe572609"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/DRIP-TRAY-V12/NOTES.md",
+      "size_bytes": 15913,
+      "sha256": "8c2170281e6f8c7069243a7008b4e854d8384e9a50d01e860a2f71e4b70f8588"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/DRIP-TRAY-V12/independent-checks.json",
+      "size_bytes": 1070,
+      "sha256": "f6c3d7fa7a5226adb634d4107acbeacd1316ab07233623114fd738fc5ca24166"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/DRIP-TRAY-V12/native-checks.json",
+      "size_bytes": 893,
+      "sha256": "ef733c544feda836449d625e39f86dbc8bb77e2be4eefaaa75272b8d2325b996"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/DRIP-TRAY-V12/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 1248,
+      "sha256": "9b91c8d08791fd3041147e6eb2c1bec4d2439a1105a5694364c08c10a1d4317c"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/DRIP-TRAY-V12/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 7066,
+      "sha256": "ba8b80c13577bc1dbbb5699f9d73a3a168c73743cd5bf106710c0bda0d3506ee"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/DRIP-TRAY-V12/public-checks.json",
+      "size_bytes": 12303,
+      "sha256": "10f771abf5cb0f16c8b2bd208201c0bcf157eeec762dbd2e684290300cf0a748"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/LINER-V12/NOTES.md",
+      "size_bytes": 15913,
+      "sha256": "8c2170281e6f8c7069243a7008b4e854d8384e9a50d01e860a2f71e4b70f8588"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/LINER-V12/independent-checks.json",
+      "size_bytes": 1066,
+      "sha256": "0f8dc43590813f80cdef6045fe18c138ef316f0f9695d08943a1858b860aee3c"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/LINER-V12/native-checks.json",
+      "size_bytes": 550,
+      "sha256": "92d5e98ffb80488e91c64c21df66ee1cb565b0e9565e0785309521368c6a5b29"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/LINER-V12/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 1248,
+      "sha256": "9b91c8d08791fd3041147e6eb2c1bec4d2439a1105a5694364c08c10a1d4317c"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/LINER-V12/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 7066,
+      "sha256": "ba8b80c13577bc1dbbb5699f9d73a3a168c73743cd5bf106710c0bda0d3506ee"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/LINER-V12/public-checks.json",
+      "size_bytes": 11926,
+      "sha256": "af437359c38450d5f160bea406a86b5e2781a1d21baa37fa715186ad37e8a8b7"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/NATIVE-CHECKS.json",
+      "size_bytes": 5550,
+      "sha256": "82187fe9bef56274e95ed130ea892dedb7c169df4fb1b4c77c0373e88fcdf99b"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/NOTES.md",
+      "size_bytes": 587,
+      "sha256": "255319331b08d0fcf743c7244e62367a3b8e8beb78cdf8f47658fc5a4f208086"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SELECTED.json",
+      "size_bytes": 128304,
+      "sha256": "231db90eeeb904246bdb4efc56de7f064cc377d4a834252e071452d1cd6c2f21"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/BUILD.json",
+      "size_bytes": 12920,
+      "sha256": "35bba57c94ae3cbda0540028b66ed286a976aac56a567ee8abc411512e46ed2b"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/NOTES.md",
+      "size_bytes": 11349,
+      "sha256": "64b5efe0aa462765e109b69bbcd66a1c922f30e082f2df8c3e77854b64d858cd"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/independent-checks.json",
+      "size_bytes": 1119,
+      "sha256": "34e47c4525e139a8e429e1ed17af4d0f4cca15249c312fb8154d81cff59f5b1a"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/native-checks.json",
+      "size_bytes": 948,
+      "sha256": "6702e77c3e73bceb2812bf22710969a781caec7c139aec5a8d2ae6152d1c19b3"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 3329,
+      "sha256": "3714de73283138737efe96d2fcff35583731dee617cef72c1424ff53887b05c9"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 6711,
+      "sha256": "75acf7277745585a2f6c684ca76bb7355dc22b9174591caaa2e5985aa3a5b80f"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/SPOOL-V14/public-checks.json",
+      "size_bytes": 15421,
+      "sha256": "4c0b0939e649b2da515603aa0a263feb42edda79952a2e1d5450d117ef3f343e"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/BUILD.json",
+      "size_bytes": 24496,
+      "sha256": "0751dfdb4f4e4fffd64fb10a064bf916164fc01c342a8dd2af97aaf62ebddee4"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/NOTES.md",
+      "size_bytes": 7610,
+      "sha256": "d9a8a00c46122422796093c6bcf10a4f350091ab231eb21c9231d135cbc37944"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/OWNER-TEST.md",
+      "size_bytes": 1170,
+      "sha256": "357a40ada13bd76b87f71ee2946bdcf3e60acafe33d04de14965bd47854b9091"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/candidate.json",
+      "size_bytes": 4196,
+      "sha256": "66eed8fe25b266040556ab745d7557aa3847c51e959c33940d6f099c90466904"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/checks.json",
+      "size_bytes": 10742,
+      "sha256": "282e80080450e3300f4c029dfae4ca1407781991bbd7327e773870cf61611f5d"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/independent-checks.json",
+      "size_bytes": 1143,
+      "sha256": "f45704409b4846d98eb66b76ae172d3c54a9ddfef7e06d6d1ae353f3756032dc"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/native-checks.json",
+      "size_bytes": 532,
+      "sha256": "2f187426c7552ce1f0a3d30b9a6df602178f83de3ba4f604bc5813af5e590a20"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TOOL-FUNNEL-V3/public-checks.json",
+      "size_bytes": 17813,
+      "sha256": "8085929488f953d38a7c44d8216d81a78222278c3d0ffa14ed0a0e0652ea9f88"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/BUILD.json",
+      "size_bytes": 26154,
+      "sha256": "c8d3e31572d8ce3be527977f87bca0436a0cf6bc5ac5825bc838d548888e3c3b"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/NOTES.md",
+      "size_bytes": 15436,
+      "sha256": "79349180c3237105cb0e61f754c966fad28295e0a7a6e3a51c10344a9d190c85"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/OWNER-TEST.md",
+      "size_bytes": 2209,
+      "sha256": "37c02851a363cea74ca07235debd885bce856db18a5d6f07da4c06ba166044b8"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/candidate.json",
+      "size_bytes": 22789,
+      "sha256": "7fe8a4fc41a5ac39de5439fb110fb2d4731eb191207fc5f4a982b876b20f24c9"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/checks.json",
+      "size_bytes": 17945,
+      "sha256": "0e71663487ca777057e13cb4ae1346740620d9f85e0afb5db5a4987eca4b3aff"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/independent-checks.json",
+      "size_bytes": 1157,
+      "sha256": "67d5c4d8c555d49899b91bb175f573ff13a8fad5caffbddabc5353c8203d11e8"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/native-checks.json",
+      "size_bytes": 984,
+      "sha256": "a73e3bca85838aeffcd9aaad0985a02d451d5836db9a9e5a3d9584ce18c04015"
+    },
+    {
+      "path": "bench/reviews/gallery-new-designs-v1/TW-GUIDED-V5/public-checks.json",
+      "size_bytes": 45773,
+      "sha256": "c11fe1fd7083675fd3acaaa16aaf043ed418fc2e0980c549d34301bdb9326a30"
+    },
+    {
       "path": "bench/source/gallery_current_mounts_v1/MH01.json",
       "size_bytes": 704,
       "sha256": "5e592f50b245077f541e8cfbe59e101e15ed6578442da4ab5a2f8402d07a9fae"
@@ -1650,6 +1875,586 @@
       "path": "bench/source/gallery_current_mounts_v1/verify_selection.py",
       "size_bytes": 2325,
       "sha256": "eb052ee07c3cc7ab93f3cdf24d4a6955ee806b6cac76df3e96f5790bd46a3987"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/conformal_120_geometry.json",
+      "size_bytes": 3611,
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/conformal_motion_results.json",
+      "size_bytes": 11536,
+      "sha256": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/peg-fit.scad",
+      "size_bytes": 2423,
+      "sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reference/peg-print-variants.json",
+      "size_bytes": 587,
+      "sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/klein-engineering-model-v2/cad.json",
+      "size_bytes": 17053,
+      "sha256": "cd9395a86e33ca0f47fe99de033ed5c3613f8af76886fe9efac1188f1418e1c0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/knipex-engineering-model-v2/cad.json",
+      "size_bytes": 15770,
+      "sha256": "3db553d4945fd5c4e83d18bdda17c54dd88f39d0f65eb69f086e8c7864805a68"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "size_bytes": 2405,
+      "sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/BUILD.json",
+      "size_bytes": 24496,
+      "sha256": "0751dfdb4f4e4fffd64fb10a064bf916164fc01c342a8dd2af97aaf62ebddee4"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/NOTES.md",
+      "size_bytes": 7610,
+      "sha256": "d9a8a00c46122422796093c6bcf10a4f350091ab231eb21c9231d135cbc37944"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/OWNER-TEST.md",
+      "size_bytes": 1170,
+      "sha256": "357a40ada13bd76b87f71ee2946bdcf3e60acafe33d04de14965bd47854b9091"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/candidate.json",
+      "size_bytes": 4196,
+      "sha256": "66eed8fe25b266040556ab745d7557aa3847c51e959c33940d6f099c90466904"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/checks.json",
+      "size_bytes": 10742,
+      "sha256": "282e80080450e3300f4c029dfae4ca1407781991bbd7327e773870cf61611f5d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/fea-provenance.json",
+      "size_bytes": 1107,
+      "sha256": "2e42786414b690be7e37f210c951c3faa96cca7eb80c9173f326d95889008ad2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 556,
+      "sha256": "47dab2fa1487086f6e2ee10396124a839e76a1fbe768d0a7e0179026e1ae74b2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 928,
+      "sha256": "f1010aa47be69110460af1e3db5ea3ade4bcd7f7fff5ee72a76e19bb5765fd43"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/poses.json",
+      "size_bytes": 2646,
+      "sha256": "61c35d9ba47195653f0ac88348b45d634b311dafe593bfe55ae1876882a01230"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/preservation.json",
+      "size_bytes": 173,
+      "sha256": "6901ca91f7bfbadbabc498f3b4c4cef6b9a6ba01791d09f8be2547a0d47fe2c0"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/sections.json",
+      "size_bytes": 94098,
+      "sha256": "e2e5a7eb7153e51a25404d31fbf6f8c53b07ff36b51af17fff1b996b61dff6c3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/tool-checks.json",
+      "size_bytes": 3943,
+      "sha256": "c2a6a88fe9aef5d94041b0b219fbec3e47b70ffb8227d6bf90869c3d73bc3ab1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/models.json",
+      "size_bytes": 12241,
+      "sha256": "dac535d811480742753ba58cecc3da82dd80f0bbd0ebdce79d1541ffe09a6593"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/rectangular-tool-funnel-v3/viewer/packing.json",
+      "size_bytes": 3099,
+      "sha256": "d1513c477e16c7a9bd238ce9ae05fb636a70696ff63fe9165278493cf3c39731"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v2/candidate.json",
+      "size_bytes": 9521,
+      "sha256": "f3f166feb1e6d811340697ae4c2e477c183cc9b2190d624b055f21bc7d156b57"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/BUILD.json",
+      "size_bytes": 35689,
+      "sha256": "08086453217376f65bd5d3f7022fdc1d6c6a80f6a5ae6196c071e9dfa45b375e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/NOTES.md",
+      "size_bytes": 9833,
+      "sha256": "c6660a03c36a531df6df76f1a6af392f71da25994be4640e25466b3b25277d8c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/candidate.json",
+      "size_bytes": 24839,
+      "sha256": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+      "size_bytes": 5115,
+      "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/BUILD.json",
+      "size_bytes": 26154,
+      "sha256": "c8d3e31572d8ce3be527977f87bca0436a0cf6bc5ac5825bc838d548888e3c3b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/NOTES.md",
+      "size_bytes": 15436,
+      "sha256": "79349180c3237105cb0e61f754c966fad28295e0a7a6e3a51c10344a9d190c85"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/OWNER-TEST.md",
+      "size_bytes": 2209,
+      "sha256": "37c02851a363cea74ca07235debd885bce856db18a5d6f07da4c06ba166044b8"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/candidate.json",
+      "size_bytes": 22789,
+      "sha256": "7fe8a4fc41a5ac39de5439fb110fb2d4731eb191207fc5f4a982b876b20f24c9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/checks.json",
+      "size_bytes": 17945,
+      "sha256": "0e71663487ca777057e13cb4ae1346740620d9f85e0afb5db5a4987eca4b3aff"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/fea-provenance.json",
+      "size_bytes": 1208,
+      "sha256": "4c3741d2f55e75c16e58a3b86ca2d1487fca6e0de42bead1a0babfd56d691426"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/fin-comparison.json",
+      "size_bytes": 5115,
+      "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-contacts.json",
+      "size_bytes": 26733,
+      "sha256": "10ae55aa6c9e07f2a36fd4d2fe8e57d24322302abe54b5f766ca3042ec6c033f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/guide-junctions.json",
+      "size_bytes": 3955,
+      "sha256": "f51241e379d6f1205596e95dd7b571f15fe6be59cc5e20a0a96f2ae314c8d665"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 16739,
+      "sha256": "288ef94831edc41987db91f3cd3fe4b8524c4517cfaec8f2b3066389a0126aea"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 2586,
+      "sha256": "a13a16cbadcb040aa42b7f48185a9cede29011423463da987c32b884891beb8b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 4477,
+      "sha256": "5884aa1721d657eb5ab28cf0bc547460db2617c4b65081c3e844ee31fdf2dfdc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/tweezer-inward20-v5/toolpaths.json",
+      "size_bytes": 3740,
+      "sha256": "7bcd62b781657197bb949bba1fd25322197e23362e5158dc20b8f48ea3901af2"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+      "size_bytes": 2566,
+      "sha256": "2102ca21e271da0d8d0fdb5e5f422f9beb075e7dedc4681b45083fa09884504c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 2254,
+      "sha256": "c1e7845d5e41ffd725f1e22d6861858728b0e1635ccf470eb6c8321660796816"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+      "size_bytes": 2178,
+      "sha256": "7acd163e88edbcd906621458e2ef5a0b4b4d1c1e0f181e26381b56b6d09b66e3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 6606,
+      "sha256": "2ab4fb3b89ffe1e572a03f9afcf507bc984e67bab207ba2ea27b053bc9f3054b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 2492,
+      "sha256": "756cbe3715ecc3f6cb3d53394ed6188ae5e1677372661c3acfbe9bb79a6233dc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 5034,
+      "sha256": "f6b97e85ac15213a8cadd796600368c8a7ddd243a64c32f1a1d00355264a7e69"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/barrels-b6seats/part-solder-barrels__v12__upright__fit-pf02c9-hoop5__slice.json",
+      "size_bytes": 600,
+      "sha256": "c89c1dad570f0e28b73ef08488abc75ff7924c5d48cc4792284701cbcabebf0f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/NOTES.md",
+      "size_bytes": 14111,
+      "sha256": "0049a37c464a7601a66f330a1a31f1bf02c6b77908e7478fbdf456476dc47517"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+      "size_bytes": 2407,
+      "sha256": "2d48e322eddf53001d07f6454b27fdb7fbe9ed00b968102dd739988249a2cb3e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 2737,
+      "sha256": "5ee6d5f50f8690f159ed609032c51cc2a177e2ed755c383c59243ac941db1534"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__checks.v1.json",
+      "size_bytes": 1201,
+      "sha256": "c1e1bddb9d336d886822d68156b0c6a892207cfc88c71215de81744cf1a7d60d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 6627,
+      "sha256": "2e73c7f99076272fe7dfde8e33c106ef097578ea2c12819bbddde13bfd7ce090"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 875,
+      "sha256": "4797286f2cf5aa5f4ea171220432704d19fcf01936dbfaef8aa6b80d018225cb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 1561,
+      "sha256": "b7e9e77dd013b86503ee3427961a03cdc26c67c258e2be1da140dd061f06c986"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__slice.json",
+      "size_bytes": 572,
+      "sha256": "4ee50aafc3a4abd41a44ccba029587fee835b4ca1295f882e4653823f5d55da1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/NOTES.md",
+      "size_bytes": 15913,
+      "sha256": "8c2170281e6f8c7069243a7008b4e854d8384e9a50d01e860a2f71e4b70f8588"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__plate-x3__slice.json",
+      "size_bytes": 453,
+      "sha256": "0fcd46b6830a3ffeb567516d2f007ef191f12e7330b260891f865fab519bf857"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray-liner__v12__vase-filled__slice.json",
+      "size_bytes": 430,
+      "sha256": "febbbcbbae4deda16436b442eb2e7f7733b0d02a766efe67cf2b0bc6ce6d5652"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks-spec.json",
+      "size_bytes": 1834,
+      "sha256": "64b6ba84765eca409b3f34d96aedf109f20463933fed1cafc91cd6143a99bd35"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 1248,
+      "sha256": "9b91c8d08791fd3041147e6eb2c1bec4d2439a1105a5694364c08c10a1d4317c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__checks.v1.json",
+      "size_bytes": 1171,
+      "sha256": "6a4f54e67152fc67d4f77f8a3b7cf4ea3711b03a8fc6eeb8bac99b2c5d35bd6f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 7066,
+      "sha256": "ba8b80c13577bc1dbbb5699f9d73a3a168c73743cd5bf106710c0bda0d3506ee"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 1588,
+      "sha256": "f9e546fedff6cd5f97a0574fe07f2341feb1c1db35287c0135faf8daea420c54"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 2831,
+      "sha256": "6ed5a65c549f60a1cdee86671751cfe05fb76216bdc5564c412b6deb03a04ec3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/drip-tray/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__slice.json",
+      "size_bytes": 584,
+      "sha256": "6154037962ee5678fa55fd828016480d20b0c13520f730b3e9f2a46f1dbd4e03"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-front-v13/BUILD.json",
+      "size_bytes": 11594,
+      "sha256": "62d962f18e88ea9cfe3f32a23b0b69091b9c594966875f838e1dfd736e7500e7"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/BUILD.json",
+      "size_bytes": 12920,
+      "sha256": "35bba57c94ae3cbda0540028b66ed286a976aac56a567ee8abc411512e46ed2b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/NOTES.md",
+      "size_bytes": 11349,
+      "sha256": "64b5efe0aa462765e109b69bbcd66a1c922f30e082f2df8c3e77854b64d858cd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/fea-provenance.json",
+      "size_bytes": 1175,
+      "sha256": "7c8dfb49e414fdb0438baa9924367c95a75ebbcb9cfc74f5527d34d3e664685d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+      "size_bytes": 2036,
+      "sha256": "b14d41afe1a49e7eda86b27ce77cc2610b3212f1947752a2a34b5e94cf59a84c"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 3329,
+      "sha256": "3714de73283138737efe96d2fcff35583731dee617cef72c1424ff53887b05c9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__design.json",
+      "size_bytes": 6711,
+      "sha256": "75acf7277745585a2f6c684ca76bb7355dc22b9174591caaa2e5985aa3a5b80f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 627,
+      "sha256": "ea55439921711250843b9c12fb937d457bdf8875430944f60fd923d25d9b98cd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 1004,
+      "sha256": "1df3d22b7bc98e3f638a809aa48b82152ee491184a825e3ff0ebf3ac05ca5758"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/projected-outlines.json",
+      "size_bytes": 302191,
+      "sha256": "086db7a50b1048a6c45d4a96156a91b360477675a332025cd8e49dc12bc67acd"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/side-sections.json",
+      "size_bytes": 127949,
+      "sha256": "30c08cbf7ac888d9275c3fe214b5df58c6353a44a441910b2fcc9d008b5fe83b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/reviews/v12-build/spool-storage-v14/storage-review.json",
+      "size_bytes": 3299,
+      "sha256": "641a67a1d2bc2f49205bf67492ba11d37ea2b5a0de4e248adf7cbc95ead29948"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_fit_ladder.py",
+      "size_bytes": 9823,
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_fit_ladder_v2.py",
+      "size_bytes": 8349,
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_fit_ladder_v4.py",
+      "size_bytes": 19624,
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_interface.py",
+      "size_bytes": 4268,
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_print_variant.py",
+      "size_bytes": 2401,
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/peg_profile.py",
+      "size_bytes": 4074,
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/BRIEF.md",
+      "size_bytes": 9324,
+      "sha256": "83df189261db966c917af5e33c9e710f90e7c17a3dfeb02464d52bba8b2d5547"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/barrels.py",
+      "size_bytes": 23852,
+      "sha256": "738da610c95633bcb4b07fb57395e6a162e911d5b5ad7177d07a7c093a1fa001"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/barrels_b6seats.py",
+      "size_bytes": 22038,
+      "sha256": "e479b0c115662e20d7c501ce2f987db444d7577dc577403bacde6d253f4f2458"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/braid.py",
+      "size_bytes": 21017,
+      "sha256": "2aaef1bf6bd19b78743958fc2cf79baf047cecc65a45606638ad55665fa79369"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/checks.py",
+      "size_bytes": 9345,
+      "sha256": "f987780e2c04bce00ca6bc8e25dffb3f489619d28339e5c9cf870bb6b3fced58"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/common.py",
+      "size_bytes": 13327,
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/drip_tray.py",
+      "size_bytes": 22217,
+      "sha256": "4bae4dc72eec01ed2973f7a4eaec920284fce2eae3106abfb29b2b8bf18ad83e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/fea.py",
+      "size_bytes": 5946,
+      "sha256": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_front_render.py",
+      "size_bytes": 9087,
+      "sha256": "15cef7688a9a8efd225a2144c9ad2aa0ad0b1801175f20fdf0ba052fc65e5be3"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14.py",
+      "size_bytes": 7420,
+      "sha256": "9fe67d3e1b69916a233849efcc434d119504fa52e4dcc89e82faac4c2c453e0a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14_fea.py",
+      "size_bytes": 1274,
+      "sha256": "b4706141ea7244c50cd393c1312ceec4842109d9b101ddba6c879d66bd0da433"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14_render.py",
+      "size_bytes": 6231,
+      "sha256": "8b51c802e39b3b6c008766dcf92e17e12816dfd5494d113dd4c4f9428259fa5e"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12/spool_storage_v14_review.py",
+      "size_bytes": 4629,
+      "sha256": "d6846e6178ae6c56c392709792fb08e4dbca1e2f4ea02f042058c4e361f69bfe"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_check_v1.py",
+      "size_bytes": 6101,
+      "sha256": "6bde39367ca8be0564108701c0da8438de3b8ca13ca7a573572da13ea6e12901"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_check_v3.py",
+      "size_bytes": 3561,
+      "sha256": "8cf1d01683e117bb9816c0d408716bea833b229ce47167ea6564ef9c27ffdd10"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_fea_v1.py",
+      "size_bytes": 1254,
+      "sha256": "5f91004498f194cd0e9e3a25955b0adf9f906b41f854cd73b852a51d0bd047fa"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_fea_v3.py",
+      "size_bytes": 153,
+      "sha256": "940fbf7981f39cbb3c290ee9a2a8a989f2f89a0bb23fa2211652f48d2c345123"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_figures_v3.py",
+      "size_bytes": 2992,
+      "sha256": "5d2523fbabaa1a863541fa15da3fde06a9f242708090adc3a3175b9513aad058"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_v3.py",
+      "size_bytes": 5049,
+      "sha256": "55fbb8ec683a59f9e9987538e2133dc03352dd5b7a4ec1e0cf65b36b4112737a"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_viewer_v1.py",
+      "size_bytes": 3089,
+      "sha256": "e0d54e5d56f3904e17b28c2610e27c7a9dcd27a0e5cac4a54678b0f311097825"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_holders/rectangular_funnel_viewer_v3.py",
+      "size_bytes": 1034,
+      "sha256": "59e2a26ad68b24ffc09797a85f4c90167327d956be7371ed76be0d73fa392e4d"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_models/engineering_reference_v2.py",
+      "size_bytes": 2202,
+      "sha256": "01cae95b1454c3a1751791e51c1cc707c5301e862c8fce1ce17f37dba8eb96ca"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tool_models/engineering_viewer_v2.py",
+      "size_bytes": 10211,
+      "sha256": "5b2b07f9ac362247d24e0c59d8797c1c69a74857f9ed4c1bd3fbd501c208b3e5"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/holder.py",
+      "size_bytes": 21547,
+      "sha256": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v3.py",
+      "size_bytes": 11949,
+      "sha256": "55657c2fc653fa3d39931a3092574c295627b684ead8b9c9855359ae7972e8dc"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v3_render.py",
+      "size_bytes": 7885,
+      "sha256": "7a9b954dcf9dac80ef60404f98dc72fdfe06b42bcc513efff2896b707bccf4a9"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5.py",
+      "size_bytes": 9064,
+      "sha256": "2a8c2e9019696488d50208169db4fad3f0170efeab7686173e681c9f96cbb224"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_check.py",
+      "size_bytes": 8270,
+      "sha256": "a84a4d20e72feeb784dfaf788438fb1260276cead1ab4c48e3d79e9830ea3432"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_fea.py",
+      "size_bytes": 1838,
+      "sha256": "801b42d0c77b8d43b1ac21cf0f99f131fbb86e2017bcee31743f5ba09a71cbad"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_frame.py",
+      "size_bytes": 7107,
+      "sha256": "ed29899dea2568fdb17d2b16f16248f3798b10879b1777a732716f3a1a6d3a38"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_guide_check.py",
+      "size_bytes": 3203,
+      "sha256": "65e4a8af319d2ff0652ed3abe9d10def23604e0f9744778ae297490ba269fb44"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_junction_check.py",
+      "size_bytes": 2276,
+      "sha256": "c5bdea73142dace358c2f05321fd1e0e093cf2ba9a84704021735db5bc209e23"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/inward20_v5_render.py",
+      "size_bytes": 5844,
+      "sha256": "41941e2e1e0a240304098bda994e08cc542693b2e179794082eb01842b4802bb"
+    },
+    {
+      "path": "bench/source/gallery_new_designs_v1/snapshot/bench/source/tweezers_v11/variants.py",
+      "size_bytes": 20733,
+      "sha256": "6ee869b1ed205a688a33dc65d5c3b180600258239713385203b4552dccd3e64d"
     },
     {
       "path": "bench/source/geometry.py",
@@ -3468,8 +4273,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
-      "size_bytes": 105709,
-      "sha256": "cf7e38c332369d03ceb0f0694da24f39d0328f443a23bcf88d31ce5af1b5e0f0"
+      "size_bytes": 122529,
+      "sha256": "d28a65459d064c5bd5dfb85ecfe945db0c9b6e2f74cf28e15df9641fdc8dc551"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -3478,13 +4283,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.js",
-      "size_bytes": 5004,
-      "sha256": "0d989faec49fadb082db25e41df548867dbf66c63a8d37517b6650ee8e942986"
+      "size_bytes": 5372,
+      "sha256": "af293ed97b3a89ce46b2d5c97b54e57e4b577c0933954a6113469c9df0d0d223"
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
-      "size_bytes": 3413,
-      "sha256": "b5e32c73d530da9aaecb482b72f39b21f77bd2cacd59c7827e2ba45c9546eac3"
+      "size_bytes": 3602,
+      "sha256": "ee1f5db00a62c183fc3e98a177f84d8c935ff790f841eec610bae654c4a52ef1"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4767,6 +5572,41 @@
       "sha256": "3911057267c51ea8404fd457d2d9276c50c6a5ff108e047bf15c5358b2323ac8"
     },
     {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__gallery-checks.json",
+      "size_bytes": 17813,
+      "sha256": "8085929488f953d38a7c44d8216d81a78222278c3d0ffa14ed0a0e0652ea9f88"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 820800,
+      "sha256": "8c2aa605daa8855b07f049c146916094c233c8f42d4594884a838610ec7b2a42"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 2048784,
+      "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 29248,
+      "sha256": "73a6f194d5df7469efe0ec2eb618579f6f993e023e2b7eb840f34de375c63bb7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-preview.png",
+      "size_bytes": 172907,
+      "sha256": "145b51d0b4532f2b8544d25fdb08d819bb1d279a8cde72f4631923157674593e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 2051584,
+      "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 821904,
+      "sha256": "af9db0d3b3cd5b97e780de7de16de55c4ad8399e060b46b5a7b0d4d591ea4cd3"
+    },
+    {
       "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
       "size_bytes": 15365,
       "sha256": "ff84caf205b2a8837944e50cf45332415c0632223e8a96c63e43365ed580f73a"
@@ -4887,6 +5727,146 @@
       "sha256": "939cdc3b9b13a8cbca2fc076ca4a0e1bbc38758948167e4347047feceb90ea29"
     },
     {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
+      "size_bytes": 14295,
+      "sha256": "9c75b6b1f73e8e8d3b6eb6437324f4665b9188d666b0fbdc8e70dde7c4a7fcce"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 527336,
+      "sha256": "7a0456086b8f94b72bfa974688c8f95d81a914766f5945752b680fc5c337f3af"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1315184,
+      "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 86661,
+      "sha256": "6c6dca5fe6e96943347cd3b5fa5711c7e085b7c172f0fa6206c8c5369feb4c8b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-preview.png",
+      "size_bytes": 78003,
+      "sha256": "93bf45c9e1713ec9eb2f3b1852be7652ad2bdf49263c72097085fc602f579d0b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1315184,
+      "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 527336,
+      "sha256": "a8b2a037ac31eee732cb57b41b00723cb9f071c5f3ec1599126206dc3ca34fa6"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__gallery-checks.json",
+      "size_bytes": 11926,
+      "sha256": "af437359c38450d5f160bea406a86b5e2781a1d21baa37fa715186ad37e8a8b7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__installed.glb",
+      "size_bytes": 71708,
+      "sha256": "7b1624a6d9995537e91eeb79ea4e8e34607d4984d801499a185a4394532ce3e5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__installed.stl",
+      "size_bytes": 175884,
+      "sha256": "b7bf7b654218bfcff1088bbcf693215e5009a0b22cd2e8405a65211d7012417d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__preview.png",
+      "size_bytes": 105688,
+      "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__print-preview.png",
+      "size_bytes": 105688,
+      "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
+      "size_bytes": 95084,
+      "sha256": "9baff5ed71288cf8f5198099924e13cab80e76c62bee23cc741d41d50427677f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__print.glb",
+      "size_bytes": 39300,
+      "sha256": "d0db1258f8edfc332ff9ba883107fa675a43f99c7dd945f2097b325065734d6e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__gallery-checks.json",
+      "size_bytes": 12303,
+      "sha256": "10f771abf5cb0f16c8b2bd208201c0bcf157eeec762dbd2e684290300cf0a748"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 426412,
+      "sha256": "dc3d073bc9a91c7316036efc0608fe1ac5e245275e7a10e5e280ed7f9123342c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1063184,
+      "sha256": "1785f2a562dc78b0fc996f31b2a43f5e13f8f58f8505b16ad8227a85b7abaaa5"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 79256,
+      "sha256": "7f0869aebd288e73ebd13179517dfe7e99390271d95532388e86b142c8b17bf2"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-preview.png",
+      "size_bytes": 54245,
+      "sha256": "2dcda723a66023d6a5ad8e8efb6e6c5b3d718795062e6b3fa56e7d612559a72d"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+      "size_bytes": 1063184,
+      "sha256": "9d5927a73bad887234a6f7a71fc506939034a4350210e17593589d0a220c1cfb"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 426428,
+      "sha256": "219fb6273fe7ff01c4e19edc0876c2930583e03affdfe6f3479ac47cb7df7e6f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
+      "size_bytes": 15421,
+      "sha256": "4c0b0939e649b2da515603aa0a263feb42edda79952a2e1d5450d117ef3f343e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 439696,
+      "sha256": "f833ec6a6c595186f6096cc40d2b14453aeb463c47b8ad44bfba42009b758710"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1096084,
+      "sha256": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 40458,
+      "sha256": "f7cf6263387f392f773c07ef5c8ad9d95359b9941c3c5a99e96e98b3f257d41f"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-preview.png",
+      "size_bytes": 53291,
+      "sha256": "a53f01b27da053b9630d38ccf808e53451f5c926c633d19e410125b4029eea5e"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1096084,
+      "sha256": "8db348453f14c18d7232dd2590a837d583cf4ccd296bb33ec72081c7acfab014"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 439712,
+      "sha256": "573aadaae365e7246be57caa64b56c1409f24eed0f2fd1893cd528b1da77e188"
+    },
+    {
       "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
       "size_bytes": 15408,
       "sha256": "f30134bdb6fe7f4a625276e023f2cd16e7534374f3046ea6bcdd659e020bd62f"
@@ -5005,6 +5985,46 @@
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.png",
       "size_bytes": 18014,
       "sha256": "79efddaf47136d19a8870d25d0523598ed5d966c19bd653c0891f72bc2377a25"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
+      "size_bytes": 45773,
+      "sha256": "c11fe1fd7083675fd3acaaa16aaf043ed418fc2e0980c549d34301bdb9326a30"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 586752,
+      "sha256": "8f5b3dd1edd97bdf15fd4050cdaa412acf064408ee0315e2f89679cec577bb61"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1464084,
+      "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__preview.png",
+      "size_bytes": 49263,
+      "sha256": "904a52bf076da45c0df419cd52516eae5f60115ca31c39f30bd591c2b506258a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-preview.png",
+      "size_bytes": 45245,
+      "sha256": "f145e1ca65145bb2ce232933a336e4f2568944f274a6b70b1c91a3842895d123"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "size_bytes": 1464084,
+      "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 586772,
+      "sha256": "07024c49ae4315174686bce6f8e90b40a32c323735297f5b3569af17895e579c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+      "size_bytes": 1684,
+      "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
     },
     {
       "path": "docs/gallery/dioramas.css",
@@ -6448,8 +7468,8 @@
     },
     {
       "path": "docs/gallery/index.html",
-      "size_bytes": 6735,
-      "sha256": "7624304747e5a2e6c216b2b847ede1ec337908a820eb8062b88eb9089c4cf211"
+      "size_bytes": 6951,
+      "sha256": "e7b138f4eeffc078ffc56551d86878e4e8ff3f2e6198c11f3ff4cc9df554e9da"
     },
     {
       "path": "docs/gallery/keepers.html",
@@ -7458,8 +8478,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 99790,
-      "sha256": "cdb10c06679c32f3f4721589182ee1ac5c0da02231d1ff2d6306c9d641793b71"
+      "size_bytes": 104444,
+      "sha256": "297c61ccd6ce69daba1d0e3778cb1f3278193907a38867bd7bbd05dbd3732428"
     },
     {
       "path": "docs/gallery/research.html",
@@ -10222,6 +11242,11 @@
       "sha256": "22ac4b7c3ce2cbf92004ff700072313bab1c11b0ca4388a2a2f1ab79e00540e5"
     },
     {
+      "path": "publication/add_new_designs.py",
+      "size_bytes": 9736,
+      "sha256": "bb2c18d15512602d4f5a83153baa85ce9631957a162451fe2ba80c4d4d9a6d5a"
+    },
+    {
       "path": "publication/browser-verification.json",
       "size_bytes": 2645,
       "sha256": "559ea26208f3900d9b97778ed330261bb5d60007053fe41f18b521b1518553ec"
@@ -10238,8 +11263,8 @@
     },
     {
       "path": "publication/current-pegs-v1-additions.json",
-      "size_bytes": 77477,
-      "sha256": "c08206ac02ca2ca5b069ada42fb54cabba6af65b8f954ca44c35ea8b5c29c9d4"
+      "size_bytes": 89117,
+      "sha256": "a835a0df3b4c3ab5d2cb4013b30d414e95ffea7ef7d07b5d9903a33573d0b12a"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -10308,13 +11333,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 64858,
-      "sha256": "7ceac95447eeceafae0c313912f04230f087041db817739527ecdca23556bc37"
+      "size_bytes": 68369,
+      "sha256": "2df583d2bf6a8dfce31ee54676a97d26a83f652b4626362f82dc02190c7ce5b1"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 100725,
-      "sha256": "3eefd58df61ff38c1b599d32d573b1c7b47d91654427881327d8dea6cd9211d5"
+      "size_bytes": 105451,
+      "sha256": "a4c85b650af281cbcda6e542098dd8f0216997f6d80917a48fbbd015c86be6ba"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -10508,8 +11533,8 @@
     },
     {
       "path": "tools/check_current_pegs.py",
-      "size_bytes": 3151,
-      "sha256": "ad36391731c0b65ea11dac03950024321845414b35453d746ca0fc0696f93e9b"
+      "size_bytes": 3314,
+      "sha256": "06ae7a0c2800f142ecde58f23f3decd210ae692203c06e3a5ed647bd4c168e59"
     },
     {
       "path": "tools/check_gallery.py",

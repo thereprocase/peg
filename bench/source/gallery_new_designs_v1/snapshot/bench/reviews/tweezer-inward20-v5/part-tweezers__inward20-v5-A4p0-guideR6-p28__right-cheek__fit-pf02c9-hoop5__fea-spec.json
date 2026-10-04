@@ -1,0 +1,137 @@
+{
+  "step": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+  "h": 2.0,
+  "supports": [
+    "pegs"
+  ],
+  "loads": [
+    {
+      "id": "tray-1-side-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -0.10417883066469358
+      ],
+      "radius": 3,
+      "force": [
+        5,
+        0,
+        0
+      ],
+      "target_load_point_mm": 1.0,
+      "what": "Tray 1 side handling"
+    },
+    {
+      "id": "tray-1-down-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -0.10417883066469358
+      ],
+      "radius": 3,
+      "force": [
+        0,
+        0,
+        -5
+      ],
+      "target_load_point_mm": 0.5,
+      "what": "Tray 1 down handling"
+    },
+    {
+      "id": "tray-2-side-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -28.104178830664694
+      ],
+      "radius": 3,
+      "force": [
+        5,
+        0,
+        0
+      ],
+      "target_load_point_mm": 1.0,
+      "what": "Tray 2 side handling"
+    },
+    {
+      "id": "tray-2-down-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -28.104178830664694
+      ],
+      "radius": 3,
+      "force": [
+        0,
+        0,
+        -5
+      ],
+      "target_load_point_mm": 0.5,
+      "what": "Tray 2 down handling"
+    },
+    {
+      "id": "tray-3-side-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -56.104178830664694
+      ],
+      "radius": 3,
+      "force": [
+        5,
+        0,
+        0
+      ],
+      "target_load_point_mm": 1.0,
+      "what": "Tray 3 side handling"
+    },
+    {
+      "id": "tray-3-down-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -56.104178830664694
+      ],
+      "radius": 3,
+      "force": [
+        0,
+        0,
+        -5
+      ],
+      "target_load_point_mm": 0.5,
+      "what": "Tray 3 down handling"
+    },
+    {
+      "id": "tray-4-side-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -84.1041788306647
+      ],
+      "radius": 3,
+      "force": [
+        5,
+        0,
+        0
+      ],
+      "target_load_point_mm": 1.0,
+      "what": "Tray 4 side handling"
+    },
+    {
+      "id": "tray-4-down-5N",
+      "point": [
+        -7.435493908939345,
+        128.38933732631153,
+        -84.1041788306647
+      ],
+      "radius": 3,
+      "force": [
+        0,
+        0,
+        -5
+      ],
+      "target_load_point_mm": 0.5,
+      "what": "Tray 4 down handling"
+    }
+  ]
+}

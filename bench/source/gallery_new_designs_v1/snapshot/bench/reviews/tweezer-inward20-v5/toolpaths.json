@@ -1,0 +1,157 @@
+{
+  "job": "/home/repro/code/peg-bt2/print/slice-tweezer-inward20-v5/TW-INWARD20-v5-ASA-yellow-organic.gcode.3mf",
+  "sha256": "aec8afb2e2a4f5f62aa83c73797a3f665b3b4f4e2049d8f2140c95dccc2d0b85",
+  "passed": true,
+  "seconds": 12517,
+  "filament_g": 63.96,
+  "layers": 244,
+  "object_count": 5,
+  "objects": [
+    {
+      "identify_id": "100",
+      "name": "inward20-v5-A4p0-guideR6-p28__body__asa-baked_1",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "101",
+      "name": "inward20-v5-A4p0-guideR6-p28__wedge-1__asa-baked_1",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "102",
+      "name": "inward20-v5-A4p0-guideR6-p28__wedge-2__asa-baked_1",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "103",
+      "name": "inward20-v5-A4p0-guideR6-p28__wedge-3__asa-baked_1",
+      "skipped": "false"
+    },
+    {
+      "identify_id": "104",
+      "name": "inward20-v5-A4p0-guideR6-p28__wedge-4__asa-baked_1",
+      "skipped": "false"
+    }
+  ],
+  "filaments": [
+    {
+      "id": "1",
+      "tray_info_idx": "GFB61",
+      "type": "ASA",
+      "color": "#FFF144",
+      "used_m": "26.07",
+      "used_g": "63.96",
+      "group_id": "0",
+      "nozzle_diameter": "0.40",
+      "volume_type": "Standard",
+      "used_for_object": "true",
+      "used_for_support": "true"
+    }
+  ],
+  "printer_model_id": "C12",
+  "extrusion_bounds_mm": [
+    [
+      44.435,
+      41.13049565829557,
+      0.2
+    ],
+    [
+      212.861,
+      222.634,
+      48.8
+    ]
+  ],
+  "support_outside_declared_zones": 0,
+  "top_guide_support_segments": 17155,
+  "top_guide_interface_segments": 819,
+  "flagged_guide_surface_area_nominal_mm2": 88.18877007859071,
+  "flagged_guide_surface_triangles": 16,
+  "top_guide_zone_bed_bbox_mm": [
+    [
+      52.40261917499127,
+      160.23416029076543,
+      2.9000000000000092
+    ],
+    [
+      69.70515837832747,
+      191.27441254060992,
+      12.403936767578136
+    ]
+  ],
+  "top_guide_support_bounds_mm": [
+    [
+      53.95846912333631,
+      158.208,
+      3.4
+    ],
+    [
+      66.834,
+      188.70647130091285,
+      6.2
+    ]
+  ],
+  "top_guide_interface_bounds_mm": [
+    [
+      54.11,
+      158.208,
+      3.4
+    ],
+    [
+      66.54533315441239,
+      188.70647130091285,
+      3.6
+    ]
+  ],
+  "support_bounds_mm": [
+    [
+      53.95846912333631,
+      41.13049565829557,
+      0.2
+    ],
+    [
+      188.758949480373,
+      188.70647130091285,
+      35.6
+    ]
+  ],
+  "support_interface_bounds_mm": [
+    [
+      54.11,
+      42.549,
+      3.4
+    ],
+    [
+      186.12305557263275,
+      188.70647130091285,
+      35.6
+    ]
+  ],
+  "grams_by_feature": {
+    "Brim": 0.6005441698985612,
+    "Inner wall": 13.579209501026565,
+    "Outer wall": 13.117239061197495,
+    "Bottom surface": 2.062345855446363,
+    "Support": 1.3546878416906698,
+    "Internal solid infill": 12.356128603021464,
+    "Sparse infill": 15.815494765678094,
+    "Internal Bridge": 2.900614958362472,
+    "Top surface": 2.0984260346259522,
+    "Support interface": 0.034645585365223226,
+    "Overhang wall": 0.013674863056599144,
+    "Bridge": 0.004573187925694806
+  },
+  "support_g": 1.389333427055893,
+  "support_object_comments": [
+    "inward20-v5-A4p0-guideR6-p28__body__asa-baked_1"
+  ],
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "density_g_cm3": 1.02,
+  "scope": "Actual extruding Gcode paths excluding Custom startup/end. Arc plots sampled5deg. Peg strips and top guide include explicit branch XY clearance. Generic unsupported overhang screen fails at top guide; supported preparation is assessed here.",
+  "source_sha256": "9205aba872496861ca87b1c834017653fdabf312ed8ae09b4f8257d3e818a4da"
+}

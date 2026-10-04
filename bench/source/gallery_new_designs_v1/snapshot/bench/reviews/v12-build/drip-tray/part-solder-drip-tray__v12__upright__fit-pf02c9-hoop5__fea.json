@@ -1,0 +1,150 @@
+{
+ "name": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 2.0,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 92966,
+   "elements": 49135,
+   "fixed_nodes": 5048,
+   "loads": [
+    {
+     "id": "wag",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      0.0,
+      74.179,
+      -41.5
+     ],
+     "what": "5 N sideways at the lip centre, under the scallop (the liner bears on the lip: the farthest tool-bearing point)",
+     "deflection_at_load_mm": 0.0207,
+     "stiffness_N_per_mm": 242.1,
+     "max_deflection_mm": 0.0331,
+     "max_at": [
+      -60.5,
+      79.7,
+      -36.0
+     ]
+    },
+    {
+     "id": "press",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      0.0,
+      74.179,
+      -41.5
+     ],
+     "what": "5 N down at the lip centre, under the scallop",
+     "deflection_at_load_mm": 0.3425,
+     "stiffness_N_per_mm": 14.6,
+     "max_deflection_mm": 0.366,
+     "max_at": [
+      -0.0,
+      79.7,
+      -44.0
+     ]
+    },
+    {
+     "id": "press-lip-beside",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      15.0,
+      73.96410161513775,
+      -38.5
+     ],
+     "what": "5 N down on the full-height lip top 15 mm off centre (beside the scallop)",
+     "deflection_at_load_mm": 0.2895,
+     "stiffness_N_per_mm": 17.3,
+     "max_deflection_mm": 0.3273,
+     "max_at": [
+      3.4,
+      79.7,
+      -44.5
+     ]
+    },
+    {
+     "id": "press-floor",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      0.0,
+      40.0,
+      -44.0
+     ],
+     "what": "5 N down on the floor centre under the liner",
+     "deflection_at_load_mm": 0.2017,
+     "stiffness_N_per_mm": 24.8,
+     "max_deflection_mm": 0.2078,
+     "max_at": [
+      -0.5,
+      43.1,
+      -45.0
+     ]
+    },
+    {
+     "id": "press-corner",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      49.1,
+      73.96410161513775,
+      -38.5
+     ],
+     "what": "5 N down on the lip near the right end",
+     "deflection_at_load_mm": 0.1116,
+     "stiffness_N_per_mm": 44.8,
+     "max_deflection_mm": 0.1463,
+     "max_at": [
+      22.8,
+      79.7,
+      -46.0
+     ]
+    },
+    {
+     "id": "poke-cheek",
+     "force_N": [
+      -5,
+      0,
+      0
+     ],
+     "point": [
+      62.0,
+      42.607673422198005,
+      -15.99882668119374
+     ],
+     "what": "5 N sideways (inward) on the right cheek top edge, mid-length",
+     "deflection_at_load_mm": 0.3008,
+     "stiffness_N_per_mm": 16.6,
+     "max_deflection_mm": 0.3261,
+     "max_at": [
+      62.5,
+      43.2,
+      -14.8
+     ]
+    }
+   ]
+  }
+ ]
+}

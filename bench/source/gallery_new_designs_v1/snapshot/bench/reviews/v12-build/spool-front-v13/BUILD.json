@@ -1,0 +1,285 @@
+{
+  "candidate": "spool-front-v13",
+  "status": "CAD mechanism prototype; not a qualified print release",
+  "created_utc": "2026-10-03T15:36:37.418395+00:00",
+  "baseline_commit": "6665ad4153906943f115eca67e228f8ec12a7d7b",
+  "new_sources": [
+    {
+      "path": "bench/source/solder_v12/spool_front.py",
+      "sha256": "19cd555f05b5e8d2656a17a0ab4015ce2ded141ad72cd3dc7dac53246f2e98c2"
+    },
+    {
+      "path": "bench/source/solder_v12/spool_front_fea.py",
+      "sha256": "b8d896bca4ffc99043303ceec0e8f6a644564291d6771cfe26296d889f20b1f6"
+    },
+    {
+      "path": "bench/source/solder_v12/spool_front_operation.py",
+      "sha256": "554e70b0747371bd7d95f1174cccc5644b63a6ae62a3e77bf766d16e9e3667b4"
+    },
+    {
+      "path": "bench/source/solder_v12/spool_front_render.py",
+      "sha256": "15cef7688a9a8efd225a2144c9ad2aa0ad0b1801175f20fdf0ba052fc65e5be3"
+    },
+    {
+      "path": "bench/source/solder_v12/spool_front_review.py",
+      "sha256": "a87d59624f3649bf6b3a38b8e80f581f555856292fff49b859a0da0d5e0d5dc1"
+    }
+  ],
+  "shared_source_inputs": [
+    {
+      "path": "bench/source/solder_v12/common.py",
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    {
+      "path": "bench/source/solder_v12/checks.py",
+      "sha256": "f987780e2c04bce00ca6bc8e25dffb3f489619d28339e5c9cf870bb6b3fced58"
+    },
+    {
+      "path": "bench/source/solder_v12/fea.py",
+      "sha256": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1"
+    },
+    {
+      "path": "bench/source/peg_profile.py",
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981"
+    },
+    {
+      "path": "bench/source/peg_print_variant.py",
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa"
+    },
+    {
+      "path": "bench/source/peg_fit_ladder.py",
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500"
+    },
+    {
+      "path": "bench/source/peg_fit_ladder_v2.py",
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919"
+    },
+    {
+      "path": "bench/source/peg_fit_ladder_v4.py",
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f"
+    },
+    {
+      "path": "bench/source/peg_interface.py",
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b"
+    }
+  ],
+  "reference_inputs": [
+    {
+      "path": "bench/reference/peg-fit.scad",
+      "sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438"
+    },
+    {
+      "path": "bench/reference/conformal_120.step",
+      "sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96"
+    },
+    {
+      "path": "bench/reference/conformal_120_geometry.json",
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca"
+    },
+    {
+      "path": "bench/reference/peg-print-variants.json",
+      "sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7"
+    },
+    {
+      "path": "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a"
+    },
+    {
+      "path": "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa"
+    },
+    {
+      "path": "bench/reviews/v12-build/braid/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__design.json",
+      "sha256": "2e73c7f99076272fe7dfde8e33c106ef097578ea2c12819bbddde13bfd7ce090"
+    }
+  ],
+  "selected_artifacts": [
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/NOTES.md",
+      "bytes": 14376,
+      "sha256": "e09dd67856ffda547ab2d537a320aaadc598b415e25558033ffde2a3bfbe6c0f"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/empty.png",
+      "bytes": 35482,
+      "sha256": "e1c96aa60b1416d1fabce10c3b2f7873dac1e7b8165f381081c5853456d14ee9"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/fea-provenance.json",
+      "bytes": 1154,
+      "sha256": "28046509d88cb3cced3da9dbdd0dc15257a1b6af9b07bed6ff935e01b8246582"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/footprint.png",
+      "bytes": 122040,
+      "sha256": "a0bde8eca5994ec31ef2ea7307cd7225f8eb62cd2a01eeff70506cb2de5793d4"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/frame__installed.step",
+      "bytes": 282978,
+      "sha256": "a04e6ea3a49712ddd79a7837c257e389a93fe3a20943f45da8d3dcb0478eb846"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/frame__installed.stl",
+      "bytes": 1048484,
+      "sha256": "badfa50770f860af8325e46231841d622b40bfea639394132284a652af3e5f2a"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/front-path.png",
+      "bytes": 163503,
+      "sha256": "05d317089a31ed0fd4fb2facf2430b4006db95b3b9434eafca26e961465da707"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/front.png",
+      "bytes": 23892,
+      "sha256": "18bd9a7b57deb4f195310d85efc0060b8ba8deb52fad3935e99517ba554ebd4a"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/geometry-review.json",
+      "bytes": 2239,
+      "sha256": "ccc8d974627b2e9e066400d8e065cb53fe31e22602f7d2f07db6e5fbc2fdab7e"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/latch__released.step",
+      "bytes": 31121,
+      "sha256": "31ee811e4eb75f4e00e986e76abc04bece8de52ee1710cec795600a1b25f9a52"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/latch__released.stl",
+      "bytes": 12684,
+      "sha256": "291b99ce8bef4f87cd1811024ef055b1901c47338359363c113428a1c4d2615f"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/loaded.png",
+      "bytes": 46216,
+      "sha256": "26def51bcf98c560dd80b25812316022860ca9489602a63ac69b7d9e0e65a98b"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/operation-review.json",
+      "bytes": 1212,
+      "sha256": "394734ed57c097824be19eb4d20db2fe0513f8c70969fc36c196da0825c5e64e"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__checks-spec.json",
+      "bytes": 881,
+      "sha256": "aa89b6fd04036a778607ec3b795b0e35f17670281ebe17b0c592f5033135590b"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "bytes": 812,
+      "sha256": "99976e5b737a136562089e6e3e2be83cdb9bc37207eba458f9fbe5c96ea0e37b"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__design.json",
+      "bytes": 8461,
+      "sha256": "75fcc01dce665e585ee9ccee19b333ed1aa345cbc7fb3fe46d48bdd5f41e6323"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "bytes": 1428,
+      "sha256": "b2e4b0b54938b1855a55a65ea3eaa302f563e675bec896b96938eefb6cd3a033"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "bytes": 2194,
+      "sha256": "bc4acce95beefe832ccd08fd0faa9935b2b1d2199c126c0aac3bf56de3f69aa2"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "bytes": 302401,
+      "sha256": "08d24daca46fecea85f687c4af5e00fdfd6f9f1577bad474981819232a3446de"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "bytes": 1065684,
+      "sha256": "14440ce0d30fc9d8259f8cc03833f82305cecf0521b9cb03657d59fa70b807da"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "bytes": 308506,
+      "sha256": "6a1c437ca5a7a3bca1afb00d73765fdd6342dc7f4c0347ce3cf9602587561dcf"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/part-solder-spool-front__v13__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "bytes": 1065684,
+      "sha256": "b04b7a93ddbd9ec202ace8e08b56603c63ee877dcddae15d3e266e90dea18cfc"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__largest-58x31.step",
+      "bytes": 8289,
+      "sha256": "e28d13b92bb34d8203ccf8976962ae77762f78ac91a80742a39bf1e59d2a6c9d"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__largest-58x31.stl",
+      "bytes": 164884,
+      "sha256": "32efc08450d3b1383a7f7a08067f05317a621a0d99dc04095af2be3d16cfa413"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__largest-continuous-sweep.stl",
+      "bytes": 48284,
+      "sha256": "40dbc2477627180a0fc3290b087727285c95aa509953155e29157c3fca467a18"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__nominal-approx-55x30.step",
+      "bytes": 8292,
+      "sha256": "b9b265b6a9b5ce78d01d79742c29c929c047290673bee7082592561c45e889f4"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__nominal-approx-55x30.stl",
+      "bytes": 162084,
+      "sha256": "1fbeb56da437c43dd1015091e5b2e8d189835bcdaff876ae12c0db820bef7ef5"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__smallest-55x28.step",
+      "bytes": 8306,
+      "sha256": "bea49aff88de67b899a9b97d1bf9b649c8082cc30dafab079d50ea6801d84978"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/payload__smallest-55x28.stl",
+      "bytes": 162084,
+      "sha256": "ce5e823ae7d89b89d9996f0de2f10058a72d08a018fcc72718ddb0465415547a"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/print.png",
+      "bytes": 47633,
+      "sha256": "bf71b2767454c90b93139e70612393032eed206ea5742b1cd97db88489dff1c1"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/projected-outlines.json",
+      "bytes": 102099,
+      "sha256": "e32f3f8458912825aeca2ed1d4b7343a3e41aa82cf996aafebc7e6e8d1a1b302"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/released.png",
+      "bytes": 50326,
+      "sha256": "07b0a3950221dc51c6ae97753ad7b2b26de8b137a0eeb05cdaa9f4003917ad73"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/runtime.json",
+      "bytes": 396,
+      "sha256": "1ee10c31910dc5bf7ead469a2963dd7c91bea5de66759a9b55a9c17976d4a8c9"
+    },
+    {
+      "path": "bench/reviews/v12-build/spool-front-v13/side-sections.json",
+      "bytes": 66411,
+      "sha256": "d465d31dc91cbce642ec7c30966005a3b3ecbac52b82f5885d744d9f44fbc952"
+    }
+  ],
+  "self_hash_note": "BUILD.json is intentionally excluded from its own selected_artifacts hashes; include it with the listed artifacts.",
+  "validation": {
+    "shared_checks_passed": true,
+    "custom_geometry_screen_passed": true,
+    "operation_check_passed": true,
+    "design_and_geometry_input_hashes_match": true,
+    "FEA_repository_input_hashes_match": true,
+    "FEA_binary_hashes": "Recorded and checked within Flatpak; /app/bin paths are runtime-specific.",
+    "syntax_sources": 5,
+    "transient_solver_files_present": false
+  },
+  "limits": [
+    "No physical fit, bump, payout, fatigue or one-handed operation qualification",
+    "No slicing or printer operation",
+    "No complete station-neighbour or enlarged-body installation sweep",
+    "No nonlinear spring contact or mesh-convergence qualification"
+  ]
+}

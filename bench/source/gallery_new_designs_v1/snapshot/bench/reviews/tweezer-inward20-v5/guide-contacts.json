@@ -1,0 +1,810 @@
+{
+  "passed": true,
+  "method": "Per-station guide gaps/contact locations on actual clipped guide meshes.\n\nMesh/mesh minima are separate from closest sampled robust-arm vertex locations.\nThese are nominal CAD diagnostics, not a validated printed fit or capture test.\n",
+  "subset": "Stored Y90..138 mm; X<-13 mm; normal-to-20-degree-slope V within3 mm of tool maximum; at most approximately1200 deterministic vertices. Fragile tip is excluded.",
+  "stations": [
+    {
+      "tray": 1,
+      "guide_file": "guide-1.stl",
+      "sampled_arm_vertices": 1347,
+      "samples": [
+        {
+          "arc_degrees": 0,
+          "offset_mm": [
+            6.0,
+            0.0,
+            13.135066634855473
+          ],
+          "mesh_min_gap_mm": 0.6063741262758129,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.68856430053711,
+            133.58407592773438,
+            12.438460350036621
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -11.68856430053711,
+            133.58407592773438,
+            25.573526984892094
+          ],
+          "nearest_guide_point_mm": [
+            -12.15616512298584,
+            133.37246704101562,
+            25.900007247924805
+          ],
+          "sampled_vertex_gap_mm": 0.6082912232171246,
+          "vertex_distance_from_tip_Y_mm": 104.98407554626465,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 15,
+          "offset_mm": [
+            4.447085729384876,
+            0.0,
+            12.917500765183533
+          ],
+          "mesh_min_gap_mm": 0.19507518119661904,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.58912467956543,
+            133.57350158691406,
+            12.491369247436523
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -13.142038950180554,
+            133.57350158691406,
+            25.408870012620056
+          ],
+          "nearest_guide_point_mm": [
+            -13.183618889939606,
+            133.48785086965407,
+            25.582970530042957
+          ],
+          "sampled_vertex_gap_mm": 0.19843368394614735,
+          "vertex_distance_from_tip_Y_mm": 104.97350120544434,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 30,
+          "offset_mm": [
+            3.0,
+            0.0,
+            12.279629910641258
+          ],
+          "mesh_min_gap_mm": 0.2666550710525834,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.655210494995117,
+            133.8243408203125,
+            12.57523250579834
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -14.655210494995117,
+            133.8243408203125,
+            24.854862416439598
+          ],
+          "nearest_guide_point_mm": [
+            -14.774967068515728,
+            133.6807108241504,
+            25.05309315420206
+          ],
+          "sampled_vertex_gap_mm": 0.27251906005410614,
+          "vertex_distance_from_tip_Y_mm": 105.22434043884277,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 45,
+          "offset_mm": [
+            1.7573593128807152,
+            0.0,
+            11.264923915834274
+          ],
+          "mesh_min_gap_mm": 0.2940887693535907,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.714317321777344,
+            134.08157348632812,
+            12.643144607543945
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -15.956958008896628,
+            134.08157348632812,
+            23.90806852337822
+          ],
+          "nearest_guide_point_mm": [
+            -16.16303084171462,
+            134.0091758096222,
+            24.106979524274024
+          ],
+          "sampled_vertex_gap_mm": 0.29542007767824013,
+          "vertex_distance_from_tip_Y_mm": 105.4815731048584,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 60,
+          "offset_mm": [
+            0.8038475772933684,
+            0.0,
+            9.942533317427737
+          ],
+          "mesh_min_gap_mm": 0.27704212390922867,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.777463912963867,
+            134.477294921875,
+            12.72408390045166
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -16.9736163356705,
+            134.477294921875,
+            22.6666172178794
+          ],
+          "nearest_guide_point_mm": [
+            -17.226256204511145,
+            134.43037765302932,
+            22.79552137773587
+          ],
+          "sampled_vertex_gap_mm": 0.28747941817121253,
+          "vertex_distance_from_tip_Y_mm": 105.87729454040527,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 75,
+          "offset_mm": [
+            0.20444504226559013,
+            0.0,
+            8.40257684934926
+          ],
+          "mesh_min_gap_mm": 0.21505469291682183,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.811073303222656,
+            134.97352600097656,
+            12.930397033691406
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.606628260957066,
+            134.97352600097656,
+            21.332973883040665
+          ],
+          "nearest_guide_point_mm": [
+            -17.821503998129014,
+            134.95561020958175,
+            21.382197110939607
+          ],
+          "sampled_vertex_gap_mm": 0.22116845202533195,
+          "vertex_distance_from_tip_Y_mm": 106.37352561950684,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 90,
+          "offset_mm": [
+            0.0,
+            0.0,
+            6.75
+          ],
+          "mesh_min_gap_mm": 1.1521596287668747,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            13.183900833129883
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            19.933900833129883
+          ],
+          "nearest_guide_point_mm": [
+            -17.904909133911133,
+            135.06825235953303,
+            21.009146976664535
+          ],
+          "sampled_vertex_gap_mm": 1.1528830371844456,
+          "vertex_distance_from_tip_Y_mm": 106.85960960388184,
+          "mesh_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "tray": 2,
+      "guide_file": "guide-2.stl",
+      "sampled_arm_vertices": 1347,
+      "samples": [
+        {
+          "arc_degrees": 0,
+          "offset_mm": [
+            6.0,
+            0.0,
+            13.135066634855473
+          ],
+          "mesh_min_gap_mm": 0.6063743962670544,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.68856430053711,
+            133.58407592773438,
+            -15.561539649963379
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -11.68856430053711,
+            133.58407592773438,
+            -2.4264730151079057
+          ],
+          "nearest_guide_point_mm": [
+            -12.15616512298584,
+            133.37246704101562,
+            -2.099992275238037
+          ],
+          "sampled_vertex_gap_mm": 0.6082914791438844,
+          "vertex_distance_from_tip_Y_mm": 104.98407554626465,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 15,
+          "offset_mm": [
+            4.447085729384876,
+            0.0,
+            12.917500765183533
+          ],
+          "mesh_min_gap_mm": 0.1950749610047779,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.58912467956543,
+            133.57350158691406,
+            -15.508630752563477
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -13.142038950180554,
+            133.57350158691406,
+            -2.5911299873799436
+          ],
+          "nearest_guide_point_mm": [
+            -13.1836177156058,
+            133.48785078307543,
+            -2.4170296179499338
+          ],
+          "sampled_vertex_gap_mm": 0.19843334540383437,
+          "vertex_distance_from_tip_Y_mm": 104.97350120544434,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 30,
+          "offset_mm": [
+            3.0,
+            0.0,
+            12.279629910641258
+          ],
+          "mesh_min_gap_mm": 0.26665482427216103,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.655210494995117,
+            133.8243408203125,
+            -15.42476749420166
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -14.655210494995117,
+            133.8243408203125,
+            -3.145137583560402
+          ],
+          "nearest_guide_point_mm": [
+            -14.774966792780058,
+            133.6807107761769,
+            -2.946907010610738
+          ],
+          "sampled_vertex_gap_mm": 0.2725188442832884,
+          "vertex_distance_from_tip_Y_mm": 105.22434043884277,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 45,
+          "offset_mm": [
+            1.7573593128807152,
+            0.0,
+            11.264923915834274
+          ],
+          "mesh_min_gap_mm": 0.29408904393857427,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.714317321777344,
+            134.08157348632812,
+            -15.356855392456055
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -15.956958008896628,
+            134.08157348632812,
+            -4.091931476621781
+          ],
+          "nearest_guide_point_mm": [
+            -16.163031435861495,
+            134.00917586652585,
+            -3.8930206458472183
+          ],
+          "sampled_vertex_gap_mm": 0.29542036364053453,
+          "vertex_distance_from_tip_Y_mm": 105.4815731048584,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 60,
+          "offset_mm": [
+            0.8038475772933684,
+            0.0,
+            9.942533317427737
+          ],
+          "mesh_min_gap_mm": 0.2770417311115938,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.777463912963867,
+            134.477294921875,
+            -15.27591609954834
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -16.9736163356705,
+            134.477294921875,
+            -5.333382782120603
+          ],
+          "nearest_guide_point_mm": [
+            -17.226255829555004,
+            134.43037772648844,
+            -5.204478812184784
+          ],
+          "sampled_vertex_gap_mm": 0.2874789915078555,
+          "vertex_distance_from_tip_Y_mm": 105.87729454040527,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 75,
+          "offset_mm": [
+            0.20444504226559013,
+            0.0,
+            8.40257684934926
+          ],
+          "mesh_min_gap_mm": 0.21505464081026893,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.811073303222656,
+            134.97352600097656,
+            -15.069602966308594
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.606628260957066,
+            134.97352600097656,
+            -6.667026116959335
+          ],
+          "nearest_guide_point_mm": [
+            -17.821503972899606,
+            134.9556102458665,
+            -6.617802981931969
+          ],
+          "sampled_vertex_gap_mm": 0.22116840390503226,
+          "vertex_distance_from_tip_Y_mm": 106.37352561950684,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 90,
+          "offset_mm": [
+            0.0,
+            0.0,
+            6.75
+          ],
+          "mesh_min_gap_mm": 1.1521587414652155,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            -14.816099166870117
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            -8.066099166870117
+          ],
+          "nearest_guide_point_mm": [
+            -17.904909133911133,
+            135.06825272826921,
+            -6.9908538377929865
+          ],
+          "sampled_vertex_gap_mm": 1.1528821524025685,
+          "vertex_distance_from_tip_Y_mm": 106.85960960388184,
+          "mesh_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "tray": 3,
+      "guide_file": "guide-3.stl",
+      "sampled_arm_vertices": 1347,
+      "samples": [
+        {
+          "arc_degrees": 0,
+          "offset_mm": [
+            6.0,
+            0.0,
+            13.135066634855473
+          ],
+          "mesh_min_gap_mm": 0.6063739738587911,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.68856430053711,
+            133.58407592773438,
+            -43.56153869628906
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -11.68856430053711,
+            133.58407592773438,
+            -30.42647206143359
+          ],
+          "nearest_guide_point_mm": [
+            -12.15616512298584,
+            133.37246704101562,
+            -30.099992752075195
+          ],
+          "sampled_vertex_gap_mm": 0.6082907113644034,
+          "vertex_distance_from_tip_Y_mm": 104.98407554626465,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 15,
+          "offset_mm": [
+            4.447085729384876,
+            0.0,
+            12.917500765183533
+          ],
+          "mesh_min_gap_mm": 0.19507362987006208,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.58912467956543,
+            133.57350158691406,
+            -43.508628845214844
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -13.142038950180554,
+            133.57350158691406,
+            -30.59112808003131
+          ],
+          "nearest_guide_point_mm": [
+            -13.183618520747274,
+            133.48785084243508,
+            -30.417029395174556
+          ],
+          "sampled_vertex_gap_mm": 0.198432010490164,
+          "vertex_distance_from_tip_Y_mm": 104.97350120544434,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 30,
+          "offset_mm": [
+            3.0,
+            0.0,
+            12.279629910641258
+          ],
+          "mesh_min_gap_mm": 0.266654615192184,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.655210494995117,
+            133.8243408203125,
+            -43.424766540527344
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -14.655210494995117,
+            133.8243408203125,
+            -31.145136629886085
+          ],
+          "nearest_guide_point_mm": [
+            -14.774966706335288,
+            133.68071076113694,
+            -30.946906672651917
+          ],
+          "sampled_vertex_gap_mm": 0.2725183663505784,
+          "vertex_distance_from_tip_Y_mm": 105.22434043884277,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 45,
+          "offset_mm": [
+            1.7573593128807152,
+            0.0,
+            11.264923915834274
+          ],
+          "mesh_min_gap_mm": 0.2940879658159568,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.714317321777344,
+            134.08157348632812,
+            -43.35685348510742
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -15.956958008896628,
+            134.08157348632812,
+            -32.09192956927315
+          ],
+          "nearest_guide_point_mm": [
+            -16.163029945654543,
+            134.00917611852168,
+            -31.893019435444764
+          ],
+          "sampled_vertex_gap_mm": 0.2954187931125673,
+          "vertex_distance_from_tip_Y_mm": 105.4815731048584,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 60,
+          "offset_mm": [
+            0.8038475772933684,
+            0.0,
+            9.942533317427737
+          ],
+          "mesh_min_gap_mm": 0.277042516302073,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.777463912963867,
+            134.477294921875,
+            -43.275917053222656
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -16.9736163356705,
+            134.477294921875,
+            -33.33338373579492
+          ],
+          "nearest_guide_point_mm": [
+            -17.22625658115262,
+            134.4303775869107,
+            -33.204479382372284
+          ],
+          "sampled_vertex_gap_mm": 0.2874798467522974,
+          "vertex_distance_from_tip_Y_mm": 105.87729454040527,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 75,
+          "offset_mm": [
+            0.20444504226559013,
+            0.0,
+            8.40257684934926
+          ],
+          "mesh_min_gap_mm": 0.2150545878718287,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.811073303222656,
+            134.97352600097656,
+            -43.069602966308594
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.606628260957066,
+            134.97352600097656,
+            -34.667026116959335
+          ],
+          "nearest_guide_point_mm": [
+            -17.82150430766588,
+            134.9556103131913,
+            -34.61780316917873
+          ],
+          "sampled_vertex_gap_mm": 0.22116868201949236,
+          "vertex_distance_from_tip_Y_mm": 106.37352561950684,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 90,
+          "offset_mm": [
+            0.0,
+            0.0,
+            6.75
+          ],
+          "mesh_min_gap_mm": 1.1521590307070781,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            -42.816097259521484
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            -36.066097259521484
+          ],
+          "nearest_guide_point_mm": [
+            -17.904909133911133,
+            135.06825300365867,
+            -34.990852786389006
+          ],
+          "sampled_vertex_gap_mm": 1.1528812606148509,
+          "vertex_distance_from_tip_Y_mm": 106.85960960388184,
+          "mesh_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "tray": 4,
+      "guide_file": "guide-4.stl",
+      "sampled_arm_vertices": 1347,
+      "samples": [
+        {
+          "arc_degrees": 0,
+          "offset_mm": [
+            6.0,
+            0.0,
+            13.135066634855473
+          ],
+          "mesh_min_gap_mm": 0.6063742786552908,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.68856430053711,
+            133.58407592773438,
+            -71.56153869628906
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -11.68856430053711,
+            133.58407592773438,
+            -58.426472061433586
+          ],
+          "nearest_guide_point_mm": [
+            -12.15616512298584,
+            133.37246704101562,
+            -58.09999084472656
+          ],
+          "sampled_vertex_gap_mm": 0.6082917350709084,
+          "vertex_distance_from_tip_Y_mm": 104.98407554626465,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 15,
+          "offset_mm": [
+            4.447085729384876,
+            0.0,
+            12.917500765183533
+          ],
+          "mesh_min_gap_mm": 0.19507275476827837,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.58912467956543,
+            133.57350158691406,
+            -71.50862884521484
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -13.142038950180554,
+            133.57350158691406,
+            -58.59112808003131
+          ],
+          "nearest_guide_point_mm": [
+            -13.183616967704294,
+            133.4878507279358,
+            -58.41703061149961
+          ],
+          "sampled_vertex_gap_mm": 0.19843066732252632,
+          "vertex_distance_from_tip_Y_mm": 104.97350120544434,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 30,
+          "offset_mm": [
+            3.0,
+            0.0,
+            12.279629910641258
+          ],
+          "mesh_min_gap_mm": 0.2666547658924192,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.655210494995117,
+            133.8243408203125,
+            -71.42476654052734
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -14.655210494995117,
+            133.8243408203125,
+            -59.14513662988608
+          ],
+          "nearest_guide_point_mm": [
+            -14.774967463480854,
+            133.6807108928679,
+            -58.946908476259644
+          ],
+          "sampled_vertex_gap_mm": 0.27251731770436827,
+          "vertex_distance_from_tip_Y_mm": 105.22434043884277,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 45,
+          "offset_mm": [
+            1.7573593128807152,
+            0.0,
+            11.264923915834274
+          ],
+          "mesh_min_gap_mm": 0.2940897912023988,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.714317321777344,
+            134.08157348632812,
+            -71.35685729980469
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -15.956958008896628,
+            134.08157348632812,
+            -60.091933383970414
+          ],
+          "nearest_guide_point_mm": [
+            -16.163031049207003,
+            134.00917503424975,
+            -59.89302019763641
+          ],
+          "sampled_vertex_gap_mm": 0.29542188392814145,
+          "vertex_distance_from_tip_Y_mm": 105.4815731048584,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 60,
+          "offset_mm": [
+            0.8038475772933684,
+            0.0,
+            9.942533317427737
+          ],
+          "mesh_min_gap_mm": 0.2770436239208683,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.777463912963867,
+            134.477294921875,
+            -71.27591705322266
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -16.9736163356705,
+            134.477294921875,
+            -61.33338373579492
+          ],
+          "nearest_guide_point_mm": [
+            -17.226256577781935,
+            134.43037757222976,
+            -61.20447938966332
+          ],
+          "sampled_vertex_gap_mm": 0.28747984291681017,
+          "vertex_distance_from_tip_Y_mm": 105.87729454040527,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 75,
+          "offset_mm": [
+            0.20444504226559013,
+            0.0,
+            8.40257684934926
+          ],
+          "mesh_min_gap_mm": 0.2150538364883079,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.811073303222656,
+            134.97352600097656,
+            -71.0696029663086
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.606628260957066,
+            134.97352600097656,
+            -62.667026116959335
+          ],
+          "nearest_guide_point_mm": [
+            -17.821504306094408,
+            134.95561030747731,
+            -62.61780317166614
+          ],
+          "sampled_vertex_gap_mm": 0.22116868040199675,
+          "vertex_distance_from_tip_Y_mm": 106.37352561950684,
+          "mesh_intersection_mm3": 0.0
+        },
+        {
+          "arc_degrees": 90,
+          "offset_mm": [
+            0.0,
+            0.0,
+            6.75
+          ],
+          "mesh_min_gap_mm": 1.1521602266202358,
+          "nearest_sampled_arm_vertex_before_motion_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            -70.81610107421875
+          ],
+          "nearest_sampled_arm_vertex_moved_mm": [
+            -17.764110565185547,
+            135.45960998535156,
+            -64.06610107421875
+          ],
+          "nearest_guide_point_mm": [
+            -17.904909133911133,
+            135.0682517776386,
+            -62.99085323262381
+          ],
+          "sampled_vertex_gap_mm": 1.152884818424651,
+          "vertex_distance_from_tip_Y_mm": 106.85960960388184,
+          "mesh_intersection_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "inputs": {
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/candidate.json": "7fe8a4fc41a5ac39de5439fb110fb2d4731eb191207fc5f4a982b876b20f24c9",
+    "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5_guide_check.py": "65e4a8af319d2ff0652ed3abe9d10def23604e0f9744778ae297490ba269fb44",
+    "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5_check.py": "a84a4d20e72feeb784dfaf788438fb1260276cead1ab4c48e3d79e9830ea3432",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl": "31f734bee7b08266950ecf67d14211c27052cc525d2b54af4356f4f8de337fb2",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl": "5aac6121757060b151fdb144d4f82a163f6271dd253311453c90922ed6b452e8",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl": "22d82db656bb66fdc8ba25b083d2f535443d11180877ec376a7d1c692daa384b",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl": "a51a155cb3b273763b4ef25927e34eb0e842f7742654ffb20b9b58113201c7f4",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-1.stl": "ebdd4675bd5bec352056fd14b470a3ee9e32653a382a40d4944f76047bbdff95",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-2.stl": "5f40f79066b338a1c502791d64e07dc718c6a0f442d7eaaf09d1a3bc8d4ef84a",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-3.stl": "3c298638c8b27878504ceee38e3a6ee3461a49ec001cace4af4267175bd11c5d",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-4.stl": "75d9609cf3f7236e2cad7363b0d1045da44bba520824f33fdac4f50c8c41bd66"
+  },
+  "limits": [
+    "Nearest sampled vertex is not necessarily the exact mesh/mesh nearest point",
+    "Mesh minima may occur between vertices; use separate min-gap field",
+    "Open underside relieves before final6.75 mm downward settle",
+    "A constrained clear route does not prove passive self-guiding or user success"
+  ]
+}

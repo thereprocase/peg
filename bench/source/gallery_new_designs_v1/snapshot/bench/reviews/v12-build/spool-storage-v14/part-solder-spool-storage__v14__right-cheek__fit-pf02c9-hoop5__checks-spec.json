@@ -1,0 +1,127 @@
+{
+  "title": "Open spool storage v14",
+  "pose": "right-cheek",
+  "installed": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl",
+  "print": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+  "pose_matrix": [
+    6.123233995736766e-17,
+    0.0,
+    -1.0,
+    5.445,
+    0.0,
+    1.0,
+    0.0,
+    10.79,
+    1.0,
+    0.0,
+    6.123233995736766e-17,
+    24.400000000000006,
+    0,
+    0,
+    0,
+    1
+  ],
+  "overhang_exceptions": [],
+  "tools": [
+    {
+      "id": "narrow-40x8",
+      "stl": "payload__narrow-40x8.stl",
+      "seat": {
+        "gravity": true
+      },
+      "removal": [
+        [
+          0,
+          0,
+          8.0
+        ],
+        [
+          0,
+          65.0,
+          0
+        ]
+      ],
+      "samples": 1500
+    },
+    {
+      "id": "narrow-40x12",
+      "stl": "payload__narrow-40x12.stl",
+      "seat": {
+        "gravity": true
+      },
+      "removal": [
+        [
+          0,
+          0,
+          8.0
+        ],
+        [
+          0,
+          65.0,
+          0
+        ]
+      ],
+      "samples": 1500
+    },
+    {
+      "id": "small-40x20",
+      "stl": "payload__small-40x20.stl",
+      "seat": {
+        "gravity": true
+      },
+      "removal": [
+        [
+          0,
+          0,
+          8.0
+        ],
+        [
+          0,
+          65.0,
+          0
+        ]
+      ],
+      "samples": 1500
+    },
+    {
+      "id": "nominal-55x30",
+      "stl": "payload__nominal-55x30.stl",
+      "seat": {
+        "gravity": true
+      },
+      "removal": [
+        [
+          0,
+          0,
+          8.0
+        ],
+        [
+          0,
+          65.0,
+          0
+        ]
+      ],
+      "samples": 1500
+    },
+    {
+      "id": "large-65x34",
+      "stl": "payload__large-65x34.stl",
+      "seat": {
+        "gravity": true
+      },
+      "removal": [
+        [
+          0,
+          0,
+          8.0
+        ],
+        [
+          0,
+          65.0,
+          0
+        ]
+      ],
+      "samples": 1500
+    }
+  ]
+}

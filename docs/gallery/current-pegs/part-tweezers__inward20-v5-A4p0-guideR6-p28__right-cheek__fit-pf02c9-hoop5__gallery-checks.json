@@ -1,0 +1,1337 @@
+{
+  "id": "TW-GUIDED-V5",
+  "kind": "mounted",
+  "independent_mesh_checks": {
+    "id": "TW-GUIDED-V5",
+    "mesh": {
+      "installed": {
+        "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_mm3": 108645.50871602568,
+        "bounds_mm": [
+          [
+            -24.399999618530273,
+            -10.789999961853027,
+            -126.55811309814453
+          ],
+          [
+            24.399999618530273,
+            135.57867431640625,
+            30.731489181518555
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_mm3": 108645.50086433899,
+        "bounds_mm": [
+          [
+            4.51146115665324e-05,
+            0.0,
+            -3.552713678800501e-15
+          ],
+          [
+            157.28964233398438,
+            146.36866760253906,
+            48.79999923706055
+          ]
+        ]
+      }
+    },
+    "status": "geometry checks; physical qualification recorded separately",
+    "pose_surface_match": true,
+    "mesh_tessellation_tolerance_mm": 0.05,
+    "recorded_checks_pass": true,
+    "four_fins_required": true
+  },
+  "native_checks": {
+    "id": "TW-GUIDED-V5",
+    "pass": true,
+    "native": [
+      {
+        "role": "installed_step",
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "sha256": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+        "valid": true,
+        "solids": 1,
+        "bounds_mm": [
+          48.800000000000125,
+          146.36866853352998,
+          157.28976688479
+        ],
+        "volume_mm3": 108645.30727131231
+      },
+      {
+        "role": "print_step",
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "sha256": "43380f4ab0abf39b89f9abcaf2928b76ff30a05a76722c0c897efe14afec904b",
+        "valid": true,
+        "solids": 1,
+        "bounds_mm": [
+          157.28976688484,
+          146.36866853353,
+          48.80000000000013
+        ],
+        "volume_mm3": 108645.30727130536
+      }
+    ],
+    "note": "STEP is frozen original export; no geometry regeneration."
+  },
+  "recorded_geometry_checks": {
+    "passed": true,
+    "method": "V5 exact-input full-mesh path, installation and print screens; no dynamics.\n\nAll four tools move independently through one reversible path with three neighbors.\nLift/left steps <=0.25 mm, arc 1 degree (<=0.112 mm), outward0.5 mm.\nA sampled screen is not a continuous certificate or measured capture rate.\n",
+    "collision_tolerance_mm3": 1e-08,
+    "board_included": true,
+    "health": [
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "guide-1.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "guide-2.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "guide-3.stl",
+        "watertight": true,
+        "bodies": 1
+      },
+      {
+        "file": "guide-4.stl",
+        "watertight": true,
+        "bodies": 1
+      }
+    ],
+    "tools": [
+      {
+        "tray": 1,
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "stored_translation_from_v4_mm": [
+          0,
+          0,
+          -0.0
+        ],
+        "translation_bidirectional_vertex_error_mm": 0.0,
+        "translation_triangle_connectivity_equal": true,
+        "phases": [
+          {
+            "phase": "lift",
+            "samples": 28,
+            "max_intersection_mm3": 1.5904511995722893e-16,
+            "worst_offset_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "passed": true
+          },
+          {
+            "phase": "up-left arc",
+            "samples": 91,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "open-mouth clearance",
+            "samples": 9,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "outward",
+            "samples": 271,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          }
+        ],
+        "plate_tip_gap_mm": 23.050000381469726,
+        "tip_15mm_complete_body_gap_mm": 11.270690565438455,
+        "tip_extension_space_max_intersection_mm3": 0.0,
+        "tip_extension_samples": 40,
+        "passed": true
+      },
+      {
+        "tray": 2,
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+        "stored_translation_from_v4_mm": [
+          0,
+          0,
+          -5.0
+        ],
+        "translation_bidirectional_vertex_error_mm": 1.9073486328125e-06,
+        "translation_triangle_connectivity_equal": true,
+        "phases": [
+          {
+            "phase": "lift",
+            "samples": 28,
+            "max_intersection_mm3": 8.868839415984838e-14,
+            "worst_offset_mm": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "passed": true
+          },
+          {
+            "phase": "up-left arc",
+            "samples": 91,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "open-mouth clearance",
+            "samples": 9,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "outward",
+            "samples": 271,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          }
+        ],
+        "plate_tip_gap_mm": 23.050000381469726,
+        "tip_15mm_complete_body_gap_mm": 1.9108007643618556,
+        "tip_extension_space_max_intersection_mm3": 0.0,
+        "tip_extension_samples": 40,
+        "passed": true
+      },
+      {
+        "tray": 3,
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+        "stored_translation_from_v4_mm": [
+          0,
+          0,
+          -10.0
+        ],
+        "translation_bidirectional_vertex_error_mm": 3.814697265625e-06,
+        "translation_triangle_connectivity_equal": true,
+        "phases": [
+          {
+            "phase": "lift",
+            "samples": 28,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "up-left arc",
+            "samples": 91,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "open-mouth clearance",
+            "samples": 9,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "outward",
+            "samples": 271,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          }
+        ],
+        "plate_tip_gap_mm": 23.050000381469726,
+        "tip_15mm_complete_body_gap_mm": 11.270690565438455,
+        "tip_extension_space_max_intersection_mm3": 0.0,
+        "tip_extension_samples": 40,
+        "passed": true
+      },
+      {
+        "tray": 4,
+        "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl",
+        "stored_translation_from_v4_mm": [
+          0,
+          0,
+          -15.0
+        ],
+        "translation_bidirectional_vertex_error_mm": 3.814697265625e-06,
+        "translation_triangle_connectivity_equal": true,
+        "phases": [
+          {
+            "phase": "lift",
+            "samples": 28,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "up-left arc",
+            "samples": 91,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "open-mouth clearance",
+            "samples": 9,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          },
+          {
+            "phase": "outward",
+            "samples": 271,
+            "max_intersection_mm3": 0.0,
+            "worst_offset_mm": null,
+            "passed": true
+          }
+        ],
+        "plate_tip_gap_mm": 23.050000381469726,
+        "tip_15mm_complete_body_gap_mm": 1.9108007643618556,
+        "tip_extension_space_max_intersection_mm3": 0.0,
+        "tip_extension_samples": 40,
+        "passed": true
+      }
+    ],
+    "guide_contact_report": "guide-contacts.json",
+    "installation_front_body": {
+      "min_front_plane_clearance_mm": 5.960464483090178e-09,
+      "at": [
+        -0.15,
+        -0.12,
+        0.0
+      ],
+      "poses": 2973,
+      "maximum_vertex_motion_mm": 0.05,
+      "surface_deflection_mm": 0.005,
+      "passed": true,
+      "scope": "Entire new bare front body versus board plane along reference installation path. Rear peg/hoop interference unchanged; no physical fit certification."
+    },
+    "print_screen": {
+      "raw_overhangs": {
+        "features": [
+          {
+            "area_mm2": 88.19,
+            "print_bbox": [
+              [
+                8.6,
+                125.4,
+                4.8
+              ],
+              [
+                14.1,
+                135.5,
+                6.4
+              ]
+            ],
+            "installed_bbox": [
+              [
+                -19.6,
+                114.6,
+                16.6
+              ],
+              [
+                -18.0,
+                124.8,
+                22.1
+              ]
+            ],
+            "mean_normal_z": -0.815,
+            "short_span_mm": 5.5,
+            "declared": null,
+            "ok": false
+          }
+        ],
+        "peg_area_mm2": 165.8,
+        "other_area_mm2": 88.19,
+        "passed": false
+      },
+      "islands": {
+        "points": [],
+        "passed": true
+      },
+      "pose_error_mm": 6.713867179541921e-06,
+      "supported_guide_features": [
+        {
+          "feature": {
+            "area_mm2": 88.19,
+            "print_bbox": [
+              [
+                8.6,
+                125.4,
+                4.8
+              ],
+              [
+                14.1,
+                135.5,
+                6.4
+              ]
+            ],
+            "installed_bbox": [
+              [
+                -19.6,
+                114.6,
+                16.6
+              ],
+              [
+                -18.0,
+                124.8,
+                22.1
+              ]
+            ],
+            "mean_normal_z": -0.815,
+            "short_span_mm": 5.5,
+            "declared": null,
+            "ok": false
+          },
+          "within_top_guide_support_region": true
+        }
+      ],
+      "requires_slicer_support_verification": true,
+      "support_plan_passed": true,
+      "scope": "Organic support at pegs and the open accessible top guide. Support origin and actual extrusion coverage are separate required slicer checks."
+    },
+    "wedge_print": {
+      "overhangs": {
+        "features": [],
+        "peg_area_mm2": 0.0,
+        "other_area_mm2": 0.0,
+        "passed": true
+      },
+      "islands": {
+        "points": [],
+        "passed": true
+      },
+      "bounds_mm": [
+        [
+          1.0005270212332107e-07,
+          1.0000000116860974e-07,
+          9.999871508625802e-08
+        ],
+        [
+          10.783232688903809,
+          4.003647804260254,
+          20.0
+        ]
+      ]
+    },
+    "immutable_copies": [
+      {
+        "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "target": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
+      },
+      {
+        "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+        "target": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+        "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7"
+      },
+      {
+        "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-v3__tool-frame.stl",
+        "target": "fin-v3__tool-frame.stl",
+        "sha256": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3"
+      },
+      {
+        "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-v4__tool-frame.stl",
+        "target": "fin-v4__tool-frame.stl",
+        "sha256": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a"
+      },
+      {
+        "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+        "target": "fin-comparison.json",
+        "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+      }
+    ],
+    "inputs": {
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/candidate.json": "7fe8a4fc41a5ac39de5439fb110fb2d4731eb191207fc5f4a982b876b20f24c9",
+      "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5_check.py": "a84a4d20e72feeb784dfaf788438fb1260276cead1ab4c48e3d79e9830ea3432",
+      "/home/repro/code/peg-bt2/bench/source/solder_v12/checks.py": "f987780e2c04bce00ca6bc8e25dffb3f489619d28339e5c9cf870bb6b3fced58",
+      "/home/repro/code/peg-bt2/bench/reference/conformal_motion_results.json": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/candidate.json": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-1.stl": "29497a575be814484a007054d03df60e3d6722348f4d5846bc5f3e5fda5f8764",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-2.stl": "aa3e8db4a411d77780483eda15b4d3a9b471035a49c3a1f496bf98eeb1c49093",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-3.stl": "b0dd90adb0b360e642832ecff4c60db3c1ee596c8b20d57946e1695956e7cd71",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__tool-4.stl": "3f2af4417e3a5f4548037c8e78f25ed41cc08c58a62ca0944eaf735c08372b6b",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__front-material.stl": "ba6c68b818e4e4342b46b84bfeb559f0bc15d556ff255ebfd8534db83459049f",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl": "fc218ac084e4738ab19dd9ed2971fc9c63c834a19ca97ff67ffa11955b6edda4",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl": "31f734bee7b08266950ecf67d14211c27052cc525d2b54af4356f4f8de337fb2",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl": "35756a68cd481e3d52195908ffd098c35f81665e2a072347f4aab989deb804b1",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl": "5aac6121757060b151fdb144d4f82a163f6271dd253311453c90922ed6b452e8",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl": "95ca693a88f874885793e0ec7b1d06677b2f6400b647cf2285bc52722439ddec",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl": "22d82db656bb66fdc8ba25b083d2f535443d11180877ec376a7d1c692daa384b",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl": "3f08fd6e8d0ef61de7d370e224414fd1e1b66b0479f96e00d4cd8eec34ff9f34",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl": "a51a155cb3b273763b4ef25927e34eb0e842f7742654ffb20b9b58113201c7f4",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/fin-v3__tool-frame.stl": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/fin-v4__tool-frame.stl": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-1.stl": "ebdd4675bd5bec352056fd14b470a3ee9e32653a382a40d4944f76047bbdff95",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-2.stl": "5f40f79066b338a1c502791d64e07dc718c6a0f442d7eaaf09d1a3bc8d4ef84a",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-3.stl": "3c298638c8b27878504ceee38e3a6ee3461a49ec001cace4af4267175bd11c5d",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-4.stl": "75d9609cf3f7236e2cad7363b0d1045da44bba520824f33fdac4f50c8c41bd66",
+      "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-addition.stl": "3d43a2657dfa77cd3e15ee1d04b1cd727de6d3a5964e58e437ebe37394099c0f"
+    },
+    "limitations": [
+      "Reference mesh only; actual tools, fingers, guide capture and print texture unqualified",
+      "Free settle from above fin; no arm is forced laterally across fin",
+      "Supported geometry requires exact final toolpath review",
+      "Sampled nominal path, not continuous motion proof; no dynamic or friction simulation"
+    ]
+  },
+  "source_metadata": {
+    "cases": [
+      {
+        "name": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5",
+        "pose": "right-cheek",
+        "print_file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "pose_matrix": [
+          6.123233995736766e-17,
+          0.0,
+          -1.0,
+          30.731534906189715,
+          0.0,
+          1.0,
+          0.0,
+          10.79,
+          1.0,
+          0.0,
+          6.123233995736766e-17,
+          24.400000000000006,
+          0,
+          0,
+          0,
+          1
+        ],
+        "volume_mm3": 108645.31615609402,
+        "solid_mass_asa_g": 116.25048828702062,
+        "bounds_installed": [
+          -24.4,
+          -10.79,
+          -126.55811477827064,
+          24.4,
+          135.57866853353005,
+          30.731489791577975
+        ],
+        "print_bounds": [
+          157.291,
+          146.369,
+          48.801
+        ],
+        "files": [
+          {
+            "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl",
+            "facets": 29280,
+            "volume_error_fraction": 5.211049256898333e-06,
+            "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915"
+          },
+          {
+            "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+            "facets": 29280,
+            "volume_error_fraction": 6.797636858854872e-06,
+            "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08"
+          }
+        ],
+        "receiver": {
+          "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+          "top": {
+            "upper_ribs_mm": 0.5,
+            "clamp_mm": 0.49
+          },
+          "columns_x_mm": [
+            -12.7,
+            12.7
+          ],
+          "plate": {
+            "x0": -24.4,
+            "x1": 24.4,
+            "y0": 0.15,
+            "y1": 5.55,
+            "z0": -107.47999999999999,
+            "z1": 5.12
+          },
+          "hoop": {
+            "concept": "HOOP",
+            "arm_mm": 0.8,
+            "tip_half": 2.0,
+            "even_catch_wall": true,
+            "ramp_wall": true,
+            "nose_mm": 0.9,
+            "root_gusset_mm": 0.4,
+            "body_ribs_mm": 0.3,
+            "orientation": "hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z",
+            "detail": {
+              "width_across_barbs_mm": 7.35,
+              "catch_angle_deg": 55,
+              "catch_length_mm": 0.6476919728439815,
+              "ramp_angle_deg": 15.592255624701878,
+              "crest_y_mm": [
+                -4.487691972843981,
+                -4.787691972843981
+              ],
+              "catch_bearing_per_side_mm": 0.5,
+              "nose_mm": 0.9,
+              "ramp_wall_mm": 0.8,
+              "min_wall_mm": 0.8,
+              "root_gusset_mm": 0.4,
+              "root_gusset_length_mm": 1.5,
+              "arm_mm": 0.8,
+              "closed_nose_mm": 0.9,
+              "band_half_height_mm": 1.4,
+              "root_clip_radius_mm": 2.95,
+              "cheek_offset_down_mm": 0.1
+            }
+          },
+          "rows": {
+            "hooks": [
+              0
+            ],
+            "bearing": [
+              2
+            ],
+            "hoop": [
+              4
+            ],
+            "empty": [
+              1,
+              3
+            ]
+          },
+          "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+        },
+        "id": "inward20-v5-A4p0-guideR6-p28",
+        "fore_aft_pitch_deg": 20,
+        "lateral_cant_in_receiving_frame_deg": 15,
+        "lean_mm": 4,
+        "added_tip_clearance_global_y_mm": 19.05,
+        "tray_pitch_vertical_mm": 28.0,
+        "tools": [
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-2.stl",
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-3.stl",
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__tool-4.stl"
+        ],
+        "wedges": [
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl",
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-3__installed.stl",
+          "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge-4__installed.stl"
+        ],
+        "wedge_print": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+        "wedge_count": 4,
+        "wedge_volume_mm3": 484.8782935880952,
+        "wedge_print_pose_matrix": [
+          1.0,
+          -0.0,
+          0.0,
+          7.983232993454253,
+          0.0,
+          2.220446049250313e-16,
+          1.0,
+          2.001823859070178,
+          -0.0,
+          -1.0,
+          2.220446049250313e-16,
+          51.00000010000661,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "fin": {
+          "ridge_tool_x_before_mm": 1.0,
+          "ridge_tool_x_after_mm": 2.8,
+          "increase_tool_x_mm": 1.7999999999999998,
+          "roof_deg": 55.0,
+          "shoulders_tool_x_mm": [
+            1.690528175216333,
+            1.0
+          ],
+          "ridge_delta_installed_xyz_mm": [
+            3.996802888650563e-16,
+            -0.6156362579862035,
+            1.691446717414635
+          ],
+          "ridge_increase_floor_normal_mm": 1.7386664873203228,
+          "heights_above_floor": [
+            {
+              "tool_station_mm": 31.0,
+              "old_ridge_above_floor_normal_mm": 7.119104376726407,
+              "new_ridge_above_floor_normal_mm": 8.85777086404673
+            },
+            {
+              "tool_station_mm": 41.0,
+              "old_ridge_above_floor_normal_mm": 6.907215729064184,
+              "new_ridge_above_floor_normal_mm": 8.645882216384507
+            },
+            {
+              "tool_station_mm": 51.0,
+              "old_ridge_above_floor_normal_mm": 6.6953270814019605,
+              "new_ridge_above_floor_normal_mm": 8.433993568722284
+            }
+          ],
+          "old_volume_mm3": 440.3834294657387,
+          "new_volume_mm3": 484.87829358809523,
+          "added_volume_mm3": 44.494864122356546,
+          "below_old_crest_difference_mm3": 0.0,
+          "removed_old_material_mm3": 0.0,
+          "foot_difference_mm3": 0.0,
+          "original_reconstruction_difference_mm3": 0.0,
+          "foot_and_body_fit": [
+            {
+              "tray": 1,
+              "ordinary_reference_symmetric_difference_mm3": 0.0,
+              "body_intersection_mm3": 0.0,
+              "foot_symmetric_difference_mm3": 0.0,
+              "below_old_crest_symmetric_difference_mm3": 0.0
+            },
+            {
+              "tray": 2,
+              "ordinary_reference_symmetric_difference_mm3": 0.0,
+              "body_intersection_mm3": 0.0,
+              "foot_symmetric_difference_mm3": 0.0,
+              "below_old_crest_symmetric_difference_mm3": 0.0
+            },
+            {
+              "tray": 3,
+              "ordinary_reference_symmetric_difference_mm3": 0.0,
+              "body_intersection_mm3": 0.0,
+              "foot_symmetric_difference_mm3": 0.0,
+              "below_old_crest_symmetric_difference_mm3": 0.0
+            },
+            {
+              "tray": 4,
+              "ordinary_reference_symmetric_difference_mm3": 0.0,
+              "body_intersection_mm3": 0.0,
+              "foot_symmetric_difference_mm3": 0.0,
+              "below_old_crest_symmetric_difference_mm3": 0.0
+            }
+          ],
+          "plan_outline_tool_zy_mm": [
+            [
+              -0.7768605351448059,
+              31.0
+            ],
+            [
+              0.7768605351448059,
+              31.0
+            ],
+            [
+              2.0018237590789796,
+              51.0
+            ],
+            [
+              -2.0018237590789796,
+              51.0
+            ]
+          ],
+          "section_tool_y_mm": 41,
+          "section_curves": {
+            "v3": [
+              [
+                [
+                  1.0000000000000746,
+                  41.0,
+                  1.3893421471168768
+                ],
+                [
+                  -5.779852448599176,
+                  41.0,
+                  1.3893421471168075
+                ]
+              ],
+              [
+                [
+                  1.000000000000652,
+                  40.99999999999999,
+                  -1.3893421471033993
+                ],
+                [
+                  1.0000000000008047,
+                  41.0,
+                  1.3893421471168765
+                ]
+              ],
+              [
+                [
+                  -5.779852448602776,
+                  41.0,
+                  1.3893421471191978
+                ],
+                [
+                  -7.9012481612807335,
+                  41.0,
+                  -1.127076864991067
+                ]
+              ],
+              [
+                [
+                  1.0000000000018474,
+                  41.0,
+                  -1.3893421471033989
+                ],
+                [
+                  -7.971286038474532,
+                  41.0,
+                  -1.3893421471034033
+                ]
+              ],
+              [
+                [
+                  -7.971286038407705,
+                  41.0,
+                  -1.389342147121269
+                ],
+                [
+                  -7.901248161208102,
+                  41.0,
+                  -1.1270768649769707
+                ]
+              ]
+            ],
+            "v4": [
+              [
+                [
+                  -5.779852448602776,
+                  41.0,
+                  1.3893421471191978
+                ],
+                [
+                  -7.9012481612807335,
+                  41.0,
+                  -1.127076864991067
+                ]
+              ],
+              [
+                [
+                  1.0000000000000746,
+                  41.0,
+                  1.3893421471168768
+                ],
+                [
+                  -5.779852448599176,
+                  41.0,
+                  1.3893421471168075
+                ]
+              ],
+              [
+                [
+                  -7.971286038407705,
+                  41.0,
+                  -1.389342147121269
+                ],
+                [
+                  -7.901248161208102,
+                  41.0,
+                  -1.1270768649769707
+                ]
+              ],
+              [
+                [
+                  1.0000000000018474,
+                  41.0,
+                  -1.3893421471033989
+                ],
+                [
+                  -7.971286038474532,
+                  41.0,
+                  -1.3893421471034033
+                ]
+              ],
+              [
+                [
+                  1.0000000000007976,
+                  41.0,
+                  1.260372968776474
+                ],
+                [
+                  1.0000000000008047,
+                  41.0,
+                  1.389342147116877
+                ]
+              ],
+              [
+                [
+                  2.799999999999997,
+                  41.0,
+                  0.0
+                ],
+                [
+                  0.9999999999998721,
+                  41.0,
+                  1.2603735687775668
+                ]
+              ],
+              [
+                [
+                  1.000000000000064,
+                  41.0,
+                  -1.2603735687774318
+                ],
+                [
+                  2.8000000000000185,
+                  41.0,
+                  1.4210854715202004e-14
+                ]
+              ],
+              [
+                [
+                  1.000000000000652,
+                  41.0,
+                  -1.389342147103399
+                ],
+                [
+                  1.000000000000659,
+                  41.0,
+                  -1.2603729687678535
+                ]
+              ]
+            ]
+          }
+        },
+        "immutable_copies": [
+          {
+            "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+            "target": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+            "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9"
+          },
+          {
+            "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+            "target": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step",
+            "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7"
+          },
+          {
+            "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-v3__tool-frame.stl",
+            "target": "fin-v3__tool-frame.stl",
+            "sha256": "6567ee2aa8066ee3bdcf98d28be584d671b51efa8f9afdcc2f9a1c0035fab4d3"
+          },
+          {
+            "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-v4__tool-frame.stl",
+            "target": "fin-v4__tool-frame.stl",
+            "sha256": "34ac96026e15b7147833cab0d292f730a2593e957bb30a2c41bf1a70ed5a139a"
+          },
+          {
+            "source": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/fin-comparison.json",
+            "target": "fin-comparison.json",
+            "sha256": "d571ad14fb150a5ebf79b07e45a1cb2b9f52299515cc1b78d6485bf7a68e884e"
+          }
+        ],
+        "receiving_transform": {
+          "base": [
+            0.0,
+            25.63839854364563,
+            -40.420201433256686
+          ],
+          "quaternion": [
+            0.17364817766693033,
+            0.0,
+            0.0,
+            0.984807753012208
+          ]
+        },
+        "tool_pose": {
+          "base": [
+            -18.012450494169574,
+            146.35431732930178,
+            11.98548020497303
+          ],
+          "quaternion": [
+            0.690749222391131,
+            -0.09415597153889993,
+            0.7008099978050868,
+            -0.15121346423532508
+          ]
+        },
+        "baseline_v4_removal": {
+          "lift_mm": 6.75,
+          "lift_direction": [
+            0,
+            0,
+            1
+          ],
+          "out_distance_mm": 135,
+          "out_direction": [
+            0.0,
+            0.9396926207859084,
+            0.3420201433256687
+          ],
+          "reverse_for_insertion": true,
+          "reason": "Taller fin requires extra release lift; preserve frame/pitch and verify all four loaded-neighbor paths."
+        },
+        "removal": {
+          "lift_mm": 6.75,
+          "arc_radius_mm": 6.0,
+          "arc_end_lift_mm": 13.135066634855473,
+          "left_clearance_extension_mm": 2,
+          "out_direction": [
+            0.0,
+            0.9396926207859084,
+            0.3420201433256687
+          ],
+          "out_distance_mm": 135,
+          "sequence": "Free lift; continuous up-left quarter arc; 2 mm further left; outward along 20 degree axis. Return is exact reverse with final free downward settle."
+        },
+        "receiving_equivalence": [
+          {
+            "tray": 1,
+            "translation_from_v4_mm": [
+              0,
+              0,
+              -0.0
+            ],
+            "floor_inverse_translation_difference_mm3": 0.0,
+            "pocket_inverse_translation_difference_mm3": 0.0,
+            "new_roof_in_pocket_mm3": 0.0,
+            "new_roof_in_floor_contact_skin_mm3": 0.0
+          },
+          {
+            "tray": 2,
+            "translation_from_v4_mm": [
+              0,
+              0,
+              -5.0
+            ],
+            "floor_inverse_translation_difference_mm3": 0.0,
+            "pocket_inverse_translation_difference_mm3": 0.0,
+            "new_roof_in_pocket_mm3": 0.0,
+            "new_roof_in_floor_contact_skin_mm3": 0.0
+          },
+          {
+            "tray": 3,
+            "translation_from_v4_mm": [
+              0,
+              0,
+              -10.0
+            ],
+            "floor_inverse_translation_difference_mm3": 0.0,
+            "pocket_inverse_translation_difference_mm3": 0.0,
+            "new_roof_in_pocket_mm3": 0.0,
+            "new_roof_in_floor_contact_skin_mm3": 0.0
+          },
+          {
+            "tray": 4,
+            "translation_from_v4_mm": [
+              0,
+              0,
+              -15.0
+            ],
+            "floor_inverse_translation_difference_mm3": 0.0,
+            "pocket_inverse_translation_difference_mm3": 0.0,
+            "new_roof_in_pocket_mm3": 0.0,
+            "new_roof_in_floor_contact_skin_mm3": 0.0
+          }
+        ],
+        "fin_equivalence": [
+          {
+            "tray": 1,
+            "fin_inverse_translation_difference_mm3": 0.0,
+            "fin_body_intersection_mm3": 0.0
+          },
+          {
+            "tray": 2,
+            "fin_inverse_translation_difference_mm3": 0.0,
+            "fin_body_intersection_mm3": 0.0
+          },
+          {
+            "tray": 3,
+            "fin_inverse_translation_difference_mm3": 0.0,
+            "fin_body_intersection_mm3": 0.0
+          },
+          {
+            "tray": 4,
+            "fin_inverse_translation_difference_mm3": 0.0,
+            "fin_body_intersection_mm3": 0.0
+          }
+        ],
+        "peg_symmetric_difference_mm3": 0.0,
+        "guide": {
+          "count": 4,
+          "radius_mm": 6.0,
+          "thickness_mm": 2.4,
+          "lip_fillet_mm": 0.7,
+          "U_band_mm": [
+            104.0,
+            134.18744562765102
+          ],
+          "centre_XV_mm": [
+            -11.996063232421875,
+            -27.495811070883242
+          ],
+          "end_angle_deg": 80,
+          "coordinates": "Facing board: +X left, -X right; Z up. U=(0,cos20,sin20), V=(0,-sin20,cos20).",
+          "return_path": {
+            "radius_mm": 6.0,
+            "high_lift_mm": 13.135066634855473,
+            "lateral_start_mm": 8.0,
+            "final_free_lift_mm": 6.75,
+            "formula": "X=6(1-sin(theta)), Z=6.75+6*cos(theta)/cos20, theta0..90; Y0; then free vertical settle.",
+            "out_direction": [
+              0.0,
+              0.9396926207859084,
+              0.3420201433256687
+            ],
+            "out_distance_mm": 135
+          },
+          "extra_roof_mm3": 2196.8724289195347
+        },
+        "frame": {
+          "outline_yz_mm": [
+            [
+              5.25,
+              -107.48
+            ],
+            [
+              5.25,
+              5.12
+            ],
+            [
+              32,
+              5.12
+            ],
+            [
+              135.57866853353005,
+              31.594784390251075
+            ],
+            [
+              135.57866853353005,
+              -93.40521560974892
+            ],
+            [
+              75,
+              -121
+            ],
+            [
+              25,
+              -126.7
+            ]
+          ],
+          "windows_yz_mm": [
+            [
+              [
+                18,
+                -43
+              ],
+              [
+                18,
+                -7
+              ],
+              [
+                65.12526054430553,
+                -7
+              ],
+              [
+                65.12526054430553,
+                -43
+              ]
+            ],
+            [
+              [
+                18,
+                -98
+              ],
+              [
+                18,
+                -54
+              ],
+              [
+                65.12526054430553,
+                -54
+              ],
+              [
+                65.12526054430553,
+                -98
+              ]
+            ],
+            [
+              [
+                75.12526054430553,
+                -18.90845667777728
+              ],
+              [
+                128.57866853353005,
+                0.546992750387659
+              ],
+              [
+                128.57866853353005,
+                9.046992750387659
+              ],
+              [
+                75.12526054430553,
+                -10.40845667777728
+              ]
+            ],
+            [
+              [
+                75.12526054430553,
+                -46.90845667777728
+              ],
+              [
+                128.57866853353005,
+                -27.45300724961234
+              ],
+              [
+                128.57866853353005,
+                -18.95300724961234
+              ],
+              [
+                75.12526054430553,
+                -38.40845667777728
+              ]
+            ],
+            [
+              [
+                75.12526054430553,
+                -74.90845667777728
+              ],
+              [
+                128.57866853353005,
+                -55.45300724961234
+              ],
+              [
+                128.57866853353005,
+                -46.95300724961234
+              ],
+              [
+                75.12526054430553,
+                -66.40845667777728
+              ]
+            ],
+            [
+              [
+                75.12526054430553,
+                -102.90845667777728
+              ],
+              [
+                128.57866853353005,
+                -83.45300724961234
+              ],
+              [
+                128.57866853353005,
+                -74.95300724961234
+              ],
+              [
+                75.12526054430553,
+                -94.40845667777728
+              ]
+            ]
+          ],
+          "top_rail_rise_from_v4_mm": 6,
+          "bottom_growth_nominal_mm": 15
+        },
+        "sources": {
+          "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5.py": "2a8c2e9019696488d50208169db4fad3f0170efeab7686173e681c9f96cbb224",
+          "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5_frame.py": "ed29899dea2568fdb17d2b16f16248f3798b10879b1777a732716f3a1a6d3a38",
+          "/home/repro/code/peg-bt2/bench/source/tweezers_v11/holder.py": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af",
+          "/home/repro/code/peg-bt2/bench/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+          "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/candidate.json": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6",
+          "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/part-tweezers__inward20-v4-A4p0-tall1p8__right-cheek__fit-pf02c9-hoop5__installed.step": "2b33911d859bb48609843e7acf76e039776a84dcd2040c6a70853d7eb3505c2b",
+          "/home/repro/code/peg-bt2/bench/reviews/v8-regen/tweezers_open_rest.stl": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201"
+        },
+        "v4_comparison": {
+          "candidate": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v4/candidate.json",
+          "sha256": "16a568577477e109ee0fdfd2cd7391d088144b530e117f7b6f941d236196b0d6",
+          "translations_mm": [
+            [
+              0,
+              0,
+              -0.0
+            ],
+            [
+              0,
+              0,
+              -5.0
+            ],
+            [
+              0,
+              0,
+              -10.0
+            ],
+            [
+              0,
+              0,
+              -15.0
+            ]
+          ],
+          "notes": "Pitch increase expressly authorized; floor/pocket/fin geometry and orientations unchanged, translated only. Peg surfaces unchanged."
+        }
+      }
+    ],
+    "runtime": {
+      "FreeCAD": [
+        "1",
+        "1",
+        "3",
+        "44987 (Git)",
+        "https://github.com/FreeCAD/FreeCAD.git",
+        "2026/07/25 04:52:02",
+        "(HEAD detached at 1.1.3)",
+        "145529fe741292ff0b3977a01195bf0247425794"
+      ],
+      "OpenCascade": "7.8.1"
+    }
+  },
+  "scope": "Frozen CAD review; physical qualification and stiffness limits are separate."
+}

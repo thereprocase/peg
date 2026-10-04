@@ -1,0 +1,45 @@
+{
+  "id": "DRIP-TRAY-V12",
+  "mesh": {
+    "installed": {
+      "sha256": "1785f2a562dc78b0fc996f31b2a43f5e13f8f58f8505b16ad8227a85b7abaaa5",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 57417.822363833046,
+      "bounds_mm": [
+        [
+          -62.5,
+          -10.789999961853027,
+          -46.0
+        ],
+        [
+          62.5,
+          79.66534423828125,
+          5.445000171661377
+        ]
+      ]
+    },
+    "print": {
+      "sha256": "9d5927a73bad887234a6f7a71fc506939034a4350210e17593589d0a220c1cfb",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 57417.82014694776,
+      "bounds_mm": [
+        [
+          2.1316282072803006e-14,
+          0.0,
+          2.1316282072803006e-14
+        ],
+        [
+          125.0,
+          90.4553451538086,
+          51.44499969482422
+        ]
+      ]
+    }
+  },
+  "status": "geometry checks; physical qualification recorded separately",
+  "pose_surface_match": true,
+  "mesh_tessellation_tolerance_mm": 0.05,
+  "recorded_checks_pass": true
+}

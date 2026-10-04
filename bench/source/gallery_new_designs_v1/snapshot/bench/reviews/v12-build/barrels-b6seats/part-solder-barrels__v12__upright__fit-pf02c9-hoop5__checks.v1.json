@@ -1,0 +1,152 @@
+{
+ "name": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5",
+ "mesh": {
+  "watertight": true,
+  "bodies": 1,
+  "volume_cm3": 135.41,
+  "passed": true
+ },
+ "pose_matrix_error_mm": 0.0,
+ "overhangs": {
+  "features": [],
+  "peg_area_mm2": 170.4,
+  "other_area_mm2": 0.0,
+  "passed": true
+ },
+ "mass": {
+  "solid_asa_g": 144.9,
+  "glued_asa_g": 0.0
+ },
+ "tools": [
+  {
+   "id": "flux",
+   "sampled": 1957,
+   "deepest_mm": -0.061,
+   "fit_passed": true,
+   "contacts": 90,
+   "contact_bbox": [
+    [
+     27.5,
+     42.6,
+     -111.6
+    ],
+    [
+     46.5,
+     60.4,
+     -108.5
+    ]
+   ],
+   "com": [
+    37.0,
+    39.8,
+    -41.0
+   ],
+   "com_over_contacts": false,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0.0,
+      -3.1257,
+      17.7265
+     ],
+     [
+      0.0,
+      80.0,
+      0.0
+     ]
+    ],
+    "min_clearance_mm": 0.617,
+    "at_offset": [
+     0.0,
+     -1.4,
+     7.9
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "paste",
+   "sampled": 1747,
+   "deepest_mm": -0.06,
+   "fit_passed": true,
+   "contacts": 86,
+   "contact_bbox": [
+    [
+     -7.5,
+     44.6,
+     -105.2
+    ],
+    [
+     7.5,
+     58.2,
+     -102.9
+    ]
+   ],
+   "com": [
+    -0.0,
+    42.7,
+    -51.1
+   ],
+   "com_over_contacts": false,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0.0,
+      -3.1257,
+      17.7265
+     ],
+     [
+      0.0,
+      80.0,
+      0.0
+     ]
+    ],
+    "min_clearance_mm": 0.618,
+    "at_offset": [
+     0.0,
+     -0.3,
+     2.0
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "sucker",
+   "sampled": 1158,
+   "deepest_mm": -0.57,
+   "fit_passed": true,
+   "contacts": 0,
+   "com": [
+    -37.0,
+    42.8,
+    -46.6
+   ],
+   "com_over_contacts": false,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0.0,
+      -3.1257,
+      17.7265
+     ],
+     [
+      0.0,
+      80.0,
+      0.0
+     ]
+    ],
+    "min_clearance_mm": 0.647,
+    "at_offset": [
+     0.0,
+     -0.3,
+     2.0
+    ],
+    "passed": true
+   }
+  }
+ ],
+ "passed": true
+}

@@ -1,0 +1,342 @@
+{
+  "cases": [
+    {
+      "name": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5",
+      "pose": "right-cheek",
+      "print_file": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+      "pose_matrix": [
+        6.123233995736766e-17,
+        0.0,
+        -1.0,
+        24.744258255938217,
+        0.0,
+        1.0,
+        0.0,
+        10.79,
+        1.0,
+        0.0,
+        6.123233995736766e-17,
+        24.400000000000034,
+        0,
+        0,
+        0,
+        1
+      ],
+      "volume_mm3": 56119.69663497089,
+      "solid_mass_asa_g": 60.04807539941885,
+      "bounds_installed": [
+        -24.4,
+        -10.79,
+        -65.66685021417948,
+        24.4,
+        135.57866853353005,
+        24.744158722068686
+      ],
+      "print_bounds": [
+        90.413,
+        146.37,
+        48.801
+      ],
+      "files": [
+        {
+          "file": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__installed.stl",
+          "facets": 23924,
+          "volume_error_fraction": 2.2923835979674002e-05,
+          "sha256": "eca95b4e2ccbc8d24279084c4e4647acddb07641f703f52f2e943cdf70a189de"
+        },
+        {
+          "file": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+          "facets": 23924,
+          "volume_error_fraction": 1.1786926170760787e-05,
+          "sha256": "a8d4ea8dbd3124aa291f684740758aacd2e19325daa81623b1c3c2c8e29e5657"
+        }
+      ],
+      "receiver": {
+        "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "top": {
+          "upper_ribs_mm": 0.5,
+          "clamp_mm": 0.49
+        },
+        "columns_x_mm": [
+          -12.7,
+          12.7
+        ],
+        "plate": {
+          "x0": -24.4,
+          "x1": 24.4,
+          "y0": 0.15,
+          "y1": 5.55,
+          "z0": -56.68,
+          "z1": 5.12
+        },
+        "hoop": {
+          "concept": "HOOP",
+          "arm_mm": 0.8,
+          "tip_half": 2.0,
+          "even_catch_wall": true,
+          "ramp_wall": true,
+          "nose_mm": 0.9,
+          "root_gusset_mm": 0.4,
+          "body_ribs_mm": 0.3,
+          "orientation": "hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z",
+          "detail": {
+            "width_across_barbs_mm": 7.35,
+            "catch_angle_deg": 55,
+            "catch_length_mm": 0.6476919728439815,
+            "ramp_angle_deg": 15.592255624701878,
+            "crest_y_mm": [
+              -4.487691972843981,
+              -4.787691972843981
+            ],
+            "catch_bearing_per_side_mm": 0.5,
+            "nose_mm": 0.9,
+            "ramp_wall_mm": 0.8,
+            "min_wall_mm": 0.8,
+            "root_gusset_mm": 0.4,
+            "root_gusset_length_mm": 1.5,
+            "arm_mm": 0.8,
+            "closed_nose_mm": 0.9,
+            "band_half_height_mm": 1.4,
+            "root_clip_radius_mm": 2.95,
+            "cheek_offset_down_mm": 0.1
+          }
+        },
+        "rows": {
+          "hooks": [
+            0
+          ],
+          "bearing": [],
+          "hoop": [
+            2
+          ],
+          "empty": [
+            1
+          ]
+        },
+        "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+      },
+      "id": "inward20-v2-A4p0",
+      "lean_mm": 4.0,
+      "lean_definition": "Reference right-arm outer edge to cheek in receiving frame; not universal slot width",
+      "fore_aft_pitch_deg": 20.0,
+      "lateral_cant_in_receiving_frame_deg": 15,
+      "global_lateral_plane_angle_deg": 15.915265864261167,
+      "receiving_transform": {
+        "base": [
+          0.0,
+          25.63839854364563,
+          -40.420201433256686
+        ],
+        "quaternion": [
+          0.17364817766693033,
+          0.0,
+          0.0,
+          0.984807753012208
+        ]
+      },
+      "tool_pose": {
+        "base": [
+          -18.012450494169574,
+          146.35431732930178,
+          11.98548020497303
+        ],
+        "quaternion": [
+          0.690749222391131,
+          -0.09415597153889993,
+          0.7008099978050868,
+          -0.15121346423532508
+        ]
+      },
+      "tray_pitch_vertical_mm": 23.0,
+      "receiving_equivalence": [
+        {
+          "tray": 1,
+          "floor_mm3": 0.0,
+          "pocket_mm3": 0.0,
+          "wedge_mm3": 0.0
+        },
+        {
+          "tray": 2,
+          "floor_mm3": 0.0,
+          "pocket_mm3": 0.0,
+          "wedge_mm3": 0.0
+        }
+      ],
+      "tools": [
+        "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__tool-1.stl",
+        "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__tool-2.stl"
+      ],
+      "wedges": [
+        "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__wedge-1__installed.stl",
+        "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__wedge-2__installed.stl"
+      ],
+      "wedge_print": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__wedge__print.stl",
+      "wedge_count": 2,
+      "wedge_volume_mm3": 440.38342946606343,
+      "peg_symmetric_difference_mm3": 0.0,
+      "removal": {
+        "lift_mm": 6.5,
+        "lift_direction": [
+          0,
+          0,
+          1
+        ],
+        "out_distance_mm": 135,
+        "out_direction": [
+          0.0,
+          0.9396926207859084,
+          0.3420201433256687
+        ],
+        "reverse_for_insertion": true
+      },
+      "added_tip_clearance_global_y_mm": 19.05,
+      "translation_from_v1_mm": [
+        0.0,
+        19.049999999999997,
+        0.0
+      ],
+      "v1_comparison": {
+        "candidate": "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v1/candidate.json",
+        "sha256": "e4e3191fe5f990e0aae7ffea2a285f77840a29665fdab05ce14ec393f91becf4",
+        "orientation_unchanged": true,
+        "plate_gap_before_mm": 4.0,
+        "plate_gap_after_mm": 23.05
+      },
+      "clearance_meshes": {
+        "plate-region": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-plate-region.stl",
+        "root-corner": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-corner.stl",
+        "root-web-1": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-web-1.stl",
+        "root-web-2": "part-tweezers__inward20-v2-A4p0__right-cheek__fit-pf02c9-hoop5__clearance-root-web-2.stl"
+      },
+      "cheek": {
+        "thickness_mm": 3,
+        "perimeter_rise_mm": 12,
+        "outer_radius_mm": 2.5,
+        "window_radius_mm": 2.2,
+        "outline_yz_mm": [
+          [
+            5.25,
+            -56.68
+          ],
+          [
+            5.25,
+            5.12
+          ],
+          [
+            12.0,
+            5.12
+          ],
+          [
+            32.0,
+            -5.171134898108022
+          ],
+          [
+            135.57866853353005,
+            25.594784390251075
+          ],
+          [
+            135.57866853353005,
+            -32.40521560974892
+          ],
+          [
+            75.0,
+            -61.0
+          ],
+          [
+            25.0,
+            -65.71892653797144
+          ]
+        ],
+        "windows_yz_mm": [
+          [
+            [
+              18,
+              -42
+            ],
+            [
+              18,
+              -9
+            ],
+            [
+              65.12526054430553,
+              -7.048159020439304
+            ],
+            [
+              65.12526054430553,
+              -32.0481590204393
+            ]
+          ],
+          [
+            [
+              27,
+              -57.99098606943903
+            ],
+            [
+              65.12526054430553,
+              -51.0481590204393
+            ],
+            [
+              65.12526054430553,
+              -41.0481590204393
+            ]
+          ],
+          [
+            [
+              75.12526054430553,
+              -18.90845667777728
+            ],
+            [
+              128.57866853353005,
+              0.546992750387659
+            ],
+            [
+              128.57866853353005,
+              9.046992750387659
+            ],
+            [
+              75.12526054430553,
+              -10.40845667777728
+            ]
+          ],
+          [
+            [
+              75.12526054430553,
+              -41.90845667777728
+            ],
+            [
+              128.57866853353005,
+              -22.45300724961234
+            ],
+            [
+              128.57866853353005,
+              -13.953007249612341
+            ],
+            [
+              75.12526054430553,
+              -33.40845667777728
+            ]
+          ]
+        ]
+      },
+      "sources": {
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v2.py": "8deb1147a995696ab0277840f15d0bba2563df92f2dafea12856dcb194609e3b",
+        "/home/repro/code/peg-bt2/bench/source/tweezers_v11/holder.py": "faf0a3671df579e94ac60a7ba7136bbf1217099b48bdc644a29ce6419050f1af",
+        "/home/repro/code/peg-bt2/bench/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+        "/home/repro/code/peg-bt2/bench/reviews/v8-regen/tweezers_open_rest.stl": "88321d270d8dbaab1346bcbb2c2bc7c263230ca2aa050968aaa21308bceb5201"
+      }
+    }
+  ],
+  "runtime": {
+    "FreeCAD": [
+      "1",
+      "1",
+      "3",
+      "44987 (Git)",
+      "https://github.com/FreeCAD/FreeCAD.git",
+      "2026/07/25 04:52:02",
+      "(HEAD detached at 1.1.3)",
+      "145529fe741292ff0b3977a01195bf0247425794"
+    ],
+    "OpenCascade": "7.8.1"
+  }
+}

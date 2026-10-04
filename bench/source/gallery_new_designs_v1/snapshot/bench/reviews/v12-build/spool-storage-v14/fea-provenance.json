@@ -1,0 +1,16 @@
+{
+  "files": {
+    "/home/repro/code/peg-bt2/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step": "a41a4e206dd3d855b8bf47fdd5362eca81dbaeab4042ba143db442305a3e33e7",
+    "/home/repro/code/peg-bt2/bench/reviews/v12-build/spool-storage-v14/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__fea-spec.json": "ea55439921711250843b9c12fb937d457bdf8875430944f60fd923d25d9b98cd",
+    "/home/repro/code/peg-bt2/bench/source/solder_v12/spool_storage_v14_fea.py": "b4706141ea7244c50cd393c1312ceec4842109d9b101ddba6c879d66bd0da433",
+    "/home/repro/code/peg-bt2/bench/source/solder_v12/fea.py": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1",
+    "/app/bin/gmsh": "e2961faf58ad55bcd4c998f3323d06d5da5f8fefae528467a2312ef9f01d9057",
+    "/app/bin/ccx": "435dfc7910ea01ea6400a427d15d6b19ac68700be903063ba8961b9729572f28"
+  },
+  "scope": "Linear static fixed cradle stiffness only. No spring or release mechanism.",
+  "limits": [
+    "Solid isotropic ASA E1800 MPa nu.35",
+    "Peg nodes Y<.10 fixed",
+    "No infill, layer, contact, strength, impact or convergence qualification"
+  ]
+}

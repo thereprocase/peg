@@ -1,0 +1,106 @@
+{
+ "name": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5",
+ "title": "v12 barrels, B6 seats kept",
+ "pose": "upright",
+ "pose_matrix": [
+  1.0,
+  0.0,
+  0.0,
+  62.5,
+  0.0,
+  1.0,
+  0.0,
+  10.79,
+  0.0,
+  0.0,
+  1.0,
+  120.00000000000001,
+  0,
+  0,
+  0,
+  1
+ ],
+ "installed": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__installed.stl",
+ "print": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+ "glued": [],
+ "glued_print": [],
+ "tools": [
+  {
+   "id": "flux",
+   "stl": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-flux.stl",
+   "colour": "#d9b26a",
+   "seat": {
+    "gravity": true,
+    "captured": true
+   },
+   "removal": [
+    [
+     0.0,
+     -3.1257,
+     17.7265
+    ],
+    [
+     0.0,
+     80.0,
+     0.0
+    ]
+   ],
+   "samples": 4000,
+   "note": "Stands on the B6 ledge and leans 10 deg back into the B6 ring and cup bore (0.65 mm radial play): captured, as on B6."
+  },
+  {
+   "id": "paste",
+   "stl": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-paste.stl",
+   "colour": "#8fb3d9",
+   "seat": {
+    "gravity": true,
+    "captured": true
+   },
+   "removal": [
+    [
+     0.0,
+     -3.1257,
+     17.7265
+    ],
+    [
+     0.0,
+     80.0,
+     0.0
+    ]
+   ],
+   "samples": 4000,
+   "note": "Stands on the B6 ledge and leans 10 deg back into the B6 ring and cup bore (0.65 mm radial play): captured, as on B6."
+  },
+  {
+   "id": "sucker",
+   "stl": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__tool-sucker.stl",
+   "colour": "#c97b6b",
+   "seat": {
+    "gravity": true,
+    "captured": true
+   },
+   "removal": [
+    [
+     0.0,
+     -3.1257,
+     17.7265
+    ],
+    [
+     0.0,
+     80.0,
+     0.0
+    ]
+   ],
+   "samples": 4000,
+   "note": "Stands on the B6 ledge and leans 10 deg back into the B6 ring and cup bore (0.65 mm radial play): captured, as on B6."
+  }
+ ],
+ "overhang_exceptions": [],
+ "render_notes": {
+  "loaded": "B6 seats kept: lift 18 mm along the tool, then straight out. Flux (amber), paste (blue), sucker (red).",
+  "empty": "Rings on U-channels along each tool axis; 50 deg corbels; 1 mm front-edge chamfers; triangulated cheeks; bed floor.",
+  "front": "Nozzles down into the drip tray below; nothing in front of the barrels.",
+  "side": "Tool axes lean 10 deg toward the board; cheeks: 50 deg rail + diagonal from the plate foot to the ring.",
+  "print": "Flat bottom on the bed (floor front corners rounded r 8); only the pegs need support."
+ }
+}

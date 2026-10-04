@@ -1,0 +1,26 @@
+{
+ "file": "print/slice-v12/V12-drip-tray-ASA/V12-drip-tray-ASA.gcode.3mf",
+ "minutes": 125.9,
+ "layers": 257,
+ "filament_g": 41.03,
+ "support_g": 1.43,
+ "support_fraction": 0.033,
+ "bridge_g": 0.01,
+ "internal_bridge_g": 2.64,
+ "overhang_wall_g": 0.01,
+ "grams_by_feature": {
+  "Internal solid infill": 11.31,
+  "Inner wall": 8.06,
+  "Outer wall": 7.83,
+  "Sparse infill": 7.62,
+  "Internal Bridge": 2.64,
+  "Bottom surface": 1.92,
+  "Top surface": 1.83,
+  "Support": 1.41,
+  "Brim": 0.37,
+  "Custom": 0.03,
+  "Support interface": 0.02,
+  "Overhang wall": 0.01,
+  "Bridge": 0.01
+ }
+}

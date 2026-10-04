@@ -1,0 +1,282 @@
+{
+ "name": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 2.0,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 205751,
+   "elements": 111759,
+   "fixed_nodes": 5792,
+   "loads": [
+    {
+     "id": "wag-paste-ring",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      11.15,
+      51.878,
+      -58.328
+     ],
+     "what": "5 N sideways at the paste ring front",
+     "deflection_at_load_mm": 0.3105,
+     "stiffness_N_per_mm": 16.1,
+     "max_deflection_mm": 0.352,
+     "max_at": [
+      8.2,
+      54.6,
+      -55.8
+     ]
+    },
+    {
+     "id": "press-paste-ring",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      11.15,
+      51.878,
+      -58.328
+     ],
+     "what": "5 N down at the paste ring front",
+     "deflection_at_load_mm": 0.1223,
+     "stiffness_N_per_mm": 40.9,
+     "max_deflection_mm": 0.1824,
+     "max_at": [
+      8.2,
+      54.6,
+      -55.8
+     ]
+    },
+    {
+     "id": "wag-paste-cup",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      11.15,
+      62.15,
+      -93.0
+     ],
+     "what": "5 N sideways at the paste cup front",
+     "deflection_at_load_mm": 0.1022,
+     "stiffness_N_per_mm": 48.9,
+     "max_deflection_mm": 0.1213,
+     "max_at": [
+      11.2,
+      52.5,
+      -56.2
+     ]
+    },
+    {
+     "id": "press-paste-cup",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      11.15,
+      62.15,
+      -93.0
+     ],
+     "what": "5 N down at the paste cup front",
+     "deflection_at_load_mm": 0.1586,
+     "stiffness_N_per_mm": 31.5,
+     "max_deflection_mm": 0.1961,
+     "max_at": [
+      8.2,
+      54.6,
+      -55.8
+     ]
+    },
+    {
+     "id": "wag-sucker-ring",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      -23.35,
+      52.429,
+      -45.111
+     ],
+     "what": "5 N sideways at the sucker ring front",
+     "deflection_at_load_mm": 0.3256,
+     "stiffness_N_per_mm": 15.4,
+     "max_deflection_mm": 0.3709,
+     "max_at": [
+      -26.4,
+      55.1,
+      -42.6
+     ]
+    },
+    {
+     "id": "press-sucker-ring",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      -23.35,
+      52.429,
+      -45.111
+     ],
+     "what": "5 N down at the sucker ring front",
+     "deflection_at_load_mm": 0.0913,
+     "stiffness_N_per_mm": 54.7,
+     "max_deflection_mm": 0.1329,
+     "max_at": [
+      -26.4,
+      55.1,
+      -42.6
+     ]
+    },
+    {
+     "id": "wag-sucker-cup",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      -23.35,
+      64.65,
+      -84.0
+     ],
+     "what": "5 N sideways at the sucker cup front",
+     "deflection_at_load_mm": 0.1187,
+     "stiffness_N_per_mm": 42.1,
+     "max_deflection_mm": 0.1281,
+     "max_at": [
+      -24.4,
+      62.9,
+      -82.0
+     ]
+    },
+    {
+     "id": "press-sucker-cup",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      -23.35,
+      64.65,
+      -84.0
+     ],
+     "what": "5 N down at the sucker cup front",
+     "deflection_at_load_mm": 0.1097,
+     "stiffness_N_per_mm": 45.6,
+     "max_deflection_mm": 0.1341,
+     "max_at": [
+      -26.4,
+      55.1,
+      -42.6
+     ]
+    },
+    {
+     "id": "wag-flux-ring",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      50.15,
+      52.045,
+      -56.176
+     ],
+     "what": "5 N sideways at the flux ring front",
+     "deflection_at_load_mm": 0.2964,
+     "stiffness_N_per_mm": 16.9,
+     "max_deflection_mm": 0.3486,
+     "max_at": [
+      47.2,
+      54.8,
+      -53.7
+     ]
+    },
+    {
+     "id": "press-flux-ring",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      50.15,
+      52.045,
+      -56.176
+     ],
+     "what": "5 N down at the flux ring front",
+     "deflection_at_load_mm": 0.1326,
+     "stiffness_N_per_mm": 37.7,
+     "max_deflection_mm": 0.1937,
+     "max_at": [
+      47.2,
+      54.8,
+      -53.7
+     ]
+    },
+    {
+     "id": "wag-flux-cup",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      50.15,
+      64.15,
+      -99.0
+     ],
+     "what": "5 N sideways at the flux cup front",
+     "deflection_at_load_mm": 0.0765,
+     "stiffness_N_per_mm": 65.3,
+     "max_deflection_mm": 0.0913,
+     "max_at": [
+      49.2,
+      63.1,
+      -97.0
+     ]
+    },
+    {
+     "id": "press-flux-cup",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      50.15,
+      64.15,
+      -99.0
+     ],
+     "what": "5 N down at the flux cup front",
+     "deflection_at_load_mm": 0.174,
+     "stiffness_N_per_mm": 28.7,
+     "max_deflection_mm": 0.2045,
+     "max_at": [
+      47.2,
+      54.8,
+      -53.7
+     ]
+    }
+   ]
+  }
+ ]
+}

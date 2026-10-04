@@ -1,0 +1,20 @@
+{
+  "id": "TOOL-FUNNEL-V3",
+  "pass": true,
+  "native": [
+    {
+      "role": "installed_step",
+      "file": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        48.8,
+        100.56268042293567,
+        69.44500009999999
+      ],
+      "volume_mm3": 71477.25641547475
+    }
+  ],
+  "note": "STEP is frozen original export; no geometry regeneration."
+}

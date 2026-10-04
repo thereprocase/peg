@@ -1,0 +1,11 @@
+{
+  "inverted-slope5-flat-v1": {
+    "cap_removal_mm": 0.8,
+    "seat_slope_deg": 5.0,
+    "scope": "Opt-in peg tip cut parallel to a flat seat rising 5 degrees away from the board. Cap depth measured normal to the seat. Match the receiving body's print plane to the returned plane."
+  },
+  "inverted-top-flat-v1": {
+    "cap_removal_mm": 0.8,
+    "scope": "Opt-in print-face variant: truncate only the top of the canonical retaining tongue. Match the holder top to the returned cut plane. Local supports remain allowed. Does not replace the canonical interference-fit authority."
+  }
+}

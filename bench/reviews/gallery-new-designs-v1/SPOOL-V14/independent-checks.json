@@ -1,0 +1,45 @@
+{
+  "id": "SPOOL-V14",
+  "mesh": {
+    "installed": {
+      "sha256": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 29166.607750559924,
+      "bounds_mm": [
+        [
+          -24.399999618530273,
+          -10.789999961853027,
+          -71.5999984741211
+        ],
+        [
+          24.399999618530273,
+          61.599998474121094,
+          5.445000171661377
+        ]
+      ]
+    },
+    "print": {
+      "sha256": "8db348453f14c18d7232dd2590a837d583cf4ccd296bb33ec72081c7acfab014",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 29166.60962195293,
+      "bounds_mm": [
+        [
+          -8.881784197001252e-16,
+          0.0,
+          3.552713678800501e-15
+        ],
+        [
+          77.04499816894531,
+          72.38999938964844,
+          48.79999923706055
+        ]
+      ]
+    }
+  },
+  "status": "geometry checks; physical qualification recorded separately",
+  "pose_surface_match": true,
+  "mesh_tessellation_tolerance_mm": 0.05,
+  "recorded_checks_pass": true
+}

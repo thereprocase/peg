@@ -1,0 +1,178 @@
+{
+  "pass": true,
+  "products": 6,
+  "checks": [
+    {
+      "id": "SPOOL-V14",
+      "pass": true,
+      "native": [
+        {
+          "role": "installed_step",
+          "file": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step",
+          "sha256": "a41a4e206dd3d855b8bf47fdd5362eca81dbaeab4042ba143db442305a3e33e7",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            48.800000000006804,
+            72.3900000000173,
+            77.04499999999999
+          ],
+          "volume_mm3": 29167.07623883393
+        },
+        {
+          "role": "print_step",
+          "file": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+          "sha256": "b598dd6bbc4e27e07ba5eba66287b0bf2badbbcbca35154b8e5c370a1a91273c",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            77.045,
+            72.39000000001731,
+            48.800000000004395
+          ],
+          "volume_mm3": 29167.076238818092
+        }
+      ],
+      "note": "STEP is frozen original export; no geometry regeneration."
+    },
+    {
+      "id": "TW-GUIDED-V5",
+      "pass": true,
+      "native": [
+        {
+          "role": "installed_step",
+          "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+          "sha256": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            48.800000000000125,
+            146.36866853352998,
+            157.28976688479
+          ],
+          "volume_mm3": 108645.30727131231
+        },
+        {
+          "role": "print_step",
+          "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+          "sha256": "43380f4ab0abf39b89f9abcaf2928b76ff30a05a76722c0c897efe14afec904b",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            157.28976688484,
+            146.36866853353,
+            48.80000000000013
+          ],
+          "volume_mm3": 108645.30727130536
+        }
+      ],
+      "note": "STEP is frozen original export; no geometry regeneration."
+    },
+    {
+      "id": "TOOL-FUNNEL-V3",
+      "pass": true,
+      "native": [
+        {
+          "role": "installed_step",
+          "file": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+          "sha256": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            48.8,
+            100.56268042293567,
+            69.44500009999999
+          ],
+          "volume_mm3": 71477.25641547475
+        }
+      ],
+      "note": "STEP is frozen original export; no geometry regeneration."
+    },
+    {
+      "id": "BRAID-V12",
+      "pass": true,
+      "native": [
+        {
+          "role": "installed_step",
+          "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+          "sha256": "939e686e1a25e92761196e204297c487d9f525cace2ad53baad88a95970047bc",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            48.8,
+            65.9256,
+            42.95320000000003
+          ],
+          "volume_mm3": 16465.77078433363
+        },
+        {
+          "role": "print_step",
+          "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+          "sha256": "93b0ae18afaf2754a877d5a4d7ad08e580a6beb30e0278b3c50ebf7a3a74f86c",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            42.95320000000003,
+            65.9256,
+            48.8
+          ],
+          "volume_mm3": 16465.77078432987
+        }
+      ],
+      "note": "STEP is frozen original export; no geometry regeneration."
+    },
+    {
+      "id": "DRIP-TRAY-V12",
+      "pass": true,
+      "native": [
+        {
+          "role": "installed_step",
+          "file": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+          "sha256": "8ad2945515c40c733ac4b6234bc8be9d9463a1214e18edb919f8e57b50d00eb2",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            125.0,
+            90.45534684439832,
+            51.445
+          ],
+          "volume_mm3": 57417.93237220655
+        },
+        {
+          "role": "print_step",
+          "file": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+          "sha256": "04c04054e1cf80923e92bedaca9f021277a9d5ab215647da13b46cdac8351647",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            125.0,
+            90.455346844396,
+            51.445
+          ],
+          "volume_mm3": 57417.93237220473
+        }
+      ],
+      "note": "STEP is frozen original export; no geometry regeneration."
+    },
+    {
+      "id": "LINER-V12",
+      "pass": true,
+      "native": [
+        {
+          "role": "print_step",
+          "file": "part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+          "sha256": "66b5936e684f512fb7f34d887608aaef30bf4a6bbca139409b7de2df3de1dc2c",
+          "valid": true,
+          "solids": 1,
+          "bounds_mm": [
+            116.20000019999999,
+            63.450000200000005,
+            20.000000200000002
+          ],
+          "volume_mm3": 135356.4986295277
+        }
+      ],
+      "note": "Filled vase print template; display in-use hollow mesh is intentionally different."
+    }
+  ]
+}

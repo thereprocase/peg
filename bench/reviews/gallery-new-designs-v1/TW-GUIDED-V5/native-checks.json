@@ -1,0 +1,33 @@
+{
+  "id": "TW-GUIDED-V5",
+  "pass": true,
+  "native": [
+    {
+      "role": "installed_step",
+      "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        48.800000000000125,
+        146.36866853352998,
+        157.28976688479
+      ],
+      "volume_mm3": 108645.30727131231
+    },
+    {
+      "role": "print_step",
+      "file": "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "sha256": "43380f4ab0abf39b89f9abcaf2928b76ff30a05a76722c0c897efe14afec904b",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        157.28976688484,
+        146.36866853353,
+        48.80000000000013
+      ],
+      "volume_mm3": 108645.30727130536
+    }
+  ],
+  "note": "STEP is frozen original export; no geometry regeneration."
+}

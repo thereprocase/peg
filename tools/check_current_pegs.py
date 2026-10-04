@@ -19,20 +19,20 @@ def main():
     for part in catalog['parts']:
         assert part['id'] not in seen, part['id']
         seen.add(part['id'])
-        assert part['pose'] in {'upright', 'right-cheek', 'flat-top', 'inverted-flat-top'}, part['id']
+        assert part['pose'] in {'upright', 'right-cheek', 'flat-top', 'inverted-flat-top', 'vase'}, part['id']
         assert len(part['print_bounds_mm']) == 3
         assert all(math.isfinite(float(n)) and n > 0 for n in part['print_bounds_mm'])
-        assert part['fit_label'] == 'PF02 #9 / PF07 #5', part['id']
+        assert part['fit_label'] == ('Removable accessory · no pegs' if part.get('kind') == 'accessory' else 'PF02 #9 / PF07 #5'), part['id']
         for note in ['orientation', 'upper_pegs', 'supports', 'mount', 'qualification']:
             assert part['notes'][note].strip(), (part['id'], note)
         assert 'physical' in part['notes']['qualification'].lower(), part['id']
         for role in ['installed_glb', 'print_glb', 'preview_png', 'print_stl',
-                     'installed_stl', 'installed_step', 'print_step', 'cad_bundle', 'checks']:
+                     'installed_stl', 'cad_bundle', 'checks'] + ([role for role in ['installed_step', 'print_step'] if role in part['assets']]):
             address = part['assets'][role]
             parsed = urlsplit(address)
             if parsed.scheme:
                 assert address.startswith('https://github.com/thereprocase/peg/releases/download/'), address
-                assert any(tag in address for tag in ['current-pegs-v1-2026-10-04/', 'p09-36-current-pegs-v1-2026-10-04/', 'p09-36-flat-top-v2-2026-10-04/', 'current-pegs-v2-2026-10-04/']), address
+                assert any(tag in address for tag in ['current-pegs-v1-2026-10-04/', 'p09-36-current-pegs-v1-2026-10-04/', 'p09-36-flat-top-v2-2026-10-04/', 'current-pegs-v2-2026-10-04/', 'new-designs-v1-2026-10-04/']), address
                 name = unquote(parsed.path.rsplit('/', 1)[-1])
                 assert name in assets, name
                 assert address in moves.values(), address

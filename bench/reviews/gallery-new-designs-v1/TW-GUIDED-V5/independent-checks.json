@@ -1,0 +1,46 @@
+{
+  "id": "TW-GUIDED-V5",
+  "mesh": {
+    "installed": {
+      "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 108645.50871602568,
+      "bounds_mm": [
+        [
+          -24.399999618530273,
+          -10.789999961853027,
+          -126.55811309814453
+        ],
+        [
+          24.399999618530273,
+          135.57867431640625,
+          30.731489181518555
+        ]
+      ]
+    },
+    "print": {
+      "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 108645.50086433899,
+      "bounds_mm": [
+        [
+          4.51146115665324e-05,
+          0.0,
+          -3.552713678800501e-15
+        ],
+        [
+          157.28964233398438,
+          146.36866760253906,
+          48.79999923706055
+        ]
+      ]
+    }
+  },
+  "status": "geometry checks; physical qualification recorded separately",
+  "pose_surface_match": true,
+  "mesh_tessellation_tolerance_mm": 0.05,
+  "recorded_checks_pass": true,
+  "four_fins_required": true
+}

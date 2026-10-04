@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "tools": [
+    {
+      "id": "knipex-open0",
+      "contacts": [
+        {
+          "component": "moving_grip_red",
+          "penetration_after_008mm_lowering_mm3": 9.575746551813459e-05,
+          "gap_mm": 0.002823040685682486
+        }
+      ],
+      "hardware": [
+        {
+          "component": "main_rivet",
+          "gap_mm": 2.3644227981567383,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "spring_limiter_ring",
+          "gap_mm": 2.5305771827697754,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "spring_limiter_pin",
+          "gap_mm": 2.672090565708346,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "board_gap_mm": 25.384929275512697,
+      "bottom_12mm_tip_gap_mm": 2.869422674179077,
+      "vertical_pickup": {
+        "lift_mm": 110,
+        "minimum_lift_mm": 63,
+        "samples": 56,
+        "max_intersection_mm3": 0.0,
+        "final_tip_above_rim_mm": 50.991750984191896
+      },
+      "passed": true
+    },
+    {
+      "id": "knipex-open10",
+      "contacts": [
+        {
+          "component": "moving_grip_red",
+          "penetration_after_008mm_lowering_mm3": 9.394583774062037e-05,
+          "gap_mm": 0.0027041635543537364
+        }
+      ],
+      "hardware": [
+        {
+          "component": "main_rivet",
+          "gap_mm": 2.3644227981567374,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "spring_limiter_ring",
+          "gap_mm": 2.5402042959213738,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "spring_limiter_pin",
+          "gap_mm": 2.7447119073567463,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "board_gap_mm": 16.694933187203507,
+      "bottom_12mm_tip_gap_mm": 2.8694226741790763,
+      "vertical_pickup": {
+        "lift_mm": 110,
+        "minimum_lift_mm": 62,
+        "samples": 56,
+        "max_intersection_mm3": 0.0,
+        "final_tip_above_rim_mm": 51.57072627524602
+      },
+      "passed": true
+    },
+    {
+      "id": "klein-open0",
+      "contacts": [
+        {
+          "component": "moving_grip_red",
+          "penetration_after_008mm_lowering_mm3": 0.0001693263090291219,
+          "gap_mm": 0.003218302585791542
+        }
+      ],
+      "hardware": [
+        {
+          "component": "main_rivet",
+          "gap_mm": 1.7501087188720703,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "opening_coil",
+          "gap_mm": 3.806261648194028,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "released_latch",
+          "gap_mm": 3.452072203820124,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "latch_pin",
+          "gap_mm": 3.492040029241545,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "board_gap_mm": 14.365792846679687,
+      "bottom_12mm_tip_gap_mm": 37.98975139687048,
+      "vertical_pickup": {
+        "lift_mm": 110,
+        "minimum_lift_mm": 107,
+        "samples": 56,
+        "max_intersection_mm3": 0.0,
+        "final_tip_above_rim_mm": 6.235421209335328
+      },
+      "passed": true
+    },
+    {
+      "id": "klein-open10",
+      "contacts": [
+        {
+          "component": "moving_grip_red",
+          "penetration_after_008mm_lowering_mm3": 0.00019541774962285893,
+          "gap_mm": 0.003418305338466904
+        }
+      ],
+      "hardware": [
+        {
+          "component": "main_rivet",
+          "gap_mm": 1.7501087188720694,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "opening_coil",
+          "gap_mm": 3.792356518078538,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "released_latch",
+          "gap_mm": 2.5057538957566092,
+          "intersection_mm3": 0.0
+        },
+        {
+          "component": "latch_pin",
+          "gap_mm": 3.4664843581355114,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "board_gap_mm": 8.19598338382456,
+      "bottom_12mm_tip_gap_mm": 36.609370584814265,
+      "vertical_pickup": {
+        "lift_mm": 110,
+        "minimum_lift_mm": 106,
+        "samples": 56,
+        "max_intersection_mm3": 0.0,
+        "final_tip_above_rim_mm": 7.624345852527128
+      },
+      "passed": true
+    }
+  ],
+  "body": {
+    "watertight": true,
+    "connected_bodies": 1,
+    "volume_mm3": 71476.58807704561
+  },
+  "printing": {
+    "watertight": true,
+    "pose_bounds_error_mm": 9.155273517080786e-07,
+    "supports": "Upright. Sleeve/web/plate share the bed; rounded exterior; nominal taper23.63deg and existing lower internal transition45deg. Rear pegs still require support review. Unsliced; no support/toolpath qualification."
+  },
+  "installation": {
+    "min_board_plane_gap_mm": 5.960464483090178e-09,
+    "samples": 2031,
+    "mesh_deflection_mm": 0.005,
+    "scope": "Bare front body sampled against board plane; unchanged interface checked separately"
+  },
+  "neighbors": {
+    "spacing_mm": 50.8,
+    "body_gap_mm": 2.0,
+    "tool_X_gap_mm": 34.014425325393674,
+    "grasp": "About 33 mm tool-to-tool gap; fingers extend beyond each tool. Physical grasp test pending."
+  },
+  "scope": "Nominal reference and illustrative +10 opening; grip-bearing witnesses, unloaded hardware/tips, sampled vertical route. No dynamic capture, exact resting equilibrium or physical fit certification.",
+  "inputs": {
+    "bench/reviews/knipex-engineering-model-v2/spring_limiter_ring.stl": "4768ea2ef94c65a5a3bb14b38ab5089886e9ba0daf484e427eb9a1f9a8753678",
+    "bench/reviews/knipex-engineering-model-v2/moving_grip_red.stl": "ccf46f984317e2408b8fe878396855a321d77534a90e65d0ea2c2b6d11167bc1",
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/candidate.json": "66eed8fe25b266040556ab745d7557aa3847c51e959c33940d6f099c90466904",
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+    "bench/reviews/knipex-engineering-model-v2/main_rivet.stl": "238057d1f60737f2ae27a8e38f035f882581e9dbc7f0fb2c0414c9389ccc030f",
+    "bench/reviews/klein-engineering-model-v2/fixed_grip_blue.stl": "1169576e8d1473c21ef8b1ffaf349d56ac21018d153eee8ca40c3187282952e8",
+    "bench/reviews/klein-engineering-model-v2/moving_grip_red.stl": "96845e7ac45247745f2fc3b36f2b13ae57da34525317d56fd9cbc0ca1d691925",
+    "bench/reviews/knipex-engineering-model-v2/moving_grip_blue.stl": "47ea164c44181359e9542eb3c512ffce3eecb358e92009fb6ce9aa7cfcc43515",
+    "/home/repro/code/peg-bt2/bench/source/tool_holders/rectangular_funnel_check_v1.py": "6bde39367ca8be0564108701c0da8438de3b8ca13ca7a573572da13ea6e12901",
+    "bench/reviews/knipex-engineering-model-v2/fixed_metal.stl": "f560e2e48ace279e4bef72ea43158857a82c7ed5684d319e7a5b81401207ff7f",
+    "bench/reviews/klein-engineering-model-v2/latch_pin.stl": "1354a241aa34ec53a28ab3453c6198775875bb4d2a921269acec68b6e8553e15",
+    "bench/reviews/klein-engineering-model-v2/moving_grip_blue.stl": "5e64e366be30820b6f66e24f5fec5cc7d305bcab90dead2cdea7682e8840bed3",
+    "bench/reviews/klein-engineering-model-v2/released_latch.stl": "f0e13802b934795c960e4bb2fc2ea8fe9c7d5c599c5e0039fd1e725bca080676",
+    "bench/reference/conformal_motion_results.json": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c",
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+    "bench/reviews/klein-engineering-model-v2/cad.json": "cd9395a86e33ca0f47fe99de033ed5c3613f8af76886fe9efac1188f1418e1c0",
+    "bench/reviews/knipex-engineering-model-v2/cad.json": "3db553d4945fd5c4e83d18bdda17c54dd88f39d0f65eb69f086e8c7864805a68",
+    "bench/reviews/klein-engineering-model-v2/coil-open-10.stl": "38682c617ee0bf22092a7e1d3b75613d4c610d959ed8d5479d176d337232a915",
+    "bench/reviews/klein-engineering-model-v2/opening_coil.stl": "b8fbc4f469cf83a94d8038e98086db1d3d8ec23338821e9bca27c46291005443",
+    "bench/reviews/knipex-engineering-model-v2/fixed_grip_red.stl": "822782971a65eee327d34476ec850907a5d1e970b1033c75516b69c1c281af23",
+    "bench/reviews/klein-engineering-model-v2/fixed_metal.stl": "1fa62d9aa16b970d7155e50241449617b7c881f9b595fa71d50dfcb5bcff24bb",
+    "bench/reviews/klein-engineering-model-v2/moving_metal.stl": "297c01bebcfbf5d661e9558271e57cea10096447d262b1766dfae58005963100",
+    "bench/reviews/klein-engineering-model-v2/fixed_grip_red.stl": "aa64c3437a229c03fba24958971203c3c1106be68d4b41b37b4fc608dfbf7ac9",
+    "bench/reviews/knipex-engineering-model-v2/moving_metal.stl": "e7eb05a6e3623acc21b3343803aaf2f3ed128f4628e9baecbb00c5cb75117bd6",
+    "bench/reviews/klein-engineering-model-v2/main_rivet.stl": "3cc682788c53259faf6e7915475733c4433ecdcf2e920f8a0786fda057a4c2df",
+    "bench/reviews/knipex-engineering-model-v2/spring_limiter_pin.stl": "cbdcc3dee6876568cd4925eb83e3b0d54a194079cf7c79e6c2e83aa2e0ed58ba",
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/front-material.stl": "1c19b43e829b43f846b88954d7bcc46b2d3423eb87ec8788b5e270f6c8b57975",
+    "bench/reviews/knipex-engineering-model-v2/fixed_grip_blue.stl": "40d3bd470e69ff11ec834a61b12a76aec637441f60d615b25d0c412ba9561e70",
+    "/home/repro/code/peg-bt2/bench/source/tool_holders/rectangular_funnel_check_v3.py": "8cf1d01683e117bb9816c0d408716bea833b229ce47167ea6564ef9c27ffdd10",
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/bed-contact.stl": "4a28b1741a8330a5a1232ca37c58ba58528fad031b13dbcf1dc282236da540bd"
+  },
+  "bed_contact": {
+    "body_45deg_transition_area_mm2": 203.64675298172568,
+    "facet_angle_tolerance_deg": 0.1,
+    "print_z_min_mm": 9.999999406318238e-08,
+    "contact_area_mm2": 1201.7014442941531,
+    "exact_CAD_contact_area_mm2": 1201.7031853071803,
+    "contact_area_error_mm2": 0.001741013027185545,
+    "contact_regions": 1,
+    "through_hole_area_mm2": 672.0,
+    "expected_bottom_hole_area_mm2": 672,
+    "body_downward_area_steeper_than_45deg_mm2": 0.0,
+    "peg_downward_area_steeper_than_45deg_mm2": 130.54417392355535,
+    "scope": "Complete print-mesh bed triangles at Z0; ordinary facet orientation screen, not layer/toolpath support qualification",
+    "passed": true
+  },
+  "upright_interface": {
+    "reference": "common.receiver(2,2,upright,z0=-64)",
+    "symmetric_difference_mm3": 0.0,
+    "v2_styling_symmetric_difference_mm3": 328.31388378689365,
+    "hoop": "Shared upright horizontal hoop, flex in X within XY print layers; unchanged from v2 upright hoop, physical installation/release test remains pending"
+  }
+}

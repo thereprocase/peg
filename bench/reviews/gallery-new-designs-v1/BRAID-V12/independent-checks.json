@@ -1,0 +1,45 @@
+{
+  "id": "BRAID-V12",
+  "mesh": {
+    "installed": {
+      "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 16465.159683927628,
+      "bounds_mm": [
+        [
+          -24.399999618530273,
+          -10.789999961853027,
+          -37.508201599121094
+        ],
+        [
+          24.399999618530273,
+          55.13560104370117,
+          5.445000171661377
+        ]
+      ]
+    },
+    "print": {
+      "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 16465.159724787092,
+      "bounds_mm": [
+        [
+          -8.881784197001252e-16,
+          0.0,
+          0.0
+        ],
+        [
+          42.95320129394531,
+          65.92559814453125,
+          48.79999923706055
+        ]
+      ]
+    }
+  },
+  "status": "geometry checks; physical qualification recorded separately",
+  "pose_surface_match": true,
+  "mesh_tessellation_tolerance_mm": 0.05,
+  "recorded_checks_pass": true
+}

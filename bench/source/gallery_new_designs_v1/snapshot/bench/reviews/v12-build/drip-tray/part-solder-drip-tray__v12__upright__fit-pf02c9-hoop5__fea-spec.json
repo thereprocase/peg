@@ -1,0 +1,99 @@
+{
+ "step": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+ "h": 2.0,
+ "supports": [
+  "pegs"
+ ],
+ "loads": [
+  {
+   "id": "wag",
+   "what": "5 N sideways at the lip centre, under the scallop (the liner bears on the lip: the farthest tool-bearing point)",
+   "point": [
+    0.0,
+    74.179,
+    -41.5
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press",
+   "what": "5 N down at the lip centre, under the scallop",
+   "point": [
+    0.0,
+    74.179,
+    -41.5
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "press-lip-beside",
+   "what": "5 N down on the full-height lip top 15 mm off centre (beside the scallop)",
+   "point": [
+    15.0,
+    73.96410161513775,
+    -38.5
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "press-floor",
+   "what": "5 N down on the floor centre under the liner",
+   "point": [
+    0.0,
+    40.0,
+    -44.0
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "press-corner",
+   "what": "5 N down on the lip near the right end",
+   "point": [
+    49.1,
+    73.96410161513775,
+    -38.5
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "poke-cheek",
+   "what": "5 N sideways (inward) on the right cheek top edge, mid-length",
+   "point": [
+    62.0,
+    42.607673422198005,
+    -15.99882668119374
+   ],
+   "radius": 3.0,
+   "force": [
+    -5,
+    0,
+    0
+   ]
+  }
+ ]
+}

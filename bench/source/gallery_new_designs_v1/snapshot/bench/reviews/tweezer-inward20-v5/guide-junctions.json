@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "method": "Read-only exact-STEP check of the aligned guide/front-floor termination planes.\n\nThis addresses the former 0.187 mm recessed guide end/triangular ledge; it is\nnot a general aesthetic or minimum-wall-thickness certificate.\n",
+  "stations": [
+    {
+      "station": 1,
+      "guide_end_U_mm": 134.18744562765124,
+      "target_front_plane_U_mm": 134.18744562765102,
+      "guide_end_offset_mm": 2.2737367544323206e-13,
+      "matching_body_front_faces": [
+        {
+          "area_mm2": 27.832713366327173,
+          "centre_mm": [
+            -16.92601515299283,
+            133.89026957735484,
+            24.47735162427097
+          ],
+          "plane_offset_mm": -8.72546479513403e-12
+        }
+      ],
+      "lower_guide_joins_preceding_floor": false,
+      "passed": true
+    },
+    {
+      "station": 2,
+      "guide_end_U_mm": 124.6108816145325,
+      "target_front_plane_U_mm": 124.61088161453229,
+      "guide_end_offset_mm": 2.1316282072803006e-13,
+      "matching_body_front_faces": [
+        {
+          "area_mm2": 63.88929956908242,
+          "centre_mm": [
+            -14.946285446530297,
+            133.27168500313172,
+            -1.8231012260076551
+          ],
+          "plane_offset_mm": -1.7337242752546445e-12
+        }
+      ],
+      "lower_guide_joins_preceding_floor": true,
+      "passed": true
+    },
+    {
+      "station": 3,
+      "guide_end_U_mm": 115.03431760141686,
+      "target_front_plane_U_mm": 115.03431760141356,
+      "guide_end_offset_mm": 3.296918293926865e-12,
+      "matching_body_front_faces": [
+        {
+          "area_mm2": 63.88929956910208,
+          "centre_mm": [
+            -14.946285446526538,
+            133.27168500312922,
+            -29.823101226000713
+          ],
+          "plane_offset_mm": -1.7053025658242404e-12
+        }
+      ],
+      "lower_guide_joins_preceding_floor": true,
+      "passed": true
+    },
+    {
+      "station": 4,
+      "guide_end_U_mm": 105.45775358829813,
+      "target_front_plane_U_mm": 105.45775358829485,
+      "guide_end_offset_mm": 3.282707439211663e-12,
+      "matching_body_front_faces": [
+        {
+          "area_mm2": 63.88929956910212,
+          "centre_mm": [
+            -14.946285446526533,
+            133.27168500312922,
+            -57.823101226000716
+          ],
+          "plane_offset_mm": -1.7195134205394424e-12
+        }
+      ],
+      "lower_guide_joins_preceding_floor": true,
+      "passed": true
+    }
+  ],
+  "earlier_fixed_U_end_mm": 134.0,
+  "selected_top_guide_U_end_mm": 134.18744562765102,
+  "former_step_removed_mm": 0.1874456276510159,
+  "inputs": {
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/candidate.json": "7fe8a4fc41a5ac39de5439fb110fb2d4731eb191207fc5f4a982b876b20f24c9",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+    "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5_junction_check.py": "c5bdea73142dace358c2f05321fd1e0e093cf2ba9a84704021735db5bc209e23",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-1.step": "c34015b07456776c2f74f20ba16365cad43dac2ebb2ade1c6e6eef45117ea182",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-2.step": "4b7bc3c0fa90521978feb6fdbe5fe5e1ad7d443f933bbda87921a36bf7ebb95b",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-3.step": "feb775a3d45b664787e0a032837bad1abe968cfb8acc4a95b106810a85c82b57",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/guide-4.step": "79250f448e69dd26039d85e10e791baea4b491240a6fa1fd48c421bcf67ea426"
+  },
+  "limits": [
+    "Exact coplanar termination proves removal of this offset ledge; inspect complete-body render for remaining joins",
+    "Peg seams and receiving geometry have separate generator comparisons"
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "meshes": [
+    {
+      "file": "holder.bin",
+      "vertices": 23016,
+      "indices": 122922,
+      "color": [
+        0.83,
+        0.62,
+        0.25
+      ],
+      "role": "holder",
+      "case": "all"
+    },
+    {
+      "file": "knipex-open0-fixed_metal.bin",
+      "vertices": 915,
+      "indices": 3102,
+      "color": [
+        0.69,
+        0.72,
+        0.75
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-fixed_grip_red.bin",
+      "vertices": 8641,
+      "indices": 50334,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-fixed_grip_blue.bin",
+      "vertices": 9520,
+      "indices": 56004,
+      "color": [
+        0.035,
+        0.16,
+        0.52
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-moving_metal.bin",
+      "vertices": 887,
+      "indices": 3006,
+      "color": [
+        0.69,
+        0.72,
+        0.75
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-moving_grip_red.bin",
+      "vertices": 8958,
+      "indices": 52188,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-moving_grip_blue.bin",
+      "vertices": 9402,
+      "indices": 55206,
+      "color": [
+        0.035,
+        0.16,
+        0.52
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-main_rivet.bin",
+      "vertices": 12180,
+      "indices": 71808,
+      "color": [
+        0.49,
+        0.52,
+        0.56
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-spring_limiter_ring.bin",
+      "vertices": 840,
+      "indices": 2520,
+      "color": [
+        0.15,
+        0.17,
+        0.2
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open0-spring_limiter_pin.bin",
+      "vertices": 420,
+      "indices": 1248,
+      "color": [
+        0.6,
+        0.63,
+        0.66
+      ],
+      "role": "tool",
+      "case": "knipex-open0"
+    },
+    {
+      "file": "knipex-open10-fixed_metal.bin",
+      "vertices": 915,
+      "indices": 3102,
+      "color": [
+        0.69,
+        0.72,
+        0.75
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-fixed_grip_red.bin",
+      "vertices": 8641,
+      "indices": 50334,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-fixed_grip_blue.bin",
+      "vertices": 9520,
+      "indices": 56004,
+      "color": [
+        0.035,
+        0.16,
+        0.52
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-moving_metal.bin",
+      "vertices": 887,
+      "indices": 3006,
+      "color": [
+        0.69,
+        0.72,
+        0.75
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-moving_grip_red.bin",
+      "vertices": 8958,
+      "indices": 52188,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-moving_grip_blue.bin",
+      "vertices": 9402,
+      "indices": 55206,
+      "color": [
+        0.035,
+        0.16,
+        0.52
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-main_rivet.bin",
+      "vertices": 12180,
+      "indices": 71808,
+      "color": [
+        0.49,
+        0.52,
+        0.56
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-spring_limiter_ring.bin",
+      "vertices": 840,
+      "indices": 2520,
+      "color": [
+        0.15,
+        0.17,
+        0.2
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "knipex-open10-spring_limiter_pin.bin",
+      "vertices": 420,
+      "indices": 1248,
+      "color": [
+        0.6,
+        0.63,
+        0.66
+      ],
+      "role": "tool",
+      "case": "knipex-open10"
+    },
+    {
+      "file": "klein-open0-fixed_metal.bin",
+      "vertices": 5787,
+      "indices": 18462,
+      "color": [
+        0.115,
+        0.14,
+        0.17
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-fixed_grip_red.bin",
+      "vertices": 492,
+      "indices": 1464,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-fixed_grip_blue.bin",
+      "vertices": 13023,
+      "indices": 77340,
+      "color": [
+        0.03,
+        0.24,
+        0.8
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-moving_metal.bin",
+      "vertices": 5709,
+      "indices": 18066,
+      "color": [
+        0.115,
+        0.14,
+        0.17
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-moving_grip_red.bin",
+      "vertices": 492,
+      "indices": 1464,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-moving_grip_blue.bin",
+      "vertices": 13934,
+      "indices": 82806,
+      "color": [
+        0.03,
+        0.24,
+        0.8
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-main_rivet.bin",
+      "vertices": 12180,
+      "indices": 71808,
+      "color": [
+        0.49,
+        0.52,
+        0.56
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-opening_coil.bin",
+      "vertices": 50198,
+      "indices": 299844,
+      "color": [
+        0.18,
+        0.2,
+        0.23
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-released_latch.bin",
+      "vertices": 776,
+      "indices": 2292,
+      "color": [
+        0.61,
+        0.63,
+        0.64
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open0-latch_pin.bin",
+      "vertices": 420,
+      "indices": 1248,
+      "color": [
+        0.52,
+        0.55,
+        0.58
+      ],
+      "role": "tool",
+      "case": "klein-open0"
+    },
+    {
+      "file": "klein-open10-fixed_metal.bin",
+      "vertices": 5787,
+      "indices": 18462,
+      "color": [
+        0.115,
+        0.14,
+        0.17
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-fixed_grip_red.bin",
+      "vertices": 492,
+      "indices": 1464,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-fixed_grip_blue.bin",
+      "vertices": 13023,
+      "indices": 77340,
+      "color": [
+        0.03,
+        0.24,
+        0.8
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-moving_metal.bin",
+      "vertices": 5709,
+      "indices": 18066,
+      "color": [
+        0.115,
+        0.14,
+        0.17
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-moving_grip_red.bin",
+      "vertices": 492,
+      "indices": 1464,
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-moving_grip_blue.bin",
+      "vertices": 13934,
+      "indices": 82806,
+      "color": [
+        0.03,
+        0.24,
+        0.8
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-main_rivet.bin",
+      "vertices": 12180,
+      "indices": 71808,
+      "color": [
+        0.49,
+        0.52,
+        0.56
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-opening_coil.bin",
+      "vertices": 49826,
+      "indices": 297612,
+      "color": [
+        0.18,
+        0.2,
+        0.23
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-released_latch.bin",
+      "vertices": 776,
+      "indices": 2292,
+      "color": [
+        0.61,
+        0.63,
+        0.64
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    },
+    {
+      "file": "klein-open10-latch_pin.bin",
+      "vertices": 420,
+      "indices": 1248,
+      "color": [
+        0.52,
+        0.55,
+        0.58
+      ],
+      "role": "tool",
+      "case": "klein-open10"
+    }
+  ],
+  "poses": [
+    {
+      "id": "knipex-open0",
+      "tool": "knipex",
+      "opening_deg": 0,
+      "basis": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        -0.8555772304534912,
+        48.0,
+        -49.008249015808104
+      ],
+      "bounds": [
+        [
+          -7.84175705909729,
+          25.534929275512695,
+          -69.0082490158081
+        ],
+        [
+          7.84175705909729,
+          75.90240478515625,
+          61.72175434112549
+        ]
+      ],
+      "lift_mm": 110,
+      "minimum_lift_mm": 63
+    },
+    {
+      "id": "knipex-open10",
+      "tool": "knipex",
+      "opening_deg": 10,
+      "basis": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ],
+        [
+          0.08715574274765818,
+          -0.9961946980917457,
+          0.0
+        ],
+        [
+          0.9961946980917457,
+          0.08715574274765818,
+          0.0
+        ]
+      ],
+      "translation": [
+        -0.8555772304534912,
+        48.0,
+        -48.50843021392822
+      ],
+      "bounds": [
+        [
+          -7.841757059097292,
+          16.844933187203505,
+          -68.42927372475398
+        ],
+        [
+          7.841757059097292,
+          84.5837279283787,
+          60.45904017651071
+        ]
+      ],
+      "lift_mm": 110,
+      "minimum_lift_mm": 62
+    },
+    {
+      "id": "klein-open0",
+      "tool": "klein",
+      "opening_deg": 0,
+      "basis": [
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "translation": [
+        -1.21989107131958,
+        48.0,
+        -60.26457879066467
+      ],
+      "bounds": [
+        [
+          -8.943817615509033,
+          14.515792846679688,
+          -113.76457879066467
+        ],
+        [
+          8.943817615509033,
+          79.48910713195801,
+          78.16539862632752
+        ]
+      ],
+      "lift_mm": 110,
+      "minimum_lift_mm": 107
+    },
+    {
+      "id": "klein-open10",
+      "tool": "klein",
+      "opening_deg": 10,
+      "basis": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ],
+        [
+          -0.08715574274765818,
+          -0.9961946980917457,
+          0.0
+        ],
+        [
+          0.9961946980917457,
+          -0.08715574274765818,
+          0.0
+        ]
+      ],
+      "translation": [
+        -1.21989107131958,
+        48.0,
+        -59.08446714401245
+      ],
+      "bounds": [
+        [
+          -8.943817615509035,
+          8.34598338382456,
+          -112.37565414747287
+        ],
+        [
+          8.943817615509035,
+          90.35652492015583,
+          77.44827471508205
+        ]
+      ],
+      "lift_mm": 110,
+      "minimum_lift_mm": 106
+    }
+  ],
+  "spacing_mm": 50.8,
+  "lift_mm": 110,
+  "out_mm": 0,
+  "route": {
+    "waypoints_mm": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        110
+      ]
+    ],
+    "mode": "vertical",
+    "lift_mm": 110
+  },
+  "downloads": {
+    "native": "holder.FCStd",
+    "print": "holder-print.stl"
+  },
+  "version": 3,
+  "print_pose": "upright",
+  "bottom_z": -64
+}

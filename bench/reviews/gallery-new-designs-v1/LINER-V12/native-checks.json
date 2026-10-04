@@ -1,0 +1,20 @@
+{
+  "id": "LINER-V12",
+  "pass": true,
+  "native": [
+    {
+      "role": "print_step",
+      "file": "part-solder-drip-tray-liner__v12__vase-filled__print-vase.step",
+      "sha256": "66b5936e684f512fb7f34d887608aaef30bf4a6bbca139409b7de2df3de1dc2c",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        116.20000019999999,
+        63.450000200000005,
+        20.000000200000002
+      ],
+      "volume_mm3": 135356.4986295277
+    }
+  ],
+  "note": "Filled vase print template; display in-use hollow mesh is intentionally different."
+}

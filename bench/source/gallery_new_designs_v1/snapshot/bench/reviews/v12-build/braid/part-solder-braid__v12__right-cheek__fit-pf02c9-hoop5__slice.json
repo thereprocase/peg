@@ -1,0 +1,26 @@
+{
+ "file": "print/slice-v12/V12-braid-ASA/V12-braid-ASA.gcode.3mf",
+ "minutes": 51.7,
+ "layers": 244,
+ "filament_g": 11.08,
+ "support_g": 1.06,
+ "support_fraction": 0.091,
+ "bridge_g": 0.0,
+ "internal_bridge_g": 0.48,
+ "overhang_wall_g": 0.01,
+ "grams_by_feature": {
+  "Sparse infill": 2.37,
+  "Outer wall": 2.35,
+  "Inner wall": 2.32,
+  "Internal solid infill": 2.16,
+  "Support": 1.04,
+  "Internal Bridge": 0.48,
+  "Bottom surface": 0.35,
+  "Top surface": 0.32,
+  "Brim": 0.16,
+  "Custom": 0.03,
+  "Support interface": 0.02,
+  "Overhang wall": 0.01,
+  "Bridge": 0.0
+ }
+}

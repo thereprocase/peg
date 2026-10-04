@@ -1,0 +1,16 @@
+{
+  "files": {
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+    "/home/repro/code/peg-bt2/bench/reviews/tweezer-inward20-v5/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__fea-spec.json": "a13a16cbadcb040aa42b7f48185a9cede29011423463da987c32b884891beb8b",
+    "/home/repro/code/peg-bt2/bench/source/tweezers_v11/inward20_v5_fea.py": "801b42d0c77b8d43b1ac21cf0f99f131fbb86e2017bcee31743f5ba09a71cbad",
+    "/home/repro/code/peg-bt2/bench/source/solder_v12/fea.py": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1",
+    "/app/bin/gmsh": "e2961faf58ad55bcd4c998f3323d06d5da5f8fefae528467a2312ef9f01d9057",
+    "/app/bin/ccx": "435dfc7910ea01ea6400a427d15d6b19ac68700be903063ba8961b9729572f28"
+  },
+  "scope": "Fresh v5 whole-body solve: eight 5 N tray cases. Guide contact loading and capture are not simulated.",
+  "limits": [
+    "Solid isotropic ASA E1800 MPa nu.35",
+    "Peg nodes Y<.10 fixed",
+    "No infill, layer, contact, strength, impact or convergence qualification"
+  ]
+}

@@ -1,0 +1,383 @@
+{
+ "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+ "top": {
+  "upper_ribs_mm": 0.5,
+  "clamp_mm": 0.49
+ },
+ "columns_x_mm": [
+  -50.8,
+  50.8
+ ],
+ "plate": {
+  "x0": -62.5,
+  "x1": 62.5,
+  "y0": 0.15,
+  "y1": 5.55,
+  "z0": -120.0,
+  "z1": 5.12
+ },
+ "hoop": {
+  "concept": "HOOP",
+  "arm_mm": 0.8,
+  "tip_half": 2.0,
+  "even_catch_wall": true,
+  "ramp_wall": true,
+  "nose_mm": 0.9,
+  "root_gusset_mm": 0.4,
+  "body_ribs_mm": 0.3,
+  "orientation": "hoop band horizontal, flexes in X (the print layers)",
+  "detail": {
+   "width_across_barbs_mm": 7.35,
+   "catch_angle_deg": 55,
+   "catch_length_mm": 0.6476919728439815,
+   "ramp_angle_deg": 15.592255624701878,
+   "crest_y_mm": [
+    -4.487691972843981,
+    -4.787691972843981
+   ],
+   "catch_bearing_per_side_mm": 0.5,
+   "nose_mm": 0.9,
+   "ramp_wall_mm": 0.8,
+   "min_wall_mm": 0.8,
+   "root_gusset_mm": 0.4,
+   "root_gusset_length_mm": 1.5,
+   "arm_mm": 0.8,
+   "closed_nose_mm": 0.9,
+   "band_half_height_mm": 1.4,
+   "root_clip_radius_mm": 2.95,
+   "cheek_offset_down_mm": 0.0
+  }
+ },
+ "rows": {
+  "hooks": [
+   0
+  ],
+  "bearing": [
+   2
+  ],
+  "hoop": [
+   4
+  ],
+  "empty": [
+   1,
+   3
+  ]
+ },
+ "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+ "name": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5",
+ "pose": "upright",
+ "print_file": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+ "pose_matrix": [
+  1.0,
+  0.0,
+  0.0,
+  62.5,
+  0.0,
+  1.0,
+  0.0,
+  10.79,
+  0.0,
+  0.0,
+  1.0,
+  120.00000000000001,
+  0,
+  0,
+  0,
+  1
+ ],
+ "volume_mm3": 135223.07687194447,
+ "solid_mass_asa_g": 144.6886922529806,
+ "bounds_installed": [
+  -62.5,
+  -10.79,
+  -120.0,
+  62.5,
+  68.78173035584534,
+  5.445
+ ],
+ "print_bounds": [
+  125.004,
+  79.572,
+  125.451
+ ],
+ "files": [
+  {
+   "file": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__installed.stl",
+   "facets": 29296,
+   "volume_error_fraction": 3.7909602222552194e-05,
+   "sha256": "ffc1069c5a096e8105af8caf377fac0c58f701ef1d0cfc9433c17003e68748bd"
+  },
+  {
+   "file": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+   "facets": 29296,
+   "volume_error_fraction": 5.963296533425458e-05,
+   "sha256": "3ac5e67a85b5a4e6d295381f0935bf606ed35e180d1f84038b066512efab5575"
+  }
+ ],
+ "b6_volume_cm3": 257.3,
+ "volume_vs_b6": 0.5255463539523687,
+ "seats_b6": {
+  "flux": {
+   "tool": 0,
+   "cx": 37.0,
+   "cy": 32.109,
+   "rb": 10.15,
+   "ring": [
+    -76.36,
+    -62.36
+   ],
+   "tip": [
+    10.39,
+    12.49
+   ],
+   "top_chamfer": 0.91,
+   "ledge": -117.36,
+   "post": -107.36,
+   "hub": [
+    4.2,
+    4.2
+   ],
+   "y_front": 65.15,
+   "cup_top": -97.0,
+   "colour": "#d9b26a"
+  },
+  "paste": {
+   "tool": 1,
+   "cx": 0.0,
+   "cy": 33.151,
+   "rb": 8.15,
+   "ring": [
+    -78.45,
+    -64.45
+   ],
+   "tip": [
+    8.81,
+    10.91
+   ],
+   "top_chamfer": 0.86,
+   "ledge": -111.45,
+   "post": -101.45,
+   "hub": [
+    4.2,
+    4.2
+   ],
+   "y_front": 63.15,
+   "cup_top": -91.0,
+   "colour": "#8fb3d9"
+  },
+  "sucker": {
+   "tool": 2,
+   "cx": -37.0,
+   "cy": 34.019,
+   "rb": 10.65,
+   "ring": [
+    -65.53,
+    -51.53
+   ],
+   "tip": [
+    10.78,
+    12.88
+   ],
+   "top_chamfer": 0.85,
+   "ledge": -106.53,
+   "post": -92.53,
+   "hub": [
+    6.0,
+    6.2
+   ],
+   "y_front": 65.65,
+   "cup_top": -82.0,
+   "colour": "#c97b6b"
+  }
+ },
+ "action": {
+  "lift_along_axis_mm": 18.0,
+  "out_mm": 80.0,
+  "lift_vector": [
+   0.0,
+   -3.1257,
+   17.7265
+  ]
+ },
+ "corbel_deg": 50.0,
+ "rail_deg": 50.0,
+ "plate_window_spans_x": [
+  [
+   -45.15,
+   -28.85
+  ],
+  [
+   -20.85,
+   -13.65
+  ],
+  [
+   -5.65,
+   5.65
+  ],
+  [
+   13.65,
+   21.35
+  ],
+  [
+   29.35,
+   44.65
+  ]
+ ],
+ "stations": {
+  "flux": {
+   "ring_tip_bottom_yz": [
+    57.18121582323827,
+    -67.45538494424477
+   ],
+   "corbel_back_yz": [
+    45.02266216747948,
+    -81.94538494424476
+   ],
+   "corbel_window_sill_yz": [
+    47.677196985989,
+    -97.0
+   ],
+   "front_edges_chamfered": 6,
+   "rail_top_at_plate_z": -86.66252159527707,
+   "window_yz": [
+    [
+     9.55,
+     -116.0
+    ],
+    [
+     36.65912306126654,
+     -116.0
+    ],
+    [
+     28.115779639664776,
+     -67.54829177431935
+    ],
+    [
+     9.55,
+     -89.67412635920229
+    ]
+   ],
+   "diagonal_deg": 68.84173334114355
+  },
+  "paste": {
+   "ring_tip_bottom_yz": [
+    57.01431394344159,
+    -69.60705586762509
+   ],
+   "corbel_back_yz": [
+    46.181537704942905,
+    -82.51705586762509
+   ],
+   "corbel_window_sill_yz": [
+    47.677309631323155,
+    -91.0
+   ],
+   "front_edges_chamfered": 6,
+   "rail_top_at_plate_z": -92.19528660379896,
+   "window_yz": [
+    [
+     9.55,
+     -116.0
+    ],
+    [
+     39.748050814622985,
+     -116.0
+    ],
+    [
+     31.4744895156518,
+     -69.07830222165207
+    ],
+    [
+     9.55,
+     -95.2068913677242
+    ]
+   ],
+   "diagonal_deg": 65.65309191926404
+  },
+  "sucker": {
+   "ring_tip_bottom_yz": [
+    57.56566389103349,
+    -56.39052617048863
+   ],
+   "corbel_back_yz": [
+    45.07986137911556,
+    -71.27052617048862
+   ],
+   "corbel_window_sill_yz": [
+    46.9717571040638,
+    -82.0
+   ],
+   "front_edges_chamfered": 6,
+   "rail_top_at_plate_z": -75.16583018748176,
+   "window_yz": [
+    [
+     9.55,
+     -116.0
+    ],
+    [
+     38.09087458402544,
+     -116.0
+    ],
+    [
+     27.62374880727913,
+     -56.637979878686764
+    ],
+    [
+     9.55,
+     -78.17743495140698
+    ]
+   ],
+   "diagonal_deg": 72.13768279536055
+  }
+ },
+ "edge_chamfer_mm": 1.0,
+ "floor_corner_round_mm": 8.0,
+ "plastic_before_fuse": {
+  "receiver_plate_cm3": 55.88668597565671,
+  "floor_cm3": 9.707652487135832,
+  "flux_channel_cm3": 18.277858919103007,
+  "flux_back_cheeks_cm3": 5.178106028178364,
+  "paste_channel_cm3": 14.926636718942914,
+  "paste_back_cheeks_cm3": 5.158298777958529,
+  "sucker_channel_cm3": 24.713717712405828,
+  "sucker_back_cheeks_cm3": 6.080251604954708
+ },
+ "nozzle_tips": {
+  "flux": {
+   "module": [
+    36.99,
+    55.89,
+    -134.66
+   ],
+   "station": [
+    75.09,
+    55.89,
+    -134.66
+   ]
+  },
+  "paste": {
+   "module": [
+    -0.01,
+    54.05,
+    -120.86
+   ],
+   "station": [
+    38.09,
+    54.05,
+    -120.86
+   ]
+  },
+  "sucker": {
+   "module": [
+    -37.03,
+    53.07,
+    -116.03
+   ],
+   "station": [
+    1.07,
+    53.07,
+    -116.03
+   ]
+  }
+ }
+}

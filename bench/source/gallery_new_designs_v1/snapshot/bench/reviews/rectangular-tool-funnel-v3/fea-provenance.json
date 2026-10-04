@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb",
+    "/home/repro/.local/state/peg-astra-3d/rectangular-funnel-v3-draft1/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea-spec.json": "47dab2fa1487086f6e2ee10396124a839e76a1fbe768d0a7e0179026e1ae74b2",
+    "/home/repro/code/peg-bt2/bench/source/tool_holders/rectangular_funnel_fea_v1.py": "5f91004498f194cd0e9e3a25955b0adf9f906b41f854cd73b852a51d0bd047fa",
+    "/home/repro/code/peg-bt2/bench/source/solder_v12/fea.py": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1",
+    "/app/bin/gmsh": "e2961faf58ad55bcd4c998f3323d06d5da5f8fefae528467a2312ef9f01d9057",
+    "/app/bin/ccx": "435dfc7910ea01ea6400a427d15d6b19ac68700be903063ba8961b9729572f28"
+  },
+  "passed": true,
+  "scope": "5N lateral and down at front taper wall; fixed peg nodes, solid isotropic ASA E1800MPa nu.35. No infill/layer/board/contact/strength/fatigue qualification."
+}

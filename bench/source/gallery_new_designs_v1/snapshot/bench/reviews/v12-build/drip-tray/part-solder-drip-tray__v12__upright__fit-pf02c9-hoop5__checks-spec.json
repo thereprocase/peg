@@ -1,0 +1,68 @@
+{
+ "name": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5",
+ "title": "v12 drip tray + vase liner",
+ "pose": "upright",
+ "pose_matrix": [
+  1.0,
+  0.0,
+  0.0,
+  62.50000000000002,
+  0.0,
+  1.0,
+  0.0,
+  10.79,
+  0.0,
+  0.0,
+  1.0,
+  46.00000000000002,
+  0,
+  0,
+  0,
+  1
+ ],
+ "installed": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl",
+ "print": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
+ "glued": [],
+ "glued_print": [],
+ "tools": [
+  {
+   "id": "liner",
+   "stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__tool-liner.stl",
+   "colour": "#e0a040",
+   "seat": {
+    "gravity": true
+   },
+   "removal": [
+    [
+     0,
+     0,
+     6.4
+    ],
+    [
+     0,
+     95,
+     0
+    ]
+   ],
+   "samples": 4000
+  },
+  {
+   "id": "ref-b6-nozzles",
+   "stl": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__ref-b6-nozzles.stl",
+   "colour": "#ccd2d5",
+   "seat": {
+    "min_contacts": 0
+   },
+   "reference_only": true,
+   "note": "Reference only: the B6 barrels nozzle tips (held by the barrels module, not here)."
+  }
+ ],
+ "overhang_exceptions": [],
+ "render_notes": {
+  "loaded": "Liner (amber) under the barrel nozzles (grey, reference). Finger in the lip scallop, lift the front 6.4, pull.",
+  "empty": "Floor, deep cheek webs, back curb, 6 mm chamfered front lip with a 20 x 3 mm finger scallop at the centre.",
+  "front": "Catch window x +-57.5, y 8.2-70.4; rim at station z -151. Every barrel tip must stay above station z -141.6.",
+  "side": "Cheek web: plate top down to a 14 mm front post; lip 6 mm (3 at the scallop). Liner rim 2 mm off cheeks and plate.",
+  "print": "Floor on the bed; organic supports under the pegs only. Liners: separate job, spiral vase, by object."
+ }
+}

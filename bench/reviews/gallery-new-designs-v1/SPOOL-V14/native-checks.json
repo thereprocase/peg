@@ -1,0 +1,33 @@
+{
+  "id": "SPOOL-V14",
+  "pass": true,
+  "native": [
+    {
+      "role": "installed_step",
+      "file": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "a41a4e206dd3d855b8bf47fdd5362eca81dbaeab4042ba143db442305a3e33e7",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        48.800000000006804,
+        72.3900000000173,
+        77.04499999999999
+      ],
+      "volume_mm3": 29167.07623883393
+    },
+    {
+      "role": "print_step",
+      "file": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+      "sha256": "b598dd6bbc4e27e07ba5eba66287b0bf2badbbcbca35154b8e5c370a1a91273c",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        77.045,
+        72.39000000001731,
+        48.800000000004395
+      ],
+      "volume_mm3": 29167.076238818092
+    }
+  ],
+  "note": "STEP is frozen original export; no geometry regeneration."
+}

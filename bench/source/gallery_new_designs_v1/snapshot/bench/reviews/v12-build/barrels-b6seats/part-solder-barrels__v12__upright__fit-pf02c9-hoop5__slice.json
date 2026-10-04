@@ -1,0 +1,26 @@
+{
+ "file": "print/slice-v12/V12-barrels-b6seats-ASA/V12-barrels-b6seats-ASA.gcode.3mf",
+ "minutes": 355.1,
+ "layers": 627,
+ "filament_g": 87.42,
+ "support_g": 10.67,
+ "support_fraction": 0.116,
+ "bridge_g": 0.02,
+ "internal_bridge_g": 1.56,
+ "overhang_wall_g": 0.01,
+ "grams_by_feature": {
+  "Inner wall": 23.15,
+  "Outer wall": 23.09,
+  "Sparse infill": 22.89,
+  "Support": 10.64,
+  "Internal solid infill": 7.54,
+  "Internal Bridge": 1.56,
+  "Top surface": 1.27,
+  "Bottom surface": 0.99,
+  "Brim": 0.49,
+  "Support interface": 0.03,
+  "Custom": 0.03,
+  "Bridge": 0.02,
+  "Overhang wall": 0.01
+ }
+}

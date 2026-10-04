@@ -1672,19 +1672,263 @@
     "bytes": 3503941
   },
   "catalog.json": {
-    "sha256": "cf7e38c332369d03ceb0f0694da24f39d0328f443a23bcf88d31ce5af1b5e0f0",
-    "bytes": 105709
+    "sha256": "d28a65459d064c5bd5dfb85ecfe945db0c9b6e2f74cf28e15df9641fdc8dc551",
+    "bytes": 122529
   },
   "index.html": {
-    "sha256": "b5e32c73d530da9aaecb482b72f39b21f77bd2cacd59c7827e2ba45c9546eac3",
-    "bytes": 3413
+    "sha256": "ee1f5db00a62c183fc3e98a177f84d8c935ff790f841eec610bae654c4a52ef1",
+    "bytes": 3602
   },
   "current-pegs.js": {
-    "sha256": "0d989faec49fadb082db25e41df548867dbf66c63a8d37517b6650ee8e942986",
-    "bytes": 5004
+    "sha256": "af293ed97b3a89ce46b2d5c97b54e57e4b577c0933954a6113469c9df0d0d223",
+    "bytes": 5372
   },
   "current-pegs.css": {
     "sha256": "8b4c6ddd6ffbfb8bf24428bfb6ad8c7024ed954151593f01dff8c3a436b7d0b0",
     "bytes": 2750
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "9d85dd2faaf0b3510ffeb53308c7781b5c7897f7cbd41997fb14ea6f02e4964a",
+    "bytes": 1096084
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "8db348453f14c18d7232dd2590a837d583cf4ccd296bb33ec72081c7acfab014",
+    "bytes": 1096084
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "f833ec6a6c595186f6096cc40d2b14453aeb463c47b8ad44bfba42009b758710",
+    "bytes": 439696
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "573aadaae365e7246be57caa64b56c1409f24eed0f2fd1893cd528b1da77e188",
+    "bytes": 439712
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "f7cf6263387f392f773c07ef5c8ad9d95359b9941c3c5a99e96e98b3f257d41f",
+    "bytes": 40458
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-preview.png": {
+    "sha256": "a53f01b27da053b9630d38ccf808e53451f5c926c633d19e410125b4029eea5e",
+    "bytes": 53291
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "a41a4e206dd3d855b8bf47fdd5362eca81dbaeab4042ba143db442305a3e33e7",
+    "bytes": 299711
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "b598dd6bbc4e27e07ba5eba66287b0bf2badbbcbca35154b8e5c370a1a91273c",
+    "bytes": 306565
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__gallery-checks.json": {
+    "sha256": "4c0b0939e649b2da515603aa0a263feb42edda79952a2e1d5450d117ef3f343e",
+    "bytes": 15421
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "245f46b769e6486bd1015f2573091daad71c70532e55a1160ee424c6c49e1698",
+    "bytes": 3841652
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "699d14c631764d4f7b1ad476d33dfb9f6d3f3119be87cbfc76e2dc28fb1a4915",
+    "bytes": 1464084
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "1c8bf9c6efa2a8d0e2b3f1df9635ef1d8105ad00f144983a9e0ab9b1b0a18a08",
+    "bytes": 1464084
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "8f5b3dd1edd97bdf15fd4050cdaa412acf064408ee0315e2f89679cec577bb61",
+    "bytes": 586752
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "07024c49ae4315174686bce6f8e90b40a32c323735297f5b3569af17895e579c",
+    "bytes": 586772
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "904a52bf076da45c0df419cd52516eae5f60115ca31c39f30bd591c2b506258a",
+    "bytes": 49263
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-preview.png": {
+    "sha256": "f145e1ca65145bb2ce232933a336e4f2568944f274a6b70b1c91a3842895d123",
+    "bytes": 45245
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+    "bytes": 525953
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "43380f4ab0abf39b89f9abcaf2928b76ff30a05a76722c0c897efe14afec904b",
+    "bytes": 550224
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.stl": {
+    "sha256": "cd734ae0edb2f13a8b745ad58d9f2b01a28b06728043e9ddae8b5b68f7281bd9",
+    "bytes": 1684
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step": {
+    "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7",
+    "bytes": 22151
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__gallery-checks.json": {
+    "sha256": "c11fe1fd7083675fd3acaaa16aaf043ed418fc2e0980c549d34301bdb9326a30",
+    "bytes": 45773
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "c3a826fadb353ddbd3a2b97ad9431cfae96c8fc789f91a512c0b7bd24d7b41e2",
+    "bytes": 20267699
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+    "bytes": 2048784
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+    "bytes": 2051584
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "8c2aa605daa8855b07f049c146916094c233c8f42d4594884a838610ec7b2a42",
+    "bytes": 820800
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "af9db0d3b3cd5b97e780de7de16de55c4ad8399e060b46b5a7b0d4d591ea4cd3",
+    "bytes": 821904
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "73a6f194d5df7469efe0ec2eb618579f6f993e023e2b7eb840f34de375c63bb7",
+    "bytes": 29248
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-preview.png": {
+    "sha256": "145b51d0b4532f2b8544d25fdb08d819bb1d279a8cde72f4631923157674593e",
+    "bytes": 172907
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb",
+    "bytes": 418717
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__gallery-checks.json": {
+    "sha256": "8085929488f953d38a7c44d8216d81a78222278c3d0ffa14ed0a0e0652ea9f88",
+    "bytes": 17813
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "cbf1a70a45e72eaffd3730de6ce97cc59be2ee98c296a6f07c459ca1e4ae03ed",
+    "bytes": 25069205
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa",
+    "bytes": 1315184
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl": {
+    "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a",
+    "bytes": 1315184
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "7a0456086b8f94b72bfa974688c8f95d81a914766f5945752b680fc5c337f3af",
+    "bytes": 527336
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "a8b2a037ac31eee732cb57b41b00723cb9f071c5f3ec1599126206dc3ca34fa6",
+    "bytes": 527336
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "6c6dca5fe6e96943347cd3b5fa5711c7e085b7c172f0fa6206c8c5369feb4c8b",
+    "bytes": 86661
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-preview.png": {
+    "sha256": "93bf45c9e1713ec9eb2f3b1852be7652ad2bdf49263c72097085fc602f579d0b",
+    "bytes": 78003
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "939e686e1a25e92761196e204297c487d9f525cace2ad53baad88a95970047bc",
+    "bytes": 378527
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "93b0ae18afaf2754a877d5a4d7ad08e580a6beb30e0278b3c50ebf7a3a74f86c",
+    "bytes": 387574
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__gallery-checks.json": {
+    "sha256": "9c75b6b1f73e8e8d3b6eb6437324f4665b9188d666b0fbdc8e70dde7c4a7fcce",
+    "bytes": 14295
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "9fe6f196d967da1d89db1a83f9e28117ebfbf6a99833c708d4ddeeb9b6aeeeb2",
+    "bytes": 4856176
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "1785f2a562dc78b0fc996f31b2a43f5e13f8f58f8505b16ad8227a85b7abaaa5",
+    "bytes": 1063184
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl": {
+    "sha256": "9d5927a73bad887234a6f7a71fc506939034a4350210e17593589d0a220c1cfb",
+    "bytes": 1063184
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "dc3d073bc9a91c7316036efc0608fe1ac5e245275e7a10e5e280ed7f9123342c",
+    "bytes": 426412
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "219fb6273fe7ff01c4e19edc0876c2930583e03affdfe6f3479ac47cb7df7e6f",
+    "bytes": 426428
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__preview.png": {
+    "sha256": "7f0869aebd288e73ebd13179517dfe7e99390271d95532388e86b142c8b17bf2",
+    "bytes": 79256
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-preview.png": {
+    "sha256": "2dcda723a66023d6a5ad8e8efb6e6c5b3d718795062e6b3fa56e7d612559a72d",
+    "bytes": 54245
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8ad2945515c40c733ac4b6234bc8be9d9463a1214e18edb919f8e57b50d00eb2",
+    "bytes": 321678
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "04c04054e1cf80923e92bedaca9f021277a9d5ab215647da13b46cdac8351647",
+    "bytes": 319856
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__gallery-checks.json": {
+    "sha256": "10f771abf5cb0f16c8b2bd208201c0bcf157eeec762dbd2e684290300cf0a748",
+    "bytes": 12303
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "9763962e78915214e39b4272ed14b763aa49a361612a2ca8e92bb90148085d4e",
+    "bytes": 5251233
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__installed.stl": {
+    "sha256": "b7bf7b654218bfcff1088bbcf693215e5009a0b22cd2e8405a65211d7012417d",
+    "bytes": 175884
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl": {
+    "sha256": "9baff5ed71288cf8f5198099924e13cab80e76c62bee23cc741d41d50427677f",
+    "bytes": 95084
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__installed.glb": {
+    "sha256": "7b1624a6d9995537e91eeb79ea4e8e34607d4984d801499a185a4394532ce3e5",
+    "bytes": 71708
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__print.glb": {
+    "sha256": "d0db1258f8edfc332ff9ba883107fa675a43f99c7dd945f2097b325065734d6e",
+    "bytes": 39300
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__preview.png": {
+    "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd",
+    "bytes": 105688
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__print-preview.png": {
+    "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd",
+    "bytes": 105688
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__print-vase.step": {
+    "sha256": "66b5936e684f512fb7f34d887608aaef30bf4a6bbca139409b7de2df3de1dc2c",
+    "bytes": 13005
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__installed.step": {
+    "sha256": "d08326fbbe382e2bae8747d55ae0961d77720ccab467fe6d6594f6711e0221e8",
+    "bytes": 13130
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__gallery-checks.json": {
+    "sha256": "af437359c38450d5f160bea406a86b5e2781a1d21baa37fa715186ad37e8a8b7",
+    "bytes": 11926
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__cad-source-and-review.zip": {
+    "sha256": "df851cf869460f2fda5f6a6fa5fea1c0cf0285e8fee926258dd2042ead4cfe4b",
+    "bytes": 4093298
   }
 }

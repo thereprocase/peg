@@ -1,0 +1,189 @@
+{
+ "step": "part-solder-barrels__v12__upright__fit-pf02c9-hoop5__installed.step",
+ "h": 2.0,
+ "supports": [
+  "pegs"
+ ],
+ "loads": [
+  {
+   "id": "wag-paste-ring",
+   "what": "5 N sideways at the paste ring front",
+   "point": [
+    11.15,
+    51.878,
+    -58.328
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press-paste-ring",
+   "what": "5 N down at the paste ring front",
+   "point": [
+    11.15,
+    51.878,
+    -58.328
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "wag-paste-cup",
+   "what": "5 N sideways at the paste cup front",
+   "point": [
+    11.15,
+    62.15,
+    -93.0
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press-paste-cup",
+   "what": "5 N down at the paste cup front",
+   "point": [
+    11.15,
+    62.15,
+    -93.0
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "wag-sucker-ring",
+   "what": "5 N sideways at the sucker ring front",
+   "point": [
+    -23.35,
+    52.429,
+    -45.111
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press-sucker-ring",
+   "what": "5 N down at the sucker ring front",
+   "point": [
+    -23.35,
+    52.429,
+    -45.111
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "wag-sucker-cup",
+   "what": "5 N sideways at the sucker cup front",
+   "point": [
+    -23.35,
+    64.65,
+    -84.0
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press-sucker-cup",
+   "what": "5 N down at the sucker cup front",
+   "point": [
+    -23.35,
+    64.65,
+    -84.0
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "wag-flux-ring",
+   "what": "5 N sideways at the flux ring front",
+   "point": [
+    50.15,
+    52.045,
+    -56.176
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press-flux-ring",
+   "what": "5 N down at the flux ring front",
+   "point": [
+    50.15,
+    52.045,
+    -56.176
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  },
+  {
+   "id": "wag-flux-cup",
+   "what": "5 N sideways at the flux cup front",
+   "point": [
+    50.15,
+    64.15,
+    -99.0
+   ],
+   "radius": 3.0,
+   "force": [
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "press-flux-cup",
+   "what": "5 N down at the flux cup front",
+   "point": [
+    50.15,
+    64.15,
+    -99.0
+   ],
+   "radius": 3.0,
+   "force": [
+    0,
+    0,
+    -5
+   ]
+  }
+ ]
+}

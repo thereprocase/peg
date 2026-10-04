@@ -1,0 +1,719 @@
+{
+  "id": "BRAID-V12",
+  "kind": "mounted",
+  "independent_mesh_checks": {
+    "id": "BRAID-V12",
+    "mesh": {
+      "installed": {
+        "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_mm3": 16465.159683927628,
+        "bounds_mm": [
+          [
+            -24.399999618530273,
+            -10.789999961853027,
+            -37.508201599121094
+          ],
+          [
+            24.399999618530273,
+            55.13560104370117,
+            5.445000171661377
+          ]
+        ]
+      },
+      "print": {
+        "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a",
+        "watertight": true,
+        "winding_consistent": true,
+        "volume_mm3": 16465.159724787092,
+        "bounds_mm": [
+          [
+            -8.881784197001252e-16,
+            0.0,
+            0.0
+          ],
+          [
+            42.95320129394531,
+            65.92559814453125,
+            48.79999923706055
+          ]
+        ]
+      }
+    },
+    "status": "geometry checks; physical qualification recorded separately",
+    "pose_surface_match": true,
+    "mesh_tessellation_tolerance_mm": 0.05,
+    "recorded_checks_pass": true
+  },
+  "native_checks": {
+    "id": "BRAID-V12",
+    "pass": true,
+    "native": [
+      {
+        "role": "installed_step",
+        "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step",
+        "sha256": "939e686e1a25e92761196e204297c487d9f525cace2ad53baad88a95970047bc",
+        "valid": true,
+        "solids": 1,
+        "bounds_mm": [
+          48.8,
+          65.9256,
+          42.95320000000003
+        ],
+        "volume_mm3": 16465.77078433363
+      },
+      {
+        "role": "print_step",
+        "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step",
+        "sha256": "93b0ae18afaf2754a877d5a4d7ad08e580a6beb30e0278b3c50ebf7a3a74f86c",
+        "valid": true,
+        "solids": 1,
+        "bounds_mm": [
+          42.95320000000003,
+          65.9256,
+          48.8
+        ],
+        "volume_mm3": 16465.77078432987
+      }
+    ],
+    "note": "STEP is frozen original export; no geometry regeneration."
+  },
+  "recorded_geometry_checks": {
+    "name": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5",
+    "mesh": {
+      "watertight": true,
+      "bodies": 1,
+      "volume_cm3": 16.47,
+      "passed": true
+    },
+    "pose_matrix_error_mm": 0.0,
+    "overhangs": {
+      "features": [],
+      "peg_area_mm2": 132.2,
+      "other_area_mm2": 0.0,
+      "passed": true
+    },
+    "islands": {
+      "points": [],
+      "passed": true
+    },
+    "glued_print": [],
+    "mass": {
+      "solid_asa_g": 17.6,
+      "glued_asa_g": 0.0
+    },
+    "tools": [
+      {
+        "id": "bobbin-52x12-bore7",
+        "sampled": 8400,
+        "deepest_mm": 0.0,
+        "fit_passed": true,
+        "contacts": 607,
+        "contact_bbox": [
+          [
+            -14.4,
+            28.2,
+            -30.0
+          ],
+          [
+            -2.1,
+            37.9,
+            -19.2
+          ]
+        ],
+        "com": [
+          -7.2,
+          33.1,
+          -24.1
+        ],
+        "com_over_contacts": true,
+        "seat_passed": true,
+        "removal": {
+          "moves": [
+            [
+              -0.311,
+              0.0,
+              1.159
+            ],
+            [
+              18.918,
+              0.0,
+              5.069
+            ],
+            [
+              0,
+              70,
+              0
+            ]
+          ],
+          "min_clearance_mm": -0.0,
+          "at_offset": [
+            -0.3,
+            0.0,
+            1.2
+          ],
+          "passed": true
+        }
+      },
+      {
+        "id": "bobbin-38x6-bore10.5",
+        "sampled": 4800,
+        "deepest_mm": 0.0,
+        "fit_passed": true,
+        "contacts": 173,
+        "contact_bbox": [
+          [
+            -14.4,
+            28.0,
+            -26.1
+          ],
+          [
+            -8.1,
+            38.1,
+            -20.4
+          ]
+        ],
+        "com": [
+          -9.7,
+          33.0,
+          -26.6
+        ],
+        "com_over_contacts": true,
+        "seat_passed": true,
+        "removal": {
+          "moves": [
+            [
+              -0.259,
+              0.0,
+              0.966
+            ],
+            [
+              18.918,
+              0.0,
+              5.069
+            ],
+            [
+              0,
+              70,
+              0
+            ]
+          ],
+          "min_clearance_mm": -0.0,
+          "at_offset": [
+            -0.3,
+            0.0,
+            1.0
+          ],
+          "passed": true
+        }
+      },
+      {
+        "id": "chemtronics-44.5-domed",
+        "sampled": 6840,
+        "deepest_mm": 0.0,
+        "fit_passed": true,
+        "contacts": 405,
+        "contact_bbox": [
+          [
+            -14.4,
+            28.1,
+            -30.0
+          ],
+          [
+            -4.1,
+            38.0,
+            -19.7
+          ]
+        ],
+        "com": [
+          -7.4,
+          33.1,
+          -24.7
+        ],
+        "com_over_contacts": true,
+        "seat_passed": true,
+        "removal": {
+          "moves": [
+            [
+              -0.336,
+              0.0,
+              1.256
+            ],
+            [
+              18.918,
+              0.0,
+              5.069
+            ],
+            [
+              0,
+              70,
+              0
+            ]
+          ],
+          "min_clearance_mm": 0.001,
+          "at_offset": [
+            -0.3,
+            0.0,
+            1.3
+          ],
+          "passed": true
+        }
+      },
+      {
+        "id": "tail (render stand-in, the free end)",
+        "sampled": 8,
+        "deepest_mm": -17.721,
+        "fit_passed": true,
+        "contacts": 0,
+        "seat_passed": true
+      }
+    ],
+    "passed": true
+  },
+  "source_metadata": {
+    "fit_file": "reviews\\pf02-fits\\peg-fit-clamp-0.49.scad",
+    "top": {
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49
+    },
+    "columns_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "plate": {
+      "x0": -24.4,
+      "x1": 24.4,
+      "y0": 0.15,
+      "y1": 5.55,
+      "z0": -31.279999999999998,
+      "z1": 5.12
+    },
+    "hoop": {
+      "concept": "HOOP",
+      "arm_mm": 0.8,
+      "tip_half": 2.0,
+      "even_catch_wall": true,
+      "ramp_wall": true,
+      "nose_mm": 0.9,
+      "root_gusset_mm": 0.4,
+      "body_ribs_mm": 0.3,
+      "orientation": "hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z",
+      "detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "nose_mm": 0.9,
+        "ramp_wall_mm": 0.8,
+        "min_wall_mm": 0.8,
+        "root_gusset_mm": 0.4,
+        "root_gusset_length_mm": 1.5,
+        "arm_mm": 0.8,
+        "closed_nose_mm": 0.9,
+        "band_half_height_mm": 1.4,
+        "root_clip_radius_mm": 2.95,
+        "cheek_offset_down_mm": 0.1
+      }
+    },
+    "rows": {
+      "hooks": [
+        0
+      ],
+      "bearing": [],
+      "hoop": [
+        1
+      ],
+      "empty": []
+    },
+    "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+    "name": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5",
+    "pose": "right-cheek",
+    "print_file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+    "pose_matrix": [
+      6.123233995736766e-17,
+      0.0,
+      -1.0,
+      5.445,
+      0.0,
+      1.0,
+      0.0,
+      10.79,
+      1.0,
+      0.0,
+      6.123233995736766e-17,
+      24.400000000000002,
+      0,
+      0,
+      0,
+      1
+    ],
+    "volume_mm3": 16465.773439891185,
+    "solid_mass_asa_g": 17.61837758068357,
+    "bounds_installed": [
+      -24.4,
+      -10.79,
+      -37.5082,
+      24.4,
+      55.1356,
+      5.445
+    ],
+    "print_bounds": [
+      42.958,
+      65.926,
+      48.8
+    ],
+    "files": [
+      {
+        "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "facets": 26302,
+        "volume_error_fraction": 2.7519350538826358e-05,
+        "sha256": "8c04f3fe6e5a2e16ab69ac1b98fce138a38e8607231a3596b29dc567e7ced6aa"
+      },
+      {
+        "file": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+        "facets": 26302,
+        "volume_error_fraction": 3.072201667510877e-05,
+        "sha256": "43f85d2b8d719c702dedc5e667e2a7315b7adcb7f96e54ab36956bd861530c6a"
+      }
+    ],
+    "module": "braid",
+    "cells": 2,
+    "hoop_row": 1,
+    "cant_deg": 15.0,
+    "axle": {
+      "origin": [
+        -21.4,
+        33.05,
+        -27.2
+      ],
+      "direction": [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074
+      ],
+      "seat_u": 8.5,
+      "hub_r": 5.0,
+      "flare_r": 9.0,
+      "pin_r": 2.8,
+      "tip_u": 27.085640646055104
+    },
+    "lip": {
+      "h": 0.8,
+      "w": 2.0,
+      "keeper_u": 21.1,
+      "flat_to_u": 23.1,
+      "ramp_end_u": 24.485640646055103,
+      "loading_ramp_deg": 30.0,
+      "print_v_face_deg": 50.0,
+      "print_nose_rise_deg": 10.0
+    },
+    "hood": {
+      "r_in": 27.5,
+      "wall": 2.4,
+      "rim_u": 12.5,
+      "theta_deg": [
+        50.0,
+        180.0
+      ],
+      "open": "front and bottom"
+    },
+    "flange": {
+      "h": 6.0,
+      "t": 2.4
+    },
+    "envelope": {
+      "od": [
+        38.0,
+        52.0
+      ],
+      "width": [
+        6.0,
+        12.0
+      ],
+      "bore": [
+        7.0,
+        10.5
+      ]
+    },
+    "rolls": [
+      {
+        "id": "bobbin-52x12-bore7",
+        "od": 52.0,
+        "w": 12.0,
+        "bore": 7.0,
+        "dome": null,
+        "lift": 1.2,
+        "why": "largest OD and width, smallest bore: tightest at the hood top/back, the cheek and the lip",
+        "centre": [
+          -7.212902187236743,
+          33.05,
+          -24.123271924415796
+        ],
+        "removal": [
+          [
+            -0.311,
+            0.0,
+            1.159
+          ],
+          [
+            18.918,
+            0.0,
+            5.069
+          ],
+          [
+            0,
+            70,
+            0
+          ]
+        ],
+        "bounds": [
+          -19.73775291442871,
+          7.050000190734863,
+          -50.79025650024414,
+          5.311947822570801,
+          59.04999923706055,
+          2.5437138080596924
+        ]
+      },
+      {
+        "id": "bobbin-38x6-bore10.5",
+        "od": 38.0,
+        "w": 6.0,
+        "bore": 10.5,
+        "dome": null,
+        "lift": 1.0,
+        "why": "smallest, thinnest, biggest bore: hangs lowest and loosest",
+        "centre": [
+          -9.657746337174537,
+          33.05,
+          -26.59009925572923
+        ],
+        "removal": [
+          [
+            -0.259,
+            0.0,
+            0.966
+          ],
+          [
+            18.918,
+            0.0,
+            5.069
+          ],
+          [
+            0,
+            70,
+            0
+          ]
+        ],
+        "bounds": [
+          -17.473085403442383,
+          14.050000190734863,
+          -45.719146728515625,
+          -1.842406988143921,
+          52.04999923706055,
+          -7.4610514640808105
+        ]
+      },
+      {
+        "id": "chemtronics-44.5-domed",
+        "od": 44.5,
+        "w": 10.0,
+        "bore": 8.0,
+        "dome": [
+          7.5,
+          3.0
+        ],
+        "lift": 1.3,
+        "why": "Chemtronics Soder-Wick SD: domed face loaded dome-in, flat hub ring on the 10 mm seat",
+        "centre": [
+          -8.049418490974553,
+          33.05,
+          -24.865053882662853
+        ],
+        "removal": [
+          [
+            -0.336,
+            0.0,
+            1.256
+          ],
+          [
+            18.918,
+            0.0,
+            5.069
+          ],
+          [
+            0,
+            70,
+            0
+          ]
+        ],
+        "bounds": [
+          -15.739994049072266,
+          10.800000190734863,
+          -46.874542236328125,
+          2.5389344692230225,
+          55.29999923706055,
+          -2.079108953475952
+        ]
+      }
+    ],
+    "cheek_outline": [
+      [
+        0.15,
+        -31.28
+      ],
+      [
+        31.054,
+        -37.3055
+      ],
+      [
+        32.0465,
+        -37.4574
+      ],
+      [
+        33.05,
+        -37.5082
+      ],
+      [
+        34.0535,
+        -37.4574
+      ],
+      [
+        35.046,
+        -37.3055
+      ],
+      [
+        36.0166,
+        -37.0543
+      ],
+      [
+        36.9547,
+        -36.7065
+      ],
+      [
+        37.85,
+        -36.2658
+      ],
+      [
+        38.6927,
+        -35.7372
+      ],
+      [
+        39.4737,
+        -35.1264
+      ],
+      [
+        40.1842,
+        -34.44
+      ],
+      [
+        40.8166,
+        -33.6857
+      ],
+      [
+        41.3638,
+        -32.8717
+      ],
+      [
+        41.82,
+        -32.0069
+      ],
+      [
+        55.1356,
+        -5.4229
+      ],
+      [
+        54.2839,
+        -4.5331
+      ],
+      [
+        53.3987,
+        -3.679
+      ],
+      [
+        52.4815,
+        -2.8619
+      ],
+      [
+        51.5337,
+        -2.0831
+      ],
+      [
+        50.5569,
+        -1.3438
+      ],
+      [
+        49.5524,
+        -0.6452
+      ],
+      [
+        48.522,
+        0.0115
+      ],
+      [
+        47.4673,
+        0.6255
+      ],
+      [
+        46.3898,
+        1.1956
+      ],
+      [
+        45.2914,
+        1.7211
+      ],
+      [
+        44.1737,
+        2.201
+      ],
+      [
+        43.0385,
+        2.6347
+      ],
+      [
+        41.8875,
+        3.0213
+      ],
+      [
+        40.7227,
+        3.3605
+      ],
+      [
+        39.5457,
+        3.6515
+      ],
+      [
+        38.3586,
+        3.894
+      ],
+      [
+        37.1631,
+        4.0875
+      ],
+      [
+        35.9611,
+        4.2318
+      ],
+      [
+        34.7545,
+        4.3266
+      ],
+      [
+        33.5453,
+        4.3718
+      ],
+      [
+        0.15,
+        5.12
+      ]
+    ],
+    "b6_volume_cm3": 39.0
+  },
+  "scope": "Frozen CAD review; physical qualification and stiffness limits are separate."
+}

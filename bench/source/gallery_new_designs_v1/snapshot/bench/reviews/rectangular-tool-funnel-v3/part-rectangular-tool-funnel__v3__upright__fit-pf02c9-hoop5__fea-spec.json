@@ -1,0 +1,39 @@
+{
+  "step": "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+  "h": 2.0,
+  "supports": [
+    "pegs"
+  ],
+  "loads": [
+    {
+      "id": "front-side-5N",
+      "point": [
+        12,
+        74,
+        -20
+      ],
+      "radius": 5,
+      "force": [
+        5,
+        0,
+        0
+      ],
+      "target": 1.0
+    },
+    {
+      "id": "front-down-5N",
+      "point": [
+        12,
+        74,
+        -20
+      ],
+      "radius": 5,
+      "force": [
+        0,
+        0,
+        -5
+      ],
+      "target": 0.5
+    }
+  ]
+}

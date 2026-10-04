@@ -1,0 +1,251 @@
+{
+  "ridge_tool_x_before_mm": 1.0,
+  "ridge_tool_x_after_mm": 2.8,
+  "increase_tool_x_mm": 1.7999999999999998,
+  "roof_deg": 55.0,
+  "shoulders_tool_x_mm": [
+    1.690528175216333,
+    1.0
+  ],
+  "ridge_delta_installed_xyz_mm": [
+    3.996802888650563e-16,
+    -0.6156362579862035,
+    1.691446717414635
+  ],
+  "ridge_increase_floor_normal_mm": 1.7386664873203228,
+  "heights_above_floor": [
+    {
+      "tool_station_mm": 31.0,
+      "old_ridge_above_floor_normal_mm": 7.119104376726407,
+      "new_ridge_above_floor_normal_mm": 8.85777086404673
+    },
+    {
+      "tool_station_mm": 41.0,
+      "old_ridge_above_floor_normal_mm": 6.907215729064184,
+      "new_ridge_above_floor_normal_mm": 8.645882216384507
+    },
+    {
+      "tool_station_mm": 51.0,
+      "old_ridge_above_floor_normal_mm": 6.6953270814019605,
+      "new_ridge_above_floor_normal_mm": 8.433993568722284
+    }
+  ],
+  "old_volume_mm3": 440.3834294657387,
+  "new_volume_mm3": 484.87829358809523,
+  "added_volume_mm3": 44.494864122356546,
+  "below_old_crest_difference_mm3": 0.0,
+  "removed_old_material_mm3": 0.0,
+  "foot_difference_mm3": 0.0,
+  "original_reconstruction_difference_mm3": 0.0,
+  "foot_and_body_fit": [
+    {
+      "tray": 1,
+      "ordinary_reference_symmetric_difference_mm3": 0.0,
+      "body_intersection_mm3": 0.0,
+      "foot_symmetric_difference_mm3": 0.0,
+      "below_old_crest_symmetric_difference_mm3": 0.0
+    },
+    {
+      "tray": 2,
+      "ordinary_reference_symmetric_difference_mm3": 0.0,
+      "body_intersection_mm3": 0.0,
+      "foot_symmetric_difference_mm3": 0.0,
+      "below_old_crest_symmetric_difference_mm3": 0.0
+    },
+    {
+      "tray": 3,
+      "ordinary_reference_symmetric_difference_mm3": 0.0,
+      "body_intersection_mm3": 0.0,
+      "foot_symmetric_difference_mm3": 0.0,
+      "below_old_crest_symmetric_difference_mm3": 0.0
+    },
+    {
+      "tray": 4,
+      "ordinary_reference_symmetric_difference_mm3": 0.0,
+      "body_intersection_mm3": 0.0,
+      "foot_symmetric_difference_mm3": 0.0,
+      "below_old_crest_symmetric_difference_mm3": 0.0
+    }
+  ],
+  "plan_outline_tool_zy_mm": [
+    [
+      -0.7768605351448059,
+      31.0
+    ],
+    [
+      0.7768605351448059,
+      31.0
+    ],
+    [
+      2.0018237590789796,
+      51.0
+    ],
+    [
+      -2.0018237590789796,
+      51.0
+    ]
+  ],
+  "section_tool_y_mm": 41,
+  "section_curves": {
+    "v3": [
+      [
+        [
+          1.0000000000000746,
+          41.0,
+          1.3893421471168768
+        ],
+        [
+          -5.779852448599176,
+          41.0,
+          1.3893421471168075
+        ]
+      ],
+      [
+        [
+          1.000000000000652,
+          40.99999999999999,
+          -1.3893421471033993
+        ],
+        [
+          1.0000000000008047,
+          41.0,
+          1.3893421471168765
+        ]
+      ],
+      [
+        [
+          -5.779852448602776,
+          41.0,
+          1.3893421471191978
+        ],
+        [
+          -7.9012481612807335,
+          41.0,
+          -1.127076864991067
+        ]
+      ],
+      [
+        [
+          1.0000000000018474,
+          41.0,
+          -1.3893421471033989
+        ],
+        [
+          -7.971286038474532,
+          41.0,
+          -1.3893421471034033
+        ]
+      ],
+      [
+        [
+          -7.971286038407705,
+          41.0,
+          -1.389342147121269
+        ],
+        [
+          -7.901248161208102,
+          41.0,
+          -1.1270768649769707
+        ]
+      ]
+    ],
+    "v4": [
+      [
+        [
+          -5.779852448602776,
+          41.0,
+          1.3893421471191978
+        ],
+        [
+          -7.9012481612807335,
+          41.0,
+          -1.127076864991067
+        ]
+      ],
+      [
+        [
+          1.0000000000000746,
+          41.0,
+          1.3893421471168768
+        ],
+        [
+          -5.779852448599176,
+          41.0,
+          1.3893421471168075
+        ]
+      ],
+      [
+        [
+          -7.971286038407705,
+          41.0,
+          -1.389342147121269
+        ],
+        [
+          -7.901248161208102,
+          41.0,
+          -1.1270768649769707
+        ]
+      ],
+      [
+        [
+          1.0000000000018474,
+          41.0,
+          -1.3893421471033989
+        ],
+        [
+          -7.971286038474532,
+          41.0,
+          -1.3893421471034033
+        ]
+      ],
+      [
+        [
+          1.0000000000007976,
+          41.0,
+          1.260372968776474
+        ],
+        [
+          1.0000000000008047,
+          41.0,
+          1.389342147116877
+        ]
+      ],
+      [
+        [
+          2.799999999999997,
+          41.0,
+          0.0
+        ],
+        [
+          0.9999999999998721,
+          41.0,
+          1.2603735687775668
+        ]
+      ],
+      [
+        [
+          1.000000000000064,
+          41.0,
+          -1.2603735687774318
+        ],
+        [
+          2.8000000000000185,
+          41.0,
+          1.4210854715202004e-14
+        ]
+      ],
+      [
+        [
+          1.000000000000652,
+          41.0,
+          -1.389342147103399
+        ],
+        [
+          1.000000000000659,
+          41.0,
+          -1.2603729687678535
+        ]
+      ]
+    ]
+  }
+}

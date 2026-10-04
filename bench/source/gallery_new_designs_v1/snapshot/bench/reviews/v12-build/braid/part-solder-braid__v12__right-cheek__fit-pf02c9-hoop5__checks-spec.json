@@ -1,0 +1,120 @@
+{
+ "name": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5",
+ "title": "Braid roll v12",
+ "pose": "right-cheek",
+ "pose_matrix": [
+  6.123233995736766e-17,
+  0.0,
+  -1.0,
+  5.445,
+  0.0,
+  1.0,
+  0.0,
+  10.79,
+  1.0,
+  0.0,
+  6.123233995736766e-17,
+  24.400000000000002,
+  0,
+  0,
+  0,
+  1
+ ],
+ "installed": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.stl",
+ "print": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
+ "glued": [],
+ "glued_print": [],
+ "tools": [
+  {
+   "id": "bobbin-52x12-bore7",
+   "stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-bobbin-52x12-bore7.stl",
+   "colour": "#ccd2d5",
+   "seat": {
+    "gravity": true
+   },
+   "removal": [
+    [
+     -0.311,
+     0.0,
+     1.159
+    ],
+    [
+     18.918,
+     0.0,
+     5.069
+    ],
+    [
+     0,
+     70,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "bobbin-38x6-bore10.5",
+   "stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-bobbin-38x6-bore10.5.stl",
+   "colour": "#ccd2d5",
+   "seat": {
+    "gravity": true
+   },
+   "removal": [
+    [
+     -0.259,
+     0.0,
+     0.966
+    ],
+    [
+     18.918,
+     0.0,
+     5.069
+    ],
+    [
+     0,
+     70,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "chemtronics-44.5-domed",
+   "stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-chemtronics-44.5-domed.stl",
+   "colour": "#ccd2d5",
+   "seat": {
+    "gravity": true
+   },
+   "removal": [
+    [
+     -0.336,
+     0.0,
+     1.256
+    ],
+    [
+     18.918,
+     0.0,
+     5.069
+    ],
+    [
+     0,
+     70,
+     0
+    ]
+   ]
+  },
+  {
+   "id": "tail (render stand-in, the free end)",
+   "stl": "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__tool-tail.stl",
+   "colour": "#c87533",
+   "seat": {
+    "min_contacts": 0
+   }
+  }
+ ],
+ "overhang_exceptions": [],
+ "render_notes": {
+  "loaded": "52 x 12 mm bobbin (envelope max) on a 15 deg canted 5.6 mm axle; hood over the top and back, open below.",
+  "empty": "10 mm hub seat, 5.6 mm axle with the 0.8 mm V-nose lip on its top line, top-and-back hood.",
+  "front": "Tail hangs from the front rim past the open bottom; snip below the roll.",
+  "side": "Right cheek = bed face; flange along its lower edge.",
+  "print": "Right cheek on the bed; supports under the pegs only."
+ }
+}

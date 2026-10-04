@@ -7,3 +7,7 @@
 
 docs/gallery/** -text
 bench/reference/peg-fit.scad -text
+
+# Preserve exact frozen generation inputs and original evidence bytes.
+bench/source/gallery_new_designs_v1/snapshot/** -text
+bench/reviews/gallery-new-designs-v1/** -text

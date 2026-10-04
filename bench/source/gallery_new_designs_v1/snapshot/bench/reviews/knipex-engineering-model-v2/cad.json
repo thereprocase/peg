@@ -1,0 +1,818 @@
+{
+  "tool": "knipex",
+  "title": "Knipex 78 03 125",
+  "parameters": {
+    "title": "Knipex 78 03 125",
+    "span": 130.73,
+    "tip": -20.0,
+    "joint_radius": 6.75,
+    "bore": 1.8,
+    "shaft": 1.65,
+    "plate": 3.2,
+    "lap_gap": 0.15,
+    "head_radius": 3.2,
+    "head_height": 0.475,
+    "opening_sign": 1,
+    "metal_color": [
+      0.69,
+      0.72,
+      0.75
+    ],
+    "fixed_side": -1,
+    "tang": [
+      [
+        0,
+        0,
+        4.5
+      ],
+      [
+        12,
+        3.3,
+        3.6
+      ],
+      [
+        20,
+        6.4,
+        2.6
+      ],
+      [
+        35,
+        11.0,
+        1.65
+      ],
+      [
+        50,
+        13.8,
+        1.65
+      ],
+      [
+        80,
+        18.0,
+        1.65
+      ],
+      [
+        100,
+        21.7,
+        1.65
+      ]
+    ],
+    "grips": [
+      [
+        20,
+        6.4,
+        5.1,
+        5.2
+      ],
+      [
+        24,
+        8.2,
+        6.1,
+        6.1
+      ],
+      [
+        39,
+        12.0,
+        6.4,
+        6.4
+      ],
+      [
+        61,
+        15.6,
+        5.6,
+        6.1
+      ],
+      [
+        83,
+        19.5,
+        5.4,
+        6.0
+      ],
+      [
+        102,
+        21.8,
+        6.0,
+        6.0
+      ],
+      [
+        108,
+        21.4,
+        4.7,
+        4.7
+      ],
+      [
+        110.73,
+        20.8,
+        0.13,
+        0.13
+      ]
+    ],
+    "jaw_sections": [
+      [
+        -20,
+        0.035,
+        0.6,
+        0.12
+      ],
+      [
+        -17,
+        0.035,
+        2.6,
+        1.2
+      ],
+      [
+        -12,
+        0.035,
+        5.7,
+        2.6
+      ],
+      [
+        -11,
+        0.035,
+        5.8,
+        3.0
+      ],
+      [
+        -10,
+        0.2,
+        5.9,
+        3.2
+      ],
+      [
+        -7,
+        0.4,
+        6.1,
+        3.2
+      ],
+      [
+        -5,
+        1.2,
+        5.6,
+        3.2
+      ]
+    ],
+    "grip_z": 2.3,
+    "spring_center": [
+      9.4,
+      -0.4
+    ],
+    "spring_outer": 2.6,
+    "member_controls": {
+      "fixed": {
+        "tang": [
+          [
+            0,
+            0,
+            4.5
+          ],
+          [
+            12,
+            3.3,
+            3.6
+          ],
+          [
+            20,
+            6.4,
+            2.6
+          ],
+          [
+            35,
+            11.0,
+            1.65
+          ],
+          [
+            50,
+            13.8,
+            1.65
+          ],
+          [
+            80,
+            18.0,
+            1.65
+          ],
+          [
+            100,
+            21.7,
+            1.65
+          ]
+        ],
+        "blank": [
+          [
+            -7,
+            0,
+            6.1
+          ],
+          [
+            -2,
+            0,
+            6.75
+          ],
+          [
+            4,
+            1.2,
+            5.7
+          ],
+          [
+            12,
+            3.3,
+            3.6
+          ],
+          [
+            20,
+            6.4,
+            2.6
+          ],
+          [
+            35,
+            11.0,
+            1.65
+          ],
+          [
+            50,
+            13.8,
+            1.65
+          ],
+          [
+            80,
+            18.0,
+            1.65
+          ],
+          [
+            100,
+            21.7,
+            1.65
+          ]
+        ],
+        "grips": [
+          [
+            19.999999899998755,
+            6.4,
+            5.1,
+            5.2
+          ],
+          [
+            23.999999899998755,
+            8.2,
+            6.1,
+            6.1
+          ],
+          [
+            38.999999899998755,
+            12.0,
+            6.4,
+            6.4
+          ],
+          [
+            60.999999899998755,
+            15.6,
+            5.6,
+            6.1
+          ],
+          [
+            82.99999989999876,
+            19.5,
+            5.4,
+            6.0
+          ],
+          [
+            101.99999989999876,
+            21.8,
+            6.0,
+            6.0
+          ],
+          [
+            107.99999989999876,
+            21.4,
+            4.7,
+            4.7
+          ],
+          [
+            110.72999989999876,
+            20.8,
+            0.13,
+            0.13
+          ]
+        ]
+      },
+      "moving": {
+        "tang": [
+          [
+            0,
+            0.0,
+            4.5
+          ],
+          [
+            12,
+            2.4749999999999996,
+            3.6
+          ],
+          [
+            20,
+            4.800000000000001,
+            2.6
+          ],
+          [
+            35,
+            8.25,
+            1.65
+          ],
+          [
+            50,
+            10.350000000000001,
+            1.65
+          ],
+          [
+            80,
+            13.5,
+            1.65
+          ],
+          [
+            100,
+            16.275,
+            1.65
+          ]
+        ],
+        "blank": [
+          [
+            -7,
+            0,
+            6.1
+          ],
+          [
+            -2,
+            0,
+            6.75
+          ],
+          [
+            4,
+            1.2,
+            5.7
+          ],
+          [
+            12,
+            2.4749999999999996,
+            3.6
+          ],
+          [
+            20,
+            4.800000000000001,
+            2.6
+          ],
+          [
+            35,
+            8.25,
+            1.65
+          ],
+          [
+            50,
+            10.350000000000001,
+            1.65
+          ],
+          [
+            80,
+            13.5,
+            1.65
+          ],
+          [
+            100,
+            16.275,
+            1.65
+          ]
+        ],
+        "grips": [
+          [
+            19.999999899998755,
+            4.800000000000001,
+            5.1,
+            5.2
+          ],
+          [
+            23.999999899998755,
+            6.1499999999999995,
+            6.1,
+            6.1
+          ],
+          [
+            38.999999899998755,
+            9.0,
+            6.4,
+            6.4
+          ],
+          [
+            60.999999899998755,
+            11.7,
+            5.6,
+            6.1
+          ],
+          [
+            82.99999989999876,
+            14.625,
+            5.4,
+            6.0
+          ],
+          [
+            101.99999989999876,
+            16.35,
+            6.0,
+            6.0
+          ],
+          [
+            107.99999989999876,
+            16.049999999999997,
+            4.7,
+            4.7
+          ],
+          [
+            110.72999989999876,
+            15.600000000000001,
+            0.13,
+            0.13
+          ]
+        ]
+      }
+    },
+    "grip_longitudinal_adjust_mm": -1.0000124461839732e-07
+  },
+  "parts": [
+    {
+      "name": "fixed_metal",
+      "role": "fixed",
+      "color": [
+        0.69,
+        0.72,
+        0.75
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1797.8288578153902,
+      "bounds": [
+        [
+          -20.0,
+          -23.3500001,
+          -1.6
+        ],
+        [
+          100.0000001,
+          6.856707884581516,
+          3.2750001
+        ]
+      ],
+      "faces": 25,
+      "surface_types": {
+        "SurfaceOfExtrusion": 2,
+        "Plane": 22,
+        "Cylinder": 1
+      },
+      "triangles": 1034,
+      "step_sha256": "646e9b9456977897bf69203135ec1c464c345ec2065090d8a32f2b149dad0eb5",
+      "stl_sha256": "f560e2e48ace279e4bef72ea43158857a82c7ed5684d319e7a5b81401207ff7f"
+    },
+    {
+      "name": "fixed_grip_red",
+      "role": "fixed",
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8216.395302666102,
+      "bounds": [
+        [
+          19.999999799998164,
+          -24.54203241712696,
+          -4.638045703291249
+        ],
+        [
+          110.72999999999999,
+          -1.2999999371950957,
+          8.701358967961443
+        ]
+      ],
+      "faces": 4,
+      "surface_types": {
+        "BSplineSurface": 2,
+        "Plane": 2
+      },
+      "triangles": 16778,
+      "step_sha256": "3f353e996e7d567bfcca44d0de1813d9b09e88e6883d45ad815aa032a4c0a62a",
+      "stl_sha256": "822782971a65eee327d34476ec850907a5d1e970b1033c75516b69c1c281af23"
+    },
+    {
+      "name": "fixed_grip_blue",
+      "role": "fixed",
+      "color": [
+        0.035,
+        0.16,
+        0.52
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1809.213830309768,
+      "bounds": [
+        [
+          19.999999799998744,
+          -27.902438469324196,
+          -4.341782171039207
+        ],
+        [
+          110.72999999999877,
+          -11.028436405978702,
+          8.476622030706553
+        ]
+      ],
+      "faces": 4,
+      "surface_types": {
+        "BSplineSurface": 2,
+        "Plane": 2
+      },
+      "triangles": 18668,
+      "step_sha256": "3da7b6224bc1754cac571c8018fe60b625ac81c64dc62253571da8e098d09aa1",
+      "stl_sha256": "40d3bd470e69ff11ec834a61b12a76aec637441f60d615b25d0c412ba9561e70"
+    },
+    {
+      "name": "moving_metal",
+      "role": "moving",
+      "color": [
+        0.69,
+        0.72,
+        0.75
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1797.7698448939557,
+      "bounds": [
+        [
+          -20.0,
+          -6.870135234810243,
+          -3.2750001000000006
+        ],
+        [
+          100.00000010000015,
+          17.925000100000023,
+          1.4
+        ]
+      ],
+      "faces": 25,
+      "surface_types": {
+        "SurfaceOfExtrusion": 2,
+        "Plane": 22,
+        "Cylinder": 1
+      },
+      "triangles": 1002,
+      "step_sha256": "d12652d0f72c393e58a5ba4298870897d290ae5d6f93647bf8b3be957612403c",
+      "stl_sha256": "e7eb05a6e3623acc21b3343803aaf2f3ed128f4628e9baecbb00c5cb75117bd6"
+    },
+    {
+      "name": "moving_grip_red",
+      "role": "moving",
+      "color": [
+        0.73,
+        0.045,
+        0.065
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8215.943930719099,
+      "bounds": [
+        [
+          19.99999979999846,
+          -0.3001359444421129,
+          -6.986635434395904
+        ],
+        [
+          110.72999999999954,
+          19.175987312081602,
+          8.673282032181387
+        ]
+      ],
+      "faces": 4,
+      "surface_types": {
+        "BSplineSurface": 2,
+        "Plane": 2
+      },
+      "triangles": 17396,
+      "step_sha256": "98ae56a01e964ead13c82c1524eb2e141cdc26d3bb6b818897a900c97af5c193",
+      "stl_sha256": "ccf46f984317e2408b8fe878396855a321d77534a90e65d0ea2c2b6d11167bc1"
+    },
+    {
+      "name": "moving_grip_blue",
+      "role": "moving",
+      "color": [
+        0.035,
+        0.16,
+        0.52
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1809.2262781904165,
+      "bounds": [
+        [
+          19.99999979999875,
+          9.005221189787942,
+          -6.41700500861747
+        ],
+        [
+          110.72999999999882,
+          22.466210400800552,
+          8.209071637633784
+        ]
+      ],
+      "faces": 4,
+      "surface_types": {
+        "BSplineSurface": 2,
+        "Plane": 2
+      },
+      "triangles": 18402,
+      "step_sha256": "0aa6dc7c8cf440b47d413e5051d9f1065f1d46dead3c893377e4ff6ba8d20e4c",
+      "stl_sha256": "47ea164c44181359e9542eb3c512ffce3eecb358e92009fb6ce9aa7cfcc43515"
+    },
+    {
+      "name": "main_rivet",
+      "role": "fixed",
+      "color": [
+        0.49,
+        0.52,
+        0.56
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 86.85019861048792,
+      "bounds": [
+        [
+          -3.2,
+          -3.2000001,
+          -3.7800001
+        ],
+        [
+          3.2000001,
+          3.2000001,
+          3.7800001
+        ]
+      ],
+      "faces": 11,
+      "surface_types": {
+        "Plane": 4,
+        "Toroid": 4,
+        "Cylinder": 3
+      },
+      "triangles": 23936,
+      "step_sha256": "a985a95f66d36857b0a538785f5ac38ef82c1db93b3b5bc8bd5ad2b4ec421bc8",
+      "stl_sha256": "238057d1f60737f2ae27a8e38f035f882581e9dbc7f0fb2c0414c9389ccc030f"
+    },
+    {
+      "name": "spring_limiter_ring",
+      "role": "fixed",
+      "color": [
+        0.15,
+        0.17,
+        0.2
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 8.293804605477055,
+      "bounds": [
+        [
+          6.800000000000001,
+          -3.0,
+          3.2750000000000004
+        ],
+        [
+          12.0,
+          2.2,
+          3.825
+        ]
+      ],
+      "faces": 4,
+      "surface_types": {
+        "Cylinder": 2,
+        "Plane": 2
+      },
+      "triangles": 840,
+      "step_sha256": "9166a048acc5f668de9b58e8a05ca4be76975d4d1dd1956be3816c6fe3431fea",
+      "stl_sha256": "4768ea2ef94c65a5a3bb14b38ab5089886e9ba0daf484e427eb9a1f9a8753678"
+    },
+    {
+      "name": "spring_limiter_pin",
+      "role": "fixed",
+      "color": [
+        0.6,
+        0.63,
+        0.66
+      ],
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2.4245241304079226,
+      "bounds": [
+        [
+          8.35,
+          -1.4500000000000002,
+          3.1750000000000003
+        ],
+        [
+          10.450000000000001,
+          0.65,
+          3.875
+        ]
+      ],
+      "faces": 3,
+      "surface_types": {
+        "Cylinder": 1,
+        "Plane": 2
+      },
+      "triangles": 416,
+      "step_sha256": "7257f451da87f184bb241730e8fc2542accbec09a8b18fc6aaa80b2aa808d1c8",
+      "stl_sha256": "cbdcc3dee6876568cd4925eb83e3b0d54a194079cf7c79e6c2e83aa2e0ed58ba"
+    }
+  ],
+  "motion": [
+    {
+      "angle_deg": 0,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 2,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 4,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 6,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 8,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 10,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 12,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 14,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 16,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 18,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    },
+    {
+      "angle_deg": 20,
+      "member_overlap_mm3": 0.0,
+      "minimum_distance_mm": 0.030000000000002025
+    }
+  ],
+  "overall_bounds": [
+    [
+      -20.0,
+      -27.902438469324196,
+      -6.986635434395904
+    ],
+    [
+      110.72999999999999,
+      22.466210400800552,
+      8.701358967961443
+    ]
+  ],
+  "projected_span_mm": 130.73,
+  "anchor_mm": 130.73,
+  "joint_stack_with_rivet_mm": 7.5600000000000005,
+  "grip_max_section_depth_mm": 12.8,
+  "CAD_edge_tolerance_mm": 1e-05,
+  "source_sha256": "619234a3f208107350ed1257fedeee9ef3e10e3dc8b1df77d630aff319a48d32",
+  "runtime": {
+    "FreeCAD": [
+      "1",
+      "1",
+      "3",
+      "44987 (Git)",
+      "https://github.com/FreeCAD/FreeCAD.git",
+      "2026/07/25 04:52:02",
+      "(HEAD detached at 1.1.3)",
+      "145529fe741292ff0b3977a01195bf0247425794"
+    ],
+    "OCC": "7.8.1"
+  },
+  "method": "No scan vertices in final CAD. Sparse profiles/sections; continuous steel blank with planar jaw faces and cylindrical bores, elliptic grip loft and swept hardware. Grip envelopes intentionally overlap their own steel cores; material volumes/mass are not qualified.",
+  "motion_scope": "0 to 20 degrees illustrative extra opening; not a measured stop. Latch released. Coil is geometric depiction, not a spring simulation."
+}

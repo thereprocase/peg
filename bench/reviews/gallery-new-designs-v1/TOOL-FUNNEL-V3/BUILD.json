@@ -1,0 +1,611 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-04T17:05:57.936819+00:00",
+  "status": "FROZEN STYLED UPRIGHT FUNNEL; UNSLICED REVIEW PROTOTYPE",
+  "head": "6665ad4153906943f115eca67e228f8ec12a7d7b",
+  "lineage": "CAD and matching numerical evidence from private rectangular-funnel-v3-draft1. Source hash matches candidate. Full-mesh figures and viewer use exact selected inputs; root baseline read-only.",
+  "sources": [
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_check_v3.py",
+      "sha256": "8cf1d01683e117bb9816c0d408716bea833b229ce47167ea6564ef9c27ffdd10",
+      "bytes": 3561
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_fea_v3.py",
+      "sha256": "940fbf7981f39cbb3c290ee9a2a8a989f2f89a0bb23fa2211652f48d2c345123",
+      "bytes": 153
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_figures_v3.py",
+      "sha256": "5d2523fbabaa1a863541fa15da3fde06a9f242708090adc3a3175b9513aad058",
+      "bytes": 2992
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_v3.py",
+      "sha256": "55fbb8ec683a59f9e9987538e2133dc03352dd5b7a4ec1e0cf65b36b4112737a",
+      "bytes": 5049
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_viewer_v3.py",
+      "sha256": "59e2a26ad68b24ffc09797a85f4c90167327d956be7371ed76be0d73fa392e4d",
+      "bytes": 1034
+    }
+  ],
+  "inputs": [
+    {
+      "path": "bench/reference/conformal_120.step",
+      "sha256": "f030d59fc8130b57cfcb4367202cdd0e03a1c335850f33fa41d28e85eb623d96",
+      "bytes": 94259
+    },
+    {
+      "path": "bench/reference/conformal_120_geometry.json",
+      "sha256": "f1912e674491a2f8b83578a67a44e8e554b061086d115fb9e9fa18745fcdaaca",
+      "bytes": 3611
+    },
+    {
+      "path": "bench/reference/conformal_motion_results.json",
+      "sha256": "a7400030d41c89b816324ed2ab5f90e5c08123ff996014251105bfb5c7ef833c",
+      "bytes": 11536
+    },
+    {
+      "path": "bench/reference/peg-fit.scad",
+      "sha256": "e586ab4ff6173c76e10c960ca707da94b01c615a629480d4bceeae71c80e2438",
+      "bytes": 2423
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/cad.json",
+      "sha256": "cd9395a86e33ca0f47fe99de033ed5c3613f8af76886fe9efac1188f1418e1c0",
+      "bytes": 17053
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/coil-open-10.stl",
+      "sha256": "38682c617ee0bf22092a7e1d3b75613d4c610d959ed8d5479d176d337232a915",
+      "bytes": 4960284
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/fixed_grip_blue.stl",
+      "sha256": "1169576e8d1473c21ef8b1ffaf349d56ac21018d153eee8ca40c3187282952e8",
+      "bytes": 1289084
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/fixed_grip_red.stl",
+      "sha256": "aa64c3437a229c03fba24958971203c3c1106be68d4b41b37b4fc608dfbf7ac9",
+      "bytes": 24484
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/fixed_metal.stl",
+      "sha256": "1fa62d9aa16b970d7155e50241449617b7c881f9b595fa71d50dfcb5bcff24bb",
+      "bytes": 307784
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/latch_pin.stl",
+      "sha256": "1354a241aa34ec53a28ab3453c6198775875bb4d2a921269acec68b6e8553e15",
+      "bytes": 20884
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/main_rivet.stl",
+      "sha256": "3cc682788c53259faf6e7915475733c4433ecdcf2e920f8a0786fda057a4c2df",
+      "bytes": 1196884
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/moving_grip_blue.stl",
+      "sha256": "5e64e366be30820b6f66e24f5fec5cc7d305bcab90dead2cdea7682e8840bed3",
+      "bytes": 1380184
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/moving_grip_red.stl",
+      "sha256": "96845e7ac45247745f2fc3b36f2b13ae57da34525317d56fd9cbc0ca1d691925",
+      "bytes": 24484
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/moving_metal.stl",
+      "sha256": "297c01bebcfbf5d661e9558271e57cea10096447d262b1766dfae58005963100",
+      "bytes": 301184
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/opening_coil.stl",
+      "sha256": "b8fbc4f469cf83a94d8038e98086db1d3d8ec23338821e9bca27c46291005443",
+      "bytes": 4997484
+    },
+    {
+      "path": "bench/reviews/klein-engineering-model-v2/released_latch.stl",
+      "sha256": "f0e13802b934795c960e4bb2fc2ea8fe9c7d5c599c5e0039fd1e725bca080676",
+      "bytes": 38284
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/cad.json",
+      "sha256": "3db553d4945fd5c4e83d18bdda17c54dd88f39d0f65eb69f086e8c7864805a68",
+      "bytes": 15770
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/fixed_grip_blue.stl",
+      "sha256": "40d3bd470e69ff11ec834a61b12a76aec637441f60d615b25d0c412ba9561e70",
+      "bytes": 933484
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/fixed_grip_red.stl",
+      "sha256": "822782971a65eee327d34476ec850907a5d1e970b1033c75516b69c1c281af23",
+      "bytes": 838984
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/fixed_metal.stl",
+      "sha256": "f560e2e48ace279e4bef72ea43158857a82c7ed5684d319e7a5b81401207ff7f",
+      "bytes": 51784
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/main_rivet.stl",
+      "sha256": "238057d1f60737f2ae27a8e38f035f882581e9dbc7f0fb2c0414c9389ccc030f",
+      "bytes": 1196884
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/moving_grip_blue.stl",
+      "sha256": "47ea164c44181359e9542eb3c512ffce3eecb358e92009fb6ce9aa7cfcc43515",
+      "bytes": 920184
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/moving_grip_red.stl",
+      "sha256": "ccf46f984317e2408b8fe878396855a321d77534a90e65d0ea2c2b6d11167bc1",
+      "bytes": 869884
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/moving_metal.stl",
+      "sha256": "e7eb05a6e3623acc21b3343803aaf2f3ed128f4628e9baecbb00c5cb75117bd6",
+      "bytes": 50184
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/spring_limiter_pin.stl",
+      "sha256": "cbdcc3dee6876568cd4925eb83e3b0d54a194079cf7c79e6c2e83aa2e0ed58ba",
+      "bytes": 20884
+    },
+    {
+      "path": "bench/reviews/knipex-engineering-model-v2/spring_limiter_ring.stl",
+      "sha256": "4768ea2ef94c65a5a3bb14b38ab5089886e9ba0daf484e427eb9a1f9a8753678",
+      "bytes": 42084
+    },
+    {
+      "path": "bench/reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "sha256": "9328ccc5d4bfd4ef7f5c88efb68cc4714da8b0017cd2c2d0a85e52ddc1669f3a",
+      "bytes": 2405
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v1/part-rectangular-tool-funnel__v1__right-cheek__fit-pf02c9-hoop5__installed.step",
+      "sha256": "b5f1fcbb5587bb52ff2ba9648fa48b1633fd12610738b6fd6ed1ba70f4b390d9",
+      "bytes": 273905
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v2/part-rectangular-tool-funnel__v2__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "437706941cc65141132e7cfd6ca6d9ba90af9b30ada93acb1b7cd5d53b3895f3",
+      "bytes": 303310
+    },
+    {
+      "path": "bench/source/peg_fit_ladder.py",
+      "sha256": "229ccdf101ee8df97370b7a374ad18231e0f1ab26eb10e6c1b3b009684b35500",
+      "bytes": 9823
+    },
+    {
+      "path": "bench/source/peg_fit_ladder_v2.py",
+      "sha256": "e98309d01fffb5110429a30c4da442c9322192a8363b13ea04ec35e7f829f919",
+      "bytes": 8349
+    },
+    {
+      "path": "bench/source/peg_fit_ladder_v4.py",
+      "sha256": "7422c81721e435c2fcc5f5689fa69709676629da992225b3c508cd3b40e8723f",
+      "bytes": 19624
+    },
+    {
+      "path": "bench/source/peg_interface.py",
+      "sha256": "205c278017a9f6bd437a165b51d360bea38d6e95a6a055283202539a69e8cd9b",
+      "bytes": 4268
+    },
+    {
+      "path": "bench/source/peg_print_variant.py",
+      "sha256": "35bd7ab46d8b14acf4f89264bf65eb8402877a6e11b86226b986d4df8a6046fa",
+      "bytes": 2401
+    },
+    {
+      "path": "bench/source/peg_profile.py",
+      "sha256": "6a7e6d45623f6cf3e853c62c885d42ee6c1e1584be1b6db353ca523d741d4981",
+      "bytes": 4074
+    },
+    {
+      "path": "bench/source/solder_v12/common.py",
+      "sha256": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259",
+      "bytes": 13327
+    },
+    {
+      "path": "bench/source/solder_v12/fea.py",
+      "sha256": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1",
+      "bytes": 5946
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_check_v1.py",
+      "sha256": "6bde39367ca8be0564108701c0da8438de3b8ca13ca7a573572da13ea6e12901",
+      "bytes": 6101
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_fea_v1.py",
+      "sha256": "5f91004498f194cd0e9e3a25955b0adf9f906b41f854cd73b852a51d0bd047fa",
+      "bytes": 1254
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_viewer_v1.html",
+      "sha256": "a1a903d447ee04f58a1556dff21a633db3e067db9a08fad911868b1eabdeb54d",
+      "bytes": 9646
+    },
+    {
+      "path": "bench/source/tool_holders/rectangular_funnel_viewer_v1.py",
+      "sha256": "e0d54e5d56f3904e17b28c2610e27c7a9dcd27a0e5cac4a54678b0f311097825",
+      "bytes": 3089
+    },
+    {
+      "path": "bench/source/tool_models/engineering_reference_v2.py",
+      "sha256": "01cae95b1454c3a1751791e51c1cc707c5301e862c8fce1ce17f37dba8eb96ca",
+      "bytes": 2202
+    },
+    {
+      "path": "bench/source/tool_models/engineering_viewer_v2.py",
+      "sha256": "5b2b07f9ac362247d24e0c59d8797c1c69a74857f9ed4c1bd3fbd501c208b3e5",
+      "bytes": 10211
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/NOTES.md",
+      "sha256": "d9a8a00c46122422796093c6bcf10a4f350091ab231eb21c9231d135cbc37944",
+      "bytes": 7610
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/OWNER-TEST.md",
+      "sha256": "357a40ada13bd76b87f71ee2946bdcf3e60acafe33d04de14965bd47854b9091",
+      "bytes": 1170
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/bed-contact.png",
+      "sha256": "7270ce4341fe6c65f2f54544f88e09835e7cc70de0a6b4313392aba7650afefe",
+      "bytes": 47467
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/bed-contact.stl",
+      "sha256": "4a28b1741a8330a5a1232ca37c58ba58528fad031b13dbcf1dc282236da540bd",
+      "bytes": 10484
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/candidate.json",
+      "sha256": "66eed8fe25b266040556ab745d7557aa3847c51e959c33940d6f099c90466904",
+      "bytes": 4196
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/checks.json",
+      "sha256": "282e80080450e3300f4c029dfae4ca1407781991bbd7327e773870cf61611f5d",
+      "bytes": 10742
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/dimensions.png",
+      "sha256": "d078a0b750add76d9fb80a0ad67bbd61e654cd65c6d58e1c640652c65d353d75",
+      "bytes": 114952
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/editable.FCStd",
+      "sha256": "2e33e6520f00c4474ca05ac71409e8aa5f306f9b9380a69e8101c26c069be66c",
+      "bytes": 135441
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/empty.png",
+      "sha256": "73a6f194d5df7469efe0ec2eb618579f6f993e023e2b7eb840f34de375c63bb7",
+      "bytes": 29248
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/fea-provenance.json",
+      "sha256": "2e42786414b690be7e37f210c951c3faa96cca7eb80c9173f326d95889008ad2",
+      "bytes": 1107
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/front-material.stl",
+      "sha256": "1c19b43e829b43f846b88954d7bcc46b2d3423eb87ec8788b5e270f6c8b57975",
+      "bytes": 974884
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/loaded.png",
+      "sha256": "e707e911d63caaf4d1daf8c1d28ae5fb208a5b62ff840519c5c58038d164485d",
+      "bytes": 47971
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "sha256": "47dab2fa1487086f6e2ee10396124a839e76a1fbe768d0a7e0179026e1ae74b2",
+      "bytes": 556
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__fea.json",
+      "sha256": "f1010aa47be69110460af1e3db5ea3ade4bcd7f7fff5ee72a76e19bb5765fd43",
+      "bytes": 928
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb",
+      "bytes": 418717
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.stl",
+      "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+      "bytes": 2048784
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
+      "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+      "bytes": 2051584
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/poses.json",
+      "sha256": "61c35d9ba47195653f0ac88348b45d634b311dafe593bfe55ae1876882a01230",
+      "bytes": 2646
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/preservation.json",
+      "sha256": "6901ca91f7bfbadbabc498f3b4c4cef6b9a6ba01791d09f8be2547a0d47fe2c0",
+      "bytes": 173
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/print-pose.png",
+      "sha256": "145b51d0b4532f2b8544d25fdb08d819bb1d279a8cde72f4631923157674593e",
+      "bytes": 172907
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/receiver-reference.stl",
+      "sha256": "197e07d0c50e6d5dd59bb66675035e626bee6f26c5aef7e3f4a79bccb5300949",
+      "bytes": 818784
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/rim-top.png",
+      "sha256": "7bb8aaa80a82352a9e30067fac883cd92f52e2b25776574ad4c9f99cf91fe2ac",
+      "bytes": 48708
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/sections.json",
+      "sha256": "e2e5a7eb7153e51a25404d31fbf6f8c53b07ff36b51af17fff1b996b61dff6c3",
+      "bytes": 94098
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/tool-checks.json",
+      "sha256": "c2a6a88fe9aef5d94041b0b219fbec3e47b70ffb8227d6bf90869c3d73bc3ab1",
+      "bytes": 3943
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/holder-print.stl",
+      "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+      "bytes": 2051584
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/holder.FCStd",
+      "sha256": "2e33e6520f00c4474ca05ac71409e8aa5f306f9b9380a69e8101c26c069be66c",
+      "bytes": 135441
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/holder.bin",
+      "sha256": "81607cd5ed2aa1c228792e24c3a07aeacf3e77486dd8efa6d07e79b58607e313",
+      "bytes": 1044072
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/index.html",
+      "sha256": "bd9694f2034affb01ada1a2c5a4f381409ea3a0f66812ffaf7182dfccda39c6f",
+      "bytes": 9775
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_grip_blue.bin",
+      "sha256": "ab0db97f31f54f5bcd9bc33173bef648700ecf104ba14195cd88497fa815baa8",
+      "bytes": 621912
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_grip_red.bin",
+      "sha256": "431fa51eec3b8c52074eec8992e1301e4b0d164d55a0cf2aae3c6d9b7bac4a2d",
+      "bytes": 17664
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-fixed_metal.bin",
+      "sha256": "507987c855608601a7fc97a670cb4ce2374cf9e06c52f8f8fd3923f7f79e1346",
+      "bytes": 212736
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-latch_pin.bin",
+      "sha256": "7479bf8449ddacc3c0a05c979b118048517f9420cccbbab3895d01480bffba99",
+      "bytes": 15072
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-main_rivet.bin",
+      "sha256": "2bd296e2ef0c0c60ac579d0e276a987d64c8f48f105b8568a1357376c2dce080",
+      "bytes": 579552
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_grip_blue.bin",
+      "sha256": "a8a402c5e3f845129fca7d80b6b1d1496e49a45bbff4837749349ca61f20f97d",
+      "bytes": 665640
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_grip_red.bin",
+      "sha256": "e9993a0b7e3ca6cea882710d3d583c4d4d7e55d94f7d425ba89474b58e84649e",
+      "bytes": 17664
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-moving_metal.bin",
+      "sha256": "588da500233d643c98cc892be15f8c7c4e149880e1182549e82913dcdc11a24d",
+      "bytes": 209280
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-opening_coil.bin",
+      "sha256": "612956ba1f10a4bcbbe32302a5c4887c86e12ddedd9db22d778e5ed8f651e0dc",
+      "bytes": 2404128
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open0-released_latch.bin",
+      "sha256": "d4323ab6654629a98a0c505099602731aa181d574970c69abffb51317e2f59b3",
+      "bytes": 27792
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_grip_blue.bin",
+      "sha256": "d32f061970f3ebb59951b9693a2d200be01b7311e0a8437f2e33058711022651",
+      "bytes": 621912
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_grip_red.bin",
+      "sha256": "dbdeb7ac49d3bb7393f499bdd61ddab8984723bdabbbbc2265931efb9362bbae",
+      "bytes": 17664
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-fixed_metal.bin",
+      "sha256": "a3bb51d3d895aeb12bba47461790a5ef850478cd51e4a0479961eda8c4a7493e",
+      "bytes": 212736
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-latch_pin.bin",
+      "sha256": "d83ddb8f6d499a1af3ffdb751fe1def47bd6fbe5c42f409c8b26ba23e4035c87",
+      "bytes": 15072
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-main_rivet.bin",
+      "sha256": "2cba9d4444b9cd858ffbb11c94d1748156047ee8edcf4b6275e91d3507177a8c",
+      "bytes": 579552
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_grip_blue.bin",
+      "sha256": "0a34227dc30e1caf06c59e7c080d450616c2bda2f370efca72392494c3966078",
+      "bytes": 665640
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_grip_red.bin",
+      "sha256": "7e8cce39bb602f8410ef255d138363b5ff9b97cf167154aef8d6a10d7110273a",
+      "bytes": 17664
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-moving_metal.bin",
+      "sha256": "5c7265bf276ac4ef09f213a9cb54e3958d424ceba6ed96c9d8244a7623ec52dd",
+      "bytes": 209280
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-opening_coil.bin",
+      "sha256": "9032d5e6ead29355387a4eab73616c190ed8c3e7407aa01621b98aaa0c6f8ce2",
+      "bytes": 2386272
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/klein-open10-released_latch.bin",
+      "sha256": "7d7a6784db133865ae01881809660f3d92f638e69c756e16c349223215b040e0",
+      "bytes": 27792
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_grip_blue.bin",
+      "sha256": "a8cac19ec9cd190526f0c2e239fa1174e9ebf47be1d861fb202204a8f6776c69",
+      "bytes": 452496
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_grip_red.bin",
+      "sha256": "71c97b069469ee5ec159fb2ffabc0b377adba77896a76f7e2cbad7fa4b71ab96",
+      "bytes": 408720
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-fixed_metal.bin",
+      "sha256": "452301fb58bd5d38539aab2348d92a5728e0a7a06a00545395393ccfc27e0ad0",
+      "bytes": 34368
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-main_rivet.bin",
+      "sha256": "96744a0cde7d172de163c43b6c7e68563ace6fd2388257de8aae71bcc3d66dcf",
+      "bytes": 579552
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_grip_blue.bin",
+      "sha256": "1ba04e5b45c62138a7037074d4209262b60611ae368d047da150054e0f88cc51",
+      "bytes": 446472
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_grip_red.bin",
+      "sha256": "52fa54b965f0aefcf087a665072002b9f3dfec2e9fed5639be7fb78925f7664e",
+      "bytes": 423744
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-moving_metal.bin",
+      "sha256": "9f32dfa70ef81a85a7fe22aee535e6413e30627c433ae33576838767bc022531",
+      "bytes": 33312
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-spring_limiter_pin.bin",
+      "sha256": "ffbb738f20ebb73afe28c35aeba9ec6e5ccddf235a25d64436d1e4a0d8f3b689",
+      "bytes": 15072
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open0-spring_limiter_ring.bin",
+      "sha256": "0e889a9ce393ab116ee7d1d1b6511415d12945fd8f470397fb341e3a43a66160",
+      "bytes": 30240
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_grip_blue.bin",
+      "sha256": "6b083abfbfc1cd3e21d64c96c72866d892df5052c632002b10f286f1d5618e8f",
+      "bytes": 452496
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_grip_red.bin",
+      "sha256": "36fd373aabd45e97f2a46c633c5f48ec04577a25b4e9579f40b5243b91fa75df",
+      "bytes": 408720
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-fixed_metal.bin",
+      "sha256": "6be2570b2a8d54a6404fda9086a55f991e62eb960cde9dca21247d3928228d00",
+      "bytes": 34368
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-main_rivet.bin",
+      "sha256": "cfd2e9de0a351db7353fb1157d7d510a96b0fb9fa3d456ab97bfa5b3aef61a49",
+      "bytes": 579552
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_grip_blue.bin",
+      "sha256": "bf59eb1b5263f5c08295dd2b67903abd10c123f8dc7f693d6a29f97a66c615c4",
+      "bytes": 446472
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_grip_red.bin",
+      "sha256": "97d5b42fe0c228eacd502ff26a501a1f531d2f0f5ecc9d39d304aae749fee537",
+      "bytes": 423744
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-moving_metal.bin",
+      "sha256": "6a77a7e16284f74faeb296d598fc8800a741ea03737ca241377d7243d3e41e2a",
+      "bytes": 33312
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-spring_limiter_pin.bin",
+      "sha256": "bdf2e28c8c26648286dc2abb6e7fe52317da197bf601ea85cf60f6d0bbe4f8b0",
+      "bytes": 15072
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/knipex-open10-spring_limiter_ring.bin",
+      "sha256": "af222fe08eee98b95d7a18ce8c73bf3b2caf19cd09549333ef39722c8469b495",
+      "bytes": 30240
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/models.json",
+      "sha256": "dac535d811480742753ba58cecc3da82dd80f0bbd0ebdce79d1541ffe09a6593",
+      "bytes": 12241
+    },
+    {
+      "path": "bench/reviews/rectangular-tool-funnel-v3/viewer/packing.json",
+      "sha256": "d1513c477e16c7a9bd238ce9ae05fb636a70696ff63fe9165278493cf3c39731",
+      "bytes": 3099
+    }
+  ],
+  "checks": {
+    "geometry": true,
+    "bed": true,
+    "matching_fea": true,
+    "preserved_root_baseline": 724,
+    "frozen_models": 101,
+    "python_compile": 5
+  },
+  "limits": [
+    "No slice/toolpath/support-free qualification",
+    "Physical seating/rattle still untested",
+    "Internal STEP for FEA only; ordinary native validity, no deep BOP qualification"
+  ],
+  "root_review": {
+    "changes": "Empty/loaded viewer framing and review link only; all CAD/meshes/checks/FEA and prior versions unchanged.",
+    "mesh": "Independent installed/upright meshes watertight, consistent, single positive-volume solid with bottom atZ0.",
+    "matching_FEA": "Actual two5N cases finite and within targets."
+  }
+}

@@ -1318,5 +1318,77 @@
   "part-pb04__current-mounts-v1__fit-pf02c9-hoop5__cad-source-and-review.zip": {
     "sha256": "c3ae5b5186f5a64faacd382b0f016e19ba43327de23f949f5d38c589340f936d",
     "bytes": 3503941
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "a41a4e206dd3d855b8bf47fdd5362eca81dbaeab4042ba143db442305a3e33e7",
+    "bytes": 299711
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "b598dd6bbc4e27e07ba5eba66287b0bf2badbbcbca35154b8e5c370a1a91273c",
+    "bytes": 306565
+  },
+  "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "245f46b769e6486bd1015f2573091daad71c70532e55a1160ee424c6c49e1698",
+    "bytes": 3841652
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "03e161cc6f295f60cdbb0f41e8a8a634731c2e4f46b34e79ef53ba03eb7ee6fd",
+    "bytes": 525953
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "43380f4ab0abf39b89f9abcaf2928b76ff30a05a76722c0c897efe14afec904b",
+    "bytes": 550224
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__wedge__print.step": {
+    "sha256": "7376f63bdedb010e6bb7c86ca02ded12667ce594834df317444fba5412d749f7",
+    "bytes": 22151
+  },
+  "part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "c3a826fadb353ddbd3a2b97ad9431cfae96c8fc789f91a512c0b7bd24d7b41e2",
+    "bytes": 20267699
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "d9a9c8ddcf5f83789fc539efb253393e8c150a6de063fdefffc176950f22dccb",
+    "bytes": 418717
+  },
+  "part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "cbf1a70a45e72eaffd3730de6ce97cc59be2ee98c296a6f07c459ca1e4ae03ed",
+    "bytes": 25069205
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "939e686e1a25e92761196e204297c487d9f525cace2ad53baad88a95970047bc",
+    "bytes": 378527
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.step": {
+    "sha256": "93b0ae18afaf2754a877d5a4d7ad08e580a6beb30e0278b3c50ebf7a3a74f86c",
+    "bytes": 387574
+  },
+  "part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "9fe6f196d967da1d89db1a83f9e28117ebfbf6a99833c708d4ddeeb9b6aeeeb2",
+    "bytes": 4856176
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step": {
+    "sha256": "8ad2945515c40c733ac4b6234bc8be9d9463a1214e18edb919f8e57b50d00eb2",
+    "bytes": 321678
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step": {
+    "sha256": "04c04054e1cf80923e92bedaca9f021277a9d5ab215647da13b46cdac8351647",
+    "bytes": 319856
+  },
+  "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__cad-source-and-review.zip": {
+    "sha256": "9763962e78915214e39b4272ed14b763aa49a361612a2ca8e92bb90148085d4e",
+    "bytes": 5251233
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__print-vase.step": {
+    "sha256": "66b5936e684f512fb7f34d887608aaef30bf4a6bbca139409b7de2df3de1dc2c",
+    "bytes": 13005
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__installed.step": {
+    "sha256": "d08326fbbe382e2bae8747d55ae0961d77720ccab467fe6d6594f6711e0221e8",
+    "bytes": 13130
+  },
+  "part-solder-drip-tray-liner__v12__vase-filled__cad-source-and-review.zip": {
+    "sha256": "df851cf869460f2fda5f6a6fa5fea1c0cf0285e8fee926258dd2042ead4cfe4b",
+    "bytes": 4093298
   }
 }

@@ -1,0 +1,78 @@
+{
+ "name": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5",
+ "mesh": {
+  "watertight": true,
+  "bodies": 1,
+  "volume_cm3": 57.6,
+  "passed": true
+ },
+ "pose_matrix_error_mm": 0.0,
+ "overhangs": {
+  "features": [],
+  "peg_area_mm2": 130.5,
+  "other_area_mm2": 0.0,
+  "passed": true
+ },
+ "mass": {
+  "solid_asa_g": 61.6,
+  "glued_asa_g": 0.0
+ },
+ "tools": [
+  {
+   "id": "liner",
+   "sampled": 1760,
+   "deepest_mm": 0.0,
+   "fit_passed": true,
+   "contacts": 152,
+   "contact_bbox": [
+    [
+     -55.1,
+     10.6,
+     -44.0
+    ],
+    [
+     55.1,
+     68.0,
+     -44.0
+    ]
+   ],
+   "com": [
+    -0.0,
+    39.3,
+    -33.8
+   ],
+   "com_over_contacts": true,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0,
+      0,
+      6.4
+     ],
+     [
+      0,
+      95,
+      0
+     ]
+    ],
+    "min_clearance_mm": 0.4,
+    "at_offset": [
+     0.0,
+     5.9,
+     6.4
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "ref-b6-nozzles",
+   "sampled": 2851,
+   "deepest_mm": -25.781,
+   "fit_passed": true,
+   "contacts": 0,
+   "seat_passed": true
+  }
+ ],
+ "passed": true
+}

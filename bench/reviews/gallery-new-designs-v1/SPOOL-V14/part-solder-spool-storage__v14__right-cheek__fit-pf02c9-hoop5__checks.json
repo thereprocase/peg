@@ -1,0 +1,263 @@
+{
+ "name": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5",
+ "mesh": {
+  "watertight": true,
+  "bodies": 1,
+  "volume_cm3": 29.17,
+  "passed": true
+ },
+ "pose_matrix_error_mm": 0.0,
+ "overhangs": {
+  "features": [],
+  "peg_area_mm2": 132.2,
+  "other_area_mm2": 0.0,
+  "passed": true
+ },
+ "islands": {
+  "points": [],
+  "passed": true
+ },
+ "glued_print": [],
+ "mass": {
+  "solid_asa_g": 31.2,
+  "glued_asa_g": 0.0
+ },
+ "tools": [
+  {
+   "id": "narrow-40x8",
+   "sampled": 1442,
+   "deepest_mm": -0.0,
+   "fit_passed": true,
+   "contacts": 56,
+   "contact_bbox": [
+    [
+     -4.0,
+     35.9,
+     -68.0
+    ],
+    [
+     4.0,
+     44.1,
+     -67.6
+    ]
+   ],
+   "com": [
+    0.0,
+    40.0,
+    -48.0
+   ],
+   "com_over_contacts": true,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0,
+      0,
+      8.0
+     ],
+     [
+      0,
+      65.0,
+      0
+     ]
+    ],
+    "min_clearance_mm": 1.858,
+    "at_offset": [
+     0.0,
+     19.7,
+     8.0
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "narrow-40x12",
+   "sampled": 1442,
+   "deepest_mm": -0.0,
+   "fit_passed": true,
+   "contacts": 56,
+   "contact_bbox": [
+    [
+     -6.0,
+     35.9,
+     -68.0
+    ],
+    [
+     6.0,
+     44.1,
+     -67.6
+    ]
+   ],
+   "com": [
+    0.0,
+    40.0,
+    -48.0
+   ],
+   "com_over_contacts": true,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0,
+      0,
+      8.0
+     ],
+     [
+      0,
+      65.0,
+      0
+     ]
+    ],
+    "min_clearance_mm": 1.858,
+    "at_offset": [
+     0.0,
+     19.7,
+     8.0
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "small-40x20",
+   "sampled": 1442,
+   "deepest_mm": -0.0,
+   "fit_passed": true,
+   "contacts": 56,
+   "contact_bbox": [
+    [
+     -10.0,
+     35.9,
+     -68.0
+    ],
+    [
+     10.0,
+     44.1,
+     -67.6
+    ]
+   ],
+   "com": [
+    0.0,
+    40.0,
+    -48.0
+   ],
+   "com_over_contacts": true,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0,
+      0,
+      8.0
+     ],
+     [
+      0,
+      65.0,
+      0
+     ]
+    ],
+    "min_clearance_mm": 1.858,
+    "at_offset": [
+     0.0,
+     19.7,
+     8.0
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "nominal-55x30",
+   "sampled": 1620,
+   "deepest_mm": -0.0,
+   "fit_passed": true,
+   "contacts": 80,
+   "contact_bbox": [
+    [
+     -15.0,
+     33.0,
+     -68.0
+    ],
+    [
+     15.0,
+     47.0,
+     -67.1
+    ]
+   ],
+   "com": [
+    -0.0,
+    40.0,
+    -40.5
+   ],
+   "com_over_contacts": true,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0,
+      0,
+      8.0
+     ],
+     [
+      0,
+      65.0,
+      0
+     ]
+    ],
+    "min_clearance_mm": 1.862,
+    "at_offset": [
+     0.0,
+     19.7,
+     8.0
+    ],
+    "passed": true
+   }
+  },
+  {
+   "id": "large-65x34",
+   "sampled": 1704,
+   "deepest_mm": 0.002,
+   "fit_passed": true,
+   "contacts": 172,
+   "contact_bbox": [
+    [
+     -17.0,
+     23.9,
+     -68.0
+    ],
+    [
+     17.0,
+     56.1,
+     -63.7
+    ]
+   ],
+   "com": [
+    0.0,
+    40.0,
+    -35.5
+   ],
+   "com_over_contacts": true,
+   "seat_passed": true,
+   "removal": {
+    "moves": [
+     [
+      0,
+      0,
+      8.0
+     ],
+     [
+      0,
+      65.0,
+      0
+     ]
+    ],
+    "min_clearance_mm": 1.2,
+    "at_offset": [
+     0.0,
+     0.0,
+     2.0
+    ],
+    "passed": true
+   }
+  }
+ ],
+ "passed": true
+}

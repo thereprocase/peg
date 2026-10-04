@@ -1,0 +1,46 @@
+{
+  "id": "TOOL-FUNNEL-V3",
+  "mesh": {
+    "installed": {
+      "sha256": "12c7301a215c2c9f200e8075b97a746279de9280fb362f7f089b89831c34b68c",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 71476.58807704561,
+      "bounds_mm": [
+        [
+          -24.399999618530273,
+          -10.789999961853027,
+          -64.0
+        ],
+        [
+          24.399999618530273,
+          89.7725830078125,
+          5.445000171661377
+        ]
+      ]
+    },
+    "print": {
+      "sha256": "d5ca7327d83fc774cc63ef5ad989a2829ec5c1f81a72d44eeb9b142eb1364107",
+      "watertight": true,
+      "winding_consistent": true,
+      "volume_mm3": 71476.5940787001,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          9.999999406318238e-08
+        ],
+        [
+          48.79999923706055,
+          100.56258392333984,
+          69.44499969482422
+        ]
+      ]
+    }
+  },
+  "status": "geometry checks; physical qualification recorded separately",
+  "pose_surface_max_error_mm": 0.006023142515051569,
+  "pose_surface_match": true,
+  "mesh_tessellation_tolerance_mm": 0.05,
+  "recorded_checks_pass": true
+}

@@ -1,0 +1,33 @@
+{
+  "id": "DRIP-TRAY-V12",
+  "pass": true,
+  "native": [
+    {
+      "role": "installed_step",
+      "file": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__installed.step",
+      "sha256": "8ad2945515c40c733ac4b6234bc8be9d9463a1214e18edb919f8e57b50d00eb2",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        125.0,
+        90.45534684439832,
+        51.445
+      ],
+      "volume_mm3": 57417.93237220655
+    },
+    {
+      "role": "print_step",
+      "file": "part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.step",
+      "sha256": "04c04054e1cf80923e92bedaca9f021277a9d5ab215647da13b46cdac8351647",
+      "valid": true,
+      "solids": 1,
+      "bounds_mm": [
+        125.0,
+        90.455346844396,
+        51.445
+      ],
+      "volume_mm3": 57417.93237220473
+    }
+  ],
+  "note": "STEP is frozen original export; no geometry regeneration."
+}

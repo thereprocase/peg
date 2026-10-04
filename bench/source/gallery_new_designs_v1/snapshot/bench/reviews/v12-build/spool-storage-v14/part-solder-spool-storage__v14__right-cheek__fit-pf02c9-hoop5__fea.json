@@ -1,0 +1,62 @@
+{
+ "name": "part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 2.0,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 48634,
+   "elements": 26665,
+   "fixed_nodes": 4598,
+   "loads": [
+    {
+     "id": "front-rim-side-5N",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      16,
+      59.6,
+      -63
+     ],
+     "what": "front outer trough rim, lateral",
+     "deflection_at_load_mm": 0.2629,
+     "stiffness_N_per_mm": 19.0,
+     "max_deflection_mm": 0.3402,
+     "max_at": [
+      -24.4,
+      61.6,
+      -57.5
+     ]
+    },
+    {
+     "id": "front-rim-down-5N",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      16,
+      59.6,
+      -63
+     ],
+     "what": "front outer trough rim, downward",
+     "deflection_at_load_mm": 0.5772,
+     "stiffness_N_per_mm": 8.7,
+     "max_deflection_mm": 0.6704,
+     "max_at": [
+      24.4,
+      61.6,
+      -64.8
+     ]
+    }
+   ]
+  }
+ ]
+}
