@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2443,
-  "total_size_bytes": 848402254,
+  "file_count": 2471,
+  "total_size_bytes": 866504232,
   "files": [
     {
       "path": ".gitattributes",
@@ -140,6 +140,66 @@
       "path": "bench/reference/peg-print-variants.json",
       "size_bytes": 587,
       "sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/NOTES.md",
+      "size_bytes": 2122,
+      "sha256": "dfa659ee4d560fc024a8cd1147e5af0689b30dc43610de9dd868634b92715f1a"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/bridge-screen.json",
+      "size_bytes": 223,
+      "sha256": "6210cd446f1c8b8baba3f968173b900dd9db356e58a6f0987e436db5381075b2"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/installation-screen.json",
+      "size_bytes": 578,
+      "sha256": "9cbd7c794388b462b4c7f69d805c6f9cef4bbd26727ad64534da3090f1370999"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/junctions.json",
+      "size_bytes": 291,
+      "sha256": "bcaca347d60953cfdab389e6f8aad16d350c5931cea57733e4cb5a36711ea1c4"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/part-cf01__v1__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 487,
+      "sha256": "2435d0064b7a4de2f97fb406d4e9c9d5d63ebeebab6115d8d7945e340dc0d252"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/part-cf01__v1__upright__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 1740,
+      "sha256": "f11e7b178edb4c208e7ca777a545599531828841f50f2bb437dffe83f1852fe1"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/print-geometry.json",
+      "size_bytes": 582,
+      "sha256": "0437a7abddf99f9d38ddefd19a582aac8e97ca89103944a0dd54fe21f9462da8"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/report.json",
+      "size_bytes": 7396,
+      "sha256": "0ec8ae3d6b1680ef8e8f2fb60d4e896c5b81a45a4694943b507fae4554e4ea73"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/slice-summary.json",
+      "size_bytes": 889,
+      "sha256": "a952520c93fdffcab649b83c9d3fcfa571d2d708a8f60bddafabb7bf3ddf942f"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/stiffness.json",
+      "size_bytes": 1740,
+      "sha256": "f11e7b178edb4c208e7ca777a545599531828841f50f2bb437dffe83f1852fe1"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/toolpaths.json",
+      "size_bytes": 5465,
+      "sha256": "ace2935477094784ddc177b8da0e9104d28bedf5b55dc2158262dfea6719bf98"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CF01/toolpaths.svg",
+      "size_bytes": 4147879,
+      "sha256": "e472a7683766f9cde2ab19a12efd79bc7e1ab2a607bea14f28ce10603545cbbf"
     },
     {
       "path": "bench/reviews/bespoke-tools-v1/CL01/NOTES.md",
@@ -1660,6 +1720,26 @@
       "path": "bench/source/bespoke_tools_v1/toolpaths.py",
       "size_bytes": 5029,
       "sha256": "fd143fefeae72c52c75b033c241c4df808a18b593d6a8406a5a6416d4d213727"
+    },
+    {
+      "path": "bench/source/cascade_funnels_v1/build.py",
+      "size_bytes": 3812,
+      "sha256": "625b10fa0b95aa98dd9f27c79ccce6e0d5f92358a489a42e6588b6930fa5f47c"
+    },
+    {
+      "path": "bench/source/cascade_funnels_v1/check_junctions.py",
+      "size_bytes": 1344,
+      "sha256": "ab40dd04b5f8523bde3b269745e9e4f24a945e0d8083f686e0f42b4c68618a96"
+    },
+    {
+      "path": "bench/source/cascade_funnels_v1/install_screen.py",
+      "size_bytes": 719,
+      "sha256": "3177dea831f9dbad90a10261ac42206f3540cefb478e2180da37facb5c20c2ef"
+    },
+    {
+      "path": "bench/source/cascade_funnels_v1/stiffness.py",
+      "size_bytes": 1883,
+      "sha256": "870b4cde5d815d43cc02ca3119f906e26be67c60c16af897de1edbd8c9587b73"
     },
     {
       "path": "bench/source/gallery_current_mounts_v1/MH01.json",
@@ -4223,8 +4303,8 @@
     },
     {
       "path": "docs/gallery/bespoke-tools/index.html",
-      "size_bytes": 5441,
-      "sha256": "1caeb4d0c40fbe161c8b156e6124b876d7a63988cb79316b15c1bb2c2698cacb"
+      "size_bytes": 5497,
+      "sha256": "dd78252f586d18cb2e1e1fa4cea36961d8646c2f86a7e33582af730a7ccc96c7"
     },
     {
       "path": "docs/gallery/bespoke-tools/review.js",
@@ -4617,6 +4697,46 @@
       "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
     },
     {
+      "path": "docs/gallery/cascade-funnels/checks.json",
+      "size_bytes": 17643,
+      "sha256": "b832062c8c4cd900b210b1010fea51138674b340e5d231afd72de764da714826"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/index.html",
+      "size_bytes": 2642,
+      "sha256": "7942ba94ee6c4e99faafa082bacd1f0041001ea4b693d291bf475c0866d16fa0"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/installed.glb",
+      "size_bytes": 1682136,
+      "sha256": "97dab23bbe99d8d6bf650cc251b9b7e31de57e9dae3a302dda17ed2df6b837b7"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/loaded.glb",
+      "size_bytes": 2193424,
+      "sha256": "4e4896515e24c6910cf4a8f7364e0c06805a2885afe4be9f9a75918a266dbd01"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/part-cf01__v1__upright__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 4194284,
+      "sha256": "e59a8e7cb43b977dc3d00510e0406e2ef0a852b3a204ad9f1551c1c4d3b19a87"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/print.glb",
+      "size_bytes": 1678772,
+      "sha256": "4a136d2106e50dfc32f0ba5f54846e3c63cbde3bcc1d4208c980ac19d28c4c14"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/review.js",
+      "size_bytes": 636,
+      "sha256": "092750b1708e550b123fef81b47dfb765525fea5696f18ecce33644fcbb4c7a5"
+    },
+    {
+      "path": "docs/gallery/cascade-funnels/toolpaths.svg",
+      "size_bytes": 4147879,
+      "sha256": "e472a7683766f9cde2ab19a12efd79bc7e1ab2a607bea14f28ce10603545cbbf"
+    },
+    {
       "path": "docs/gallery/clear-download-names.js",
       "size_bytes": 59333,
       "sha256": "e1873e9fadb6af9d9a9ab67f6cab1f79dba5de00de18929d382d00401f45d797"
@@ -4643,8 +4763,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
-      "size_bytes": 4121,
-      "sha256": "c83726f75e6edd1ea4e3d661c74e9dfb744efd115f9ce1954de3e161ec53e121"
+      "size_bytes": 4200,
+      "sha256": "78a515c67fcf9e212ecdf87e9026e94bcd0144de4f3fe1959e952963c673dae8"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -8833,8 +8953,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 114036,
-      "sha256": "1b09964e0b6d07dd34743768bd10d24ce4d96206954a25ab7dde5920d03a6c4a"
+      "size_bytes": 114234,
+      "sha256": "750b352c1365636fa08df4757fb0118a8b60c20748286ba6d3ef91145009e43c"
     },
     {
       "path": "docs/gallery/research.html",
@@ -11669,7 +11789,7 @@
     {
       "path": "publication/bespoke-tools-v1-additions.json",
       "size_bytes": 3513,
-      "sha256": "3a573ec5b94c964dbf8307e99bf17604d103430cadec94fdcf8040c9cf88514d"
+      "sha256": "76c0bcf5e32132978f1422dd48b2aabfb47cc914f707617ea8153a3ceb1914af"
     },
     {
       "path": "publication/browser-verification.json",
@@ -11678,8 +11798,13 @@
     },
     {
       "path": "publication/build_bespoke_review.py",
-      "size_bytes": 7046,
-      "sha256": "181ac560ca2a194fe9e143fe6c7c229d22b79c846ce11e8794809082943fceaf"
+      "size_bytes": 7102,
+      "sha256": "4bb06714d3f2ecbc194fbb76fe10f060a9a25a0a3938ccf61cbf35382faaaac8"
+    },
+    {
+      "path": "publication/build_cascade_review.py",
+      "size_bytes": 1747,
+      "sha256": "11f40cfeb142a44f56de1990550d464e62e5165b256a5a4915b5adad810a9226"
     },
     {
       "path": "publication/build_current_pegs.py",
@@ -11697,9 +11822,14 @@
       "sha256": "a2c6cb8177ee2361613abd47d4c0bf60f8a0f282a70824cd8bb3d1cb17643da1"
     },
     {
+      "path": "publication/cascade-funnels-v1-additions.json",
+      "size_bytes": 1048,
+      "sha256": "14780897e7634542e4ae1da5c3e1fb8d57c09b45134940f38f3e009de919e5c6"
+    },
+    {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 89242,
-      "sha256": "7870ea138afce3123ca147deae94388ecd525ccce4cf08fad89c66cd4076b4c9"
+      "sha256": "c37255f7224f575534ae909078cf64d0093d111b04c95c647e324446307a61af"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -11767,6 +11897,11 @@
       "sha256": "aa3b330c974c9723b525981923f255dec26697f768a491a1eecbb3cb3430c77b"
     },
     {
+      "path": "publication/package_cascade_cad.py",
+      "size_bytes": 1949,
+      "sha256": "7c0db0e5c0e3d6a4123ad977bb9c79ac3b1e99d6a8b2d51bd1483ca70901693b"
+    },
+    {
       "path": "publication/peg-connectors-v1-additions.json",
       "size_bytes": 9424,
       "sha256": "6636d9c2bbf2ebd0ef11fef26d643e588e6e0658e5856a51ea9281816a638a47"
@@ -11778,13 +11913,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 76619,
-      "sha256": "0b030f935934f3e19a5b3101020268b42bd68f9852ac50e7a15a5dbd7881b77b"
+      "size_bytes": 76781,
+      "sha256": "d72afcbe665fe098beb623b42b149194b013eb36858841f8147ad10e3485df09"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 115247,
-      "sha256": "cf902e82e6aca97e93464c1e9690168ae9dd8e73ed4157fe269ebcda0d1bc8c6"
+      "size_bytes": 115449,
+      "sha256": "8b9fef2f075b463f5d652c357802d114b6ff718c32ec521256184c3b2d2c7bdc"
     },
     {
       "path": "publication/render_workbench_previews.cjs",
@@ -11987,14 +12122,19 @@
       "sha256": "2dbd772a1fd483faf0a9b356615a5c4d3b20dc40562350fd82904dfb1f611300"
     },
     {
+      "path": "tools/check_cascade_funnels.py",
+      "size_bytes": 1778,
+      "sha256": "fee84e9264658d3c58b0fe521608e9e7f9384a2132990ef4e0ece042343826fa"
+    },
+    {
       "path": "tools/check_current_pegs.py",
       "size_bytes": 3314,
       "sha256": "06ae7a0c2800f142ecde58f23f3decd210ae692203c06e3a5ed647bd4c168e59"
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 4676,
-      "sha256": "aa7b566d57c7a55c67b5a9e196f557c5176d16c20077e619291276dfaa402e2a"
+      "size_bytes": 4813,
+      "sha256": "e15095d5edaf303cbfa70bb35a0fa0621035aa30157e2664ae8c458ef8b019aa"
     },
     {
       "path": "tools/check_peg_downloads.py",

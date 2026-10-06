@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "adjacent_funnel_overlap_mm3": [
+    25.533741533928794,
+    25.533741536224603
+  ],
+  "centres_mm": 25,
+  "height_steps_mm": 25.4,
+  "order": "right highest, middle, left lowest",
+  "source_sha256": "625b10fa0b95aa98dd9f27c79ccce6e0d5f92358a489a42e6588b6930fa5f47c"
+}

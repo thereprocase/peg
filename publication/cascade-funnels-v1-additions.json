@@ -1,0 +1,34 @@
+{
+  "installed.glb": {
+    "sha256": "97dab23bbe99d8d6bf650cc251b9b7e31de57e9dae3a302dda17ed2df6b837b7",
+    "bytes": 1682136
+  },
+  "loaded.glb": {
+    "sha256": "4e4896515e24c6910cf4a8f7364e0c06805a2885afe4be9f9a75918a266dbd01",
+    "bytes": 2193424
+  },
+  "print.glb": {
+    "sha256": "4a136d2106e50dfc32f0ba5f54846e3c63cbde3bcc1d4208c980ac19d28c4c14",
+    "bytes": 1678772
+  },
+  "index.html": {
+    "sha256": "7942ba94ee6c4e99faafa082bacd1f0041001ea4b693d291bf475c0866d16fa0",
+    "bytes": 2642
+  },
+  "review.js": {
+    "sha256": "092750b1708e550b123fef81b47dfb765525fea5696f18ecce33644fcbb4c7a5",
+    "bytes": 636
+  },
+  "part-cf01__v1__upright__fit-pf02c9-hoop5__print.stl": {
+    "sha256": "e59a8e7cb43b977dc3d00510e0406e2ef0a852b3a204ad9f1551c1c4d3b19a87",
+    "bytes": 4194284
+  },
+  "toolpaths.svg": {
+    "sha256": "e472a7683766f9cde2ab19a12efd79bc7e1ab2a607bea14f28ce10603545cbbf",
+    "bytes": 4147879
+  },
+  "checks.json": {
+    "sha256": "b832062c8c4cd900b210b1010fea51138674b340e5d231afd72de764da714826",
+    "bytes": 17643
+  }
+}

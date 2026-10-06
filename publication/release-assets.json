@@ -1594,5 +1594,9 @@
   "repro-bespoke-tools__v1__cad-source-and-review.zip": {
     "sha256": "71604ba0df3f2e6921ea650eafb502bfddd12426a0ea63335f7339c1cb549eeb",
     "bytes": 4496129
+  },
+  "cascade-funnels__v1__cad-source-and-review.zip": {
+    "sha256": "faae3f90c115f41956790a8a4018152a5e61a523f3e99f40e9d45385c7043c87",
+    "bytes": 5345730
   }
 }

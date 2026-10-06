@@ -1,0 +1,5 @@
+{
+  "body_bridge_deposition_segments": 530,
+  "maximum_segment_mm": 1.5629432511077423,
+  "limits": "Deposited move lengths, not a structural bridge-span qualification; inspect actual support-layout SVG and first print."
+}

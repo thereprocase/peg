@@ -1,0 +1,70 @@
+{
+  "name": "part-cf01__v1__upright__fit-pf02c9-hoop5",
+  "material": {
+    "E_MPa": 1800.0,
+    "nu": 0.35
+  },
+  "h_mm": 4.0,
+  "cases": [
+    {
+      "support": "pegs",
+      "nodes": 78358,
+      "elements": 43683,
+      "fixed_nodes": 3806,
+      "loads": [
+        {
+          "id": "sideways",
+          "force_N": [
+            5,
+            0,
+            0
+          ],
+          "point": [
+            -25.0,
+            83,
+            -14
+          ],
+          "what": "",
+          "deflection_at_load_mm": 0.0275,
+          "stiffness_N_per_mm": 181.9,
+          "max_deflection_mm": 0.0306,
+          "max_at": [
+            -39.1,
+            88.9,
+            -10.0
+          ]
+        },
+        {
+          "id": "down",
+          "force_N": [
+            0,
+            0,
+            -5
+          ],
+          "point": [
+            -25.0,
+            83,
+            -14
+          ],
+          "what": "",
+          "deflection_at_load_mm": 0.0057,
+          "stiffness_N_per_mm": 878.5,
+          "max_deflection_mm": 0.0087,
+          "max_at": [
+            -25.0,
+            89.4,
+            -10.0
+          ]
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "limits": "Screen with 4 mm nominal second-order tetrahedra and solid isotropic ASA E=1800 MPa. Mesh convergence, infill, layer bonds, board compliance and physical loads remain unqualified.",
+  "inputs": {
+    "step": "10baebb9944947593f1efa6b2c57380530be2254e2a10dc5181eccb2ed433fed",
+    "spec": "2435d0064b7a4de2f97fb406d4e9c9d5d63ebeebab6115d8d7945e340dc0d252",
+    "solver_script": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1",
+    "review_script": "870b4cde5d815d43cc02ca3119f906e26be67c60c16af897de1edbd8c9587b73"
+  }
+}
