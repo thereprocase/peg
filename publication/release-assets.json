@@ -1606,5 +1606,9 @@
   "cascade-funnels__v3__cad-source-and-review.zip": {
     "sha256": "163b6d1b4b2b3fef2a4732d78175b12610c478a42417a1ed3204635af43a3d47",
     "bytes": 6026275
+  },
+  "canted-hex-keys__v1__cad-source-and-review.zip": {
+    "sha256": "8dcc7b75183cca11999c61360f15a8fcfab31836f0a276fbc7fe3ab1352b4617",
+    "bytes": 2618511
   }
 }

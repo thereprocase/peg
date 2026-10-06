@@ -1,0 +1,34 @@
+{
+  "index.html": {
+    "sha256": "d2202e687a18388946cc526489b458f619358fda28b0dded2b925eebccebf6c3",
+    "bytes": 3263
+  },
+  "review.js": {
+    "sha256": "76170386ba6c1d200896fb97dbe16414edee7716a5c766c50a4cc90aeb033e3a",
+    "bytes": 562
+  },
+  "installed.glb": {
+    "sha256": "ce2080120323b2c7204f239175e988a47688a8a19c7a69a51c7f074ac9d463fc",
+    "bytes": 605316
+  },
+  "print.glb": {
+    "sha256": "8064121d123c3e1f15b2d073c317f98ef47baf3ff85aa21fb19b4113d7559575",
+    "bytes": 605212
+  },
+  "loaded.glb": {
+    "sha256": "d5a1ce6586b1680373fea32adb742fba1788095038507e9a5346dfecfa9315c8",
+    "bytes": 779800
+  },
+  "toolpaths.svg": {
+    "sha256": "2d15dec26ab4984714da36f33b5ceb188a0e05889af69954241c13f0e663fc19",
+    "bytes": 4050550
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl": {
+    "sha256": "13bc3cca61bf0c02ce5a2679869eb55d972cc084ce82d5c08256491b847a0a52",
+    "bytes": 1510184
+  },
+  "checks.json": {
+    "sha256": "752120e292ced747ab5f3afc0208f063069fa60cbed0c18d9b602d768720d0ab",
+    "bytes": 24017
+  }
+}

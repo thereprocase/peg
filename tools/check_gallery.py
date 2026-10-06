@@ -78,5 +78,8 @@ if (D/'bespoke-tools/index.html').exists():
 if (D/'cascade-funnels/index.html').exists():
  import runpy
  runpy.run_path(str(R/'tools/check_cascade_funnels.py'),run_name='__main__')
+if (D/'canted-hex-keys/index.html').exists():
+ import runpy
+ runpy.run_path(str(R/'tools/check_canted_hex_keys.py'),run_name='__main__')
 report={'source_files':len(source),'release_assets':len(assets),'html_links':links,'errors':errors,'site_bytes':sum(p.stat().st_size for p in (R/'docs').rglob('*') if p.is_file())}
 print(json.dumps(report,indent=2));assert not errors

@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2526,
-  "total_size_bytes": 913116916,
+  "file_count": 2562,
+  "total_size_bytes": 929383453,
   "files": [
     {
       "path": ".gitattributes",
@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "size_bytes": 898,
-      "sha256": "3a64088271ef7d9b94c06f9339b9edd170977f485c0022eeff940ec2b5d8ad30"
+      "size_bytes": 1173,
+      "sha256": "d37b0f4f632ebffcd93a6de6244b0292fe9a6f3fdd229eba494321a0797e67de"
     },
     {
       "path": "AGENTS.md",
@@ -370,6 +370,56 @@
       "path": "bench/reviews/bespoke-tools-v1/tool-reference-audit.json",
       "size_bytes": 1881,
       "sha256": "1c51925351c1bcfe7ce1dc3130e9a0f6905f8cc4b6102243c360c47bce335b47"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/NOTES.md",
+      "size_bytes": 4188,
+      "sha256": "b81dee0d0fe23d5307e39b7828306c2aaae1ed5d6b9626a854c7cf7e06aca2ea"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/installation-screen.json",
+      "size_bytes": 576,
+      "sha256": "4476791072305e6f59b92fa8219f517ba7d1aceb7c2333050fe5dd7466ca78bf"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 487,
+      "sha256": "8024504ef510d50a405a3470c6082680bf862cf06c49a13efe98fa6cecc10b63"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 1742,
+      "sha256": "90d9afef77449f9ef341322b6f90f894e912ac85cb6e6c33dc3e68ef540f0a4a"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/print-geometry.json",
+      "size_bytes": 583,
+      "sha256": "4942530564cdabad53ffc72ae1fd8590b96574b8d09f7a4bf82e79178c8200d7"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/report.json",
+      "size_bytes": 12980,
+      "sha256": "9d522e4457378846f0ef5e6c79d18ec09b1275955c93a68727daacdc02f9e45d"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/slice-summary.json",
+      "size_bytes": 872,
+      "sha256": "375e332d564313f0ce0499a8dedb3a131a1512ef919ae4fff60cfc572c4fca91"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/stiffness.json",
+      "size_bytes": 1742,
+      "sha256": "90d9afef77449f9ef341322b6f90f894e912ac85cb6e6c33dc3e68ef540f0a4a"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/toolpaths.json",
+      "size_bytes": 6386,
+      "sha256": "eb0e567ef860e19b19883ff285c2d0547d10f7a30a4c58dbe7b9bf112d3ab00b"
+    },
+    {
+      "path": "bench/reviews/canted-hex-keys-v1/HX02/toolpaths.svg",
+      "size_bytes": 4050550,
+      "sha256": "2d15dec26ab4984714da36f33b5ceb188a0e05889af69954241c13f0e663fc19"
     },
     {
       "path": "bench/reviews/cascade-funnels-v2/CF01/NOTES.md",
@@ -1835,6 +1885,41 @@
       "path": "bench/source/bespoke_tools_v1/toolpaths.py",
       "size_bytes": 5029,
       "sha256": "fd143fefeae72c52c75b033c241c4df808a18b593d6a8406a5a6416d4d213727"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/build.py",
+      "size_bytes": 7519,
+      "sha256": "9a6c9409531a3115fb85ab350ead2c8c11c9a295ac877e43d3575493a3b50a38"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/install_screen.py",
+      "size_bytes": 721,
+      "sha256": "7b71f24cef5bf3eb04413a8ca0e43041a95a5a5eb3e89f8b96fd6d6e8d8fae65"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/key_set.json",
+      "size_bytes": 982,
+      "sha256": "58dd3c1e75ea528b2ccffd718599905ded0e9aab6e9b9a7c3f9652a4f4b5e14d"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/review.py",
+      "size_bytes": 3281,
+      "sha256": "a782ac7fd4499172b043f1afbbabaa0d818205c4b1174ade1a120d7b78dfcfbc"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/slice_local.py",
+      "size_bytes": 3324,
+      "sha256": "7a8b1fdfd8e4251cdb383f54c244636c11c98a90e9a9ac9c2e17cff0c6acb240"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/stiffness.py",
+      "size_bytes": 1881,
+      "sha256": "597ed92daa115193655680968c6af2ddb6e8be1500e6b80a83b7e85e4678865d"
+    },
+    {
+      "path": "bench/source/canted_hex_keys_v1/toolpaths.py",
+      "size_bytes": 5298,
+      "sha256": "f0ce995294c023ed744400e976fcee5a737075594971cc1aeb24ca96b33752d2"
     },
     {
       "path": "bench/source/cascade_funnels_v1/build.py",
@@ -4887,6 +4972,46 @@
       "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
     },
     {
+      "path": "docs/gallery/canted-hex-keys/checks.json",
+      "size_bytes": 24017,
+      "sha256": "752120e292ced747ab5f3afc0208f063069fa60cbed0c18d9b602d768720d0ab"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/index.html",
+      "size_bytes": 3263,
+      "sha256": "d2202e687a18388946cc526489b458f619358fda28b0dded2b925eebccebf6c3"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/installed.glb",
+      "size_bytes": 605316,
+      "sha256": "ce2080120323b2c7204f239175e988a47688a8a19c7a69a51c7f074ac9d463fc"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/loaded.glb",
+      "size_bytes": 779800,
+      "sha256": "d5a1ce6586b1680373fea32adb742fba1788095038507e9a5346dfecfa9315c8"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 1510184,
+      "sha256": "13bc3cca61bf0c02ce5a2679869eb55d972cc084ce82d5c08256491b847a0a52"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/print.glb",
+      "size_bytes": 605212,
+      "sha256": "8064121d123c3e1f15b2d073c317f98ef47baf3ff85aa21fb19b4113d7559575"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/review.js",
+      "size_bytes": 562,
+      "sha256": "76170386ba6c1d200896fb97dbe16414edee7716a5c766c50a4cc90aeb033e3a"
+    },
+    {
+      "path": "docs/gallery/canted-hex-keys/toolpaths.svg",
+      "size_bytes": 4050550,
+      "sha256": "2d15dec26ab4984714da36f33b5ceb188a0e05889af69954241c13f0e663fc19"
+    },
+    {
       "path": "docs/gallery/cascade-funnels/checks.json",
       "size_bytes": 17897,
       "sha256": "3bceb0434a0d5ea1cd847f03f72148a9edce1fa1b32ca93775f8c7d50a32f4d8"
@@ -4948,8 +5073,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
-      "size_bytes": 124928,
-      "sha256": "919006bd4b3d23fc5461d9799774ecca0bb117b1d87cd470e3d2924e9319fe1a"
+      "size_bytes": 127418,
+      "sha256": "0ad36cf09ca11ff928484d755927e014a1ceb2488a1c6752b8f0349fe2e9acf4"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -4964,7 +5089,7 @@
     {
       "path": "docs/gallery/current-pegs/index.html",
       "size_bytes": 4128,
-      "sha256": "c93f73c93d9f4a5194cf2ca6a8d83ce5d3660011be51b2ac8da5983b39c8752a"
+      "sha256": "f101d037d2839a7c7b0a466868ea26ccd707d24102a93ef135c058632f3cb3a4"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -5155,6 +5280,41 @@
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.png",
       "size_bytes": 144811,
       "sha256": "012541a90470192f25cfb28f8eef4b403ef07460011a50d0d14fd72e95b24e84"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 24017,
+      "sha256": "752120e292ced747ab5f3afc0208f063069fa60cbed0c18d9b602d768720d0ab"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 605316,
+      "sha256": "ce2080120323b2c7204f239175e988a47688a8a19c7a69a51c7f074ac9d463fc"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 144696,
+      "sha256": "cf13f39bf366b75722d27841368358bbe4a2c8cceb2a7f1916b457618cc6522c"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1510284,
+      "sha256": "213d50c281ad101693ad35dd243415838f26c00e3f315a1265f96e16a84bc9ac"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 605212,
+      "sha256": "8064121d123c3e1f15b2d073c317f98ef47baf3ff85aa21fb19b4113d7559575"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 168848,
+      "sha256": "e5b6fc79f820ec1ecca83c46179b494536642b6fe8baa489ec44e0eb11c99c40"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 1510184,
+      "sha256": "13bc3cca61bf0c02ce5a2679869eb55d972cc084ce82d5c08256491b847a0a52"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -9223,8 +9383,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 114630,
-      "sha256": "a3a4a14d26152951b2cd46cc925ae37d82034f39a8f0ded6427d46a1ffa8d276"
+      "size_bytes": 114828,
+      "sha256": "1566ab9c37015d3615cf73782d09c335ef0143a9048a6b603cb075d51ed0e5c4"
     },
     {
       "path": "docs/gallery/research.html",
@@ -12048,8 +12208,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 5494,
-      "sha256": "059b1ad6cca41cdcfd0dc86827f87c4732fba8a48ced4416332a273b2b4dde7d"
+      "size_bytes": 5858,
+      "sha256": "578aa2a1bcb577f27ea48d48176bdb4265d3fb690637388c6b5a0712b0ba44d3"
     },
     {
       "path": "publication/add_cascade_to_collection.py",
@@ -12077,6 +12237,11 @@
       "sha256": "8e78aa3a364f94705b0b611b4e5b88955967c3a93075d20c8fe664e20b96aaea"
     },
     {
+      "path": "publication/build_canted_hex_keys.py",
+      "size_bytes": 5236,
+      "sha256": "57d26ed2258b1f6cc00d9bbf95632930cdb70238a5dc23d0412d68f7812dee20"
+    },
+    {
       "path": "publication/build_cascade_review.py",
       "size_bytes": 1964,
       "sha256": "eae6c485766997159a1812ef15c1658e38b4a4fb6a9d7fcf36833853d6632a0f"
@@ -12097,14 +12262,19 @@
       "sha256": "a2c6cb8177ee2361613abd47d4c0bf60f8a0f282a70824cd8bb3d1cb17643da1"
     },
     {
+      "path": "publication/canted-hex-keys-v1-additions.json",
+      "size_bytes": 1049,
+      "sha256": "a307e6931f186e57a79375cfde8ec161e9b2b6a00d248a2d828118ae6aa5b555"
+    },
+    {
       "path": "publication/cascade-funnels-v1-additions.json",
       "size_bytes": 1382,
       "sha256": "b0c768c746e763698c71282ecd75ce71c54f7d5fc0357227301b1a138180a38e"
     },
     {
       "path": "publication/current-pegs-v1-additions.json",
-      "size_bytes": 91600,
-      "sha256": "1029b464b5836d7a413ed5f15082e32994e6672fdedce2176c162b354f086c21"
+      "size_bytes": 92805,
+      "sha256": "cb27e35d73e68c10183758883e5ec997ca842f2168ee5946701b3d4c0ca17467"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -12172,6 +12342,11 @@
       "sha256": "aa3b330c974c9723b525981923f255dec26697f768a491a1eecbb3cb3430c77b"
     },
     {
+      "path": "publication/package_canted_hex_keys.py",
+      "size_bytes": 1954,
+      "sha256": "df639da3793efd3bea916f478a497a37817dcb450a39093857c97c045c26ff99"
+    },
+    {
       "path": "publication/package_cascade_cad.py",
       "size_bytes": 1953,
       "sha256": "3843c31a8a269377439b69ab6176d6f559e1017362842fe7092a8e57e4a65aa3"
@@ -12188,13 +12363,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 77105,
-      "sha256": "c747bd1f207fc94ed0a02eac076029ed2a9657293dd530d1195fafce94e7b3f4"
+      "size_bytes": 77267,
+      "sha256": "a6f6c49d16d22880fd543acecc37f2179ab93468dc85109ec040496917ad681b"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 115853,
-      "sha256": "e985d79a64f6ad9a80d4ef7ba4645a25499d73da7ca43333026409efd5166202"
+      "size_bytes": 116055,
+      "sha256": "2a467ac0351a1ffba936574007a8c00114df1002cee65518be802eccaff98175"
     },
     {
       "path": "publication/render_workbench_previews.cjs",
@@ -12397,19 +12572,24 @@
       "sha256": "2dbd772a1fd483faf0a9b356615a5c4d3b20dc40562350fd82904dfb1f611300"
     },
     {
+      "path": "tools/check_canted_hex_keys.py",
+      "size_bytes": 2658,
+      "sha256": "a16cdf822a1154b54700f4e27f6cf1ef96113feeb5edc89f573fe9a1699c1dc8"
+    },
+    {
       "path": "tools/check_cascade_funnels.py",
       "size_bytes": 2061,
       "sha256": "babb59b61739af0049731bb1df92636984c05f4bcb57b64c2f5682527ebfa457"
     },
     {
       "path": "tools/check_current_pegs.py",
-      "size_bytes": 3382,
-      "sha256": "15cbbb7e83ebb843b5b4590c4aa104f31f511cdcd0de89eb8e2cff9273469f0d"
+      "size_bytes": 3416,
+      "sha256": "17ace6460487250619af54120a134d63d2e2cd93ec89482e53e5b94ecbba80a0"
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 4813,
-      "sha256": "e15095d5edaf303cbfa70bb35a0fa0621035aa30157e2664ae8c458ef8b019aa"
+      "size_bytes": 4950,
+      "sha256": "8e746a666b6980df7f0fccb53e7fc052fc34cfaffde98a6ad7692e149c0352c6"
     },
     {
       "path": "tools/check_peg_downloads.py",

@@ -25,3 +25,10 @@ bench/reviews/cascade-funnels-v3/*/*.stl
 bench/reviews/cascade-funnels-v3/*/*.FCStd
 bench/reviews/cascade-funnels-v3/*/*.FCBak
 bench/reviews/cascade-funnels-v3/*/*.glb
+
+# HX02 native exports are packaged as immutable release assets.
+bench/reviews/canted-hex-keys-v1/*/*.step
+bench/reviews/canted-hex-keys-v1/*/*.stl
+bench/reviews/canted-hex-keys-v1/*/*.FCStd
+bench/reviews/canted-hex-keys-v1/*/*.FCBak
+bench/reviews/canted-hex-keys-v1/*/*.glb

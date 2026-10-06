@@ -1,0 +1,37 @@
+{
+  "step": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.step",
+  "h": 5.0,
+  "supports": [
+    "pegs"
+  ],
+  "loads": [
+    {
+      "id": "sideways",
+      "point": [
+        85,
+        132,
+        -18
+      ],
+      "force": [
+        5,
+        0,
+        0
+      ],
+      "radius": 4
+    },
+    {
+      "id": "down",
+      "point": [
+        85,
+        132,
+        -18
+      ],
+      "force": [
+        0,
+        0,
+        -5
+      ],
+      "radius": 4
+    }
+  ]
+}

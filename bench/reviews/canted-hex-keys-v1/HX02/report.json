@@ -1,0 +1,464 @@
+{
+  "id": "HX02",
+  "name": "Full-depth canted metric hex-key rack",
+  "version": 1,
+  "prefix": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5",
+  "cells": 8,
+  "pose": "right-cheek",
+  "mount": {
+    "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+    "top": {
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49
+    },
+    "columns_x_mm": [
+      -88.89999999999999,
+      88.89999999999999
+    ],
+    "plate": {
+      "x0": -100.6,
+      "x1": 100.6,
+      "y0": 0.15,
+      "y1": 5.55,
+      "z0": -57,
+      "z1": 5.12
+    },
+    "hoop": {
+      "concept": "HOOP",
+      "arm_mm": 0.8,
+      "tip_half": 2.0,
+      "even_catch_wall": true,
+      "ramp_wall": true,
+      "nose_mm": 0.9,
+      "root_gusset_mm": 0.4,
+      "body_ribs_mm": 0.3,
+      "orientation": "hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z",
+      "detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "nose_mm": 0.9,
+        "ramp_wall_mm": 0.8,
+        "min_wall_mm": 0.8,
+        "root_gusset_mm": 0.4,
+        "root_gusset_length_mm": 1.5,
+        "arm_mm": 0.8,
+        "closed_nose_mm": 0.9,
+        "band_half_height_mm": 1.4,
+        "root_clip_radius_mm": 2.95,
+        "cheek_offset_down_mm": 0.1
+      }
+    },
+    "rows": {
+      "hooks": [
+        0
+      ],
+      "bearing": [],
+      "hoop": [
+        2
+      ],
+      "empty": [
+        1
+      ]
+    },
+    "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+  },
+  "volume_mm3": 813336.5926016981,
+  "print_bounds_mm": [
+    212.97490101970388,
+    143.45025428784453,
+    201.20000044446874
+  ],
+  "pose_matrix": [
+    6.123233995736766e-17,
+    0.0,
+    -1.0,
+    5.445000000000006,
+    0.0,
+    1.0,
+    0.0,
+    10.79,
+    1.0,
+    0.0,
+    6.123233995736766e-17,
+    100.60000000000001,
+    0,
+    0,
+    0,
+    1
+  ],
+  "assets": {
+    "installed_step": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.step",
+    "installed_stl": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.stl",
+    "print_step": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.step",
+    "print_stl": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl",
+    "tool-reference_step": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.step",
+    "tool-reference_stl": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.stl",
+    "freecad": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5.FCStd"
+  },
+  "checks": {
+    "native_valid": true,
+    "solids": 1,
+    "unchanged_board_side_delta_mm3": 0.0,
+    "tool_routes": [
+      {
+        "af_mm": 1.5,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 92,
+        "outward_travel_mm": 46.0,
+        "upward_travel_mm": 79.67433714816835,
+        "downward_stop_intersection_mm3": 0.27279800219187267,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 2,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 101,
+        "outward_travel_mm": 50.5,
+        "upward_travel_mm": 87.4685657822283,
+        "downward_stop_intersection_mm3": 0.4849742261194101,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 2.5,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 113,
+        "outward_travel_mm": 56.5,
+        "upward_travel_mm": 97.86087062764156,
+        "downward_stop_intersection_mm3": 0.7577722283112502,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 3,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 126,
+        "outward_travel_mm": 63.0,
+        "upward_travel_mm": 109.11920087683926,
+        "downward_stop_intersection_mm3": 1.0911920087687748,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 4,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 143,
+        "outward_travel_mm": 71.5,
+        "upward_travel_mm": 123.84163274117472,
+        "downward_stop_intersection_mm3": 1.939896904476425,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 5,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 160,
+        "outward_travel_mm": 80.0,
+        "upward_travel_mm": 138.56406460551017,
+        "downward_stop_intersection_mm3": 3.03108891324092,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 6,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 179,
+        "outward_travel_mm": 89.5,
+        "upward_travel_mm": 155.0185472774145,
+        "downward_stop_intersection_mm3": 4.364768035069794,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 8,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 197,
+        "outward_travel_mm": 98.5,
+        "upward_travel_mm": 170.6070045455344,
+        "downward_stop_intersection_mm3": 7.759587617911049,
+        "sample_step_mm": 4
+      },
+      {
+        "af_mm": 10,
+        "max_intersection_mm3": 0,
+        "neighbor_intersection_mm3": 0,
+        "axial_withdrawal_mm": 220,
+        "outward_travel_mm": 110.0,
+        "upward_travel_mm": 190.5255888325765,
+        "downward_stop_intersection_mm3": 12.124355652977073,
+        "sample_step_mm": 4
+      }
+    ],
+    "full_straight_legs_enclosed": true,
+    "limits": "Nominal rigid tools, sampled axial withdrawal and blind-floor stop. Other tools above the rack are not modeled. Physical fit, friction, rotation, grip and bumps remain untested."
+  },
+  "tool_spec": {
+    "keys": [
+      {
+        "across_flats": 1.5,
+        "straight_length": 89,
+        "length_source": "owner",
+        "x_mm": 92.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          92.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 89,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 15,
+        "assumed_bend_radius_mm": 1.7320508075688774
+      },
+      {
+        "across_flats": 2,
+        "straight_length": 98,
+        "length_source": "owner",
+        "x_mm": 69.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          69.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 98,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 18,
+        "assumed_bend_radius_mm": 2.3094010767585034
+      },
+      {
+        "across_flats": 2.5,
+        "straight_length": 110,
+        "length_source": "owner",
+        "x_mm": 46.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          46.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 110,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 20,
+        "assumed_bend_radius_mm": 2.886751345948129
+      },
+      {
+        "across_flats": 3,
+        "straight_length": 123,
+        "length_source": "owner",
+        "x_mm": 23.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          23.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 123,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 23,
+        "assumed_bend_radius_mm": 3.464101615137755
+      },
+      {
+        "across_flats": 4,
+        "straight_length": 140,
+        "length_source": "linear interpolation between owner's 3 mm and 5 mm keys",
+        "x_mm": 0.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          0.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 140,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 29,
+        "assumed_bend_radius_mm": 4.618802153517007
+      },
+      {
+        "across_flats": 5,
+        "straight_length": 157,
+        "length_source": "owner",
+        "x_mm": -23.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          -23.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 157,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 33,
+        "assumed_bend_radius_mm": 5.773502691896258
+      },
+      {
+        "across_flats": 6,
+        "straight_length": 176,
+        "length_source": "owner",
+        "x_mm": -46.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          -46.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 176,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 38,
+        "assumed_bend_radius_mm": 6.92820323027551
+      },
+      {
+        "across_flats": 8,
+        "straight_length": 194,
+        "length_source": "owner",
+        "x_mm": -69.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          -69.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 194,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 44,
+        "assumed_bend_radius_mm": 9.237604307034013
+      },
+      {
+        "across_flats": 10,
+        "straight_length": 217,
+        "length_source": "owner",
+        "x_mm": -92.0,
+        "axis": [
+          0.0,
+          0.5,
+          0.8660254037844386
+        ],
+        "mouth": [
+          -92.0,
+          124.0,
+          -12.0
+        ],
+        "socket_depth_mm": 217,
+        "radial_clearance_mm": 0.35,
+        "lead_in_mm": 1.2,
+        "tip_floor_mm": 3,
+        "assumed_short_straight_mm": 50,
+        "assumed_bend_radius_mm": 11.547005383792516
+      }
+    ],
+    "axis_angle_from_vertical_deg": 30,
+    "short_arm_direction": [
+      0.0,
+      0.8660254037844386,
+      -0.5
+    ],
+    "reference": "Owner straight lengths; 4 mm interpolated. Short straight arms and bend radii are illustrative assumptions."
+  },
+  "load_point": [
+    85,
+    132,
+    -18
+  ],
+  "source_sha256": "9a6c9409531a3115fb85ab350ead2c8c11c9a295ac877e43d3575493a3b50a38",
+  "source_dependencies": {
+    "bench/source/canted_hex_keys_v1/key_set.json": "58dd3c1e75ea528b2ccffd718599905ded0e9aab6e9b9a7c3f9652a4f4b5e14d",
+    "bench/source/bespoke_tools_v1/build.py": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+  },
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "files": {
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.step": {
+      "sha256": "0aadd67318355de53252bd7ef8f45efaaa534c27fdaafa033aa534380dc1691a",
+      "bytes": 411732
+    },
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.stl": {
+      "sha256": "213d50c281ad101693ad35dd243415838f26c00e3f315a1265f96e16a84bc9ac",
+      "bytes": 1510284
+    },
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.step": {
+      "sha256": "0e037d2451454a0dc76956f1b35965be8d1162daddb4fd7821877910acf65ec7",
+      "bytes": 419592
+    },
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl": {
+      "sha256": "13bc3cca61bf0c02ce5a2679869eb55d972cc084ce82d5c08256491b847a0a52",
+      "bytes": 1510184
+    },
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.step": {
+      "sha256": "5f1b3c8340d07deabf898c8547a2c87c3ad0a38d42b51afa51f46f804a3ef5b0",
+      "bytes": 219254
+    },
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.stl": {
+      "sha256": "37df7df69f60ec11d8b39fc9a80ea0d88214fa86ca7c516b92357329743c9c7d",
+      "bytes": 432884
+    },
+    "part-hx02__v1__right-cheek__fit-pf02c9-hoop5.FCStd": {
+      "sha256": "3b770f4223a4b68158c01bc4fb548a68039c18e9f621fdc3dc55060ba319f32a",
+      "bytes": 183955
+    }
+  }
+}

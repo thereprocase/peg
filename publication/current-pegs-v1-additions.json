@@ -1672,11 +1672,11 @@
     "bytes": 3503941
   },
   "catalog.json": {
-    "sha256": "919006bd4b3d23fc5461d9799774ecca0bb117b1d87cd470e3d2924e9319fe1a",
-    "bytes": 124928
+    "sha256": "0ad36cf09ca11ff928484d755927e014a1ceb2488a1c6752b8f0349fe2e9acf4",
+    "bytes": 127418
   },
   "index.html": {
-    "sha256": "c93f73c93d9f4a5194cf2ca6a8d83ce5d3660011be51b2ac8da5983b39c8752a",
+    "sha256": "f101d037d2839a7c7b0a466868ea26ccd707d24102a93ef135c058632f3cb3a4",
     "bytes": 4128
   },
   "current-pegs.js": {
@@ -1986,5 +1986,33 @@
   "part-cf01__v3__upright__fit-pf02c9-hoop5__print.png": {
     "sha256": "ef4795cec98ec669265a0ba03661ea0bbde92adfb6666f7b891c211e4c45add2",
     "bytes": 164826
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "ce2080120323b2c7204f239175e988a47688a8a19c7a69a51c7f074ac9d463fc",
+    "bytes": 605316
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "213d50c281ad101693ad35dd243415838f26c00e3f315a1265f96e16a84bc9ac",
+    "bytes": 1510284
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "8064121d123c3e1f15b2d073c317f98ef47baf3ff85aa21fb19b4113d7559575",
+    "bytes": 605212
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl": {
+    "sha256": "13bc3cca61bf0c02ce5a2679869eb55d972cc084ce82d5c08256491b847a0a52",
+    "bytes": 1510184
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "752120e292ced747ab5f3afc0208f063069fa60cbed0c18d9b602d768720d0ab",
+    "bytes": 24017
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "cf13f39bf366b75722d27841368358bbe4a2c8cceb2a7f1916b457618cc6522c",
+    "bytes": 144696
+  },
+  "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.png": {
+    "sha256": "e5b6fc79f820ec1ecca83c46179b494536642b6fe8baa489ec44e0eb11c99c40",
+    "bytes": 168848
   }
 }
