@@ -11,7 +11,7 @@
     $('model-status').textContent='Loading '+(next==='print'?'print orientation':'installed view')+'…';
     model.src=asset;model.poster=selected.assets[next+'_png']||selected.assets.preview_png;
     model.alt=selected.name+' · '+(next==='print'?selected.pose+' print orientation':'installed mounting orientation');
-    model.cameraOrbit=next==='print'?'35deg 60deg auto':'145deg 70deg auto';
+    model.cameraOrbit=next==='print'?'35deg 60deg auto':(selected.installed_camera_orbit||'145deg 70deg auto');
     document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===next)));
   }
   function select(record,scroll=false){
@@ -29,8 +29,8 @@
   function render(){
     const query=$('search').value.trim().toLowerCase(),family=$('family').value;
     const rows=catalog.parts.filter(r=>belongs(r,family)&&(!query||(r.id+' '+r.name).toLowerCase().includes(query)));
-    const headings={repro:['Repro bespoke models','21 holders and accessories for soldering tools, spools, tweezers, screwdrivers and workshop storage. Select a model for its CAD, print orientation and physical test status.'],'pegstr-all':['Pegstr remix / expansion','11 remounted Pegstr designs, 8 seat arrays and 4 flat-bottom bins, based on Marius Gheorghescu’s Pegstr. Each model retains attribution and source recipes.']};
-    const heading=headings[family]||['Repro and Pegstr models','44 holders and accessories across Repro’s bespoke designs and the Pegstr remix and expansion collection. Each entry includes CAD downloads, print orientation and model-specific checks.'];
+    const headings={repro:['Repro bespoke models',`${catalog.parts.filter(r=>belongs(r,'repro')).length} holders and accessories for soldering tools, spools, tweezers, screwdrivers and workshop storage. Select a model for its CAD, print orientation and physical test status.`],'pegstr-all':['Pegstr remix / expansion','11 remounted Pegstr designs, 8 seat arrays and 4 flat-bottom bins, based on Marius Gheorghescu’s Pegstr. Each model retains attribution and source recipes.']};
+    const heading=headings[family]||['Repro and Pegstr models',`${catalog.parts.length} holders and accessories across Repro’s bespoke designs and the Pegstr remix and expansion collection. Each entry includes CAD downloads, print orientation and model-specific checks.`];
     $('bespoke-review-link').hidden=pegstrFamilies.includes(family)||family==='pegstr-all'||family==='expansion';
     $('collection-title').textContent=heading[0];$('collection-description').textContent=heading[1];document.title=heading[0]+' · thereprocase';
     $('count').textContent=rows.length+' of '+catalog.parts.length+' designs';$('empty').hidden=rows.length>0;

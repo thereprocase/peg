@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2490,
-  "total_size_bytes": 874754832,
+  "file_count": 2498,
+  "total_size_bytes": 886715495,
   "files": [
     {
       "path": ".gitattributes",
@@ -4393,8 +4393,8 @@
     },
     {
       "path": "docs/gallery/bespoke-tools/index.html",
-      "size_bytes": 5497,
-      "sha256": "dd78252f586d18cb2e1e1fa4cea36961d8646c2f86a7e33582af730a7ccc96c7"
+      "size_bytes": 5512,
+      "sha256": "659e228aadc5a5206fb8dda753abc75dc0feb944b492e5e46ef25334d8d7d75f"
     },
     {
       "path": "docs/gallery/bespoke-tools/review.js",
@@ -4843,8 +4843,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
-      "size_bytes": 122529,
-      "sha256": "d28a65459d064c5bd5dfb85ecfe945db0c9b6e2f74cf28e15df9641fdc8dc551"
+      "size_bytes": 124869,
+      "sha256": "968837276c8da794e402a926164ed7f4be52a2115ecfb6f52b7ef84bc62bc446"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -4853,13 +4853,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.js",
-      "size_bytes": 6857,
-      "sha256": "4989330369d71114451384a06f1a26c500c83cb4e9bdd4af308d6bfb72645763"
+      "size_bytes": 6964,
+      "sha256": "0347db1d97aac65f734957e90b3c995cfba66656df8023150a537be89c3ef543"
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
-      "size_bytes": 4200,
-      "sha256": "78a515c67fcf9e212ecdf87e9026e94bcd0144de4f3fe1959e952963c673dae8"
+      "size_bytes": 4128,
+      "sha256": "c93f73c93d9f4a5194cf2ca6a8d83ce5d3660011be51b2ac8da5983b39c8752a"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4940,6 +4940,41 @@
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.png",
       "size_bytes": 154603,
       "sha256": "86c6055514e2e9f305be3163cf1477066a86c5e7413909d048a22577c5029536"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__checks.json",
+      "size_bytes": 17149,
+      "sha256": "2de22d2419ebdb33f3e1e9a7bec6e3b6fe2cc44ec4bb446264a0a92fe5dfe86b"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__installed.glb",
+      "size_bytes": 1658096,
+      "sha256": "b0ebc9193b7716f2bedc766bfb5c8af6836512172ddd5212764ef5bc2e8131fb"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__installed.png",
+      "size_bytes": 164902,
+      "sha256": "f2a8356480a877adfd7d0db2cc88ebbd8e11237d3befd35bbba55ad2e4808e5a"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 4142484,
+      "sha256": "926cc8d42872ebc11cd1dab50ec288b56dea5df618871ee04c85b1b16a9997de"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__print.glb",
+      "size_bytes": 1659768,
+      "sha256": "3e0baf25e119d01916af6a6272f17ceae3342b5145de22396cf5bdec8bf284d9"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__print.png",
+      "size_bytes": 164542,
+      "sha256": "63c72566188e68226666648eb1e1162d622cdd9affa8558699d85a4b9ce1a4d7"
+    },
+    {
+      "path": "docs/gallery/current-pegs/part-cf01__v2__upright__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 4146784,
+      "sha256": "ab339a4d5c35e0a5caa6b3179b9e3ab23ca266a32714657b10e45feeb9b2b0d4"
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -11873,8 +11908,13 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 5022,
-      "sha256": "de6db6a6d10565bba17bd462547eed6e4d3252b3c348d14f0bf9f7654f606a8c"
+      "size_bytes": 5475,
+      "sha256": "d150ad201cce1d209228d18c97eda3c5ab52d9618cbd82e21040311a597521b9"
+    },
+    {
+      "path": "publication/add_cascade_to_collection.py",
+      "size_bytes": 2722,
+      "sha256": "11789b9cc54030506a61749d97ac08158616e1ff154f5e137c814382f2be169d"
     },
     {
       "path": "publication/add_new_designs.py",
@@ -11884,7 +11924,7 @@
     {
       "path": "publication/bespoke-tools-v1-additions.json",
       "size_bytes": 3513,
-      "sha256": "76c0bcf5e32132978f1422dd48b2aabfb47cc914f707617ea8153a3ceb1914af"
+      "sha256": "67036f9d13e71339b8c747909e6162c2c169f15f3e514ae209c380f4fd1eaf76"
     },
     {
       "path": "publication/browser-verification.json",
@@ -11893,8 +11933,8 @@
     },
     {
       "path": "publication/build_bespoke_review.py",
-      "size_bytes": 7102,
-      "sha256": "4bb06714d3f2ecbc194fbb76fe10f060a9a25a0a3938ccf61cbf35382faaaac8"
+      "size_bytes": 7117,
+      "sha256": "8e78aa3a364f94705b0b611b4e5b88955967c3a93075d20c8fe664e20b96aaea"
     },
     {
       "path": "publication/build_cascade_review.py",
@@ -11923,8 +11963,8 @@
     },
     {
       "path": "publication/current-pegs-v1-additions.json",
-      "size_bytes": 89242,
-      "sha256": "c37255f7224f575534ae909078cf64d0093d111b04c95c647e324446307a61af"
+      "size_bytes": 90421,
+      "sha256": "5fd927177e817797927853ca94e1000fcb31b0686750398244df4b321e776de9"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -12018,8 +12058,8 @@
     },
     {
       "path": "publication/render_workbench_previews.cjs",
-      "size_bytes": 3012,
-      "sha256": "0e6167307b8e658b538ebff75a6678f9e4e8f30b5ef4657ff63da093793baa0d"
+      "size_bytes": 3157,
+      "sha256": "9549eaa7a3cf53482f4892a0b2a0eb8422ae7e43be41a3abd4b19ffd2518c7d4"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -12223,8 +12263,8 @@
     },
     {
       "path": "tools/check_current_pegs.py",
-      "size_bytes": 3314,
-      "sha256": "06ae7a0c2800f142ecde58f23f3decd210ae692203c06e3a5ed647bd4c168e59"
+      "size_bytes": 3348,
+      "sha256": "d16895e911adf8b5dd7714f86aef068cb20c1a6c002d0a53e6433e81b0b0fae6"
     },
     {
       "path": "tools/check_gallery.py",

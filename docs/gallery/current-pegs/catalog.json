@@ -1,7 +1,49 @@
 {
   "schema_version": 1,
-  "expected_count": 44,
+  "expected_count": 45,
   "parts": [
+    {
+      "id": "CF01",
+      "name": "Cascading tool funnels",
+      "family": "solder-modules",
+      "version": "v2",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "upright",
+      "installed_camera_orbit": "0deg 75deg auto",
+      "print_bounds_mm": [
+        99.60000020000035,
+        100.85961600445218,
+        120.24975528621785
+      ],
+      "assets": {
+        "installed_glb": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.glb",
+        "installed_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.stl",
+        "installed_png": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.png",
+        "print_glb": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.glb",
+        "print_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.stl",
+        "print_png": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.png",
+        "checks": "part-cf01__v2__upright__fit-pf02c9-hoop5__checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/cascade-funnels-v2-2026-10-06/cascade-funnels__v2__cad-source-and-review.zip"
+      },
+      "extra_downloads": [
+        {
+          "label": "Detailed review and tool references",
+          "url": "../cascade-funnels/?v=2"
+        }
+      ],
+      "notes": {
+        "orientation": "Print upright on the common flat bottom. Three touching funnels at 25 mm centres; the right seat is highest, with 25.4 mm steps down toward the left. Plain funnel mouths.",
+        "upper_pegs": "Original PF02 #9 upper hooks retained. Front-body installation screening follows the nominal reference route.",
+        "supports": "Local P1S / PolyLite ASA toolpaths reviewed. Supports remain behind the mounting face. Reslice for your printer and filament.",
+        "mount": "Shared 99.6 mm backplate with PF02 #9 hooks and PF07 #5 lower hoops; hoop flex stays within the print layers.",
+        "qualification": "CAD, sampled tool withdrawal, adjoining-shell overlap, print geometry and a 4 mm mesh solid-ASA stiffness screen pass. Physical print, fit, handling and support release remain pending. Tool shapes are clearance envelopes.",
+        "status": "Toolpaths reviewed \u00b7 physical test pending"
+      },
+      "credit": ""
+    },
     {
       "id": "SPOOL-V14",
       "name": "Open bench-spool cradle",
@@ -1535,5 +1577,5 @@
       "credit": ""
     }
   ],
-  "build_note": "October 4, 2026 \u00b7 Six new session designs plus 38 remounted gallery parts. Test status is stated per design."
+  "build_note": "Per-model CAD, print orientation and physical test status are recorded with each design."
 }

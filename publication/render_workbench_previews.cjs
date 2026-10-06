@@ -16,13 +16,14 @@ const path = require('node:path');
     await page.route('**/workbench-preview.html', route => route.fulfill({contentType: 'text/html', body: `<html><head><script type="module" src="${base}gallery/vendor/model-viewer.min.js"></script><script defer src="${base}viewer/workbench.js"></script></head><body style="margin:0"><model-viewer id="model" style="width:800px;height:640px" camera-controls></model-viewer></body></html>`}));
     await page.goto(new URL('workbench-preview.html', base).href);
     await page.evaluate(() => customElements.whenDefined('model-viewer'));
-    for (const part of catalog.parts) {
+    const selected = process.env.PEG_PREVIEW_IDS?.split(',');
+    for (const part of catalog.parts.filter(p => !selected || selected.includes(p.id))) {
       for (const pose of ['installed', 'print']) {
         await page.evaluate(({part, pose}) => new Promise((resolve, reject) => {
           const viewer = document.getElementById('model');
           const timer = setTimeout(() => reject(Error('Model load timed out: ' + part.id)), 30000);
           viewer.addEventListener('load', () => { clearTimeout(timer); resolve(); }, {once: true});
-          viewer.cameraOrbit = pose === 'print' ? '35deg 60deg auto' : '145deg 70deg auto';
+          viewer.cameraOrbit = pose === 'print' ? '35deg 60deg auto' : (part.installed_camera_orbit || '145deg 70deg auto');
           viewer.src = new URL('gallery/current-pegs/' + part.assets[pose + '_glb'], location.href).href;
         }), {part, pose});
         await page.waitForFunction(() => Number(document.getElementById('model').dataset.workbenchMaterials) > 0);

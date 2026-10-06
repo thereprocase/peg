@@ -1672,16 +1672,16 @@
     "bytes": 3503941
   },
   "catalog.json": {
-    "sha256": "d28a65459d064c5bd5dfb85ecfe945db0c9b6e2f74cf28e15df9641fdc8dc551",
-    "bytes": 122529
+    "sha256": "968837276c8da794e402a926164ed7f4be52a2115ecfb6f52b7ef84bc62bc446",
+    "bytes": 124869
   },
   "index.html": {
-    "sha256": "78a515c67fcf9e212ecdf87e9026e94bcd0144de4f3fe1959e952963c673dae8",
-    "bytes": 4200
+    "sha256": "c93f73c93d9f4a5194cf2ca6a8d83ce5d3660011be51b2ac8da5983b39c8752a",
+    "bytes": 4128
   },
   "current-pegs.js": {
-    "sha256": "4989330369d71114451384a06f1a26c500c83cb4e9bdd4af308d6bfb72645763",
-    "bytes": 6857
+    "sha256": "0347db1d97aac65f734957e90b3c995cfba66656df8023150a537be89c3ef543",
+    "bytes": 6964
   },
   "current-pegs.css": {
     "sha256": "8b4c6ddd6ffbfb8bf24428bfb6ad8c7024ed954151593f01dff8c3a436b7d0b0",
@@ -1930,5 +1930,33 @@
   "part-solder-drip-tray-liner__v12__vase-filled__cad-source-and-review.zip": {
     "sha256": "df851cf869460f2fda5f6a6fa5fea1c0cf0285e8fee926258dd2042ead4cfe4b",
     "bytes": 4093298
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "b0ebc9193b7716f2bedc766bfb5c8af6836512172ddd5212764ef5bc2e8131fb",
+    "bytes": 1658096
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "926cc8d42872ebc11cd1dab50ec288b56dea5df618871ee04c85b1b16a9997de",
+    "bytes": 4142484
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "3e0baf25e119d01916af6a6272f17ceae3342b5145de22396cf5bdec8bf284d9",
+    "bytes": 1659768
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__print.stl": {
+    "sha256": "ab339a4d5c35e0a5caa6b3179b9e3ab23ca266a32714657b10e45feeb9b2b0d4",
+    "bytes": 4146784
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "2de22d2419ebdb33f3e1e9a7bec6e3b6fe2cc44ec4bb446264a0a92fe5dfe86b",
+    "bytes": 17149
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "f2a8356480a877adfd7d0db2cc88ebbd8e11237d3befd35bbba55ad2e4808e5a",
+    "bytes": 164902
+  },
+  "part-cf01__v2__upright__fit-pf02c9-hoop5__print.png": {
+    "sha256": "63c72566188e68226666648eb1e1162d622cdd9affa8558699d85a4b9ce1a4d7",
+    "bytes": 164542
   }
 }
