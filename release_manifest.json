@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2441,
-  "total_size_bytes": 832351636,
+  "file_count": 2443,
+  "total_size_bytes": 848402254,
   "files": [
     {
       "path": ".gitattributes",
@@ -3178,8 +3178,8 @@
     },
     {
       "path": "docs/gallery/arrays.html",
-      "size_bytes": 26424,
-      "sha256": "83d8a13a07571016a4c0ccbc6aec6dbc123a5ef33ff3c22851741ccb3e433f61"
+      "size_bytes": 26476,
+      "sha256": "0c46622955b7e81ecdd9e1477a3670086da790f534e99061d79005b9028e3e62"
     },
     {
       "path": "docs/gallery/arrays.js",
@@ -4223,8 +4223,8 @@
     },
     {
       "path": "docs/gallery/bespoke-tools/index.html",
-      "size_bytes": 5386,
-      "sha256": "7907a302a7c527dfcd9e3ffc5a6bf47df6880441ca1c905777266f079c755bfd"
+      "size_bytes": 5441,
+      "sha256": "1caeb4d0c40fbe161c8b156e6124b876d7a63988cb79316b15c1bb2c2698cacb"
     },
     {
       "path": "docs/gallery/bespoke-tools/review.js",
@@ -4343,8 +4343,8 @@
     },
     {
       "path": "docs/gallery/bin-expansion/index.html",
-      "size_bytes": 9338,
-      "sha256": "fec1fa0d634a865744e7f8765ba770d4ecd48c144d5f7922d0c42e19d90575a9"
+      "size_bytes": 9393,
+      "sha256": "4b79dc4a1be764570a306b5691b948f4fca1c03ee1f067ab35da51f909803729"
     },
     {
       "path": "docs/gallery/bin-expansion/part-pegstr-bin-expansion__v1__four-bin-lineup.png",
@@ -4643,8 +4643,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
-      "size_bytes": 4066,
-      "sha256": "7c2ea57f0da1d345c19b91959aea9eebe3392f9690d91f94d10f01535910830a"
+      "size_bytes": 4121,
+      "sha256": "c83726f75e6edd1ea4e3d661c74e9dfb744efd115f9ce1954de3e161ec53e121"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4658,8 +4658,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 26404,
-      "sha256": "fdfd2223f1aaf196fe548e0d07728e01ca88ca1a20c516480aeb4e3d1ab36db1"
+      "size_bytes": 157018,
+      "sha256": "465752c828db053f08619f2b665c980095145dad2d7c260829f2c3d5dcab7b51"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4668,8 +4668,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 26404,
-      "sha256": "fdfd2223f1aaf196fe548e0d07728e01ca88ca1a20c516480aeb4e3d1ab36db1"
+      "size_bytes": 157018,
+      "sha256": "465752c828db053f08619f2b665c980095145dad2d7c260829f2c3d5dcab7b51"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
@@ -4683,8 +4683,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 20356,
-      "sha256": "d53ffd2d77fddc7f61678ebe29f610d53adae3b8afd48703680bcff7a10f5f66"
+      "size_bytes": 157023,
+      "sha256": "a79984b98e115502fbdffef36d1c382085773bdc774e220a9ea9daea7e052a31"
     },
     {
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4698,8 +4698,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 14642,
-      "sha256": "26baea48ed9ac7c5a6c95a68242fefb7753244ad033d7a39bd64aa0e182007c4"
+      "size_bytes": 143204,
+      "sha256": "065912ebf422ee91e26449fb9610c111de70742c7c078e429b385d76e598e704"
     },
     {
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4708,8 +4708,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 14642,
-      "sha256": "26baea48ed9ac7c5a6c95a68242fefb7753244ad033d7a39bd64aa0e182007c4"
+      "size_bytes": 143204,
+      "sha256": "065912ebf422ee91e26449fb9610c111de70742c7c078e429b385d76e598e704"
     },
     {
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -4723,8 +4723,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-braid__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 23703,
-      "sha256": "f7b2abc37620104fb47e0a9c8c8383cba2bb5b60460e90f5e30041737ddb4387"
+      "size_bytes": 154603,
+      "sha256": "86c6055514e2e9f305be3163cf1477066a86c5e7413909d048a22577c5029536"
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4738,8 +4738,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 17312,
-      "sha256": "9caa634fb512a5191ef2928302e9216b54d4fcf11c5630729bc36c8b7b3cd132"
+      "size_bytes": 144811,
+      "sha256": "012541a90470192f25cfb28f8eef4b403ef07460011a50d0d14fd72e95b24e84"
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4748,8 +4748,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 17312,
-      "sha256": "9caa634fb512a5191ef2928302e9216b54d4fcf11c5630729bc36c8b7b3cd132"
+      "size_bytes": 144811,
+      "sha256": "012541a90470192f25cfb28f8eef4b403ef07460011a50d0d14fd72e95b24e84"
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
@@ -4763,8 +4763,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-drip-tray__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 20494,
-      "sha256": "42bd345776f58b78bf809bd8b9a66fcde87d30bc3cc4365ca2e234666bb00a59"
+      "size_bytes": 144811,
+      "sha256": "012541a90470192f25cfb28f8eef4b403ef07460011a50d0d14fd72e95b24e84"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4778,8 +4778,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22514,
-      "sha256": "99fac655df70d104217e746a3e001bf6d808c6ad8a8c766cafef01f5db7ea6b1"
+      "size_bytes": 146957,
+      "sha256": "6de844f122a1010c73519a4f5c81957fa5b74873785b76a7120522fa185caabb"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4788,8 +4788,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22514,
-      "sha256": "99fac655df70d104217e746a3e001bf6d808c6ad8a8c766cafef01f5db7ea6b1"
+      "size_bytes": 146957,
+      "sha256": "6de844f122a1010c73519a4f5c81957fa5b74873785b76a7120522fa185caabb"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
@@ -4803,8 +4803,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 26973,
-      "sha256": "2fb22dbad77e292172e269ac6af0074cc43796ce684602a219b1a11d37805b08"
+      "size_bytes": 150174,
+      "sha256": "fc4fc9491a14270658255aae4b13b0917f583b4aa15325604d42e0dd024fa857"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4818,8 +4818,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 17581,
-      "sha256": "2a15e6a0ac0d6fcfa0974231b7847a23f8b8b16a5a0f1cf1eb6616c976d6ca5d"
+      "size_bytes": 155383,
+      "sha256": "a2e4a10c9479081921fc16bf4f0734bae0bc263372cb0e721329058261a283eb"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4828,8 +4828,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 17581,
-      "sha256": "2a15e6a0ac0d6fcfa0974231b7847a23f8b8b16a5a0f1cf1eb6616c976d6ca5d"
+      "size_bytes": 155383,
+      "sha256": "a2e4a10c9479081921fc16bf4f0734bae0bc263372cb0e721329058261a283eb"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
@@ -4843,8 +4843,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh02__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 22363,
-      "sha256": "7abac2aaa2de015aef2d502b4f2ebf0302ca95d007dc70a98c2e107a05824404"
+      "size_bytes": 156919,
+      "sha256": "4dbb6b5dcc955d33bc3458e0b2ba0d01e5c2cd6815b030a4e03726f089aca18e"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4858,8 +4858,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 16684,
-      "sha256": "650574e2e2ed4e9c57bdfc88c0eecd447f786e0d08a5e555745366df2cc259a1"
+      "size_bytes": 157666,
+      "sha256": "d00db917a7ae26fe5ae132920a173fa3a3c6fe49853d23432032ef622241c268"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4868,8 +4868,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 16684,
-      "sha256": "650574e2e2ed4e9c57bdfc88c0eecd447f786e0d08a5e555745366df2cc259a1"
+      "size_bytes": 157666,
+      "sha256": "d00db917a7ae26fe5ae132920a173fa3a3c6fe49853d23432032ef622241c268"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
@@ -4883,8 +4883,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh03__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 22618,
-      "sha256": "ed33e7900f326d95590d0e084c0fa5b6ee4c7f269e8b0093cb4c1b547abf975a"
+      "size_bytes": 159345,
+      "sha256": "54d545cf3332cf7858300fe9f4cfec4e7ed8d35652c8cb09a9a4bbe970857b3e"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4898,8 +4898,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 14991,
-      "sha256": "b6466633d4e027ed03db8029202013b8ce86618c448e6411d7d96cb32eaf2c04"
+      "size_bytes": 156447,
+      "sha256": "5f0c940e602165b6daa48b1fc37ec3669826054f58a058f2af796753156235d4"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4908,8 +4908,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 14991,
-      "sha256": "b6466633d4e027ed03db8029202013b8ce86618c448e6411d7d96cb32eaf2c04"
+      "size_bytes": 156447,
+      "sha256": "5f0c940e602165b6daa48b1fc37ec3669826054f58a058f2af796753156235d4"
     },
     {
       "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
@@ -4923,8 +4923,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-mh04__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 20539,
-      "sha256": "00c6c2eba3628a46c8245c6f4180620e3766bf6c6e30537061a0e50676377501"
+      "size_bytes": 159337,
+      "sha256": "3e52c8d8d32816f084f93a07d0fecc586956cee7825dfc48ba29255cabc0fb7d"
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4938,8 +4938,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 21754,
-      "sha256": "4d6a2f6b09597168894aa09d8817cdb7d75da69736f62f58228a3fa9affd341d"
+      "size_bytes": 154918,
+      "sha256": "cdcb3ee71aac81bcb7de166854f00f8aa3aa120f5d738b9e0e27da694b80facb"
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4948,8 +4948,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 21754,
-      "sha256": "4d6a2f6b09597168894aa09d8817cdb7d75da69736f62f58228a3fa9affd341d"
+      "size_bytes": 154918,
+      "sha256": "cdcb3ee71aac81bcb7de166854f00f8aa3aa120f5d738b9e0e27da694b80facb"
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
@@ -4963,8 +4963,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-a-h__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 26238,
-      "sha256": "1999adc93e5cebd09990dcd62df46877702c40644610f57bdba62ba9f7fb7e25"
+      "size_bytes": 155832,
+      "sha256": "4c7a4a9cfc0da84f22f0ea4dc24d3d1d45129dc714be3a903ea14c51ff4e476c"
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -4978,8 +4978,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 23225,
-      "sha256": "6599c9c56f8a74c994091cf99a61af7e3643f4e5c9ca4fce791e9d48f6121f55"
+      "size_bytes": 157255,
+      "sha256": "ff35f20c73d532498d9543a65213e3f9eb055db3c170b9f0816d7471d7a9a31f"
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -4988,8 +4988,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 23225,
-      "sha256": "6599c9c56f8a74c994091cf99a61af7e3643f4e5c9ca4fce791e9d48f6121f55"
+      "size_bytes": 157255,
+      "sha256": "ff35f20c73d532498d9543a65213e3f9eb055db3c170b9f0816d7471d7a9a31f"
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print-flat-top.stl",
@@ -5003,8 +5003,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-ms01-i-p__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 26472,
-      "sha256": "de5d60498bd82f237a9f163f791bff40c5f8d2641472e93c5216601836c7c08d"
+      "size_bytes": 156167,
+      "sha256": "7e52427e860e8d6c2ea1e1360146385aa608d0214689182903fce03b13c5f7a3"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5018,8 +5018,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 24490,
-      "sha256": "338c1758bbe4b0f74fce0a0a5603f1e8ca933233001da1cf055f9625c4438c34"
+      "size_bytes": 158588,
+      "sha256": "56718380cfa89f9b8ea50441e29d158fceb59d7d12c5a2ff530586739ff7b3fd"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5028,8 +5028,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 24490,
-      "sha256": "338c1758bbe4b0f74fce0a0a5603f1e8ca933233001da1cf055f9625c4438c34"
+      "size_bytes": 158588,
+      "sha256": "56718380cfa89f9b8ea50441e29d158fceb59d7d12c5a2ff530586739ff7b3fd"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5043,8 +5043,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-12__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 26380,
-      "sha256": "e439ad8adda54b1fba6cc39fb076112771ee5ece4a4ee6441042917cc586b0a7"
+      "size_bytes": 157718,
+      "sha256": "b0538b29d244c1b6bed0dac97003bb50d9a7777e144080db5850462aba394988"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5058,8 +5058,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 26675,
-      "sha256": "82effa5645c0ddc2fcb6758c07da9c5f1f12b425f3b08d1d2ed91753dbc50478"
+      "size_bytes": 161708,
+      "sha256": "db415c29443f39adda8ca2d3e0f3a1936abced611fcec619cf0dbfe43d6cc31d"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5068,8 +5068,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 26675,
-      "sha256": "82effa5645c0ddc2fcb6758c07da9c5f1f12b425f3b08d1d2ed91753dbc50478"
+      "size_bytes": 161708,
+      "sha256": "db415c29443f39adda8ca2d3e0f3a1936abced611fcec619cf0dbfe43d6cc31d"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5083,8 +5083,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-24__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 32244,
-      "sha256": "0bce9c47b90f0955ec888c2b4d38272f9e4608fdd0ea6a1a59faa77143924554"
+      "size_bytes": 155734,
+      "sha256": "cf1ab219b3ec9651721a9e1262d06d87250926193b5b07428a24dbe7351ae71b"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5098,8 +5098,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 26569,
-      "sha256": "0399e967e52d74ba7dada0b7499eaa84b865ed127b16f4e52506efdd50616b46"
+      "size_bytes": 163148,
+      "sha256": "ea9207f150e4670d9d894f00c26d518059bc75c879f0221bca9f49ba07f68024"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5108,8 +5108,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 26569,
-      "sha256": "0399e967e52d74ba7dada0b7499eaa84b865ed127b16f4e52506efdd50616b46"
+      "size_bytes": 163148,
+      "sha256": "ea9207f150e4670d9d894f00c26d518059bc75c879f0221bca9f49ba07f68024"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5123,8 +5123,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-32__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 35991,
-      "sha256": "f3190923145585b5c96933fcb557e1edbcfe380c10525269d504ff32debe72e2"
+      "size_bytes": 154088,
+      "sha256": "3a2ee29eddacd26daa8671f124861b72b2faa67b3f88d77afa1287718bcde5f1"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5138,8 +5138,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 27089,
-      "sha256": "da8d1f1a003b3d59c88b9674b48d10cd4e1f3a1963f3d6c346beab9013df0ec6"
+      "size_bytes": 166730,
+      "sha256": "042177783b7df4d7c6300e2ba2ee85826e88c28734e12ef2995a93e4aa90afd7"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5148,8 +5148,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 27089,
-      "sha256": "da8d1f1a003b3d59c88b9674b48d10cd4e1f3a1963f3d6c346beab9013df0ec6"
+      "size_bytes": 166730,
+      "sha256": "042177783b7df4d7c6300e2ba2ee85826e88c28734e12ef2995a93e4aa90afd7"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5163,8 +5163,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 37249,
-      "sha256": "576ff5322e72b164f627efb1c09773b0194b855d686e9d607e62a445b8da7c06"
+      "size_bytes": 155451,
+      "sha256": "f89d378212bba673da9f7ae75dec03525aabc3e345576875e41614028999f94b"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5178,8 +5178,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22602,
-      "sha256": "5ef7042f0ba99a233c86b6f0b1e750d596678fe2fc5ab5b74207e5790f8a17f2"
+      "size_bytes": 159003,
+      "sha256": "6478436b89bcfa09e4b34f292201598a686fd904f796dfd9d000e4c36d7e2d9b"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5188,8 +5188,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22602,
-      "sha256": "5ef7042f0ba99a233c86b6f0b1e750d596678fe2fc5ab5b74207e5790f8a17f2"
+      "size_bytes": 159003,
+      "sha256": "6478436b89bcfa09e4b34f292201598a686fd904f796dfd9d000e4c36d7e2d9b"
     },
     {
       "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5203,8 +5203,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p01__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 29024,
-      "sha256": "59da61ea6adcee3012430e8de910e598add8cf2b8e2f7b68ec5b7fe22caa5e56"
+      "size_bytes": 158934,
+      "sha256": "94d79831a1e00e138b453bd97b51869c4b3905841bcc5cfc13174f9f91d17b29"
     },
     {
       "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5218,8 +5218,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 21497,
-      "sha256": "6d331fbe3734763126cf26c3a793f61ada77c9a8b082e79bde11e578c151d5ab"
+      "size_bytes": 151302,
+      "sha256": "a07d7dd37573738dea035751de9a5ec190389d3cbfa3be2e782b8245fd25980f"
     },
     {
       "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5228,8 +5228,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 21497,
-      "sha256": "6d331fbe3734763126cf26c3a793f61ada77c9a8b082e79bde11e578c151d5ab"
+      "size_bytes": 151302,
+      "sha256": "a07d7dd37573738dea035751de9a5ec190389d3cbfa3be2e782b8245fd25980f"
     },
     {
       "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5243,8 +5243,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p02__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 24089,
-      "sha256": "14fb82e6c5a079b119c85303765bcbc776d89d4c3f5c3d1d157dc2ace94b83c4"
+      "size_bytes": 156486,
+      "sha256": "4575930638f8448555a67ed8619b163345d1a180ce68aa34a3d8cdeee0770d20"
     },
     {
       "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5258,8 +5258,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22999,
-      "sha256": "b7e877f1ca75b704409f49d9f02b170e3f1428f3fce761d1e7026c94a72b2026"
+      "size_bytes": 153571,
+      "sha256": "7d59575bd077147c638ec71de324707ff102c0af45e9dbbbce293e1e7f6a25e5"
     },
     {
       "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5268,8 +5268,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22999,
-      "sha256": "b7e877f1ca75b704409f49d9f02b170e3f1428f3fce761d1e7026c94a72b2026"
+      "size_bytes": 153571,
+      "sha256": "7d59575bd077147c638ec71de324707ff102c0af45e9dbbbce293e1e7f6a25e5"
     },
     {
       "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5283,8 +5283,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p03__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 26642,
-      "sha256": "fdced415e40bd8dfc7e4461c5161b963aec1678f691103bcecd4b6901d1fca52"
+      "size_bytes": 155356,
+      "sha256": "43375d58a768c43721e03ad8b7a6ffe6802915c3ddd3b7fa3a06a0256d1ed532"
     },
     {
       "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5298,8 +5298,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22349,
-      "sha256": "4650f737d72697fbfb276ad9d225a4d82aa7107b1c70f7a037d2e11391bdf6f3"
+      "size_bytes": 158557,
+      "sha256": "60beb1754489132ae6b5ed43d6347db3c2a4fd39008a6b110480def1fd0c54bd"
     },
     {
       "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5308,8 +5308,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22349,
-      "sha256": "4650f737d72697fbfb276ad9d225a4d82aa7107b1c70f7a037d2e11391bdf6f3"
+      "size_bytes": 158557,
+      "sha256": "60beb1754489132ae6b5ed43d6347db3c2a4fd39008a6b110480def1fd0c54bd"
     },
     {
       "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5323,8 +5323,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p04__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 24049,
-      "sha256": "8f42ce63499de81f565f921c95f45d19e4e6dbe6bbf1aa55a6eeafa5524952ba"
+      "size_bytes": 158282,
+      "sha256": "6c8c7ebcf0b03a1a72306936f8b5c8cbdfd86a0360d03d65a3679cf880a49a3b"
     },
     {
       "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5338,8 +5338,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 25911,
-      "sha256": "53737c9a3c9096f3955e40c0389f15a2872b433ac571a4ce49a84ee7b02d076a"
+      "size_bytes": 160648,
+      "sha256": "5e260a92a873436707bff39e9871b2dad3a4e34dd04cd93c008ccb97c96ff918"
     },
     {
       "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5348,8 +5348,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 25911,
-      "sha256": "53737c9a3c9096f3955e40c0389f15a2872b433ac571a4ce49a84ee7b02d076a"
+      "size_bytes": 160648,
+      "sha256": "5e260a92a873436707bff39e9871b2dad3a4e34dd04cd93c008ccb97c96ff918"
     },
     {
       "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5363,8 +5363,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p05__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 24142,
-      "sha256": "9c78bcf464e7405d9f62ee4e14191e9d2484905e903cce1ecfb683ff067443bb"
+      "size_bytes": 160349,
+      "sha256": "1015997c81ac90a9b106d45a17a0200b4adcb879e56099718f2eaf972453ccde"
     },
     {
       "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5378,8 +5378,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 15986,
-      "sha256": "934fba9d5f85588ca81c167caf5dd33a81b8dd78ac65131faa036a6de87bd265"
+      "size_bytes": 139010,
+      "sha256": "4e2296f2f87fd5a7f5155dd2fffb579de8cd4d49709b0d26c388c60f23a61180"
     },
     {
       "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5388,8 +5388,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 15986,
-      "sha256": "934fba9d5f85588ca81c167caf5dd33a81b8dd78ac65131faa036a6de87bd265"
+      "size_bytes": 139010,
+      "sha256": "4e2296f2f87fd5a7f5155dd2fffb579de8cd4d49709b0d26c388c60f23a61180"
     },
     {
       "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5403,8 +5403,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p06__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 17308,
-      "sha256": "b426fa2a65835538c73bba847d227dcc6d1d56d3bf274c25bc386d9f7d439e82"
+      "size_bytes": 144921,
+      "sha256": "6caa2b302afe2980f4444a684ba12cdd3de1a671522d72caede2550cf2d9132f"
     },
     {
       "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5418,8 +5418,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 16330,
-      "sha256": "bcfcb704759d044ce884fbec729305f74c6dac42d2aed9e4a1aa7cc0bb6c9aca"
+      "size_bytes": 133469,
+      "sha256": "5f8a41e28ce485338de162418a6d2913ebb81d7a0136b9e2fc1056cded2be1d4"
     },
     {
       "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5428,8 +5428,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 16330,
-      "sha256": "bcfcb704759d044ce884fbec729305f74c6dac42d2aed9e4a1aa7cc0bb6c9aca"
+      "size_bytes": 133469,
+      "sha256": "5f8a41e28ce485338de162418a6d2913ebb81d7a0136b9e2fc1056cded2be1d4"
     },
     {
       "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5443,8 +5443,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p07__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 15381,
-      "sha256": "aa557ba0eca3549950a5a85c012c48d9de3fd73639a188c43dfec2e6e6b6cfac"
+      "size_bytes": 141894,
+      "sha256": "3666a436dae6ae6bbff9f776a98428ec89d7b8e09e3f6b44e17e320a1861964c"
     },
     {
       "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5458,8 +5458,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22382,
-      "sha256": "99980f105bbec0cbf5a421265964652d474a348ad6913109d5423513df3ced60"
+      "size_bytes": 157175,
+      "sha256": "29da852f242a52369d3b827b020d4c605bd0ff7bcc41dcd67feba02b7c443e66"
     },
     {
       "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5468,8 +5468,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22382,
-      "sha256": "99980f105bbec0cbf5a421265964652d474a348ad6913109d5423513df3ced60"
+      "size_bytes": 157175,
+      "sha256": "29da852f242a52369d3b827b020d4c605bd0ff7bcc41dcd67feba02b7c443e66"
     },
     {
       "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5483,8 +5483,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p08__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 23599,
-      "sha256": "393f2757893fb41c0ad8ed62a0af9d07efb33d29e94d94c6a5b37b6a6c14f4bf"
+      "size_bytes": 156880,
+      "sha256": "20b07fe9de300cf05a2bec1a4e78d968608551d4de52e140215076673751d6b0"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5498,8 +5498,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 25312,
-      "sha256": "9bce91075c5087b0e1bcf8ac358d18afdf6c6045c7734e0f10258c1777eb9462"
+      "size_bytes": 164599,
+      "sha256": "813aeca682f26df0a7fcacd2cf93483b502d28e08ae53b1fbb77a4d5d82d992d"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5508,8 +5508,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 25312,
-      "sha256": "9bce91075c5087b0e1bcf8ac358d18afdf6c6045c7734e0f10258c1777eb9462"
+      "size_bytes": 164599,
+      "sha256": "813aeca682f26df0a7fcacd2cf93483b502d28e08ae53b1fbb77a4d5d82d992d"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5523,8 +5523,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-16__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 29632,
-      "sha256": "9c40759a3384f7e0ec108da17767241f1ca73b9b8d11444894dbdd187fd79292"
+      "size_bytes": 155633,
+      "sha256": "be8f5108aae500f7617b0b10350e0c88cd8c23fb3e130b1d7a2c9dcb967da146"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5538,8 +5538,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 24707,
-      "sha256": "92a4471576ed15a49c7ff69be4914310c1ccbcd71d6e4c419fcde60e0012b3a0"
+      "size_bytes": 169175,
+      "sha256": "d18b719a34dead7058386d29f9a7518240f7b0a157c28479ae48d51811e0efaa"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5548,8 +5548,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 24707,
-      "sha256": "92a4471576ed15a49c7ff69be4914310c1ccbcd71d6e4c419fcde60e0012b3a0"
+      "size_bytes": 169175,
+      "sha256": "d18b719a34dead7058386d29f9a7518240f7b0a157c28479ae48d51811e0efaa"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5563,8 +5563,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-36__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 36017,
-      "sha256": "7cdd3da838701a040fae7c629ad062a682685e9609214dc4467ab84b7e91ec84"
+      "size_bytes": 157075,
+      "sha256": "eee2216bac1e0a1a10bade1b66d6bc67b0a8f8d525ecf20d23ec823712eef807"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5578,8 +5578,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 25781,
-      "sha256": "e6fad487aeb33429252e2e46ac1063b211c58cefcff5b01218c6deb568a68765"
+      "size_bytes": 171781,
+      "sha256": "4891ebfc7c686121a5e06c42611fd3f34ff22dfcf38843449c37fd80de13ca63"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5588,8 +5588,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 25781,
-      "sha256": "e6fad487aeb33429252e2e46ac1063b211c58cefcff5b01218c6deb568a68765"
+      "size_bytes": 171781,
+      "sha256": "4891ebfc7c686121a5e06c42611fd3f34ff22dfcf38843449c37fd80de13ca63"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5603,8 +5603,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-48__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 35688,
-      "sha256": "3472d9476f941279ebf061938c195beb2a568d29d8a7efbb3e6e8cb2383e857a"
+      "size_bytes": 162186,
+      "sha256": "7898071b7da64d0fe8c0197b192e6bc96e7f1c2c8abdf55ef6722ad71d26c205"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5618,8 +5618,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 25133,
-      "sha256": "d0fc482347a804d30f95cb82bfc9364e344244fa637715348b4263e53c1d9928"
+      "size_bytes": 178349,
+      "sha256": "a017ba8eb2dc7cae614ab3ea918976029316e97911d43aeb09f2ba6b5cf75a42"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5628,8 +5628,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 25133,
-      "sha256": "d0fc482347a804d30f95cb82bfc9364e344244fa637715348b4263e53c1d9928"
+      "size_bytes": 178349,
+      "sha256": "a017ba8eb2dc7cae614ab3ea918976029316e97911d43aeb09f2ba6b5cf75a42"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5643,8 +5643,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09-72__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 35308,
-      "sha256": "39ce30bc853921643377d746149e2aeefe49814b1317ebdd1cbaaf3dfae31089"
+      "size_bytes": 167482,
+      "sha256": "c7f618e20e01fbcd1ef502db18b489fcf8c9d7afef2102314484a438254b3bfc"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5658,8 +5658,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 28692,
-      "sha256": "418283bfe974dee3ea1d0f2cd665b233080e4a8faee09ba99429a2b16780d39a"
+      "size_bytes": 167116,
+      "sha256": "14d74d4869c8c1bfbba8591ad033982b9343702852d10205f4d447c7e2715371"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5668,8 +5668,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 28692,
-      "sha256": "418283bfe974dee3ea1d0f2cd665b233080e4a8faee09ba99429a2b16780d39a"
+      "size_bytes": 167116,
+      "sha256": "14d74d4869c8c1bfbba8591ad033982b9343702852d10205f4d447c7e2715371"
     },
     {
       "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5683,8 +5683,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p09__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 38274,
-      "sha256": "916351dc9ad26005ef7592c1a28ed4191db307f2954ddf4325846ff1f7ec1e26"
+      "size_bytes": 154566,
+      "sha256": "67978fb3573d294e053063048b96356d8884d9b1a4deb16dc21e2c19d9c17a69"
     },
     {
       "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5698,8 +5698,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 14969,
-      "sha256": "07027fbce57046dbbc24b59a6e8403358aba62aae755b0bb3c888670138fb5f0"
+      "size_bytes": 137326,
+      "sha256": "c38032cb38e2ac8657f07dbfac7a63b9e4627d90a2cc38080f71cd7487baeaf5"
     },
     {
       "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5708,8 +5708,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 14969,
-      "sha256": "07027fbce57046dbbc24b59a6e8403358aba62aae755b0bb3c888670138fb5f0"
+      "size_bytes": 137326,
+      "sha256": "c38032cb38e2ac8657f07dbfac7a63b9e4627d90a2cc38080f71cd7487baeaf5"
     },
     {
       "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5723,8 +5723,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p10__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 20833,
-      "sha256": "6eb8ba17cbbc330b05e7aa41be6d8b44ce718b76ee06ccd9414281bd48388920"
+      "size_bytes": 147605,
+      "sha256": "bdc8bfc4a31b5c2428967da76cb7d947635a27dc4736eddf4ec700f4b75fa841"
     },
     {
       "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__checks.json",
@@ -5738,8 +5738,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22445,
-      "sha256": "577f03349aa9a6adf9603c1d2c7e6c564887ea8b84ca929896b16a0d104ea741"
+      "size_bytes": 152418,
+      "sha256": "2bd7b80383cdb064df412f0e40d30fd958450755c4946e3bdb5b18f26691216a"
     },
     {
       "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__installed.stl",
@@ -5748,8 +5748,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22445,
-      "sha256": "577f03349aa9a6adf9603c1d2c7e6c564887ea8b84ca929896b16a0d104ea741"
+      "size_bytes": 152418,
+      "sha256": "2bd7b80383cdb064df412f0e40d30fd958450755c4946e3bdb5b18f26691216a"
     },
     {
       "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print-inverted-flat-top.stl",
@@ -5763,8 +5763,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-p11__current-mounts-flat-top-v2__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 23584,
-      "sha256": "7c6400dfdd74279d2b153700f78737793bb5fa883433eb8893b8a23922921a33"
+      "size_bytes": 155953,
+      "sha256": "e707c267001b92527f176973263c92fa5d111b1c007b9b101ea76294b0cf90e9"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -5778,8 +5778,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 13350,
-      "sha256": "3b7fd70c46e6d8f7f88dd925c5ca5a4c49f194f3e23440bab7f74d5215f42bd5"
+      "size_bytes": 138021,
+      "sha256": "ff79ceb2f0be1b8c4f2aa5423438644d2942213140a38a3755590bffb5b373fa"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -5788,8 +5788,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 13350,
-      "sha256": "3b7fd70c46e6d8f7f88dd925c5ca5a4c49f194f3e23440bab7f74d5215f42bd5"
+      "size_bytes": 138021,
+      "sha256": "ff79ceb2f0be1b8c4f2aa5423438644d2942213140a38a3755590bffb5b373fa"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
@@ -5803,8 +5803,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 24825,
-      "sha256": "8b0274d1c11f3b65122d65996dc3ff6168cf54e82a48cf66789e61379980dac7"
+      "size_bytes": 138021,
+      "sha256": "ff79ceb2f0be1b8c4f2aa5423438644d2942213140a38a3755590bffb5b373fa"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -5818,8 +5818,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 13375,
-      "sha256": "51224e86b6f689097d917109f048c6697738e42d3d46c5a75aa87f23278145be"
+      "size_bytes": 139717,
+      "sha256": "2e2f113522420d29c107e4d2189e7c119b5893bbb206ddfe38239863b5884855"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -5828,8 +5828,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 13375,
-      "sha256": "51224e86b6f689097d917109f048c6697738e42d3d46c5a75aa87f23278145be"
+      "size_bytes": 139717,
+      "sha256": "2e2f113522420d29c107e4d2189e7c119b5893bbb206ddfe38239863b5884855"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
@@ -5843,8 +5843,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb02__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 22494,
-      "sha256": "712ed6d75f35bdaf28ef8a8b18e287534c7fd40c1e934d28a77e0c996b19ae45"
+      "size_bytes": 139718,
+      "sha256": "3ddbad274e3853a30a68c320cbeedb9e5133842fb3fed9ff5435698085c24cf8"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -5858,8 +5858,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 13158,
-      "sha256": "474dd186f3b48d92987967c1a9d3d1ceae5ba1b5398e105d78622c841ce87fbd"
+      "size_bytes": 140213,
+      "sha256": "1e0fe03a23dd0be239758d1afdce5f556e3fc750b2a7209b31c33b28cba636b3"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -5868,8 +5868,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 13158,
-      "sha256": "474dd186f3b48d92987967c1a9d3d1ceae5ba1b5398e105d78622c841ce87fbd"
+      "size_bytes": 140213,
+      "sha256": "1e0fe03a23dd0be239758d1afdce5f556e3fc750b2a7209b31c33b28cba636b3"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
@@ -5883,8 +5883,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb03__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 21135,
-      "sha256": "b68aae54dbf3900f3af4d4d531da47ecb61cf14764fc197d6c55415c348ae795"
+      "size_bytes": 140213,
+      "sha256": "7c62c98ea5901bdc3e0d71d5f2dd358d12489f1ab2618f7c78eb66fe0af7e10e"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -5898,8 +5898,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 14755,
-      "sha256": "6a1dc672cb8176c404b0ed50a1bd4960ba8bd2a1d2423b8da096ae9c97c85c86"
+      "size_bytes": 149721,
+      "sha256": "b19132883aace80b1b4323c38c5fa0b5e0c421e7998048fa84f5a52408680730"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -5908,8 +5908,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 14755,
-      "sha256": "6a1dc672cb8176c404b0ed50a1bd4960ba8bd2a1d2423b8da096ae9c97c85c86"
+      "size_bytes": 149721,
+      "sha256": "b19132883aace80b1b4323c38c5fa0b5e0c421e7998048fa84f5a52408680730"
     },
     {
       "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print-upright.stl",
@@ -5923,8 +5923,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-pb04__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 24939,
-      "sha256": "3911057267c51ea8404fd457d2d9276c50c6a5ff108e047bf15c5358b2323ac8"
+      "size_bytes": 149713,
+      "sha256": "ac54a975bd9ce73b44253b1035242e61bd2cce00b5be3fb895bc5154f5057d1d"
     },
     {
       "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__gallery-checks.json",
@@ -5943,13 +5943,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 29248,
-      "sha256": "73a6f194d5df7469efe0ec2eb618579f6f993e023e2b7eb840f34de375c63bb7"
+      "size_bytes": 156490,
+      "sha256": "f3104556da8ebdc28765ae87a30a633f1a536cc382dfd7d0e69b2a2fe25644bc"
     },
     {
       "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-preview.png",
-      "size_bytes": 172907,
-      "sha256": "145b51d0b4532f2b8544d25fdb08d819bb1d279a8cde72f4631923157674593e"
+      "size_bytes": 156495,
+      "sha256": "820f6ef5727a97a877cfc39558641c9bc7b5572b1e07b3d261156d6b9fcc6aef"
     },
     {
       "path": "docs/gallery/current-pegs/part-rectangular-tool-funnel__v3__upright__fit-pf02c9-hoop5__print-upright.stl",
@@ -5973,8 +5973,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 16511,
-      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+      "size_bytes": 137765,
+      "sha256": "5c37e93d1e3ba7bbf13bc2d6ac15c5aaef722dd7b2dbf0d8ed48364ca7a39619"
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -5983,8 +5983,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 16511,
-      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+      "size_bytes": 137765,
+      "sha256": "5c37e93d1e3ba7bbf13bc2d6ac15c5aaef722dd7b2dbf0d8ed48364ca7a39619"
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -5998,8 +5998,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thick__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 21092,
-      "sha256": "f2002079075abd8c91f82c22aecf77f2c9393c7774a7014f052cb92e089e6c30"
+      "size_bytes": 155794,
+      "sha256": "0f4708759819a3bbe3a7fd3b661bc1bfe77edb9a33af102cd77abd7bcf76d0bf"
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -6013,8 +6013,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 16511,
-      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+      "size_bytes": 137765,
+      "sha256": "5c37e93d1e3ba7bbf13bc2d6ac15c5aaef722dd7b2dbf0d8ed48364ca7a39619"
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -6023,8 +6023,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 16511,
-      "sha256": "a52d95e227a39ecadac99d17322d9ff86f80a7c925e0386fed6fc2f4901ac115"
+      "size_bytes": 137765,
+      "sha256": "5c37e93d1e3ba7bbf13bc2d6ac15c5aaef722dd7b2dbf0d8ed48364ca7a39619"
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6038,8 +6038,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-reel-thin__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 21092,
-      "sha256": "f2002079075abd8c91f82c22aecf77f2c9393c7774a7014f052cb92e089e6c30"
+      "size_bytes": 155794,
+      "sha256": "0f4708759819a3bbe3a7fd3b661bc1bfe77edb9a33af102cd77abd7bcf76d0bf"
     },
     {
       "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -6053,8 +6053,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 22278,
-      "sha256": "a245529a568719c922b8e2f8c18c55e02d326c5f7079829ebd2501b1be8c7f3d"
+      "size_bytes": 139238,
+      "sha256": "1f7c1bb6fe5ce8abbc7086341705ec40e04b2b717b1f6ec6ebdc932a50b99f11"
     },
     {
       "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -6063,8 +6063,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 22278,
-      "sha256": "a245529a568719c922b8e2f8c18c55e02d326c5f7079829ebd2501b1be8c7f3d"
+      "size_bytes": 139238,
+      "sha256": "1f7c1bb6fe5ce8abbc7086341705ec40e04b2b717b1f6ec6ebdc932a50b99f11"
     },
     {
       "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6078,8 +6078,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-snips-pliers__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 28722,
-      "sha256": "939cdc3b9b13a8cbca2fc076ca4a0e1bbc38758948167e4347047feceb90ea29"
+      "size_bytes": 140608,
+      "sha256": "b51157e821c198e3f9ae587e07750a443d5e611f75ac292aef915543bb5d8206"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
@@ -6098,13 +6098,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 86661,
-      "sha256": "6c6dca5fe6e96943347cd3b5fa5711c7e085b7c172f0fa6206c8c5369feb4c8b"
+      "size_bytes": 159013,
+      "sha256": "8bcdd8cdd4eaf027f0da83dd59055c0cb0f1433c9e7e83f9182067714571b15c"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-preview.png",
-      "size_bytes": 78003,
-      "sha256": "93bf45c9e1713ec9eb2f3b1852be7652ad2bdf49263c72097085fc602f579d0b"
+      "size_bytes": 176964,
+      "sha256": "dbcd2f6c5626e0ef0532f931a2176d21e296090e0f2552c0d09fc6459fe535e4"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-braid__v12__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6133,13 +6133,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__preview.png",
-      "size_bytes": 105688,
-      "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd"
+      "size_bytes": 148702,
+      "sha256": "f7245a4b4ac4e930e6ddc83c722fec46a8ad181f3c085424479dc8f8f282c8a9"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__print-preview.png",
-      "size_bytes": 105688,
-      "sha256": "150f36716d2a39f9a78b81cd0911add8bf825549d5f79fc6a38a953dd5183cbd"
+      "size_bytes": 147322,
+      "sha256": "f32ba8c571069309cfd651f23b48c92db35082e57cc0ef68eb4511124e218d4e"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-drip-tray-liner__v12__vase-filled__print-vase.stl",
@@ -6168,13 +6168,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 79256,
-      "sha256": "7f0869aebd288e73ebd13179517dfe7e99390271d95532388e86b142c8b17bf2"
+      "size_bytes": 152784,
+      "sha256": "0516f09b19b71a7f498cc22ce6b213ea89ff10d88538a51693fe56725feb0100"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-preview.png",
-      "size_bytes": 54245,
-      "sha256": "2dcda723a66023d6a5ad8e8efb6e6c5b3d718795062e6b3fa56e7d612559a72d"
+      "size_bytes": 152784,
+      "sha256": "0516f09b19b71a7f498cc22ce6b213ea89ff10d88538a51693fe56725feb0100"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-drip-tray__v12__upright__fit-pf02c9-hoop5__print-upright.stl",
@@ -6203,13 +6203,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 40458,
-      "sha256": "f7cf6263387f392f773c07ef5c8ad9d95359b9941c3c5a99e96e98b3f257d41f"
+      "size_bytes": 165828,
+      "sha256": "750dd38ef0c1cb255a817156267bf5067f845be676aba3436afd58eda00cf4a9"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-preview.png",
-      "size_bytes": 53291,
-      "sha256": "a53f01b27da053b9630d38ccf808e53451f5c926c633d19e410125b4029eea5e"
+      "size_bytes": 173726,
+      "sha256": "6ad2e28140e4a5575f14e32ac63f12930e73d7364c6a4f97ad93d94fdc4cf20a"
     },
     {
       "path": "docs/gallery/current-pegs/part-solder-spool-storage__v14__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6233,8 +6233,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 8715,
-      "sha256": "c37709375403690db5e41f6dde3b936d30ae34139754293c0143b075564390bf"
+      "size_bytes": 143231,
+      "sha256": "a903039fb945f9b3a63991e1345dff36c88e31a7b20d0fb22972912b37a4660a"
     },
     {
       "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -6243,8 +6243,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 8715,
-      "sha256": "c37709375403690db5e41f6dde3b936d30ae34139754293c0143b075564390bf"
+      "size_bytes": 143231,
+      "sha256": "a903039fb945f9b3a63991e1345dff36c88e31a7b20d0fb22972912b37a4660a"
     },
     {
       "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6258,8 +6258,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-swd01__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 21381,
-      "sha256": "7f4d8846e4cbf4a657bd998794e24237be8c3c20b853457ec144928a5fde9285"
+      "size_bytes": 151450,
+      "sha256": "589cf6a6d4d90e09583bb58b016ed930adb27cccc4510b8523a7b692fb8932ad"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -6273,8 +6273,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 18756,
-      "sha256": "1acf0e57a39b6e218df7bffe03bd91a15d01483b0357f277382fbeeea9ea1ce1"
+      "size_bytes": 174499,
+      "sha256": "aeef8c119395e65f45aff98a08cd02f8cb4f636544f2724612a6df06c7128ee6"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -6283,8 +6283,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 18756,
-      "sha256": "1acf0e57a39b6e218df7bffe03bd91a15d01483b0357f277382fbeeea9ea1ce1"
+      "size_bytes": 174499,
+      "sha256": "aeef8c119395e65f45aff98a08cd02f8cb4f636544f2724612a6df06c7128ee6"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6298,8 +6298,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v10__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 27439,
-      "sha256": "bd9c6a034631894759d18733060240489fc88d127093b49920f4d0dbb139e834"
+      "size_bytes": 154056,
+      "sha256": "871c702bb63631674d9d336ee8dff002d2357a2ad31f04f434b960732d8b1c2e"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -6313,8 +6313,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.png",
-      "size_bytes": 16297,
-      "sha256": "e8801b96c98fa0a134b4ff5f421e8ba13c0289df0f49b6cc6506453017f374a7"
+      "size_bytes": 168829,
+      "sha256": "71e6830d38ce31bc20882d4991973d0b3e97b8f315d3296f89a2e3d9570750f1"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__installed.stl",
@@ -6323,8 +6323,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 16297,
-      "sha256": "e8801b96c98fa0a134b4ff5f421e8ba13c0289df0f49b6cc6506453017f374a7"
+      "size_bytes": 168829,
+      "sha256": "71e6830d38ce31bc20882d4991973d0b3e97b8f315d3296f89a2e3d9570750f1"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -6338,8 +6338,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers-v8__current-mounts-v1__fit-pf02c9-hoop5__print.png",
-      "size_bytes": 18014,
-      "sha256": "79efddaf47136d19a8870d25d0523598ed5d966c19bd653c0891f72bc2377a25"
+      "size_bytes": 159528,
+      "sha256": "cd97c0e103136c0323e54d421dd4663fb66ca9d727c1a9d9dc29455551f4dc3e"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__gallery-checks.json",
@@ -6358,13 +6358,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__preview.png",
-      "size_bytes": 49263,
-      "sha256": "904a52bf076da45c0df419cd52516eae5f60115ca31c39f30bd591c2b506258a"
+      "size_bytes": 177125,
+      "sha256": "0c3f786caac94bfba582259b1c794c354377d89efecd07d810e5453e2ecb8a29"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-preview.png",
-      "size_bytes": 45245,
-      "sha256": "f145e1ca65145bb2ce232933a336e4f2568944f274a6b70b1c91a3842895d123"
+      "size_bytes": 165019,
+      "sha256": "dfc990954751b5a7534dfda72cf26e6328a6aaaeadfbfefc90096626355bc9b1"
     },
     {
       "path": "docs/gallery/current-pegs/part-tweezers__inward20-v5-A4p0-guideR6-p28__right-cheek__fit-pf02c9-hoop5__print-right-cheek.stl",
@@ -9418,8 +9418,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers-b/index.html",
-      "size_bytes": 13999,
-      "sha256": "98bc08cb6de77514cf12d6b7f796d63b79ad34f55873da5f8d8ae604a399381c"
+      "size_bytes": 14054,
+      "sha256": "2ccfc1170d05887da96d3c10df15f28bbbf923f11ee277e6fd40e9af86e8d9d3"
     },
     {
       "path": "docs/gallery/screwdrivers-b/part-screwdriver-family__v3__flat-b-backward-rock.json",
@@ -10198,8 +10198,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers/index.html",
-      "size_bytes": 14705,
-      "sha256": "1e714e641f7b7bc033f640a42287e6a6838451ac11978ff0ebcdd3ac1b702828"
+      "size_bytes": 14760,
+      "sha256": "72ac06707210fd90bb738c84361c11f71004dbbec028285acf4effd6ed264c0e"
     },
     {
       "path": "docs/gallery/screwdrivers/part-screwdriver-family__v2__access-and-print-audit.json",
@@ -10243,8 +10243,8 @@
     },
     {
       "path": "docs/gallery/shaft-holders/index.html",
-      "size_bytes": 19077,
-      "sha256": "b79dc2d2dabf95bbe2ea16bd80daa5e62bb7f566f05e2bcf71b230167673a2a1"
+      "size_bytes": 19132,
+      "sha256": "aa0e1c5f66643de8d565947b18ab855319b8157035c01a17cecbfc8e7eb1d7e4"
     },
     {
       "path": "docs/gallery/shaft-holders/magnetic-shaft-holders__v1__README.md",
@@ -10468,8 +10468,8 @@
     },
     {
       "path": "docs/gallery/shaft-sampler/index.html",
-      "size_bytes": 9699,
-      "sha256": "94b908d91b0cf5f8e71bae287eee29f69e941ddfb61722baf755e2bb4cd8a5e6"
+      "size_bytes": 9697,
+      "sha256": "b11306aad3189f413426b086be44ebc071cfe4a604120c60e9b2437f5e61ebbc"
     },
     {
       "path": "docs/gallery/shaft-sampler/part-ms01-shaft-fit-sampler-20x10x3__v1__A-H-seats.png",
@@ -10668,8 +10668,8 @@
     },
     {
       "path": "docs/gallery/shaft-sampler/recoverable/index.html",
-      "size_bytes": 11090,
-      "sha256": "a7c2f07876349178407f60e559183809f569c7f09906daf9187ca41ee910df2a"
+      "size_bytes": 11137,
+      "sha256": "b768ec3307daf76dc8eafdc754da36ac93d2d5763f9a87f77e75ecd42db2a35c"
     },
     {
       "path": "docs/gallery/shaft-sampler/recoverable/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H-seats.png",
@@ -10898,8 +10898,8 @@
     },
     {
       "path": "docs/gallery/solder-modules/index.html",
-      "size_bytes": 15705,
-      "sha256": "c966f11d51c0825f65fecb293241108e2016452938025f0781397b838085cc25"
+      "size_bytes": 15760,
+      "sha256": "269a2d0da9870576ac58abd65f5e75644bd1d6a29b5ce0e770928fb0080e98d5"
     },
     {
       "path": "docs/gallery/solder-modules/loaded.glb",
@@ -11113,8 +11113,8 @@
     },
     {
       "path": "docs/gallery/tweezers/index.html",
-      "size_bytes": 8913,
-      "sha256": "de2c3f7e377e1c0892f3bd982b6f8988338d367c748ad6c6c8ed9ddc6889b290"
+      "size_bytes": 8968,
+      "sha256": "c91f6f063d0c358af42982ee569408a9feb04544521c9f77bde6abe334de9f27"
     },
     {
       "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__README.txt",
@@ -11383,18 +11383,18 @@
     },
     {
       "path": "docs/gallery/tweezers/v10.html",
-      "size_bytes": 7602,
-      "sha256": "b97fc795bcafc7e2a45e86dc61b36fde967fad5ea1dc8c3049d33fc476baad03"
+      "size_bytes": 7657,
+      "sha256": "c7e230440c6040cf85973d98a76f2fa2ce18eb82f587dd47d93be74f47fecad5"
     },
     {
       "path": "docs/gallery/tweezers/v7.html",
-      "size_bytes": 4598,
-      "sha256": "43aac962e22f5944dfb762a991e2ccd9ab5a0527d82ea76d051eb0469d8d056a"
+      "size_bytes": 4653,
+      "sha256": "c60ae1dc040ada367273ddd99ef12d106beb8363d56892e1b980cfd685bebe7a"
     },
     {
       "path": "docs/gallery/tweezers/v9.html",
-      "size_bytes": 7666,
-      "sha256": "7179b1c42b7ddf9b4427a3dd2cc07735694b4e4064b691db0547d9a0c630c6d2"
+      "size_bytes": 7721,
+      "sha256": "41c347aa1fa4197830f1e53f848d1daf5160b701f86f7ffc8d9a4e9cfe73dca4"
     },
     {
       "path": "docs/gallery/tweezers/vendor/model-viewer-LICENSE.txt",
@@ -11533,8 +11533,8 @@
     },
     {
       "path": "docs/index.html",
-      "size_bytes": 10148,
-      "sha256": "db0c15d578aba142dd7b9562e7b0aa8cc1b2a169308a3b98f81ed29cadf728f5"
+      "size_bytes": 10197,
+      "sha256": "6cee900229943ea79788859deb3063c0948fe7e4a207c6f292c2f7be90fc559c"
     },
     {
       "path": "docs/pegs/bearing-locator.glb",
@@ -11590,6 +11590,11 @@
       "path": "docs/site.js",
       "size_bytes": 4503,
       "sha256": "dbbdf0818802d28e0a0a3589ae66e06d844b3a7285f7d96ae9c114ed4632b8c6"
+    },
+    {
+      "path": "docs/viewer/workbench.js",
+      "size_bytes": 2925,
+      "sha256": "9b445ad8583e2c54827da9ab43756e3359a505b40a57f4ac605811437cbefa26"
     },
     {
       "path": "export_host_envelope.py",
@@ -11653,8 +11658,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 4202,
-      "sha256": "b9df0c4bac5c94b0652519b889f42fc74cbe32c1fbf0c6b87c65cb85a230d1e2"
+      "size_bytes": 5022,
+      "sha256": "de6db6a6d10565bba17bd462547eed6e4d3252b3c348d14f0bf9f7654f606a8c"
     },
     {
       "path": "publication/add_new_designs.py",
@@ -11664,7 +11669,7 @@
     {
       "path": "publication/bespoke-tools-v1-additions.json",
       "size_bytes": 3513,
-      "sha256": "72b3559825061898ec1d33fd489f030f121ee5073fd2833453060d7517153540"
+      "sha256": "3a573ec5b94c964dbf8307e99bf17604d103430cadec94fdcf8040c9cf88514d"
     },
     {
       "path": "publication/browser-verification.json",
@@ -11673,8 +11678,8 @@
     },
     {
       "path": "publication/build_bespoke_review.py",
-      "size_bytes": 6991,
-      "sha256": "24e5cd525bb4ff3e27973a7ee8470458cb0848169728ae8d2a9d5e668e5e5d18"
+      "size_bytes": 7046,
+      "sha256": "181ac560ca2a194fe9e143fe6c7c229d22b79c846ce11e8794809082943fceaf"
     },
     {
       "path": "publication/build_current_pegs.py",
@@ -11688,13 +11693,13 @@
     },
     {
       "path": "publication/build_tweezers_v10.py",
-      "size_bytes": 14574,
-      "sha256": "f15417a30dcdf8160c61fc08769771652f33a83afb3e6349cdaaf5e35322e570"
+      "size_bytes": 14629,
+      "sha256": "a2c6cb8177ee2361613abd47d4c0bf60f8a0f282a70824cd8bb3d1cb17643da1"
     },
     {
       "path": "publication/current-pegs-v1-additions.json",
-      "size_bytes": 89117,
-      "sha256": "1b65eeffe64a09cd576f26b372548d4c5e3840191d1d1372d52cdb3521b11073"
+      "size_bytes": 89242,
+      "sha256": "7870ea138afce3123ca147deae94388ecd525ccce4cf08fad89c66cd4076b4c9"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -11782,6 +11787,11 @@
       "sha256": "cf902e82e6aca97e93464c1e9690168ae9dd8e73ed4157fe269ebcda0d1bc8c6"
     },
     {
+      "path": "publication/render_workbench_previews.cjs",
+      "size_bytes": 3012,
+      "sha256": "0e6167307b8e658b538ebff75a6678f9e4e8f30b5ef4657ff63da093793baa0d"
+    },
+    {
       "path": "publication/swd01-workshop-v1-additions.json",
       "size_bytes": 761,
       "sha256": "a7c6aa89488cc1264bc3a628f52e621132cc0e8eaf8e54fde513df36153c8f9a"
@@ -11814,7 +11824,7 @@
     {
       "path": "publication/tweezers-v9-additions.json",
       "size_bytes": 2066,
-      "sha256": "b13a81aadd90e03b63c26d83c485ecf30ebabbc330da1be4061a14e962f864b2"
+      "sha256": "b67b9086f36688840869db67e6a6a38c46504803cf5250e0c1987d166e094796"
     },
     {
       "path": "render_bearing.py",

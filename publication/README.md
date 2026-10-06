@@ -25,3 +25,9 @@ Run `python3 tools/check_gallery.py`, check the actual mobile/desktop viewer and
 The front page features six current-fit connector/pair variants with +20% diameter, 2 mm holder-side joining nubs. `bench/source/peg_connectors_v1/build.py` constructs native solids and datum planes from the unchanged fit snapshot. Native STEP/BREP/IGES round-trips, unchanged board-side geometry and a sample host union are checked during generation. IGES topology is sewn for its solid comparison. Meshes are tessellated directly from the native solids without mesh repair.
 
 `build_peg_downloads.py RELEASE_DIR` packages STEP, FCStd, BREP, IGES, STL, OBJ and geometry-only 3MF, plus all-format/source bundles. Native exports remain GitHub Release assets; `docs/pegs` holds the catalog, display GLBs and integration notes. `peg-connectors-v1-additions.json` records release/local receipts. Run `tools/check_peg_downloads.py` (also included in the gallery check) and review the actual front-page viewer before publishing. The original nominal study stays at `/peg/anchor-study/`; its CAD and certificates are unchanged.
+
+## Workbench previews
+
+`docs/viewer/workbench.js` applies four-band cel shading, a bright workbench background and soft ground shadows to the interactive viewers. The adapter uses the pinned model-viewer build's `correlatedObjects` material set and scene render request; verify these hooks when upgrading that vendor bundle. CAD, GLB geometry and downloadable materials retain their original bytes.
+
+`render_workbench_previews.cjs` regenerates the current collection's installed, print and thumbnail PNGs from the same shader. Serve `docs`, set `PEG_PREVIEW_URL` to that server, and run with Playwright available via `PLAYWRIGHT_MODULE` and Chromium via `CHROMIUM_PATH`. Refresh the current-pegs receipts after rendering. Check viewer material application and browser/WebGL errors across model swaps before publishing.
