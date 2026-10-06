@@ -4,7 +4,7 @@
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
   "file_count": 2498,
-  "total_size_bytes": 886715495,
+  "total_size_bytes": 886715514,
   "files": [
     {
       "path": ".gitattributes",
@@ -4853,8 +4853,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.js",
-      "size_bytes": 6964,
-      "sha256": "0347db1d97aac65f734957e90b3c995cfba66656df8023150a537be89c3ef543"
+      "size_bytes": 6983,
+      "sha256": "694ed7187db61a26a989aaeb9a98a6f33d94b5e8e414a8d91189e6c59fcda78d"
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
@@ -11964,7 +11964,7 @@
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 90421,
-      "sha256": "5fd927177e817797927853ca94e1000fcb31b0686750398244df4b321e776de9"
+      "sha256": "943236da945e81faf54ffd4efa8b1860257a53dc9425405abd7983f757f5fcc1"
     },
     {
       "path": "publication/cutover-verification.json",

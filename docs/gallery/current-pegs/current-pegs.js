@@ -40,7 +40,7 @@
       b.addEventListener('click',()=>{history.replaceState(null,'','#'+encodeURIComponent(r.id));select(r,true);});return b;}));
   }
   try{
-    const response=await fetch('catalog.json');if(!response.ok)throw Error('Catalog HTTP '+response.status);catalog=await response.json();
+    const response=await fetch('catalog.json',{cache:'no-cache'});if(!response.ok)throw Error('Catalog HTTP '+response.status);catalog=await response.json();
     const family=new URLSearchParams(location.search).get('family');if(families[family]||['expansion','screwdriver','new','repro','pegstr-all'].includes(family))$('family').value=family;
     const id=decodeURIComponent(location.hash.slice(1));const initial=catalog.parts.find(r=>r.id===id)||catalog.parts.find(r=>belongs(r,$('family').value));
     render();await customElements.whenDefined('model-viewer');if(initial)select(initial,Boolean(id));$('build').textContent=catalog.build_note;
