@@ -1,0 +1,469 @@
+{
+  "CAD_and_pickup": {
+    "id": "TM01",
+    "name": "Tape-measure dock",
+    "cells": 4,
+    "pose": "upright",
+    "pickup_lift_mm": 10,
+    "pickup_forward_mm": 65,
+    "load_point": [
+      0,
+      55,
+      -55
+    ],
+    "tool_spec": {
+      "case_width_max_mm": 92,
+      "depth_including_clip_max_mm": 48,
+      "reference": "Conservative case-plus-clip envelope; product listings often describe retail packaging, so no exact brand fit is asserted",
+      "pocket_width_mm": 94,
+      "pocket_depth_mm": 50.45
+    },
+    "description": "A shallow open dock for a tape measure up to 92 mm across and 48 mm deep including its clip. Lift 10 mm and pull forward.",
+    "prefix": "part-tm01__v1__upright__fit-pf02c9-hoop5",
+    "mount": {
+      "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "columns_x_mm": [
+        -38.099999999999994,
+        38.099999999999994
+      ],
+      "plate": {
+        "x0": -49.8,
+        "x1": 49.8,
+        "y0": 0.15,
+        "y1": 5.55,
+        "z0": -57,
+        "z1": 5.12
+      },
+      "hoop": {
+        "concept": "HOOP",
+        "arm_mm": 0.8,
+        "tip_half": 2.0,
+        "even_catch_wall": true,
+        "ramp_wall": true,
+        "nose_mm": 0.9,
+        "root_gusset_mm": 0.4,
+        "body_ribs_mm": 0.3,
+        "orientation": "hoop band horizontal, flexes in X (the print layers)",
+        "detail": {
+          "width_across_barbs_mm": 7.35,
+          "catch_angle_deg": 55,
+          "catch_length_mm": 0.6476919728439815,
+          "ramp_angle_deg": 15.592255624701878,
+          "crest_y_mm": [
+            -4.487691972843981,
+            -4.787691972843981
+          ],
+          "catch_bearing_per_side_mm": 0.5,
+          "nose_mm": 0.9,
+          "ramp_wall_mm": 0.8,
+          "min_wall_mm": 0.8,
+          "root_gusset_mm": 0.4,
+          "root_gusset_length_mm": 1.5,
+          "arm_mm": 0.8,
+          "closed_nose_mm": 0.9,
+          "band_half_height_mm": 1.4,
+          "root_clip_radius_mm": 2.95,
+          "cheek_offset_down_mm": 0.0
+        }
+      },
+      "rows": {
+        "hooks": [
+          0
+        ],
+        "bearing": [],
+        "hoop": [
+          2
+        ],
+        "empty": [
+          1
+        ]
+      },
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+    },
+    "volume_mm3": 58998.469500837404,
+    "print_bounds_mm": [
+      99.60000020000035,
+      70.79000020000002,
+      62.4493121871274
+    ],
+    "pose_matrix": [
+      1.0,
+      0.0,
+      0.0,
+      49.8,
+      0.0,
+      1.0,
+      0.0,
+      10.79,
+      0.0,
+      0.0,
+      1.0,
+      57.0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "checks": {
+      "native_valid": true,
+      "solids": 1,
+      "unchanged_board_side_delta_mm3": 0.0,
+      "tool_routes": [
+        {
+          "tool_index": 0,
+          "seated_clearance_mm": 0.05999999999999517,
+          "sampled_poses": 41,
+          "max_intersection_mm3": 0,
+          "lift_mm": 10,
+          "forward_mm": 65
+        }
+      ],
+      "tool_neighbor_clearances_mm": [],
+      "limits": "Sampled rigid tool-envelope pickup checks. Physical fit, support removal, stiffness, loads, and complete holder installation require testing. Tool shape assumptions are in reference metadata."
+    },
+    "source_sha256": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+    "FreeCAD_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ]
+  },
+  "print_geometry": {
+    "watertight": true,
+    "components": 1,
+    "positive_volume": true,
+    "overhangs": {
+      "features": [],
+      "peg_area_mm2": 130.5,
+      "other_area_mm2": 0.0,
+      "passed": true
+    },
+    "islands": {
+      "points": [],
+      "passed": true
+    },
+    "bed_face_mm2": 5961.060041656492,
+    "bounds_mm": [
+      99.5999984741211,
+      70.79000091552734,
+      62.44499969482422
+    ],
+    "inputs": {
+      "installed_stl": "18bc6717c4285159b5a21d95b8748110a3123c8ffad5b660a5ff5204c55d3d6e",
+      "print_stl": "ac7533a5aa41baeb996a211ae39cf8c323744b5567494c03067bc662c318833c"
+    },
+    "passed": true
+  },
+  "stiffness": {
+    "name": "part-tm01__v1__upright__fit-pf02c9-hoop5",
+    "material": {
+      "E_MPa": 1800.0,
+      "nu": 0.35
+    },
+    "h_mm": 2.5,
+    "cases": [
+      {
+        "support": "pegs",
+        "nodes": 52004,
+        "elements": 27291,
+        "fixed_nodes": 4466,
+        "loads": [
+          {
+            "id": "sideways",
+            "force_N": [
+              5,
+              0,
+              0
+            ],
+            "point": [
+              0,
+              55,
+              -55
+            ],
+            "what": "",
+            "deflection_at_load_mm": 0.0034,
+            "stiffness_N_per_mm": 1474.4,
+            "max_deflection_mm": 0.0044,
+            "max_at": [
+              49.8,
+              60.0,
+              -44.0
+            ]
+          },
+          {
+            "id": "down",
+            "force_N": [
+              0,
+              0,
+              -5
+            ],
+            "point": [
+              0,
+              55,
+              -55
+            ],
+            "what": "",
+            "deflection_at_load_mm": 0.0603,
+            "stiffness_N_per_mm": 82.9,
+            "max_deflection_mm": 0.0655,
+            "max_at": [
+              0.0,
+              60.0,
+              -45.0
+            ]
+          }
+        ]
+      }
+    ],
+    "passed": true,
+    "limits": "Linear isotropic solid ASA E=1800 MPa. Printed infill, layer bonds, board compliance, strength and fatigue require physical checks.",
+    "inputs": {
+      "step": "be4e062ad8bd5e09cde5044b9d25938cfabb8251a628d24c89fac6e69c83944d",
+      "spec": "e3ace87167794ab4c62d6f63cb6862e3b2914c5797671e438d41ba0919e8aeae",
+      "solver_script": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1"
+    }
+  },
+  "toolpaths": {
+    "id": "TM01",
+    "gcode_sha256": "d3537428283b6e6ba9199acb75210fe7767d44da1d4d9867e696b803f552a5eb",
+    "input_stl_sha256": "ac7533a5aa41baeb996a211ae39cf8c323744b5567494c03067bc662c318833c",
+    "time": "1h 53m 16s",
+    "density_g_cm3": 1.02,
+    "extrusion_grams": 36.39,
+    "features": {
+      "Brim": {
+        "extruded_filament_mm": 108.97351000000009,
+        "minimum": [
+          -54.91485056293944,
+          -6.953657542236326,
+          -56.80108
+        ],
+        "maximum": [
+          54.914849037060534,
+          63.12486385776369,
+          -56.80108
+        ],
+        "moves": 564,
+        "body_side_filament_mm": 81.32345,
+        "grams": 0.267,
+        "body_side_grams": 0.1995
+      },
+      "Support": {
+        "extruded_filament_mm": 828.663729999995,
+        "minimum": [
+          -46.79448518506807,
+          -24.135048550047035,
+          -56.80108
+        ],
+        "maximum": [
+          46.18112512265796,
+          -2.244161305999061,
+          1.0846399999999932
+        ],
+        "moves": 9257,
+        "body_side_filament_mm": 0,
+        "grams": 2.033,
+        "body_side_grams": 0.0
+      },
+      "Inner wall": {
+        "extruded_filament_mm": 3176.9377999999997,
+        "minimum": [
+          -49.17998696293945,
+          -11.037152282938322,
+          -56.80108
+        ],
+        "maximum": [
+          49.17998543706055,
+          57.39099485776368,
+          5.261959999999995
+        ],
+        "moves": 7989,
+        "body_side_filament_mm": 2310.7142199999807,
+        "grams": 7.794,
+        "body_side_grams": 5.6691
+      },
+      "Outer wall": {
+        "extruded_filament_mm": 3027.195429999937,
+        "minimum": [
+          -49.59075676293945,
+          -12.554250142236326,
+          -56.80108
+        ],
+        "maximum": [
+          49.59075523706056,
+          57.80176465776369,
+          5.460879999999996
+        ],
+        "moves": 10007,
+        "body_side_filament_mm": 2170.666280000048,
+        "grams": 7.427,
+        "body_side_grams": 5.3255
+      },
+      "Bottom surface": {
+        "extruded_filament_mm": 441.6627399999997,
+        "minimum": [
+          -48.79010376293946,
+          -0.6240231422363216,
+          -56.80108
+        ],
+        "maximum": [
+          48.79010223706055,
+          56.79622405776369,
+          -56.80108
+        ],
+        "moves": 477,
+        "body_side_filament_mm": 439.87776999999977,
+        "grams": 1.084,
+        "body_side_grams": 1.0792
+      },
+      "Internal solid infill": {
+        "extruded_filament_mm": 2328.649729999949,
+        "minimum": [
+          -49.01985636293945,
+          -10.64362354223632,
+          -56.60216
+        ],
+        "maximum": [
+          49.01985483706055,
+          57.229869657763665,
+          5.261959999999995
+        ],
+        "moves": 7412,
+        "body_side_filament_mm": 2269.6106799999056,
+        "grams": 5.713,
+        "body_side_grams": 5.5682
+      },
+      "Sparse infill": {
+        "extruded_filament_mm": 3797.9886800006884,
+        "minimum": [
+          -48.83638794591069,
+          -9.750472742236322,
+          -56.20432
+        ],
+        "maximum": [
+          48.837674471422844,
+          57.04686325776367,
+          4.068439999999995
+        ],
+        "moves": 54949,
+        "body_side_filament_mm": 3146.9795900005797,
+        "grams": 9.318,
+        "body_side_grams": 7.7208
+      },
+      "Internal Bridge": {
+        "extruded_filament_mm": 658.9111200000186,
+        "minimum": [
+          -48.813974162939445,
+          -10.16639693510889,
+          -54.61296
+        ],
+        "maximum": [
+          49.015876437060555,
+          57.02498205776367,
+          4.2673599999999965
+        ],
+        "moves": 1151,
+        "body_side_filament_mm": 650.7598300000142,
+        "grams": 1.617,
+        "body_side_grams": 1.5966
+      },
+      "Top surface": {
+        "extruded_filament_mm": 450.8229000000041,
+        "minimum": [
+          -49.48632376293945,
+          -9.404351942236325,
+          -53.81728
+        ],
+        "maximum": [
+          49.486322237060534,
+          57.69733165776366,
+          5.460879999999996
+        ],
+        "moves": 801,
+        "body_side_filament_mm": 449.8008800000041,
+        "grams": 1.106,
+        "body_side_grams": 1.1035
+      },
+      "Overhang wall": {
+        "extruded_filament_mm": 3.7250400000000004,
+        "minimum": [
+          -41.55737256293945,
+          -12.554250142236326,
+          -53.61836
+        ],
+        "maximum": [
+          41.557371037060534,
+          -2.038344342236318,
+          -2.6948399999999992
+        ],
+        "moves": 143,
+        "body_side_filament_mm": 0,
+        "grams": 0.009,
+        "body_side_grams": 0.0
+      },
+      "Support interface": {
+        "extruded_filament_mm": 9.665309999999995,
+        "minimum": [
+          -41.587210562939454,
+          -13.464309142236317,
+          -52.62376
+        ],
+        "maximum": [
+          41.58764581823502,
+          -2.26996455878103,
+          -3.2916000000000025
+        ],
+        "moves": 366,
+        "body_side_filament_mm": 0,
+        "grams": 0.024,
+        "body_side_grams": 0.0
+      },
+      "Bridge": {
+        "extruded_filament_mm": 0.61152,
+        "minimum": [
+          -0.9259733629394518,
+          -0.6468989422363176,
+          -5.877560000000003
+        ],
+        "maximum": [
+          1.085107837060555,
+          2.549745457763681,
+          -5.877560000000003
+        ],
+        "moves": 19,
+        "body_side_filament_mm": 0.4331899999999999,
+        "grams": 0.002,
+        "body_side_grams": 0.0011
+      }
+    },
+    "limits": "Feature classification and deposited centerline bounds, with commanded arc sweeps sampled at <=0.2 mm where below the 2048-point cap. Supports may flare at the bed; support contact and removal need visual review."
+  },
+  "installation_screen": {
+    "pass": true,
+    "minimum_front_board_y_mm": 0.0,
+    "poses": 1790,
+    "max_point_step_mm": 0.05,
+    "mesh_deflection_mm": 0.005,
+    "worst": {
+      "point_yz": [
+        0.15,
+        5.12
+      ],
+      "translation_y": -0.15,
+      "angle_deg": 0.0
+    },
+    "scope": "Front material vs board plane only; sampled nominal reference route, not certification of changed interference pegs or physical installation.",
+    "input_sha256": "be4e062ad8bd5e09cde5044b9d25938cfabb8251a628d24c89fac6e69c83944d",
+    "checker_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e"
+  },
+  "physical_tests": "Pending"
+}

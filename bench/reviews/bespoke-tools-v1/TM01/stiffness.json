@@ -1,0 +1,69 @@
+{
+  "name": "part-tm01__v1__upright__fit-pf02c9-hoop5",
+  "material": {
+    "E_MPa": 1800.0,
+    "nu": 0.35
+  },
+  "h_mm": 2.5,
+  "cases": [
+    {
+      "support": "pegs",
+      "nodes": 52004,
+      "elements": 27291,
+      "fixed_nodes": 4466,
+      "loads": [
+        {
+          "id": "sideways",
+          "force_N": [
+            5,
+            0,
+            0
+          ],
+          "point": [
+            0,
+            55,
+            -55
+          ],
+          "what": "",
+          "deflection_at_load_mm": 0.0034,
+          "stiffness_N_per_mm": 1474.4,
+          "max_deflection_mm": 0.0044,
+          "max_at": [
+            49.8,
+            60.0,
+            -44.0
+          ]
+        },
+        {
+          "id": "down",
+          "force_N": [
+            0,
+            0,
+            -5
+          ],
+          "point": [
+            0,
+            55,
+            -55
+          ],
+          "what": "",
+          "deflection_at_load_mm": 0.0603,
+          "stiffness_N_per_mm": 82.9,
+          "max_deflection_mm": 0.0655,
+          "max_at": [
+            0.0,
+            60.0,
+            -45.0
+          ]
+        }
+      ]
+    }
+  ],
+  "passed": true,
+  "limits": "Linear isotropic solid ASA E=1800 MPa. Printed infill, layer bonds, board compliance, strength and fatigue require physical checks.",
+  "inputs": {
+    "step": "be4e062ad8bd5e09cde5044b9d25938cfabb8251a628d24c89fac6e69c83944d",
+    "spec": "e3ace87167794ab4c62d6f63cb6862e3b2914c5797671e438d41ba0919e8aeae",
+    "solver_script": "5c2f08b389a0858e01395b01354c35fa184c2258263639a49d4f120d41dc77f1"
+  }
+}

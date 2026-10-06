@@ -1,0 +1,37 @@
+{
+  "holder_step_sha256": "bc0f31ee305eabf0e8923b14c63d6ad057e77c4bceffd30fbc2f3ba1c7b355cd",
+  "references": [
+    {
+      "af_mm": 2,
+      "source_sha256": "d4ab3585900eb79c6d99d79c26df95f5b66060e4734a8a66c70e83098c0dc1f4",
+      "valid": true,
+      "solids": 1,
+      "seated_clearance_mm": 0.060000000000002274,
+      "max_intersection_mm3": 0.0,
+      "poses": 89,
+      "passed": true
+    },
+    {
+      "af_mm": 3,
+      "source_sha256": "6684c87680a8e5e9c0460bccaa06fc467d1d95633abcf6f951b6461f2c7c1cb5",
+      "valid": true,
+      "solids": 1,
+      "seated_clearance_mm": 0.06000000000010175,
+      "max_intersection_mm3": 0.0,
+      "poses": 89,
+      "passed": true
+    },
+    {
+      "af_mm": 4,
+      "source_sha256": "8859163ed2519b13bac53a96dc5ef94850a91767017ee52bb25be07a1e320777",
+      "valid": true,
+      "solids": 1,
+      "seated_clearance_mm": 0.0600000000005636,
+      "max_intersection_mm3": 0.0,
+      "poses": 89,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": "Nominal rigid CAD clearance. The models are unmeasured generic short keys; physical fit and handling remain pending."
+}

@@ -1,0 +1,177 @@
+{
+  "id": "CL01",
+  "name": "Coiled test-lead hanger",
+  "cells": 2,
+  "pose": "right-cheek",
+  "pickup_lift_mm": 13,
+  "pickup_forward_mm": 65,
+  "load_point": [
+    0,
+    42,
+    -15
+  ],
+  "tool_spec": {
+    "bundle_thickness_mm": 8,
+    "coil_width_mm": 80,
+    "coil_height_mm": 143,
+    "reference": "Coil clearance envelope; cable bundle shape is user-arranged",
+    "seat_clearance_mm": 0.06
+  },
+  "description": "A broad saddle and raised nose hold coiled test leads or USB cables. Lift the coil over the nose and pull forward.",
+  "prefix": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5",
+  "mount": {
+    "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+    "top": {
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49
+    },
+    "columns_x_mm": [
+      -12.7,
+      12.7
+    ],
+    "plate": {
+      "x0": -24.4,
+      "x1": 24.4,
+      "y0": 0.15,
+      "y1": 5.55,
+      "z0": -56.68,
+      "z1": 5.12
+    },
+    "hoop": {
+      "concept": "HOOP",
+      "arm_mm": 0.8,
+      "tip_half": 2.0,
+      "even_catch_wall": true,
+      "ramp_wall": true,
+      "nose_mm": 0.9,
+      "root_gusset_mm": 0.4,
+      "body_ribs_mm": 0.3,
+      "orientation": "hoop band in the cheek plane (turned -90 deg about the peg axis), flexes in Z",
+      "detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "nose_mm": 0.9,
+        "ramp_wall_mm": 0.8,
+        "min_wall_mm": 0.8,
+        "root_gusset_mm": 0.4,
+        "root_gusset_length_mm": 1.5,
+        "arm_mm": 0.8,
+        "closed_nose_mm": 0.9,
+        "band_half_height_mm": 1.4,
+        "root_clip_radius_mm": 2.95,
+        "cheek_offset_down_mm": 0.1
+      }
+    },
+    "rows": {
+      "hooks": [
+        0
+      ],
+      "bearing": [],
+      "hoop": [
+        2
+      ],
+      "empty": [
+        1
+      ]
+    },
+    "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+  },
+  "volume_mm3": 82349.25683665178,
+  "print_bounds_mm": [
+    62.1293121871274,
+    64.79000020000004,
+    48.800000200000355
+  ],
+  "pose_matrix": [
+    6.123233995736766e-17,
+    0.0,
+    -1.0,
+    5.445,
+    0.0,
+    1.0,
+    0.0,
+    10.79,
+    1.0,
+    0.0,
+    6.123233995736766e-17,
+    24.400000000000002,
+    0,
+    0,
+    0,
+    1
+  ],
+  "assets": {
+    "installed_step": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__installed.step",
+    "installed_stl": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__installed.stl",
+    "print_step": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__print.step",
+    "print_stl": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__print.stl",
+    "tool-reference_step": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.step",
+    "tool-reference_stl": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.stl",
+    "freecad": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5.FCStd"
+  },
+  "checks": {
+    "native_valid": true,
+    "solids": 1,
+    "unchanged_board_side_delta_mm3": 0.0,
+    "tool_routes": [
+      {
+        "tool_index": 0,
+        "seated_clearance_mm": 0.0600000000000005,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 13,
+        "forward_mm": 65
+      }
+    ],
+    "tool_neighbor_clearances_mm": [],
+    "limits": "Sampled rigid tool-envelope pickup checks. Physical fit, support removal, stiffness, loads, and complete holder installation require testing. Tool shape assumptions are in reference metadata."
+  },
+  "source_sha256": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "files": {
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__installed.step": {
+      "sha256": "7242c68f15823d3717f21ffc05762eaa4a089a3d8fe4d3d28dcc4f02e1d86ac7",
+      "bytes": 271323
+    },
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__installed.stl": {
+      "sha256": "18aa8d859caa2eb56a27dc8087569a133fa32eac771f9d8565475df5d1e53b78",
+      "bytes": 1046884
+    },
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__print.step": {
+      "sha256": "43b7aebac601b06fbfbefc26140fb0c8384159f6132462ebc9dbd5adcb9ac4c9",
+      "bytes": 276594
+    },
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__print.stl": {
+      "sha256": "403f7542d6af9440ef41f7069c1362e23bba57b96ad762e6ad624babe7d073bb",
+      "bytes": 1046884
+    },
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.step": {
+      "sha256": "4fac771d3412e5329747cff50fad9847437b3e731a30921cb2d4ab8745e5d381",
+      "bytes": 22862
+    },
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__tool-reference.stl": {
+      "sha256": "c8c7eba49b836e8e97e6bf74778c074f3201f86b03d93c56754e91cda05f0a41",
+      "bytes": 62484
+    },
+    "part-cl01__v1__right-cheek__fit-pf02c9-hoop5.FCStd": {
+      "sha256": "d34eb7df0326e40ed6650b661d0a5def4024ec2d8828ece4225fa0ee01defafb",
+      "bytes": 116330
+    }
+  }
+}

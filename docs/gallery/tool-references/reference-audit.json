@@ -1,0 +1,63 @@
+[
+  {
+    "file": "2-HexKey.step",
+    "sha256": "d4ab3585900eb79c6d99d79c26df95f5b66060e4734a8a66c70e83098c0dc1f4",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 239.48916761197245,
+    "bounds_mm": [
+      19.14360693541451,
+      2.309401076763566,
+      53.14360693541451
+    ],
+    "source": "https://github.com/shreekumar3d/jigita/blob/231f858e486dc5efcc1a3129f231989bba005a21/demo/05-gridfinity/allen-keys/3dmodels/2-HexKey.step",
+    "license": "AGPL-3.0, repository license; original files retained locally",
+    "use": "Reference geometry audit; downloaded surfaces are not redistributed with the holder"
+  },
+  {
+    "file": "3-HexKey.step",
+    "sha256": "6684c87680a8e5e9c0460bccaa06fc467d1d95633abcf6f951b6461f2c7c1cb5",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 683.571300471404,
+    "bounds_mm": [
+      24.712583519547103,
+      3.4641016151436452,
+      67.71258351954711
+    ],
+    "source": "https://github.com/shreekumar3d/jigita/blob/231f858e486dc5efcc1a3129f231989bba005a21/demo/05-gridfinity/allen-keys/3dmodels/3-HexKey.step",
+    "license": "AGPL-3.0, repository license; original files retained locally",
+    "use": "Reference geometry audit; downloaded surfaces are not redistributed with the holder"
+  },
+  {
+    "file": "4-HexKey.step",
+    "sha256": "8859163ed2519b13bac53a96dc5ef94850a91767017ee52bb25be07a1e320777",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1403.2263018623912,
+    "bounds_mm": [
+      31.28721387082619,
+      4.618802153523112,
+      76.28721387082619
+    ],
+    "source": "https://github.com/shreekumar3d/jigita/blob/231f858e486dc5efcc1a3129f231989bba005a21/demo/05-gridfinity/allen-keys/3dmodels/4-HexKey.step",
+    "license": "AGPL-3.0, repository license; original files retained locally",
+    "use": "Reference geometry audit; downloaded surfaces are not redistributed with the holder"
+  },
+  {
+    "file": "Digital_caliper.step",
+    "valid": true,
+    "solids": 30,
+    "bounds_mm": [
+      305,
+      14.5,
+      77.5
+    ],
+    "sha256": "ea3872d49ff3d0b28adc48c1b07f4ebc277576e1405332245e670c253b3a2dac",
+    "bytes": 2969648,
+    "source": "https://github.com/FreeCAD/FreeCAD-library/blob/544a254e090eaf7bfbb6a9b69e249dc0d3d29d67/Industrial%20Design/Hand%20tools/Measuring%20tools/Digital_caliper/Digital_caliper.step",
+    "author": "hasecilu",
+    "license": "CC BY 3.0",
+    "use": "Generic caliper shape reference; physical fit and exact model identity unverified"
+  }
+]

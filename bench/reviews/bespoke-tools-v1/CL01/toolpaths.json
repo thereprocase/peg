@@ -1,0 +1,215 @@
+{
+  "id": "CL01",
+  "gcode_sha256": "6dbb80b1e577d24c9e17b413315a47b288f894e67eb85b6e309a20cf21652dd0",
+  "input_stl_sha256": "403f7542d6af9440ef41f7069c1362e23bba57b96ad762e6ad624babe7d073bb",
+  "time": "1h 38m 31s",
+  "density_g_cm3": 1.02,
+  "extrusion_grams": 27.39,
+  "features": {
+    "Brim": {
+      "extruded_filament_mm": 80.5054800000002,
+      "minimum": [
+        -24.20108,
+        -6.95394394223632,
+        -61.79408579999998
+      ],
+      "maximum": [
+        -24.201079999999997,
+        57.12515025776367,
+        10.234846199999993
+      ],
+      "moves": 1114,
+      "body_side_filament_mm": 62.84474000000009,
+      "grams": 0.198,
+      "body_side_grams": 0.1542
+    },
+    "Support": {
+      "extruded_filament_mm": 372.53113999999766,
+      "minimum": [
+        -24.20108,
+        -16.476960547979402,
+        -60.123059324188425
+      ],
+      "maximum": [
+        10.808839999999993,
+        -2.2871237353597955,
+        7.090189027067367
+      ],
+      "moves": 7230,
+      "body_side_filament_mm": 0,
+      "grams": 0.914,
+      "body_side_grams": 0.0
+    },
+    "Inner wall": {
+      "extruded_filament_mm": 1866.5207599999642,
+      "minimum": [
+        -24.20108,
+        -11.041749942236319,
+        -56.06021680000009
+      ],
+      "maximum": [
+        24.136480000000002,
+        51.390286657763674,
+        4.817259999999991
+      ],
+      "moves": 9920,
+      "body_side_filament_mm": 1348.9919499999958,
+      "grams": 4.579,
+      "body_side_grams": 3.3096
+    },
+    "Outer wall": {
+      "extruded_filament_mm": 1793.9381400000066,
+      "minimum": [
+        -24.20108,
+        -12.55453654223632,
+        -56.47098659999999
+      ],
+      "maximum": [
+        24.335400000000003,
+        51.80205105776366,
+        5.2310136000000025
+      ],
+      "moves": 9314,
+      "body_side_filament_mm": 1274.8027599999994,
+      "grams": 4.401,
+      "body_side_grams": 3.1276
+    },
+    "Bottom surface": {
+      "extruded_filament_mm": 112.58234999999996,
+      "minimum": [
+        -24.20108,
+        -0.8291971422363194,
+        -55.46544599999999
+      ],
+      "maximum": [
+        -24.201079999999997,
+        51.00040345776368,
+        4.11009939999999
+      ],
+      "moves": 380,
+      "body_side_filament_mm": 111.48146999999997,
+      "grams": 0.276,
+      "body_side_grams": 0.2735
+    },
+    "Internal solid infill": {
+      "extruded_filament_mm": 619.0096100000026,
+      "minimum": [
+        -24.002160000000003,
+        -10.665766678461296,
+        -55.8990916
+      ],
+      "maximum": [
+        24.136480000000002,
+        51.23015605776368,
+        4.444403676084561
+      ],
+      "moves": 3390,
+      "body_side_filament_mm": 582.6295700000036,
+      "grams": 1.519,
+      "body_side_grams": 1.4294
+    },
+    "Sparse infill": {
+      "extruded_filament_mm": 6021.060590000478,
+      "minimum": [
+        -23.60432,
+        -10.642915342236323,
+        -55.716166846250495
+      ],
+      "maximum": [
+        23.340800000000005,
+        51.04615505776368,
+        4.467355928649893
+      ],
+      "moves": 73885,
+      "body_side_filament_mm": 5614.985760000212,
+      "grams": 14.772,
+      "body_side_grams": 13.7757
+    },
+    "Support interface": {
+      "extruded_filament_mm": 6.290730000000003,
+      "minimum": [
+        -16.642120000000002,
+        -12.733564542236326,
+        -54.798076366478206
+      ],
+      "maximum": [
+        11.007760000000001,
+        -2.2673887422363173,
+        1.3799224000000017
+      ],
+      "moves": 334,
+      "body_side_filament_mm": 0,
+      "grams": 0.015,
+      "body_side_grams": 0.0
+    },
+    "Overhang wall": {
+      "extruded_filament_mm": 4.257369999999999,
+      "minimum": [
+        -15.846440000000003,
+        -12.55453654223632,
+        -54.237115
+      ],
+      "maximum": [
+        11.405600000000003,
+        -2.037636142236323,
+        4.067331599999999
+      ],
+      "moves": 164,
+      "body_side_filament_mm": 0,
+      "grams": 0.01,
+      "body_side_grams": 0.0
+    },
+    "Bridge": {
+      "extruded_filament_mm": 0.24337999999999999,
+      "minimum": [
+        -15.249680000000003,
+        -5.0821067422363155,
+        -0.5855201001606396
+      ],
+      "maximum": [
+        10.21207999999999,
+        -2.5021143422363217,
+        0.4867715999999911
+      ],
+      "moves": 16,
+      "body_side_filament_mm": 0,
+      "grams": 0.001,
+      "body_side_grams": 0.0
+    },
+    "Top surface": {
+      "extruded_filament_mm": 125.35587999999997,
+      "minimum": [
+        -10.077760000000003,
+        -4.676309942236328,
+        -56.35859679999999
+      ],
+      "maximum": [
+        24.335400000000003,
+        51.68966125776367,
+        4.798362600000001
+      ],
+      "moves": 250,
+      "body_side_filament_mm": 124.62444999999998,
+      "grams": 0.308,
+      "body_side_grams": 0.3058
+    },
+    "Internal Bridge": {
+      "extruded_filament_mm": 163.03674000000046,
+      "minimum": [
+        23.53972,
+        -0.853067542236321,
+        -55.89610780000001
+      ],
+      "maximum": [
+        23.539720000000006,
+        51.02526845776369,
+        4.133969799999995
+      ],
+      "moves": 398,
+      "body_side_filament_mm": 161.46373000000037,
+      "grams": 0.4,
+      "body_side_grams": 0.3961
+    }
+  },
+  "limits": "Feature classification and deposited centerline bounds, with commanded arc sweeps sampled at <=0.2 mm where below the 2048-point cap. Supports may flare at the bed; support contact and removal need visual review."
+}

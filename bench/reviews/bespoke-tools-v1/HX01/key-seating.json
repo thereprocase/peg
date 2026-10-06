@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "keys": [
+    {
+      "af_mm": 1.5,
+      "lean_back_deg": 5.388681640625,
+      "closest_board_plane_mm": 4.796580434577524,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 2,
+      "lean_back_deg": 5.10669921875,
+      "closest_board_plane_mm": 3.9159546816309576,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 2.5,
+      "lean_back_deg": 4.82544921875,
+      "closest_board_plane_mm": 3.135037353572025,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 3,
+      "lean_back_deg": 4.544931640625,
+      "closest_board_plane_mm": 2.453510363013074,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 4,
+      "lean_back_deg": 3.9857275390625,
+      "closest_board_plane_mm": 2.0831545958322253,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 5,
+      "lean_back_deg": 3.4283544921875,
+      "closest_board_plane_mm": 1.616153140685354,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 6,
+      "lean_back_deg": 2.8724462890625,
+      "closest_board_plane_mm": 1.1978781198423814,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 8,
+      "lean_back_deg": 1.76099609375,
+      "closest_board_plane_mm": 2.172743479031004,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    },
+    {
+      "af_mm": 10,
+      "lean_back_deg": 0.646982421875,
+      "closest_board_plane_mm": 3.978483003155898,
+      "floor_gap_mm": 0.060000000000002274,
+      "collision_mm3": 0.0,
+      "pickup_peak_intersection_mm3": 0,
+      "passed": true
+    }
+  ],
+  "neighbor_intersection_mm3": 0.0,
+  "holder_step_sha256": "bc0f31ee305eabf0e8923b14c63d6ad057e77c4bceffd30fbc2f3ba1c7b355cd",
+  "limits": "Floor plus rear-plate lean contact. Contact surfaces are approximated by a 0.06 mm floor gap and 0.01 degree angular backoff. Friction, spring compliance, bumps and human grip remain physical tests."
+}

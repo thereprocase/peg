@@ -1,0 +1,62 @@
+{
+ "name": "part-hx01__v1__upright__fit-pf02c9-hoop5",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 2.5,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 118390,
+   "elements": 62326,
+   "fixed_nodes": 4472,
+   "loads": [
+    {
+     "id": "sideways",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      0,
+      62,
+      -52
+     ],
+     "what": "",
+     "deflection_at_load_mm": 0.0022,
+     "stiffness_N_per_mm": 2275.8,
+     "max_deflection_mm": 0.0029,
+     "max_at": [
+      -55.7,
+      66.0,
+      -57.0
+     ]
+    },
+    {
+     "id": "down",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      0,
+      62,
+      -52
+     ],
+     "what": "",
+     "deflection_at_load_mm": 0.1469,
+     "stiffness_N_per_mm": 34.0,
+     "max_deflection_mm": 0.1654,
+     "max_at": [
+      0.0,
+      66.0,
+      -46.0
+     ]
+    }
+   ]
+  }
+ ]
+}

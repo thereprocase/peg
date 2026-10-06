@@ -1,0 +1,53 @@
+[
+  {
+    "id": "HX01",
+    "name": "Open-front metric hex-key rack",
+    "description": "Nine upright L-keys, 1.5\u201310 mm. Short arms rest on the floor. Lift 9 mm and pull forward through the open guides.",
+    "pose": "upright",
+    "bounds": [
+      175.8,
+      76.8,
+      62.4
+    ],
+    "time": "3h 38m 48s",
+    "grams": 79.65,
+    "support_g": 2.06,
+    "side": 0.0022,
+    "down": 0.1469,
+    "stl": "part-hx01__v1__upright__fit-pf02c9-hoop5__print.stl"
+  },
+  {
+    "id": "TM01",
+    "name": "Tape-measure dock",
+    "description": "A shallow open dock for a tape measure up to 92 mm across and 48 mm deep including its clip. Lift 10 mm and pull forward.",
+    "pose": "upright",
+    "bounds": [
+      99.6,
+      70.8,
+      62.4
+    ],
+    "time": "1h 53m 16s",
+    "grams": 36.39,
+    "support_g": 2.06,
+    "side": 0.0034,
+    "down": 0.0603,
+    "stl": "part-tm01__v1__upright__fit-pf02c9-hoop5__print.stl"
+  },
+  {
+    "id": "CL01",
+    "name": "Coiled test-lead hanger",
+    "description": "A broad saddle and raised nose hold coiled test leads or USB cables. Lift the coil over the nose and pull forward.",
+    "pose": "right-cheek",
+    "bounds": [
+      62.1,
+      64.8,
+      48.8
+    ],
+    "time": "1h 38m 31s",
+    "grams": 27.39,
+    "support_g": 0.93,
+    "side": 0.007,
+    "down": 0.0056,
+    "stl": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5__print.stl"
+  }
+]

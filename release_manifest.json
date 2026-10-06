@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2368,
-  "total_size_bytes": 812283538,
+  "file_count": 2441,
+  "total_size_bytes": 832351636,
   "files": [
     {
       "path": ".gitattributes",
@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "size_bytes": 70,
-      "sha256": "a87a2e8a4a53f825d70cb8e7d5ca32a1f63e6c94a7406cd1cbed19645c2c46a3"
+      "size_bytes": 335,
+      "sha256": "af30fa1cdca153ef08bb15c896e1776669af88cbb956e023b1bb3ffca8cb736c"
     },
     {
       "path": "AGENTS.md",
@@ -140,6 +140,176 @@
       "path": "bench/reference/peg-print-variants.json",
       "size_bytes": 587,
       "sha256": "6f2bef88debec1ce02f540f9319f86400b3335fee58705b0c671a5ddb1b22da7"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/NOTES.md",
+      "size_bytes": 3533,
+      "sha256": "b06fb3fd41dd36a71b0a869078681568cec00bf46d656b8328b843aad457391f"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/installation-screen.json",
+      "size_bytes": 578,
+      "sha256": "40b831f0751d16a2e78009f36a3d940410dd60f63613979e3d30397f54e4c23d"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/part-cl01__v1__right-cheek__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 483,
+      "sha256": "89e96f35eb84e95c6ca81085ef84f5c2de36e48edc4a4c0623c369083e646f5c"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/part-cl01__v1__right-cheek__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 896,
+      "sha256": "aace39ab26d2d020f8578059e79ed683d1a59b9351cec37a15a3ad82b23abfd0"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/print-geometry.json",
+      "size_bytes": 570,
+      "sha256": "18bd9dc929b1b9da6a50843faa6529c085398c1b229ebfff9ad59b74b05007c7"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/report.json",
+      "size_bytes": 5230,
+      "sha256": "8615cfa7caac45bef90cf681b4370eb9149ce6083566856356376c534f84d294"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/slice-summary.json",
+      "size_bytes": 870,
+      "sha256": "4081921c4ed882a0db805dbc3dade66660bf4f17dc9841797ad7f10f0fe5f581"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/stiffness.json",
+      "size_bytes": 1595,
+      "sha256": "e76d14f49caa39574dc9778d2e6a16e90cb1abac2bed26fe3d2e75eeae5358f4"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/toolpaths.json",
+      "size_bytes": 5470,
+      "sha256": "34a5d70f7643ff348e69b2e5f1014504eaf272e8cb734877e43e5f957410adec"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/CL01/toolpaths.svg",
+      "size_bytes": 990697,
+      "sha256": "fbe7225c6711d740c1a5915427a749c0d4426b61ad0a5c952041fe1ce3f6e436"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/NOTES.md",
+      "size_bytes": 3677,
+      "sha256": "7b39292e3dfccb0a282438827a845bbc0eb782b74173e7a345280dc0f0124340"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/external-key-fit.json",
+      "size_bytes": 1128,
+      "sha256": "2e6741d22c1650181d260f6150a5dfd82752546a7c77ed0dd4e317d26dbc68a9"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/installation-screen.json",
+      "size_bytes": 576,
+      "sha256": "38262f644f914d54d75c206bc3fad7391249b40dd5ffbd4622f1289fc300cea3"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/key-seating.json",
+      "size_bytes": 2682,
+      "sha256": "1d4cc3e7aca76799fd54fcfaa69c49974f6d95783e52ce58ca98b6be56e6979c"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/part-hx01__v1__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 479,
+      "sha256": "ebef3d0fb507539b9aed71a67a41dabae798100d53114a95471b1c095a1d0e8d"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/part-hx01__v1__upright__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 895,
+      "sha256": "716066724e4c81e4ed1be51728c225e1f02d8f52e8f747cf9279bdad2f392fbb"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/print-geometry.json",
+      "size_bytes": 581,
+      "sha256": "46acbd1a5cd4fd5fd450526721bb3abc12209765c8bdda5113654b908f7b810d"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/report.json",
+      "size_bytes": 8669,
+      "sha256": "30f70ffb0d949d5f0639d7566e2de4294ca9f748890ba29769fc67d05c9e33eb"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/slice-summary.json",
+      "size_bytes": 871,
+      "sha256": "c32b36e0a17e798eb6181fdb542352b11b53ca1ac62f644c9a5426181fafe19d"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/stiffness.json",
+      "size_bytes": 1594,
+      "sha256": "4af8bb12db31cbcefccab40551e05599723fb5089f1d3b3cb92f34685e363f38"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/toolpaths.json",
+      "size_bytes": 5014,
+      "sha256": "a4940771db1b0b4803263c1fc7db793f035ff61fbc5dd339bd83c0c8637eed78"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/HX01/toolpaths.svg",
+      "size_bytes": 2612735,
+      "sha256": "19e1524e2017bc21a09ffb6cd88fe551690a1e796afb17977cd82a06830f6d1a"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/README.md",
+      "size_bytes": 2135,
+      "sha256": "84fdd77b405aaba9edff73821b9c35c4c37077f3b9091471f015264804ac190d"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/NOTES.md",
+      "size_bytes": 3615,
+      "sha256": "b5f0f2cca5a9d68a4bdf1bb8d436f458aebb702093c03a7a565e64a20e0b7070"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/installation-screen.json",
+      "size_bytes": 576,
+      "sha256": "ed409b56c93cb7fa73b3c5446d1c07d8ff308a52c7a2598fc56ad5016a6169f8"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/part-tm01__v1__upright__fit-pf02c9-hoop5__fea-spec.json",
+      "size_bytes": 479,
+      "sha256": "e3ace87167794ab4c62d6f63cb6862e3b2914c5797671e438d41ba0919e8aeae"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/part-tm01__v1__upright__fit-pf02c9-hoop5__fea.json",
+      "size_bytes": 893,
+      "sha256": "dda144c276380469a0ebebb074ba65daf49c99918dc90d59e3e6cc0de5e28241"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/print-geometry.json",
+      "size_bytes": 579,
+      "sha256": "98a2f0e5d779c88e038a0b87f8b25505bd9af8adddbda6da1c2b3b51e51657ca"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/report.json",
+      "size_bytes": 5186,
+      "sha256": "96c4dcbe5ed4be1b473e485ba6ef3798149e1004e6b3bad9ce84d01facfd820c"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/slice-summary.json",
+      "size_bytes": 871,
+      "sha256": "6e9e9e7d6b0bc28d63ddd1a1588f07abd1576e92586c0b4f4ecd699171db3f5d"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/stiffness.json",
+      "size_bytes": 1592,
+      "sha256": "257b2787cf96199b567eb538268155b2481723aa0b43df5cef3f05529b6d663f"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/toolpaths.json",
+      "size_bytes": 5418,
+      "sha256": "9c10a44fee47e743b866d44cf43c5454d1f5bf0b4a0ed24a78c7a44875ec13db"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/TM01/toolpaths.svg",
+      "size_bytes": 1165016,
+      "sha256": "4044e2ebbd69041a5514789bc33c34260f179937cd887b4dfab350090a8a47b0"
+    },
+    {
+      "path": "bench/reviews/bespoke-tools-v1/tool-reference-audit.json",
+      "size_bytes": 1881,
+      "sha256": "1c51925351c1bcfe7ce1dc3130e9a0f6905f8cc4b6102243c360c47bce335b47"
     },
     {
       "path": "bench/reviews/gallery-current-mounts-flat-top-v2/BUILD.json",
@@ -1450,6 +1620,46 @@
       "path": "bench/reviews/peg-connectors-v1/MESH-CHECKS.json",
       "size_bytes": 1783,
       "sha256": "e31bd1233628626040d0b5e9356f6a7c9b34a9f39560e19b1009eaeb376e394c"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/PRINT-DESIGN-RULES.md",
+      "size_bytes": 4278,
+      "sha256": "7b92a182945b4e43ce1fc5f4788daf3b014a90c2af11f2801093462c5f2506a8"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/build.py",
+      "size_bytes": 11667,
+      "sha256": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/check_external_keys.py",
+      "size_bytes": 1501,
+      "sha256": "b37fd30de7b4952e931a4d846c5e7521e8d08fa6e7f97b10d431b0fdf215bcb3"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/install_screen.py",
+      "size_bytes": 772,
+      "sha256": "dfacb0a18510d98ac6d613ed538fef11166f5f41c44f76a7d4ee4f0f40bb0156"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/key_seating.py",
+      "size_bytes": 2108,
+      "sha256": "90379e35f26fac0482d0ee15dbd5a40b2031f5392391024956dbdbe7c49a590d"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/review.py",
+      "size_bytes": 3279,
+      "sha256": "9e97b71d99a11c7f46fd7345b6aeabf309048f7e2d5a54a472fc40e17a853c1d"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/slice_local.py",
+      "size_bytes": 3322,
+      "sha256": "e7192812fcda80d36f3a6796ac0db6ae53cbdcc1236e54729f6bd71f659fd050"
+    },
+    {
+      "path": "bench/source/bespoke_tools_v1/toolpaths.py",
+      "size_bytes": 5029,
+      "sha256": "fd143fefeae72c52c75b033c241c4df808a18b593d6a8406a5a6416d4d213727"
     },
     {
       "path": "bench/source/gallery_current_mounts_v1/MH01.json",
@@ -3902,6 +4112,131 @@
       "sha256": "e35e82908218feb7e74b8ca8b1066217ef8dd9325ea93cacee0464b8574ad41e"
     },
     {
+      "path": "docs/gallery/bespoke-tools/CL01/checks.json",
+      "size_bytes": 12611,
+      "sha256": "4def3acc32a6172e7e0c029f3945f05215bef5d71674a6c4de4410b7de8a45a3"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/CL01/installed.glb",
+      "size_bytes": 419960,
+      "sha256": "18d8e982c18a68fbb2830b636b09b1db4708230de5510742facbb7da68e591e3"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/CL01/loaded.glb",
+      "size_bytes": 445988,
+      "sha256": "7707b58827906c445334e0e88441ba21829beecad2e7843ebb7dc217cf66438a"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/CL01/part-cl01__v1__right-cheek__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1046884,
+      "sha256": "18aa8d859caa2eb56a27dc8087569a133fa32eac771f9d8565475df5d1e53b78"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/CL01/part-cl01__v1__right-cheek__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 1046884,
+      "sha256": "403f7542d6af9440ef41f7069c1362e23bba57b96ad762e6ad624babe7d073bb"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/CL01/print.glb",
+      "size_bytes": 419912,
+      "sha256": "ed37c8cb579fc55bf8cf2fa593d59ee1a9b041c208d951e6fc455a4566929313"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/CL01/toolpaths.svg",
+      "size_bytes": 990697,
+      "sha256": "fbe7225c6711d740c1a5915427a749c0d4426b61ad0a5c952041fe1ce3f6e436"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/checks.json",
+      "size_bytes": 20052,
+      "sha256": "3aad145ce6304098731bf1a9ebaad6e214b445ae598192c06af44ae6abd48a3c"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/installed.glb",
+      "size_bytes": 427944,
+      "sha256": "9d7710d8f6db3c5e6ece82d10be7144cb29c8c83ee95ead59e4bf80a258ee0f3"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/loaded.glb",
+      "size_bytes": 614400,
+      "sha256": "9ac9dd65beea4baec9c34a7dfc0984610b724cf50bcae430861e190f73314be7"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/part-hx01__v1__upright__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1066884,
+      "sha256": "45695a4643f6663d86d633853f87ed181c5a9acd3427d0bf01f789b25a71bfb4"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/part-hx01__v1__upright__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 1066884,
+      "sha256": "db654ca66a2cf694e999d8b47c91cec16a78bf75dd77928aefff35137b047267"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/print.glb",
+      "size_bytes": 427884,
+      "sha256": "d7d119e3481d580f46d85e9b048196d42b2d802c00677a949be5dc2204338401"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/HX01/toolpaths.svg",
+      "size_bytes": 2612735,
+      "sha256": "19e1524e2017bc21a09ffb6cd88fe551690a1e796afb17977cd82a06830f6d1a"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/checks.json",
+      "size_bytes": 12578,
+      "sha256": "1fd2dfc0084d46fb5cd588ab39b713ce797def03d583a29da20e710d8eb26aea"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/installed.glb",
+      "size_bytes": 421436,
+      "sha256": "da687b81a4db3bcbd40e00b549f34af216f4118a74c0167638c7cb669c157426"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/loaded.glb",
+      "size_bytes": 422752,
+      "sha256": "c84a093118d2db0f6197ae0f7ab82d50bc8336bdca613779a3de0a9a7588374b"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/part-tm01__v1__upright__fit-pf02c9-hoop5__installed.stl",
+      "size_bytes": 1050684,
+      "sha256": "18bc6717c4285159b5a21d95b8748110a3123c8ffad5b660a5ff5204c55d3d6e"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/part-tm01__v1__upright__fit-pf02c9-hoop5__print.stl",
+      "size_bytes": 1050684,
+      "sha256": "ac7533a5aa41baeb996a211ae39cf8c323744b5567494c03067bc662c318833c"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/print.glb",
+      "size_bytes": 421372,
+      "sha256": "aefb68fcbfc160e63bc1a76dde6b0a019b6d8e7a9b2531f4921a5331341e7e56"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/TM01/toolpaths.svg",
+      "size_bytes": 1165016,
+      "sha256": "4044e2ebbd69041a5514789bc33c34260f179937cd887b4dfab350090a8a47b0"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/catalog.json",
+      "size_bytes": 1397,
+      "sha256": "69fe8a9fcb8505b8120f529506ab43a23695fd91d4c07c8229f5fc4132aa48b5"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/index.html",
+      "size_bytes": 5386,
+      "sha256": "7907a302a7c527dfcd9e3ffc5a6bf47df6880441ca1c905777266f079c755bfd"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/review.js",
+      "size_bytes": 347,
+      "sha256": "c3cb74b3000c91b4fdf8f2ca738401a42a87227973e902a5ccd5992591caf3bb"
+    },
+    {
+      "path": "docs/gallery/bespoke-tools/style.css",
+      "size_bytes": 1024,
+      "sha256": "33890871f994db327ed991f175b765c203980b3f3219a56bd9bb90949270b55c"
+    },
+    {
       "path": "docs/gallery/bin-expansion/PB01/part-pb01__v1__pegstr-bin-4-cells-1-pockets-99.6x40x40mm__fit-e586ab4ff6__checks.json",
       "size_bytes": 2382,
       "sha256": "185f4f1d10b4abdf4a272fc5a89683d9a8141195d7822698681bb40c9e763e04"
@@ -4303,13 +4638,13 @@
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.js",
-      "size_bytes": 5372,
-      "sha256": "af293ed97b3a89ce46b2d5c97b54e57e4b577c0933954a6113469c9df0d0d223"
+      "size_bytes": 6857,
+      "sha256": "4989330369d71114451384a06f1a26c500c83cb4e9bdd4af308d6bfb72645763"
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
-      "size_bytes": 3644,
-      "sha256": "dc40d5799e8cf6b8c85fe44bb8a07bd42ab315e00c1600d890a4846cd891764e"
+      "size_bytes": 4066,
+      "sha256": "7c2ea57f0da1d345c19b91959aea9eebe3392f9690d91f94d10f01535910830a"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -7488,8 +7823,8 @@
     },
     {
       "path": "docs/gallery/index.html",
-      "size_bytes": 6989,
-      "sha256": "241d89c723aba491d3aeebbbca8260ba3c580fe5638341cf6b52d6be5ed7c057"
+      "size_bytes": 7050,
+      "sha256": "f9109be66dd368ecdcd42d65485a2e3e93fc59bfefb300c512626a9471d43a40"
     },
     {
       "path": "docs/gallery/keepers.html",
@@ -8498,8 +8833,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 113834,
-      "sha256": "7462778080cd5360a8d8d83fb951f991707f3bbfd17d8b56b0f0d31299b67ac3"
+      "size_bytes": 114036,
+      "sha256": "1b09964e0b6d07dd34743768bd10d24ce4d96206954a25ab7dde5920d03a6c4a"
     },
     {
       "path": "docs/gallery/research.html",
@@ -10762,6 +11097,16 @@
       "sha256": "8d8cc0c689181876a5ca298ad4558fdaa1d8d24b1545c849735833dce0163c9d"
     },
     {
+      "path": "docs/gallery/tool-references/index.html",
+      "size_bytes": 4491,
+      "sha256": "63c113f1c1be7c59ce983dec20f0ad7bf3ab9164c26e72a7e09b4b9e70f6f72c"
+    },
+    {
+      "path": "docs/gallery/tool-references/reference-audit.json",
+      "size_bytes": 2470,
+      "sha256": "a8f7dd2d1eecbf3bc330d8f5068931269fb1c1253a4f62fecdb2d8ce0487d9ab"
+    },
+    {
       "path": "docs/gallery/trials/P23-r8/index.html",
       "size_bytes": 2802,
       "sha256": "a30bae5698abb6cc42904b8b5a0693aca9d909b34a0888cf42fcaa32a47f5a41"
@@ -11188,8 +11533,8 @@
     },
     {
       "path": "docs/index.html",
-      "size_bytes": 9398,
-      "sha256": "059bf3688b914096cc9f85bfb88439a4cd2c32cce4925a308336917e9e5887e4"
+      "size_bytes": 10148,
+      "sha256": "db0c15d578aba142dd7b9562e7b0aa8cc1b2a169308a3b98f81ed29cadf728f5"
     },
     {
       "path": "docs/pegs/bearing-locator.glb",
@@ -11228,8 +11573,8 @@
     },
     {
       "path": "docs/pegs/pegs.css",
-      "size_bytes": 848,
-      "sha256": "e11c7f1fa6a96b5298c168eaeb7f25eb80c238e21ef3d6f138655a3fc92381c9"
+      "size_bytes": 1865,
+      "sha256": "e3d894c33baa1c6dcd61369a7e1f657ac877599e3e098dbbece82bb445489771"
     },
     {
       "path": "docs/pegs/pegs.js",
@@ -11317,9 +11662,19 @@
       "sha256": "bb2c18d15512602d4f5a83153baa85ce9631957a162451fe2ba80c4d4d9a6d5a"
     },
     {
+      "path": "publication/bespoke-tools-v1-additions.json",
+      "size_bytes": 3513,
+      "sha256": "72b3559825061898ec1d33fd489f030f121ee5073fd2833453060d7517153540"
+    },
+    {
       "path": "publication/browser-verification.json",
       "size_bytes": 2645,
       "sha256": "559ea26208f3900d9b97778ed330261bb5d60007053fe41f18b521b1518553ec"
+    },
+    {
+      "path": "publication/build_bespoke_review.py",
+      "size_bytes": 6991,
+      "sha256": "24e5cd525bb4ff3e27973a7ee8470458cb0848169728ae8d2a9d5e668e5e5d18"
     },
     {
       "path": "publication/build_current_pegs.py",
@@ -11339,7 +11694,7 @@
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 89117,
-      "sha256": "6b922b5577eb5ed7fa49b590d7de13ac7686b536cca6bf6cd3165cfdce1a1f36"
+      "sha256": "1b65eeffe64a09cd576f26b372548d4c5e3840191d1d1372d52cdb3521b11073"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -11402,9 +11757,14 @@
       "sha256": "7e69fa6c88f70c341afbaa9946de9a7ed0c26ed88a0b2a3ccfc121fe89b38a93"
     },
     {
+      "path": "publication/package_bespoke_cad.py",
+      "size_bytes": 2220,
+      "sha256": "aa3b330c974c9723b525981923f255dec26697f768a491a1eecbb3cb3430c77b"
+    },
+    {
       "path": "publication/peg-connectors-v1-additions.json",
-      "size_bytes": 9423,
-      "sha256": "b33d90f7bf1a97e307caa042bd9f3b604535384c0e8170fadfd9fb60e3bfcc4a"
+      "size_bytes": 9424,
+      "sha256": "6636d9c2bbf2ebd0ef11fef26d643e588e6e0658e5856a51ea9281816a638a47"
     },
     {
       "path": "publication/prepare_current_pegs_media.py",
@@ -11413,13 +11773,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 76453,
-      "sha256": "2ac6dc960d34b350fc38570896ea3746a65a8781c2357174cecff38786c311e5"
+      "size_bytes": 76619,
+      "sha256": "0b030f935934f3e19a5b3101020268b42bd68f9852ac50e7a15a5dbd7881b77b"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 115041,
-      "sha256": "337b4bc92ff25af81177e965433f5a1f9c87663842112aa823253eb7b8f0c519"
+      "size_bytes": 115247,
+      "sha256": "cf902e82e6aca97e93464c1e9690168ae9dd8e73ed4157fe269ebcda0d1bc8c6"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -11612,14 +11972,19 @@
       "sha256": "8df79ae107d7bfbbda8388145ee0ba079aeda67871997589599655b70081ba48"
     },
     {
+      "path": "tools/check_bespoke_tools.py",
+      "size_bytes": 2290,
+      "sha256": "2dbd772a1fd483faf0a9b356615a5c4d3b20dc40562350fd82904dfb1f611300"
+    },
+    {
       "path": "tools/check_current_pegs.py",
       "size_bytes": 3314,
       "sha256": "06ae7a0c2800f142ecde58f23f3decd210ae692203c06e3a5ed647bd4c168e59"
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 4543,
-      "sha256": "c1537dffc837cf2ae4001c096dbffe02b26e111f9b862a3cc232c09a1dade022"
+      "size_bytes": 4676,
+      "sha256": "aa7b566d57c7a55c67b5a9e196f557c5176d16c20077e619291276dfaa402e2a"
     },
     {
       "path": "tools/check_peg_downloads.py",

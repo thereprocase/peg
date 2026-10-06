@@ -1,0 +1,1 @@
+document.querySelectorAll('article').forEach(card=>{card.querySelectorAll('button[data-mode]').forEach(button=>button.addEventListener('click',()=>{const model=card.querySelector('model-viewer');model.src=model.id+'/'+button.dataset.mode+'.glb';card.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));});

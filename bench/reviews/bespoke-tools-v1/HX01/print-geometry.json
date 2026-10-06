@@ -1,0 +1,26 @@
+{
+  "watertight": true,
+  "components": 1,
+  "positive_volume": true,
+  "overhangs": {
+    "features": [],
+    "peg_area_mm2": 130.5,
+    "other_area_mm2": 0.0,
+    "passed": true
+  },
+  "islands": {
+    "points": [],
+    "passed": true
+  },
+  "bed_face_mm2": 11576.430435676579,
+  "bounds_mm": [
+    175.8000030517578,
+    76.79000091552734,
+    62.44499969482422
+  ],
+  "inputs": {
+    "installed_stl": "45695a4643f6663d86d633853f87ed181c5a9acd3427d0bf01f789b25a71bfb4",
+    "print_stl": "db654ca66a2cf694e999d8b47c91cec16a78bf75dd77928aefff35137b047267"
+  },
+  "passed": true
+}

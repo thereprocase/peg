@@ -1,0 +1,339 @@
+{
+  "id": "HX01",
+  "name": "Open-front metric hex-key rack",
+  "cells": 7,
+  "pose": "upright",
+  "pickup_lift_mm": 9,
+  "pickup_forward_mm": 70,
+  "load_point": [
+    0,
+    62,
+    -52
+  ],
+  "tool_spec": {
+    "sizes": [
+      {
+        "af_mm": 1.5,
+        "x_mm": 72,
+        "long_arm_mm": 65,
+        "short_arm_mm": 15,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 2,
+        "x_mm": 54,
+        "long_arm_mm": 75,
+        "short_arm_mm": 18,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 2.5,
+        "x_mm": 36,
+        "long_arm_mm": 85,
+        "short_arm_mm": 20,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 3,
+        "x_mm": 18,
+        "long_arm_mm": 95,
+        "short_arm_mm": 23,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 4,
+        "x_mm": 0,
+        "long_arm_mm": 105,
+        "short_arm_mm": 29,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 5,
+        "x_mm": -18,
+        "long_arm_mm": 120,
+        "short_arm_mm": 33,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 6,
+        "x_mm": -36,
+        "long_arm_mm": 140,
+        "short_arm_mm": 38,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 8,
+        "x_mm": -54,
+        "long_arm_mm": 160,
+        "short_arm_mm": 44,
+        "guide_clearance_mm": 1.2
+      },
+      {
+        "af_mm": 10,
+        "x_mm": -72,
+        "long_arm_mm": 180,
+        "short_arm_mm": 50,
+        "guide_clearance_mm": 1.2
+      }
+    ],
+    "reference": "EGA Master long-pattern dimensions; swept hex sections; bend radius is an explicit assumption"
+  },
+  "description": "Nine upright L-keys, 1.5\u201310 mm. Short arms rest on the floor. Lift 9 mm and pull forward through the open guides.",
+  "prefix": "part-hx01__v1__upright__fit-pf02c9-hoop5",
+  "mount": {
+    "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+    "top": {
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49
+    },
+    "columns_x_mm": [
+      -76.19999999999999,
+      76.19999999999999
+    ],
+    "plate": {
+      "x0": -87.89999999999999,
+      "x1": 87.89999999999999,
+      "y0": 0.15,
+      "y1": 5.55,
+      "z0": -57,
+      "z1": 5.12
+    },
+    "hoop": {
+      "concept": "HOOP",
+      "arm_mm": 0.8,
+      "tip_half": 2.0,
+      "even_catch_wall": true,
+      "ramp_wall": true,
+      "nose_mm": 0.9,
+      "root_gusset_mm": 0.4,
+      "body_ribs_mm": 0.3,
+      "orientation": "hoop band horizontal, flexes in X (the print layers)",
+      "detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "nose_mm": 0.9,
+        "ramp_wall_mm": 0.8,
+        "min_wall_mm": 0.8,
+        "root_gusset_mm": 0.4,
+        "root_gusset_length_mm": 1.5,
+        "arm_mm": 0.8,
+        "closed_nose_mm": 0.9,
+        "band_half_height_mm": 1.4,
+        "root_clip_radius_mm": 2.95,
+        "cheek_offset_down_mm": 0.0
+      }
+    },
+    "rows": {
+      "hooks": [
+        0
+      ],
+      "bearing": [],
+      "hoop": [
+        2
+      ],
+      "empty": [
+        1
+      ]
+    },
+    "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+  },
+  "volume_mm3": 127361.09135689282,
+  "print_bounds_mm": [
+    175.80000020000037,
+    76.79000020000005,
+    62.44931218712741
+  ],
+  "pose_matrix": [
+    1.0,
+    0.0,
+    0.0,
+    87.89999999999999,
+    0.0,
+    1.0,
+    0.0,
+    10.79,
+    0.0,
+    0.0,
+    1.0,
+    57.0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "assets": {
+    "installed_step": "part-hx01__v1__upright__fit-pf02c9-hoop5__installed.step",
+    "installed_stl": "part-hx01__v1__upright__fit-pf02c9-hoop5__installed.stl",
+    "print_step": "part-hx01__v1__upright__fit-pf02c9-hoop5__print.step",
+    "print_stl": "part-hx01__v1__upright__fit-pf02c9-hoop5__print.stl",
+    "tool-reference_step": "part-hx01__v1__upright__fit-pf02c9-hoop5__tool-reference.step",
+    "tool-reference_stl": "part-hx01__v1__upright__fit-pf02c9-hoop5__tool-reference.stl",
+    "freecad": "part-hx01__v1__upright__fit-pf02c9-hoop5.FCStd"
+  },
+  "checks": {
+    "native_valid": true,
+    "solids": 1,
+    "unchanged_board_side_delta_mm3": 0.0,
+    "tool_routes": [
+      {
+        "tool_index": 0,
+        "seated_clearance_mm": 0.060000000000002274,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 1,
+        "seated_clearance_mm": 0.060000000000002274,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 2,
+        "seated_clearance_mm": 0.060000000000002274,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 3,
+        "seated_clearance_mm": 0.05999999999999517,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 4,
+        "seated_clearance_mm": 0.060000000000002274,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 5,
+        "seated_clearance_mm": 0.05999999999999517,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 6,
+        "seated_clearance_mm": 0.05999999999999517,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 7,
+        "seated_clearance_mm": 0.060000000000002274,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      },
+      {
+        "tool_index": 8,
+        "seated_clearance_mm": 0.05999999999999517,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 9,
+        "forward_mm": 70
+      }
+    ],
+    "tool_neighbor_clearances_mm": [
+      16.25,
+      34.0,
+      51.75,
+      69.25,
+      86.75,
+      104.25,
+      121.25,
+      138.25,
+      15.749999999999993,
+      33.49999999999999,
+      50.99999999999999,
+      68.5,
+      86.0,
+      103.0,
+      120.0,
+      15.25,
+      32.75,
+      50.25,
+      67.75,
+      84.75,
+      101.75,
+      14.499999999999996,
+      32.0,
+      49.5,
+      66.5,
+      83.49999999999999,
+      13.499999999999998,
+      30.999999999999996,
+      48.0,
+      65.0,
+      12.5,
+      29.5,
+      46.5,
+      10.999999999999993,
+      27.999999999999993,
+      8.999999999999986
+    ],
+    "limits": "Sampled rigid tool-envelope pickup checks. Physical fit, support removal, stiffness, loads, and complete holder installation require testing. Tool shape assumptions are in reference metadata."
+  },
+  "source_sha256": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "files": {
+    "part-hx01__v1__upright__fit-pf02c9-hoop5__installed.step": {
+      "sha256": "bc0f31ee305eabf0e8923b14c63d6ad057e77c4bceffd30fbc2f3ba1c7b355cd",
+      "bytes": 408776
+    },
+    "part-hx01__v1__upright__fit-pf02c9-hoop5__installed.stl": {
+      "sha256": "45695a4643f6663d86d633853f87ed181c5a9acd3427d0bf01f789b25a71bfb4",
+      "bytes": 1066884
+    },
+    "part-hx01__v1__upright__fit-pf02c9-hoop5__print.step": {
+      "sha256": "9bfa87c2ef8f22bf3d9c7d9799c3c354b139a699b25f28d0b54d196a7f0a7a42",
+      "bytes": 405683
+    },
+    "part-hx01__v1__upright__fit-pf02c9-hoop5__print.stl": {
+      "sha256": "db654ca66a2cf694e999d8b47c91cec16a78bf75dd77928aefff35137b047267",
+      "bytes": 1066884
+    },
+    "part-hx01__v1__upright__fit-pf02c9-hoop5__tool-reference.step": {
+      "sha256": "c93584d8a8cc2947d253ca5db85f98f3440019dddf012404fc0fdc899396c1db",
+      "bytes": 219383
+    },
+    "part-hx01__v1__upright__fit-pf02c9-hoop5__tool-reference.stl": {
+      "sha256": "103f943894dcd8fd9dc73ef54becb03ef7ef590b363694480f83890b8c9e6659",
+      "bytes": 463184
+    },
+    "part-hx01__v1__upright__fit-pf02c9-hoop5.FCStd": {
+      "sha256": "b0aab8b2f46acf8f5ccb34d02ca551925d879cb2d4114adee303928d23e5e367",
+      "bytes": 152363
+    }
+  }
+}

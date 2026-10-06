@@ -5,3 +5,10 @@ __pycache__/
 *.log
 render-preview/
 .DS_Store
+
+# Native bespoke review exports are packaged as release assets.
+bench/reviews/bespoke-tools-v1/*/*.step
+bench/reviews/bespoke-tools-v1/*/*.stl
+bench/reviews/bespoke-tools-v1/*/*.FCStd
+bench/reviews/bespoke-tools-v1/*/*.FCBak
+bench/reviews/bespoke-tools-v1/*/*.glb

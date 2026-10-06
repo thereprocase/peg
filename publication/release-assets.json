@@ -1590,5 +1590,9 @@
   "pegs-current-fit__v1__nub120__all-formats-and-source.zip": {
     "sha256": "dba649d43d5c7a2c07d19b1d4a3f84c19a4de94f204bbddc609b733510e699b9",
     "bytes": 4963217
+  },
+  "repro-bespoke-tools__v1__cad-source-and-review.zip": {
+    "sha256": "71604ba0df3f2e6921ea650eafb502bfddd12426a0ea63335f7339c1cb549eeb",
+    "bytes": 4496129
   }
 }

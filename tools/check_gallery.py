@@ -72,5 +72,8 @@ if (D/'current-pegs/catalog.json').exists():
 if (R/'docs/pegs/catalog.json').exists():
  import runpy
  runpy.run_path(str(R/'tools/check_peg_downloads.py'),run_name='__main__')
+if (D/'bespoke-tools/index.html').exists():
+ import runpy
+ runpy.run_path(str(R/'tools/check_bespoke_tools.py'),run_name='__main__')
 report={'source_files':len(source),'release_assets':len(assets),'html_links':links,'errors':errors,'site_bytes':sum(p.stat().st_size for p in (R/'docs').rglob('*') if p.is_file())}
 print(json.dumps(report,indent=2));assert not errors

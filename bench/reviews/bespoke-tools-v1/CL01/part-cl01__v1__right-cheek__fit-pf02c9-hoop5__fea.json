@@ -1,0 +1,62 @@
+{
+ "name": "part-cl01__v1__right-cheek__fit-pf02c9-hoop5",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 2.5,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 52549,
+   "elements": 32683,
+   "fixed_nodes": 4501,
+   "loads": [
+    {
+     "id": "sideways",
+     "force_N": [
+      5,
+      0,
+      0
+     ],
+     "point": [
+      0,
+      42,
+      -15
+     ],
+     "what": "",
+     "deflection_at_load_mm": 0.007,
+     "stiffness_N_per_mm": 712.5,
+     "max_deflection_mm": 0.0096,
+     "max_at": [
+      -24.4,
+      54.0,
+      -5.0
+     ]
+    },
+    {
+     "id": "down",
+     "force_N": [
+      0,
+      0,
+      -5
+     ],
+     "point": [
+      0,
+      42,
+      -15
+     ],
+     "what": "",
+     "deflection_at_load_mm": 0.0056,
+     "stiffness_N_per_mm": 892.8,
+     "max_deflection_mm": 0.0087,
+     "max_at": [
+      -1.2,
+      54.0,
+      -5.0
+     ]
+    }
+   ]
+  }
+ ]
+}
