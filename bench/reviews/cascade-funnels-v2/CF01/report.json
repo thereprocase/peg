@@ -1,0 +1,260 @@
+{
+  "id": "CF01",
+  "name": "Right-high cascading tool funnels",
+  "cells": 4,
+  "pose": "upright",
+  "pickup_lift_mm": 82,
+  "pickup_forward_mm": 100,
+  "load_point": [
+    -25.0,
+    83,
+    -14
+  ],
+  "tool_spec": {
+    "seats": [
+      {
+        "position": "right",
+        "x_mm": -25.0,
+        "mouth_z_mm": -10.0,
+        "throat_z_mm": -42.0,
+        "nominal_mouth_mm": [
+          22,
+          76
+        ],
+        "throat_mm": [
+          11,
+          48
+        ],
+        "exit_mm": [
+          14,
+          48
+        ]
+      },
+      {
+        "position": "middle",
+        "x_mm": 0.0,
+        "mouth_z_mm": -35.4,
+        "throat_z_mm": -67.4,
+        "nominal_mouth_mm": [
+          22,
+          76
+        ],
+        "throat_mm": [
+          11,
+          48
+        ],
+        "exit_mm": [
+          14,
+          48
+        ]
+      },
+      {
+        "position": "left",
+        "x_mm": 25.0,
+        "mouth_z_mm": -60.8,
+        "throat_z_mm": -92.8,
+        "nominal_mouth_mm": [
+          22,
+          76
+        ],
+        "throat_mm": [
+          11,
+          48
+        ],
+        "exit_mm": [
+          14,
+          48
+        ]
+      }
+    ],
+    "reference": "Existing rectangular-tool-funnel v3 apertures. Generic closed-tool clearance envelopes; photo sets arrangement, not measured tool geometry.",
+    "center_spacing_mm": 25.0,
+    "step_up_toward_right_mm": 25.4
+  },
+  "description": "Three edge-on funnel seats at 25.0 mm centres. Right seat highest; each seat steps down 25.4 mm toward the left. Existing v3 aperture dimensions retained on one four-column backplate.",
+  "version": 2,
+  "prefix": "part-cf01__v2__upright__fit-pf02c9-hoop5",
+  "mount": {
+    "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+    "top": {
+      "upper_ribs_mm": 0.5,
+      "clamp_mm": 0.49
+    },
+    "columns_x_mm": [
+      -38.099999999999994,
+      38.099999999999994
+    ],
+    "plate": {
+      "x0": -49.8,
+      "x1": 49.8,
+      "y0": 0.15,
+      "y1": 5.55,
+      "z0": -114.8,
+      "z1": 5.12
+    },
+    "hoop": {
+      "concept": "HOOP",
+      "arm_mm": 0.8,
+      "tip_half": 2.0,
+      "even_catch_wall": true,
+      "ramp_wall": true,
+      "nose_mm": 0.9,
+      "root_gusset_mm": 0.4,
+      "body_ribs_mm": 0.3,
+      "orientation": "hoop band horizontal, flexes in X (the print layers)",
+      "detail": {
+        "width_across_barbs_mm": 7.35,
+        "catch_angle_deg": 55,
+        "catch_length_mm": 0.6476919728439815,
+        "ramp_angle_deg": 15.592255624701878,
+        "crest_y_mm": [
+          -4.487691972843981,
+          -4.787691972843981
+        ],
+        "catch_bearing_per_side_mm": 0.5,
+        "nose_mm": 0.9,
+        "ramp_wall_mm": 0.8,
+        "min_wall_mm": 0.8,
+        "root_gusset_mm": 0.4,
+        "root_gusset_length_mm": 1.5,
+        "arm_mm": 0.8,
+        "closed_nose_mm": 0.9,
+        "band_half_height_mm": 1.4,
+        "root_clip_radius_mm": 2.95,
+        "cheek_offset_down_mm": 0.0
+      }
+    },
+    "rows": {
+      "hooks": [
+        0
+      ],
+      "bearing": [
+        2
+      ],
+      "hoop": [
+        4
+      ],
+      "empty": [
+        1,
+        3
+      ]
+    },
+    "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+  },
+  "volume_mm3": 277695.49674002547,
+  "print_bounds_mm": [
+    99.60000020000035,
+    100.85961600445218,
+    120.24975528621785
+  ],
+  "pose_matrix": [
+    1.0,
+    0.0,
+    0.0,
+    49.8,
+    0.0,
+    1.0,
+    0.0,
+    10.79,
+    0.0,
+    0.0,
+    1.0,
+    114.80000009999999,
+    0,
+    0,
+    0,
+    1
+  ],
+  "assets": {
+    "installed_step": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.step",
+    "installed_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.stl",
+    "print_step": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.step",
+    "print_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.stl",
+    "tool-reference_step": "part-cf01__v2__upright__fit-pf02c9-hoop5__tool-reference.step",
+    "tool-reference_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__tool-reference.stl",
+    "freecad": "part-cf01__v2__upright__fit-pf02c9-hoop5.FCStd"
+  },
+  "checks": {
+    "native_valid": true,
+    "solids": 1,
+    "unchanged_board_side_delta_mm3": 0.0,
+    "tool_routes": [
+      {
+        "tool_index": 0,
+        "seated_clearance_mm": 1.5,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 82,
+        "forward_mm": 100
+      },
+      {
+        "tool_index": 1,
+        "seated_clearance_mm": 1.0,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 82,
+        "forward_mm": 100
+      },
+      {
+        "tool_index": 2,
+        "seated_clearance_mm": 1.0,
+        "sampled_poses": 41,
+        "max_intersection_mm3": 0,
+        "lift_mm": 82,
+        "forward_mm": 100
+      }
+    ],
+    "tool_neighbor_clearances_mm": [
+      6.0,
+      31.0,
+      6.0
+    ],
+    "limits": "Sampled rigid tool-envelope pickup checks. Physical fit, support removal, stiffness, loads, and complete holder installation require testing. Tool shape assumptions are in reference metadata."
+  },
+  "source_sha256": "e2c0c59e2f82646ae53f317ecb059d4a1560b3ce46298e585a63d3dcb1f1602e",
+  "source_dependencies": {
+    "bench/source/bespoke_tools_v1/build.py": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+  },
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "files": {
+    "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.step": {
+      "sha256": "55238771608c7cba34e3e50c9ca52fdfe36dc745d1bd1c10c90eaa267e92a012",
+      "bytes": 562044
+    },
+    "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.stl": {
+      "sha256": "926cc8d42872ebc11cd1dab50ec288b56dea5df618871ee04c85b1b16a9997de",
+      "bytes": 4142484
+    },
+    "part-cf01__v2__upright__fit-pf02c9-hoop5__print.step": {
+      "sha256": "69033d18af95e65a2877a403516b80497ededd80a1a547a45975ded2102288e0",
+      "bytes": 569670
+    },
+    "part-cf01__v2__upright__fit-pf02c9-hoop5__print.stl": {
+      "sha256": "ab339a4d5c35e0a5caa6b3179b9e3ab23ca266a32714657b10e45feeb9b2b0d4",
+      "bytes": 4146784
+    },
+    "part-cf01__v2__upright__fit-pf02c9-hoop5__tool-reference.step": {
+      "sha256": "dd1c80dc06389bf2fcdb8b11bf9018f07c47813900b3174893394b9bf13fd4f0",
+      "bytes": 90156
+    },
+    "part-cf01__v2__upright__fit-pf02c9-hoop5__tool-reference.stl": {
+      "sha256": "adda46e9d591cbc633373d51a95c12474f0edad74026516cc4890f487d901232",
+      "bytes": 1275384
+    },
+    "part-cf01__v2__upright__fit-pf02c9-hoop5.FCStd": {
+      "sha256": "6765c7bc15c71097f194597d592459be260860cd43825222b6f0db0363d61802",
+      "bytes": 289373
+    }
+  },
+  "revision": "Plain continuous funnel mouths. Removed the outside rim bevel and flared inner rim band visible from the front. Original 22 x 76 mm nominal mouth and 11 x 48 mm throat preserved."
+}

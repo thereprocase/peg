@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "minimum_front_board_y_mm": 0.0,
+  "poses": 2590,
+  "max_point_step_mm": 0.05,
+  "mesh_deflection_mm": 0.005,
+  "worst": {
+    "point_yz": [
+      0.15,
+      -114.8
+    ],
+    "translation_y": -0.15,
+    "angle_deg": 0.0
+  },
+  "scope": "Front material vs board plane only; sampled nominal reference route, not certification of changed interference pegs or physical installation.",
+  "input_sha256": "55238771608c7cba34e3e50c9ca52fdfe36dc745d1bd1c10c90eaa267e92a012",
+  "checker_sha256": "b539534deb12583027433caa51aff5844ac7526dff4e92f73d128be09c57c59e"
+}

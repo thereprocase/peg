@@ -12,3 +12,9 @@ bench/reviews/bespoke-tools-v1/*/*.stl
 bench/reviews/bespoke-tools-v1/*/*.FCStd
 bench/reviews/bespoke-tools-v1/*/*.FCBak
 bench/reviews/bespoke-tools-v1/*/*.glb
+# CF01 v2 native exports are distributed in its immutable CAD release.
+bench/reviews/cascade-funnels-v2/*/*.step
+bench/reviews/cascade-funnels-v2/*/*.stl
+bench/reviews/cascade-funnels-v2/*/*.FCStd
+bench/reviews/cascade-funnels-v2/*/*.FCBak
+bench/reviews/cascade-funnels-v2/*/*.glb
