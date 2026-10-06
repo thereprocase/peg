@@ -6,7 +6,7 @@
       "id": "CF01",
       "name": "Cascading tool funnels",
       "family": "solder-modules",
-      "version": "v2",
+      "version": "v3",
       "kind": "mounted",
       "new_design": true,
       "fit_label": "PF02 #9 / PF07 #5",
@@ -18,24 +18,24 @@
         120.24975528621785
       ],
       "assets": {
-        "installed_glb": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.glb",
-        "installed_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.stl",
-        "installed_png": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.png",
-        "print_glb": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.glb",
-        "print_stl": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.stl",
-        "print_png": "part-cf01__v2__upright__fit-pf02c9-hoop5__print.png",
-        "preview_png": "part-cf01__v2__upright__fit-pf02c9-hoop5__installed.png",
-        "checks": "part-cf01__v2__upright__fit-pf02c9-hoop5__checks.json",
-        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/cascade-funnels-v2-2026-10-06/cascade-funnels__v2__cad-source-and-review.zip"
+        "installed_glb": "part-cf01__v3__upright__fit-pf02c9-hoop5__installed.glb",
+        "installed_stl": "part-cf01__v3__upright__fit-pf02c9-hoop5__installed.stl",
+        "installed_png": "part-cf01__v3__upright__fit-pf02c9-hoop5__installed.png",
+        "print_glb": "part-cf01__v3__upright__fit-pf02c9-hoop5__print.glb",
+        "print_stl": "part-cf01__v3__upright__fit-pf02c9-hoop5__print.stl",
+        "print_png": "part-cf01__v3__upright__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-cf01__v3__upright__fit-pf02c9-hoop5__installed.png",
+        "checks": "part-cf01__v3__upright__fit-pf02c9-hoop5__checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/cascade-funnels-v3-2026-10-06/cascade-funnels__v3__cad-source-and-review.zip"
       },
       "extra_downloads": [
         {
           "label": "Detailed review and tool references",
-          "url": "../cascade-funnels/?v=2"
+          "url": "../cascade-funnels/?v=3"
         }
       ],
       "notes": {
-        "orientation": "Print upright on the common flat bottom. Three touching funnels at 25 mm centres; the right seat is highest, with 25.4 mm steps down toward the left. Plain funnel mouths.",
+        "orientation": "Print upright on the common flat bottom. Three touching funnels at 25 mm centres; the right seat is highest, with 25.4 mm steps down toward the left. Rear webs are tucked inside the lower tubes, clearing the projecting side fins.",
         "upper_pegs": "Original PF02 #9 upper hooks retained. Front-body installation screening follows the nominal reference route.",
         "supports": "Local P1S / PolyLite ASA toolpaths reviewed. Supports remain behind the mounting face. Reslice for your printer and filament.",
         "mount": "Shared 99.6 mm backplate with PF02 #9 hooks and PF07 #5 lower hoops; hoop flex stays within the print layers.",

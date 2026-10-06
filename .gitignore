@@ -18,3 +18,10 @@ bench/reviews/cascade-funnels-v2/*/*.stl
 bench/reviews/cascade-funnels-v2/*/*.FCStd
 bench/reviews/cascade-funnels-v2/*/*.FCBak
 bench/reviews/cascade-funnels-v2/*/*.glb
+
+# CF01 v3 native exports are distributed in its immutable CAD release.
+bench/reviews/cascade-funnels-v3/*/*.step
+bench/reviews/cascade-funnels-v3/*/*.stl
+bench/reviews/cascade-funnels-v3/*/*.FCStd
+bench/reviews/cascade-funnels-v3/*/*.FCBak
+bench/reviews/cascade-funnels-v3/*/*.glb

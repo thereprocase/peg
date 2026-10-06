@@ -1,12 +1,15 @@
 """Check the exact CF01 source, native evidence and published preview receipts."""
 from pathlib import Path
 import json,hashlib
-R=Path(__file__).resolve().parents[1];D=R/'bench/reviews/cascade-funnels-v2/CF01';P=R/'docs/gallery/cascade-funnels'
+R=Path(__file__).resolve().parents[1];D=R/'bench/reviews/cascade-funnels-v3/CF01';P=R/'docs/gallery/cascade-funnels'
 def read(name):return json.loads((D/name).read_text())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 r=read('report.json');g=read('print-geometry.json');j=read('junctions.json');f=read('stiffness.json');i=read('installation-screen.json');t=read('toolpaths.json')
-assert r['source_sha256']==j['source_sha256']==sha(R/'bench/source/cascade_funnels_v2/build.py')
-assert r['version']==2 and '__v2__' in r['prefix']
+assert r['source_sha256']==j['source_sha256']==sha(R/'bench/source/cascade_funnels_v3/build.py')
+assert r['version']==3 and '__v3__' in r['prefix']
+assert max(j['missing_funnel_shell_mm3'])<1e-5
+fin=read('fin-removal.json');assert fin['passed'] and 1000<fin['removed_volume_mm3']<65000
+assert fin['inputs']['installed_step']==r['files'][r['assets']['installed_step']]['sha256']
 assert g['passed'] and j['passed'] and f['passed'] and i['pass']
 assert all(n>0 for n in j['adjacent_funnel_overlap_mm3'])
 assert j['order']=='right highest, middle, left lowest'

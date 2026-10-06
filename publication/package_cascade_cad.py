@@ -3,15 +3,15 @@ from pathlib import Path
 import argparse,hashlib,json,zipfile
 R=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('output',type=Path);out=p.parse_args().output;out.mkdir(parents=True,exist_ok=True)
-roots=[R/'bench/source/cascade_funnels_v2',R/'bench/source/bespoke_tools_v1',R/'bench/source/gallery_current_mounts_v1/station_snapshot',R/'bench/reviews/cascade-funnels-v2/CF01']
+roots=[R/'bench/source/cascade_funnels_v3',R/'bench/source/bespoke_tools_v1',R/'bench/source/gallery_current_mounts_v1/station_snapshot',R/'bench/reviews/cascade-funnels-v3/CF01']
 paths=[p for root in roots for p in root.rglob('*') if p.is_file() and p.suffix.lower() in {'.py','.md','.json','.step','.stl','.scad','.fcstd','.svg'}]
 paths += [R/'bench/source/gallery_current_mounts_v1/remount.py']
 paths += [R/'bench/source/gallery_new_designs_v1/snapshot/bench/source/solder_v12'/name for name in ['checks.py','fea.py']]
 entries={p.relative_to(R).as_posix():p.read_bytes() for p in paths}
-entries['README.txt']=b'CF01 cascading tool funnels. Right highest; middle and left step down 25.4 mm. Read bench/reviews/cascade-funnels-v2/CF01/NOTES.md. Rebuild with a FreeCAD 1.1 Python runtime: timeout 240 FREECAD_PYTHON bench/source/cascade_funnels_v2/build.py. Print, hand access and tool fit need physical checks. The STL is in upright print orientation. No machine G-code is included.\n'
+entries['README.txt']=b'CF01 cascading tool funnels. Right highest; middle and left step down 25.4 mm. Read bench/reviews/cascade-funnels-v3/CF01/NOTES.md. Rebuild with a FreeCAD 1.1 Python runtime: timeout 240 FREECAD_PYTHON bench/source/cascade_funnels_v3/build.py. Print, hand access and tool fit need physical checks. The STL is in upright print orientation. No machine G-code is included.\n'
 manifest={name:dict(bytes=len(data),sha256=hashlib.sha256(data).hexdigest()) for name,data in entries.items()}
 entries['MANIFEST.json']=(json.dumps(manifest,indent=2)+'\n').encode()
-path=out/'cascade-funnels__v2__cad-source-and-review.zip'
+path=out/'cascade-funnels__v3__cad-source-and-review.zip'
 with zipfile.ZipFile(path,'w',zipfile.ZIP_DEFLATED) as z:
  for name,data in sorted(entries.items()):z.writestr(name,data)
 with zipfile.ZipFile(path) as z:

@@ -1,11 +1,13 @@
 """Refresh CF01 public media, evidence and page receipts after the local reviews."""
 from pathlib import Path
 import hashlib,json,shutil
-R=Path(__file__).resolve().parents[1];B=R/'bench/reviews/cascade-funnels-v2/CF01';D=R/'docs/gallery/cascade-funnels'
-r=json.loads((B/'report.json').read_text());evidence={name.removesuffix('.json'):json.loads((B/name).read_text()) for name in ['report.json','junctions.json','print-geometry.json','installation-screen.json','stiffness.json','toolpaths.json']}
+R=Path(__file__).resolve().parents[1];B=R/'bench/reviews/cascade-funnels-v3/CF01';D=R/'docs/gallery/cascade-funnels'
+r=json.loads((B/'report.json').read_text());evidence={name.removesuffix('.json'):json.loads((B/name).read_text()) for name in ['report.json','junctions.json','print-geometry.json','installation-screen.json','stiffness.json','toolpaths.json','fin-removal.json']}
 assert evidence['stiffness']['inputs']['step']==r['files'][r['assets']['installed_step']]['sha256']
 assert evidence['stiffness']['inputs']['spec']==hashlib.sha256((B/(r['prefix']+'__fea-spec.json')).read_bytes()).hexdigest()
 assert evidence['stiffness']['passed'] and evidence['print-geometry']['passed'] and evidence['junctions']['passed']
+assert evidence['fin-removal']['passed'] and evidence['fin-removal']['inputs']['installed_step']==r['files'][r['assets']['installed_step']]['sha256']
+assert max(evidence['junctions']['missing_funnel_shell_mm3'])<1e-5
 evidence['physical_tests']='Pending'
 for name in ['installed.glb','print.glb','loaded.glb','toolpaths.svg',r['assets']['print_stl']]:shutil.copyfile(B/name,D/name)
 (D/'checks.json').write_text(json.dumps(evidence,indent=2)+'\n')

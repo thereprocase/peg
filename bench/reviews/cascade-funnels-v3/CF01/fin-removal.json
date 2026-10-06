@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "removed_volume_mm3": 40723.88147840787,
+  "added_volume_mm3": 0.0,
+  "web_width_before_mm": 30,
+  "web_width_after_mm": 18,
+  "lower_gap_probe_volumes_mm3": [
+    0.0,
+    0.0
+  ],
+  "previous_gap_probe_volumes_mm3": [
+    2783.9999999999995,
+    2783.9999999999995
+  ],
+  "inputs": {
+    "previous_step": "55238771608c7cba34e3e50c9ca52fdfe36dc745d1bd1c10c90eaa267e92a012",
+    "installed_step": "38796fc83ad09bed572cc63657f4b9245b94735779864d3a9f7318e61cca6a5d"
+  },
+  "previous_release": "https://github.com/thereprocase/peg/releases/tag/cascade-funnels-v2-2026-10-06"
+}

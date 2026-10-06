@@ -32,7 +32,7 @@ def main():
             parsed = urlsplit(address)
             if parsed.scheme:
                 assert address.startswith('https://github.com/thereprocase/peg/releases/download/'), address
-                assert any(tag in address for tag in ['current-pegs-v1-2026-10-04/', 'p09-36-current-pegs-v1-2026-10-04/', 'p09-36-flat-top-v2-2026-10-04/', 'current-pegs-v2-2026-10-04/', 'new-designs-v1-2026-10-04/', 'cascade-funnels-v2-2026-10-06/']), address
+                assert any(tag in address for tag in ['current-pegs-v1-2026-10-04/', 'p09-36-current-pegs-v1-2026-10-04/', 'p09-36-flat-top-v2-2026-10-04/', 'current-pegs-v2-2026-10-04/', 'new-designs-v1-2026-10-04/', 'cascade-funnels-v2-2026-10-06/', 'cascade-funnels-v3-2026-10-06/']), address
                 name = unquote(parsed.path.rsplit('/', 1)[-1])
                 assert name in assets, name
                 assert address in moves.values(), address

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "missing_funnel_shell_mm3": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "adjacent_funnel_overlap_mm3": [
+    34.48341725456108,
+    34.48341725455983
+  ],
+  "centres_mm": 25,
+  "height_steps_mm": 25.4,
+  "order": "right highest, middle, left lowest",
+  "source_sha256": "430855a651ca0a054a4ec80a219853d3232116d2538ed97d6e57666c536e011e"
+}
