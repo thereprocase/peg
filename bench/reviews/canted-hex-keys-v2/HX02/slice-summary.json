@@ -1,0 +1,32 @@
+{
+  "id": "HX02",
+  "input_sha256": "02a659030c2d750c36ac80307d22bfa04be52bc37c6f0457d0b0966076127354",
+  "scale": 1.0054293183189222,
+  "translation_mm": [
+    13.878479507111834,
+    64.2460188337334,
+    -1.0054281155876198e-07
+  ],
+  "profiles": {
+    "machine": "Bambu Lab P1S 0.4 nozzle (system)",
+    "process": "0.20mm Standard @BBL X1C (system) + review overrides",
+    "filament": "PolyLite ASA - ReproCal (owner calibrated)"
+  },
+  "profile_hashes": {
+    "machine.json": "97cd6adab7714c6ac91e47c8fee12180bd3b4f362d3e7882f824bef2f5c15459",
+    "process.json": "b8054761df316fa8734ccdf3401d302354e3dcc92ee7f7bca508065f40b397ce",
+    "filament.json": "d7c4df5624af86790f7c4e0b87646b35d6200595a34327f36652653229b03d36"
+  },
+  "settings": {
+    "layer_height": "0.2",
+    "wall_loops": "2",
+    "sparse_infill_density": "20%",
+    "support_type": "tree(auto)",
+    "support_style": "organic",
+    "brim_width": "5",
+    "total filament used [g]": null,
+    "estimated printing time (normal mode)": null,
+    "total layer number": "1011"
+  },
+  "local_only": true
+}

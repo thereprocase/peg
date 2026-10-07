@@ -6,40 +6,40 @@
       "id": "HX02",
       "name": "Full-depth canted metric hex-key rack",
       "family": "solder-modules",
-      "version": "v1",
+      "version": "v2",
       "kind": "mounted",
       "new_design": true,
       "fit_label": "PF02 #9 / PF07 #5",
       "pose": "right-cheek",
       "installed_camera_orbit": "25deg 65deg auto",
       "print_bounds_mm": [
-        212.97490101970388,
-        143.45025428784453,
-        201.20000044446874
+        227.02271566720233,
+        150.6976931642156,
+        201.21326041921998
       ],
       "assets": {
-        "installed_glb": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.glb",
-        "installed_stl": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.stl",
-        "installed_png": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.png",
-        "print_glb": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.glb",
-        "print_stl": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.stl",
-        "print_png": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__print.png",
-        "preview_png": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__installed.png",
-        "checks": "part-hx02__v1__right-cheek__fit-pf02c9-hoop5__checks.json",
-        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/canted-hex-keys-v1-2026-10-06/canted-hex-keys__v1__cad-source-and-review.zip"
+        "installed_glb": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__installed.glb",
+        "installed_stl": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__installed.stl",
+        "installed_png": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__installed.png",
+        "print_glb": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__print.glb",
+        "print_stl": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__print.stl",
+        "print_png": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__installed.png",
+        "checks": "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/canted-hex-keys-v2-2026-10-07/canted-hex-keys__v2__cad-source-and-review.zip"
       },
       "extra_downloads": [
         {
-          "label": "Loaded view, key lengths and review",
-          "url": "../canted-hex-keys/?v=1"
+          "label": "Loaded view, key lengths, v2 notes and v1 history",
+          "url": "../canted-hex-keys/?v=2"
         }
       ],
       "notes": {
-        "orientation": "Print on the broad right cheek. Full-depth blind sockets lean 30\u00b0 outward from vertical. The bends and short arms remain exposed and slope toward the desk.",
+        "orientation": "Print on the broad right cheek. Graduated fluted pipes, one per key, lean 30\u00b0 outward from vertical; every finish is shaped for this pose.",
         "upper_pegs": "Original PF02 #9 upper hooks retained. Complete front-body installation screening follows the nominal reference route.",
-        "supports": "Local P1S / PolyLite ASA toolpaths reviewed. Pointed socket roofs grow in the cheek print; peg supports are accessible behind the mounting face.",
+        "supports": "Body grows without supports: no face past 45\u00b0, pointed socket roofs, oblique-cut numerals. Peg supports are accessible behind the mounting face.",
         "mount": "201.2 mm wide, eight grid cells and two mounting columns. PF07 #5 hoops are oriented for flex within the print layers.",
-        "qualification": "Nine sizes: 1.5, 2, 2.5, 3, 4, 5, 6, 8 and 10 mm. Owner straight lengths; 4 mm interpolated to 140 mm. CAD, sampled axial withdrawal, print geometry, installation and solid-ASA stiffness screens pass. Physical print, fit, handling and support release remain pending.",
+        "qualification": "Nine sizes, 1.5\u201310 mm, with owner straight lengths (4 mm interpolated). CAD, sampled axial withdrawal, print geometry, installation, solid-ASA stiffness and local slice screens pass. Physical print, fit, handling and support release remain pending.",
         "status": "Toolpaths reviewed \u00b7 physical test pending"
       },
       "credit": ""

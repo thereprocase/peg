@@ -27,6 +27,8 @@ assert all(v['maximum'][1]<.15 for k,v in t['features'].items() if k in ['Suppor
 # Native face-angle screening passes; bound these explicitly in the sliced evidence.
 assert t['features'].get('Overhang wall',{}).get('body_max_move_mm',0)<.02
 assert t['features'].get('Overhang wall',{}).get('body_side_filament_mm',0)<.002
+# The page now shows v2 (tools/check_canted_hex_keys_v2.py); v1 keeps only its print STL there.
 for n,v in json.loads((R/'publication/canted-hex-keys-v1-additions.json').read_text()).items():
+ if '__v1__' not in n:continue
  p=P/n;assert sha(p)==v['sha256'] and p.stat().st_size==v['bytes'],n
 print('HX02: nine full-depth sockets, 30-degree axes, downward short arms, withdrawal, native CAD, print, installation, stiffness, slicing and public receipts PASS; physical tests pending')

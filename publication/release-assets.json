@@ -1610,5 +1610,9 @@
   "canted-hex-keys__v1__cad-source-and-review.zip": {
     "sha256": "8dcc7b75183cca11999c61360f15a8fcfab31836f0a276fbc7fe3ab1352b4617",
     "bytes": 2618511
+  },
+  "canted-hex-keys__v2__cad-source-and-review.zip": {
+    "sha256": "0b21e7a2e11fa01a801a589580047aaf66a949e1fa2d055d00469f93f37791f7",
+    "bytes": 15819141
   }
 }

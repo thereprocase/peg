@@ -1,0 +1,19 @@
+{
+  "id": "HX02",
+  "name": "Canted metric hex-key rack",
+  "requested_cant_degrees": 30,
+  "units": "mm",
+  "keys": [
+    {"across_flats": 1.5, "straight_length": 89, "length_source": "owner"},
+    {"across_flats": 2, "straight_length": 98, "length_source": "owner"},
+    {"across_flats": 2.5, "straight_length": 110, "length_source": "owner"},
+    {"across_flats": 3, "straight_length": 123, "length_source": "owner"},
+    {"across_flats": 4, "straight_length": 140, "length_source": "linear interpolation between owner's 3 mm and 5 mm keys"},
+    {"across_flats": 5, "straight_length": 157, "length_source": "owner"},
+    {"across_flats": 6, "straight_length": 176, "length_source": "owner"},
+    {"across_flats": 8, "straight_length": 194, "length_source": "owner"},
+    {"across_flats": 10, "straight_length": 217, "length_source": "owner"}
+  ],
+  "excluded_sizes": [7, 9],
+  "short_arms_and_bends": "Dimensions not supplied; any reference model must label its assumptions."
+}

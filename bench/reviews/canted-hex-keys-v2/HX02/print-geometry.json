@@ -1,0 +1,351 @@
+{
+  "watertight": true,
+  "components": 1,
+  "positive_volume": true,
+  "overhangs": {
+    "features": [],
+    "peg_area_mm2": 132.2,
+    "other_area_mm2": 0.0,
+    "passed": true,
+    "label_ceiling_area_mm2": 0
+  },
+  "islands": {
+    "points": [
+      {
+        "print_xyz": [
+          8.5,
+          107.7,
+          184.1
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          83.5,
+          96.9,
+          -3.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.5,
+          107.8,
+          139.3
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          38.7,
+          97.0,
+          -3.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.6,
+          108.1,
+          122.5
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          21.9,
+          97.3,
+          -3.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.5,
+          107.7,
+          77.7
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          -22.9,
+          96.9,
+          -3.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.4,
+          106.7,
+          34.9
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -65.7,
+          95.9,
+          -3.0
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.7,
+          109.3,
+          101.2
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          0.6,
+          98.5,
+          -3.2
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.6,
+          127.5,
+          16.4
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          -84.2,
+          116.7,
+          -55.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          59.2,
+          123.0,
+          185.9
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          85.3,
+          112.2,
+          -53.7
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          57.7,
+          124.7,
+          167.1
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          66.5,
+          113.9,
+          -52.3
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          57.8,
+          125.4,
+          122.4
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          21.8,
+          114.6,
+          -52.3
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.0,
+          124.0,
+          122.3
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          21.7,
+          113.3,
+          -54.6
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.2,
+          127.2,
+          34.8
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -65.8,
+          116.5,
+          -54.8
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.4,
+          125.2,
+          77.5
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -23.1,
+          114.4,
+          -55.0
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.9,
+          124.2,
+          100.4
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -0.2,
+          113.4,
+          -55.5
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          57.3,
+          124.1,
+          151.3
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          50.7,
+          113.3,
+          -51.9
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          59.5,
+          123.5,
+          141.1
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          40.5,
+          112.7,
+          -54.0
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.5,
+          107.6,
+          55.1
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          -45.5,
+          96.8,
+          -3.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          8.6,
+          108.0,
+          32.8
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          -67.8,
+          97.2,
+          -3.1
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.8,
+          128.0,
+          8.1
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -92.5,
+          117.2,
+          -55.4
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          60.8,
+          125.6,
+          55.0
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -45.6,
+          114.8,
+          -55.3
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          61.5,
+          126.5,
+          32.7
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -67.9,
+          115.8,
+          -56.0
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          59.2,
+          127.9,
+          32.8
+        ],
+        "vertices": 1,
+        "installed_xyz": [
+          -67.8,
+          117.1,
+          -53.7
+        ],
+        "declared": true
+      },
+      {
+        "print_xyz": [
+          58.8,
+          125.4,
+          100.4
+        ],
+        "vertices": 2,
+        "installed_xyz": [
+          -0.2,
+          114.6,
+          -53.4
+        ],
+        "declared": true
+      }
+    ],
+    "passed": true
+  },
+  "bed_face_mm2": 15832.886918519745,
+  "bounds_mm": [
+    227.01052856445312,
+    150.6898193359375,
+    201.1999968482423
+  ],
+  "declared_exceptions": "Engraved numerals only: starting points (digit counters) inside a numeral box; flagged faces inside a numeral box with span < 2.0 mm (none in v2). The review slice supports these counters; a support blocker over the numerals avoids that.",
+  "inputs": {
+    "installed_stl": "3e9b4fed134be6f450d52e5d99a1089ecff3463c56af3f3eb4505f30f7742c23",
+    "print_stl": "02a659030c2d750c36ac80307d22bfa04be52bc37c6f0457d0b0966076127354"
+  },
+  "passed": true
+}

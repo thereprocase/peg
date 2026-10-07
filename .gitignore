@@ -32,3 +32,9 @@ bench/reviews/canted-hex-keys-v1/*/*.stl
 bench/reviews/canted-hex-keys-v1/*/*.FCStd
 bench/reviews/canted-hex-keys-v1/*/*.FCBak
 bench/reviews/canted-hex-keys-v1/*/*.glb
+# HX02 v2 native exports are distributed in its immutable CAD release.
+bench/reviews/canted-hex-keys-v2/*/*.step
+bench/reviews/canted-hex-keys-v2/*/*.stl
+bench/reviews/canted-hex-keys-v2/*/*.FCStd
+bench/reviews/canted-hex-keys-v2/*/*.FCBak
+bench/reviews/canted-hex-keys-v2/*/*.glb
