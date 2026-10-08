@@ -1,8 +1,7 @@
-"""Check HX04 v1 (history): its evidence, socket contracts and the v1 print STL kept on the page. v2 replaced the page
-media and moved the sources on; v1 sources and CAD stay in the v1 release bundle (tools/check_key_fan_v2.py checks v2)."""
+"""Check HX04 v2 evidence (full peg grid, install swing, brace zones), socket contracts and public artifact receipts."""
 from pathlib import Path
 import hashlib, json
-R = Path(__file__).resolve().parents[1]; B = R/'bench/reviews/key-fan-v1/HX04'; P = R/'docs/gallery/key-fan'
+R = Path(__file__).resolve().parents[1]; B = R/'bench/reviews/key-fan-v2/HX04'; P = R/'docs/gallery/key-fan'
 
 
 def read(n): return json.loads((B/n).read_text(encoding='utf-8'))
@@ -10,7 +9,8 @@ def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
 
 
 r = read('report.json'); ex = read('exact-check.json'); fe = read('stiffness.json'); g = read('print-geometry.json'); sl = read('slice-summary.json')
-assert r['id'] == 'HX04' and r['version'] == 1 and r['pose'] == 'left-cheek'
+assert r['id'] == 'HX04' and r['version'] == 2 and r['pose'] == 'left-cheek'
+assert all(sha(R/p) == d for p, d in r['source_dependencies'].items()), 'source changed since the evidence was written'
 S = r['sockets']; assert len(S) == 26 and sorted({s['set'] for s in S}) == ['hex', 'tee', 'torx']
 key = {'hex': lambda s: float(s['size']), 'tee': lambda s: float(s['size'])}
 for s in S:                                                     # seat depth at least 4x the key size, never under 12 mm
@@ -28,7 +28,11 @@ assert g['islands']['passed'] or (len(g['islands'].get('declared', [])) == len(g
                                   and all(q['vertices'] == 1 and q['print_xyz'][0] >= g['extents_mm'][0]-.5 for q in g['islands']['points']))
 assert sl['plain']['input_sha256'] == sl['solid_zones']['input_sha256'] == sha(P/r['assets']['print.stl']) == r['files'][r['assets']['print.stl']]['sha256']
 assert sl['solid_zones']['features_g'].get('Internal solid infill', 0) > 50, 'solid-infill zones not applied by the slicer'
-assert sl['coupon_plain']['input_sha256'] == r['files'][r['assets']['coupon_print.stl']]['sha256']
-v1 = json.loads((R/'publication/key-fan-v1-additions.json').read_text())
-n = r['assets']['print.stl']; assert sha(P/n) == v1[n]['sha256'] and (P/n).stat().st_size == v1[n]['bytes'], n
-print('HX04 v1 (history): 26 sockets (4x seats, sloped floors, keyed T bores), exact storage and withdrawal, floors, print geometry, stiffness, slices with solid zones, coupon and public receipts PASS; physical tests pending')
+assert sl['coupon_plain']['input_sha256'] == r['files'][r['assets']['coupon_print.stl']]['sha256'] == sha(P/r['assets']['coupon_print.stl'])
+sw = read('install-swing.json')                       # a peg in every covered hole; seated clear, hoops snap
+assert sw['passed'] and sw['pegs'] == dict(hooks=9, locking=9, bearing=72) and sw['seated']['bearing_mm3'] < 1e-3
+assert sw['worst_bearing_per_peg_mm3'] <= sw['graze_per_peg_limit_mm3'] <= .25 and sw['seated']['locking_snap_mm3'] > 0
+assert min(l['stiffness_N_per_mm'] for c in fe['cases'] for l in c['loads']) > 1000
+for n, v in json.loads((R/'publication/key-fan-v2-additions.json').read_text()).items():
+    p = P/n; assert sha(p) == v['sha256'] and p.stat().st_size == v['bytes'], n
+print('HX04 v2: 26 sockets (4x seats, sloped floors, keyed T bores), 90-peg grid with install swing, exact storage and withdrawal, floors, print geometry, stiffness, slices with solid zones, coupon and public receipts PASS; physical tests pending')

@@ -1,0 +1,389 @@
+{
+ "rows": {
+  "hooks": 0,
+  "locking": 9,
+  "bearing": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ "pegs": {
+  "hooks": 9,
+  "locking": 9,
+  "bearing": 72
+ },
+ "steps": [
+  {
+   "deg": 25.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 24.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 24.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 23.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 23.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 22.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 22.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 21.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 21.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 20.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 20.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 19.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 19.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 18.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 18.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 17.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 17.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 16.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 16.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 15.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 15.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 14.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 14.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 13.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 13.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 12.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 12.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 11.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 11.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 10.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 10.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 9.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 9.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 8.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 8.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 7.5,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 7.0,
+   "bearing_mm3": 0.013,
+   "bearing_per_peg_mm3": 0.0014,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 6.5,
+   "bearing_mm3": 0.1178,
+   "bearing_per_peg_mm3": 0.0131,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 6.0,
+   "bearing_mm3": 0.3113,
+   "bearing_per_peg_mm3": 0.0346,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 5.5,
+   "bearing_mm3": 0.5645,
+   "bearing_per_peg_mm3": 0.0627,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 5.0,
+   "bearing_mm3": 0.8495,
+   "bearing_per_peg_mm3": 0.0944,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 4.5,
+   "bearing_mm3": 1.1398,
+   "bearing_per_peg_mm3": 0.1266,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 4.0,
+   "bearing_mm3": 1.4097,
+   "bearing_per_peg_mm3": 0.1566,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 3.5,
+   "bearing_mm3": 1.7246,
+   "bearing_per_peg_mm3": 0.1816,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 3.0,
+   "bearing_mm3": 2.1087,
+   "bearing_per_peg_mm3": 0.1988,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 2.5,
+   "bearing_mm3": 2.4894,
+   "bearing_per_peg_mm3": 0.2058,
+   "locking_mm3": 0.0,
+   "locking_per_peg_mm3": 0.0
+  },
+  {
+   "deg": 2.0,
+   "bearing_mm3": 2.9178,
+   "bearing_per_peg_mm3": 0.1999,
+   "locking_mm3": 0.02,
+   "locking_per_peg_mm3": 0.0022
+  },
+  {
+   "deg": 1.5,
+   "bearing_mm3": 3.3816,
+   "bearing_per_peg_mm3": 0.1788,
+   "locking_mm3": 10.0997,
+   "locking_per_peg_mm3": 1.1222
+  },
+  {
+   "deg": 1.0,
+   "bearing_mm3": 3.8747,
+   "bearing_per_peg_mm3": 0.14,
+   "locking_mm3": 52.0147,
+   "locking_per_peg_mm3": 5.7794
+  },
+  {
+   "deg": 0.5,
+   "bearing_mm3": 3.7461,
+   "bearing_per_peg_mm3": 0.0812,
+   "locking_mm3": 40.2985,
+   "locking_per_peg_mm3": 4.4776
+  },
+  {
+   "deg": 0.0,
+   "bearing_mm3": 0.0,
+   "bearing_per_peg_mm3": 0.0,
+   "locking_mm3": 2.9942,
+   "locking_per_peg_mm3": 0.3327
+  }
+ ],
+ "worst_bearing_mm3": 3.8747,
+ "worst_locking_before_snap_mm3": 0.0,
+ "worst_bearing_per_peg_mm3": 0.2058,
+ "seated": {
+  "bearing_mm3": 0.0,
+  "locking_snap_mm3": 2.9942
+ },
+ "graze_per_peg_limit_mm3": 0.25,
+ "passed": true
+}

@@ -1622,7 +1622,7 @@
       "id": "HX04",
       "name": "Three-tier key fan: hex, Torx and T-handles",
       "family": "solder-modules",
-      "version": "v1",
+      "version": "v2",
       "kind": "mounted",
       "new_design": true,
       "fit_label": "PF02 #9 / PF07 #5",
@@ -1634,28 +1634,28 @@
         236.0
       ],
       "assets": {
-        "installed_glb": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.glb",
-        "installed_stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.stl",
-        "installed_png": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.png",
-        "print_glb": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.glb",
-        "print_stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.stl",
-        "print_png": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.png",
-        "preview_png": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.png",
-        "checks": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__checks.json",
-        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/key-fan-v1-2026-10-08/key-fan__v1__cad-source-and-review.zip"
+        "installed_glb": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__installed.glb",
+        "installed_stl": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__installed.stl",
+        "installed_png": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__installed.png",
+        "print_glb": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__print.glb",
+        "print_stl": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__print.stl",
+        "print_png": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__installed.png",
+        "checks": "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/key-fan-v2-2026-10-08/key-fan__v2__cad-source-and-review.zip"
       },
       "extra_downloads": [
         {
-          "label": "Loaded view, fit coupon, solid-zone project and printing notes",
-          "url": "../key-fan/?v=1"
+          "label": "Loaded view, fit coupon, brace-zone project, printing notes and v1 history",
+          "url": "../key-fan/?v=2"
         }
       ],
       "notes": {
         "orientation": "Print on the user's left end. Rails, webs and plate follow chamfer-in-Z, fillet-in-XY; socket roofs are pointed and floors print as walls or floors.",
-        "upper_pegs": "PF02 #9 upper hooks and PF07 #5 hoops on the nine-cell pattern, mirrored from the reviewed right-cheek receiver for the left-end print (fit assumed equal).",
-        "supports": "Tree supports on the build plate only, under the peg hooks behind the mounting face; small label counters.",
-        "mount": "236 mm wide (ten cells shaved 8 mm a side), two mounting columns at \u00b1101.6 mm.",
-        "qualification": "26 tools: hex 1.5\u201310, Torx T10\u2013T50, Bondhus T-handles 2\u201310. Exact storage and withdrawal, floors, print geometry, solid-ASA stiffness and local slices pass. Physical print, fit and seating remain pending; print the fit coupon first.",
+        "upper_pegs": "A peg in every covered hole: 9 PF02 #9 hooks across the top row, 9 PF07 #5 locking hoops across the bottom row, 72 gravity-load bearing pegs between; reviewed profiles mirrored for the left-end print (fit assumed equal). Sampled install swing passes.",
+        "supports": "Tree supports on the build plate only, mostly under the 90 pegs behind the mounting face; small label counters.",
+        "mount": "236 mm wide (ten cells shaved 8 mm a side); 9 peg columns at 25.4 mm pitch (\u00b1101.6 mm) by 10 rows.",
+        "qualification": "26 tools: hex 1.5\u201310, Torx T10\u2013T50, Bondhus T-handles 2\u201310. Exact storage and withdrawal, install swing, floors, print geometry, solid-ASA stiffness and local slices pass. Physical print, fit, install and seating remain pending; print the fit coupon first.",
         "status": "CAD checks pass \u00b7 physical test pending"
       },
       "credit": ""

@@ -11,8 +11,9 @@ HERE = Path(__file__).resolve().parents[1]; R = HERE.parents[2]
 sys.path.insert(0, str(HERE.parents[0]/'gallery_new_designs_v1/snapshot/bench/source/solder_v12')); sys.path.insert(0, str(HERE/'study'))
 import checks, short as S
 d, c = Path(sys.argv[1]).resolve(), Path(sys.argv[2]).resolve()
-OUT = R/'bench/reviews/key-fan-v1/HX04'; OUT.mkdir(parents=True, exist_ok=True)
-PREFIX = 'part-hx04__v1__left-cheek__fit-pf02c9-hoop5'
+VER = int(os.environ.get('HX4_VERSION', 1))
+OUT = R/f'bench/reviews/key-fan-v{VER}/HX04'; OUT.mkdir(parents=True, exist_ok=True)
+PREFIX = f'part-hx04__v{VER}__left-cheek__fit-pf02c9-hoop5'
 
 
 def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -63,6 +64,8 @@ ex = json.loads((d/'checks.json').read_text()); (OUT/'exact-check.json').write_t
 fe = json.loads((d/'fea.json').read_text()); fe['inputs'] = dict(step=sha(d/'installed.step'))
 (OUT/'stiffness.json').write_text(json.dumps(fe, indent=1)+'\n', encoding='utf-8', newline='\n')
 shutil.copyfile(c/'coupon.json', OUT/'coupon.json')
+if (d/'swing.json').exists():                          # install swing over the full peg grid (swing.py)
+    shutil.copyfile(d/'swing.json', OUT/'install-swing.json')
 # --- report ---------------------------------------------------------------------------------------------------
 Lo = S.Layout(json.loads((HERE/'study'/os.environ['HX4S_LAYOUT']).read_text())['x'])
 sockets = [dict(set=t['set'], size=t['name'], seat_depth_mm=round(float(t['D']), 1), axis=[round(float(a), 4) for a in t['u']],
@@ -70,12 +73,12 @@ sockets = [dict(set=t['set'], size=t['name'], seat_depth_mm=round(float(t['D']),
                 keyed=bool(t['set'] == 'tee' and t['af'] >= S.TEE_KEYED_MIN),
                 turn_play_deg=(round(S.tee_play_deg(t['af']), 1) if t['set'] == 'tee' else None)) for t in Lo.tools]
 deps = ['bench/source/key_fan_v1/build_short.py', 'bench/source/key_fan_v1/check.py', 'bench/source/key_fan_v1/coupon.py',
-        'bench/source/key_fan_v1/fea_run.py', 'bench/source/key_fan_v1/study/short.py', 'bench/source/key_fan_v1/study/sunray.py',
+        'bench/source/key_fan_v1/fea_run.py', 'bench/source/key_fan_v1/swing.py', 'bench/source/key_fan_v1/study/short.py', 'bench/source/key_fan_v1/study/sunray.py',
         'bench/source/key_fan_v1/study/comb.py', 'bench/source/key_fan_v1/study/'+os.environ['HX4S_LAYOUT'],
         'bench/source/three_set_rack_v1/key_sets.json', 'bench/source/bespoke_tools_v1/build.py',
         'bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py']
 bb = trimesh.load(d/'print.stl', force='mesh').bounds
-rep = dict(id='HX04', version=1, prefix=PREFIX, pose='left-cheek', layout=os.environ['HX4S_LAYOUT'],
+rep = dict(id='HX04', version=VER, prefix=PREFIX, pose='left-cheek', layout=os.environ['HX4S_LAYOUT'],
            build_env={k: v for k, v in os.environ.items() if k.startswith(('SHORT_', 'HX4S_', 'XENV'))},
            source_dependencies={p: sha(R/p) for p in deps}, assets=named,
            files={n: dict(sha256=sha(OUT/n), bytes=(OUT/n).stat().st_size) for n in named.values()},

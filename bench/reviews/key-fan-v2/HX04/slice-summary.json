@@ -1,0 +1,62 @@
+{
+ "profile": "Local review slice only: Bambu P1S 0.4 mm, 0.20 mm layers, owner ASA filament profile, 2 walls, 20% sparse infill, tree supports on the build plate, 5 mm outer brim. No G-code is published.",
+ "plain": {
+  "grams": 554.07,
+  "time": "1d 1h 39m 23s",
+  "features_g": {
+   "Sparse infill": 283.9,
+   "Support": 84.8,
+   "Inner wall": 76.6,
+   "Outer wall": 71.6,
+   "Internal solid infill": 29.4,
+   "Internal Bridge": 2.8,
+   "Bottom surface": 1.7,
+   "Top surface": 1.6,
+   "Bridge": 0.5,
+   "Brim": 0.4,
+   "Support interface": 0.4,
+   "Overhang wall": 0.2
+  },
+  "input_sha256": "eef57613d3cc8b469d66e27c4934bcd748bda2c292b9426f16abf52a39661eef"
+ },
+ "solid_zones": {
+  "grams": 636.08,
+  "time": "1d 6h 26m 33s",
+  "features_g": {
+   "Sparse infill": 271.0,
+   "Internal solid infill": 116.8,
+   "Support": 87.6,
+   "Inner wall": 76.6,
+   "Outer wall": 71.6,
+   "Internal Bridge": 7.7,
+   "Bottom surface": 1.7,
+   "Top surface": 1.6,
+   "Bridge": 0.5,
+   "Support interface": 0.4,
+   "Brim": 0.3,
+   "Overhang wall": 0.2
+  },
+  "input_sha256": "eef57613d3cc8b469d66e27c4934bcd748bda2c292b9426f16abf52a39661eef",
+  "zones_sha256": "0475c37a1483699071c73778a80f517153a0b3f90e60fb4dea8c31aa864cbc55",
+  "zones": "100% sparse infill inside the modifier part"
+ },
+ "coupon_plain": {
+  "grams": 113.3,
+  "time": "5h 26m 9s",
+  "features_g": {
+   "Sparse infill": 54.0,
+   "Inner wall": 17.6,
+   "Outer wall": 16.7,
+   "Internal solid infill": 14.7,
+   "Internal Bridge": 3.0,
+   "Support": 2.2,
+   "Top surface": 2.0,
+   "Bottom surface": 2.0,
+   "Brim": 0.8,
+   "Bridge": 0.2,
+   "Support interface": 0.1,
+   "Overhang wall": 0.0
+  },
+  "input_sha256": "bc6dc124aa99b7f32b77079ef33f465d85d42cf5462eea6a5326ce27f606d8b0"
+ }
+}

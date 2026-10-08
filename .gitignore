@@ -71,3 +71,7 @@ bench/source/key_fan_v1/tools/*
 bench/source/three_set_rack_v1/*
 !bench/source/three_set_rack_v1/key_sets.json
 bench/reviews/three-set-rack-v1/
+bench/reviews/key-fan-v2/*/*.stl
+bench/reviews/key-fan-v2/*/*.step
+bench/reviews/key-fan-v2/*/*.3mf
+bench/reviews/key-fan-v2/*/*.glb

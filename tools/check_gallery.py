@@ -83,5 +83,6 @@ if (D/'canted-hex-keys/index.html').exists():
  runpy.run_path(str(R/'tools/check_canted_hex_keys.py'),run_name='__main__')
  runpy.run_path(str(R/'tools/check_canted_hex_keys_v2.py'),run_name='__main__')
  runpy.run_path(str(R/'tools/check_key_fan.py'),run_name='__main__')
+ runpy.run_path(str(R/'tools/check_key_fan_v2.py'),run_name='__main__')
 report={'source_files':len(source),'release_assets':len(assets),'html_links':links,'errors':errors,'site_bytes':sum(p.stat().st_size for p in (R/'docs').rglob('*') if p.is_file())}
 print(json.dumps(report,indent=2));assert not errors

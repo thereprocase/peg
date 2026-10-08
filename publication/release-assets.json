@@ -1622,5 +1622,13 @@
   "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__hx04_solid-zones.3mf": {
     "sha256": "118b1daaf8fad2cbeacb5a691435f7cd00d6a8835826dd4986a3dadd220dd665",
     "bytes": 1904390
+  },
+  "key-fan__v2__cad-source-and-review.zip": {
+    "sha256": "bebcbc2008efa8984a0a2375e097a3535c95727c3f631c0d384b469b4c1f5945",
+    "bytes": 20171519
+  },
+  "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__hx04_solid-zones.3mf": {
+    "sha256": "09af568faa0f340a1336c736b438384ea6a696af7682eb6ce454e0029877b2fb",
+    "bytes": 4035260
   }
 }

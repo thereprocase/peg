@@ -1,6 +1,6 @@
 const viewer=document.querySelector('model-viewer');
 document.querySelectorAll('[data-mode]').forEach(button=>button.addEventListener('click',()=>{
-  viewer.src=button.dataset.mode+'.glb?v=1';
+  viewer.src=button.dataset.mode+'.glb?v=2';
   document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
 }));
 viewer.addEventListener('load',async()=>{

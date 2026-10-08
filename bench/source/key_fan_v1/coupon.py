@@ -4,6 +4,8 @@
   * End slice: everything at installed x >= SLICE_X (the left end, which is the print bed face), plus a local
     tower that keeps the T3 socket whole. It carries the left peg-hook column, so it hangs on the board, and holds
     Torx T10/T15, hex 1.5/2 and T-handles T2 (sunk), T2.5 (unclocked) and T3 (clocked, the most pinched tool).
+  * Peg strip: the rest of that peg column, plate and pegs only, down to the locking hoops (hook, gravity-load
+    and locking pegs all get tested).
   * Blocks, each cut round one socket with a flat face on the bed side and its name debossed on top:
     T5 C (keyed to the hex corners, as built), T5 F (keyed to the flats), TX30. A fit test: print it at the
     plain 20% infill (tools/quickslice.py); the solid zones are for the full part.
@@ -22,7 +24,7 @@ SLICE_X = 88.
 SLICE_ZMIN = -205.                                      # down to just under the T3 socket
 g = BS.build(True)
 body, Lo, receiver = g['shape'], g['Lo'], g['receiver']
-zones = BS.solid_zones(Lo, receiver, body)
+zones = BS.solid_zones(Lo, g['rails'], g['mount'], body)
 T = {(t['set'], t['name']): t for t in Lo.tools}
 bb = body.BoundBox
 
@@ -74,6 +76,9 @@ keep = Part.makeBox(bb.XMax-SLICE_X+1, bb.YLength+2, bb.ZMax-SLICE_ZMIN+1, V(SLI
 keep = keep.fuse(socket_box(T[('tee', '3')], pad=4.))
 sl = largest(body.common(keep))
 pieces.append(('end slice', sl, zones.common(keep)))
+# --- peg strip: the rest of the left peg column down to the locking hoops, plate and pegs only --------------
+strip = Part.makeBox(bb.XMax-SLICE_X+1, (BS.K.PLATE_Y1+.3)-(bb.YMin-1), SLICE_ZMIN-(bb.ZMin-1), V(SLICE_X, bb.YMin-1, bb.ZMin-1))
+pieces.append(('PEGS', label(largest(body.common(strip)), 'PEGS'), zones.common(strip)))
 # --- blocks ------------------------------------------------------------------------------------------------
 for key, tbar, name in ((('tee', '5'), 'corners', 'T5 C'), (('tee', '5'), 'flats', 'T5 F'),
                         (('torx', 'T30'), None, 'TX30')):

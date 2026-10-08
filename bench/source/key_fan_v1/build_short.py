@@ -28,7 +28,7 @@ HALF = float(__import__('os').environ.get('SHORT_PLATE_HALF', HALF))
 REC_CELLS = int(__import__('os').environ.get('SHORT_REC_CELLS', CELLS))
 CLEAR = .35; FLOOR = 3.; WALL = 3.; ROOF = math.radians(50); SINK = math.radians(50)
 Y_BACK = .2
-PLATE_T = 3.5
+PLATE_T = 5.5                                     # wraps the receiver's 5.4 mm wall (PF02/PF07 pegs root in it)
 EDGE_R = 1.6
 UP = V(-1, 0, 0)                                  # print up: the user's left end is on the bed
 D50 = np.array([math.sin(math.radians(50)), -math.cos(math.radians(50)), 0.])   # 50 deg down (+x) and back
@@ -337,18 +337,85 @@ def soften(shape, select, log, what, fillet_r=2., chamfer_r=1.2):
     return out
 
 
+def receiver_grid(x0, x1, z0, pose='right-cheek'):
+    """Owner, 2026-10-08: 'hook pegs every inch, locking pegs on the very bottom, and gravity load pegs in the
+    other peg spots'. The reviewed peg profiles of common.receiver, unchanged, placed on every hole the plate
+    covers: PF02 #9 upper hooks (with their side ribs) in every column of row 0, PF07 #5 locking hoops in every
+    column of the lowest row, and the lower bearing peg (full board thickness, 120 deg bearing arcs) in every
+    other hole. Plate x0..x1, z0..lip, Y 0.15..5.55 (the reviewed 5.4 mm wall), in common.receiver's frame."""
+    G, P, PV, C = K.G, K.P, K.PV, K.C
+    cols = [K.PITCH*i for i in range(-20, 21) if x0+6. <= K.PITCH*i <= x1-6.]
+    if len(cols) % 2 == 0:                               # an even cell count puts holes on half-pitch offsets
+        cols = [c+K.PITCH/2 for c in cols if x0+6. <= c+K.PITCH/2 <= x1-6.]
+    rows = [k for k in range(0, 20) if K.row_z(k)-6. >= z0]
+    hoop_row = rows[-1]; bearing_rows = rows[1:-1]; zl = K.row_z(hoop_row)
+    path = G.fit_file(K.TOP['clamp_mm']); canonical = P.FIT_SOURCE
+    P.FIT_SOURCE = PV.FIT_SOURCE = path
+    try:
+        fit = P.parse(path.read_bytes())
+        shape = K.box(x0, K.PLATE_Y0, z0, x1-x0, K.PLATE_Y1-K.PLATE_Y0, K.PLATE_Z1-z0)
+        reference = P.load_reference()
+        upper = [q for q in reference.Solids if q.BoundBox.ZMax > -9.9]
+        lower = [q for q in reference.Solids if q.BoundBox.ZMax < -9.9][0]
+        reports = []
+        for x in cols:
+            ref = Part.makeCompound(upper+[lower]); ref.translate(V(x, 0, 0))
+            shape, r = K.receive_pegs(ref, shape, include_lower=False); reports.append(r)
+        elbow = reports[0]['peg_profile']['elbow_center_y_mm']
+        add, cut = [], []; zu = fit['PEG_SEAT_DROP']
+        for x in cols:
+            for q in G.side_ribs(zu, K.TOP['upper_ribs_mm'], max(elbow, K.FACE-G.BOARD)+0.3, K.FACE+1.0, lead=G.UPPER_LEAD)[0]:
+                q = q.copy(); q.translate(V(x, 0, 0)); add.append(q)
+            for k in bearing_rows+[hoop_row]:
+                loc = lower.copy(); loc.translate(V(x, 0, K.row_z(k)-K.row_z(1))); add.append(loc)
+            for q in G.side_ribs(zl, K.BODY_RIBS, K.FACE-G.BOARD+0.2, K.FACE+1.0, lead=1.0)[0]:
+                q = q.copy(); q.translate(V(x, 0, 0)); add.append(q)
+            ha, hc, hinfo = K.hoop_geometry(zl, pose, True)
+            for q in ha:
+                q = q.copy(); q.translate(V(x, 0, 0)); add.append(K.turn(q, x, zl) if pose == 'right-cheek' else q)
+            for q in hc:
+                q = q.copy(); q.translate(V(x, 0, 0)); cut.append(K.turn(q, x, zl) if pose == 'right-cheek' else q)
+        shape = shape.multiFuse(add).removeSplitter().cut(cut).removeSplitter()
+        assert shape.isValid() and len(shape.Solids) == 1
+        info = dict(fit_file=str(path.relative_to(P.ROOT)), top=K.TOP, columns_x_mm=cols,
+                    plate=dict(x0=x0, x1=x1, y0=K.PLATE_Y0, y1=K.PLATE_Y1, z0=z0, z1=K.PLATE_Z1),
+                    hoop=dict(K.HOOP, body_ribs_mm=K.BODY_RIBS, detail=hinfo),
+                    rows=dict(hooks=[0], bearing=bearing_rows, hoop=[hoop_row]),
+                    pegs=dict(hooks=len(cols), bearing=len(cols)*len(bearing_rows), locking=len(cols)),
+                    predicted_clamp_interference_at_3p94_mm=-reports[0]['peg_profile']['predicted_clearance_at_3p94_board_mm'])
+        return shape, info
+    finally:
+        P.FIT_SOURCE = PV.FIT_SOURCE = canonical
+
+
+PEG_GRID = __import__('os').environ.get('HX4S_PEG_GRID', '1') == '1'
+
+
 def build(quick=False):
     log = []
     Lo = SH.Layout(LAYOUT['x'])
     tools_d = Lo.tools
     bp = np.vstack([b[0] for b in Lo.bosses])
     zlo = float(np.min([t['tip'][2] for t in tools_d]))-20.; zhi = float(np.max([t['mouth'][2] for t in tools_d]))+12.
-    rec_raw, mount = K.receiver(REC_CELLS, 2, 'right-cheek', x0=-HALF, x1=HALF)
+    zhi = max(zhi, zlo+80.)
+    if PEG_GRID:
+        # the receiver's top lip sits at the part's top (zhi); its plate stops 3 mm inside the rounded back plate,
+        # which wraps it, so only the board side and the sharp top lip are the receiver's own faces
+        top_local = K.PLATE_Z1+.325                     # common.receiver bounding-box top above its lip (side ribs)
+        z0_local = (zlo-5.+3.)-(zhi-top_local)
+        rec_raw, mount = receiver_grid(-HALF+3., HALF-3., z0_local)
+    else:
+        rec_raw, mount = K.receiver(REC_CELLS, 2, 'right-cheek', x0=-HALF, x1=HALF)
     receiver = rec_raw.mirror(V(0, 0, 0), V(1, 0, 0))           # left-cheek print: mirrored receiver (ASSUMED fit-equivalent)
     rb = receiver.BoundBox
-    zhi = max(zhi, zlo+80.)
+    mount['z_shift'] = zhi-rb.ZMax
     receiver.translate(V(0, 0, zhi-(rb.ZMax)))
     rb = receiver.BoundBox
+    if PEG_GRID:                                         # fillet the lip's front edge (off the board side)
+        r_ = EDGE_R; yf = K.PLATE_Y1; zt = rb.ZMax-.325
+        corner = Part.makeBox(4000, r_+1, r_+1, V(-2000, yf-r_, zt-r_)).cut(
+            Part.makeCylinder(r_, 4000, V(-2000, yf-r_, zt-r_), V(1, 0, 0)))
+        receiver = receiver.cut(corner).removeSplitter()
     env = B.box(-HALF, Y_BACK, zlo-5, 2*HALF, 300, zhi-zlo+5)
     rails, labels, roots = [], [], {}
     for s_ in ('torx', 'hex', 'tee'):
@@ -412,21 +479,48 @@ def build(quick=False):
     log.append(dict(op='board-side delta', mm3=delta))
     log.append(dict(op='done', volume_mm3=round(shape.Volume)))
     print('HX04-short geometry PASS', json.dumps(log), flush=True)
-    return dict(shape=shape, receiver=receiver, mount=mount, tools=tools, seats=seats, finish=log, Lo=Lo)
+    return dict(shape=shape, receiver=receiver, mount=mount, tools=tools, seats=seats, finish=log, Lo=Lo, rails=rails)
 
 
-def solid_zones(Lo, receiver, shape):
-    """Owner, 2026-10-08: solid helper volumes = slicer zones printed at 100% infill: a sleeve round every socket
-    (bore + flare + wall + 1 mm, mouth to past the floor) and the peg receiver band. Clipped to the part's box."""
+BRACE_T = 1.6                                           # solid brace thickness, mm (4 perimeters' worth)
+BULKHEAD_REACH = 6.                                     # a bulkhead reaches this far past the socket wall
+PEG_ROOT_R = 4.5
+
+
+def solid_zones(Lo, rails, mount, shape):
+    """Owner, 2026-10-08: solid helpers should join the pockets to the walls - braces and strategic solid planes,
+    not padded mass. Slicer zones printed at 100% infill:
+      * a row shear web per rail: a BRACE_T plane through all its socket axes, containing the print's vertical
+        (installed x), so it prints as an internal wall tying every socket to its neighbours, the rail ends and,
+        through the rail's sweep, the back plate;
+      * a socket bulkhead at every socket: a BRACE_T band of layers (normal = print vertical) out to
+        BULKHEAD_REACH past the socket wall, tying the socket to the nearby rail walls all round;
+      * a solid disc through the plate round every peg root.
+    Each zone is clipped to its rail, so no solid mass lands in the webs or the open plate."""
     parts = []
-    for t in Lo.tools:
-        u = np.asarray(t['u']); m = np.asarray(t['mouth']); R = SH.chamber_r(t)+WALL+1.
-        P = np.vstack([ring(m+u*1., u, R, 24), ring(m-u*(t['floor_depth']+FLOOR+1.5), u, R, 24)])
-        parts.append(hull_solid(P))
-    rb = receiver.BoundBox
-    parts.append(B.box(rb.XMin, rb.YMin-.5, rb.ZMin-.5, rb.XLength, rb.YLength+3., rb.ZLength+1.))
+    sets = ('torx', 'hex', 'tee')
+    for s_, rail in zip(sets, rails):
+        T = [t for t in Lo.tools if t['set'] == s_]
+        mids = np.array([np.asarray(t['mouth'])-np.asarray(t['u'])*t['D']/2 for t in T])
+        ub = np.mean([np.asarray(t['u']) for t in T], axis=0); ub[0] = 0.; ub /= np.linalg.norm(ub)
+        nrm = np.cross([1., 0, 0], ub); nrm /= np.linalg.norm(nrm)        # web normal: in y-z, across the axes
+        c = mids.mean(axis=0)
+        web = Part.makeBox(4000, 4000, BRACE_T, V(-2000, -2000, -BRACE_T/2))
+        web.Placement = A.Placement(v(c), A.Rotation(V(0, 0, 1), v(nrm)))
+        parts.append(web.common(rail))
+        rb = rail.BoundBox
+        for t in T:
+            xm = float((np.asarray(t['mouth'])-np.asarray(t['u'])*t['D']/2)[0])
+            m_ = np.asarray(t['mouth']); u_ = np.asarray(t['u']); R_ = SH.chamber_r(t)+WALL+BULKHEAD_REACH
+            reach = hull_solid(np.vstack([ring(m_+u_*1., u_, R_, 24), ring(m_-u_*(t['floor_depth']+FLOOR+1.5), u_, R_, 24)]))
+            parts.append(Part.makeBox(BRACE_T, rb.YLength+2, rb.ZLength+2, V(xm-BRACE_T/2, rb.YMin-1, rb.ZMin-1)).common(rail).common(reach))
+    dz = mount.get('z_shift', 0.)
+    for x in mount['columns_x_mm']:
+        for k in sorted(set(mount['rows']['hooks']+mount['rows'].get('bearing', [])+mount['rows']['hoop'])):
+            parts.append(Part.makeCylinder(PEG_ROOT_R, K.PLATE_Y1-K.PLATE_Y0+.2, V(-x, K.PLATE_Y0-.1, K.row_z(k)+dz), V(0, 1, 0)))
     bb = shape.BoundBox
-    return B.union(parts).common(B.box(bb.XMin, bb.YMin, bb.ZMin, bb.XLength, bb.YLength, bb.ZLength)).removeSplitter()
+    z = B.union([q for q in parts if q.Volume > 1e-3])
+    return z.common(B.box(bb.XMin, bb.YMin, bb.ZMin, bb.XLength, bb.YLength, bb.ZLength)).removeSplitter()
 
 
 def print_pose(shape):
@@ -489,7 +583,7 @@ def quick_meshes(g, out):
     pp, m = print_pose(g['shape'])
     B.mesh(g['shape'], out/'installed.stl'); B.mesh(pp, out/'print.stl')
     if __import__('os').environ.get('HX4S_SOLID', '1') == '1':
-        z = solid_zones(g['Lo'], g['receiver'], g['shape']); zp = z.copy(); zp.transformShape(m)
+        z = solid_zones(g['Lo'], g['rails'], g['mount'], g['shape']); zp = z.copy(); zp.transformShape(m)
         B.mesh(zp, out/'print_solid.stl'); B.mesh(z, out/'installed_solid.stl')
     g['shape'].exportStep(str(out/'installed.step'))
     B.mesh(ref_tools(g['Lo']), out/'keys.stl')

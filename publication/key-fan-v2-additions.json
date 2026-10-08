@@ -1,0 +1,34 @@
+{
+  "checks.json": {
+    "sha256": "9fa6f8b93e552f08ece2ce958504aa8735271d3b5ea3620c7777b99ae8518bb6",
+    "bytes": 72560
+  },
+  "index.html": {
+    "sha256": "84e657aef283de7fd15b6df34a37ce4ffdddf145881e275429496cef08c61371",
+    "bytes": 7737
+  },
+  "installed.glb": {
+    "sha256": "d5266539aebfcf3179392b2619921aa509d102c9dc37b2be81e19b4865c00911",
+    "bytes": 6097924
+  },
+  "loaded.glb": {
+    "sha256": "41927d7630c384ac57e306e7459d5ee8f767b5b5e7b715ffc1914e4f1b72f15d",
+    "bytes": 7572700
+  },
+  "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__coupon_print.stl": {
+    "sha256": "bc6dc124aa99b7f32b77079ef33f465d85d42cf5462eea6a5326ce27f606d8b0",
+    "bytes": 3863384
+  },
+  "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__print.stl": {
+    "sha256": "eef57613d3cc8b469d66e27c4934bcd748bda2c292b9426f16abf52a39661eef",
+    "bytes": 15244184
+  },
+  "print.glb": {
+    "sha256": "e1c0591f714edbf2fc0955995db37f1fc6329e142c2a695cb71c529e8ca1143f",
+    "bytes": 6098500
+  },
+  "review.js": {
+    "sha256": "77c00c5422434b78120adbe5d456c078ab52383f0c7c9fa3cd5a3980328a736b",
+    "bytes": 562
+  }
+}
