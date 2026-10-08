@@ -1,0 +1,483 @@
+{
+ "stored_top_z": 47.32,
+ "body_top_z": -86.68,
+ "depth_mm": 178.13,
+ "floors_mm": [
+  14.11,
+  13.41,
+  12.51,
+  12.23,
+  12.39,
+  13.62,
+  13.06,
+  12.7,
+  7.44,
+  37.3,
+  37.84,
+  38.88,
+  40.35,
+  37.33,
+  34.82,
+  32.96,
+  25.51,
+  18.75,
+  37.52,
+  38.37,
+  57.95,
+  61.76,
+  62.09,
+  51.29,
+  38.11,
+  21.06
+ ],
+ "stored": [
+  {
+   "set": "torx",
+   "size": "T10",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T15",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T20",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T25",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T27",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T30",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T40",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T45",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "torx",
+   "size": "T50",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "1.5",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "2",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "2.5",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "3",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "4",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "5",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "6",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "8",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "hex",
+   "size": "10",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "2",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "2.5",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "3",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "4",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "5",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "6",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "8",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  },
+  {
+   "set": "tee",
+   "size": "10",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0
+  }
+ ],
+ "routes": [
+  {
+   "set": "torx",
+   "size": "T10",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 15.0
+  },
+  {
+   "set": "torx",
+   "size": "T15",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 16.08
+  },
+  {
+   "set": "torx",
+   "size": "T20",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 18.44
+  },
+  {
+   "set": "torx",
+   "size": "T25",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 20.72
+  },
+  {
+   "set": "torx",
+   "size": "T27",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 22.96
+  },
+  {
+   "set": "torx",
+   "size": "T30",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 25.08
+  },
+  {
+   "set": "torx",
+   "size": "T40",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 29.6
+  },
+  {
+   "set": "torx",
+   "size": "T45",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 34.28
+  },
+  {
+   "set": "torx",
+   "size": "T50",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 38.32
+  },
+  {
+   "set": "hex",
+   "size": "1.5",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 15.0
+  },
+  {
+   "set": "hex",
+   "size": "2",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 17.6
+  },
+  {
+   "set": "hex",
+   "size": "2.5",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 20.2
+  },
+  {
+   "set": "hex",
+   "size": "3",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 22.8
+  },
+  {
+   "set": "hex",
+   "size": "4",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 29.41
+  },
+  {
+   "set": "hex",
+   "size": "5",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 36.01
+  },
+  {
+   "set": "hex",
+   "size": "6",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 42.61
+  },
+  {
+   "set": "hex",
+   "size": "8",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 53.21
+  },
+  {
+   "set": "hex",
+   "size": "10",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 63.81
+  },
+  {
+   "set": "tee",
+   "size": "2",
+   "exit": "lift-then-forward",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 73.7
+  },
+  {
+   "set": "tee",
+   "size": "2.5",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 35.04
+  },
+  {
+   "set": "tee",
+   "size": "3",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 15.0
+  },
+  {
+   "set": "tee",
+   "size": "4",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 19.0
+  },
+  {
+   "set": "tee",
+   "size": "5",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 23.0
+  },
+  {
+   "set": "tee",
+   "size": "6",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 27.0
+  },
+  {
+   "set": "tee",
+   "size": "8",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 35.0
+  },
+  {
+   "set": "tee",
+   "size": "10",
+   "exit": "lift-then-axis",
+   "body_mm3": 0.0,
+   "tools_mm3": 0.0,
+   "shelf_mm3": 0.0,
+   "first_hit_offset": null,
+   "ok": true,
+   "lift_mm": 43.0
+  }
+ ],
+ "all_routes_ok": true,
+ "stored_ok": true,
+ "straighten_ok": true,
+ "seconds": 462
+}

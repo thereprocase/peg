@@ -1,0 +1,264 @@
+{
+  "id": "HX03",
+  "name": "Three-set key rack: T-handles, canted hex L-keys, Torx L-keys",
+  "units": "mm",
+  "hex": [
+    {
+      "across_flats": 1.5,
+      "straight_length": 89,
+      "short_arm_assumed": 15,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 2,
+      "straight_length": 98,
+      "short_arm_assumed": 18,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 2.5,
+      "straight_length": 110,
+      "short_arm_assumed": 20,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 3,
+      "straight_length": 123,
+      "short_arm_assumed": 23,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 4,
+      "straight_length": 140,
+      "short_arm_assumed": 29,
+      "length_source": "interpolated between owner's 3 and 5 mm"
+    },
+    {
+      "across_flats": 5,
+      "straight_length": 157,
+      "short_arm_assumed": 33,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 6,
+      "straight_length": 176,
+      "short_arm_assumed": 38,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 8,
+      "straight_length": 194,
+      "short_arm_assumed": 44,
+      "length_source": "owner"
+    },
+    {
+      "across_flats": 10,
+      "straight_length": 217,
+      "short_arm_assumed": 50,
+      "length_source": "owner"
+    }
+  ],
+  "torx_note": "Husky Torx L-key set. Owner: T10 90 mm and T50 160 mm overall long arm (including the short arm's thickness). Intermediate sizes interpolated on the Bondhus long-series shape (31810-31850) between those ends. Socket depth = overall - 1.2 x point-to-point - 2 mm. Point-to-point (A) dimensions: TORX nominal. Short arms are ASSUMED.",
+  "torx": [
+    {
+      "name": "T10",
+      "point_to_point": 2.74,
+      "overall": 90.0,
+      "socket_depth": 84.7,
+      "short_arm_assumed": 22,
+      "length_source": "owner overall"
+    },
+    {
+      "name": "T15",
+      "point_to_point": 3.27,
+      "overall": 93.7,
+      "socket_depth": 87.8,
+      "short_arm_assumed": 23,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T20",
+      "point_to_point": 3.86,
+      "overall": 100.1,
+      "socket_depth": 93.5,
+      "short_arm_assumed": 24,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T25",
+      "point_to_point": 4.43,
+      "overall": 106.6,
+      "socket_depth": 99.3,
+      "short_arm_assumed": 25,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T27",
+      "point_to_point": 4.99,
+      "overall": 113.9,
+      "socket_depth": 106.0,
+      "short_arm_assumed": 26,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T30",
+      "point_to_point": 5.52,
+      "overall": 123.2,
+      "socket_depth": 114.5,
+      "short_arm_assumed": 27,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T40",
+      "point_to_point": 6.65,
+      "overall": 131.4,
+      "socket_depth": 121.5,
+      "short_arm_assumed": 29,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T45",
+      "point_to_point": 7.82,
+      "overall": 143.4,
+      "socket_depth": 132.0,
+      "short_arm_assumed": 31,
+      "length_source": "interpolated"
+    },
+    {
+      "name": "T50",
+      "point_to_point": 8.83,
+      "overall": 160.0,
+      "socket_depth": 147.4,
+      "short_arm_assumed": 33,
+      "length_source": "owner overall"
+    }
+  ],
+  "tee_note": "Bondhus graduated-length hex T-handles 13352-13376 (owner: 13354-13376; 2 mm 13352 included per the request). Catalogue overall and bar lengths. Each T-handle stands on its tip; socket depths are chosen so the bars climb in 16 mm steps from 30 mm to 142 mm above the top (bar diameter ASSUMED 18 mm), like a Bondhus stand: neighbouring bars never share a height and the lowest leaves a finger's room.",
+  "tee": [
+    {
+      "across_flats": 2,
+      "part": "13352",
+      "overall": 100,
+      "handle_length": 76,
+      "socket_depth": 52,
+      "bar_height_above_top_assumed": 30
+    },
+    {
+      "across_flats": 2.5,
+      "part": "13354",
+      "overall": 110,
+      "handle_length": 76,
+      "socket_depth": 46,
+      "bar_height_above_top_assumed": 46
+    },
+    {
+      "across_flats": 3,
+      "part": "13356",
+      "overall": 120,
+      "handle_length": 76,
+      "socket_depth": 40,
+      "bar_height_above_top_assumed": 62
+    },
+    {
+      "across_flats": 4,
+      "part": "13360",
+      "overall": 136,
+      "handle_length": 76,
+      "socket_depth": 40,
+      "bar_height_above_top_assumed": 78
+    },
+    {
+      "across_flats": 5,
+      "part": "13364",
+      "overall": 150,
+      "handle_length": 102,
+      "socket_depth": 38,
+      "bar_height_above_top_assumed": 94
+    },
+    {
+      "across_flats": 6,
+      "part": "13368",
+      "overall": 173,
+      "handle_length": 102,
+      "socket_depth": 45,
+      "bar_height_above_top_assumed": 110
+    },
+    {
+      "across_flats": 8,
+      "part": "13372",
+      "overall": 202,
+      "handle_length": 127,
+      "socket_depth": 58,
+      "bar_height_above_top_assumed": 126
+    },
+    {
+      "across_flats": 10,
+      "part": "13376",
+      "overall": 232,
+      "handle_length": 127,
+      "socket_depth": 72,
+      "bar_height_above_top_assumed": 142
+    }
+  ],
+  "layout": {
+    "note": "Numeric clearance study: graded hex spacing, Torx (40 deg, mouths 32 mm below the hex mouths, axis 2 mm inside the biggest hex crest line) in the gaps, T-handles at even pitch near the board in 78 mm sockets; minimum socket-to-socket material 3.3 mm (Torx-hex), 9.3 mm (T-handle to Torx).",
+    "hex_x": [
+      89.84,
+      75.34,
+      59.19,
+      41.42,
+      21.65,
+      -0.5,
+      -25.88,
+      -55.34,
+      -89.48
+    ],
+    "torx_x": [
+      96.08,
+      82.74,
+      67.41,
+      50.45,
+      31.82,
+      10.86,
+      -12.9,
+      -40.03,
+      -71.83
+    ],
+    "tee": [
+      {
+        "x": 88.02,
+        "y": 43.0
+      },
+      {
+        "x": 62.88,
+        "y": 43.0
+      },
+      {
+        "x": 37.72,
+        "y": 43.0
+      },
+      {
+        "x": 12.58,
+        "y": 43.0
+      },
+      {
+        "x": -12.58,
+        "y": 56.0
+      },
+      {
+        "x": -37.72,
+        "y": 56.0
+      },
+      {
+        "x": -62.88,
+        "y": 68.5
+      },
+      {
+        "x": -88.03,
+        "y": 68.5
+      }
+    ],
+    "torx_drop_mm": 32,
+    "torx_standoff_mm": -2
+  }
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "expected_count": 46,
+  "expected_count": 47,
   "parts": [
     {
       "id": "HX02",
@@ -1615,6 +1615,48 @@
         "supports": "Projecting pegs may need local supports. These are bare print-preparation exports; inspect actual slicer toolpaths with your intended settings.",
         "mount": "3 mounting columns; lower hoop row 1, on the 25.4 mm grid. PF02 #9 upper hooks and PF07 #5 lower hoops retain the shared clipped-root correction. Hoops flex within the print layers.",
         "qualification": "One-solid CAD, closed meshes and native STEP read-back pass. The body-clearance check uses a sampled nominal route; changed-fit installation, slicing, physical fit and loads remain untested."
+      },
+      "credit": ""
+    },
+    {
+      "id": "HX04",
+      "name": "Three-tier key fan: hex, Torx and T-handles",
+      "family": "solder-modules",
+      "version": "v1",
+      "kind": "mounted",
+      "new_design": true,
+      "fit_label": "PF02 #9 / PF07 #5",
+      "pose": "left-cheek",
+      "installed_camera_orbit": "30deg 70deg auto",
+      "print_bounds_mm": [
+        252.6,
+        92.4,
+        236.0
+      ],
+      "assets": {
+        "installed_glb": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.glb",
+        "installed_stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.stl",
+        "installed_png": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.png",
+        "print_glb": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.glb",
+        "print_stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.stl",
+        "print_png": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.png",
+        "preview_png": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.png",
+        "checks": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__checks.json",
+        "cad_bundle": "https://github.com/thereprocase/peg/releases/download/key-fan-v1-2026-10-08/key-fan__v1__cad-source-and-review.zip"
+      },
+      "extra_downloads": [
+        {
+          "label": "Loaded view, fit coupon, solid-zone project and printing notes",
+          "url": "../key-fan/?v=1"
+        }
+      ],
+      "notes": {
+        "orientation": "Print on the user's left end. Rails, webs and plate follow chamfer-in-Z, fillet-in-XY; socket roofs are pointed and floors print as walls or floors.",
+        "upper_pegs": "PF02 #9 upper hooks and PF07 #5 hoops on the nine-cell pattern, mirrored from the reviewed right-cheek receiver for the left-end print (fit assumed equal).",
+        "supports": "Tree supports on the build plate only, under the peg hooks behind the mounting face; small label counters.",
+        "mount": "236 mm wide (ten cells shaved 8 mm a side), two mounting columns at \u00b1101.6 mm.",
+        "qualification": "26 tools: hex 1.5\u201310, Torx T10\u2013T50, Bondhus T-handles 2\u201310. Exact storage and withdrawal, floors, print geometry, solid-ASA stiffness and local slices pass. Physical print, fit and seating remain pending; print the fit coupon first.",
+        "status": "CAD checks pass \u00b7 physical test pending"
       },
       "credit": ""
     }

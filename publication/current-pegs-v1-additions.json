@@ -1672,8 +1672,8 @@
     "bytes": 3503941
   },
   "catalog.json": {
-    "sha256": "96b6cc9ebe61193995940b8c6625a7d0074b2be356bd89a417c2cdf29fcb523a",
-    "bytes": 127406
+    "sha256": "d3719abbc81e787787ddb9328c80de218fcc997c60a78cfa5403198982e438ac",
+    "bytes": 129786
   },
   "index.html": {
     "sha256": "f101d037d2839a7c7b0a466868ea26ccd707d24102a93ef135c058632f3cb3a4",
@@ -2042,5 +2042,33 @@
   "part-hx02__v2__right-cheek__fit-pf02c9-hoop5__print.png": {
     "sha256": "02c2bca4a3734d3ec8f15af314596c06f574cb6150d5ce44fc120b7696cbe9d5",
     "bytes": 124458
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__checks.json": {
+    "sha256": "7fb39915cc88bb13c9f773dc7227704a44fed0ad2cdfdc4ebc588bd88c922e0f",
+    "bytes": 64243
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.glb": {
+    "sha256": "bd44de5a7c499f7a2bb50d60ecf96f40df073ae26ceda9fd2c0409b1f54e7b70",
+    "bytes": 2946664
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.stl": {
+    "sha256": "ae9b9b7dd4f31ac063bc5bde2fff6023eaac0e7a7f117097f75b7cbf6c5f6ae7",
+    "bytes": 7363984
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.glb": {
+    "sha256": "4aff5b1a29895d4ba5628b8a28bfd9e019b060a9682d89b4ca05147b1dddac69",
+    "bytes": 2947240
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.stl": {
+    "sha256": "4ed38c74776464dabab2e047371624d68b9a017503ff3f27b293b100567fb099",
+    "bytes": 7365484
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.png": {
+    "sha256": "6cc0d72ac285347487f6409d93509e65f12263a6fb8e6e86e5c1e157c42cbbfd",
+    "bytes": 124628
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.png": {
+    "sha256": "cc698f5bb4720a4f17a4c7dfcfcbd37c5c4449c29a589b7846f025af89d3f5f8",
+    "bytes": 116826
   }
 }

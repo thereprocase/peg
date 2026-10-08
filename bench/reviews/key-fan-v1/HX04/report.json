@@ -1,0 +1,589 @@
+{
+ "id": "HX04",
+ "version": 1,
+ "prefix": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5",
+ "pose": "left-cheek",
+ "layout": "short_dt_c2.json",
+ "build_env": {
+  "HX4S_GUSSET": "webs,cheek",
+  "HX4S_LAYOUT": "short_dt_c2.json",
+  "HX4S_WEB_Y": "16",
+  "SHORT_CELLS": "10",
+  "SHORT_DEEP_BACK": "1",
+  "SHORT_DEEP_TEE": "1",
+  "SHORT_HAND": "5.5",
+  "SHORT_HMAX": "232",
+  "SHORT_MIDDLE": "torx",
+  "SHORT_PLATE_HALF": "118",
+  "SHORT_REC_CELLS": "9",
+  "XENV": "141"
+ },
+ "source_dependencies": {
+  "bench/source/key_fan_v1/build_short.py": "4a1df411b19c73c8e80ed224c992275ca0b71ddd8e02efa96ba25fce7d15c6f5",
+  "bench/source/key_fan_v1/check.py": "afe5ea9e119e105733a3add92549ba583914d86d9f3637412b0bb1f129d6d9d6",
+  "bench/source/key_fan_v1/coupon.py": "7292a2c28bbd23ac8bfbb1a92bad656414b46056918aeeac1d947af5aef90310",
+  "bench/source/key_fan_v1/fea_run.py": "55944c2ca4ae9a3a2b10ea734fc6c7febdcafc927e63ec4f291c0fbfe27de30d",
+  "bench/source/key_fan_v1/study/short.py": "d8ee27dc8182a35f4c3b4e8f49c4ff62b4954dda2e3d49c5c7b27ce096cb422b",
+  "bench/source/key_fan_v1/study/sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
+  "bench/source/key_fan_v1/study/comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
+  "bench/source/key_fan_v1/study/short_dt_c2.json": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e",
+  "bench/source/three_set_rack_v1/key_sets.json": "d3774ad50b1e9bf32d66ff2050e22787863e130a66ee949179f639b37962de31",
+  "bench/source/bespoke_tools_v1/build.py": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+  "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+ },
+ "assets": {
+  "installed.step": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.step",
+  "installed.stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.stl",
+  "print.stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.stl",
+  "print_solid-zones.stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print_solid-zones.stl",
+  "hx04_solid-zones.3mf": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__hx04_solid-zones.3mf",
+  "tool-reference.stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__tool-reference.stl",
+  "coupon_print.stl": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__coupon_print.stl",
+  "coupon_installed.step": "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__coupon_installed.step"
+ },
+ "files": {
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.step": {
+   "sha256": "dd4e8c05b0081e52b1f50e24b973df69bd83afae56a47206c15e6e4c76c87cfe",
+   "bytes": 6955951
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__installed.stl": {
+   "sha256": "ae9b9b7dd4f31ac063bc5bde2fff6023eaac0e7a7f117097f75b7cbf6c5f6ae7",
+   "bytes": 7363984
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print.stl": {
+   "sha256": "4ed38c74776464dabab2e047371624d68b9a017503ff3f27b293b100567fb099",
+   "bytes": 7365484
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__print_solid-zones.stl": {
+   "sha256": "65972017f295fec721963cafa6db05bfc30456a669d9786afb8fdd91af45ef20",
+   "bytes": 124284
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__hx04_solid-zones.3mf": {
+   "sha256": "118b1daaf8fad2cbeacb5a691435f7cd00d6a8835826dd4986a3dadd220dd665",
+   "bytes": 1904390
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__tool-reference.stl": {
+   "sha256": "eaa0e0e5e0dfd6c83e960aed175bb280ac6d57a650e7eac3b4f0e4683d75f19d",
+   "bytes": 45921384
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__coupon_print.stl": {
+   "sha256": "f700e583c363ba71f2528f48c3af455ae1d1cd4dd2e8a4ec4156f47b884937ed",
+   "bytes": 3374984
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__coupon_installed.step": {
+   "sha256": "07b2a772755557d30fa6bb81c2c95808d454143b5a23b5dada014cb949d84a3d",
+   "bytes": 2242487
+  }
+ },
+ "print_bounds_mm": [
+  252.6,
+  92.4,
+  236.0
+ ],
+ "volume_mm3": 1475692,
+ "checks": {
+  "all_routes_ok": true,
+  "stored_ok": true,
+  "straighten_ok": true,
+  "depth_mm": 178.13,
+  "min_floor_mm": 7.44,
+  "stiffness_min_N_per_mm": 306.8
+ },
+ "sockets": [
+  {
+   "set": "torx",
+   "size": "T10",
+   "seat_depth_mm": 12.0,
+   "axis": [
+    -0.0,
+    0.4429,
+    0.8966
+   ],
+   "mouth_mm": [
+    110.2,
+    36.26,
+    -116.29
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 1.1,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T15",
+   "seat_depth_mm": 13.1,
+   "axis": [
+    0.0,
+    0.4173,
+    0.9088
+   ],
+   "mouth_mm": [
+    93.14,
+    36.99,
+    -120.75
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.96,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T20",
+   "seat_depth_mm": 15.4,
+   "axis": [
+    0.0,
+    0.3913,
+    0.9203
+   ],
+   "mouth_mm": [
+    73.09,
+    37.71,
+    -125.2
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.79,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T25",
+   "seat_depth_mm": 17.7,
+   "axis": [
+    0.0,
+    0.365,
+    0.931
+   ],
+   "mouth_mm": [
+    50.06,
+    38.44,
+    -129.65
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.67,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T27",
+   "seat_depth_mm": 20.0,
+   "axis": [
+    0.0,
+    0.3384,
+    0.941
+   ],
+   "mouth_mm": [
+    24.03,
+    39.16,
+    -134.11
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.57,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T30",
+   "seat_depth_mm": 22.1,
+   "axis": [
+    0.0,
+    0.3115,
+    0.9503
+   ],
+   "mouth_mm": [
+    -4.98,
+    39.89,
+    -138.56
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.5,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T40",
+   "seat_depth_mm": 26.6,
+   "axis": [
+    0.0,
+    0.2844,
+    0.9587
+   ],
+   "mouth_mm": [
+    -36.98,
+    40.61,
+    -143.01
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.39,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T45",
+   "seat_depth_mm": 31.3,
+   "axis": [
+    0.0,
+    0.257,
+    0.9664
+   ],
+   "mouth_mm": [
+    -71.98,
+    41.34,
+    -147.47
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.33,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "torx",
+   "size": "T50",
+   "seat_depth_mm": 35.3,
+   "axis": [
+    0.0001,
+    0.2295,
+    0.9733
+   ],
+   "mouth_mm": [
+    -109.96,
+    42.06,
+    -151.92
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.28,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "1.5",
+   "seat_depth_mm": 12.0,
+   "axis": [
+    0.0626,
+    0.4232,
+    0.9039
+   ],
+   "mouth_mm": [
+    111.99,
+    23.14,
+    -101.77
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.99,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "2",
+   "seat_depth_mm": 14.6,
+   "axis": [
+    0.0473,
+    0.404,
+    0.9135
+   ],
+   "mouth_mm": [
+    97.98,
+    23.87,
+    -103.86
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.86,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "2.5",
+   "seat_depth_mm": 17.2,
+   "axis": [
+    0.0316,
+    0.3847,
+    0.9225
+   ],
+   "mouth_mm": [
+    81.43,
+    24.6,
+    -105.94
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.75,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "3",
+   "seat_depth_mm": 19.8,
+   "axis": [
+    0.0157,
+    0.3653,
+    0.9308
+   ],
+   "mouth_mm": [
+    62.36,
+    25.33,
+    -108.03
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.69,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "4",
+   "seat_depth_mm": 26.4,
+   "axis": [
+    -0.0006,
+    0.3456,
+    0.9384
+   ],
+   "mouth_mm": [
+    40.75,
+    26.06,
+    -110.11
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.56,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "5",
+   "seat_depth_mm": 33.0,
+   "axis": [
+    -0.0171,
+    0.3258,
+    0.9453
+   ],
+   "mouth_mm": [
+    16.61,
+    26.79,
+    -112.2
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.45,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "6",
+   "seat_depth_mm": 39.6,
+   "axis": [
+    -0.0338,
+    0.3059,
+    0.9515
+   ],
+   "mouth_mm": [
+    -10.06,
+    27.52,
+    -114.29
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.4,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "8",
+   "seat_depth_mm": 50.2,
+   "axis": [
+    -0.0507,
+    0.2859,
+    0.9569
+   ],
+   "mouth_mm": [
+    -39.26,
+    28.25,
+    -116.37
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.32,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "hex",
+   "size": "10",
+   "seat_depth_mm": 60.8,
+   "axis": [
+    -0.0678,
+    0.2657,
+    0.9617
+   ],
+   "mouth_mm": [
+    -70.99,
+    28.98,
+    -118.46
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.28,
+   "keyed": false,
+   "turn_play_deg": null
+  },
+  {
+   "set": "tee",
+   "size": "2",
+   "seat_depth_mm": 70.7,
+   "axis": [
+    -0.0471,
+    0.67,
+    0.7408
+   ],
+   "mouth_mm": [
+    109.14,
+    75.51,
+    -143.33
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 0.35,
+   "keyed": false,
+   "turn_play_deg": 10.0
+  },
+  {
+   "set": "tee",
+   "size": "2.5",
+   "seat_depth_mm": 32.0,
+   "axis": [
+    -0.2611,
+    0.6467,
+    0.7167
+   ],
+   "mouth_mm": [
+    97.07,
+    68.44,
+    -166.72
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 1.26,
+   "keyed": false,
+   "turn_play_deg": 10.0
+  },
+  {
+   "set": "tee",
+   "size": "3",
+   "seat_depth_mm": 12.0,
+   "axis": [
+    -0.4242,
+    0.6227,
+    0.6576
+   ],
+   "mouth_mm": [
+    85.54,
+    61.32,
+    -190.69
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 4.84,
+   "keyed": true,
+   "turn_play_deg": 19.0
+  },
+  {
+   "set": "tee",
+   "size": "4",
+   "seat_depth_mm": 16.0,
+   "axis": [
+    -0.5414,
+    0.5981,
+    0.5909
+   ],
+   "mouth_mm": [
+    72.33,
+    56.52,
+    -212.55
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 4.75,
+   "keyed": true,
+   "turn_play_deg": 12.3
+  },
+  {
+   "set": "tee",
+   "size": "5",
+   "seat_depth_mm": 20.0,
+   "axis": [
+    -0.6229,
+    0.5729,
+    0.5327
+   ],
+   "mouth_mm": [
+    58.83,
+    51.48,
+    -234.94
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 4.79,
+   "keyed": true,
+   "turn_play_deg": 9.3
+  },
+  {
+   "set": "tee",
+   "size": "6",
+   "seat_depth_mm": 24.0,
+   "axis": [
+    -0.6785,
+    0.5472,
+    0.4902
+   ],
+   "mouth_mm": [
+    45.23,
+    46.17,
+    -257.58
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 4.97,
+   "keyed": true,
+   "turn_play_deg": 7.5
+  },
+  {
+   "set": "tee",
+   "size": "8",
+   "seat_depth_mm": 32.0,
+   "axis": [
+    -0.7159,
+    0.5209,
+    0.4649
+   ],
+   "mouth_mm": [
+    28.77,
+    42.67,
+    -278.39
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 4.37,
+   "keyed": true,
+   "turn_play_deg": 5.4
+  },
+  {
+   "set": "tee",
+   "size": "10",
+   "seat_depth_mm": 40.0,
+   "axis": [
+    -0.7408,
+    0.4942,
+    0.455
+   ],
+   "mouth_mm": [
+    12.14,
+    38.69,
+    -299.15
+   ],
+   "floor_slope_deg": 30.0,
+   "pinch_ratio": 3.74,
+   "keyed": true,
+   "turn_play_deg": 4.2
+  }
+ ],
+ "physical_tests": "Pending"
+}

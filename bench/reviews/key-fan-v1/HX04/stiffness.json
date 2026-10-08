@@ -1,0 +1,131 @@
+{
+ "name": "hx04",
+ "material": {
+  "E_MPa": 1800.0,
+  "nu": 0.35
+ },
+ "h_mm": 7.0,
+ "cases": [
+  {
+   "support": "pegs",
+   "nodes": 183283,
+   "elements": 101010,
+   "fixed_nodes": 3167,
+   "loads": [
+    {
+     "id": "T-handle 10 down 50 N",
+     "force_N": [
+      0,
+      0,
+      -50
+     ],
+     "point": [
+      12.137,
+      38.689,
+      -299.147
+     ],
+     "what": "someone leans on the biggest handle",
+     "deflection_at_load_mm": 0.0232,
+     "stiffness_N_per_mm": 2155.8,
+     "max_deflection_mm": 0.0756,
+     "max_at": [
+      116.1,
+      0.2,
+      -342.3
+     ]
+    },
+    {
+     "id": "T-handle 10 sideways 30 N",
+     "force_N": [
+      30,
+      0,
+      0
+     ],
+     "point": [
+      12.137,
+      38.689,
+      -299.147
+     ],
+     "what": "prying the biggest handle sideways",
+     "deflection_at_load_mm": 0.0208,
+     "stiffness_N_per_mm": 1444.4,
+     "max_deflection_mm": 0.0361,
+     "max_at": [
+      0.7,
+      66.1,
+      -317.1
+     ]
+    },
+    {
+     "id": "hex 10 down 50 N",
+     "force_N": [
+      0,
+      0,
+      -50
+     ],
+     "point": [
+      -70.995,
+      28.982,
+      -118.457
+     ],
+     "what": "leaning on the biggest L-key",
+     "deflection_at_load_mm": 0.0172,
+     "stiffness_N_per_mm": 2909.1,
+     "max_deflection_mm": 0.0539,
+     "max_at": [
+      -116.1,
+      2.1,
+      -342.3
+     ]
+    },
+    {
+     "id": "Torx T50 out 30 N",
+     "force_N": [
+      0,
+      30,
+      0
+     ],
+     "point": [
+      -109.958,
+      42.061,
+      -151.92
+     ],
+     "what": "yanking a stuck key straight off the board",
+     "deflection_at_load_mm": 0.0978,
+     "stiffness_N_per_mm": 306.8,
+     "max_deflection_mm": 0.1139,
+     "max_at": [
+      -118.0,
+      0.2,
+      -340.7
+     ]
+    },
+    {
+     "id": "T-handle 2 down 50 N",
+     "force_N": [
+      0,
+      0,
+      -50
+     ],
+     "point": [
+      109.138,
+      75.515,
+      -143.334
+     ],
+     "what": "the furthest-out corner of the T rail",
+     "deflection_at_load_mm": 0.0452,
+     "stiffness_N_per_mm": 1106.6,
+     "max_deflection_mm": 0.1178,
+     "max_at": [
+      116.1,
+      0.2,
+      -342.3
+     ]
+    }
+   ]
+  }
+ ],
+ "inputs": {
+  "step": "dd4e8c05b0081e52b1f50e24b973df69bd83afae56a47206c15e6e4c76c87cfe"
+ }
+}

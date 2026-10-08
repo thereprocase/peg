@@ -4,6 +4,8 @@ The [October 4 current-mount collection](https://thereprocase.github.io/peg/gall
 
 [Six new session designs](https://thereprocase.github.io/peg/gallery/current-pegs/?family=new) are also published: open spool cradle v14, guided four-stack tweezers inward20-v5, rounded rectangular tool funnel v3, braid holder v12, drip tray v12 and its removable vase-mode liner. Each entry states its prototype/physical status. The tweezers require four separate fins; the liner has no pegs and requires spiral-vase settings.
 
+[HX04 three-tier key fan](https://thereprocase.github.io/peg/gallery/key-fan/) holds hex L-keys, Torx L-keys and Bondhus T-handles on a 236 mm plate (ten cells shaved 8 mm a side, pegs on the nine-cell pattern). It prints on its left end with a mirrored PF02 #9 / PF07 #5 receiver. Its fit is assumed equal to the reviewed right-cheek receiver; print the fit coupon first. CAD checks pass; physical tests are pending.
+
 The [curated gallery](https://thereprocase.github.io/peg/gallery/) now lives on GitHub Pages. It contains only Pegstr remixes, the array/bin expansion pack, solder WIP and screwdriver WIP. Earlier collections remain tombstoned. Work one model at a time through discussion, test print and feedback.
 
 ## Current fit versus the original anchor study

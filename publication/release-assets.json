@@ -1614,5 +1614,13 @@
   "canted-hex-keys__v2__cad-source-and-review.zip": {
     "sha256": "0b21e7a2e11fa01a801a589580047aaf66a949e1fa2d055d00469f93f37791f7",
     "bytes": 15819141
+  },
+  "key-fan__v1__cad-source-and-review.zip": {
+    "sha256": "a67acd5ab68e30e38db477cfe83168455f522c15f7ad23610207551ab5aa5e78",
+    "bytes": 11889644
+  },
+  "part-hx04__v1__left-cheek__fit-pf02c9-hoop5__hx04_solid-zones.3mf": {
+    "sha256": "118b1daaf8fad2cbeacb5a691435f7cd00d6a8835826dd4986a3dadd220dd665",
+    "bytes": 1904390
   }
 }

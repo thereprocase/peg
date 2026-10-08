@@ -1,0 +1,46 @@
+{
+ "pieces": [
+  {
+   "piece": "end slice",
+   "volume_mm3": 171943,
+   "print_extent_mm": [
+    128.9,
+    92.4,
+    47.7
+   ],
+   "solids": 1
+  },
+  {
+   "piece": "T5 C",
+   "volume_mm3": 43519,
+   "print_extent_mm": [
+    61.8,
+    40.8,
+    43.5
+   ],
+   "solids": 1
+  },
+  {
+   "piece": "T5 F",
+   "volume_mm3": 43517,
+   "print_extent_mm": [
+    61.8,
+    40.8,
+    43.5
+   ],
+   "solids": 1
+  },
+  {
+   "piece": "TX30",
+   "volume_mm3": 22922,
+   "print_extent_mm": [
+    53.9,
+    37.5,
+    20.4
+   ],
+   "solids": 1
+  }
+ ],
+ "slice_x_mm": 88.0,
+ "tbar_default": "corners"
+}
