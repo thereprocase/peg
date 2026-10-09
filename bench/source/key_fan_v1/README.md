@@ -26,3 +26,7 @@ A three-tier pegboard rack: metric hex L-keys at the back, Husky Torx L-keys in 
   - `run_candidate.sh`, which runs the whole pass and needs `FREECAD_PYTHON`.
 
 The build environment for the published layout is recorded in `report.json` (`build_env`). Tool data come from `bench/source/three_set_rack_v1/key_sets.json` (catalogue values). The label font is Fillaprint (SIL Open Font License, `fonts/OFL.txt`).
+
+## HX05 single-set T-handle racks
+
+The HX05 branch adds two staggered rows per set (33034 Torx, 13189 metric, 13190 inch) to resolve the deep-fan blocker. [Selected layout evidence and the one-command owner Windows build](../tee_racks_v1/README.md) describe the opt-in row mode and pending native/physical checks. HX04’s published layout and evidence remain separate.

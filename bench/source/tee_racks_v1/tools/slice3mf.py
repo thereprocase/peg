@@ -30,7 +30,7 @@ model = ('<?xml version="1.0" encoding="UTF-8"?>\n<model unit="millimeter" xml:l
          + mesh_xml(body, 1)+mesh_xml(zone, 2)
          + '<object id="3" type="model"><components><component objectid="1"/><component objectid="2"/></components></object>'
          '</resources><build><item objectid="3"/></build></model>')
-config = ('<?xml version="1.0" encoding="UTF-8"?>\n<config><object id="3"><metadata key="name" value="HX04 key fan"/>'
+config = ('<?xml version="1.0" encoding="UTF-8"?>\n<config><object id="3"><metadata key="name" value="'+os.environ.get('HX_NAME', 'HX04 key fan')+'"/>'
           '<metadata key="extruder" value="1"/>'
           '<part id="1" subtype="normal_part"><metadata key="name" value="body"/></part>'
           '<part id="2" subtype="modifier_part"><metadata key="name" value="solid zones (sockets, peg receiver)"/>'

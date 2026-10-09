@@ -1,0 +1,588 @@
+{
+ "layout": "hx05c_stand.json",
+ "layout_sha256": "9a3755c14f65be79f364c2dcdea9d3cf2866f390319dd76dc223b0b157536e09",
+ "verifier_sha256": "27f590bad69050c322ccde34331cfa3ba2a285febcde33e23e70ef37b70fb811",
+ "passed": true,
+ "tool_point_step_mm": 0.75,
+ "lift_step_mm": 0.75,
+ "escape_step_mm": 1.25,
+ "worst_loaded_depth_mm": 152.00726767084856,
+ "poses": [
+  {
+   "pose": "nominal",
+   "turn_deg": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "depth_mm": 152.00726767084856,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 8.526512829121203e-15
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "3/32",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.074815328507796
+    },
+    {
+     "set": "tee",
+     "name": "7/64",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.30395121659243
+    },
+    {
+     "set": "tee",
+     "name": "1/8",
+     "D": 12.7,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 33.23308710467706
+    },
+    {
+     "set": "tee",
+     "name": "9/64",
+     "D": 14.3,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 35.049722992761694
+    },
+    {
+     "set": "tee",
+     "name": "5/32",
+     "D": 15.9,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.86635888084633
+    },
+    {
+     "set": "tee",
+     "name": "3/16",
+     "D": 19.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.49963065701559
+    },
+    {
+     "set": "tee",
+     "name": "7/32",
+     "D": 22.2,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.13290243318485
+    },
+    {
+     "set": "tee",
+     "name": "1/4",
+     "D": 25.4,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 39.76617420935412
+    },
+    {
+     "set": "tee",
+     "name": "5/16",
+     "D": 31.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 47.03271776169265
+    },
+    {
+     "set": "tee",
+     "name": "3/8",
+     "D": 38.1,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 54.29926131403118
+    }
+   ]
+  },
+  {
+   "pose": "plus",
+   "turn_deg": [
+    10.0,
+    22.18719107373815,
+    17.195245495903322,
+    14.367128808854302,
+    12.422598515988373,
+    9.844753186651001,
+    8.182358766329404,
+    7.010755540915579,
+    5.459460638199495,
+    4.4745442149645385
+   ],
+   "depth_mm": 151.8411567784526,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 8.526512829121203e-15
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "3/32",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.074815328507796
+    },
+    {
+     "set": "tee",
+     "name": "7/64",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.30395121659243
+    },
+    {
+     "set": "tee",
+     "name": "1/8",
+     "D": 12.7,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 33.23308710467706
+    },
+    {
+     "set": "tee",
+     "name": "9/64",
+     "D": 14.3,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 35.049722992761694
+    },
+    {
+     "set": "tee",
+     "name": "5/32",
+     "D": 15.9,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.86635888084633
+    },
+    {
+     "set": "tee",
+     "name": "3/16",
+     "D": 19.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.49963065701559
+    },
+    {
+     "set": "tee",
+     "name": "7/32",
+     "D": 22.2,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.13290243318485
+    },
+    {
+     "set": "tee",
+     "name": "1/4",
+     "D": 25.4,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 39.76617420935412
+    },
+    {
+     "set": "tee",
+     "name": "5/16",
+     "D": 31.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 47.03271776169265
+    },
+    {
+     "set": "tee",
+     "name": "3/8",
+     "D": 38.1,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 54.29926131403118
+    }
+   ]
+  },
+  {
+   "pose": "minus",
+   "turn_deg": [
+    -10.0,
+    -22.18719107373815,
+    -17.195245495903322,
+    -14.367128808854302,
+    -12.422598515988373,
+    -9.844753186651001,
+    -8.182358766329404,
+    -7.010755540915579,
+    -5.459460638199495,
+    -4.4745442149645385
+   ],
+   "depth_mm": 151.8411567784526,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 8.526512829121203e-15
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "3/32",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.074815328507796
+    },
+    {
+     "set": "tee",
+     "name": "7/64",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.30395121659243
+    },
+    {
+     "set": "tee",
+     "name": "1/8",
+     "D": 12.7,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 33.23308710467706
+    },
+    {
+     "set": "tee",
+     "name": "9/64",
+     "D": 14.3,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 35.049722992761694
+    },
+    {
+     "set": "tee",
+     "name": "5/32",
+     "D": 15.9,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.86635888084633
+    },
+    {
+     "set": "tee",
+     "name": "3/16",
+     "D": 19.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.49963065701559
+    },
+    {
+     "set": "tee",
+     "name": "7/32",
+     "D": 22.2,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.13290243318485
+    },
+    {
+     "set": "tee",
+     "name": "1/4",
+     "D": 25.4,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 39.76617420935412
+    },
+    {
+     "set": "tee",
+     "name": "5/16",
+     "D": 31.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 47.03271776169265
+    },
+    {
+     "set": "tee",
+     "name": "3/8",
+     "D": 38.1,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 54.29926131403118
+    }
+   ]
+  },
+  {
+   "pose": "alternating-plus",
+   "turn_deg": [
+    10.0,
+    -22.18719107373815,
+    17.195245495903322,
+    -14.367128808854302,
+    12.422598515988373,
+    -9.844753186651001,
+    8.182358766329404,
+    -7.010755540915579,
+    5.459460638199495,
+    -4.4745442149645385
+   ],
+   "depth_mm": 151.8411567784526,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 8.526512829121203e-15
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "3/32",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.074815328507796
+    },
+    {
+     "set": "tee",
+     "name": "7/64",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.30395121659243
+    },
+    {
+     "set": "tee",
+     "name": "1/8",
+     "D": 12.7,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 33.23308710467706
+    },
+    {
+     "set": "tee",
+     "name": "9/64",
+     "D": 14.3,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 35.049722992761694
+    },
+    {
+     "set": "tee",
+     "name": "5/32",
+     "D": 15.9,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.86635888084633
+    },
+    {
+     "set": "tee",
+     "name": "3/16",
+     "D": 19.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.49963065701559
+    },
+    {
+     "set": "tee",
+     "name": "7/32",
+     "D": 22.2,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.13290243318485
+    },
+    {
+     "set": "tee",
+     "name": "1/4",
+     "D": 25.4,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 39.76617420935412
+    },
+    {
+     "set": "tee",
+     "name": "5/16",
+     "D": 31.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 47.03271776169265
+    },
+    {
+     "set": "tee",
+     "name": "3/8",
+     "D": 38.1,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 54.29926131403118
+    }
+   ]
+  },
+  {
+   "pose": "alternating-minus",
+   "turn_deg": [
+    -10.0,
+    22.18719107373815,
+    -17.195245495903322,
+    14.367128808854302,
+    -12.422598515988373,
+    9.844753186651001,
+    -8.182358766329404,
+    7.010755540915579,
+    -5.459460638199495,
+    4.4745442149645385
+   ],
+   "depth_mm": 151.8411567784526,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 8.526512829121203e-15
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "3/32",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.074815328507796
+    },
+    {
+     "set": "tee",
+     "name": "7/64",
+     "D": 12.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.30395121659243
+    },
+    {
+     "set": "tee",
+     "name": "1/8",
+     "D": 12.7,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 33.23308710467706
+    },
+    {
+     "set": "tee",
+     "name": "9/64",
+     "D": 14.3,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 35.049722992761694
+    },
+    {
+     "set": "tee",
+     "name": "5/32",
+     "D": 15.9,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.86635888084633
+    },
+    {
+     "set": "tee",
+     "name": "3/16",
+     "D": 19.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 32.49963065701559
+    },
+    {
+     "set": "tee",
+     "name": "7/32",
+     "D": 22.2,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 36.13290243318485
+    },
+    {
+     "set": "tee",
+     "name": "1/4",
+     "D": 25.4,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 39.76617420935412
+    },
+    {
+     "set": "tee",
+     "name": "5/16",
+     "D": 31.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 47.03271776169265
+    },
+    {
+     "set": "tee",
+     "name": "3/8",
+     "D": 38.1,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 54.29926131403118
+    }
+   ]
+  }
+ ],
+ "scope": "Dense sampled capsule/cloud layout and fixed forward routes at five clock-play poses; not continuous collision proof, native CAD or physical qualification."
+}

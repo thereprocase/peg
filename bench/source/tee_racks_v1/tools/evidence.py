@@ -1,6 +1,6 @@
 """Collect HX04 review evidence from a finished build + coupon into bench/reviews/key-fan-v1/HX04.
     python tools/evidence.py <build dir> <coupon dir>
-Run from bench/source/key_fan_v1 with the build env (SHORT_*). Writes report.json, print-geometry.json,
+Run from bench/source/tee_racks_v1 with the build env (SHORT_*). Writes report.json, print-geometry.json,
 slice-summary.json, exact-check.json, stiffness.json, coupon.json and the viewer GLBs; copies the native/print
 files (STEP, STL, 3MF project) beside them (those are release assets, not tracked).
 """
@@ -12,8 +12,9 @@ sys.path.insert(0, str(HERE.parents[0]/'gallery_new_designs_v1/snapshot/bench/so
 import checks, short as S
 d, c = Path(sys.argv[1]).resolve(), Path(sys.argv[2]).resolve()
 VER = int(os.environ.get('HX4_VERSION', 1))
-OUT = R/f'bench/reviews/key-fan-v{VER}/HX04'; OUT.mkdir(parents=True, exist_ok=True)
-PREFIX = f'part-hx04__v{VER}__left-cheek__fit-pf02c9-hoop5'
+ID = os.environ.get('HX_ID', 'HX04'); FAM = os.environ.get('HX_FAMILY', 'key-fan')      # HX05: tee-racks, HX05A/B/C
+OUT = R/f'bench/reviews/{FAM}-v{VER}/{ID}'; OUT.mkdir(parents=True, exist_ok=True)
+PREFIX = f'part-{ID.lower()}__v{VER}__left-cheek__fit-pf02c9-hoop5'
 
 
 def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -31,7 +32,7 @@ def slice_log(p):
 
 # --- files ---------------------------------------------------------------------------------------------------
 files = {'installed.step': d/'installed.step', 'installed.stl': d/'installed.stl', 'print.stl': d/'print.stl',
-         'print_solid-zones.stl': d/'print_solid.stl', 'hx04_solid-zones.3mf': d/'slice_solid/hx04_solid.3mf',
+         'print_solid-zones.stl': d/'print_solid.stl', f"{ID.lower()}_solid-zones.3mf": d/'slice_solid/hx04_solid.3mf',
          'tool-reference.stl': d/'keys.stl', 'coupon_print.stl': c/'print.stl', 'coupon_installed.step': c/'coupon_installed.step'}
 named = {}
 for k, src in files.items():
@@ -40,16 +41,18 @@ for k, src in files.items():
 keys = trimesh.load(d/'keys.stl', force='mesh').simplify_quadric_decimation(percent=.92)   # light enough for the web viewer
 keys.export(d/'keys_web.stl')
 env = dict(os.environ, INK='0', KEYS='keys_web.stl')
-subprocess.run([sys.executable, str(HERE/'tools/glb.py'), str(d)], check=True, env=env, capture_output=True)
+subprocess.run([sys.executable, str(HERE/'tools/glb.py'), str(d)], check=True, env=env, capture_output=True, timeout=600)
 for n in ('installed.glb', 'loaded.glb', 'print.glb'):
     shutil.copyfile(d/n, OUT/n)
-subprocess.run([sys.executable, str(HERE/'tools/glb.py'), str(d)], check=True, capture_output=True)   # restore inked review GLBs
+subprocess.run([sys.executable, str(HERE/'tools/glb.py'), str(d)], check=True, capture_output=True, timeout=600)   # restore inked review GLBs
 # --- print geometry gate --------------------------------------------------------------------------------------
 pr = trimesh.load(d/'print.stl', force='mesh'); inv = np.linalg.inv(np.array(json.loads((d/'pose.json').read_text())).reshape(4, 4))
 oh = checks.overhangs(pr, inv, []); isl = checks.islands(pr, inv)
 geo = dict(inputs=dict(print_stl=sha(d/'print.stl')), components=len(pr.split(only_watertight=False)), extents_mm=pr.extents.round(1).tolist(),
            volume_cm3=round(pr.volume/1000, 1), overhangs=oh, islands=isl,
            note='Largest overhang patches: T10 mouth where the straight and leaned openings meet (~16 mm2 at ~44 deg) and label counters (<14 mm2). The slicer adds tree support under the peg hooks behind the mounting face.')
+if S.TEE_STAND:
+    geo['note'] = 'HX05 geometry screen from this build. Review overhangs, hook supports, labels and socket floors in the actual owner-profile toolpaths; no physical support-release qualification.'
 xmax = float(pr.extents[0])
 isl['declared'] = [dict(q, reason='single vertex on the vertical end wall (print +X, the installed top trim face); the 0.2 mm probe below a wall vertex lies on the wall, not in air')
                    for q in isl['points'] if q['vertices'] == 1 and q['print_xyz'][0] >= xmax-.5]
@@ -72,13 +75,22 @@ sockets = [dict(set=t['set'], size=t['name'], seat_depth_mm=round(float(t['D']),
                 mouth_mm=[round(float(a), 2) for a in t['mouth']], floor_slope_deg=t['floor_deg'], pinch_ratio=round(float(t['pinch']), 2),
                 keyed=bool(t['set'] == 'tee' and t['af'] >= S.TEE_KEYED_MIN),
                 turn_play_deg=(round(S.tee_play_deg(t['af']), 1) if t['set'] == 'tee' else None)) for t in Lo.tools]
-deps = ['bench/source/key_fan_v1/build_short.py', 'bench/source/key_fan_v1/check.py', 'bench/source/key_fan_v1/coupon.py',
-        'bench/source/key_fan_v1/fea_run.py', 'bench/source/key_fan_v1/swing.py', 'bench/source/key_fan_v1/study/short.py', 'bench/source/key_fan_v1/study/sunray.py',
-        'bench/source/key_fan_v1/study/comb.py', 'bench/source/key_fan_v1/study/'+os.environ['HX4S_LAYOUT'],
+deps = ['bench/source/tee_racks_v1/build_short.py', 'bench/source/tee_racks_v1/check.py', 'bench/source/tee_racks_v1/coupon.py',
+        'bench/source/tee_racks_v1/fea_run.py', 'bench/source/tee_racks_v1/swing.py', 'bench/source/tee_racks_v1/study/short.py', 'bench/source/tee_racks_v1/study/sunray.py',
+        'bench/source/tee_racks_v1/study/comb.py', 'bench/source/tee_racks_v1/study/'+os.environ['HX4S_LAYOUT'],
         'bench/source/three_set_rack_v1/key_sets.json', 'bench/source/bespoke_tools_v1/build.py',
         'bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py']
+if os.environ.get('SHORT_TEE_SET'):
+    deps += ['bench/source/tee_racks_v1/study/'+os.environ['SHORT_TEE_SET'], 'bench/source/tee_racks_v1/study/tee_sets_note.json']
+if S.TEE_STAND:
+    deps += ['bench/source/tee_racks_v1/study/stand_rows.py', 'bench/source/tee_racks_v1/study/verify_stand.py',
+             'bench/source/tee_racks_v1/study/'+ID.lower()+'_layout-check.json',
+             'bench/source/tee_racks_v1/tools/hx05_build.py', 'bench/source/tee_racks_v1/tools/evidence.py',
+             'bench/source/tee_racks_v1/fonts/Fillaprint-Regular.ttf', 'bench/source/tee_racks_v1/fonts/OFL.txt']
+    for n in ('build-geometry.json', 'pipeline-run.json'):
+        shutil.copyfile(d/n, OUT/n)
 bb = trimesh.load(d/'print.stl', force='mesh').bounds
-rep = dict(id='HX04', version=VER, prefix=PREFIX, pose='left-cheek', layout=os.environ['HX4S_LAYOUT'],
+rep = dict(id=ID, version=VER, prefix=PREFIX, pose='left-cheek', layout=os.environ['HX4S_LAYOUT'],
            build_env={k: v for k, v in os.environ.items() if k.startswith(('SHORT_', 'HX4S_', 'XENV'))},
            source_dependencies={p: sha(R/p) for p in deps}, assets=named,
            files={n: dict(sha256=sha(OUT/n), bytes=(OUT/n).stat().st_size) for n in named.values()},

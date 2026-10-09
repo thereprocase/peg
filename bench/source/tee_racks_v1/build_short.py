@@ -208,11 +208,12 @@ def blob(pts, rr, pad):
 def clearance(Lo, rep, pad=1.5):
     """Each stored tool, its lift out of the socket and its way out, as convex pieces (arm by arm)."""
     out = []
-    esc = {r['name']+r['set']: r['escape'] for r in rep}
+    routes = {r['name']+r['set']: r for r in rep}
     for t in Lo.tools:
         u = np.asarray(t['u']); main = t['main']        # long arm / shaft (study, before the rest-pose tip)
-        lift = u*(t['D']+3.)
-        e = {'forward': np.array([0, 1., 0]), 'up-forward': np.array([0, 1, .4])/np.linalg.norm([0, 1, .4]), 'axis': u, None: u}[esc.get(t['name']+t['set'])]
+        route = routes.get(t['name']+t['set'], {})
+        lift = u*route.get('lift_mm', t['D']+3.)
+        e = {'forward': np.array([0, 1., 0]), 'up-forward': np.array([0, 1, .4])/np.linalg.norm([0, 1, .4]), 'axis': u, None: u}[route.get('escape')]
         for sel in (main, ~main):
             if sel.sum() < 2:
                 continue
@@ -418,8 +419,8 @@ def build(quick=False):
         receiver = receiver.cut(corner).removeSplitter()
     env = B.box(-HALF, Y_BACK, zlo-5, 2*HALF, 300, zhi-zlo+5)
     rails, labels, roots = [], [], {}
-    for s_ in ('torx', 'hex', 'tee'):
-        r_ = rail([t for t in tools_d if t['set'] == s_], env, s_, labels, roots)
+    for s_, row_tools in Lo.rail_groups:
+        r_ = rail(row_tools, env, s_, labels, roots)
         if __import__('os').environ.get('HX4S_SOFT', '0') == '1':
             r_ = soften(r_, lambda e: e.BoundBox.YMin > Y_BACK+.5, log, s_+' rail')
         rails.append(r_)
@@ -498,9 +499,7 @@ def solid_zones(Lo, rails, mount, shape):
       * a solid disc through the plate round every peg root.
     Each zone is clipped to its rail, so no solid mass lands in the webs or the open plate."""
     parts = []
-    sets = ('torx', 'hex', 'tee')
-    for s_, rail in zip(sets, rails):
-        T = [t for t in Lo.tools if t['set'] == s_]
+    for (s_, T), rail in zip(Lo.rail_groups, rails):
         mids = np.array([np.asarray(t['mouth'])-np.asarray(t['u'])*t['D']/2 for t in T])
         ub = np.mean([np.asarray(t['u']) for t in T], axis=0); ub[0] = 0.; ub /= np.linalg.norm(ub)
         nrm = np.cross([1., 0, 0], ub); nrm /= np.linalg.norm(nrm)        # web normal: in y-z, across the axes
@@ -583,16 +582,26 @@ def quick_meshes(g, out):
     pp, m = print_pose(g['shape'])
     B.mesh(g['shape'], out/'installed.stl'); B.mesh(pp, out/'print.stl')
     if __import__('os').environ.get('HX4S_SOLID', '1') == '1':
-        z = solid_zones(g['Lo'], g['rails'], g['mount'], g['shape']); zp = z.copy(); zp.transformShape(m)
+        z = g['zones'] = solid_zones(g['Lo'], g['rails'], g['mount'], g['shape']); zp = z.copy(); zp.transformShape(m)
         B.mesh(zp, out/'print_solid.stl'); B.mesh(z, out/'installed_solid.stl')
     g['shape'].exportStep(str(out/'installed.step'))
     B.mesh(ref_tools(g['Lo']), out/'keys.stl')
     M = [[m.A11, m.A12, m.A13, m.A14], [m.A21, m.A22, m.A23, m.A24], [m.A31, m.A32, m.A33, m.A34], [0, 0, 0, 1]]
     (out/'pose.json').write_text(json.dumps([c for row in M for c in row]))
     bb = g['shape'].BoundBox
+    if SH.TEE_STAND:
+        report = dict(native_valid=g['shape'].isValid(), native_solids=len(g['shape'].Solids),
+                      volume_mm3=g['shape'].Volume, mount=g['mount'], finish=g['finish'],
+                      installed_bounds_mm=[bb.XMin, bb.XMax, bb.YMin, bb.YMax, bb.ZMin, bb.ZMax],
+                      rail_groups=[dict(name=name, tools=[t['name'] for t in tools]) for name, tools in g['Lo'].rail_groups])
+        (out/'build-geometry.json').write_text(json.dumps(report, indent=1)+'\n', encoding='utf-8', newline='\n')
     print('quick meshes', out, 'volume', round(g['shape'].Volume), 'bbox', [round(x, 1) for x in (bb.XMin, bb.XMax, bb.YMin, bb.YMax, bb.ZMin, bb.ZMax)], flush=True)
 
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('--quick', type=Path, required=True); a = ap.parse_args()
-    quick_meshes(build(True), a.quick)
+    _G = build(True); quick_meshes(_G, a.quick)
+    if __import__('os').environ.get('COUPON_OUT'):      # the fit coupon from this same build (no second build)
+        import runpy; sys.modules['build_short'] = sys.modules['__main__']
+        sys.argv = ['coupon.py', __import__('os').environ['COUPON_OUT']]
+        runpy.run_path(str(HERE/'coupon.py'), run_name='__main__')

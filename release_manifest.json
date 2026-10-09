@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2659,
-  "total_size_bytes": 1100095251,
+  "file_count": 2702,
+  "total_size_bytes": 1101367899,
   "files": [
     {
       "path": ".gitattributes",
@@ -13,8 +13,8 @@
     },
     {
       "path": ".gitignore",
-      "size_bytes": 2821,
-      "sha256": "9acd39585715d7d0319438370dac9de20ed63a8eeb2abd205eca9063c01a69ea"
+      "size_bytes": 3130,
+      "sha256": "aa71cce29d1c59e29a77eb05dc42c4b228f2364fad71b3400c6842f3a90fc8f9"
     },
     {
       "path": "AGENTS.md",
@@ -3198,8 +3198,8 @@
     },
     {
       "path": "bench/source/key_fan_v1/README.md",
-      "size_bytes": 1989,
-      "sha256": "bf29f37f8b86ac887ca7b394de79865b4fbc701435524d21a3a7a5f1373901f8"
+      "size_bytes": 2360,
+      "sha256": "d2e0f715100e3c3a2a9c452587bdf290d35b17a186fb5d4b18c780b0ad4af00e"
     },
     {
       "path": "bench/source/key_fan_v1/build_short.py",
@@ -3235,6 +3235,16 @@
       "path": "bench/source/key_fan_v1/fonts/OFL.txt",
       "size_bytes": 4468,
       "sha256": "af12c54e5d4a4d6dd43d1c052dff5e5e8896b316544a6b10574699ad8ce61fcc"
+    },
+    {
+      "path": "bench/source/key_fan_v1/hx05/README.md",
+      "size_bytes": 526,
+      "sha256": "33e533273750bd55a0b5dffa89f635dfc73c1061477dfc57758315f3d3b1a118"
+    },
+    {
+      "path": "bench/source/key_fan_v1/hx05/RECONCILIATION.md",
+      "size_bytes": 1427,
+      "sha256": "fc1a8c3650f80d9abeadfb4437e75a187f882bfc6b903930ccd0836d4b2b89b1"
     },
     {
       "path": "bench/source/key_fan_v1/study/comb.py",
@@ -3280,6 +3290,11 @@
       "path": "bench/source/key_fan_v1/tools/glb.py",
       "size_bytes": 2568,
       "sha256": "503e79f82971c6d8b4c5531165588a91543cc637116918cb08ae53a49facd306"
+    },
+    {
+      "path": "bench/source/key_fan_v1/tools/hx05_rack.sh",
+      "size_bytes": 189,
+      "sha256": "73f6b7c30aa689d1d17e1e87568f0555f85689f11b0090bdfe96856e96647a87"
     },
     {
       "path": "bench/source/key_fan_v1/tools/package.json",
@@ -3335,6 +3350,206 @@
       "path": "bench/source/screw_dish_magnetic.py",
       "size_bytes": 13658,
       "sha256": "8fa80d68dd218e1fa4e12024b65766a8b2f9a0a66638c0a92b83a30c44f7b5da"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/LOCAL-CHECKS.json",
+      "size_bytes": 1012,
+      "sha256": "f7e1bdfd4835b2d06a08b9557acf6e8fd6bbb5555c3e2a77c618f39e937cb880"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/README.md",
+      "size_bytes": 7790,
+      "sha256": "297d6d4ea008c904c0ce80c11bcfbc66890b15c83bf75fc4577c7170f28089ef"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/build_short.py",
+      "size_bytes": 34109,
+      "sha256": "5061a145cc5dd93f94d50aa5f96f42ac637f4aad388c080058115a54640c01d2"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/check.py",
+      "size_bytes": 8715,
+      "sha256": "d09b37c02903423e084f542d5f23a2f0ae0a07064b61a5646ead6012df01a7af"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/coupon.py",
+      "size_bytes": 6619,
+      "sha256": "cb58f1cf5c96400a670eb73309e608017d0960e98d48aa07cb9d828859cb5842"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/fea_run.py",
+      "size_bytes": 3634,
+      "sha256": "4fe6a5d53e1f2e86cea301b664496d5d16994cbfcdde7602a6ec0f326b23ecad"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/fonts/Fillaprint-Regular.ttf",
+      "size_bytes": 319260,
+      "sha256": "f2986cc7cfd4ea2b00a23ead531076445f784576e577fffbf7e7b25431f4a88f"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/fonts/FillaprintTab-Regular.ttf",
+      "size_bytes": 319572,
+      "sha256": "7d1a08e5a113e99de4b397ab43ccef12605f5d59dd48178b518c58a95bcb7bf4"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/fonts/OFL.txt",
+      "size_bytes": 4468,
+      "sha256": "af12c54e5d4a4d6dd43d1c052dff5e5e8896b316544a6b10574699ad8ce61fcc"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/layout-visuals.json",
+      "size_bytes": 860,
+      "sha256": "6d62c3178fedf8dbb7f5a2d2a905a3aa0fd196eebf1289f71b44a50c5e2df7e1"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/layouts.png",
+      "size_bytes": 168286,
+      "sha256": "ade8712987321278398c026a1c48cfe7c23519d4a8cd22559d29f5001f853c95"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/layouts.svg",
+      "size_bytes": 249244,
+      "sha256": "ad4b5a51dc901e2f878235f94dd566888490083e3c9927163b507f055aa9eb9b"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/comb.py",
+      "size_bytes": 2076,
+      "sha256": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/hx05a_layout-check.json",
+      "size_bytes": 9274,
+      "sha256": "5558c8cca417cd9443941b87d67cc1496f28f97efcc3804c9e09894515f6d167"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/hx05a_stand.json",
+      "size_bytes": 3102,
+      "sha256": "28948fc102d7c5be8a8c4e895176b46a6be00865adf3210415715eb738114fa8"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/hx05b_layout-check.json",
+      "size_bytes": 9191,
+      "sha256": "fdfefa781fe5d8b0d0377f06426fe8b1fb76133badd45add498299fe99fe4208"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/hx05b_stand.json",
+      "size_bytes": 3366,
+      "sha256": "b2edd641de75372c4058f531289b6253edf9a7a545a8f82fea255b1a33039ce6"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/hx05c_layout-check.json",
+      "size_bytes": 11276,
+      "sha256": "a2285f0002deae04018195201c9bb243cc6d0c85f066977368f5cc24748bd477"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/hx05c_stand.json",
+      "size_bytes": 3686,
+      "sha256": "9a3755c14f65be79f364c2dcdea9d3cf2866f390319dd76dc223b0b157536e09"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/short.py",
+      "size_bytes": 28163,
+      "sha256": "37853c49c6ae1894a8a935f74f7fe200bc8322f58aa4c12e366bd3a148b605f9"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/short_dt_c2.json",
+      "size_bytes": 4293,
+      "sha256": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/stand_rows.py",
+      "size_bytes": 3113,
+      "sha256": "8d09c2a3d2db45be118b3fa83144a9970232df6bb9985f3cff9ae342bad08e94"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/sunray.py",
+      "size_bytes": 16297,
+      "sha256": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/tee_13189.json",
+      "size_bytes": 653,
+      "sha256": "7d2de811bf0ddc379c1ac9fa5acbea5046876e766d52aeed159b7dd94b644072"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/tee_13190.json",
+      "size_bytes": 943,
+      "sha256": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/tee_33034.json",
+      "size_bytes": 811,
+      "sha256": "f84f580af6d8a37fc33728b3a784cedb935c95a27442596c1e0e84d54d5518e5"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/tee_sets_note.json",
+      "size_bytes": 697,
+      "sha256": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/study/verify_stand.py",
+      "size_bytes": 2540,
+      "sha256": "27f590bad69050c322ccde34331cfa3ba2a285febcde33e23e70ef37b70fb811"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/swing.py",
+      "size_bytes": 4213,
+      "sha256": "d613650e435ead3ff670ae769a7b7820e6db8a891327bd89b028c79478639f6a"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/evidence.py",
+      "size_bytes": 8635,
+      "sha256": "b065be6559e17fc006fb8c0e9ccffeadc87fdf4c28d2badef6fd56c77077489f"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/gate3.py",
+      "size_bytes": 855,
+      "sha256": "7fbfc6bcdc68497fccfc3f66d1205fe0a11d286bc6ce850a91bdb08819e2fdc8"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/glb.py",
+      "size_bytes": 2568,
+      "sha256": "503e79f82971c6d8b4c5531165588a91543cc637116918cb08ae53a49facd306"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/hx05_build.py",
+      "size_bytes": 10263,
+      "sha256": "975b80ee738ca3e59ed7c5a7c17b7de4d8804a0413b6b054d7e4f2ef812908c3"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/hx05_rack.sh",
+      "size_bytes": 357,
+      "sha256": "9658881896cd6f07c6c0497e63f7bf6815848fde1b784a9adc397c52c97670e4"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/package.json",
+      "size_bytes": 297,
+      "sha256": "ee27e2ba20b15b9f1d0e5046e9945a303c5faa8e3eb38fdd1e59b3b0c1afbdd7"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/quickslice.py",
+      "size_bytes": 2960,
+      "sha256": "6df1a1c61791be6822f17ea55e2863564bf93ba73795ce4246ba2c2a4131d83e"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/render_layouts.py",
+      "size_bytes": 3526,
+      "sha256": "4508387bcd258c2f4ec2fbe6370bbdf54e372bcd15c56777758ecbf40cebe801"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/shots3.cjs",
+      "size_bytes": 3346,
+      "sha256": "95ee046e3d88a3668a5d51c83dec5148b0e1b89c47425ad42eb7fa7b74563019"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/slice3mf.py",
+      "size_bytes": 5449,
+      "sha256": "c7a95138dd8faa1c58be7455c810258ca82a12aabf45eebae021b8dc669092c8"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/test_hx05.py",
+      "size_bytes": 4307,
+      "sha256": "98731de121428ae494f2a50dcbeb6f55fddcc964e86d6fee8ce923220aa525f3"
     },
     {
       "path": "bench/source/three_set_rack_v1/key_sets.json",

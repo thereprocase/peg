@@ -75,3 +75,11 @@ bench/reviews/key-fan-v2/*/*.stl
 bench/reviews/key-fan-v2/*/*.step
 bench/reviews/key-fan-v2/*/*.3mf
 bench/reviews/key-fan-v2/*/*.glb
+
+# HX05 runtime outputs and local renderer dependencies; authored evidence stays tracked.
+bench/source/tee_racks_v1/runs/
+bench/source/tee_racks_v1/tools/node_modules/
+bench/reviews/tee-racks-v1/*/*.stl
+bench/reviews/tee-racks-v1/*/*.step
+bench/reviews/tee-racks-v1/*/*.3mf
+bench/reviews/tee-racks-v1/*/*.glb

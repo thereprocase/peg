@@ -52,7 +52,7 @@ def path_of(st):
     return [lift, d*160.]
 
 
-def sweep_check(shape, tools, seats, shelf, step=3., movers=None):
+def sweep_check(shape, tools, seats, shelf, step=float(__import__('os').environ.get('CHECK_STEP', 3.)), movers=None):
     """tools: every tool as stored (the obstacles); movers: the shape each one is drawn out as (default: as stored)."""
     rows = []
     for i, (tool, st) in enumerate(zip(movers or tools, seats)):
@@ -138,7 +138,7 @@ if __name__ == '__main__':
         rep = H.LAYOUT.get('rep') or H.SH.evaluate(H.LAYOUT['x'], True)[4]
         for st, r_, t in zip(seats, rep, g['Lo'].tools):
             esc = r_['escape']
-            st['exit'] = dict(kind='lift-then-'+esc, lift_mm=t['D']+3.)
+            st['exit'] = dict(kind='lift-then-'+esc, lift_mm=r_.get('lift_mm', t['D']+3.))
             st['depth'] = t['D']
     top = max(t.BoundBox.ZMax for t in tools)
     shelf = H.B.box(-400, -50, top+2*INCH, 800, 50+3*INCH, 200)      # 3" deep, its underside 2" above the loaded rack

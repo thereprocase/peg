@@ -1,0 +1,202 @@
+{
+ "x": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  104.57055034760025,
+  69.73256089327869,
+  0.0,
+  46.475800154489,
+  -23.2379000772445,
+  18.774706777569875,
+  -71.30156085864563,
+  0.0,
+  0.0,
+  90.0,
+  5.0,
+  12.0,
+  12.0,
+  4.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "rep": [
+  {
+   "set": "tee",
+   "name": "3/32",
+   "D": 12.0,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 32.074815328507796
+  },
+  {
+   "set": "tee",
+   "name": "7/64",
+   "D": 12.0,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 32.30395121659243
+  },
+  {
+   "set": "tee",
+   "name": "1/8",
+   "D": 12.7,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 33.23308710467706
+  },
+  {
+   "set": "tee",
+   "name": "9/64",
+   "D": 14.3,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 35.049722992761694
+  },
+  {
+   "set": "tee",
+   "name": "5/32",
+   "D": 15.9,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 36.86635888084633
+  },
+  {
+   "set": "tee",
+   "name": "3/16",
+   "D": 19.0,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 32.49963065701559
+  },
+  {
+   "set": "tee",
+   "name": "7/32",
+   "D": 22.2,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 36.13290243318485
+  },
+  {
+   "set": "tee",
+   "name": "1/4",
+   "D": 25.4,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 39.76617420935412
+  },
+  {
+   "set": "tee",
+   "name": "5/16",
+   "D": 31.8,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 47.03271776169265
+  },
+  {
+   "set": "tee",
+   "name": "3/8",
+   "D": 38.1,
+   "escape": "forward",
+   "lift_pen": 0.0,
+   "esc_pen": 0.0,
+   "lift_mm": 54.29926131403118
+  }
+ ],
+ "depth": 152.00726767084856,
+ "body_h": 198.2590939488461,
+ "cad_plate_height_mm": 219.30156085864564,
+ "pen": {
+  "store": 0.0,
+  "sweep": 0.0,
+  "env": 0.0,
+  "order": 0.0,
+  "grip": 8.526512829121203e-15,
+  "turn": 3.4106051316484814e-14
+ },
+ "stage": "sampled layout study; native CAD, FEA, slicing and physical tests pending",
+ "build_env": {
+  "SHORT_TEE_SET": "tee_13190.json",
+  "SHORT_ROBUST_ALT": "1",
+  "SHORT_TEE_STAND": "1",
+  "SHORT_ROBUST": "1",
+  "SHORT_TONLY": "1",
+  "XENV": "141",
+  "SHORT_HMAX": "215",
+  "SHORT_TEE_EQUAL": "48",
+  "SHORT_REC_CELLS": "9",
+  "SHORT_ESCAPE_STEP": "2.5",
+  "SHORT_POINT_STEP": "1.25",
+  "SHORT_STEP": "1.25",
+  "SHORT_CELLS": "10",
+  "SHORT_PLATE_HALF": "118"
+ },
+ "dependencies": {
+  "stand_rows.py": "8d09c2a3d2db45be118b3fa83144a9970232df6bb9985f3cff9ae342bad08e94",
+  "short.py": "37853c49c6ae1894a8a935f74f7fe200bc8322f58aa4c12e366bd3a148b605f9",
+  "sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
+  "comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
+  "tee_13190.json": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
+  "tee_sets_note.json": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a"
+ },
+ "search_seconds": 61.47,
+ "search_parameters": [
+  69.73256089327869,
+  88.50726767084856,
+  71.30156085864563,
+  12.0,
+  -23.2379000772445,
+  0.0,
+  12.0,
+  4.0
+ ],
+ "search_parameters_before_refinement": [
+  69.73256089327869,
+  88.50726767084856,
+  71.30156085864563,
+  12.0,
+  -23.2379000772445,
+  0.0,
+  12.0,
+  4.0
+ ],
+ "selection_refinement": {
+  "reduced_grip_z_step_mm": 0,
+  "reason": "dense fixed-forward route verification; keep 48 mm grip spacing"
+ }
+}

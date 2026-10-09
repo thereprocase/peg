@@ -1,3 +1,0 @@
-{
- "note": "HX05 tool data. Bar (handle) lengths ASSUMED from the HX04 Bondhus T-handle bars by size (76/102/127 mm). 13189: bondhustools.com category 'Hex & Balldriver T-Handles' overall lengths: 13252 2 mm 5.9in, 13256 3 mm 7.7in, 13160-13176 4-10 mm 8.7/9.7/10.5/11.2/12.1in; 2.5 mm (13254) interpolated. 13190: 3/32 6in catalogue; others interpolated on the metric curve by across-flats (ASSUMED). 33034: Torx point-to-point nominal; overall ASSUMED from the metric curve at 0.866 x point-to-point + 0.4 mm. Torx enters the study as a hex of across-flats 0.866 x point-to-point (its lobes ride in the hex corners)."
-}

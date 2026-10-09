@@ -1,0 +1,11 @@
+{
+ "source": "https://3989ac5bcbe1edfc864a-0a7f10f87519dba22d2dbc6233a731e5.ssl.cf2.rackcdn.com/bondhus42/catalogs/2023/2023_US_Bondhus_Catalog_A.pdf",
+ "catalog": "Bondhus 2023 US",
+ "retrieved": "2026-10-08",
+ "pages": {
+  "33034": 41,
+  "13189": 35,
+  "13190": 35
+ },
+ "note": "Overall and grip lengths use the catalogue millimetre columns, not interpolation. Small 13189/13190 members are straight hex tips as noted by Bondhus. Grip thickness remains the HX04 assumed 18 mm sphere-swept envelope. Torx p2p values remain nominal assumptions; af = sqrt(3)/2 * p2p is the circumscribing hex proxy, not a measured blade section. Physical clocking/coating and Torx retention need coupon checks."
+}

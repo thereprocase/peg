@@ -3,48 +3,56 @@
   "name": "2",
   "af": 2,
   "overall": 150,
-  "bar": 76
+  "bar": 76,
+  "part": 13252
  },
  {
   "name": "2.5",
   "af": 2.5,
-  "overall": 173,
-  "bar": 76
+  "overall": 172,
+  "bar": 76,
+  "part": 13254
  },
  {
   "name": "3",
   "af": 3,
   "overall": 196,
-  "bar": 76
+  "bar": 76,
+  "part": 13256
  },
  {
   "name": "4",
   "af": 4,
-  "overall": 221,
-  "bar": 76
+  "overall": 220,
+  "bar": 76,
+  "part": 13160
  },
  {
   "name": "5",
   "af": 5,
   "overall": 246,
-  "bar": 102
+  "bar": 102,
+  "part": 13164
  },
  {
   "name": "6",
   "af": 6,
-  "overall": 267,
-  "bar": 102
+  "overall": 266,
+  "bar": 102,
+  "part": 13168
  },
  {
   "name": "8",
   "af": 8,
-  "overall": 284,
-  "bar": 127
+  "overall": 285,
+  "bar": 127,
+  "part": 13172
  },
  {
   "name": "10",
   "af": 10,
   "overall": 307,
-  "bar": 127
+  "bar": 127,
+  "part": 13176
  }
 ]

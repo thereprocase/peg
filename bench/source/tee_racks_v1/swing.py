@@ -40,8 +40,9 @@ res = dict(rows=dict(hooks=top, locking=bottom, bearing=[k for k in rows if k no
            pegs=dict(hooks=len(groups[top]), locking=len(groups[bottom]), bearing=sum(len(groups[k]) for k in rows if k not in (top, bottom))),
            steps=[], worst_bearing_mm3=0., worst_locking_before_snap_mm3=0., worst_bearing_per_peg_mm3=0.)
 GRAZE_PER_PEG = .25          # declared: a bearing peg may graze a hole edge by this much (a few hundredths of a mm)
-for i in range(int(SWING_DEG/.5), -1, -1):
-    ang = i*.5; step = dict(deg=ang)
+DSTEP = float(__import__('os').environ.get('SWING_STEP', .5))
+for i in range(int(SWING_DEG/DSTEP), -1, -1):
+    ang = i*DSTEP; step = dict(deg=ang)
     for kind, ks in (('bearing', res['rows']['bearing']), ('locking', [bottom])):
         v = 0.; per = 0.
         for k in ks:

@@ -22,7 +22,12 @@ from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
 import comb
-from sunray import seg, cat, sweep, unit, TEE, BAR_R, BOARD, HALF
+from sunray import seg as _segment, cat, sweep, unit, TEE, BAR_R, BOARD, HALF
+
+
+def seg(p0, p1, r, step=None):
+    # Keep HX04's 5 mm tool cloud; HX05 can request denser stored envelopes.
+    return _segment(p0, p1, r, step=float(os.environ.get('SHORT_POINT_STEP', 5.)) if step is None else step)
 
 
 def hit_tree(tree, rr_tree, rmax_tree, pts, rr, c):
@@ -56,7 +61,21 @@ KD = float(os.environ.get('SHORT_KD', 4.))      # owner, 2026-10-08: 'minimum se
 # turns by the bore's play. TEE_HEX_C = clearance per flat; TPSI_OFF = per-handle turn used by evaluate().
 TEE_HEX_C = .2
 TEE_KEYED_MIN = 3.                                      # T2, T2.5: too small for flats to grip
-TPSI_OFF = np.zeros(8)
+# HX05 (owner, 2026-10-08): single-set T-handle racks. SHORT_TEE_SET = a JSON list of dict(name, af, overall, bar)
+# replaces the T fan's tools (af: hex across flats; a Torx shaft enters as 0.866 x point-to-point, the hex whose
+# corners hold its lobes); SHORT_TONLY=1 drops the two L-key rows.
+TONLY = os.environ.get('SHORT_TONLY', '0') == '1'
+SETS = ('tee',) if TONLY else ('torx', 'hex', 'tee')
+TEE_NAMES = ['%g' % t[0] for t in TEE]
+TEE_SEAT_SIZE = [t[0] for t in TEE]
+if os.environ.get('SHORT_TEE_SET'):
+    _ts = json.loads(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.environ['SHORT_TEE_SET'])).read())
+    TEE[:] = [(t['af'], t['overall'], t['bar']) for t in _ts]; TEE_NAMES = [t['name'] for t in _ts]
+    TEE_SEAT_SIZE = [t.get('p2p', t['af']) for t in _ts]
+TPSI_OFF = np.zeros(len(TEE))
+TEE_STAND = os.environ.get('SHORT_TEE_STAND', '0') == '1'
+if TEE_STAND and not TONLY:
+    raise ValueError('SHORT_TEE_STAND requires SHORT_TONLY=1')
 
 
 def tee_play_deg(af, c=TEE_HEX_C, eyeball=10.):        # unclocked T2, T2.5: set by eye
@@ -123,7 +142,7 @@ class Layout:
         self.v = np.asarray(v, float)
         tx, hx, tt = self.v[:13], self.v[13:26], self.v[26:]
         self.tools = []
-        for kind, data, p in (('torx', comb.TORX, tx), ('hex', comb.HEX, hx)):
+        for kind, data, p in (() if TONLY else (('torx', comb.TORX, tx), ('hex', comb.HEX, hx))):
             for k, (m, u, psi) in enumerate(row(p, 9)):
                 if kind == 'torx':
                     r = data[k]['point_to_point']/2; L = data[k]['overall']-1.2*data[k]['point_to_point']-2
@@ -150,17 +169,35 @@ class Layout:
         for k, (af, over, bar) in enumerate(TEE):
             a, ph = math.radians(a0+k*da+k*k*dda+k**3*d3a), math.radians(p0+k*dp)
             u = unit([math.sin(a)*math.cos(ph), math.sin(ph), math.cos(a)*math.cos(ph)])
-            r = af/math.sqrt(3); D = socket_depth(af, u[2])
+            r = af/math.sqrt(3); D = socket_depth(TEE_SEAT_SIZE[k], u[2])
             tip = t0+dt*k+unit(dt)*tg*k*k
             if DEEP_TEE and len(self.v) > 44:          # owner: small T-handles sunk below the hex keys' grab zone:
                 ex = max(0., self.v[43]-k*self.v[44])  # x[43] extra seat depth for T2, x[44] less per size; the mouth
                 D += ex; tip = tip-u*ex                # stays put, the socket and the tool go deeper
             m = tip+u*D
             top = tip+u*(over-BAR_R)
-            b0 = unit(np.cross(u, [0, 1, 0])); psi = math.radians(s0+k*ds+TPSI_OFF[k])
+            tier = 0
+            if TEE_STAND:
+                # Two staggered rows, small tools above large tools. x[26:38]:
+                # grip origin xyz, pitch, tier dx/dy/dz, tilt, lean, bar turn,
+                # upper-row count, per-grip z step. Derive tips from grip centres
+                # so different catalogue lengths cannot distort equal spacing.
+                gx, gy, gz, pitch, dx, dy, dz, tilt, lean, turn, count, grade = tt[:12]
+                count = int(round(count))
+                if not 2 <= count <= len(TEE)-2:
+                    raise ValueError('each stand tier needs at least two tools')
+                tier = int(k >= count); j = k-count if tier else k
+                ph, a = math.radians(tilt), math.radians(lean)
+                u = unit([math.sin(a)*math.cos(ph), math.sin(ph), math.cos(a)*math.cos(ph)])
+                top = np.array([gx-j*pitch+tier*dx, gy+tier*dy, gz+j*grade+tier*dz])
+                tip = top-u*(over-BAR_R); D = socket_depth(TEE_SEAT_SIZE[k], u[2]); m = tip+u*D
+            b0 = unit(np.cross(u, [0, 1, 0])); psi = math.radians((turn if TEE_STAND else s0+k*ds)+TPSI_OFF[k])
             bd = unit(b0*math.cos(psi)+np.cross(u, b0)*math.sin(psi))
             pts, rr = cat([seg(tip, top, r), seg(top-bd*(bar/2-BAR_R), top+bd*(bar/2-BAR_R), BAR_R)])
-            self.tools.append(dict(set='tee', name='%g' % af, mouth=m, u=u, D=D, tip=tip, pts=pts, rr=rr, bore=r+comb.CLEAR+.15, top=top, bar=bd, af=af))
+            self.tools.append(dict(set='tee', name=TEE_NAMES[k], mouth=m, u=u, D=D, tip=tip, pts=pts, rr=rr, bore=r+comb.CLEAR+.15, top=top, bar=bd, af=af))
+            if TEE_STAND:
+                self.tools[-1]['rail'] = f'tee:{tier}'
+                self.tools[-1]['lift_pad'] = max(0., self.v[38+tier])
         for t in self.tools:
             q = t['pts']-t['tip']; ax = q@t['u']
             t['main'] = np.linalg.norm(q-np.outer(ax, t['u']), axis=1) < .5      # long arm / shaft, before tipping
@@ -178,8 +215,10 @@ class Layout:
         from scipy.spatial import ConvexHull
         d50 = np.array([math.sin(math.radians(50)), -math.cos(math.radians(50)), 0.])
         self.rails = []
-        for s_ in ('torx', 'hex', 'tee'):
-            _, P = rail_points([t for t in self.tools if t['set'] == s_], s_, [])      # with the label lip, as the CAD
+        self.rail_groups = [(s_, [t for t in self.tools if t.get('rail', t['set']) == s_])
+                            for s_ in (('tee:0', 'tee:1') if TEE_STAND else SETS)]
+        for s_, tools in self.rail_groups:
+            _, P = rail_points(tools, s_, [])      # with the label lip, as the CAD
             lam = (P[:, 1].max()-BOARD+2)/math.cos(math.radians(50))
             Q = np.vstack([P, P+d50*lam])
             hq = Q[ConvexHull(Q).vertices]
@@ -335,7 +374,7 @@ def rail_points(tools, set_name, labels=None):
     if labels is not None:
         # owner: labels on the human side (hex, T: a flat lip under the mouths, facing out); the back row (Torx) is
         # the exception: on top, behind each mouth. The lip is the rail's support plane in direction nL.
-        t0, side = LIP[set_name]
+        t0, side = LIP[set_name.split(':')[0]]
         r = np.asarray(tools[-1]['tip'])-np.asarray(tools[0]['tip']); r /= np.linalg.norm(r)
         nL = t0-(t0@r)*r; nL /= np.linalg.norm(nL)
         upL = np.array([0, 0, 1.])-nL*nL[2]
@@ -362,14 +401,14 @@ def evaluate(v, detail=False, wd=5.):
     if not ROBUST:
         return _evaluate(v, detail, wd)
     global TPSI_OFF
-    play = np.array([tee_play_deg(t[0]) for t in TEE]); alt = np.array([(-1)**k for k in range(8)])
+    play = np.array([tee_play_deg(t[0]) for t in TEE]); alt = np.array([(-1)**k for k in range(len(TEE))])
     out = _evaluate(v, True, wd); extra = 0.
     try:
         for sgn in ((play, -play, play*alt, -play*alt) if ROBUST_ALT else (play, -play)):
             TPSI_OFF = sgn
             extra += sum(_evaluate(v, True, wd)[3].values())
     finally:
-        TPSI_OFF = np.zeros(8)
+        TPSI_OFF = np.zeros(len(TEE))
     tot, depth, body_h, pen, rep, Lo = out
     pen = dict(pen); pen['turn'] = extra
     tot += 10*extra
@@ -409,13 +448,15 @@ def _evaluate(v, detail=False, wd=5.):
         pen['store'] += float(np.sum(np.maximum(0, BOARD+C_STORE-(t['pts'][:, 1]-t['rr']))))
         # drawing it out starts by straightening it upright, past its neighbours at rest
         pen['sweep'] += hit_tree(tree, orr, rmax, t['pts_up'], t['rr'], C_STORE)
-        lift = t['u']*(t['D']+3.)
-        sp, sr = sweep(t['pts'], t['rr'], lift, max(2, int((t['D']+3)/STEP)+1))
+        lift_mm = t['D']+3.+(t['bore']+2*EDGE_R+t['lift_pad'] if TEE_STAND else 0.)
+        lift = t['u']*lift_mm
+        sp, sr = sweep(t['pts'], t['rr'], lift, max(2, int(lift_mm/STEP)+1))
         base = hit_tree(tree, orr, rmax, sp, sr, C_SWEEP)+shelf(sp, sr)+body_pen(t, sp, sr, C_SWEEP)
         best, which = 1e9, None
         for name, e in ESC.items():
             dvec = (t['u'] if e is None else e)*240.
-            ep, er = sweep(t['pts']+lift, t['rr'], dvec, 25)
+            escape_n = max(25, int(math.ceil(240./float(os.environ.get('SHORT_ESCAPE_STEP', 10.))))+1) if TEE_STAND else 25
+            ep, er = sweep(t['pts']+lift, t['rr'], dvec, escape_n)
             c = hit_tree(tree, orr, rmax, ep, er, C_SWEEP)+shelf(ep, er)+body_pen(t, ep, er, C_SWEEP)
             if c < best:
                 best, which = c, name
@@ -423,10 +464,15 @@ def _evaluate(v, detail=False, wd=5.):
                 break
         pen['sweep'] += base+best
         rep.append(dict(set=t['set'], name=t['name'], D=round(t['D'], 1), escape=which, lift_pen=round(base, 2), esc_pen=round(best, 2)))
+        if TEE_STAND:
+            rep[-1]['lift_mm'] = float(lift_mm)
     # order: small -> big from the user's left within each set (mouth x decreasing)
     for s_ in ('torx', 'hex', 'tee'):
-        xs = [t['mouth'][0] for t in T if t['set'] == s_]
+        groups = [ts for name, ts in Lo.rail_groups if name.split(':')[0] == s_]
+        xs = [] if TEE_STAND else [t['mouth'][0] for t in T if t['set'] == s_]
         pen['order'] += sum(max(0., xs[i+1]-xs[i]+4.) for i in range(len(xs)-1))
+        if TEE_STAND:
+            pen['order'] += sum(max(0., b['mouth'][0]-a['mouth'][0]+4.) for ts in groups for a, b in zip(ts, ts[1:]))
     # holder envelope: socket centres inside the rack width (walls are trimmed at the board and the ends in CAD);
     # the holder's height is the sockets' span (the receiver sits within it), on the bed in the cheek print
     for t in T:
@@ -435,7 +481,7 @@ def _evaluate(v, detail=False, wd=5.):
         fl = t['tip']-t['u']*FLOOR                      # socket floor clear of the receiver plate (5.4 mm) everywhere
         pen['env'] += 5*max(0., BOARD+5.6-(fl[1]-t['bore']))
     for s_ in ('torx', 'hex'):
-        xs = [t['mouth'][0] for t in T if t['set'] == s_]
+        xs = [t['mouth'][0] for t in T if t['set'] == s_] or [0.]
         pen['env'] += max(0., SPREAD-(max(xs)-min(xs)))
     zlo = float(np.min(bp[:, 2]-br)); zhb = float(np.max(bp[:, 2]+br))
     pen['env'] += max(0., (zhb-zlo)-H_MAX)*5
@@ -443,7 +489,8 @@ def _evaluate(v, detail=False, wd=5.):
     if GRAB > 0:
         pen['grab'] = .2*sum(max(0., GRAB-g) for g in grab_gaps(T) if g is not None)
     if TEE_EQUAL > 0:
-        g = np.linalg.norm(np.diff([t['top'] for t in T if t['set'] == 'tee'], axis=0), axis=1)
+        groups = [ts for name, ts in Lo.rail_groups if name.split(':')[0] == 'tee']
+        g = np.concatenate([np.linalg.norm(np.diff([t['top'] for t in ts], axis=0), axis=1) for ts in groups])
         pen['grip'] = float(np.sum(np.abs(g-TEE_EQUAL)))*.2
     if HAND > 0:
         hg = hand_gaps(T)

@@ -22,9 +22,9 @@ V = A.Vector
 OUT = Path(sys.argv[1]); OUT.mkdir(parents=True, exist_ok=True)
 SLICE_X = 88.
 SLICE_ZMIN = -205.                                      # down to just under the T3 socket
-g = BS.build(True)
+g = getattr(BS, '_G', None) or BS.build(True)          # build_short --quick with COUPON_OUT hands its build over
 body, Lo, receiver = g['shape'], g['Lo'], g['receiver']
-zones = BS.solid_zones(Lo, g['rails'], g['mount'], body)
+zones = g['zones'] if 'zones' in g else BS.solid_zones(Lo, g['rails'], g['mount'], body)
 T = {(t['set'], t['name']): t for t in Lo.tools}
 bb = body.BoundBox
 
@@ -71,23 +71,28 @@ def label(shape, text, cap=4.):
 
 
 pieces = []
-# --- end slice with a tower round T3 -----------------------------------------------------------------------
-keep = Part.makeBox(bb.XMax-SLICE_X+1, bb.YLength+2, bb.ZMax-SLICE_ZMIN+1, V(SLICE_X, bb.YMin-1, SLICE_ZMIN))
-keep = keep.fuse(socket_box(T[('tee', '3')], pad=4.))
-sl = largest(body.common(keep))
-pieces.append(('end slice', sl, zones.common(keep)))
-# --- peg strip: the rest of the left peg column down to the locking hoops, plate and pegs only --------------
-strip = Part.makeBox(bb.XMax-SLICE_X+1, (BS.K.PLATE_Y1+.3)-(bb.YMin-1), SLICE_ZMIN-(bb.ZMin-1), V(SLICE_X, bb.YMin-1, bb.ZMin-1))
-pieces.append(('PEGS', label(largest(body.common(strip)), 'PEGS'), zones.common(strip)))
-# --- blocks ------------------------------------------------------------------------------------------------
-for key, tbar, name in ((('tee', '5'), 'corners', 'T5 C'), (('tee', '5'), 'flats', 'T5 F'),
-                        (('torx', 'T30'), None, 'TX30')):
-    t = T[key]; box = socket_box(t, pad=3.)
-    blk = body.common(box)
-    if tbar == 'flats':                              # refill the as-built bore, cut the flats-keyed one
-        blk = blk.fuse(holes_for(t, 'corners').common(box)).cut(holes_for(t, 'flats'))
-    blk = largest(blk)
-    pieces.append((name, label(blk, name), zones.common(box)))
+if BS.SH.TONLY:          # HX05: the pegs are HX04 v2's (its coupon tests them); blocks round the sockets named in
+    for nm in __import__('os').environ.get('COUPON_BLOCKS', '').split(','):     # COUPON_BLOCKS (comma list)
+        t = T[('tee', nm)]; box = socket_box(t, pad=3.)
+        pieces.append((nm, label(largest(body.common(box)), nm.replace('/', '-')), zones.common(box)))
+if not BS.SH.TONLY:
+    # --- end slice with a tower round T3 -----------------------------------------------------------------------
+    keep = Part.makeBox(bb.XMax-SLICE_X+1, bb.YLength+2, bb.ZMax-SLICE_ZMIN+1, V(SLICE_X, bb.YMin-1, SLICE_ZMIN))
+    keep = keep.fuse(socket_box(T[('tee', '3')], pad=4.))
+    sl = largest(body.common(keep))
+    pieces.append(('end slice', sl, zones.common(keep)))
+    # --- peg strip: the rest of the left peg column down to the locking hoops, plate and pegs only --------------
+    strip = Part.makeBox(bb.XMax-SLICE_X+1, (BS.K.PLATE_Y1+.3)-(bb.YMin-1), SLICE_ZMIN-(bb.ZMin-1), V(SLICE_X, bb.YMin-1, bb.ZMin-1))
+    pieces.append(('PEGS', label(largest(body.common(strip)), 'PEGS'), zones.common(strip)))
+    # --- blocks ------------------------------------------------------------------------------------------------
+    for key, tbar, name in ((('tee', '5'), 'corners', 'T5 C'), (('tee', '5'), 'flats', 'T5 F'),
+                            (('torx', 'T30'), None, 'TX30')):
+        t = T[key]; box = socket_box(t, pad=3.)
+        blk = body.common(box)
+        if tbar == 'flats':                              # refill the as-built bore, cut the flats-keyed one
+            blk = blk.fuse(holes_for(t, 'corners').common(box)).cut(holes_for(t, 'flats'))
+        blk = largest(blk)
+        pieces.append((name, label(blk, name), zones.common(box)))
 
 # --- print pose and plate layout -----------------------------------------------------------------------------
 report = []; bodies = []; zs = []; xoff = yoff = row_h = 0.
