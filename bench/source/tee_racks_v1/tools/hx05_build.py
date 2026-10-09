@@ -41,7 +41,7 @@ def environment(part):
     env = {k: v for k,v in os.environ.items() if not k.startswith(('SHORT_', 'HX4S_', 'HX_')) and k != 'XENV'}
     env.update(record['build_env'])
     env.update(HX_ID=part, HX_NAME=name, SHORT_TEE_SET=f'tee_{sid}.json', HX4S_LAYOUT=layout,
-               HX4S_TBAR='corners', HX4S_GUSSET='cheek', HX4S_PEG_GRID='1', HX4S_SOLID='1',
+               HX4S_TBAR='flats', HX4S_GUSSET='cheek', HX4S_PEG_GRID='1', HX4S_SOLID='1',
                HX_FAMILY='tee-racks', HX4_VERSION='1', COUPON_BLOCKS=blocks,
                FEA_H='10', FEA_THREADS='4', CHECK_STEP='3', SWING_STEP='0.5', PYTHONUTF8='1')
     return env

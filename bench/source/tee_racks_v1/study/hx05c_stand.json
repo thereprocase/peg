@@ -168,7 +168,7 @@
  },
  "dependencies": {
   "stand_rows.py": "8d09c2a3d2db45be118b3fa83144a9970232df6bb9985f3cff9ae342bad08e94",
-  "short.py": "37853c49c6ae1894a8a935f74f7fe200bc8322f58aa4c12e366bd3a148b605f9",
+  "short.py": "c64a25df0ac9d5ec86806d909387636a1ed31d5698db2c0fb3e309ebcaaa6171",
   "sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
   "comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
   "tee_13190.json": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
@@ -198,5 +198,18 @@
  "selection_refinement": {
   "reduced_grip_z_step_mm": 0,
   "reason": "dense fixed-forward route verification; keep 48 mm grip spacing"
+ },
+ "previous_dependencies": {
+  "stand_rows.py": "8d09c2a3d2db45be118b3fa83144a9970232df6bb9985f3cff9ae342bad08e94",
+  "short.py": "37853c49c6ae1894a8a935f74f7fe200bc8322f58aa4c12e366bd3a148b605f9",
+  "sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
+  "comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
+  "tee_13190.json": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
+  "tee_sets_note.json": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a"
+ },
+ "clearance_revision": {
+  "per_flat_mm": 0.1,
+  "previous_per_flat_mm": 0.2,
+  "geometry_change": "hex clearance only; layout parameters, seat depth, funnel and flare unchanged"
  }
 }

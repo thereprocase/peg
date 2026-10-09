@@ -1,0 +1,213 @@
+{
+  "source": "published HX04 v2 native coupon STEP",
+  "coupon_step_sha256": "6c6130964e40acb8ea44d74c99708cb026df57848549eedbd45f7d3f5dce5859",
+  "audit_source_sha256": "2b3dd54942a4018c9eab44362ae994ccc058613ec376a3307505e78d62e159ef",
+  "release_sha256": "bebcbc2008efa8984a0a2375e097a3535c95727c3f631c0d384b469b4c1f5945",
+  "freecad": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "seat_depth_mm": 20.0,
+  "neck_mm": 5.0,
+  "hex_funnel_depth_mm": 3.35639852470912,
+  "pieces": [
+    {
+      "piece": "T5 C",
+      "volume": 43519.19448245038,
+      "rotation": [
+        {
+          "deg": 0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 10,
+          "intersection_mm3": 0.003115251188840158
+        },
+        {
+          "deg": 15,
+          "intersection_mm3": 0.12667666186952853
+        },
+        {
+          "deg": 20,
+          "intersection_mm3": 0.2757032704696575
+        },
+        {
+          "deg": 25,
+          "intersection_mm3": 0.3769792777183399
+        },
+        {
+          "deg": 30,
+          "intersection_mm3": 0.4105123038041232
+        },
+        {
+          "deg": 45,
+          "intersection_mm3": 0.11661193115215386
+        },
+        {
+          "deg": 60,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "sections": [
+        {
+          "depth_from_mouth_mm": 0,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 0.5,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 1,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 1.5,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 2,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 3,
+          "full_spin_disc_intersection_mm3": 8.089798529553268e-09
+        },
+        {
+          "depth_from_mouth_mm": 4,
+          "full_spin_disc_intersection_mm3": 0.1967523438891633
+        },
+        {
+          "depth_from_mouth_mm": 5,
+          "full_spin_disc_intersection_mm3": 0.14837014395389136
+        },
+        {
+          "depth_from_mouth_mm": 6,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 8,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 12,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 16,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 19,
+          "full_spin_disc_intersection_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "piece": "T5 F",
+      "volume": 43516.71032294775,
+      "rotation": [
+        {
+          "deg": 0,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 5,
+          "intersection_mm3": 0.0
+        },
+        {
+          "deg": 10,
+          "intersection_mm3": 0.002961927110034156
+        },
+        {
+          "deg": 15,
+          "intersection_mm3": 0.10130586518228141
+        },
+        {
+          "deg": 20,
+          "intersection_mm3": 0.21743831079524473
+        },
+        {
+          "deg": 25,
+          "intersection_mm3": 0.30287542968812403
+        },
+        {
+          "deg": 30,
+          "intersection_mm3": 0.3408008203877855
+        },
+        {
+          "deg": 45,
+          "intersection_mm3": 0.10429708648928088
+        },
+        {
+          "deg": 60,
+          "intersection_mm3": 0.0
+        }
+      ],
+      "sections": [
+        {
+          "depth_from_mouth_mm": 0,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 0.5,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 1,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 1.5,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 2,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 3,
+          "full_spin_disc_intersection_mm3": 8.089799268412698e-09
+        },
+        {
+          "depth_from_mouth_mm": 4,
+          "full_spin_disc_intersection_mm3": 0.16772606317642386
+        },
+        {
+          "depth_from_mouth_mm": 5,
+          "full_spin_disc_intersection_mm3": 0.1279211510398411
+        },
+        {
+          "depth_from_mouth_mm": 6,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 8,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 12,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 16,
+          "full_spin_disc_intersection_mm3": 0.0
+        },
+        {
+          "depth_from_mouth_mm": 19,
+          "full_spin_disc_intersection_mm3": 0.0
+        }
+      ]
+    }
+  ]
+}

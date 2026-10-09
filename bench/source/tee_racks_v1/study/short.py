@@ -59,7 +59,7 @@ KD = float(os.environ.get('SHORT_KD', 4.))      # owner, 2026-10-08: 'minimum se
 # T-handle grip turn (owner, 2026-10-08: 'socket shapes to encourage ideal positions at rest'). A T-handle has no
 # preferred turn under gravity (the bar is symmetric about the shaft), so a hex-keyed bore clocks it; it still
 # turns by the bore's play. TEE_HEX_C = clearance per flat; TPSI_OFF = per-handle turn used by evaluate().
-TEE_HEX_C = .2
+TEE_HEX_C = .1
 TEE_KEYED_MIN = 3.                                      # T2, T2.5: too small for flats to grip
 # HX05 (owner, 2026-10-08): single-set T-handle racks. SHORT_TEE_SET = a JSON list of dict(name, af, overall, bar)
 # replaces the T fan's tools (af: hex across flats; a Torx shaft enters as 0.866 x point-to-point, the hex whose

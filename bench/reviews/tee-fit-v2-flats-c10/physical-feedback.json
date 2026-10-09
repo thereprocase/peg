@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09",
+  "source": "owner report from published HX04 v2 coupon",
+  "page": "https://thereprocase.github.io/peg/gallery/key-fan/?v=2",
+  "observations": [
+    "2 mm L-key can be knocked about 15 degrees off axis (owner estimate)",
+    "both apparent 5 mm test sockets rotate through a complete turn; smaller one initially seemed to have about 30 degrees free play"
+  ],
+  "owner_corrections": {
+    "hex_clearance_per_flat_mm": 0.1,
+    "handle_axis": "flat-to-flat"
+  },
+  "status": "original coupon fails owner seating/rotation expectations; revised coupon awaiting physical trial"
+}

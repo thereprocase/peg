@@ -1,0 +1,18 @@
+{
+  "native_step_valid": true,
+  "step_solids": 3,
+  "freecad_document_solids": 3,
+  "closed_mesh": true,
+  "mesh_components": 3,
+  "mesh_positive_volume": true,
+  "mesh_volume_mm3": 5207.13134765625,
+  "step_volume_mm3": 5207.132913353277,
+  "mesh_step_relative_volume_error": 3.00683130865055e-07,
+  "files": {
+    "HX05-fit-v2.FCStd": "202454f28dff1d0857f1971fec59cc22f17ecacf32358422f213565cc86934fa",
+    "HX05-fit-v2__left-end__print.stl": "a14e905c66b16331cc6cb396b125f4b36320e4e4f80974a5a2921e8650603ef0",
+    "HX05-fit-v2__left-end__print.step": "643ed9fd6787508bd2ceb79b02359d1aaba8dd30b5bd9de2ac2260221ca9a67a"
+  },
+  "checker_sha256": "46fae817b4936a19afee9bf911c627959797e2c9236a935c6669f5b9b9888aef",
+  "scope": "native and export geometry checks; actual slicing and physical fit pending"
+}

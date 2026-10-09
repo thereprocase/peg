@@ -91,8 +91,8 @@ def teardrop(p, r, axis):
 
 # T-handle shafts: hex-keyed bores clock the grip turn (a T-handle has no preferred turn under gravity).
 # HX4S_TBAR: how the bar sits on the hex shaft, 'corners' (the bar lies along a corner-to-corner line) or 'flats'
-# (along a flat-to-flat line). ASSUMED 'corners' until the owner checks one handle.
-TBAR = __import__('os').environ.get('HX4S_TBAR', 'corners')
+# (along a flat-to-flat line). Owner confirmed 'flats', 2026-10-09.
+TBAR = __import__('os').environ.get('HX4S_TBAR', 'flats')
 TEE_KEYED_MIN = SH.TEE_KEYED_MIN
 
 

@@ -2,7 +2,7 @@
 
 Branch `hx05`. The reconciliation with dev-box `7d7b2fc` is complete: that commit was already published and inherited through HX04 v2. See [RECONCILIATION.md](../key_fan_v1/hx05/RECONCILIATION.md).
 
-Three candidates use two staggered, graduated rows with forward-pointing grips: HX05A / 33034 Torx, HX05B / 13189 metric, HX05C / 13190 inch. Each is a single-set rack. The 236 mm mounting plate and full hook / intermediate bearing / bottom-lock grid remain. Grips have equal **48 mm centre spacing within each row**, enlarged from the inherited 39.2 mm to clear neighboring tools throughout the sampled clock play. The gap between rows is set by withdrawal clearance, not counted as another grip pitch. Socket seats are at least 4× across flats for hex and 4× nominal point-to-point for Torx. Bars follow hex corners. Fillaprint labels, brace-type solid zones and left-end printing remain.
+Three candidates use two staggered, graduated rows with forward-pointing grips: HX05A / 33034 Torx, HX05B / 13189 metric, HX05C / 13190 inch. Each is a single-set rack. The 236 mm mounting plate and full hook / intermediate bearing / bottom-lock grid remain. Grips have equal **48 mm centre spacing within each row**, enlarged from the inherited 39.2 mm to clear neighboring tools throughout the sampled clock play. The gap between rows is set by withdrawal clearance, not counted as another grip pitch. Socket seats are at least 4× across flats for hex and 4× nominal point-to-point for Torx. Owner confirmed bars run flat-to-flat (2026-10-09). Hex clearance is now 0.10 mm per flat, halved from 0.20 mm; a 5 mm shaft gets a 5.20 mm bore across flats. Fillaprint labels, brace-type solid zones and left-end printing remain.
 
 The HX05 execution sources are isolated here; the original `key_fan_v1` pipeline is restored byte-for-byte to published HX04 v2 so its evidence hashes continue to match. The added row mode is opt-in (`SHORT_TONLY=1 SHORT_TEE_STAND=1`). Each row gets its own rail and socket braces; joining all sockets into one convex rail would fill the space between tiers. The unchanged HX04 layout is regression-checked against the study source at `c108ee4` (default HX04 behavior). Shared peg geometry is untouched.
 
@@ -26,7 +26,7 @@ These are dense sampled layout checks of sphere/capsule tool envelopes and conve
 
 ## Required owner Windows build — one command
 
-**FreeCAD is unavailable on the dev box. No native HX05 build, FEA, mesh export, install swing, render or slice has run here.** The next required action is the full build on the owner's Windows machine, with its existing FreeCAD 1.1 and actual P1S / PolyLite ASA ReproCal slicer setup.
+**FreeCAD 1.1.3 is now available locally** through the pinned official Linux AppImage (`tools/setup_freecad_linux.sh`). The [straight-guide fit coupon](../../reviews/tee-fit-v2-flats-c10/README.md) has native FreeCAD/STEP/STL exports and geometry checks. The full HX05 racks, FEA and slicing still need a new run after the coupon establishes fit. The full review driver below uses the owner's existing Windows P1S / PolyLite ASA ReproCal setup.
 
 After fetching/checking out the latest `hx05`, from the repository root in PowerShell:
 
@@ -63,3 +63,7 @@ Then run `verify_stand.py hx05c_stand.json --output hx05c_layout-check.json` wit
 ## Gallery/publication status
 
 The intended destination is one shared page for the three single-set racks. No HX05 gallery downloads have been published: publishing models or preview media before an actual native build would misstate the evidence. After the Windows pass, prepare the one-page gallery, three immutable native/source bundles, reviewed GLBs/renders, scoped checks and updated release manifest using the existing HX04 publication workflow. Leave HX04's published page/history intact. Physical fit, support removal and representative loads remain pending even after a successful computational review.
+
+## Physical coupon feedback — 2026-10-09
+
+The owner’s printed HX04 v2 coupon permits excessive small-key rocking and full rotation of both 5 mm tests. The owner confirmed flat-to-flat T-bars and requested 0.10 mm per-flat clearance. Those two corrections are in the isolated HX05 sources; regenerated layout evidence retains the same parameters and seat shape. A separate [straight-guide coupon v2](../../reviews/tee-fit-v2-flats-c10/README.md) tests the simpler full-depth guide and square floor locally in FreeCAD. Full-rack seating geometry awaits that physical fit result.

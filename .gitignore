@@ -83,3 +83,9 @@ bench/reviews/tee-racks-v1/*/*.stl
 bench/reviews/tee-racks-v1/*/*.step
 bench/reviews/tee-racks-v1/*/*.3mf
 bench/reviews/tee-racks-v1/*/*.glb
+
+# Local CAD runtime binaries are not project deliverables.
+.local-runtime/
+
+# Superseded local coupon trial; selected exports are tee-fit-v2-flats-c10.
+bench/reviews/tee-fit-v2/

@@ -26,10 +26,12 @@ def run_study(code,env):
 class HX05Tests(unittest.TestCase):
     def test_hx04_layout_unchanged(self):
         # Compare the exact published HX04 study implementation to the edited module.
-        source=subprocess.run(['git','show','c108ee4:bench/source/key_fan_v1/study/short.py'],cwd=ROOT,capture_output=True,text=True,check=True,timeout=30).stdout
+        source=subprocess.run(['git','show','2d509de:bench/source/key_fan_v1/study/short.py'],cwd=ROOT,capture_output=True,text=True,check=True,timeout=30).stdout
         env=study_environment()
         env.update(json.loads((ROOT/'bench/reviews/key-fan-v2/HX04/report.json').read_text())['build_env'])
         code='''import json, types, pathlib, numpy as np
+import sys
+sys.path.insert(0,OLD_STUDY)
 import short as current
 old=types.ModuleType('old_short');old.__file__=str(pathlib.Path('short.py').resolve())
 exec(SOURCE,old.__dict__)
@@ -46,7 +48,7 @@ for x,y in zip(a[5].rails,b[5].rails):
  for p,q in zip(x,y):np.testing.assert_allclose(p,q,rtol=0,atol=1e-10)
 print('published HX04 study identical')
 '''
-        run_study('SOURCE='+repr(source)+'\n'+code,env)
+        run_study('SOURCE='+repr(source)+'\nOLD_STUDY='+repr(str(ROOT/'bench/source/key_fan_v1/study'))+'\n'+code,env)
 
     def test_three_layout_contracts(self):
         for part in runner.SETS:
@@ -67,6 +69,18 @@ assert all(r['lift_pen']==0 and r['esc_pen']==0 for r in rep)
 print(d,pen)
 '''
                 run_study('LAYOUT='+repr(env['HX4S_LAYOUT'])+'\n'+code,env)
+
+    def test_owner_clearance_and_handle_axis(self):
+        env=runner.environment('HX05B')
+        self.assertEqual(env['HX4S_TBAR'],'flats')
+        run_study("import short as S; assert S.TEE_HEX_C==.10; assert abs(5+2*S.TEE_HEX_C-5.20)<1e-12",env)
+        spec=importlib.util.spec_from_file_location('fit_coupon',HERE/'fit_coupon_v2.py')
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        trial=next(q for q in module.specs() if q['tool']=='T5')
+        self.assertEqual(trial['bore_af_mm'],5.20)
+        self.assertEqual(trial['clearance_per_flat_mm'],.10)
+        self.assertAlmostEqual(trial['straight_guide_mm'],19.2)
+        self.assertAlmostEqual(module.hex_play(5,.10),4.245803894404268,places=6)
 
     def test_child_failure_reaches_caller(self):
         with tempfile.TemporaryDirectory() as d:

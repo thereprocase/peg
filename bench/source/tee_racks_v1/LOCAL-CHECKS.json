@@ -1,26 +1,28 @@
 {
- "stage": "local layout and source checks; owner Windows native build pending",
+ "stage": "layout checks plus locally built straight-guide coupon; full rack/slice and physical fit pending",
  "reconciliation_commit": "9157d76",
  "hx04_gallery_check": "passed after restoring published HX04 pipeline byte-for-byte",
- "tests": "six unittest cases passed, including exact HX04 study regression and child failure/timeout handling",
+ "tests": "seven unittest cases passed, including preserved HX04 regression, owner clearance/orientation and process failure handling",
  "racks": {
   "HX05A": {
    "depth_mm": 142.74389576351945,
    "plate_height_study_mm": 162.3902896418888,
    "dense_fixed_routes_passed": true,
-   "layout_sha256": "28948fc102d7c5be8a8c4e895176b46a6be00865adf3210415715eb738114fa8"
+   "layout_sha256": "7bb1d38250ae780877a6ba49eedfc000792d4bd44c5292c3eac01843a82d54a4"
   },
   "HX05B": {
    "depth_mm": 151.81815780371818,
    "plate_height_study_mm": 227.15722995156727,
    "dense_fixed_routes_passed": true,
-   "layout_sha256": "b2edd641de75372c4058f531289b6253edf9a7a545a8f82fea255b1a33039ce6"
+   "layout_sha256": "f125288939c2bde9bfced195b5cce7996eaea96e2da30c3c9ce7b6d40568b522"
   },
   "HX05C": {
    "depth_mm": 152.00726767084856,
    "plate_height_study_mm": 219.30156085864564,
    "dense_fixed_routes_passed": true,
-   "layout_sha256": "9a3755c14f65be79f364c2dcdea9d3cf2866f390319dd76dc223b0b157536e09"
+   "layout_sha256": "cd0a30f424dad208b4ed71112e98580a722d883e9ef2eb1e1afb3a50745d32b8"
   }
- }
+ },
+ "hex_clearance_per_flat_mm": 0.1,
+ "handle_axis": "flat-to-flat"
 }
