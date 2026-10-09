@@ -52,7 +52,7 @@ def path_of(st):
     return [lift, d*160.]
 
 
-def sweep_check(shape, tools, seats, shelf, step=3., movers=None):
+def sweep_check(shape, tools, seats, shelf, step=float(__import__('os').environ.get('CHECK_STEP', 3.)), movers=None):
     """tools: every tool as stored (the obstacles); movers: the shape each one is drawn out as (default: as stored)."""
     rows = []
     for i, (tool, st) in enumerate(zip(movers or tools, seats)):

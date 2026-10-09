@@ -12,8 +12,9 @@ sys.path.insert(0, str(HERE.parents[0]/'gallery_new_designs_v1/snapshot/bench/so
 import checks, short as S
 d, c = Path(sys.argv[1]).resolve(), Path(sys.argv[2]).resolve()
 VER = int(os.environ.get('HX4_VERSION', 1))
-OUT = R/f'bench/reviews/key-fan-v{VER}/HX04'; OUT.mkdir(parents=True, exist_ok=True)
-PREFIX = f'part-hx04__v{VER}__left-cheek__fit-pf02c9-hoop5'
+ID = os.environ.get('HX_ID', 'HX04'); FAM = os.environ.get('HX_FAMILY', 'key-fan')      # HX05: tee-racks, HX05A/B/C
+OUT = R/f'bench/reviews/{FAM}-v{VER}/{ID}'; OUT.mkdir(parents=True, exist_ok=True)
+PREFIX = f'part-{ID.lower()}__v{VER}__left-cheek__fit-pf02c9-hoop5'
 
 
 def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -31,7 +32,7 @@ def slice_log(p):
 
 # --- files ---------------------------------------------------------------------------------------------------
 files = {'installed.step': d/'installed.step', 'installed.stl': d/'installed.stl', 'print.stl': d/'print.stl',
-         'print_solid-zones.stl': d/'print_solid.stl', 'hx04_solid-zones.3mf': d/'slice_solid/hx04_solid.3mf',
+         'print_solid-zones.stl': d/'print_solid.stl', f"{ID.lower()}_solid-zones.3mf": d/'slice_solid/hx04_solid.3mf',
          'tool-reference.stl': d/'keys.stl', 'coupon_print.stl': c/'print.stl', 'coupon_installed.step': c/'coupon_installed.step'}
 named = {}
 for k, src in files.items():
@@ -77,8 +78,10 @@ deps = ['bench/source/key_fan_v1/build_short.py', 'bench/source/key_fan_v1/check
         'bench/source/key_fan_v1/study/comb.py', 'bench/source/key_fan_v1/study/'+os.environ['HX4S_LAYOUT'],
         'bench/source/three_set_rack_v1/key_sets.json', 'bench/source/bespoke_tools_v1/build.py',
         'bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py']
+if os.environ.get('SHORT_TEE_SET'):
+    deps += ['bench/source/key_fan_v1/study/'+os.environ['SHORT_TEE_SET'], 'bench/source/key_fan_v1/study/tee_sets_note.json']
 bb = trimesh.load(d/'print.stl', force='mesh').bounds
-rep = dict(id='HX04', version=VER, prefix=PREFIX, pose='left-cheek', layout=os.environ['HX4S_LAYOUT'],
+rep = dict(id=ID, version=VER, prefix=PREFIX, pose='left-cheek', layout=os.environ['HX4S_LAYOUT'],
            build_env={k: v for k, v in os.environ.items() if k.startswith(('SHORT_', 'HX4S_', 'XENV'))},
            source_dependencies={p: sha(R/p) for p in deps}, assets=named,
            files={n: dict(sha256=sha(OUT/n), bytes=(OUT/n).stat().st_size) for n in named.values()},

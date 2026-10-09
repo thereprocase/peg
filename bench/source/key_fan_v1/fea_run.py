@@ -11,6 +11,8 @@ sys.path.insert(0, str(HERE/'study'))
 import fea, short as S
 FCB = Path(os.environ['FREECAD_BIN'])                  # FreeCAD 1.1 bin folder (gmsh.exe, ccx.exe)
 fea.GMSH, fea.CCX = FCB/'gmsh.exe', FCB/'ccx.exe'
+if os.environ.get('FEA_THREADS'):                     # several racks at once: cap CalculiX's threads
+    os.cpu_count = lambda: int(os.environ['FEA_THREADS'])
 d = Path(sys.argv[1]).resolve()
 Lo = S.Layout(json.loads((HERE/'study'/os.environ['HX4S_LAYOUT']).read_text())['x'])
 CASES = [(('tee', '10'), [0, 0, -50], 'T-handle 10 down 50 N', 'someone leans on the biggest handle'),
@@ -18,6 +20,12 @@ CASES = [(('tee', '10'), [0, 0, -50], 'T-handle 10 down 50 N', 'someone leans on
          (('hex', '10'), [0, 0, -50], 'hex 10 down 50 N', 'leaning on the biggest L-key'),
          (('torx', 'T50'), [0, 30, 0], 'Torx T50 out 30 N', 'yanking a stuck key straight off the board'),
          (('tee', '2'), [0, 0, -50], 'T-handle 2 down 50 N', 'the furthest-out corner of the T rail')]
+if S.TONLY:                                            # HX05: one T rail, biggest and smallest handles
+    big, small = S.TEE_NAMES[-1], S.TEE_NAMES[0]
+    CASES = [(('tee', big), [0, 0, -50], 'T-handle %s down 50 N' % big, 'someone leans on the biggest handle'),
+             (('tee', big), [30, 0, 0], 'T-handle %s sideways 30 N' % big, 'prying the biggest handle sideways'),
+             (('tee', big), [0, 30, 0], 'T-handle %s out 30 N' % big, 'yanking the biggest handle off the board'),
+             (('tee', small), [0, 0, -50], 'T-handle %s down 50 N' % small, 'the smallest handle')]
 loads = []
 for key, f, name, what in CASES:
     t = next(t for t in Lo.tools if (t['set'], t['name']) == key)

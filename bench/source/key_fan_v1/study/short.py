@@ -56,7 +56,16 @@ KD = float(os.environ.get('SHORT_KD', 4.))      # owner, 2026-10-08: 'minimum se
 # turns by the bore's play. TEE_HEX_C = clearance per flat; TPSI_OFF = per-handle turn used by evaluate().
 TEE_HEX_C = .2
 TEE_KEYED_MIN = 3.                                      # T2, T2.5: too small for flats to grip
-TPSI_OFF = np.zeros(8)
+# HX05 (owner, 2026-10-08): single-set T-handle racks. SHORT_TEE_SET = a JSON list of dict(name, af, overall, bar)
+# replaces the T fan's tools (af: hex across flats; a Torx shaft enters as 0.866 x point-to-point, the hex whose
+# corners hold its lobes); SHORT_TONLY=1 drops the two L-key rows.
+TONLY = os.environ.get('SHORT_TONLY', '0') == '1'
+SETS = ('tee',) if TONLY else ('torx', 'hex', 'tee')
+TEE_NAMES = ['%g' % t[0] for t in TEE]
+if os.environ.get('SHORT_TEE_SET'):
+    _ts = json.loads(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.environ['SHORT_TEE_SET'])).read())
+    TEE[:] = [(t['af'], t['overall'], t['bar']) for t in _ts]; TEE_NAMES = [t['name'] for t in _ts]
+TPSI_OFF = np.zeros(len(TEE))
 
 
 def tee_play_deg(af, c=TEE_HEX_C, eyeball=10.):        # unclocked T2, T2.5: set by eye
@@ -123,7 +132,7 @@ class Layout:
         self.v = np.asarray(v, float)
         tx, hx, tt = self.v[:13], self.v[13:26], self.v[26:]
         self.tools = []
-        for kind, data, p in (('torx', comb.TORX, tx), ('hex', comb.HEX, hx)):
+        for kind, data, p in (() if TONLY else (('torx', comb.TORX, tx), ('hex', comb.HEX, hx))):
             for k, (m, u, psi) in enumerate(row(p, 9)):
                 if kind == 'torx':
                     r = data[k]['point_to_point']/2; L = data[k]['overall']-1.2*data[k]['point_to_point']-2
@@ -160,7 +169,7 @@ class Layout:
             b0 = unit(np.cross(u, [0, 1, 0])); psi = math.radians(s0+k*ds+TPSI_OFF[k])
             bd = unit(b0*math.cos(psi)+np.cross(u, b0)*math.sin(psi))
             pts, rr = cat([seg(tip, top, r), seg(top-bd*(bar/2-BAR_R), top+bd*(bar/2-BAR_R), BAR_R)])
-            self.tools.append(dict(set='tee', name='%g' % af, mouth=m, u=u, D=D, tip=tip, pts=pts, rr=rr, bore=r+comb.CLEAR+.15, top=top, bar=bd, af=af))
+            self.tools.append(dict(set='tee', name=TEE_NAMES[k], mouth=m, u=u, D=D, tip=tip, pts=pts, rr=rr, bore=r+comb.CLEAR+.15, top=top, bar=bd, af=af))
         for t in self.tools:
             q = t['pts']-t['tip']; ax = q@t['u']
             t['main'] = np.linalg.norm(q-np.outer(ax, t['u']), axis=1) < .5      # long arm / shaft, before tipping
@@ -178,7 +187,7 @@ class Layout:
         from scipy.spatial import ConvexHull
         d50 = np.array([math.sin(math.radians(50)), -math.cos(math.radians(50)), 0.])
         self.rails = []
-        for s_ in ('torx', 'hex', 'tee'):
+        for s_ in SETS:
             _, P = rail_points([t for t in self.tools if t['set'] == s_], s_, [])      # with the label lip, as the CAD
             lam = (P[:, 1].max()-BOARD+2)/math.cos(math.radians(50))
             Q = np.vstack([P, P+d50*lam])
@@ -362,14 +371,14 @@ def evaluate(v, detail=False, wd=5.):
     if not ROBUST:
         return _evaluate(v, detail, wd)
     global TPSI_OFF
-    play = np.array([tee_play_deg(t[0]) for t in TEE]); alt = np.array([(-1)**k for k in range(8)])
+    play = np.array([tee_play_deg(t[0]) for t in TEE]); alt = np.array([(-1)**k for k in range(len(TEE))])
     out = _evaluate(v, True, wd); extra = 0.
     try:
         for sgn in ((play, -play, play*alt, -play*alt) if ROBUST_ALT else (play, -play)):
             TPSI_OFF = sgn
             extra += sum(_evaluate(v, True, wd)[3].values())
     finally:
-        TPSI_OFF = np.zeros(8)
+        TPSI_OFF = np.zeros(len(TEE))
     tot, depth, body_h, pen, rep, Lo = out
     pen = dict(pen); pen['turn'] = extra
     tot += 10*extra
@@ -435,7 +444,7 @@ def _evaluate(v, detail=False, wd=5.):
         fl = t['tip']-t['u']*FLOOR                      # socket floor clear of the receiver plate (5.4 mm) everywhere
         pen['env'] += 5*max(0., BOARD+5.6-(fl[1]-t['bore']))
     for s_ in ('torx', 'hex'):
-        xs = [t['mouth'][0] for t in T if t['set'] == s_]
+        xs = [t['mouth'][0] for t in T if t['set'] == s_] or [0.]
         pen['env'] += max(0., SPREAD-(max(xs)-min(xs)))
     zlo = float(np.min(bp[:, 2]-br)); zhb = float(np.max(bp[:, 2]+br))
     pen['env'] += max(0., (zhb-zlo)-H_MAX)*5

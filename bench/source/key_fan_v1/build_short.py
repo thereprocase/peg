@@ -418,7 +418,7 @@ def build(quick=False):
         receiver = receiver.cut(corner).removeSplitter()
     env = B.box(-HALF, Y_BACK, zlo-5, 2*HALF, 300, zhi-zlo+5)
     rails, labels, roots = [], [], {}
-    for s_ in ('torx', 'hex', 'tee'):
+    for s_ in SH.SETS:
         r_ = rail([t for t in tools_d if t['set'] == s_], env, s_, labels, roots)
         if __import__('os').environ.get('HX4S_SOFT', '0') == '1':
             r_ = soften(r_, lambda e: e.BoundBox.YMin > Y_BACK+.5, log, s_+' rail')
@@ -498,7 +498,7 @@ def solid_zones(Lo, rails, mount, shape):
       * a solid disc through the plate round every peg root.
     Each zone is clipped to its rail, so no solid mass lands in the webs or the open plate."""
     parts = []
-    sets = ('torx', 'hex', 'tee')
+    sets = SH.SETS
     for s_, rail in zip(sets, rails):
         T = [t for t in Lo.tools if t['set'] == s_]
         mids = np.array([np.asarray(t['mouth'])-np.asarray(t['u'])*t['D']/2 for t in T])
@@ -583,7 +583,7 @@ def quick_meshes(g, out):
     pp, m = print_pose(g['shape'])
     B.mesh(g['shape'], out/'installed.stl'); B.mesh(pp, out/'print.stl')
     if __import__('os').environ.get('HX4S_SOLID', '1') == '1':
-        z = solid_zones(g['Lo'], g['rails'], g['mount'], g['shape']); zp = z.copy(); zp.transformShape(m)
+        z = g['zones'] = solid_zones(g['Lo'], g['rails'], g['mount'], g['shape']); zp = z.copy(); zp.transformShape(m)
         B.mesh(zp, out/'print_solid.stl'); B.mesh(z, out/'installed_solid.stl')
     g['shape'].exportStep(str(out/'installed.step'))
     B.mesh(ref_tools(g['Lo']), out/'keys.stl')
@@ -595,4 +595,8 @@ def quick_meshes(g, out):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('--quick', type=Path, required=True); a = ap.parse_args()
-    quick_meshes(build(True), a.quick)
+    _G = build(True); quick_meshes(_G, a.quick)
+    if __import__('os').environ.get('COUPON_OUT'):      # the fit coupon from this same build (no second build)
+        import runpy; sys.modules['build_short'] = sys.modules['__main__']
+        sys.argv = ['coupon.py', __import__('os').environ['COUPON_OUT']]
+        runpy.run_path(str(HERE/'coupon.py'), run_name='__main__')

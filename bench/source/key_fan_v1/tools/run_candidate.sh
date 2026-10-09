@@ -11,6 +11,8 @@ timeout 2400 "$FC" build_short.py --quick "$OUT" > "$OUT/build.log" 2>&1
 tail -n 1 "$OUT/build.log"
 (HX4_BUILD=build_short.py timeout 5400 "$FC" check.py "$OUT" > "$OUT/check.log" 2>&1 &)
 (timeout 7000 python fea_run.py "$OUT" > "$OUT/fea.log" 2>&1 &)
+if [ -n "${RUN_SWING:-}" ]; then (timeout 3600 "$FC" swing.py "$OUT" > "$OUT/swing.log" 2>&1 &); fi
+if [ -n "${COUPON_OUT:-}" ]; then (cd tools && timeout 1700 python quickslice.py "../$COUPON_OUT/print.stl" "../$COUPON_OUT/slice" > "../$COUPON_OUT/slice.log" 2>&1 &); fi
 cd tools
 timeout 900 python gate3.py "../$OUT" > "../$OUT/gate.log" 2>&1 || true
 head -n 4 "../$OUT/gate.log"
