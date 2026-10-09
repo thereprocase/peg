@@ -1,11 +1,11 @@
 {
   "checks.json": {
-    "sha256": "de0a74b516699ef3363ad8f1d5a3d6be2a43eeabdf284b0d8cf6584ffb693ef2",
-    "bytes": 72890
+    "sha256": "9d83fb96f02fe9d65dcf078749ada59be1177e0c6b61d224b9de7e1ebf705fdf",
+    "bytes": 72891
   },
   "index.html": {
-    "sha256": "03939045d2c05731f0fb77672f6462ebc860aa891611ccfaa5a509e70dcb6e11",
-    "bytes": 10905
+    "sha256": "ffe328afec2cd6d3898f553c364c7b635bd60b2137e7f81d7cf8f524cec8673c",
+    "bytes": 11313
   },
   "installed.glb": {
     "sha256": "d5266539aebfcf3179392b2619921aa509d102c9dc37b2be81e19b4865c00911",

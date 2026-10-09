@@ -99,5 +99,5 @@ p.write_text(json.dumps(entries, indent=2)+'\n', encoding='utf-8', newline='\n')
 print('HX04 v2 published to its page and the catalog; render previews with PEG_PREVIEW_IDS=HX04 and refresh the receipts.')
 
 # Keep the owner-tested fit revision prominent after regenerating this historical rack page.
-from update_key_fan_fit_coupon import apply as apply_fit_revision
+from update_key_fan_fit_coupon_v4 import apply as apply_fit_revision
 apply_fit_revision()

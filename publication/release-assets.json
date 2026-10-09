@@ -1646,5 +1646,21 @@
   "HX05-fit-v3__left-end__print.stl": {
     "sha256": "ea5792765b7901edfbb52640bb707a95e349e997df7290e2809bbecdd8e473ac",
     "bytes": 274284
+  },
+  "HX05-fit-v4__left-end__print.stl": {
+    "sha256": "234aab1fb77d021db48ede8ae76572bed7723e041bec3f81a399d19a316e7205",
+    "bytes": 373084
+  },
+  "HX05-fit-v4__left-end__print.step": {
+    "sha256": "53dc252dac2697823eba4d5bff4476d71313d0b535f4a2d7e2d7f5c1970ab62a",
+    "bytes": 2473915
+  },
+  "HX05-fit-v4.FCStd": {
+    "sha256": "e4a61c3a4079ecb23581b69fc52d73315e98a16781bc1eef9b618a290dd5abe1",
+    "bytes": 528663
+  },
+  "tee-fit-v4__native-source-and-checks.zip": {
+    "sha256": "c0c36e7737d288280ab4bae0bd6fa482d14eb244d72266f225ab153ff9357c38",
+    "bytes": 1686692
   }
 }

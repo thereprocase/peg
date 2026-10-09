@@ -1647,7 +1647,7 @@
       "extra_downloads": [
         {
           "label": "New 40 mm guide fit coupon and archived HX04 rack",
-          "url": "../key-fan/?v=3#fit-coupon-v3"
+          "url": "../key-fan/?v=3#fit-coupon-v4"
         }
       ],
       "notes": {
@@ -1656,7 +1656,7 @@
         "supports": "Tree supports on the build plate only, mostly under the 90 pegs behind the mounting face; small label counters.",
         "mount": "236 mm wide (ten cells shaved 8 mm a side); 9 peg columns at 25.4 mm pitch (\u00b1101.6 mm) by 10 rows.",
         "qualification": "Owner coupon print revealed excessive small-key rocking and full rotation of the 5 mm tests. Use the revised 40 mm guide coupon on the detail page. This archived full rack retains the earlier seats; new coupon physical fit and slicing are pending.",
-        "status": "Socket fit revision \u00b7 new coupon v3"
+        "status": "Socket fit revision \u00b7 new coupon v4"
       },
       "credit": ""
     }
