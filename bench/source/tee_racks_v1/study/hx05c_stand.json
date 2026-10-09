@@ -26,21 +26,21 @@
   0.0,
   0.0,
   0.0,
-  104.57055034760025,
-  69.73256089327869,
+  108.0,
+  121.0,
   0.0,
-  46.475800154489,
-  -23.2379000772445,
-  18.774706777569875,
-  -71.30156085864563,
+  48.0,
+  -24.0,
+  -34.0,
+  -100.0,
+  20.0,
+  0.0,
+  65.0,
+  5.0,
+  0.0,
   0.0,
   0.0,
   90.0,
-  5.0,
-  12.0,
-  12.0,
-  4.0,
-  0.0,
   0.0,
   0.0,
   0.0,
@@ -50,104 +50,104 @@
   {
    "set": "tee",
    "name": "3/32",
-   "D": 12.0,
+   "D": 40.8,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 32.074815328507796
+   "lift_mm": 48.37481532850779
   },
   {
    "set": "tee",
    "name": "7/64",
-   "D": 12.0,
+   "D": 40.8,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 32.30395121659243
+   "lift_mm": 48.60395121659243
   },
   {
    "set": "tee",
    "name": "1/8",
-   "D": 12.7,
+   "D": 40.8,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 33.23308710467706
+   "lift_mm": 48.83308710467706
   },
   {
    "set": "tee",
    "name": "9/64",
-   "D": 14.3,
+   "D": 40.8,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 35.049722992761694
+   "lift_mm": 49.06222299276169
   },
   {
    "set": "tee",
    "name": "5/32",
-   "D": 15.9,
+   "D": 40.8,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 36.86635888084633
+   "lift_mm": 49.291358880846325
   },
   {
    "set": "tee",
    "name": "3/16",
-   "D": 19.0,
+   "D": 40.8,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 32.49963065701559
+   "lift_mm": 49.74963065701559
   },
   {
    "set": "tee",
    "name": "7/32",
-   "D": 22.2,
+   "D": 45.2,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 36.13290243318485
+   "lift_mm": 54.65790243318485
   },
   {
    "set": "tee",
    "name": "1/4",
-   "D": 25.4,
+   "D": 51.6,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 39.76617420935412
+   "lift_mm": 61.46617420935412
   },
   {
    "set": "tee",
    "name": "5/16",
-   "D": 31.8,
+   "D": 64.3,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 47.03271776169265
+   "lift_mm": 75.08271776169265
   },
   {
    "set": "tee",
    "name": "3/8",
-   "D": 38.1,
+   "D": 77.0,
    "escape": "forward",
    "lift_pen": 0.0,
    "esc_pen": 0.0,
-   "lift_mm": 54.29926131403118
+   "lift_mm": 88.69926131403118
   }
  ],
- "depth": 152.00726767084856,
- "body_h": 198.2590939488461,
- "cad_plate_height_mm": 219.30156085864564,
+ "depth": 176.95599623743553,
+ "body_h": 135.34536653335243,
+ "cad_plate_height_mm": 157.4852991331328,
  "pen": {
   "store": 0.0,
   "sweep": 0.0,
   "env": 0.0,
   "order": 0.0,
-  "grip": 8.526512829121203e-15,
-  "turn": 3.4106051316484814e-14
+  "grip": 0.0,
+  "turn": 0.0
  },
  "stage": "sampled layout study; native CAD, FEA, slicing and physical tests pending",
  "build_env": {
@@ -167,49 +167,19 @@
   "SHORT_PLATE_HALF": "118"
  },
  "dependencies": {
-  "stand_rows.py": "8d09c2a3d2db45be118b3fa83144a9970232df6bb9985f3cff9ae342bad08e94",
-  "short.py": "c64a25df0ac9d5ec86806d909387636a1ed31d5698db2c0fb3e309ebcaaa6171",
+  "stand_rows.py": "2bc12f39bde50f528d8512524565af391165b419575b68d533ea0d42b2749141",
+  "short.py": "11f36408a22ce70705fc79f4e2e0dbb3be9406a352a3a7ddbb1cd7cd3a94ba83",
+  "socket_policy.py": "effe64645adf9e2d29318570afeff2257fe5bbc06f563bfef13548d214cafdf5",
   "sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
   "comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
   "tee_13190.json": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
   "tee_sets_note.json": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a"
  },
- "search_seconds": 61.47,
- "search_parameters": [
-  69.73256089327869,
-  88.50726767084856,
-  71.30156085864563,
-  12.0,
-  -23.2379000772445,
-  0.0,
-  12.0,
-  4.0
- ],
- "search_parameters_before_refinement": [
-  69.73256089327869,
-  88.50726767084856,
-  71.30156085864563,
-  12.0,
-  -23.2379000772445,
-  0.0,
-  12.0,
-  4.0
- ],
- "selection_refinement": {
-  "reduced_grip_z_step_mm": 0,
-  "reason": "dense fixed-forward route verification; keep 48 mm grip spacing"
- },
- "previous_dependencies": {
-  "stand_rows.py": "8d09c2a3d2db45be118b3fa83144a9970232df6bb9985f3cff9ae342bad08e94",
-  "short.py": "37853c49c6ae1894a8a935f74f7fe200bc8322f58aa4c12e366bd3a148b605f9",
-  "sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
-  "comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
-  "tee_13190.json": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
-  "tee_sets_note.json": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a"
- },
- "clearance_revision": {
-  "per_flat_mm": 0.1,
-  "previous_per_flat_mm": 0.2,
-  "geometry_change": "hex clearance only; layout parameters, seat depth, funnel and flare unchanged"
+ "selection": "40 mm minimum guide, 8x larger shafts, large upper/small lower rows, post-lift shaft portals",
+ "previous_layout_sha256": "84687765094a6893ab21abdc1a5dfb77fab70de696fe5213c9e07ba7bba5384a",
+ "guide_policy": {
+  "minimum_mm": 40,
+  "size_ratio": 8,
+  "entry_lead_additional_mm": 0.8
  }
 }

@@ -1,0 +1,145 @@
+{
+ "native_valid": true,
+ "native_solids": 1,
+ "volume_mm3": 1028669.7889693802,
+ "mount": {
+  "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+  "top": {
+   "upper_ribs_mm": 0.5,
+   "clamp_mm": 0.49
+  },
+  "columns_x_mm": [
+   -101.6,
+   -76.19999999999999,
+   -50.8,
+   -25.4,
+   0.0,
+   25.4,
+   50.8,
+   76.19999999999999,
+   101.6
+  ],
+  "plate": {
+   "x0": -115.0,
+   "x1": 115.0,
+   "y0": 0.15,
+   "y1": 5.55,
+   "z0": -149.0402991331328,
+   "z1": 5.12
+  },
+  "hoop": {
+   "concept": "HOOP",
+   "arm_mm": 0.8,
+   "tip_half": 2.0,
+   "even_catch_wall": true,
+   "ramp_wall": true,
+   "nose_mm": 0.9,
+   "root_gusset_mm": 0.4,
+   "body_ribs_mm": 0.3,
+   "detail": {
+    "width_across_barbs_mm": 7.35,
+    "catch_angle_deg": 55,
+    "catch_length_mm": 0.6476919728439815,
+    "ramp_angle_deg": 15.592255624701878,
+    "crest_y_mm": [
+     -4.487691972843981,
+     -4.787691972843981
+    ],
+    "catch_bearing_per_side_mm": 0.5,
+    "nose_mm": 0.9,
+    "ramp_wall_mm": 0.8,
+    "min_wall_mm": 0.8,
+    "root_gusset_mm": 0.4,
+    "root_gusset_length_mm": 1.5,
+    "arm_mm": 0.8,
+    "closed_nose_mm": 0.9,
+    "band_half_height_mm": 1.4,
+    "root_clip_radius_mm": 2.95,
+    "cheek_offset_down_mm": 0.1
+   }
+  },
+  "rows": {
+   "hooks": [
+    0
+   ],
+   "bearing": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "hoop": [
+    5
+   ]
+  },
+  "pegs": {
+   "hooks": 9,
+   "bearing": 36,
+   "locking": 9
+  },
+  "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+  "z_shift": -181.57146268133886
+ },
+ "finish": [
+  {
+   "op": "web cut edges",
+   "edges": 14,
+   "chamfer": 4,
+   "fillet": 0
+  },
+  {
+   "op": "gussets",
+   "kinds": [
+    "cheek"
+   ],
+   "hull_mm3": 16482,
+   "after_clearance_mm3": 16415
+  },
+  {
+   "op": "rails+plate",
+   "volume_mm3": 1090461,
+   "z": [
+    -328.6,
+    -176.1
+   ]
+  },
+  {
+   "op": "board-side delta",
+   "mm3": 0.0
+  },
+  {
+   "op": "done",
+   "volume_mm3": 1028670
+  }
+ ],
+ "installed_bounds_mm": [
+  -118.0,
+  118.00000000000001,
+  -10.79,
+  87.11350512147766,
+  -333.61176181447166,
+  -176.12646268133886
+ ],
+ "rail_groups": [
+  {
+   "name": "tee:0",
+   "tools": [
+    "3/16",
+    "7/32",
+    "1/4",
+    "5/16",
+    "3/8"
+   ]
+  },
+  {
+   "name": "tee:1",
+   "tools": [
+    "3/32",
+    "7/64",
+    "1/8",
+    "9/64",
+    "5/32"
+   ]
+  }
+ ]
+}

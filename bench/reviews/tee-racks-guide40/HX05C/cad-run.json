@@ -1,0 +1,33 @@
+{
+  "part": "HX05C",
+  "source_dependencies": {
+    "bench/source/tee_racks_v1/build_short.py": "b22376dcf3dd77186f64ea5664381e8e0a9a0fc77f8fad773e2a5a654dccc5f4",
+    "bench/source/tee_racks_v1/study/short.py": "11f36408a22ce70705fc79f4e2e0dbb3be9406a352a3a7ddbb1cd7cd3a94ba83",
+    "bench/source/tee_racks_v1/study/socket_policy.py": "effe64645adf9e2d29318570afeff2257fe5bbc06f563bfef13548d214cafdf5",
+    "bench/source/tee_racks_v1/study/hx05c_stand.json": "9621e4e0fb6cc689510ef9872ba3320dbf346166ba8cae8a355e45f975abffba",
+    "bench/source/tee_racks_v1/study/tee_13190.json": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
+    "bench/source/tee_racks_v1/fonts/Fillaprint-Regular.ttf": "f2986cc7cfd4ea2b00a23ead531076445f784576e577fffbf7e7b25431f4a88f"
+  },
+  "build_env": {
+    "SHORT_TEE_SET": "tee_13190.json",
+    "SHORT_ROBUST_ALT": "1",
+    "SHORT_TEE_STAND": "1",
+    "SHORT_ROBUST": "1",
+    "SHORT_TONLY": "1",
+    "SHORT_HMAX": "215",
+    "SHORT_TEE_EQUAL": "48",
+    "SHORT_REC_CELLS": "9",
+    "SHORT_ESCAPE_STEP": "2.5",
+    "SHORT_POINT_STEP": "1.25",
+    "SHORT_STEP": "1.25",
+    "SHORT_CELLS": "10",
+    "SHORT_PLATE_HALF": "118",
+    "HX4S_LAYOUT": "hx05c_stand.json",
+    "HX4S_TBAR": "flats",
+    "HX4S_GUSSET": "cheek",
+    "HX4S_PEG_GRID": "1",
+    "HX4S_SOLID": "1"
+  },
+  "status": "native build complete; exact withdrawal, FEA, installation and slicing pending",
+  "runner_note": "recovered unchanged exports from relative-path output location; source pre/post hash assertion passed before runner failed locating report"
+}

@@ -1,19 +1,19 @@
 {
  "HX05A": {
-  "layout_sha256": "7bb1d38250ae780877a6ba49eedfc000792d4bd44c5292c3eac01843a82d54a4",
-  "dense_check_sha256": "6f612ffb350264a3621954c35b927718c1d5eec2d74e34e1258ef45ade1d3284"
+  "layout_sha256": "ba84d7bde955430d36d3ef3963232e5e15eb2b3871ae61846bc55202546eaf09",
+  "dense_check_sha256": "e8628d1dfb1aa7dd5ea3b7edc1a04f46811a6166de26f1b567ae0b086300ed10"
  },
  "HX05B": {
-  "layout_sha256": "f125288939c2bde9bfced195b5cce7996eaea96e2da30c3c9ce7b6d40568b522",
-  "dense_check_sha256": "2749f943655339cb58334c532f3fcc224ba1b40b950d16e22221f78570d02f68"
+  "layout_sha256": "48bd4cbfd2ddbd1fc32d3d56ec91be17beccc3fd67d907271c7088176b80a7ff",
+  "dense_check_sha256": "ef8b63c5520a8bdd0766c5624143d3d0a5063658bbf4704fbc1b3b3e4e9c1605"
  },
  "HX05C": {
-  "layout_sha256": "cd0a30f424dad208b4ed71112e98580a722d883e9ef2eb1e1afb3a50745d32b8",
-  "dense_check_sha256": "f3a2ca224eb35487132ee14b2e98d1266906f6e9ca4d61dcde4deb4f04a03ea7"
+  "layout_sha256": "9621e4e0fb6cc689510ef9872ba3320dbf346166ba8cae8a355e45f975abffba",
+  "dense_check_sha256": "6f765c690c37cf073a496ea90ae86358ab4ec84165cca5d864b58711330a07fc"
  },
  "renderer_sha256": "4508387bcd258c2f4ec2fbe6370bbdf54e372bcd15c56777758ecbf40cebe801",
  "outputs": {
-  "layouts.png": "ade8712987321278398c026a1c48cfe7c23519d4a8cd22559d29f5001f853c95",
-  "layouts.svg": "2bbee20828dab47f23b49a03bcf044bfb792e0b3404d34671ddd8d949381126b"
+  "layouts.png": "62201ce43bea6e4b7df2e1ad6f58e370de61feb0c6edca2659824b8a1c9de55f",
+  "layouts.svg": "26243611de9ea67830f5d0c85479d31bf0b48d9647b6bedceaf93645d0f0d3f6"
  }
 }

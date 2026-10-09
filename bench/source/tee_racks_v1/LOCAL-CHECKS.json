@@ -1,28 +1,33 @@
 {
- "stage": "layout checks plus locally built straight-guide coupon; full rack/slice and physical fit pending",
+ "stage": "40 mm/8x layouts, native guide-wall/board-side checks for all three racks and fit coupon v3 export checks complete; exact rack withdrawal, installation, FEA, slicing and physical fit pending",
  "reconciliation_commit": "9157d76",
  "hx04_gallery_check": "passed after restoring published HX04 pipeline byte-for-byte",
- "tests": "seven unittest cases passed, including preserved HX04 regression, owner clearance/orientation and process failure handling",
+ "tests": "eight unittest cases passed, including native runner path regression",
  "racks": {
   "HX05A": {
-   "depth_mm": 142.74389576351945,
-   "plate_height_study_mm": 162.3902896418888,
+   "depth_mm": 167.61115106333966,
+   "plate_height_study_mm": 169.7013032033496,
    "dense_fixed_routes_passed": true,
-   "layout_sha256": "7bb1d38250ae780877a6ba49eedfc000792d4bd44c5292c3eac01843a82d54a4"
+   "layout_sha256": "ba84d7bde955430d36d3ef3963232e5e15eb2b3871ae61846bc55202546eaf09"
   },
   "HX05B": {
-   "depth_mm": 151.81815780371818,
-   "plate_height_study_mm": 227.15722995156727,
+   "depth_mm": 177.8692918368204,
+   "plate_height_study_mm": 150.90745078763143,
    "dense_fixed_routes_passed": true,
-   "layout_sha256": "f125288939c2bde9bfced195b5cce7996eaea96e2da30c3c9ce7b6d40568b522"
+   "layout_sha256": "48bd4cbfd2ddbd1fc32d3d56ec91be17beccc3fd67d907271c7088176b80a7ff"
   },
   "HX05C": {
-   "depth_mm": 152.00726767084856,
-   "plate_height_study_mm": 219.30156085864564,
+   "depth_mm": 177.8905062161069,
+   "plate_height_study_mm": 157.4852991331328,
    "dense_fixed_routes_passed": true,
-   "layout_sha256": "cd0a30f424dad208b4ed71112e98580a722d883e9ef2eb1e1afb3a50745d32b8"
+   "layout_sha256": "9621e4e0fb6cc689510ef9872ba3320dbf346166ba8cae8a355e45f975abffba"
   }
  },
  "hex_clearance_per_flat_mm": 0.1,
- "handle_axis": "flat-to-flat"
+ "handle_axis": "flat-to-flat",
+ "guide_policy": {
+  "minimum_mm": 40,
+  "size_ratio": 8,
+  "entrance_additional_mm": 0.8
+ }
 }

@@ -2,15 +2,15 @@
 
 Branch `hx05`. The reconciliation with dev-box `7d7b2fc` is complete: that commit was already published and inherited through HX04 v2. See [RECONCILIATION.md](../key_fan_v1/hx05/RECONCILIATION.md).
 
-Three candidates use two staggered, graduated rows with forward-pointing grips: HX05A / 33034 Torx, HX05B / 13189 metric, HX05C / 13190 inch. Each is a single-set rack. The 236 mm mounting plate and full hook / intermediate bearing / bottom-lock grid remain. Grips have equal **48 mm centre spacing within each row**, enlarged from the inherited 39.2 mm to clear neighboring tools throughout the sampled clock play. The gap between rows is set by withdrawal clearance, not counted as another grip pitch. Socket seats are at least 4× across flats for hex and 4× nominal point-to-point for Torx. Owner confirmed bars run flat-to-flat (2026-10-09). Hex clearance is now 0.10 mm per flat, halved from 0.20 mm; a 5 mm shaft gets a 5.20 mm bore across flats. Fillaprint labels, brace-type solid zones and left-end printing remain.
+Three candidates use two staggered rows with larger tools above smaller tools: HX05A / 33034 Torx, HX05B / 13189 metric, HX05C / 13190 inch. Each is a single-set rack. The 236 mm mounting plate and full hook / intermediate bearing / bottom-lock grid remain. Grips have equal **48 mm centre spacing within each row**, enlarged from the inherited 39.2 mm to clear neighboring tools throughout the sampled clock play. The gap between rows is set by withdrawal clearance, not counted as another grip pitch. Straight guides are at least 40 mm and increase to 8× shaft size for larger tools; the 0.8 mm entrance is additional. Floors are square, with no flared/rounded seating chamber. Owner confirmed bars run flat-to-flat (2026-10-09). Hex clearance is now 0.10 mm per flat, halved from 0.20 mm; a 5 mm shaft gets a 5.20 mm bore across flats. Fillaprint labels, brace-type solid zones and left-end printing remain.
 
-The HX05 execution sources are isolated here; the original `key_fan_v1` pipeline is restored byte-for-byte to published HX04 v2 so its evidence hashes continue to match. The added row mode is opt-in (`SHORT_TONLY=1 SHORT_TEE_STAND=1`). Each row gets its own rail and socket braces; joining all sockets into one convex rail would fill the space between tiers. The unchanged HX04 layout is regression-checked against the study source at `c108ee4` (default HX04 behavior). Shared peg geometry is untouched.
+The HX05 execution sources are isolated here; the original `key_fan_v1` pipeline is restored byte-for-byte to published HX04 v2 so its evidence hashes continue to match. The added row mode is opt-in (`SHORT_TONLY=1 SHORT_TEE_STAND=1`). Each row gets its own rail and socket braces. Post-lift shaft withdrawal slots cut through the intervening rail webs while protecting the full guide wall. The unchanged HX04 layout is regression-checked against the study source at `c108ee4` (default HX04 behavior). Shared peg geometry is untouched.
 
 | Rack | Set | Reported inherited depth | New dense sampled depth | Plate height study |
 |---|---|---:|---:|---:|
-| HX05A | 33034 | ~246 mm | 142.7 mm | 162.4 mm |
-| HX05B | 13189 | ~285 mm | 151.8 mm | 227.2 mm |
-| HX05C | 13190 | ~507 mm | 152.0 mm | 219.3 mm |
+| HX05A | 33034 | ~246 mm | 167.6 mm | 169.7 mm |
+| HX05B | 13189 | ~285 mm | 177.9 mm | 150.9 mm |
+| HX05C | 13190 | ~507 mm | 177.9 mm | 157.5 mm |
 
 Inherited depths are the handoff figures, using its old estimates; they were not rerun as native CAD. New depths include tools at the sampled rotation limits. Plate heights are numerical bounds from the build formula, not exported meshes.
 
@@ -26,7 +26,7 @@ These are dense sampled layout checks of sphere/capsule tool envelopes and conve
 
 ## Required owner Windows build — one command
 
-**FreeCAD 1.1.3 is now available locally** through the pinned official Linux AppImage (`tools/setup_freecad_linux.sh`). The [straight-guide fit coupon](../../reviews/tee-fit-v2-flats-c10/README.md) has native FreeCAD/STEP/STL exports and geometry checks. The full HX05 racks, FEA and slicing still need a new run after the coupon establishes fit. The full review driver below uses the owner's existing Windows P1S / PolyLite ASA ReproCal setup.
+**FreeCAD 1.1.3 is now available locally** through the pinned official Linux AppImage (`tools/setup_freecad_linux.sh`). The [40 mm guide fit coupon](../../reviews/tee-fit-v3-guide40/README.md) has native FreeCAD/STEP/STL exports and geometry checks. The full HX05 racks, FEA and slicing still need a new run after the coupon establishes physical fit. The full review driver below uses the owner's existing Windows P1S / PolyLite ASA ReproCal setup.
 
 After fetching/checking out the latest `hx05`, from the repository root in PowerShell:
 
@@ -66,4 +66,10 @@ The intended destination is one shared page for the three single-set racks. No H
 
 ## Physical coupon feedback — 2026-10-09
 
-The owner’s printed HX04 v2 coupon permits excessive small-key rocking and full rotation of both 5 mm tests. The owner confirmed flat-to-flat T-bars and requested 0.10 mm per-flat clearance. Those two corrections are in the isolated HX05 sources; regenerated layout evidence retains the same parameters and seat shape. A separate [straight-guide coupon v2](../../reviews/tee-fit-v2-flats-c10/README.md) tests the simpler full-depth guide and square floor locally in FreeCAD. Full-rack seating geometry awaits that physical fit result.
+The owner’s printed HX04 v2 coupon permits excessive small-key rocking and full rotation of both 5 mm tests. The owner confirmed flat-to-flat T-bars and requested 0.10 mm per-flat clearance. Those two corrections are in the isolated HX05 sources; regenerated layout evidence retains the same parameters and seat shape. A separate [straight-guide coupon v2](../../reviews/tee-fit-v2-flats-c10/README.md) tests the simpler full-depth guide and square floor locally in FreeCAD. The full-rack source now uses the owner’s 40 mm minimum/8× guide rule, straight hex sections and square floors; native builds and the new coupon establish geometry, while physical fit remains pending.
+
+## Guide-length revision — 2026-10-09
+
+The dimensional authority is `study/socket_policy.py`: guide = max(40 mm, 8× shaft size), burial = guide + 0.8 mm entrance. Larger tools occupy the upper row; their bars are angled 25° from fore-aft and the shafts tilt 20° forward to clear the overhead shelf during the longer lift. Smaller lower-row bars remain fore-aft. Per-row grip centres remain equally spaced at 48 mm. The motion screen reserves 3 mm to the shelf, tool-to-tool movement and post-lift shaft slots. Those slots are applied to the actual CAD; a native assertion protects every guide’s complete wall.
+
+The [v3 coupon](../../reviews/tee-fit-v3-guide40/README.md) demonstrates 40 mm guides for L2/T2.5/T5 and an 80 mm guide for T10. Local native holder builds use `python bench/source/tee_racks_v1/tools/hx05_cad_build.py`; its `--check` option adds the exact OCC storage/withdrawal check. Full profile slicing, FEA and physical qualification remain separate.

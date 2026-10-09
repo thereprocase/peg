@@ -1,0 +1,14 @@
+{
+  "docs/gallery/key-fan/fit-v3/HX05-fit-v3__left-end__print.stl": {
+    "sha256": "ea5792765b7901edfbb52640bb707a95e349e997df7290e2809bbecdd8e473ac",
+    "bytes": 274284
+  },
+  "docs/gallery/key-fan/fit-v3/checks.json": {
+    "sha256": "a9de52cf7f19101fea576c0223a4cfa3cc3767bfc2a355877b3fe03ead927968",
+    "bytes": 4748
+  },
+  "docs/gallery/key-fan/fit-v3/coupon.glb": {
+    "sha256": "e553fcec59940c33d2cbe3283f5beb0cec89a3eb9718a7fa316ea99d586a9018",
+    "bytes": 395728
+  }
+}

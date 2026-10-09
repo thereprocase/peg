@@ -62,7 +62,11 @@ assert d<=178 and j['cad_plate_height_mm']<=242
 assert len(lo.tools)==len(S.TEE) and len(lo.rail_groups)==2
 assert [t['name'] for t in lo.tools]==S.TEE_NAMES
 assert len(set(S.TEE_NAMES))==len(S.TEE_NAMES)
-for k,t in enumerate(lo.tools):assert t['D']>=4*S.TEE_SEAT_SIZE[k]-1e-9
+for k,t in enumerate(lo.tools):
+ assert t['D']>=4*S.TEE_SEAT_SIZE[k]-1e-9
+ assert t['guide_mm']>=40 and t['guide_mm']>=8*S.TEE_SEAT_SIZE[k]-1e-8
+ assert abs(t['D']-t['guide_mm']-.8)<1e-8
+ assert t['floor_deg']==0
 for name,tools in lo.rail_groups:
  np.testing.assert_allclose(np.linalg.norm(np.diff([t['top'] for t in tools],axis=0),axis=1),48,rtol=0,atol=1e-8)
 assert all(r['lift_pen']==0 and r['esc_pen']==0 for r in rep)
@@ -74,13 +78,30 @@ print(d,pen)
         env=runner.environment('HX05B')
         self.assertEqual(env['HX4S_TBAR'],'flats')
         run_study("import short as S; assert S.TEE_HEX_C==.10; assert abs(5+2*S.TEE_HEX_C-5.20)<1e-12",env)
-        spec=importlib.util.spec_from_file_location('fit_coupon',HERE/'fit_coupon_v2.py')
+        spec=importlib.util.spec_from_file_location('fit_coupon',HERE/'fit_coupon_v3.py')
         module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
         trial=next(q for q in module.specs() if q['tool']=='T5')
         self.assertEqual(trial['bore_af_mm'],5.20)
         self.assertEqual(trial['clearance_per_flat_mm'],.10)
-        self.assertAlmostEqual(trial['straight_guide_mm'],19.2)
+        self.assertAlmostEqual(trial['straight_guide_mm'],40.)
         self.assertAlmostEqual(module.hex_play(5,.10),4.245803894404268,places=6)
+
+    def test_native_runner_resolves_relative_output(self):
+        spec=importlib.util.spec_from_file_location('cad_runner',HERE/'tools/hx05_cad_build.py')
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        previous=Path.cwd()
+        with tempfile.TemporaryDirectory() as tmp:
+            fake=Path(tmp)/'freecad-python';fake.touch()
+            def completed(argv,**kwargs):
+                output=Path(argv[-1]);self.assertTrue(output.is_absolute())
+                (output/'build-geometry.json').write_text(json.dumps(dict(native_valid=True,native_solids=1,finish=[])))
+                return subprocess.CompletedProcess(argv,0)
+            try:
+                os.chdir(tmp)
+                with patch.dict(os.environ,{'FREECAD_PYTHON':str(fake)}), patch.object(sys,'argv',['cad_runner','--rack','HX05B','--out','relative-output']), patch.object(module.subprocess,'run',side_effect=completed):
+                    module.main()
+                self.assertTrue((Path(tmp)/'relative-output/HX05B/cad-run.json').is_file())
+            finally:os.chdir(previous)
 
     def test_child_failure_reaches_caller(self):
         with tempfile.TemporaryDirectory() as d:

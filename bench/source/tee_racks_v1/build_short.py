@@ -113,14 +113,9 @@ def hex_teardrop(p, af_bore, axis, bar):
     return Part.makePolygon(P+[P[0]])
 
 
-# Owner, 2026-10-08: 'tools that jiggle like to walk ... encourage walking in, not out'. A rattling tool's tip
-# strikes the bore wall; the wall's normal decides which way each strike pushes. A bore narrowing toward the floor
-# (a plain taper) pushes the tip OUT on every strike; one that widens toward the floor pushes it IN, and gravity's
-# sideways part, pressing the resting tip on that slope, adds a steady inward pull. So: a straight neck (the land,
-# 25% of the depth, at least 4 mm, which guides the tool and carries the T-handle hex clocking), then the wall
-# flares at FLARE_DEG to the floor. The neck is short so the leaning tool's tip, not the neck's far end, limits
-# the lean and reaches the flare and the corner seat. L-key bores have no step; T-handle bores go round below the
-# hex neck (that step faces the floor, and the shaft is still clocked by the neck as it is drawn out).
+# Owner, 2026-10-09: shaft hug >= 40 mm, increasing to 8x for larger tools.
+# Preserve all six hex flats through that length, with a separate 0.8 mm entrance
+# and a square floor. No widened/tapered seating chamber.
 flare, land = SH.flare, SH.land
 
 
@@ -133,31 +128,27 @@ def flare_cone(mouth, axis, r0, depth, d1, d0=None):
 
 def socket(mouth, axis, r, depth, ring_w=1.6, opening=150., hexkey=None, floor=None):
     """hexkey = (af_bore, bar direction) for a clocked T-handle bore, with a hex lead-in funnel.
-    floor = (point, void-side normal, deepest depth): the sloped floor from study/short.py floor_plane, low on
-    the side the resting tool's tip bears toward (its pinch), so jiggle slides the tip deeper."""
+    floor = (point, void-side normal, deepest depth): square-ended stop from study/short.py."""
     fp, fn, fdeep = floor
     d1 = fdeep+3.                                       # every bore piece runs past the deepest floor point
     if hexkey is not None:
         afb, bar = hexkey; R = afb/math.sqrt(3)
-        bore = Part.Face(hex_teardrop(mouth-axis*d1, afb, axis, bar)).extrude(axis*(d1+1))
-        # round below the hex neck (the tip leans any way): a 35 deg cone from the flats out to the corners, no ledge
-        # to print as a ceiling, then the flare
-        d0 = land(depth); dA = (R-afb/2)/math.tan(math.radians(35))
-        bore = bore.fuse(Part.makeLoft([teardrop(mouth-axis*d0, afb/2, axis), teardrop(mouth-axis*(d0+dA), R, axis)], True, True))
-        bore = bore.fuse(flare_cone(mouth, axis, R, depth, d1, d0+dA))
-        bore = bore.common(halfspace(fp, fn))
-        hc = 2*ring_w/math.tan(SINK)                    # a deeper funnel: it turns the shaft into line as it drops
-        funnel = Part.makeLoft([hex_teardrop(mouth-axis*hc, afb, axis, bar), hex_teardrop(mouth, afb+2*2*ring_w, axis, bar)], True, True)
-        out = Part.Face(teardrop(mouth, R+2*ring_w, axis)).extrude(axis*opening)
-        return [bore, funnel, out]
-    bore = Part.Face(teardrop(mouth-axis*d1, r, axis)).extrude(axis*(d1+1))
-    bore = bore.fuse(flare_cone(mouth, axis, r, depth, d1)).common(halfspace(fp, fn))
-    out = Part.Face(teardrop(mouth, r+ring_w, axis)).extrude(axis*opening)
-    parts = [bore, out]
-    if ring_w > 0 and axis.dot(UP) > -.3:            # entry ring only where the mouth does not face down in print
-        hc = ring_w/math.tan(SINK)
-        parts.append(Part.makeLoft([teardrop(mouth-axis*hc, r, axis), teardrop(mouth, r+ring_w, axis)], True, True))
-    return parts
+        # Preserve all six flats through the complete guide. No roof enlargement,
+        # rounded chamber or floor flare; actual slicing must review this section.
+        def wire(at, af):
+            rr=af/math.sqrt(3); bd=bar-axis*bar.dot(axis);bd.normalize();side=axis.cross(bd)
+            off=0. if TBAR=='corners' else math.pi/6
+            pts=[at+bd*(rr*math.cos(off+k*math.pi/3))+side*(rr*math.sin(off+k*math.pi/3)) for k in range(6)]
+            return Part.makePolygon(pts+[pts[0]])
+        bore=Part.Face(wire(mouth-axis*d1,afb)).extrude(axis*(d1+1)).common(halfspace(fp,fn))
+        lead=SH.ENTRY_LEAD_MM
+        funnel=Part.makeLoft([wire(mouth-axis*lead,afb),wire(mouth,afb+2*lead)],True,True)
+        out=Part.Face(teardrop(mouth,R+lead,axis)).extrude(axis*opening)
+        return [bore,funnel,out]
+    bore=Part.Face(teardrop(mouth-axis*d1,r,axis)).extrude(axis*(d1+1)).common(halfspace(fp,fn))
+    out=Part.Face(teardrop(mouth,r+SH.ENTRY_LEAD_MM,axis)).extrude(axis*opening)
+    lead=Part.makeLoft([teardrop(mouth-axis*SH.ENTRY_LEAD_MM,r,axis),teardrop(mouth,r+SH.ENTRY_LEAD_MM,axis)],True,True)
+    return [bore,lead,out]
 
 
 LABEL = dict(depth=.8, cap=5.88)                 # Fillaprint reference size at w = 0.42 mm (capital height 14 w)
@@ -447,8 +438,16 @@ def build(quick=False):
         ur = v(t['u_rest'])                              # the tool rests leaned (study rest pose): open along that too
         if ur.getAngle(ax) > 1e-3:
             holes.append(Part.Face(teardrop(m, t['bore']+.8, ur)).extrude(ur*150.))
-        seats.append(dict(set=t['set'], size=t['name'], mouth=list(m), axis=list(ax), depth=t['D'], radius=t['bore'],
+        seats.append(dict(set=t['set'], size=t['name'], mouth=list(m), axis=list(ax), depth=t['D'], guide_mm=SH.land(t['D']), radius=t['bore'],
                           radius_floor=SH.chamber_r(t), floor_deg=t['floor_deg'], pinch=round(float(t['pinch']), 2)))
+    if SH.TEE_STAND:
+        # Long guides require open withdrawal slots through the intervening rail webs.
+        # Remove only post-lift shaft corridors, protecting every guide's complete wall.
+        exits=[hull_solid(SH.escape_corridor_points(t)) for t in Lo.tools]
+        for t in Lo.tools:
+            guard=Part.makeCylinder(SH.chamber_r(t)+WALL,t['D'],v(t['tip']),v(t['u']))
+            assert all(q.common(guard).Volume<1e-6 for q in exits), ('escape slot cuts guide wall',t['name'])
+        holes+=exits
     marks = []
     for L in labels:
         n = v(L['n']); c = v(L['centre'])

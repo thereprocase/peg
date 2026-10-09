@@ -1,0 +1,69 @@
+{
+  "freecad": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "occ": "7.8.1",
+  "native_valid": true,
+  "native_solids": 1,
+  "volume_mm3": 1028670.7689676145,
+  "step_sha256": "bff51e16954563707ececc591016ed277126724c8d138859858a43b991e42581",
+  "meshes": {
+    "installed.stl": {
+      "closed": true,
+      "connected_surfaces": 13,
+      "material_solids": 1,
+      "internal_cavity_shells": 12,
+      "signed_shell_volumes_mm3": [
+        1029039.8827075256,
+        -41.64817562751298,
+        -36.765238304079034,
+        -35.5147175357555,
+        -35.51470875391232,
+        -24.131347216995536,
+        -26.469966641164675,
+        -47.31076484933655,
+        -32.73019969611499,
+        -32.73018927535949,
+        -19.33340892547295,
+        -19.33346798765319,
+        -19.3333983722361
+      ],
+      "volume_mm3": 1028669.0671243402,
+      "relative_volume_error": 0.0001050321790459007,
+      "sha256": "492297fb1afdf818b3940678dabb85b05ded3117e45b5f1100d0c3c7b58d8053"
+    },
+    "print.stl": {
+      "closed": true,
+      "connected_surfaces": 13,
+      "material_solids": 1,
+      "internal_cavity_shells": 12,
+      "signed_shell_volumes_mm3": [
+        1029039.908223222,
+        -41.648163967177545,
+        -36.76516197851775,
+        -35.51464976649057,
+        -35.51465732276843,
+        -24.131300578358065,
+        -26.470044964056072,
+        -47.3108236414998,
+        -32.73018879034994,
+        -32.730164065753314,
+        -19.333446840429936,
+        -19.333378347316717,
+        -19.333414221140536
+      ],
+      "volume_mm3": 1028669.092828738,
+      "relative_volume_error": 1.7455990931413827e-05,
+      "sha256": "41d0886ae65efa73f9e9b7ca3ce792da3b2f85cefc97db69b7f66f1023aa0333"
+    }
+  },
+  "checker_sha256": "5a7f3675440650bd826e93cc8b4b677040d06f6d0960126d5a4a35d7e794700b",
+  "scope": "native reload and closed-mesh checks; exact withdrawals, installation, FEA, slicing and physical fit pending"
+}

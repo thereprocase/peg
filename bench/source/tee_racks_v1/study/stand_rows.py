@@ -17,6 +17,7 @@ def vector(p):
     gx = (count-1)*pitch/2-stagger/2
     x[26:38] = [gx, gy, 0, pitch, stagger, lower_y-gy, -dz, tilt, 0, 90, count, grade]
     x[38:40] = [pad0, pad1]
+    x[35]=65.;x[40]=90. # large upper grips angled 25 degrees; small lower grips fore-aft
     return x
 
 
@@ -30,12 +31,12 @@ def record(v):
                 stage='sampled layout study; native CAD, FEA, slicing and physical tests pending',
                 build_env={k:v for k,v in os.environ.items() if k.startswith(('SHORT_', 'XENV'))},
                 dependencies={n:hashlib.sha256((Path(__file__).parent/n).read_bytes()).hexdigest()
-                              for n in ('stand_rows.py','short.py','sunray.py','comb.py',os.environ['SHORT_TEE_SET'],'tee_sets_note.json')})
+                              for n in ('stand_rows.py','short.py','socket_policy.py','sunray.py','comb.py',os.environ['SHORT_TEE_SET'],'tee_sets_note.json')})
 
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--seconds',type=float,default=90);ap.add_argument('--output',type=Path,required=True)
-    a=ap.parse_args();start=time.monotonic();best=[float('inf'),None];bounds=[(45,85),(80,114),(45,110),(0,22),(-25,25),(-3,8),(0,25),(0,25)]
+    a=ap.parse_args();start=time.monotonic();best=[float('inf'),None];bounds=[(115,123),(85,95),(85,115),(0,8),(-25,25),(16,21),(0,8),(0,8)]
     class Done(Exception):pass
     def cost(p):
         if time.monotonic()-start>a.seconds:raise Done
@@ -47,7 +48,7 @@ def main():
             print(round(time.monotonic()-start,1),round(val,2),round(d,2),{k:round(float(q),3) for k,q in pen.items()},flush=True)
         return val
     grade = 18 if os.environ['SHORT_TEE_SET'] == 'tee_13189.json' else 12
-    seed=[45,95,80,grade,-math.sqrt(S.TEE_EQUAL**2-grade**2)/2,0,12,4]
+    seed=[122,87,100,0,-24,20,0,0]
     try:
         minimize(cost,seed,method='Powell',bounds=bounds,options={'maxiter':100,'xtol':.02,'ftol':1e-7})
     except Done:pass

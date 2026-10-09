@@ -1,12 +1,12 @@
 {
  "layout": "hx05b_stand.json",
- "layout_sha256": "f125288939c2bde9bfced195b5cce7996eaea96e2da30c3c9ce7b6d40568b522",
+ "layout_sha256": "48bd4cbfd2ddbd1fc32d3d56ec91be17beccc3fd67d907271c7088176b80a7ff",
  "verifier_sha256": "27f590bad69050c322ccde34331cfa3ba2a285febcde33e23e70ef37b70fb811",
  "passed": true,
  "tool_point_step_mm": 0.75,
  "lift_step_mm": 0.75,
  "escape_step_mm": 1.25,
- "worst_loaded_depth_mm": 151.81815780371818,
+ "worst_loaded_depth_mm": 177.8692918368204,
  "poses": [
   {
    "pose": "nominal",
@@ -20,86 +20,86 @@
     0.0,
     0.0
    ],
-   "depth_mm": 151.81815780371818,
+   "depth_mm": 176.94199867567758,
    "pen": {
     "store": 0.0,
     "sweep": 0.0,
     "env": 0.0,
     "order": 0.0,
-    "grip": 5.684341886080802e-15
+    "grip": 0.0
    },
    "routes": [
     {
      "set": "tee",
      "name": "2",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 31.85470053837925
+     "lift_mm": 48.154700538379245
     },
     {
      "set": "tee",
      "name": "2.5",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.14337567297407
+     "lift_mm": 48.443375672974064
     },
     {
      "set": "tee",
      "name": "3",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.43205080756888
+     "lift_mm": 48.732050807568875
     },
     {
      "set": "tee",
      "name": "4",
-     "D": 16.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 37.00940107675851
+     "lift_mm": 49.309401076758505
     },
     {
      "set": "tee",
      "name": "5",
-     "D": 20.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 33.58675134594813
+     "lift_mm": 49.88675134594813
     },
     {
      "set": "tee",
      "name": "6",
-     "D": 24.0,
+     "D": 48.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 38.16410161513775
+     "lift_mm": 58.46410161513775
     },
     {
      "set": "tee",
      "name": "8",
-     "D": 32.0,
+     "D": 64.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 47.318802153517005
+     "lift_mm": 75.61880215351701
     },
     {
      "set": "tee",
      "name": "10",
-     "D": 40.0,
+     "D": 80.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 56.47350269189626
+     "lift_mm": 92.77350269189625
     }
    ]
   },
@@ -115,86 +115,86 @@
     2.5826561804957358,
     2.048650950788808
    ],
-   "depth_mm": 151.78332319704936,
+   "depth_mm": 177.8692918368204,
    "pen": {
     "store": 0.0,
     "sweep": 0.0,
     "env": 0.0,
     "order": 0.0,
-    "grip": 5.684341886080802e-15
+    "grip": 0.0
    },
    "routes": [
     {
      "set": "tee",
      "name": "2",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 31.85470053837925
+     "lift_mm": 48.154700538379245
     },
     {
      "set": "tee",
      "name": "2.5",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.14337567297407
+     "lift_mm": 48.443375672974064
     },
     {
      "set": "tee",
      "name": "3",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.43205080756888
+     "lift_mm": 48.732050807568875
     },
     {
      "set": "tee",
      "name": "4",
-     "D": 16.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 37.00940107675851
+     "lift_mm": 49.309401076758505
     },
     {
      "set": "tee",
      "name": "5",
-     "D": 20.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 33.58675134594813
+     "lift_mm": 49.88675134594813
     },
     {
      "set": "tee",
      "name": "6",
-     "D": 24.0,
+     "D": 48.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 38.16410161513775
+     "lift_mm": 58.46410161513775
     },
     {
      "set": "tee",
      "name": "8",
-     "D": 32.0,
+     "D": 64.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 47.318802153517005
+     "lift_mm": 75.61880215351701
     },
     {
      "set": "tee",
      "name": "10",
-     "D": 40.0,
+     "D": 80.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 56.47350269189626
+     "lift_mm": 92.77350269189625
     }
    ]
   },
@@ -210,86 +210,86 @@
     -2.5826561804957358,
     -2.048650950788808
    ],
-   "depth_mm": 151.78332319704936,
+   "depth_mm": 176.06171658286848,
    "pen": {
     "store": 0.0,
     "sweep": 0.0,
     "env": 0.0,
     "order": 0.0,
-    "grip": 5.684341886080802e-15
+    "grip": 0.0
    },
    "routes": [
     {
      "set": "tee",
      "name": "2",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 31.85470053837925
+     "lift_mm": 48.154700538379245
     },
     {
      "set": "tee",
      "name": "2.5",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.14337567297407
+     "lift_mm": 48.443375672974064
     },
     {
      "set": "tee",
      "name": "3",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.43205080756888
+     "lift_mm": 48.732050807568875
     },
     {
      "set": "tee",
      "name": "4",
-     "D": 16.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 37.00940107675851
+     "lift_mm": 49.309401076758505
     },
     {
      "set": "tee",
      "name": "5",
-     "D": 20.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 33.58675134594813
+     "lift_mm": 49.88675134594813
     },
     {
      "set": "tee",
      "name": "6",
-     "D": 24.0,
+     "D": 48.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 38.16410161513775
+     "lift_mm": 58.46410161513775
     },
     {
      "set": "tee",
      "name": "8",
-     "D": 32.0,
+     "D": 64.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 47.318802153517005
+     "lift_mm": 75.61880215351701
     },
     {
      "set": "tee",
      "name": "10",
-     "D": 40.0,
+     "D": 80.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 56.47350269189626
+     "lift_mm": 92.77350269189625
     }
    ]
   },
@@ -305,86 +305,86 @@
     2.5826561804957358,
     -2.048650950788808
    ],
-   "depth_mm": 151.78332319704936,
+   "depth_mm": 177.8692918368204,
    "pen": {
     "store": 0.0,
     "sweep": 0.0,
     "env": 0.0,
     "order": 0.0,
-    "grip": 5.684341886080802e-15
+    "grip": 0.0
    },
    "routes": [
     {
      "set": "tee",
      "name": "2",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 31.85470053837925
+     "lift_mm": 48.154700538379245
     },
     {
      "set": "tee",
      "name": "2.5",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.14337567297407
+     "lift_mm": 48.443375672974064
     },
     {
      "set": "tee",
      "name": "3",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.43205080756888
+     "lift_mm": 48.732050807568875
     },
     {
      "set": "tee",
      "name": "4",
-     "D": 16.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 37.00940107675851
+     "lift_mm": 49.309401076758505
     },
     {
      "set": "tee",
      "name": "5",
-     "D": 20.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 33.58675134594813
+     "lift_mm": 49.88675134594813
     },
     {
      "set": "tee",
      "name": "6",
-     "D": 24.0,
+     "D": 48.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 38.16410161513775
+     "lift_mm": 58.46410161513775
     },
     {
      "set": "tee",
      "name": "8",
-     "D": 32.0,
+     "D": 64.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 47.318802153517005
+     "lift_mm": 75.61880215351701
     },
     {
      "set": "tee",
      "name": "10",
-     "D": 40.0,
+     "D": 80.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 56.47350269189626
+     "lift_mm": 92.77350269189625
     }
    ]
   },
@@ -400,86 +400,86 @@
     -2.5826561804957358,
     2.048650950788808
    ],
-   "depth_mm": 151.78332319704936,
+   "depth_mm": 177.6080366542168,
    "pen": {
     "store": 0.0,
     "sweep": 0.0,
     "env": 0.0,
     "order": 0.0,
-    "grip": 5.684341886080802e-15
+    "grip": 0.0
    },
    "routes": [
     {
      "set": "tee",
      "name": "2",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 31.85470053837925
+     "lift_mm": 48.154700538379245
     },
     {
      "set": "tee",
      "name": "2.5",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.14337567297407
+     "lift_mm": 48.443375672974064
     },
     {
      "set": "tee",
      "name": "3",
-     "D": 12.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 32.43205080756888
+     "lift_mm": 48.732050807568875
     },
     {
      "set": "tee",
      "name": "4",
-     "D": 16.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 37.00940107675851
+     "lift_mm": 49.309401076758505
     },
     {
      "set": "tee",
      "name": "5",
-     "D": 20.0,
+     "D": 40.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 33.58675134594813
+     "lift_mm": 49.88675134594813
     },
     {
      "set": "tee",
      "name": "6",
-     "D": 24.0,
+     "D": 48.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 38.16410161513775
+     "lift_mm": 58.46410161513775
     },
     {
      "set": "tee",
      "name": "8",
-     "D": 32.0,
+     "D": 64.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 47.318802153517005
+     "lift_mm": 75.61880215351701
     },
     {
      "set": "tee",
      "name": "10",
-     "D": 40.0,
+     "D": 80.8,
      "escape": "forward",
      "lift_pen": 0.0,
      "esc_pen": 0.0,
-     "lift_mm": 56.47350269189626
+     "lift_mm": 92.77350269189625
     }
    ]
   }

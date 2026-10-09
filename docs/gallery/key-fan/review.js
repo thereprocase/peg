@@ -1,4 +1,4 @@
-const viewer=document.querySelector('model-viewer');
+const viewer=document.querySelector('#rack-viewer');
 document.querySelectorAll('[data-mode]').forEach(button=>button.addEventListener('click',()=>{
   viewer.src=button.dataset.mode+'.glb?v=2';
   document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));

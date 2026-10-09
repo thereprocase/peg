@@ -1,27 +1,16 @@
-"""Short-socket layout study (owner, 2026-10-07): every tool sits in the shortest socket that keeps it
-seated, lifts out by that depth, then leaves forward (or up-forward / on along its axis), clear of every
-other tool, the holder and the shelf (3" deep, its underside 2" above the highest stored point).
-
-Socket depth (bench physics, owner: 'be reasonable, there is friction'):
-  * A knock can only lift a tool while the rack accelerates away from it faster than the tool's own
-    restoring acceleration. The rack is clamped to a stiff pegboard, so a hard bump moves it at most
-    ~1 mm at the panel's 20-50 Hz: peak rack speed dv ~ 0.2 m/s.
-  * Restoring acceleration along the bore: g (a + mu sqrt(1 - a^2)), a = the axial fraction of gravity,
-    the rest presses the tool on the bore wall. mu = 0.25 for steel in a printed ASA bore: conservative
-    against NASA TM-87036 (Fusaro, Lewis RC: graphite/polyimide on metal counterfaces 0.21-0.36) and
-    published ABS-on-steel values of 0.37-0.45.
-  * Hop height h = dv^2 / (2 g_eff); the socket keeps SF = 2 times that plus 3 mm, at least 2 tool
-    diameters (guidance), never under 12 mm.
-
-All three sets follow a regular row pattern (owner: 'fan not jumble'): sockets evenly spaced on a line,
-tilt / sideways lean / short-arm turn stepping linearly from the smallest (user's left) to the largest.
-Installed frame: x = user's left, y = out from the board, z = up, mm.
+"""HX05 shaft-guiding layout study.
+Owner rule: at least 40 mm straight guide, increasing to 8x shaft size for larger tools,
+plus a separate 0.8 mm entrance chamfer. Full hex sections, 0.10 mm per-flat clearance,
+flat-to-flat T-bars and square floors replace the short flared seating chamber.
+Stored tools and sampled removal paths are checked against neighbors, the holder and
+an overhead shelf (76.2 mm deep, 50.8 mm above the highest stored point).
 """
 import math, os, json, sys
 from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
 import comb
+from socket_policy import burial_depth, ENTRY_LEAD_MM, HEX_CLEARANCE_PER_FLAT_MM
 from sunray import seg as _segment, cat, sweep, unit, TEE, BAR_R, BOARD, HALF
 
 
@@ -49,7 +38,7 @@ HALF = float(os.environ.get('SHORT_PLATE_HALF', HALF))  # ... shaved 5-10 mm a s
 SPREAD = float(os.environ.get('SHORT_SPREAD', 0))      # Torx and hex rows: mouths spread at least this far in x
 SHELF_DEPTH, SHELF_GAP = 3*INCH, 2*INCH
 STEP = float(os.environ.get('SHORT_STEP', 2.5))
-C_SWEEP, C_STORE, C_SHELF = 3., 1.5, 4.
+C_SWEEP, C_STORE, C_SHELF = 3., 1.5, 3.
 WALL, FLOOR = 3., 3.
 DV, SF, G, MU = .20, 2., 9.81, .25
 H_MAX = float(os.environ.get('SHORT_HMAX', 248))
@@ -59,8 +48,8 @@ KD = float(os.environ.get('SHORT_KD', 4.))      # owner, 2026-10-08: 'minimum se
 # T-handle grip turn (owner, 2026-10-08: 'socket shapes to encourage ideal positions at rest'). A T-handle has no
 # preferred turn under gravity (the bar is symmetric about the shaft), so a hex-keyed bore clocks it; it still
 # turns by the bore's play. TEE_HEX_C = clearance per flat; TPSI_OFF = per-handle turn used by evaluate().
-TEE_HEX_C = .1
-TEE_KEYED_MIN = 3.                                      # T2, T2.5: too small for flats to grip
+TEE_HEX_C = HEX_CLEARANCE_PER_FLAT_MM
+TEE_KEYED_MIN = 0.                                      # full-depth hex guidance includes small keys
 # HX05 (owner, 2026-10-08): single-set T-handle racks. SHORT_TEE_SET = a JSON list of dict(name, af, overall, bar)
 # replaces the T fan's tools (af: hex across flats; a Torx shaft enters as 0.866 x point-to-point, the hex whose
 # corners hold its lobes); SHORT_TONLY=1 drops the two L-key rows.
@@ -85,11 +74,8 @@ def tee_play_deg(af, c=TEE_HEX_C, eyeball=10.):        # unclocked T2, T2.5: set
 
 
 def socket_depth(d_key, axial):
-    """d_key: nominal key size (hex across flats, Torx point to point)."""
-    a = min(max(axial, .02), 1.)
-    g_eff = G*(a+MU*math.sqrt(1-a*a))
-    hop = DV*DV/(2*g_eff)*1000
-    return max(12., KD*d_key, SF*hop+3.)
+    """Actual burial = straight shaft hug plus the additional shallow entrance."""
+    return burial_depth(d_key)
 
 
 def lkey_cloud(mouth, u, D, L, short, r, arm):
@@ -135,6 +121,22 @@ def row(p, n):
         u = unit([math.sin(a)*math.cos(th), math.sin(th), math.cos(a)*math.cos(th)])
         out.append((m0+dm*k+np.array([grade*k*k, 0, 0]), u, math.radians(s0+k*ds)))
     return out
+
+
+def lift_distance(t):
+    return t['D']+3.+(float(t['rr'][0])+2*EDGE_R+t.get('lift_pad',0.) if TEE_STAND else 0.)
+
+
+def escape_corridor_points(t):
+    """Conservative shaft-only corridor after clearing the full guide.
+    Includes upright and gravity-rest shafts; never enlarge the seating bore.
+    """
+    shaft=t['rr']<8. # T grip radius is 9 mm; all current shafts are smaller.
+    ends=np.vstack([t['pts'][shaft][[0,-1]],t['pts_up'][shaft][[0,-1]]])+t['u']*lift_distance(t)
+    ends=np.vstack([ends,ends+np.array([0.,240.,0.])])
+    radius=float(t['rr'][0])+C_SWEEP+.2
+    cube=np.array([[x,y,z] for x in (-radius,radius) for y in (-radius,radius) for z in (-radius,radius)])
+    return (ends[:,None,:]+cube[None,:,:]).reshape(-1,3)
 
 
 class Layout:
@@ -186,11 +188,12 @@ class Layout:
                 count = int(round(count))
                 if not 2 <= count <= len(TEE)-2:
                     raise ValueError('each stand tier needs at least two tools')
-                tier = int(k >= count); j = k-count if tier else k
+                tier = int(k < count); j = k if tier else k-count
                 ph, a = math.radians(tilt), math.radians(lean)
                 u = unit([math.sin(a)*math.cos(ph), math.sin(ph), math.cos(a)*math.cos(ph)])
                 top = np.array([gx-j*pitch+tier*dx, gy+tier*dy, gz+j*grade+tier*dz])
                 tip = top-u*(over-BAR_R); D = socket_depth(TEE_SEAT_SIZE[k], u[2]); m = tip+u*D
+                if tier:turn=self.v[40]
             b0 = unit(np.cross(u, [0, 1, 0])); psi = math.radians((turn if TEE_STAND else s0+k*ds)+TPSI_OFF[k])
             bd = unit(b0*math.cos(psi)+np.cross(u, b0)*math.sin(psi))
             pts, rr = cat([seg(tip, top, r), seg(top-bd*(bar/2-BAR_R), top+bd*(bar/2-BAR_R), BAR_R)])
@@ -200,6 +203,7 @@ class Layout:
                 self.tools[-1]['lift_pad'] = max(0., self.v[38+tier])
         for t in self.tools:
             q = t['pts']-t['tip']; ax = q@t['u']
+            t['guide_mm'] = land(t['D'])
             t['main'] = np.linalg.norm(q-np.outer(ax, t['u']), axis=1) < .5      # long arm / shaft, before tipping
             _, pd, _, _ = rest_pose(dict(t, floor_deg=0.))
             pd = pd if pd is not None else np.array([0, -1., 0])
@@ -227,6 +231,7 @@ class Layout:
                              [[EDGE_R*math.tan(math.radians(50)), 0, 0], [-EDGE_R*math.tan(math.radians(50)), 0, 0]]])
             Q = (hq[:, None, :]+bic[None, :, :]).reshape(-1, 3); H = ConvexHull(Q)       # as the CAD's edge rounding
             self.rails.append((H.equations, Q.min(axis=0)-15, Q.max(axis=0)+15))
+        self.escape_corridors=[ConvexHull(escape_corridor_points(t)).equations for t in self.tools] if TEE_STAND else []
 
     def body_sdf(self, p):
         d = np.full(len(p), 1e9)
@@ -234,7 +239,11 @@ class Layout:
             sel = np.all((p >= lo) & (p <= hi), axis=1)
             if sel.any():
                 d[sel] = np.minimum(d[sel], (p[sel]@eq[:, :3].T+eq[:, 3]).max(axis=1))
-        return np.minimum(d, p[:, 1]-(BOARD+PLATE_T))          # the back plate
+        d=np.minimum(d,p[:,1]-(BOARD+PLATE_T))
+        for eq in self.escape_corridors:
+            cut=(p@eq[:,:3].T+eq[:,3]).max(axis=1)
+            d=np.maximum(d,-cut)
+        return d
 
 
 ESC = {'forward': np.array([0, 1., 0]), 'up-forward': unit([0, 1, .4]), 'axis': None}
@@ -294,17 +303,16 @@ def grab_gaps(T):
 BACK = 'torx' if MIDDLE == 'hex' else 'hex'
 _TOP, _FRONT = (np.array([0, .42, .91]), 1), (np.array([0, .95, .31]), -1)
 LIP = {BACK: _TOP, MIDDLE: _FRONT, 'tee': _FRONT}
-LAND, LAND_MIN, FLARE_DEG, FLARE_MAX = .25, 4., 5., .6  # the bottle bore (build_short.socket): neck, then a flare
+# The guide has no flare or separate rounded seating chamber.
 
 
 def land(depth):
-    """Neck length. Short enough that a leaning tool's TIP (not the neck's far end) limits the lean, so the tip
-    reaches the flare and the corner seat: needs land < 2c D / (2c + flare + seat), about 0.37 D here."""
-    return min(depth*.5, max(LAND_MIN, LAND*depth))
+    """Actual straight guide, excluding only the shallow entrance chamfer."""
+    return depth-ENTRY_LEAD_MM
 
 
 def flare(depth):
-    return min(FLARE_MAX, (depth-land(depth))*math.tan(math.radians(FLARE_DEG)))
+    return 0.
 
 
 def rot(P, c, k, ang):
@@ -334,33 +342,23 @@ def rest_pose(t):
 
 
 def clearances(t):
-    """Radial play at the mouth and at the tip (each 0.1 mm short of contact)."""
-    r_tool = float(t['rr'][0])
-    if t['set'] == 'tee' and t['af'] >= TEE_KEYED_MIN:   # hex neck: the flats allow TEE_HEX_C; round below it
-        return max(TEE_HEX_C-.1, 0.), (t['af']+2*TEE_HEX_C)/math.sqrt(3)-r_tool-.1
-    c = max(t['bore']-r_tool-.1, 0.)
-    return c, c
+    """Straight-guide lateral clearance, with 0.02 mm reserve in the rest-pose screen."""
+    if t['set']=='tee':
+        c=max(TEE_HEX_C-.02,0.)
+    else:
+        c=max(t['bore']-float(t['rr'][0])-.02,0.)
+    return c,c
 
 
 def chamber_r(t):
-    """Bore radius at the floor (the flared chamber; round below a T-handle's hex neck)."""
-    if t['set'] == 'tee' and t['af'] >= TEE_KEYED_MIN:
-        return (t['af']+2*TEE_HEX_C)/math.sqrt(3)+flare(t['D'])
-    return t['bore']+flare(t['D'])
+    """Circumscribing guide radius; there is no widening chamber."""
+    if t['set']=='tee':return (t['af']+2*TEE_HEX_C)/math.sqrt(3)
+    return t['bore']
 
 
 def floor_plane(t, pinch):
-    """Sloped floor: void-side normal (toward the mouth) tilted toward +pinch, so the floor is low (deeper) on the
-    pinch side: a point at depth z and offset s toward the pinch is open while z <= z0 + s tan(slope). Kept printable on the left-end print (print down = +x): the normal may not point more than 50 deg
-    toward print-down. Returns (point, normal, slope deg, deepest depth along the axis)."""
-    u = t['u']; r_tool = float(t['rr'][0])
-    for deg in (FLOOR_DEG, 20., 10., 0.):
-        n = u+math.tan(math.radians(deg))*pinch; n /= np.linalg.norm(n)
-        if n[0] <= math.cos(math.radians(50)):
-            break
-    ta = math.tan(math.radians(deg))
-    p0 = t['mouth']-u*(t['D']+r_tool*ta+.1)
-    return p0, n, deg, t['D']+r_tool*ta+.1+chamber_r(t)*ta
+    """Square floor normal to the shaft at the prescribed burial depth."""
+    return t['mouth']-t['u']*t['D'],t['u'],0.,t['D']
 
 
 def rail_points(tools, set_name, labels=None):
@@ -448,7 +446,7 @@ def _evaluate(v, detail=False, wd=5.):
         pen['store'] += float(np.sum(np.maximum(0, BOARD+C_STORE-(t['pts'][:, 1]-t['rr']))))
         # drawing it out starts by straightening it upright, past its neighbours at rest
         pen['sweep'] += hit_tree(tree, orr, rmax, t['pts_up'], t['rr'], C_STORE)
-        lift_mm = t['D']+3.+(t['bore']+2*EDGE_R+t['lift_pad'] if TEE_STAND else 0.)
+        lift_mm = lift_distance(t)
         lift = t['u']*lift_mm
         sp, sr = sweep(t['pts'], t['rr'], lift, max(2, int(lift_mm/STEP)+1))
         base = hit_tree(tree, orr, rmax, sp, sr, C_SWEEP)+shelf(sp, sr)+body_pen(t, sp, sr, C_SWEEP)

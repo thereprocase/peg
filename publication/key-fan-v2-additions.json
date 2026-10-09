@@ -1,11 +1,11 @@
 {
   "checks.json": {
-    "sha256": "9fa6f8b93e552f08ece2ce958504aa8735271d3b5ea3620c7777b99ae8518bb6",
-    "bytes": 72560
+    "sha256": "de0a74b516699ef3363ad8f1d5a3d6be2a43eeabdf284b0d8cf6584ffb693ef2",
+    "bytes": 72890
   },
   "index.html": {
-    "sha256": "84e657aef283de7fd15b6df34a37ce4ffdddf145881e275429496cef08c61371",
-    "bytes": 7737
+    "sha256": "03939045d2c05731f0fb77672f6462ebc860aa891611ccfaa5a509e70dcb6e11",
+    "bytes": 10905
   },
   "installed.glb": {
     "sha256": "d5266539aebfcf3179392b2619921aa509d102c9dc37b2be81e19b4865c00911",
@@ -28,7 +28,7 @@
     "bytes": 6098500
   },
   "review.js": {
-    "sha256": "77c00c5422434b78120adbe5d456c078ab52383f0c7c9fa3cd5a3980328a736b",
+    "sha256": "b4e2ec2a547f50062e51c66ea87f7dcb448154f9bfb1c05c7aaf9aa4406ea2fe",
     "bytes": 562
   }
 }

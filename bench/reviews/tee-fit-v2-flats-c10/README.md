@@ -1,3 +1,5 @@
+> Superseded by [v3: 40 mm minimum guide, longer for larger shafts](../tee-fit-v3-guide40/README.md). This v2 record preserves the earlier short-guide trial.
+
 # Straight-guide fit coupon v2 — flat-to-flat, half clearance
 
 Owner reported weak small-key seating, roughly 15° rocking of the 2 mm L-key, and complete rotation in both 5 mm tests of the published HX04 v2 coupon. The owner confirmed that the T-handle axis runs **flat-to-flat**, and requested halving hex clearance.
