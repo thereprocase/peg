@@ -15,7 +15,8 @@ def clearance(tree, rr, p, rad):
 
 def main():
     dst=Path(sys.argv[1]);dst.mkdir(parents=True,exist_ok=True)
-    racks=json.loads((dst/'layout.json').read_text())['racks'] if '--saved' in sys.argv else layout()
+    data=json.loads((dst/'layout.json').read_text()) if '--saved' in sys.argv else dict(racks=layout())
+    racks=data['racks']
     alltools=[]
     for rack in racks:
         for t in rack['tools']:
@@ -34,7 +35,9 @@ def main():
         for y in np.linspace(0,180,91):
             handmin=min(handmin,clearance(tree,orr,hp+[0,y,0],hr+1.))
         records.append(dict(rack=rack['id'],tool=t['name'],stored_bound=stored,withdrawal_bound=toolmin,hand_bound=handmin))
-    pitch=racks[1]['z']-racks[0]['z']
-    out=dict(scope='Stored tools, axial stroke of burial plus 5 mm, and front-end grasp approach. Subsequent free-hand removal is not modelled.',pitch=pitch,hand_proxy='50 mm diameter, 15 mm centre segment around the front end of the grip; 65 mm overall length',records=records,passed=all(min(r['stored_bound'],r['withdrawal_bound'],r['hand_bound'])>0 for r in records))
-    (dst/'layout.json').write_text(json.dumps(dict(pitch=pitch,racks=racks),indent=2)+'\n');(dst/'access.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2))
+    pitches=[hi['z']-lo['z'] for lo,hi in zip(racks,racks[1:])]
+    pitch=pitches[0] if max(pitches)-min(pitches)<1e-6 else None
+    data.update(pitch=pitch,pitches_mm=pitches)
+    out=dict(scope='Stored tools, axial stroke of burial plus 5 mm, and front-end grasp approach. Subsequent free-hand removal is not modelled.',pitch=pitch,pitches_mm=pitches,hand_proxy='50 mm diameter, 15 mm centre segment around the front end of the grip; 65 mm overall length',records=records,passed=all(min(r['stored_bound'],r['withdrawal_bound'],r['hand_bound'])>0 for r in records))
+    (dst/'layout.json').write_text(json.dumps(data,indent=2)+'\n');(dst/'access.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2))
 if __name__=='__main__':main()

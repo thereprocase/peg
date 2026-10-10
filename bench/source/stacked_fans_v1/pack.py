@@ -19,8 +19,10 @@ def mouth(t):
     rad=(t['p2p']+.38)/2+1.5 if 'p2p' in t else (t['af']+.38+3)/math.sqrt(3)
     return np.array([t['mouth']]),np.array([rad])
 
-def settle(t,previous,cloud,segments,path):
-    if not previous:return 0.
+def contact_intervals(t,previous,cloud,segments,path,approach=(0,1,0)):
+    """Forbidden translations along minus Z, including reciprocal access."""
+    if not previous:return np.empty((0,2))
+    approach=np.array(approach)
     # Fine sphere cover gives a rigorous 1 mm lower bound, with at most 0.5 mm
     # extra sampling conservatism; this is not the hand/funnel clearance.
     cp,cr=cloud(segments(t),step=.5)
@@ -41,18 +43,21 @@ def settle(t,previous,cloud,segments,path):
     for move in path(t,step=3.):
         shift=max(shift,drop(gp+move,gr+1.5,op,orr,1.),drop(hp+move,hr+1.5,op,orr,1.))
     for y in np.linspace(0,180,61):
-        shift=max(shift,drop(hp+[0,y,0],hr+1.5,op,orr,1.))
+        shift=max(shift,drop(hp+approach*y,hr+1.5,op,orr,1.))
     for q,(qp,qr) in zip(previous,ps):
         qu,qc=map(np.array,(q['axis'],q['top']));qd=qu*(q['burial']+5)
         qseg=segments(q);ep,er=cloud([(qc,qc+qd,qseg[0][2])],step=1.);shift=max(shift,drop(cp,cr,ep,er,1.))
         qg,qgr=cloud(qseg[1:],step=1.);qh,qhr=cloud(segments(q,True),step=1.);qcp,qcr=cloud(qseg,step=1.)
         for move in path(q,step=3.):shift=max(shift,drop(cp,cr,qg+move,qgr+1.5,1.),drop(cp,cr,qh+move,qhr+1.5,1.))
-        for y in np.linspace(0,180,61):shift=max(shift,drop(cp,cr,qh+[0,y,0],qhr+1.5,1.))
+        for y in np.linspace(0,180,61):shift=max(shift,drop(cp,cr,qh+approach*y,qhr+1.5,1.))
+    return np.concatenate(intervals)
+
+def settle(t,previous,cloud,segments,path):
     # Each possible contact forbids a finite translation interval. Merge only
     # the connected interval containing zero: never force a tool past another
     # tool that is already safely above/below it. This is an analytic placement,
     # not a series of candidate layouts.
-    blocked=np.concatenate(intervals)
+    blocked=contact_intervals(t,previous,cloud,segments,path)
     blocked=blocked[blocked[:,1]>=0]
     blocked=blocked[np.argsort(blocked[:,0])]
     shift=0.

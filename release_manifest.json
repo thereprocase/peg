@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3238,
-  "total_size_bytes": 1209679202,
+  "file_count": 3241,
+  "total_size_bytes": 1209738567,
   "files": [
     {
       "path": ".gitattributes",
@@ -2343,28 +2343,33 @@
     },
     {
       "path": "bench/reviews/stacked-fans-v1/access.json",
-      "size_bytes": 4810,
-      "sha256": "0d727ac47b68600976e6030c0702c4dded16b54a60df6aa76df9068a6d097fd9"
+      "size_bytes": 4989,
+      "sha256": "50b872183cd52e357be820db7ad68e9f9fb498c33d909c3e1a60633b0beddd09"
+    },
+    {
+      "path": "bench/reviews/stacked-fans-v1/density.json",
+      "size_bytes": 4772,
+      "sha256": "aa1006b7285ca917f6f3cbab25ea59b241ddd2962cfb10d53fac0c96819879f8"
     },
     {
       "path": "bench/reviews/stacked-fans-v1/layout.json",
-      "size_bytes": 24707,
-      "sha256": "21b4d58f299771349a18a4a1e7e7454e3bc44bf4de8a9e745fa63373dec776e0"
+      "size_bytes": 24849,
+      "sha256": "3bc1e210ed6da6dec8744d8ec6be32d0b584033a86b87d1f83f1d632e3196498"
     },
     {
       "path": "bench/reviews/stacked-fans-v1/native.json",
-      "size_bytes": 44740,
-      "sha256": "d35db9cec4ca8b788115bbff73f0934542644b956c85533af6f092bc833f3254"
+      "size_bytes": 44599,
+      "sha256": "71983efd4bddeeb0cc35e573f216ea9796c74779fb0132aef9c1a925be67edb2"
     },
     {
       "path": "bench/reviews/stacked-fans-v1/spacing.json",
-      "size_bytes": 304,
-      "sha256": "2d9e541e71af8216cf7345c75678f9a55d2b77cee21fcd0bf8a5a2278e9f4b81"
+      "size_bytes": 1227,
+      "sha256": "240cbbd179caa09832643a16ac9dffab96f9a2ca496c7eb4c36c99c29ae7ad85"
     },
     {
       "path": "bench/reviews/stacked-fans-v1/sweep-check.json",
-      "size_bytes": 8349,
-      "sha256": "43cd71c863e2cf935199f64f4cd00ae72fbdb7c9be9ab35089ca46624dc0f8a1"
+      "size_bytes": 8435,
+      "sha256": "c97a0bc70bb8172f174493ffc9af4bd54bb9c35877e805701c4e091d0a3be809"
     },
     {
       "path": "bench/reviews/tee-fit-v2-flats-c10/HX05-fit-v2.FCStd",
@@ -4493,13 +4498,18 @@
     },
     {
       "path": "bench/source/stacked_fans_v1/README.md",
-      "size_bytes": 3655,
-      "sha256": "0dbbe536cf1b649a5a08f8dcc0a0326d6c4ea0b9c70eadbcf050f5b15f53c9be"
+      "size_bytes": 4339,
+      "sha256": "dec32d353bbff32d70532108312d120049bc7752ec50573b806cb934be343e4a"
     },
     {
       "path": "bench/source/stacked_fans_v1/build.py",
-      "size_bytes": 7604,
-      "sha256": "57b958eb8fe80caa87fe12cc915a65681edfa15f8de6b6c2b08c53e64169962d"
+      "size_bytes": 8069,
+      "sha256": "8047212f3a1cad2fdc10bbb462969867f079572ba965f8f8048885d877225cc9"
+    },
+    {
+      "path": "bench/source/stacked_fans_v1/densify.py",
+      "size_bytes": 3376,
+      "sha256": "d313de41807d538467cd80fd5f38e52bedc4c536f72041886c92bc6ab984f781"
     },
     {
       "path": "bench/source/stacked_fans_v1/handles_preview.py",
@@ -4513,23 +4523,28 @@
     },
     {
       "path": "bench/source/stacked_fans_v1/pack.py",
-      "size_bytes": 3291,
-      "sha256": "41618fe806b77049880b747ca6179a5a80427b1ec8e3b03ed279de7c64f72afd"
+      "size_bytes": 3553,
+      "sha256": "e91913f1ac0da893fd686d99ce67b73da3b681ffd534790588a8ec27b8904d17"
     },
     {
       "path": "bench/source/stacked_fans_v1/publish_review.py",
-      "size_bytes": 6976,
-      "sha256": "f1e357752944ceb045aa2647a9d79af526fb5b1b63a72708e8ee2a54950e8c80"
+      "size_bytes": 7993,
+      "sha256": "67d4e56fa0e4e2bb53df7339464a81a00ffbf07389168236673b3a8d60dbf027"
+    },
+    {
+      "path": "bench/source/stacked_fans_v1/reference-layout.json",
+      "size_bytes": 24707,
+      "sha256": "21b4d58f299771349a18a4a1e7e7454e3bc44bf4de8a9e745fa63373dec776e0"
     },
     {
       "path": "bench/source/stacked_fans_v1/render.cjs",
-      "size_bytes": 2898,
-      "sha256": "e8e20cd1ed65f6b73e7f472d3ec3146e807afc4f7c6b2ef6348c8771ff6883e4"
+      "size_bytes": 2943,
+      "sha256": "598134b321b0fabd84aa34eb094f69f9237fc3d4c9497a2dc17426697e8534df"
     },
     {
       "path": "bench/source/stacked_fans_v1/screen.py",
-      "size_bytes": 2541,
-      "sha256": "9d56fe6be9916c45618eb245216f328c95b777eeb1d1a72bd42b90ec71ea5d27"
+      "size_bytes": 2700,
+      "sha256": "28c956ea610e03e3739cbc0205f862d8cb81038d814134a74d3cb8799f5aec4d"
     },
     {
       "path": "bench/source/stacked_fans_v1/sections.py",
@@ -4538,8 +4553,8 @@
     },
     {
       "path": "bench/source/stacked_fans_v1/spacing.py",
-      "size_bytes": 2715,
-      "sha256": "4403fa93a6a87622990fd298497a534cb7caed64cd09c2132c6a717376ef3263"
+      "size_bytes": 3247,
+      "sha256": "88ec9770ec332b0739553da67663d3d74fa692e1b5f94f674fc60178f0b2f5e6"
     },
     {
       "path": "bench/source/stacked_fans_v1/verify_native.py",
@@ -10588,73 +10603,73 @@
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05A-front.jpg",
-      "size_bytes": 25999,
-      "sha256": "06a269d1fda6698bbdaf79902e0cec3118f9c872b4afbfce0ad57fda868c2231"
+      "size_bytes": 28777,
+      "sha256": "07468a99fd9c67666b0d07d3a22e3961c3e812de9c6cb87f18571abe804ee9b0"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05A-hero.jpg",
-      "size_bytes": 33173,
-      "sha256": "24e0193ef8dee82f7d77cfd8b63cdbbe99390f3cad6a0bcd5f2257f085165df1"
+      "size_bytes": 36284,
+      "sha256": "1fab2e36ea49071cc3465f029a3241e48a76594be4ee07d2b4cd5e21684dedc8"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05A-plan.jpg",
-      "size_bytes": 21499,
-      "sha256": "ccfdf7b34a4139ce79f94749c45fd9cc19521d31110ea8e8cb0234ad7aff453e"
+      "size_bytes": 20664,
+      "sha256": "ca740d908d72145225425ceb799a27b30ccdd24c0732d23f2346bc68e32ea536"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05B-front.jpg",
-      "size_bytes": 27857,
-      "sha256": "387e4777e8c1668bd823aa48473728176ae472930c73bbd3817058187ad7834d"
+      "size_bytes": 30173,
+      "sha256": "a6028d8acf5126d064c40e23b8b70a6efbcca0aa6f41e52c469e958b45001795"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05B-hero.jpg",
-      "size_bytes": 33143,
-      "sha256": "6af0d45df0db08ac123b36bdbcb2dfd7cae9b0ea7567935a9f7e22cfb3629f65"
+      "size_bytes": 36198,
+      "sha256": "94d8f8abb45e465dd3ceb7f0ea2ebde150022b012d244a4af621c868fa33bba7"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05B-plan.jpg",
-      "size_bytes": 21532,
-      "sha256": "58bea8a281dc24423ad4b69283b53ba4225db04fa2304cca1eccee95269bda3b"
+      "size_bytes": 21674,
+      "sha256": "0333e29b7a7a93c6171c683a16858ded61191302fca3bb4afb4fe8de0d932079"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05C-front.jpg",
-      "size_bytes": 30489,
-      "sha256": "2c1d340f4de0312cdf82145b52d02eb7492be1f7ea1ae733405e5a3f3db812d3"
+      "size_bytes": 32372,
+      "sha256": "9faf5c63b29949ae9ec937623b28666196cbf8d34ff84d5f8db88abf873675a6"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05C-hero.jpg",
-      "size_bytes": 37020,
-      "sha256": "961b84e4b31695106c700c9f21ce08beb89789fbd367e1fee287fedd840b432f"
+      "size_bytes": 37932,
+      "sha256": "546e94021db92ef77c3292f0a34d6bf7e10a464cb658cf5ab41a5904d173bcc6"
     },
     {
       "path": "docs/gallery/key-fan/stacked/HX05C-plan.jpg",
-      "size_bytes": 21710,
-      "sha256": "4a7d8eba0a8b451b3603ff29dd9a952f735e5e86463ddc4a61e88bbda869bc08"
+      "size_bytes": 21039,
+      "sha256": "d074502c6816ac9b508705cd1cde41b3ade458ea7f8dce2b199f4eb83f432b30"
     },
     {
       "path": "docs/gallery/key-fan/stacked/empty-stack-hero.jpg",
-      "size_bytes": 39360,
-      "sha256": "c6d47f75cac8d9f094768429ed25829ff491da4dcb74d8a93bfd88967c0efba4"
+      "size_bytes": 36940,
+      "sha256": "49a1446573a746ab65471ba3b6d6c695a412f0a04df22b306381aaf55e02723f"
     },
     {
       "path": "docs/gallery/key-fan/stacked/index.html",
-      "size_bytes": 5584,
-      "sha256": "e8d111b79fb0ac056c02cf05726ec8dc0a36e9ec144d7f38e4d21815fe840257"
+      "size_bytes": 6054,
+      "sha256": "6df2ef8fc0375a64becf0b840a79eecb7c434c871f69912d83bebb8ff754662a"
     },
     {
       "path": "docs/gallery/key-fan/stacked/review.json",
-      "size_bytes": 23400,
-      "sha256": "24e5a68f979962d9baacf93583a5833cd74a890ba63a2d51688cd4bc8419462a"
+      "size_bytes": 24292,
+      "sha256": "fdac8b192112f5a5b85c4766bdd7c68a43dd68b21bd7a1ab654c8a6014550418"
     },
     {
       "path": "docs/gallery/key-fan/stacked/sections.png",
-      "size_bytes": 93860,
-      "sha256": "09edb4a139fe3edb7a9c08ed7a8d6b93c55fa098fdbea4f3d5c721f46fbb9fc3"
+      "size_bytes": 108236,
+      "sha256": "7e4a79de91062c7ec88024f403142a08d5048ce17e26431ff26ed4205aa8737a"
     },
     {
       "path": "docs/gallery/key-fan/stacked/stack-hero.jpg",
-      "size_bytes": 68335,
-      "sha256": "5a63d48bd58e1a7019ba15ab5a4a0e56101df1c30bb6486c1d1b8bc714be4be7"
+      "size_bytes": 64010,
+      "sha256": "54b65b831bda746dd16c2b31832c7445751deefd1017243367b46f323f8803d7"
     },
     {
       "path": "docs/gallery/key-fan/studies/data/fem-boundary.bin.gz",
@@ -15668,8 +15683,8 @@
     },
     {
       "path": "publication/stacked-fans-v1-review.json",
-      "size_bytes": 4663,
-      "sha256": "9faedcd300f783f1370825c4d4a66f8fdb308dc520698d50164dfba3147684a3"
+      "size_bytes": 5136,
+      "sha256": "b4cec280fa801137bc61fabdffc9983077231a7a56aab48cc2ae12a8b1838eb3"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",

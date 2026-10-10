@@ -110,7 +110,14 @@ if __name__=='__main__':
     for rack,color in zip(racks,colors):
         dst=OUT/rack['id']
         if (dst/'native.json').exists():
-            record=json.loads((dst/'native.json').read_text());assert record['layout_sha256']==hashlib.sha256((OUT.parent/'layout.json').read_bytes()).hexdigest(), 'Stale native layout';body=Part.Shape();body.read(str(dst/'body.brep'))
+            record=json.loads((dst/'native.json').read_text())
+            # A stack-spacing change does not alter any local solid. Reuse
+            # only when every saved tool/construction parameter still matches;
+            # regenerate the assembly below at the new rack translations.
+            assert record['id']==rack['id'] and record['tools']==rack['tools'], 'Stale native geometry'
+            record['layout_sha256']=hashlib.sha256((OUT.parent/'layout.json').read_bytes()).hexdigest()
+            (dst/'native.json').write_text(json.dumps(record,indent=2)+'\n')
+            body=Part.Shape();body.read(str(dst/'body.brep'))
             sh=Part.Shape();sh.read(str(dst/'shafts.brep'));shafts=[sh]
             gr=Part.Shape();gr.read(str(dst/'grips.brep'));grips=[gr]
         else:body,shafts,grips,record=build(rack)
@@ -118,5 +125,5 @@ if __name__=='__main__':
         scene=trimesh.Scene();add(scene,body,color,'holder');add(scene,Part.makeCompound(shafts),[130,142,153,255],'shafts');add(scene,Part.makeCompound(grips),[61,67,75,255],'grips');write(scene,rack['id'])
         add(stack,body,color,rack['id']+'_holder',rack['z']);add(stack,Part.makeCompound(shafts),[130,142,153,255],rack['id']+'_shafts',rack['z']);add(stack,Part.makeCompound(grips),[61,67,75,255],rack['id']+'_grips',rack['z']);add(empty,body,color,rack['id'],rack['z'])
     write(stack,'stack');write(empty,'empty-stack')
-    (OUT/'native.json').write_text(json.dumps(dict(racks=records,pitch=data['pitch']),indent=2)+'\n')
+    (OUT/'native.json').write_text(json.dumps(dict(racks=records,pitch=data['pitch'],pitches_mm=[hi['z']-lo['z'] for lo,hi in zip(racks,racks[1:])]),indent=2)+'\n')
     print('DONE',flush=True)

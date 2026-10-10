@@ -26,8 +26,10 @@ def need(lower,upper):
     return float(np.max(p[i,2]-q[j,2]+np.sqrt(rr**2-d**2))) if len(i) else -1000.
 
 def main():
-    dst=Path(__import__('sys').argv[1]); data=json.loads((dst/'layout.json').read_text()); rs=data['racks'];maxneed=0.;limiter=None
-    for lo,hi in zip(rs,rs[1:]):
+    dst=Path(__import__('sys').argv[1]); data=json.loads((dst/'layout.json').read_text()); rs=data['racks'];pairs=[]
+    for upper_index,hi in enumerate(rs):
+      for lo in rs[:upper_index]:
+        maxneed=0.;limiter=None
         lowerclouds=[cloud(segments(t)) for t in lo['tools']]+[body_cloud(lo)]
         upperclouds=[cloud(segments(t)) for t in hi['tools']]+[body_cloud(hi)]
         lower=tuple(np.concatenate([x[k] for x in lowerclouds]) for k in (0,1));upper=tuple(np.concatenate([x[k] for x in upperclouds]) for k in (0,1))
@@ -40,10 +42,16 @@ def main():
                         moving=(p+d,r+1.5)
                         n=need(moving,other) if is_lower else need(other,moving)
                         if n>maxneed:maxneed=n;limiter=dict(lower=lo['id'],upper=hi['id'],moving=rack['id'],tool=t['name'],hand=hand,translation=d.tolist())
-    result=dict(required_mm=maxneed,pitch_mm=25.4*math.ceil(maxneed/25.4),margin_mm=4.,limiter=limiter)
-    pitch=result['pitch_mm']
-    for i,rack in enumerate(rs):rack['z']=i*pitch
-    data['pitch']=pitch
+        pairs.append(dict(lower=lo['id'],upper=hi['id'],required_mm=maxneed,limiter=limiter))
+    # Each rack uses only the rows required by all lower racks, rather than
+    # repeating the largest adjacent gap at every level.
+    for i,rack in enumerate(rs):
+        constraints=[lo['z']+p['required_mm'] for lo in rs[:i] for p in pairs if p['lower']==lo['id'] and p['upper']==rack['id']]
+        rack['z']=25.4*math.ceil(max(constraints,default=0.)/25.4)
+    pitches=[hi['z']-lo['z'] for lo,hi in zip(rs,rs[1:])]
+    data['pitch']=pitches[0] if max(pitches)-min(pitches)<1e-6 else None
+    data['pitches_mm']=pitches
+    result=dict(pairs=pairs,pitches_mm=pitches,margin_mm=4.)
     (dst/'layout.json').write_text(json.dumps(data,indent=2)+'\n')
     (dst/'spacing.json').write_text(json.dumps(result,indent=2)+'\n');print(result)
 if __name__=='__main__':main()

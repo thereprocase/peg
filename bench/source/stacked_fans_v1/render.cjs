@@ -1,6 +1,6 @@
 const fs=require('node:fs/promises'),path=require('node:path'),zlib=require('node:zlib');
 const {chromium}=require('/tmp/peg-final-browser/node_modules/playwright-core');
-const root=path.resolve(__dirname,'../../..'),dir=path.resolve(process.env.HX_FAN_BUILD_DIR||path.join(root,'.local-runtime/stacked-fans-v1/tight-native')),out=path.join(root,'.local-runtime/stacked-fans-v1/renders');
+const root=path.resolve(__dirname,'../../..'),dir=path.resolve(process.env.HX_FAN_BUILD_DIR||path.join(root,'.local-runtime/stacked-fans-v1/tight-native')),out=path.resolve(process.env.HX_FAN_OUTPUT_DIR||path.join(root,'.local-runtime/stacked-fans-v1/renders'));
 (async()=>{await fs.mkdir(out,{recursive:true});const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--disable-dev-shm-usage']});
 const page=await browser.newPage({viewport:{width:1200,height:850},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.route('http://spiral.test/**',async route=>{const u=new URL(route.request().url());if(u.pathname==='/index.html')return route.fulfill({contentType:'text/html',body:'<!doctype html><html><head><script type="module" src="/gallery/vendor/model-viewer.min.js"></script><script defer src="/viewer/workbench.js"></script></head><body style="margin:0"><model-viewer id="m" style="width:100vw;height:100vh" shadow-intensity="0.7" environment-image="neutral" camera-controls></model-viewer></body></html>'});
