@@ -6,8 +6,8 @@
   "private_printer_artifacts_included": false,
   "files": {
     "HX04-engineering-v1__sources-fields-and-review.zip": {
-      "sha256": "0c060846328de205bde93206d3eb5d8bda59b784ed04113d0b9eabb74fdc4281",
-      "bytes": 58100141
+      "sha256": "56383dce4bbe254a431e5b18d2928bb45f06b56521563d31bf499b59aeeb1b22",
+      "bytes": 61227531
     },
     "HX04-fit-v6__3mm-5mm__fan-angle__print.step": {
       "sha256": "fcb4aba00cb99516c81a19593d515b0443131a43f0c2205cdf08353a2dbdf7d3",

@@ -1,0 +1,148 @@
+{
+  "geometric_nonlinearity": true,
+  "source_sha256": "f88f00d1172e6fe47b873de2eb557f87899a840a550d3189709d0596f6f8f75a",
+  "parent_step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+  "crop_step_sha256": "af2f69e66fd3f5d5178cec60f6f03ac51eafa7bea21615e5f5c0ed41d1b3b473",
+  "h_mm": 0.4,
+  "nodes": 167435,
+  "elements": 113539,
+  "fixed_root_nodes": 131502,
+  "upper_tip_nodes": 271,
+  "lower_tip_nodes": 270,
+  "tip_centroids_mm": {
+    "upper": [
+      -0.006411093916864001,
+      -4.872350096098373,
+      -320.25530869382294
+    ],
+    "lower": [
+      -0.005694640516277827,
+      -4.884872853189479,
+      -327.33610635071193
+    ]
+  },
+  "material": {
+    "E_MPa": 1800,
+    "nu": 0.35
+  },
+  "results": [
+    {
+      "pinch_per_arm_mm": 0.1,
+      "total_prescribed_closure_mm": 0.2,
+      "upper_tip_reaction_N": [
+        -1.1875834458999972e-14,
+        2.1408434415999997e-14,
+        -13.635141702999999
+      ],
+      "lower_tip_reaction_N": [
+        -5.764857020000014e-15,
+        1.016165236999998e-14,
+        23.30729890550001
+      ],
+      "root_reaction_N": [
+        -4.5174870483923507e-07,
+        -1.9459599471076597e-07,
+        -9.67215763083954
+      ],
+      "mean_force_per_arm_N": 18.471220304250004,
+      "linear_stiffness_per_arm_N_per_mm": 184.71220304250002,
+      "force_balance_relative_error": 3.531124095323898e-08,
+      "max_displacement_mm": 0.11106475083577634,
+      "von_mises_MPa": {
+        "max": 50.18890938764377,
+        "p95": 5.410686836943416,
+        "p99": 11.079251988796484
+      },
+      "build_normal_max_tension_MPa": 11.29634
+    },
+    {
+      "pinch_per_arm_mm": 0.2,
+      "total_prescribed_closure_mm": 0.4,
+      "upper_tip_reaction_N": [
+        1.992559746e-14,
+        -7.011975210800002e-14,
+        -26.682323790000012
+      ],
+      "lower_tip_reaction_N": [
+        -1.8994519530000002e-14,
+        4.4621762770000044e-14,
+        45.70368299399998
+      ],
+      "root_reaction_N": [
+        -4.628441650436502e-07,
+        -1.8049478209580566e-06,
+        -19.021362697142536
+      ],
+      "mean_force_per_arm_N": 36.193003391999994,
+      "linear_stiffness_per_arm_N_per_mm": 180.96501695999996,
+      "force_balance_relative_error": 1.093872670798654e-07,
+      "max_displacement_mm": 0.22104299775592814,
+      "von_mises_MPa": {
+        "max": 93.89928739428272,
+        "p95": 10.713823366402709,
+        "p99": 22.045710080261625
+      },
+      "build_normal_max_tension_MPa": 22.53189
+    },
+    {
+      "pinch_per_arm_mm": 0.3,
+      "total_prescribed_closure_mm": 0.6,
+      "upper_tip_reaction_N": [
+        -2.1469317399999918e-15,
+        -6.934430566999998e-14,
+        -39.19333703000001
+      ],
+      "lower_tip_reaction_N": [
+        -3.422639317999999e-14,
+        9.395111940000072e-15,
+        67.24770465200001
+      ],
+      "root_reaction_N": [
+        8.457600895348471e-07,
+        5.2045659731645745e-06,
+        -28.054370302528078
+      ],
+      "mean_force_per_arm_N": 53.22052084100001,
+      "linear_stiffness_per_arm_N_per_mm": 177.4017361366667,
+      "force_balance_relative_error": 1.1114264584359425e-07,
+      "max_displacement_mm": 0.32999014004511895,
+      "von_mises_MPa": {
+        "max": 131.50193052795532,
+        "p95": 15.912209901133135,
+        "p99": 32.87212774962221
+      },
+      "build_normal_max_tension_MPa": 33.73943
+    },
+    {
+      "pinch_per_arm_mm": 0.4,
+      "total_prescribed_closure_mm": 0.8,
+      "upper_tip_reaction_N": [
+        -5.080685449999992e-15,
+        6.957919210000011e-14,
+        -51.21458985000003
+      ],
+      "lower_tip_reaction_N": [
+        -1.0665378447999987e-13,
+        1.7164543999999863e-15,
+        87.99112421100004
+      ],
+      "root_reaction_N": [
+        -3.728474668736976e-09,
+        -1.8280247330265502e-06,
+        -36.77653277738649
+      ],
+      "mean_force_per_arm_N": 69.60285703050003,
+      "linear_stiffness_per_arm_N_per_mm": 174.00714257625006,
+      "force_balance_relative_error": 3.474825840030274e-08,
+      "max_displacement_mm": 0.4379599118267184,
+      "von_mises_MPa": {
+        "max": 163.87835642469693,
+        "p95": 20.9837707717557,
+        "p99": 43.632203217260496
+      },
+      "build_normal_max_tension_MPa": 44.91198
+    }
+  ],
+  "seconds": 387.3763304960157,
+  "scope": "Actual hoop/root crop, ideal fixed plate and distributed prescribed Z pinch at outer crest patches. Geometrically nonlinear elastic stiffness and stress only; no material yielding model. No board contact, friction, plasticity, creep, damage or support-release model; no insertion-force or recoverability rating."
+}

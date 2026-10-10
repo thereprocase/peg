@@ -1,0 +1,39 @@
+{
+  "metrics": {
+    "width": 390,
+    "scrollWidth": 390,
+    "sections": 23,
+    "tables": 11,
+    "images": [
+      {
+        "url": "mouth-versus-grip.png",
+        "loaded": true
+      },
+      {
+        "url": "mount-sensitivity.png",
+        "loaded": true
+      },
+      {
+        "url": "mesh-sensitivity.png",
+        "loaded": true
+      },
+      {
+        "url": "hoop-pinch.png",
+        "loaded": true
+      },
+      {
+        "url": "installation-contact.png",
+        "loaded": true
+      },
+      {
+        "url": "hoop-nonlinearity.png",
+        "loaded": true
+      },
+      {
+        "url": "modal-fixtures.png",
+        "loaded": true
+      }
+    ]
+  },
+  "errors": []
+}

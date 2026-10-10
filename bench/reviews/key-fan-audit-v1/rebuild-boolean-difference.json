@@ -1,0 +1,21 @@
+{
+  "source_sha256": "33896085b55d76751ecb952990dbab2884937bbf466ffb3d568286e9c9bf8541",
+  "rebuilt_brep_sha256": "09ab2e5dddd2d626ef2974e12b31355c932bed8119f28d0d02b03bbbdd73634f",
+  "reference_step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+  "differences": [
+    {
+      "operation": "rebuilt_minus_release",
+      "volume_mm3": 0.0,
+      "solids": 0,
+      "faces": 0
+    },
+    {
+      "operation": "release_minus_rebuilt",
+      "volume_mm3": 0.0,
+      "solids": 0,
+      "faces": 0
+    }
+  ],
+  "seconds": 283.61172597197583,
+  "scope": "Default OpenCascade two-way solid subtraction; no added fuzzy tolerance and no relaxed strict scalar baseline gate. Native Boolean comparison has modelling tolerances and is not a bit-identical serialization proof."
+}

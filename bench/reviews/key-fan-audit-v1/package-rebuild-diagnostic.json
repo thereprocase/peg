@@ -1,0 +1,42 @@
+{
+  "source_sha256": "8c9aa30f809417602079d2ac2a7b05f50530efab7ebcbcb507cdd90510d19ee1",
+  "tested_archive_sha256": "e6941d45fb5a4224dd3b3097c2815bc240b7abe7d93966a00a7ba435598e5630",
+  "source_dependencies": {
+    "bench/source/key_fan_v1/build_short.py": "3b53a9dd749bcd86522f1b0f35e0c36aa32ec8d3eee5f9f4efaddd90fb3b2b38",
+    "bench/source/key_fan_v1/check.py": "afe5ea9e119e105733a3add92549ba583914d86d9f3637412b0bb1f129d6d9d6",
+    "bench/source/key_fan_v1/coupon.py": "c37888bee5e6b4d4ffa7b1dcfb86684868532f4400018ba486330c0511bda822",
+    "bench/source/key_fan_v1/fea_run.py": "55944c2ca4ae9a3a2b10ea734fc6c7febdcafc927e63ec4f291c0fbfe27de30d",
+    "bench/source/key_fan_v1/swing.py": "0719594499a46cb7dc4d8bec208d74ce71e01dc110e8ac51e0d982a49ba2ab85",
+    "bench/source/key_fan_v1/study/short.py": "d8ee27dc8182a35f4c3b4e8f49c4ff62b4954dda2e3d49c5c7b27ce096cb422b",
+    "bench/source/key_fan_v1/study/sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
+    "bench/source/key_fan_v1/study/comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
+    "bench/source/key_fan_v1/study/short_dt_c2.json": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e",
+    "bench/source/three_set_rack_v1/key_sets.json": "d3774ad50b1e9bf32d66ff2050e22787863e130a66ee949179f639b37962de31",
+    "bench/source/bespoke_tools_v1/build.py": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+    "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+  },
+  "native_valid": true,
+  "native_solids": 1,
+  "native_faces": 5037,
+  "volume_mm3": 1527605.6105792217,
+  "reference_volume_mm3": 1527603.2742597507,
+  "reference_native_faces": 5037,
+  "relative_volume_difference": 1.5294019791513455e-06,
+  "max_bbox_coordinate_difference_mm": 2.5688777327559364e-08,
+  "rounded_vertex_multiset_match": true,
+  "exact_baseline_comparison_passed": false,
+  "seconds": 400.09816538801533,
+  "dependency_hashes_passed": true,
+  "freecad": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "occ": "7.8.1",
+  "scope": "Rebuild from flattened public package and original recorded environment; compare native validity/topology count, volume, bounds and vertex multiset to exact released STEP. An exact baseline-comparison failure is retained rather than relaxed; analyses use the included exact released STEP, not this rebuild. Not a continuous motion, physical fit or load proof."
+}

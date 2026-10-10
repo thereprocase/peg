@@ -1,0 +1,48 @@
+{
+  "source_sha256": "0770b728f77d5e800c0ea67252d82986e82e36b86a77468a41206d5ceeab09c6",
+  "deck_sha256": "ab6372972dd470b26ad500fa7c5e150f590d2f6072636c602028db47da2a10d8",
+  "dat_sha256": "bdd28a6065a79a41bbc57603b6118ea25cb3a0d80c3dcd8350d2411f88209da0",
+  "support": "all-pegs",
+  "density_tonne_mm3": 1.07e-09,
+  "material_E_MPa": 1800,
+  "nu": 0.35,
+  "modes": [
+    {
+      "mode": 1,
+      "eigenvalue": 35256060.0,
+      "angular_frequency_rad_s": 5937.681,
+      "frequency_Hz": 945.0113,
+      "imaginary_frequency_Hz": 0.0
+    },
+    {
+      "mode": 2,
+      "eigenvalue": 71086800.0,
+      "angular_frequency_rad_s": 8431.299,
+      "frequency_Hz": 1341.883,
+      "imaginary_frequency_Hz": 0.0
+    },
+    {
+      "mode": 3,
+      "eigenvalue": 102815500.0,
+      "angular_frequency_rad_s": 10139.8,
+      "frequency_Hz": 1613.799,
+      "imaginary_frequency_Hz": 0.0
+    },
+    {
+      "mode": 4,
+      "eigenvalue": 128728400.0,
+      "angular_frequency_rad_s": 11345.85,
+      "frequency_Hz": 1805.748,
+      "imaginary_frequency_Hz": 0.0
+    },
+    {
+      "mode": 5,
+      "eigenvalue": 168383500.0,
+      "angular_frequency_rad_s": 12976.27,
+      "frequency_Hz": 2065.237,
+      "imaginary_frequency_Hz": 0.0
+    }
+  ],
+  "seconds": 232.888939735014,
+  "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+}

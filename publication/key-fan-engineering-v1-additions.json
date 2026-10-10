@@ -1,15 +1,15 @@
 {
   "docs/gallery/key-fan/studies/index.html": {
-    "sha256": "30ae30893fe77a8e664b986622906f84018b0e45840dbf020ce006f48d2939fc",
-    "bytes": 3500
+    "sha256": "192b294eecf101995d633127248a8425c5c2b1060455798d030e3862284f6996",
+    "bytes": 3867
   },
   "docs/gallery/key-fan/studies/study.css": {
-    "sha256": "35a08cfd962776e23599668d8dccb89a33ff3ef227cde0b645f32c62ef1cd1b1",
-    "bytes": 3411
+    "sha256": "84a4c68454da8bc80426fcd070d7ae5342d38714430c0cb9ee317c03e9ce5e07",
+    "bytes": 3474
   },
   "docs/gallery/key-fan/studies/study.js": {
-    "sha256": "271682a04e611c881abfd07337f243d1dc723a2ac0a385ff56b50c1db83c91b0",
-    "bytes": 20182
+    "sha256": "8cc577e74e7114d069fadd27cce3c6736832d52c1e8883f58c54a44cd2c4f282",
+    "bytes": 20956
   },
   "docs/gallery/key-fan/studies/mount-sensitivity.png": {
     "sha256": "5f36c0fdea161ee2d53e7ade249dbbe1c2250b34be015e18bbd65f71678abf49",
@@ -32,16 +32,24 @@
     "bytes": 104109
   },
   "docs/gallery/key-fan/studies/report.html": {
-    "sha256": "cbe9ce0fa1ece014cd6212a21cac8a3680f67f8b2dc23df0cf29ff6311ff51b8",
-    "bytes": 24412
+    "sha256": "9c6678ad3e1522be541f1a829fa8cd42ab73ab8b455acd9d5deb19c650bb80a6",
+    "bytes": 33578
   },
   "docs/gallery/key-fan/studies/results.json": {
-    "sha256": "b9487c9ac574f217b14c8e2f37c4a96a87e8e29de601bc3b8845c8a60b76bc8f",
-    "bytes": 250877
+    "sha256": "c0b0090068dea4c94a1344cfdce52e1925a2db4e28e746cd0896f4a5cad60de2",
+    "bytes": 276655
   },
   "docs/gallery/key-fan/studies/films.json": {
     "sha256": "901126a41eb2c568c466b089bbe508b9c5175150580221909d51d56d67ced35d",
     "bytes": 112852
+  },
+  "docs/gallery/key-fan/studies/hoop-nonlinearity.png": {
+    "sha256": "4763cd6b2075c6ecc4adba89e2b7116c542b8bafd57dca68459857ab3fa85991",
+    "bytes": 66992
+  },
+  "docs/gallery/key-fan/studies/modal-fixtures.png": {
+    "sha256": "4dc1893e702759ea537acdc9fd25b3066d889ad5fa17f5fc3987b8c3f5947c08",
+    "bytes": 65144
   },
   "docs/gallery/key-fan/studies/vendor/three.module.js": {
     "sha256": "16e8727a664785683044d8164615da974d906a825521e3e05011bfd4440203e2",

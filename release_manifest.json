@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3083,
-  "total_size_bytes": 1204402307,
+  "file_count": 3115,
+  "total_size_bytes": 1205036278,
   "files": [
     {
       "path": ".gitattributes",
@@ -33,8 +33,8 @@
     },
     {
       "path": "BENCH_HOLDERS.md",
-      "size_bytes": 5356,
-      "sha256": "5f96873587c480aea7d209a7504dc9871ca2b5ca912d11eb400b2d769c1e7224"
+      "size_bytes": 5740,
+      "sha256": "671fe16412a9f5167a1002eeeb648ee43b4a6bbe3c1129905915794b9d4700c9"
     },
     {
       "path": "CONFORMAL_STUDY.md",
@@ -1904,7 +1904,12 @@
     {
       "path": "bench/reviews/key-fan-audit-v1/beam-reference.json",
       "size_bytes": 1047,
-      "sha256": "1f1497e80a4bb243b6acb56177189d14e749cc91a7a9b800769af21d68c52e1b"
+      "sha256": "5be0025a05ffc4edf4b86d319bc9b4ea2f1b7b3861cfce72da92d95dec721be5"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/campaign-timing.json",
+      "size_bytes": 592,
+      "sha256": "e1ac34ea9686ff22eb727d9ba7b03bacb2d197fa26af16fb8c223c1e384851b6"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/fea-h5-baseline.json",
@@ -1948,8 +1953,8 @@
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/final-viewer-probe.json",
-      "size_bytes": 1255,
-      "sha256": "15a9aad91b9eef17c6f41028b40171865974abc4c6113299ec226cc7c575b50e"
+      "size_bytes": 1511,
+      "sha256": "69b95ea4c0b15d48c62a349edd8c982b156d7f8bf21a416b68f47016f90cba33"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/fresh-h7-check.json",
@@ -1972,9 +1977,19 @@
       "sha256": "7c366a7796c3e3865a0cae356bc3c956e1d115d7ed9c32d802ffcf2fdee22071"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/hoop-nonlinear-h04.json",
+      "size_bytes": 4641,
+      "sha256": "2fdab6fa181233c77576fc6a50865a921708ea79ab0015fd0f0c1844835fa456"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/hoop-nonlinearity.svg",
+      "size_bytes": 44004,
+      "sha256": "674b837eb4ffa9f6c096f80c192e79d4b7ebc47365c63cb8ab353c3a51f8195a"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/hoop-pinch.svg",
       "size_bytes": 62132,
-      "sha256": "89b47084eb78d930449811c1d2d90058392e84d796bb52af89fabbd71868ca89"
+      "sha256": "e62255c22ed55254b36982432172d90c12b71d36ef4c7e12371867cdd46953f9"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/install-audit.json",
@@ -1989,7 +2004,7 @@
     {
       "path": "bench/reviews/key-fan-audit-v1/installation-contact.svg",
       "size_bytes": 50252,
-      "sha256": "360404205b8510438705232759b852ad1efe1dcd5ab062b0f5ad4003c4ffb948"
+      "sha256": "b110127297bfa997b74b4565d09ef115cf4157bc37524ec567cdd32be86c97d2"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/mesh-h5-quality.json",
@@ -2009,7 +2024,57 @@
     {
       "path": "bench/reviews/key-fan-audit-v1/mesh-sensitivity.svg",
       "size_bytes": 75310,
-      "sha256": "7bff2fd058b6b7dad5843e5c31e9a4d6eac1d5c245f6b80e6a661037f8e97b9c"
+      "sha256": "d36c9065cae3b86ea2d741cdbe4ac1c04fb87ca3b23b6b7635394bb227b4f773"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-all-pegs.json",
+      "size_bytes": 1558,
+      "sha256": "571e13a6e6839b89df31c618eda13a243366b783807bebd32413f4a94a3a77f1"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-face.json",
+      "size_bytes": 1556,
+      "sha256": "8de3402b5a3768cc67dac587e0b3477522a3f1482eaf4962a6be24c54aae023f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-fixtures.svg",
+      "size_bytes": 40837,
+      "sha256": "3e439ec9ead929413449be4d55b5e6f8720b5bed1d339e12fe9a708e972ce49f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-four-corners.json",
+      "size_bytes": 1553,
+      "sha256": "f3e3098bab95c314ee17fcc0af3094387976776b51280777a8971f0c867d4f04"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-h5-all-pegs.json",
+      "size_bytes": 1667,
+      "sha256": "109c56028082169fc8220a26d8b00b92cc4f3e46d9ff65263a8c042b629b51a3"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-h5-face.json",
+      "size_bytes": 1664,
+      "sha256": "d61249da16c9424ef99a682765c1de9daeaa584c5c0f13d2e7d96a0f03358095"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-h5-four-corners.json",
+      "size_bytes": 1662,
+      "sha256": "d25a1e7a1346ae81494b78066dc9aabf58887f629cf00b13207c013c9767e24f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-independent-attempts.json",
+      "size_bytes": 666,
+      "sha256": "bacdec32958de9197c81aeaed00e0b1680f8e79aec55612775421f6c4c931b42"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-printed-vector-check.json",
+      "size_bytes": 2459,
+      "sha256": "65d3c7dc6338a4600256ba94d040eccfb7325b1d2d6c4ed782a5f045df924829"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/modal-vector-rounding.json",
+      "size_bytes": 2866,
+      "sha256": "950ce1c81a6213b907d2a0d2855d9a609342c40b376292d2dcde1e2519cd8f49"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/motion-audit.json",
@@ -2019,12 +2084,12 @@
     {
       "path": "bench/reviews/key-fan-audit-v1/mount-sensitivity.svg",
       "size_bytes": 38198,
-      "sha256": "8b4c235f58b165a21c82fc63551b7935d8b186b8cc276b220cc02491c9cfeb99"
+      "sha256": "b7ef5e7d9b82c8795ed857487be374b557a60f0f5a0c50d0097fe66210a58600"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/mouth-versus-grip.svg",
       "size_bytes": 38519,
-      "sha256": "cccad88c6d138962e73731bdaab3ce01d04d5b4224f33c3363c2fe0b669ac29d"
+      "sha256": "65842fd2e37d878f729dfda8986fae2e774a4a9835f0cde29e9c752c04cc9ca9"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/native-audit.json",
@@ -2032,9 +2097,14 @@
       "sha256": "0817906be68e7ef735a67ce967bfe1898105d2a2c8d97df9e0b8e93b7b1ee9df"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/package-rebuild-diagnostic.json",
+      "size_bytes": 2663,
+      "sha256": "ee8ec5d2b6946c15457a79f75fc71af4a5c0e6097118e74b083419f70ded1569"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/public-package-check.json",
       "size_bytes": 19252,
-      "sha256": "878feb95b7f558298a98ab04b639a0c17bf578dcec7236f5d991b8a7cd6e2ee9"
+      "sha256": "1bbf3b385813e72660b728261a8d422e1747353edea243f7caf0690c7141b44f"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/reaction-force-moment.json",
@@ -2042,14 +2112,34 @@
       "sha256": "cdd42f348fc09a18d293143b8092b9ebca697aa52a5ea737dc83362daeccf71a"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/rebuild-boolean-difference.json",
+      "size_bytes": 799,
+      "sha256": "79c4e48f39cb3ffb69bed7358cc641350b03bcc8c860eaea925a29e30357b5d0"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/report-browser-check.json",
+      "size_bytes": 691,
+      "sha256": "a9b58c8f0f9d770c202458fd14cde7a66eb8840afd0935d083037f0b72064276"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/report-build.json",
       "size_bytes": 356,
-      "sha256": "b2ff961015f8c3e44614e44aef8902b09b94e4e23164faa5af95870723557c1a"
+      "sha256": "9eb209183330ba1a8c732e0043cc95c7b0d4c90886d664897471c99aed713fd1"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/requested-fits-check.json",
       "size_bytes": 1028,
       "sha256": "01febd539f35ebedc4a3e7aa07462ddc4faec18240916596705f29b5b1b01e6f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/scene-capture-extra.json",
+      "size_bytes": 158756,
+      "sha256": "b7822a8b1db5d83caa41e65415e37ca96ea9597ff003bee49f50ef26b5bf3144"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/scene-capture-v1.json",
+      "size_bytes": 120471,
+      "sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/single-step-residual-check.json",
@@ -3693,13 +3783,13 @@
     },
     {
       "path": "bench/source/key_fan_audit_v1/README.md",
-      "size_bytes": 4228,
-      "sha256": "c7e3015ca5cfbcb429d264c45365bf3ec4286d54829889fb4cee46d110093ac2"
+      "size_bytes": 5547,
+      "sha256": "03477543e5849c47a883ab12a401d13c1570803fd4135195b68842a42d51cfe3"
     },
     {
       "path": "bench/source/key_fan_audit_v1/build_report.py",
-      "size_bytes": 27487,
-      "sha256": "390787eb25f468a877c77dfbf77773914892db77004b5782f8097405e6125b0e"
+      "size_bytes": 36285,
+      "sha256": "9bcf38b3dce88e385d86318abf9630c0ea6063cc9f77438a29bb03d5862e610c"
     },
     {
       "path": "bench/source/key_fan_audit_v1/compress_geometry.py",
@@ -3797,6 +3887,36 @@
       "sha256": "0770b728f77d5e800c0ea67252d82986e82e36b86a77468a41206d5ceeab09c6"
     },
     {
+      "path": "bench/source/key_fan_audit_v1/modal_matrix_check.py",
+      "size_bytes": 2193,
+      "sha256": "871eff4688d3d61d829426db8e9ac0c53f842ee3f6d2fbc6f52a8868d6a00200"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/modal_matrix_check_mmd.py",
+      "size_bytes": 2460,
+      "sha256": "794dc048ad932d347eba87fa6dd166ea3e3ffb767efee5f0bd36cd4af67e9d3e"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/modal_matrix_export.py",
+      "size_bytes": 1182,
+      "sha256": "21d467b7c28ef9a7d9be9b064fcc966b4f3405b589c352eb5eae7fd941d0be42"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/modal_refine.py",
+      "size_bytes": 2541,
+      "sha256": "f6fbfa3376424a76e358f7daee0c2778914488b6c231c056e7b00c08a7a16171"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/modal_vector_check.py",
+      "size_bytes": 2650,
+      "sha256": "a05e036b24e4a98b7d080172d1dfc6f808834aab0e1f7d409a649a60c0e0b0e7"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/modal_vector_rounding.py",
+      "size_bytes": 3556,
+      "sha256": "b4b26e702f489b51eec12a11d58698de92777b4f61678595f80b24c8606b4841"
+    },
+    {
       "path": "bench/source/key_fan_audit_v1/motion_audit.py",
       "size_bytes": 7245,
       "sha256": "258736942920666f39e2bbb71871c4f2dd7585a71d4a522ba4ade908ab030e13"
@@ -3807,14 +3927,29 @@
       "sha256": "80eceedb84365df04abf88c247001b44fd4aabae6790f88b77a1a9d24578e1c6"
     },
     {
+      "path": "bench/source/key_fan_audit_v1/package_rebuild.py",
+      "size_bytes": 2416,
+      "sha256": "27f9710263315629c2f4e4d3beaee1d5d3fa035b6d91bfed4606879b627c9a30"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/package_rebuild_diagnostic.py",
+      "size_bytes": 2792,
+      "sha256": "8c9aa30f809417602079d2ac2a7b05f50530efab7ebcbcb507cdd90510d19ee1"
+    },
+    {
       "path": "bench/source/key_fan_audit_v1/prepare_requested_fits.py",
       "size_bytes": 3144,
       "sha256": "183321b392e56e679109c36433e7b2a4309eae5869c6075bf590d8eb67e887cf"
     },
     {
       "path": "bench/source/key_fan_audit_v1/probe_final.cjs",
-      "size_bytes": 2371,
-      "sha256": "498599350218afb33756b9b7f9766f7a20cc6a2998ed01b3a61b2a465ba52582"
+      "size_bytes": 3467,
+      "sha256": "9bb0758ba57336f99886a6515ef2228c3de43888f8f07248441d42f5a3a73495"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/probe_report.cjs",
+      "size_bytes": 1489,
+      "sha256": "6db872c52f54fcd1ef2244696203e12ad5e93f30f9846c20de235bed3edaa9a9"
     },
     {
       "path": "bench/source/key_fan_audit_v1/probe_viewer.cjs",
@@ -3825,6 +3960,11 @@
       "path": "bench/source/key_fan_audit_v1/reaction_audit.py",
       "size_bytes": 2025,
       "sha256": "af571130eddb1d8f9504fb7795c3e034333df09c953de928c41ab14dee2fef3c"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/rebuild_difference.py",
+      "size_bytes": 1424,
+      "sha256": "33896085b55d76751ecb952990dbab2884937bbf466ffb3d568286e9c9bf8541"
     },
     {
       "path": "bench/source/key_fan_audit_v1/record_extra_films.cjs",
@@ -3860,6 +4000,16 @@
       "path": "bench/source/key_fan_audit_v1/retry_solver.py",
       "size_bytes": 1220,
       "sha256": "e6f015ceb5f13b0c2998719e43fe96d5b3e5be9c34b9214fc44063659cb2350b"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/study_renderer_capture_extra.js",
+      "size_bytes": 19982,
+      "sha256": "2e96e2d10816c2a8a545f76bf09a30a0acea07fe70735a62b8519a0cdcdfc1cf"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/study_renderer_capture_main.js",
+      "size_bytes": 18193,
+      "sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1"
     },
     {
       "path": "bench/source/key_fan_audit_v1/study_renderer_v1.js",
@@ -6313,8 +6463,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
-      "size_bytes": 130012,
-      "sha256": "c40c5d39eda3a43e4d908c63e3923239067421529f421cc984bc587a665f7b15"
+      "size_bytes": 130088,
+      "sha256": "56509d4b74ac20813820d5c9731e98dddc049007cdf547ac2941e713952d1dc0"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -9878,8 +10028,8 @@
     },
     {
       "path": "docs/gallery/key-fan/index.html",
-      "size_bytes": 12694,
-      "sha256": "04e4d53dc79dab4d899938c8207bec37d2923b85b31954859060df12b6838fef"
+      "size_bytes": 12941,
+      "sha256": "ed2fffffcb08c754f104736650169e08b9da1c41d913e0de31b8faa5e908075d"
     },
     {
       "path": "docs/gallery/key-fan/installed.glb",
@@ -10212,14 +10362,19 @@
       "sha256": "901126a41eb2c568c466b089bbe508b9c5175150580221909d51d56d67ced35d"
     },
     {
+      "path": "docs/gallery/key-fan/studies/hoop-nonlinearity.png",
+      "size_bytes": 66992,
+      "sha256": "4763cd6b2075c6ecc4adba89e2b7116c542b8bafd57dca68459857ab3fa85991"
+    },
+    {
       "path": "docs/gallery/key-fan/studies/hoop-pinch.png",
       "size_bytes": 104109,
       "sha256": "7bd7895c6def07e53272f7256cc3b0e2c7420e06b770b3a809e0d6993d02c12e"
     },
     {
       "path": "docs/gallery/key-fan/studies/index.html",
-      "size_bytes": 3500,
-      "sha256": "30ae30893fe77a8e664b986622906f84018b0e45840dbf020ce006f48d2939fc"
+      "size_bytes": 3867,
+      "sha256": "192b294eecf101995d633127248a8425c5c2b1060455798d030e3862284f6996"
     },
     {
       "path": "docs/gallery/key-fan/studies/installation-contact.png",
@@ -10832,6 +10987,11 @@
       "sha256": "1b14571db440a83257201db732f299ac60a043ca86a44946ca120f2a25369dff"
     },
     {
+      "path": "docs/gallery/key-fan/studies/modal-fixtures.png",
+      "size_bytes": 65144,
+      "sha256": "4dc1893e702759ea537acdc9fd25b3066d889ad5fa17f5fc3987b8c3f5947c08"
+    },
+    {
       "path": "docs/gallery/key-fan/studies/mount-sensitivity.png",
       "size_bytes": 42133,
       "sha256": "5f36c0fdea161ee2d53e7ade249dbbe1c2250b34be015e18bbd65f71678abf49"
@@ -10843,23 +11003,23 @@
     },
     {
       "path": "docs/gallery/key-fan/studies/report.html",
-      "size_bytes": 24412,
-      "sha256": "cbe9ce0fa1ece014cd6212a21cac8a3680f67f8b2dc23df0cf29ff6311ff51b8"
+      "size_bytes": 33578,
+      "sha256": "9c6678ad3e1522be541f1a829fa8cd42ab73ab8b455acd9d5deb19c650bb80a6"
     },
     {
       "path": "docs/gallery/key-fan/studies/results.json",
-      "size_bytes": 250877,
-      "sha256": "b9487c9ac574f217b14c8e2f37c4a96a87e8e29de601bc3b8845c8a60b76bc8f"
+      "size_bytes": 276655,
+      "sha256": "c0b0090068dea4c94a1344cfdce52e1925a2db4e28e746cd0896f4a5cad60de2"
     },
     {
       "path": "docs/gallery/key-fan/studies/study.css",
-      "size_bytes": 3411,
-      "sha256": "35a08cfd962776e23599668d8dccb89a33ff3ef227cde0b645f32c62ef1cd1b1"
+      "size_bytes": 3474,
+      "sha256": "84a4c68454da8bc80426fcd070d7ae5342d38714430c0cb9ee317c03e9ce5e07"
     },
     {
       "path": "docs/gallery/key-fan/studies/study.js",
-      "size_bytes": 20182,
-      "sha256": "271682a04e611c881abfd07337f243d1dc723a2ac0a385ff56b50c1db83c91b0"
+      "size_bytes": 20956,
+      "sha256": "8cc577e74e7114d069fadd27cce3c6736832d52c1e8883f58c54a44cd2c4f282"
     },
     {
       "path": "docs/gallery/key-fan/studies/vendor/OrbitControls.js",
@@ -14663,8 +14823,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 8358,
-      "sha256": "2d07a6fd799dd2bb17088ad0ff190464275f07701c70d7b2d9fe98ec45079e21"
+      "size_bytes": 9164,
+      "sha256": "37d4ce1b9e2f6f0b164a300c66a375032244d830a934d038535507cad5a99fb3"
     },
     {
       "path": "publication/add_cascade_to_collection.py",
@@ -14749,7 +14909,7 @@
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 96416,
-      "sha256": "a673dea670fdbc43a877b305cc5a6a53b961f1c9d45ad232fe4cccd8f071f624"
+      "sha256": "13f7689c8e5409f80e9bef424cc9c1223f3c10f200739752406f96d60c72a8f6"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -14763,8 +14923,8 @@
     },
     {
       "path": "publication/key-fan-engineering-v1-additions.json",
-      "size_bytes": 33985,
-      "sha256": "d799a24a449f8a7d865b896d1633d2fc63a0abea6fd7136939e6bcecd4b6c94d"
+      "size_bytes": 34310,
+      "sha256": "70bc2132cd29ebdf1dbbe885b53a25b6f18940021b4903af7be2f3968ca5e458"
     },
     {
       "path": "publication/key-fan-v1-additions.json",
@@ -14774,7 +14934,7 @@
     {
       "path": "publication/key-fan-v2-additions.json",
       "size_bytes": 1101,
-      "sha256": "5b62abdc3bb714113f1705da8a4bcc3475d5f9f519fc731d69eb823349d8d77d"
+      "sha256": "5c8f09c884314ceb3aaa353f9cede4eb47a723fe5d81302a7b1329b0843012d4"
     },
     {
       "path": "publication/mh01-mh04-shaft-holders-v1-additions.json",
@@ -14863,13 +15023,13 @@
     },
     {
       "path": "publication/publish_key_fan_audit.py",
-      "size_bytes": 8823,
-      "sha256": "93761dc63f0c16c9a4b86b7821db14bd4611a15f83e1dfd6fec2a3d3f9664834"
+      "size_bytes": 10122,
+      "sha256": "e494393dd7ce338e0e46819be3b103921385f63fd365f5c18fa3dec5207cd571"
     },
     {
       "path": "publication/release-assets.json",
       "size_bytes": 99423,
-      "sha256": "f479ddecf504f497489d50a2496b0ba939cc5bf0eb955e843793a2215db66921"
+      "sha256": "2c4faf63942eb2d3b664a68c21a98faca4d5ff6ddf35a6d38d34e5995f30b34b"
     },
     {
       "path": "publication/release-downloads.json",
@@ -15168,8 +15328,8 @@
     },
     {
       "path": "tools/check_key_fan_audit.py",
-      "size_bytes": 2927,
-      "sha256": "7493fba6952fe3b3bfe5f8ade81ee29523a850384a6d3515441ceb577e9aef45"
+      "size_bytes": 4025,
+      "sha256": "0d123c45d8aa6396b41bc1cd697ad0b78a5602c1718b63d6c779903c421e3b19"
     },
     {
       "path": "tools/check_key_fan_v2.py",

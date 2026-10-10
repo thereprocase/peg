@@ -1,0 +1,17 @@
+{
+  "scope": "Bounded independent eigensolution attempts of the exported face-clamped modal pencil; no accepted result file was produced. This is not a diagnosis of the physical rack or a solver-result pass.",
+  "runs": [
+    {
+      "runner": "modal_matrix_check.py",
+      "source_sha256": "871eff4688d3d61d829426db8e9ac0c53f842ee3f6d2fbc6f52a8868d6a00200",
+      "time_limit_seconds": 1550,
+      "accepted_result_present": false
+    },
+    {
+      "runner": "modal_matrix_check_mmd.py",
+      "source_sha256": "794dc048ad932d347eba87fa6dd166ea3e3ffb767efee5f0bd36cd4af67e9d3e",
+      "time_limit_seconds": 700,
+      "accepted_result_present": false
+    }
+  ]
+}

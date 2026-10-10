@@ -7835,6 +7835,452 @@
     "seconds": 406.8451359810133,
     "scope": "Actual hoop/root crop, ideal fixed plate and distributed prescribed Z pinch at outer crest patches. Linear elastic stiffness and stress only. No board contact, friction, plasticity, creep, damage or support-release model; no insertion-force or recoverability rating."
   },
+  "hoop_nonlinear": {
+    "geometric_nonlinearity": true,
+    "source_sha256": "f88f00d1172e6fe47b873de2eb557f87899a840a550d3189709d0596f6f8f75a",
+    "parent_step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+    "crop_step_sha256": "af2f69e66fd3f5d5178cec60f6f03ac51eafa7bea21615e5f5c0ed41d1b3b473",
+    "h_mm": 0.4,
+    "nodes": 167435,
+    "elements": 113539,
+    "fixed_root_nodes": 131502,
+    "upper_tip_nodes": 271,
+    "lower_tip_nodes": 270,
+    "tip_centroids_mm": {
+      "upper": [
+        -0.006411093916864001,
+        -4.872350096098373,
+        -320.25530869382294
+      ],
+      "lower": [
+        -0.005694640516277827,
+        -4.884872853189479,
+        -327.33610635071193
+      ]
+    },
+    "material": {
+      "E_MPa": 1800,
+      "nu": 0.35
+    },
+    "results": [
+      {
+        "pinch_per_arm_mm": 0.1,
+        "total_prescribed_closure_mm": 0.2,
+        "upper_tip_reaction_N": [
+          -1.1875834458999972e-14,
+          2.1408434415999997e-14,
+          -13.635141702999999
+        ],
+        "lower_tip_reaction_N": [
+          -5.764857020000014e-15,
+          1.016165236999998e-14,
+          23.30729890550001
+        ],
+        "root_reaction_N": [
+          -4.5174870483923507e-07,
+          -1.9459599471076597e-07,
+          -9.67215763083954
+        ],
+        "mean_force_per_arm_N": 18.471220304250004,
+        "linear_stiffness_per_arm_N_per_mm": 184.71220304250002,
+        "force_balance_relative_error": 3.531124095323898e-08,
+        "max_displacement_mm": 0.11106475083577634,
+        "von_mises_MPa": {
+          "max": 50.18890938764377,
+          "p95": 5.410686836943416,
+          "p99": 11.079251988796484
+        },
+        "build_normal_max_tension_MPa": 11.29634
+      },
+      {
+        "pinch_per_arm_mm": 0.2,
+        "total_prescribed_closure_mm": 0.4,
+        "upper_tip_reaction_N": [
+          1.992559746e-14,
+          -7.011975210800002e-14,
+          -26.682323790000012
+        ],
+        "lower_tip_reaction_N": [
+          -1.8994519530000002e-14,
+          4.4621762770000044e-14,
+          45.70368299399998
+        ],
+        "root_reaction_N": [
+          -4.628441650436502e-07,
+          -1.8049478209580566e-06,
+          -19.021362697142536
+        ],
+        "mean_force_per_arm_N": 36.193003391999994,
+        "linear_stiffness_per_arm_N_per_mm": 180.96501695999996,
+        "force_balance_relative_error": 1.093872670798654e-07,
+        "max_displacement_mm": 0.22104299775592814,
+        "von_mises_MPa": {
+          "max": 93.89928739428272,
+          "p95": 10.713823366402709,
+          "p99": 22.045710080261625
+        },
+        "build_normal_max_tension_MPa": 22.53189
+      },
+      {
+        "pinch_per_arm_mm": 0.3,
+        "total_prescribed_closure_mm": 0.6,
+        "upper_tip_reaction_N": [
+          -2.1469317399999918e-15,
+          -6.934430566999998e-14,
+          -39.19333703000001
+        ],
+        "lower_tip_reaction_N": [
+          -3.422639317999999e-14,
+          9.395111940000072e-15,
+          67.24770465200001
+        ],
+        "root_reaction_N": [
+          8.457600895348471e-07,
+          5.2045659731645745e-06,
+          -28.054370302528078
+        ],
+        "mean_force_per_arm_N": 53.22052084100001,
+        "linear_stiffness_per_arm_N_per_mm": 177.4017361366667,
+        "force_balance_relative_error": 1.1114264584359425e-07,
+        "max_displacement_mm": 0.32999014004511895,
+        "von_mises_MPa": {
+          "max": 131.50193052795532,
+          "p95": 15.912209901133135,
+          "p99": 32.87212774962221
+        },
+        "build_normal_max_tension_MPa": 33.73943
+      },
+      {
+        "pinch_per_arm_mm": 0.4,
+        "total_prescribed_closure_mm": 0.8,
+        "upper_tip_reaction_N": [
+          -5.080685449999992e-15,
+          6.957919210000011e-14,
+          -51.21458985000003
+        ],
+        "lower_tip_reaction_N": [
+          -1.0665378447999987e-13,
+          1.7164543999999863e-15,
+          87.99112421100004
+        ],
+        "root_reaction_N": [
+          -3.728474668736976e-09,
+          -1.8280247330265502e-06,
+          -36.77653277738649
+        ],
+        "mean_force_per_arm_N": 69.60285703050003,
+        "linear_stiffness_per_arm_N_per_mm": 174.00714257625006,
+        "force_balance_relative_error": 3.474825840030274e-08,
+        "max_displacement_mm": 0.4379599118267184,
+        "von_mises_MPa": {
+          "max": 163.87835642469693,
+          "p95": 20.9837707717557,
+          "p99": 43.632203217260496
+        },
+        "build_normal_max_tension_MPa": 44.91198
+      }
+    ],
+    "seconds": 387.3763304960157,
+    "scope": "Actual hoop/root crop, ideal fixed plate and distributed prescribed Z pinch at outer crest patches. Geometrically nonlinear elastic stiffness and stress only; no material yielding model. No board contact, friction, plasticity, creep, damage or support-release model; no insertion-force or recoverability rating."
+  },
+  "modal_reference": [
+    {
+      "source_sha256": "0770b728f77d5e800c0ea67252d82986e82e36b86a77468a41206d5ceeab09c6",
+      "deck_sha256": "ab6372972dd470b26ad500fa7c5e150f590d2f6072636c602028db47da2a10d8",
+      "dat_sha256": "bdd28a6065a79a41bbc57603b6118ea25cb3a0d80c3dcd8350d2411f88209da0",
+      "support": "all-pegs",
+      "density_tonne_mm3": 1.07e-09,
+      "material_E_MPa": 1800,
+      "nu": 0.35,
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 35256060.0,
+          "angular_frequency_rad_s": 5937.681,
+          "frequency_Hz": 945.0113,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 71086800.0,
+          "angular_frequency_rad_s": 8431.299,
+          "frequency_Hz": 1341.883,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 102815500.0,
+          "angular_frequency_rad_s": 10139.8,
+          "frequency_Hz": 1613.799,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 128728400.0,
+          "angular_frequency_rad_s": 11345.85,
+          "frequency_Hz": 1805.748,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 168383500.0,
+          "angular_frequency_rad_s": 12976.27,
+          "frequency_Hz": 2065.237,
+          "imaginary_frequency_Hz": 0.0
+        }
+      ],
+      "seconds": 232.888939735014,
+      "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+    },
+    {
+      "source_sha256": "0770b728f77d5e800c0ea67252d82986e82e36b86a77468a41206d5ceeab09c6",
+      "deck_sha256": "f0836e35719bec683bc509127f6d70b10f08a5e5ef6d0a9c2e7987939efd1b10",
+      "dat_sha256": "d00279de8fe7bc16e70b0e4c372ff41ebd13601994d1d6ecf96837345122587f",
+      "support": "four-corners",
+      "density_tonne_mm3": 1.07e-09,
+      "material_E_MPa": 1800,
+      "nu": 0.35,
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 278754.3,
+          "angular_frequency_rad_s": 527.9718,
+          "frequency_Hz": 84.02933,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 1651044.0,
+          "angular_frequency_rad_s": 1284.93,
+          "frequency_Hz": 204.5029,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 4799958.0,
+          "angular_frequency_rad_s": 2190.881,
+          "frequency_Hz": 348.6895,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 6177666.0,
+          "angular_frequency_rad_s": 2485.491,
+          "frequency_Hz": 395.5782,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 7273841.0,
+          "angular_frequency_rad_s": 2697.006,
+          "frequency_Hz": 429.2418,
+          "imaginary_frequency_Hz": 0.0
+        }
+      ],
+      "seconds": 267.788890152995,
+      "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+    },
+    {
+      "source_sha256": "0770b728f77d5e800c0ea67252d82986e82e36b86a77468a41206d5ceeab09c6",
+      "deck_sha256": "c5988aeb911d6d765ae68c4e80b04160b072956d883d9d22124997f018eafaed",
+      "dat_sha256": "b895ce6b6ed4e67171827ae8b96db47e608baae3b7b6fbbc00f202cecd08a4b0",
+      "support": "face",
+      "density_tonne_mm3": 1.07e-09,
+      "material_E_MPa": 1800,
+      "nu": 0.35,
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 57989740.0,
+          "angular_frequency_rad_s": 7615.1,
+          "frequency_Hz": 1211.981,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 115565000.0,
+          "angular_frequency_rad_s": 10750.12,
+          "frequency_Hz": 1710.934,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 164704100.0,
+          "angular_frequency_rad_s": 12833.71,
+          "frequency_Hz": 2042.548,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 225178900.0,
+          "angular_frequency_rad_s": 15005.96,
+          "frequency_Hz": 2388.273,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 227941200.0,
+          "angular_frequency_rad_s": 15097.72,
+          "frequency_Hz": 2402.877,
+          "imaginary_frequency_Hz": 0.0
+        }
+      ],
+      "seconds": 157.86029503299505,
+      "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+    }
+  ],
+  "modal_refined": [
+    {
+      "h_requested_mm": 5,
+      "mesh_sha256": "3833ed0e19900dcc0ccc07311f1bf51aa35d0a28d767d281b4389d474e5c7573",
+      "source_sha256": "f6fbfa3376424a76e358f7daee0c2778914488b6c231c056e7b00c08a7a16171",
+      "deck_sha256": "2eb6cfaabd5625869b77f7c12a38aa41c8a0f05996e4d3f7b8f1e8b73e15c2a3",
+      "dat_sha256": "a3923a190fa584d4d858648ef8da3b496410758b3f1a24254e610a6c340e46f3",
+      "support": "all-pegs",
+      "density_tonne_mm3": 1.07e-09,
+      "material_E_MPa": 1800,
+      "nu": 0.35,
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 35029030.0,
+          "angular_frequency_rad_s": 5918.533,
+          "frequency_Hz": 941.9637,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 70596650.0,
+          "angular_frequency_rad_s": 8402.181,
+          "frequency_Hz": 1337.249,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 102022600.0,
+          "angular_frequency_rad_s": 10100.62,
+          "frequency_Hz": 1607.564,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 127907000.0,
+          "angular_frequency_rad_s": 11309.6,
+          "frequency_Hz": 1799.978,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 167472400.0,
+          "angular_frequency_rad_s": 12941.11,
+          "frequency_Hz": 2059.642,
+          "imaginary_frequency_Hz": 0.0
+        }
+      ],
+      "seconds": 519.6302562440105,
+      "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+    },
+    {
+      "h_requested_mm": 5,
+      "mesh_sha256": "3833ed0e19900dcc0ccc07311f1bf51aa35d0a28d767d281b4389d474e5c7573",
+      "source_sha256": "f6fbfa3376424a76e358f7daee0c2778914488b6c231c056e7b00c08a7a16171",
+      "deck_sha256": "b329f0deb7705220196115c94a3f51d68131b879421211846a528542137616ba",
+      "dat_sha256": "45621abb96caa28a3333ce9680cf38e211e800c1eb424fdc5567efe32e68a138",
+      "support": "four-corners",
+      "density_tonne_mm3": 1.07e-09,
+      "material_E_MPa": 1800,
+      "nu": 0.35,
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 274759.8,
+          "angular_frequency_rad_s": 524.1753,
+          "frequency_Hz": 83.4251,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 1621767.0,
+          "angular_frequency_rad_s": 1273.486,
+          "frequency_Hz": 202.6816,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 4737988.0,
+          "angular_frequency_rad_s": 2176.692,
+          "frequency_Hz": 346.4313,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 6120739.0,
+          "angular_frequency_rad_s": 2474.013,
+          "frequency_Hz": 393.7513,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 7124651.0,
+          "angular_frequency_rad_s": 2669.204,
+          "frequency_Hz": 424.817,
+          "imaginary_frequency_Hz": 0.0
+        }
+      ],
+      "seconds": 499.06124067198834,
+      "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+    },
+    {
+      "h_requested_mm": 5,
+      "mesh_sha256": "3833ed0e19900dcc0ccc07311f1bf51aa35d0a28d767d281b4389d474e5c7573",
+      "source_sha256": "f6fbfa3376424a76e358f7daee0c2778914488b6c231c056e7b00c08a7a16171",
+      "deck_sha256": "a3a552ca0e84aba539a39ce8bbcffaf357f0f55de0e9cf67af768b9bf2c98256",
+      "dat_sha256": "25e14355cec087ec676aa92d404f7fb7587f194ebaf12677b6fedaa813b4188d",
+      "support": "face",
+      "density_tonne_mm3": 1.07e-09,
+      "material_E_MPa": 1800,
+      "nu": 0.35,
+      "modes": [
+        {
+          "mode": 1,
+          "eigenvalue": 57861070.0,
+          "angular_frequency_rad_s": 7606.646,
+          "frequency_Hz": 1210.635,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 2,
+          "eigenvalue": 114813800.0,
+          "angular_frequency_rad_s": 10715.12,
+          "frequency_Hz": 1705.364,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 3,
+          "eigenvalue": 163342300.0,
+          "angular_frequency_rad_s": 12780.54,
+          "frequency_Hz": 2034.087,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 4,
+          "eigenvalue": 223768000.0,
+          "angular_frequency_rad_s": 14958.88,
+          "frequency_Hz": 2380.779,
+          "imaginary_frequency_Hz": 0.0
+        },
+        {
+          "mode": 5,
+          "eigenvalue": 226943500.0,
+          "angular_frequency_rad_s": 15064.64,
+          "frequency_Hz": 2397.613,
+          "imaginary_frequency_Hz": 0.0
+        }
+      ],
+      "seconds": 370.189099737996,
+      "scope": "Five undamped eigenmodes of archived rack as homogeneous solid ASA, E=1800 MPa, nu=.35, assumed density1070 kg/m3. Ideal original clamps; no tools, elastic board, print infill, layering, damping or validation. Mode-vector magnitude is arbitrary, not a vibration response."
+    }
+  ],
   "project": {
     "source_sha256": "abf9f8b7d365ce1de903dcf81d028213dd2841b753aa274bc4c12e908e5d9e9d",
     "project_sha256": "b5de56bf1c0bfdc9a486c57aafd1f22e61a184ec160f139df289ec9c09c882e4",
@@ -7854,5 +8300,224 @@
       236.0
     ],
     "scope": "Repack of archived v2 geometry, not a new fit-qualified rack. Existing owner compensation must be applied once. Supports, compensated bed/brim fit and physical installation need new owner-profile review."
+  },
+  "package_rebuild": {
+    "source_sha256": "8c9aa30f809417602079d2ac2a7b05f50530efab7ebcbcb507cdd90510d19ee1",
+    "tested_archive_sha256": "e6941d45fb5a4224dd3b3097c2815bc240b7abe7d93966a00a7ba435598e5630",
+    "source_dependencies": {
+      "bench/source/key_fan_v1/build_short.py": "3b53a9dd749bcd86522f1b0f35e0c36aa32ec8d3eee5f9f4efaddd90fb3b2b38",
+      "bench/source/key_fan_v1/check.py": "afe5ea9e119e105733a3add92549ba583914d86d9f3637412b0bb1f129d6d9d6",
+      "bench/source/key_fan_v1/coupon.py": "c37888bee5e6b4d4ffa7b1dcfb86684868532f4400018ba486330c0511bda822",
+      "bench/source/key_fan_v1/fea_run.py": "55944c2ca4ae9a3a2b10ea734fc6c7febdcafc927e63ec4f291c0fbfe27de30d",
+      "bench/source/key_fan_v1/swing.py": "0719594499a46cb7dc4d8bec208d74ce71e01dc110e8ac51e0d982a49ba2ab85",
+      "bench/source/key_fan_v1/study/short.py": "d8ee27dc8182a35f4c3b4e8f49c4ff62b4954dda2e3d49c5c7b27ce096cb422b",
+      "bench/source/key_fan_v1/study/sunray.py": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
+      "bench/source/key_fan_v1/study/comb.py": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
+      "bench/source/key_fan_v1/study/short_dt_c2.json": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e",
+      "bench/source/three_set_rack_v1/key_sets.json": "d3774ad50b1e9bf32d66ff2050e22787863e130a66ee949179f639b37962de31",
+      "bench/source/bespoke_tools_v1/build.py": "1f47c8c844a067489c2b1ba42762d8a651eaa236ec222881440ac1ca6ea5f630",
+      "bench/source/gallery_current_mounts_v1/station_snapshot/source/solder_v12/common.py": "578d54ccd7c1b7a5995ef72e770164b04bdfcb5b631e0d945c38104110d0d259"
+    },
+    "native_valid": true,
+    "native_solids": 1,
+    "native_faces": 5037,
+    "volume_mm3": 1527605.6105792217,
+    "reference_volume_mm3": 1527603.2742597507,
+    "reference_native_faces": 5037,
+    "relative_volume_difference": 1.5294019791513455e-06,
+    "max_bbox_coordinate_difference_mm": 2.5688777327559364e-08,
+    "rounded_vertex_multiset_match": true,
+    "exact_baseline_comparison_passed": false,
+    "seconds": 400.09816538801533,
+    "dependency_hashes_passed": true,
+    "freecad": [
+      "1",
+      "1",
+      "3",
+      "20260725 (Git shallow)",
+      "Unknown",
+      "2026/07/25 04:52:02",
+      "grafted,grafted",
+      "145529fe741292ff0b3977a01195bf0247425794"
+    ],
+    "occ": "7.8.1",
+    "scope": "Rebuild from flattened public package and original recorded environment; compare native validity/topology count, volume, bounds and vertex multiset to exact released STEP. An exact baseline-comparison failure is retained rather than relaxed; analyses use the included exact released STEP, not this rebuild. Not a continuous motion, physical fit or load proof."
+  },
+  "rebuild_difference": {
+    "source_sha256": "33896085b55d76751ecb952990dbab2884937bbf466ffb3d568286e9c9bf8541",
+    "rebuilt_brep_sha256": "09ab2e5dddd2d626ef2974e12b31355c932bed8119f28d0d02b03bbbdd73634f",
+    "reference_step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+    "differences": [
+      {
+        "operation": "rebuilt_minus_release",
+        "volume_mm3": 0.0,
+        "solids": 0,
+        "faces": 0
+      },
+      {
+        "operation": "release_minus_rebuilt",
+        "volume_mm3": 0.0,
+        "solids": 0,
+        "faces": 0
+      }
+    ],
+    "seconds": 283.61172597197583,
+    "scope": "Default OpenCascade two-way solid subtraction; no added fuzzy tolerance and no relaxed strict scalar baseline gate. Native Boolean comparison has modelling tolerances and is not a bit-identical serialization proof."
+  },
+  "modal_vector_check": {
+    "source_sha256": "a05e036b24e4a98b7d080172d1dfc6f808834aab0e1f7d409a649a60c0e0b0e7",
+    "matrix_export": {
+      "source_sha256": "21d467b7c28ef9a7d9be9b064fcc966b4f3405b589c352eb5eae7fd941d0be42",
+      "deck_sha256": "41136e7b3f36ca98969e7cf6fb09bc93c1c75567e1d2a42d880b7dcdf4c7a3b2",
+      "seconds": 60.77809048598283,
+      "files": {
+        "matrix.mas": {
+          "bytes": 926644017,
+          "sha256": "3ca2e20c51e7f9e1f9ea90071f623368b7250f82fd7971d6df0f61291451f274"
+        },
+        "matrix.cvg": {
+          "bytes": 274,
+          "sha256": "65086dedb4572132b815ace04b294909c7f6f337111f9704fc310b02320f67f7"
+        },
+        "matrix.12d": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "solver.log": {
+          "bytes": 2431,
+          "sha256": "72f2a3327f23c5dfd801c0b4f8d7d3004c05d4db0da9635d81c909182f5d533c"
+        },
+        "matrix.dat": {
+          "bytes": 42,
+          "sha256": "4bd4aa4c36f2c99804f4bed8bccbcd295445ff0dd3548383b9dfbe6d716d1aa6"
+        },
+        "matrix.frd": {
+          "bytes": 13,
+          "sha256": "bc1993e623d20fee49cb6ad101b81ca997154f48b70ca52982238d29dfeba25a"
+        },
+        "matrix.dof": {
+          "bytes": 6473949,
+          "sha256": "d873661c89ab1b3c76609ebf0f2c38fc32517fe170eaf50df0f2a4cdd8dbdd3f"
+        },
+        "matrix.sti": {
+          "bytes": 926644017,
+          "sha256": "f22ad09082f88e1ead5eafc7a4c7fbd9c747c520dd184bc98e003cf124839613"
+        },
+        "matrix.inp": {
+          "bytes": 2816276,
+          "sha256": "41136e7b3f36ca98969e7cf6fb09bc93c1c75567e1d2a42d880b7dcdf4c7a3b2"
+        },
+        "matrix.sta": {
+          "bytes": 98,
+          "sha256": "20946efba93047e4092386fb9fedd29e43961806698459a19066356660f2e1a9"
+        }
+      }
+    },
+    "scipy_version": "1.11.4",
+    "dofs": 747471,
+    "normalized_eigen_residuals": [
+      0.7863307808272498,
+      0.6330792194870524,
+      0.5910937291165632,
+      0.21372315644273343,
+      0.3869667799793487
+    ],
+    "mass_orthogonality_max_error": 3.8043875109526455e-09,
+    "printed_mode_mass_norms": [
+      1.0000000059918008,
+      0.9999999998554127,
+      1.0000000020443975,
+      0.9999999992363232,
+      0.9999999988934554
+    ],
+    "seconds": 33.045008348999545,
+    "passed": false,
+    "scope": "Independent sparse K*u=lambda*M*u and mass orthogonality check of six-decimal printed CCX mode vectors. Output rounding limits residual precision; this is an algebra check, not an independent eigensolution or a physical validation."
+  },
+  "modal_rounding_check": {
+    "source_sha256": "b4b26e702f489b51eec12a11d58698de92777b4f61678595f80b24c8606b4841",
+    "matrix_export": {
+      "source_sha256": "21d467b7c28ef9a7d9be9b064fcc966b4f3405b589c352eb5eae7fd941d0be42",
+      "deck_sha256": "41136e7b3f36ca98969e7cf6fb09bc93c1c75567e1d2a42d880b7dcdf4c7a3b2",
+      "seconds": 60.77809048598283,
+      "files": {
+        "matrix.mas": {
+          "bytes": 926644017,
+          "sha256": "3ca2e20c51e7f9e1f9ea90071f623368b7250f82fd7971d6df0f61291451f274"
+        },
+        "matrix.cvg": {
+          "bytes": 274,
+          "sha256": "65086dedb4572132b815ace04b294909c7f6f337111f9704fc310b02320f67f7"
+        },
+        "matrix.12d": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "solver.log": {
+          "bytes": 2431,
+          "sha256": "72f2a3327f23c5dfd801c0b4f8d7d3004c05d4db0da9635d81c909182f5d533c"
+        },
+        "matrix.dat": {
+          "bytes": 42,
+          "sha256": "4bd4aa4c36f2c99804f4bed8bccbcd295445ff0dd3548383b9dfbe6d716d1aa6"
+        },
+        "matrix.frd": {
+          "bytes": 13,
+          "sha256": "bc1993e623d20fee49cb6ad101b81ca997154f48b70ca52982238d29dfeba25a"
+        },
+        "matrix.dof": {
+          "bytes": 6473949,
+          "sha256": "d873661c89ab1b3c76609ebf0f2c38fc32517fe170eaf50df0f2a4cdd8dbdd3f"
+        },
+        "matrix.sti": {
+          "bytes": 926644017,
+          "sha256": "f22ad09082f88e1ead5eafc7a4c7fbd9c747c520dd184bc98e003cf124839613"
+        },
+        "matrix.inp": {
+          "bytes": 2816276,
+          "sha256": "41136e7b3f36ca98969e7cf6fb09bc93c1c75567e1d2a42d880b7dcdf4c7a3b2"
+        },
+        "matrix.sta": {
+          "bytes": 98,
+          "sha256": "20946efba93047e4092386fb9fedd29e43961806698459a19066356660f2e1a9"
+        }
+      }
+    },
+    "scipy_version": "1.11.4",
+    "dofs": 747471,
+    "normalized_eigen_residuals": [
+      0.7863307808272498,
+      0.6330792194870524,
+      0.5910937291165632,
+      0.21372315644273343,
+      0.3869667799793487
+    ],
+    "max_component_residual_to_print_rounding_bound": [
+      584.033892049066,
+      675035.9543171398,
+      2878505.605786828,
+      2267593.038960358,
+      2517328.86387135
+    ],
+    "mass_orthogonality_max_error": 3.8043875109526455e-09,
+    "printed_mode_mass_norms": [
+      1.0000000059918008,
+      0.9999999998554127,
+      1.0000000020443975,
+      0.9999999992363232,
+      0.9999999988934554
+    ],
+    "seconds": 40.90183107400662,
+    "printed_residual_original_gate_passed": false,
+    "residuals_compatible_with_print_rounding": false,
+    "scope": "Independent sparse K*u=lambda*M*u and mass orthogonality check of six-decimal printed CCX mode vectors. Output rounding limits residual precision; Retains the failed original relative-residual gate and separately bounds the effect of printed U/eigenvalue precision using absolute sparse matrices. Compatibility with rounding is not an independent eigensolution or physical validation."
+  },
+  "campaign_timing": {
+    "start_utc": "2026-10-10T01:51:12+00:00",
+    "review_checkpoint_utc": "2026-10-10T05:53:23.601342+00:00",
+    "wall_seconds": 14531.601342,
+    "minimum_requested_wall_seconds": 14400,
+    "minimum_met": true,
+    "scope": "Conservative overnight campaign interval beginning at the recorded task start. Native CAD, Gmsh/CalculiX, motion checks, film rendering and numerical diagnostics ran on keith-box; publication work coordinated from the dev worktree. This is campaign wall time, not a sum of parallel CPU-hours. Failed or unresolved numerical checks remain separate from accepted results."
   }
 }

@@ -1,0 +1,8 @@
+{
+  "start_utc": "2026-10-10T01:51:12+00:00",
+  "review_checkpoint_utc": "2026-10-10T05:53:23.601342+00:00",
+  "wall_seconds": 14531.601342,
+  "minimum_requested_wall_seconds": 14400,
+  "minimum_met": true,
+  "scope": "Conservative overnight campaign interval beginning at the recorded task start. Native CAD, Gmsh/CalculiX, motion checks, film rendering and numerical diagnostics ran on keith-box; publication work coordinated from the dev worktree. This is campaign wall time, not a sum of parallel CPU-hours. Failed or unresolved numerical checks remain separate from accepted results."
+}

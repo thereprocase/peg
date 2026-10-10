@@ -1656,7 +1656,7 @@
       ],
       "notes": {
         "orientation": "Print on the user's left end. Rails, webs and plate follow chamfer-in-Z, fillet-in-XY; socket roofs are pointed and floors print as walls or floors.",
-        "upper_pegs": "A peg in every covered hole: 9 PF02 #9 hooks across the top row, 9 PF07 #5 locking hoops across the bottom row, 72 gravity-load bearing pegs between; reviewed profiles mirrored for the left-end print (fit assumed equal). Sampled install swing passes.",
+        "upper_pegs": "A peg in every covered hole: 9 PF02 #9 hooks across the top row, 9 PF07 #5 locking hoops across the bottom row, 72 gravity-load bearing pegs between; reviewed profiles mirrored for the left-end print (fit assumed equal). Historical rear-peg-only swing screen passes; the whole-host audit finds collision on that assumed pivot.",
         "supports": "Tree supports on the build plate only, mostly under the 90 pegs behind the mounting face; small label counters.",
         "mount": "236 mm wide (ten cells shaved 8 mm a side); 9 peg columns at 25.4 mm pitch (\u00b1101.6 mm) by 10 rows.",
         "qualification": "Extended FEA and motion studies of archived v2. Whole-host collision found on assumed install pivot; revised 3/5 mm fit trials remain pending. Physical loads and snap recovery remain unqualified. Simulations are not a printed load or snap rating.",

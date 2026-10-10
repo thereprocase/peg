@@ -1,0 +1,78 @@
+{
+  "source_sha256": "b4b26e702f489b51eec12a11d58698de92777b4f61678595f80b24c8606b4841",
+  "matrix_export": {
+    "source_sha256": "21d467b7c28ef9a7d9be9b064fcc966b4f3405b589c352eb5eae7fd941d0be42",
+    "deck_sha256": "41136e7b3f36ca98969e7cf6fb09bc93c1c75567e1d2a42d880b7dcdf4c7a3b2",
+    "seconds": 60.77809048598283,
+    "files": {
+      "matrix.mas": {
+        "bytes": 926644017,
+        "sha256": "3ca2e20c51e7f9e1f9ea90071f623368b7250f82fd7971d6df0f61291451f274"
+      },
+      "matrix.cvg": {
+        "bytes": 274,
+        "sha256": "65086dedb4572132b815ace04b294909c7f6f337111f9704fc310b02320f67f7"
+      },
+      "matrix.12d": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "solver.log": {
+        "bytes": 2431,
+        "sha256": "72f2a3327f23c5dfd801c0b4f8d7d3004c05d4db0da9635d81c909182f5d533c"
+      },
+      "matrix.dat": {
+        "bytes": 42,
+        "sha256": "4bd4aa4c36f2c99804f4bed8bccbcd295445ff0dd3548383b9dfbe6d716d1aa6"
+      },
+      "matrix.frd": {
+        "bytes": 13,
+        "sha256": "bc1993e623d20fee49cb6ad101b81ca997154f48b70ca52982238d29dfeba25a"
+      },
+      "matrix.dof": {
+        "bytes": 6473949,
+        "sha256": "d873661c89ab1b3c76609ebf0f2c38fc32517fe170eaf50df0f2a4cdd8dbdd3f"
+      },
+      "matrix.sti": {
+        "bytes": 926644017,
+        "sha256": "f22ad09082f88e1ead5eafc7a4c7fbd9c747c520dd184bc98e003cf124839613"
+      },
+      "matrix.inp": {
+        "bytes": 2816276,
+        "sha256": "41136e7b3f36ca98969e7cf6fb09bc93c1c75567e1d2a42d880b7dcdf4c7a3b2"
+      },
+      "matrix.sta": {
+        "bytes": 98,
+        "sha256": "20946efba93047e4092386fb9fedd29e43961806698459a19066356660f2e1a9"
+      }
+    }
+  },
+  "scipy_version": "1.11.4",
+  "dofs": 747471,
+  "normalized_eigen_residuals": [
+    0.7863307808272498,
+    0.6330792194870524,
+    0.5910937291165632,
+    0.21372315644273343,
+    0.3869667799793487
+  ],
+  "max_component_residual_to_print_rounding_bound": [
+    584.033892049066,
+    675035.9543171398,
+    2878505.605786828,
+    2267593.038960358,
+    2517328.86387135
+  ],
+  "mass_orthogonality_max_error": 3.8043875109526455e-09,
+  "printed_mode_mass_norms": [
+    1.0000000059918008,
+    0.9999999998554127,
+    1.0000000020443975,
+    0.9999999992363232,
+    0.9999999988934554
+  ],
+  "seconds": 40.90183107400662,
+  "printed_residual_original_gate_passed": false,
+  "residuals_compatible_with_print_rounding": false,
+  "scope": "Independent sparse K*u=lambda*M*u and mass orthogonality check of six-decimal printed CCX mode vectors. Output rounding limits residual precision; Retains the failed original relative-residual gate and separately bounds the effect of printed U/eigenvalue precision using absolute sparse matrices. Compatibility with rounding is not an independent eigensolution or physical validation."
+}
