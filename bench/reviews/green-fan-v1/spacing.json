@@ -1,0 +1,60 @@
+{
+  "pairs": [
+    {
+      "lower": "HX05C",
+      "upper": "HX05B",
+      "required_mm": 243.84135920516113,
+      "limiter": {
+        "lower": "HX05C",
+        "upper": "HX05B",
+        "moving": "HX05C",
+        "tool": "3/32",
+        "hand": true,
+        "translation": [
+          0.0,
+          36.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "lower": "HX05C",
+      "upper": "HX05A",
+      "required_mm": 239.74356326569568,
+      "limiter": {
+        "lower": "HX05C",
+        "upper": "HX05A",
+        "moving": "HX05C",
+        "tool": "3/16",
+        "hand": false,
+        "translation": [
+          32.71124018415945,
+          22.102351313969567,
+          55.36660394143837
+        ]
+      }
+    },
+    {
+      "lower": "HX05B",
+      "upper": "HX05A",
+      "required_mm": 223.2667126530795,
+      "limiter": {
+        "lower": "HX05B",
+        "upper": "HX05A",
+        "moving": "HX05B",
+        "tool": "2",
+        "hand": true,
+        "translation": [
+          33.599999999999994,
+          9.600000000000001,
+          32.907142081925016
+        ]
+      }
+    }
+  ],
+  "pitches_mm": [
+    254.0,
+    228.59999999999997
+  ],
+  "margin_mm": 4.0
+}

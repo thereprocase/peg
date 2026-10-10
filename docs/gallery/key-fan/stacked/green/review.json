@@ -1,0 +1,1176 @@
+{
+  "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+  "holder_dimensions_mm": [
+    216.0,
+    97.69694501311562,
+    252.87093140716408
+  ],
+  "guide_multiplier": 1.5,
+  "bar_twist_toward_board_degrees": 30,
+  "tool_hand_access_passed": true,
+  "native_sweeps": {
+    "passed": true,
+    "rows": [
+      {
+        "rack": "HX05C",
+        "tool": "9/64",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "5/32",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "3/16",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "7/32",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "1/4",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "5/16",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "3/8",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "3/32",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "7/64",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05C",
+        "tool": "1/8",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "4",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "5",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "6",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "8",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "10",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "2",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "2.5",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05B",
+        "tool": "3",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T20",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T25",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T27",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T30",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T40",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T9",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T10",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T15",
+        "tool_release_body_overlap_mm3": 0.0,
+        "hand_body_overlap_mm3": 0.0
+      }
+    ],
+    "body_contacts": [
+      {
+        "a": "HX05B",
+        "b": "HX05C",
+        "volume_mm3": 0.0
+      },
+      {
+        "a": "HX05A",
+        "b": "HX05C",
+        "volume_mm3": 0.0
+      },
+      {
+        "a": "HX05A",
+        "b": "HX05B",
+        "volume_mm3": 0.0
+      }
+    ],
+    "sphere_bound_scale": 1.07046626931927,
+    "scope": "Represented tools and 50 mm hand envelopes; axial stroke = burial plus 5 mm, plus front grasp approach. Subsequent free-hand removal, physical fit, whole-holder installation and loads not qualified.",
+    "freecad": [
+      "1",
+      "1",
+      "3",
+      "20260725 (Git shallow)",
+      "Unknown",
+      "2026/07/25 04:52:02",
+      "grafted,grafted",
+      "145529fe741292ff0b3977a01195bf0247425794"
+    ],
+    "occ": "7.8.1",
+    "native_artifacts": {
+      "HX05A/body.brep": {
+        "bytes": 1577715,
+        "sha256": "64fa7f89125deea1e55d739f62a6c1b5b298bd9033ce594b1928aa782d42f81b"
+      },
+      "HX05A/grips.brep": {
+        "bytes": 123643,
+        "sha256": "3bd077fb114c83fbaeaca4eb98abbe9bd6e62b9ba208985417d58f36816b35da"
+      },
+      "HX05A/holder.FCStd": {
+        "bytes": 350885,
+        "sha256": "57d718c43b43f771b9bdcce8ff3bdcab3c868dca9684b00139e8eae5a5750d72"
+      },
+      "HX05A/installed.step": {
+        "bytes": 1445339,
+        "sha256": "02ecd77e8865ec6b759c806d8eda521e43c5b70169bb9c9e831b84b76fd71473"
+      },
+      "HX05A/installed.stl": {
+        "bytes": 1352734,
+        "sha256": "e82b23c1fec7b00a241264435ed5d9c97008eeeb9b4658c98a29a8ea6c5c03ca"
+      },
+      "HX05A/shafts.brep": {
+        "bytes": 17216,
+        "sha256": "786f76e5d06d68202206575efe758ceeb9cc4bd000aca01ef3d321af8a3174f4"
+      },
+      "HX05A.glb.gz": {
+        "bytes": 187553,
+        "sha256": "98f1f74e64b2a49f122e5ac59b32fdc216d23cc0f858da5f43a4346044973f0d"
+      },
+      "HX05B/body.brep": {
+        "bytes": 2269122,
+        "sha256": "874b8a12bcec7e87f09dee522f910b2a6757c3ac3fcba7364d5069e1f334e558"
+      },
+      "HX05B/grips.brep": {
+        "bytes": 130821,
+        "sha256": "65864ebceaa056f4a585e129c64ee17a13d30da824820dd11e671b1afa613a49"
+      },
+      "HX05B/holder.FCStd": {
+        "bytes": 471668,
+        "sha256": "d4b3109fd8920ed2281e491148f4aca02ca3bf0f4b1663c4280adbb870dc19c8"
+      },
+      "HX05B/installed.step": {
+        "bytes": 2161216,
+        "sha256": "56ebef61e535ba039a9f0c5b0f60618b9734e77df80b7ffdef07f8358f0939e2"
+      },
+      "HX05B/installed.stl": {
+        "bytes": 1866284,
+        "sha256": "10b9622b63ecebdba469f3ff1584e5eb2ba6dc778eada9922a0a729f85831616"
+      },
+      "HX05B/shafts.brep": {
+        "bytes": 41947,
+        "sha256": "904bd1f200cdf1acdcba9d4403dc0b9ed60c18eb614e89cff7e10dbbf377494c"
+      },
+      "HX05B.glb.gz": {
+        "bytes": 177823,
+        "sha256": "06ce5861f3e95923989b62c8b4cbdf845054cb45c05e6349a3e659ce3a56e510"
+      },
+      "HX05C/body.brep": {
+        "bytes": 2922419,
+        "sha256": "e9c6aeebb22bbaae197c5c86fcaba35139a4babb0d2d2f93f8a9fbe1ddd8ac6d"
+      },
+      "HX05C/grips.brep": {
+        "bytes": 130300,
+        "sha256": "b65ef951485fab537304ef212cbc3f7bddbf12702fec74249d5d85f3e42e0e60"
+      },
+      "HX05C/holder.FCStd": {
+        "bytes": 579920,
+        "sha256": "63534ae9943659ee3316be222e4893120dec915e9e1092a683a9b50614ed02e1"
+      },
+      "HX05C/installed.step": {
+        "bytes": 2784576,
+        "sha256": "e220ffa335243eb481740f2d3053965ab22fb191affbc2a498eea09c372c83b0"
+      },
+      "HX05C/installed.stl": {
+        "bytes": 2545084,
+        "sha256": "de7c2518dd0a51c5c3cddb03b8f364e8567a7347066563e6c12f9d23ee479327"
+      },
+      "HX05C/shafts.brep": {
+        "bytes": 52301,
+        "sha256": "787675e371cf6b90e4e6b9b567e34b681efa6e0d53b218ebd9e6860b47cb1890"
+      },
+      "HX05C.glb.gz": {
+        "bytes": 193650,
+        "sha256": "f0df4b2b287a7529389afa7aee25ed616efc72e9264064d1c373bf6954545c76"
+      },
+      "empty-stack.glb.gz": {
+        "bytes": 353809,
+        "sha256": "f83c5c68c96db6cccad748f6a52aeec658c7891b39bdec10c375daa4d34dc9c1"
+      },
+      "stack.glb.gz": {
+        "bytes": 556886,
+        "sha256": "5c27d185d62af8d6cf8a9f7dbfdfd765b399309e0b50d21429122111a66d8506"
+      }
+    },
+    "construction_sources": {
+      "build.py": "8047212f3a1cad2fdc10bbb462969867f079572ba965f8f8048885d877225cc9",
+      "densify.py": "d313de41807d538467cd80fd5f38e52bedc4c536f72041886c92bc6ab984f781",
+      "handles_preview.py": "508b39642ff93a9d5b6c0fb6a9d4f3069f86655f775520eebd962060b25fc3e7",
+      "layout.py": "8d13ccdb403db09ea070d24fdec1016b3a76207aa2d2e148620c9b59610c0b9f",
+      "pack.py": "e91913f1ac0da893fd686d99ce67b73da3b681ffd534790588a8ec27b8904d17",
+      "publish_review.py": "67d4e56fa0e4e2bb53df7339464a81a00ffbf07389168236673b3a8d60dbf027",
+      "screen.py": "28c956ea610e03e3739cbc0205f862d8cb81038d814134a74d3cb8799f5aec4d",
+      "sections.py": "4980aaee34e60343181458dc35f8124be3d629797b217178a73884b93552fe85",
+      "spacing.py": "88ec9770ec332b0739553da67663d3d74fa692e1b5f94f674fc60178f0b2f5e6",
+      "verify_native.py": "8e9c89340c88adaf39e88a64fb164ea58d23b6790cf3f5ec3c5e74051ed1c3a4"
+    }
+  },
+  "pinch_checks": {
+    "passed": true,
+    "scope": "Two assumed fingertips during front approach and axial socket release; not a fist, full hand or subsequent free-hand removal.",
+    "pad_full_axes_mm": [
+      24,
+      10,
+      18
+    ],
+    "pad_centre_offsets_mm": [
+      -14,
+      14
+    ],
+    "grip_diameter_mm": 18,
+    "total_pinch_span_mm": 38,
+    "rows": [
+      {
+        "tool": "9/64",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596344
+      },
+      {
+        "tool": "5/32",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596355
+      },
+      {
+        "tool": "3/16",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596348
+      },
+      {
+        "tool": "7/32",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.35233134659636
+      },
+      {
+        "tool": "1/4",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596362
+      },
+      {
+        "tool": "5/16",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.3523313465964
+      },
+      {
+        "tool": "3/8",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596337
+      },
+      {
+        "tool": "3/32",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596355
+      },
+      {
+        "tool": "7/64",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.35233134659635
+      },
+      {
+        "tool": "1/8",
+        "grasp_end": "frontmost",
+        "body_overlap_mm3": 0.0,
+        "other_tool_overlap_mm3": 0.0,
+        "maximum_distance_from_grasp_segment_mm": 19.35233134659635
+      }
+    ]
+  },
+  "green_native": {
+    "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+    "id": "HX05C",
+    "valid": true,
+    "solids": 1,
+    "volume": 864185.458260142,
+    "stored_overlap_mm3": 0.0,
+    "mount": {
+      "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+      "top": {
+        "upper_ribs_mm": 0.5,
+        "clamp_mm": 0.49
+      },
+      "columns_x_mm": [
+        -101.6,
+        -76.19999999999999,
+        -50.8,
+        -25.4,
+        0.0,
+        25.4,
+        50.8,
+        76.19999999999999,
+        101.6
+      ],
+      "plate": {
+        "x0": -108,
+        "x1": 108,
+        "y0": 0.15,
+        "y1": 5.55,
+        "z0": -247.4259314071641,
+        "z1": 5.12
+      },
+      "hoop": {
+        "concept": "HOOP",
+        "arm_mm": 0.8,
+        "tip_half": 2.0,
+        "even_catch_wall": true,
+        "ramp_wall": true,
+        "nose_mm": 0.9,
+        "root_gusset_mm": 0.4,
+        "body_ribs_mm": 0.3,
+        "detail": {
+          "width_across_barbs_mm": 7.35,
+          "catch_angle_deg": 55,
+          "catch_length_mm": 0.6476919728439815,
+          "ramp_angle_deg": 15.592255624701878,
+          "crest_y_mm": [
+            -4.487691972843981,
+            -4.787691972843981
+          ],
+          "catch_bearing_per_side_mm": 0.5,
+          "nose_mm": 0.9,
+          "ramp_wall_mm": 0.8,
+          "min_wall_mm": 0.8,
+          "root_gusset_mm": 0.4,
+          "root_gusset_length_mm": 1.5,
+          "arm_mm": 0.8,
+          "closed_nose_mm": 0.9,
+          "band_half_height_mm": 1.4,
+          "root_clip_radius_mm": 2.95,
+          "cheek_offset_down_mm": 0.1
+        }
+      },
+      "rows": {
+        "hooks": [
+          0
+        ],
+        "bearing": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "hoop": [
+          9
+        ]
+      },
+      "pegs": {
+        "hooks": 9,
+        "bearing": 72,
+        "locking": 9
+      },
+      "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001
+    },
+    "peg_top_z": 0.0,
+    "bounds": [
+      -108.0,
+      108.0,
+      -10.79,
+      86.90694501311563,
+      -247.4259314071641,
+      5.445
+    ],
+    "tools": [
+      {
+        "name": "9/64",
+        "af": 3.571875,
+        "overall": 211,
+        "bar": 76,
+        "part": 13208,
+        "axis": [
+          0.12376237623762376,
+          0.3217821782178218,
+          0.9386901000912979
+        ],
+        "tip": [
+          -55.09892468124785,
+          60.0,
+          -91.09480502364137
+        ],
+        "mouth": [
+          -47.30189497827755,
+          80.27227722772277,
+          -31.957328717889606
+        ],
+        "top": [
+          -30.09892468124785,
+          125.0,
+          98.5205951948008
+        ],
+        "bar_axis": [
+          0.49615594177335426,
+          0.7991612542440298,
+          -0.3393678994220064
+        ],
+        "guide": 60.0,
+        "burial": 63.0,
+        "outer_radius": 7.01366690262263,
+        "elevation": 69.83272670311236,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 0.0
+      },
+      {
+        "name": "5/32",
+        "af": 3.96875,
+        "overall": 231,
+        "bar": 76,
+        "part": 13109,
+        "axis": [
+          0.3171031494460678,
+          0.3228228228228228,
+          0.8917572638762687
+        ],
+        "tip": [
+          -61.09892468124785,
+          53.33333333333333,
+          -131.57319329824276
+        ],
+        "mouth": [
+          -41.121426266145576,
+          73.67117117117117,
+          -75.39248567403781
+        ],
+        "top": [
+          9.2979744957792,
+          125.0,
+          66.39691928228892
+        ],
+        "bar_axis": [
+          0.46144402528199163,
+          0.7689614944908725,
+          -0.44245636114979386
+        ],
+        "guide": 60.0,
+        "burial": 63.0,
+        "outer_radius": 7.2428027907072625,
+        "elevation": 63.09490124439692,
+        "downward_packing_mm": 35.478388274601365,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 2.5
+      },
+      {
+        "name": "3/16",
+        "af": 4.762499999999999,
+        "overall": 250,
+        "bar": 102,
+        "part": 13110,
+        "axis": [
+          0.4810476497670507,
+          0.3250345781466113,
+          0.8142147638446819
+        ],
+        "tip": [
+          -67.09892468124785,
+          46.66666666666667,
+          -158.43233563364686
+        ],
+        "mouth": [
+          -36.792922745923654,
+          67.14384508990318,
+          -107.1368055114319
+        ],
+        "top": [
+          48.833558912611366,
+          125.0,
+          37.793422452921504
+        ],
+        "bar_axis": [
+          0.41119755410255876,
+          0.7365882027954864,
+          -0.5369863974092721
+        ],
+        "guide": 60.0,
+        "burial": 63.0,
+        "outer_radius": 7.701074566876527,
+        "elevation": 54.50979335300672,
+        "downward_packing_mm": 57.337530610005494,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 5.0
+      },
+      {
+        "name": "7/32",
+        "af": 5.5562499999999995,
+        "overall": 262,
+        "bar": 102,
+        "part": 13111,
+        "axis": [
+          0.630637224629758,
+          0.3359683794466403,
+          0.6995869773825657
+        ],
+        "tip": [
+          -73.09892468124785,
+          40.0,
+          -180.2098793385864
+        ],
+        "mouth": [
+          -29.159276055169464,
+          63.408596837944664,
+          -131.46615668945614
+        ],
+        "top": [
+          86.45229315008093,
+          125.0,
+          -3.2143740607972724
+        ],
+        "bar_axis": [
+          0.34225577134208274,
+          0.6886472960071949,
+          -0.6392385225289656
+        ],
+        "guide": 66.675,
+        "burial": 69.675,
+        "outer_radius": 8.159346343045794,
+        "elevation": 44.39387652419391,
+        "downward_packing_mm": 74.11507431494505,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 7.5
+      },
+      {
+        "name": "1/4",
+        "af": 6.35,
+        "overall": 275,
+        "bar": 102,
+        "part": 13112,
+        "axis": [
+          0.754283296423092,
+          0.3446115288220551,
+          0.558837725050877
+        ],
+        "tip": [
+          -79.09892468124785,
+          33.33333333333334,
+          -198.7048485379845
+        ],
+        "mouth": [
+          -19.359687604538976,
+          60.626566416040106,
+          -154.44490071395506
+        ],
+        "top": [
+          121.54043216729463,
+          125.0,
+          -50.05401367445123
+        ],
+        "bar_axis": [
+          0.2580521839539384,
+          0.6270618280241309,
+          -0.734984716978277
+        ],
+        "guide": 76.19999999999999,
+        "burial": 79.19999999999999,
+        "outer_radius": 8.61761811921506,
+        "elevation": 33.97545673896101,
+        "downward_packing_mm": 87.61004351434318,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 10.0
+      },
+      {
+        "name": "5/16",
+        "af": 7.9375,
+        "overall": 289,
+        "bar": 127,
+        "part": 13113,
+        "axis": [
+          0.8497762126469921,
+          0.3511904761904762,
+          0.39312292969558593
+        ],
+        "tip": [
+          -85.09892468124782,
+          26.666666666666657,
+          -215.47368279110714
+        ],
+        "mouth": [
+          -1.6084117886808542,
+          61.17113095238095,
+          -176.8493549485158
+        ],
+        "top": [
+          152.83841485990996,
+          125.0,
+          -105.39926247634308
+        ],
+        "bar_axis": [
+          0.1587417422653959,
+          0.5406605651142994,
+          -0.826127842765775
+        ],
+        "guide": 95.25,
+        "burial": 98.25,
+        "outer_radius": 9.53416167155359,
+        "elevation": 23.14895730907,
+        "downward_packing_mm": 99.3788777674658,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 12.5
+      },
+      {
+        "name": "3/8",
+        "af": 9.524999999999999,
+        "overall": 300,
+        "bar": 127,
+        "part": 13114,
+        "axis": [
+          0.917319699828872,
+          0.36082474226804123,
+          0.1683153993937271
+        ],
+        "tip": [
+          -91.09892468124785,
+          20.0,
+          -230.97522618327196
+        ],
+        "mouth": [
+          16.502676108678813,
+          62.32474226804123,
+          -211.23182983438778
+        ],
+        "top": [
+          175.84110796895385,
+          125.0,
+          -181.99544495969735
+        ],
+        "bar_axis": [
+          0.02908042530556723,
+          0.36089454039302044,
+          -0.9321531309707424
+        ],
+        "guide": 114.29999999999998,
+        "burial": 117.29999999999998,
+        "outer_radius": 10.450705223892122,
+        "elevation": 9.68988724344779,
+        "downward_packing_mm": 109.88042115963061,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 15.0
+      },
+      {
+        "name": "3/32",
+        "af": 2.3812499999999996,
+        "overall": 154,
+        "bar": 76,
+        "part": 13205,
+        "axis": [
+          0.7,
+          0.2,
+          0.6855654600401044
+        ],
+        "tip": [
+          -4.169001258516907,
+          41.0,
+          -49.51688322089531
+        ],
+        "mouth": [
+          39.93099874148309,
+          53.6,
+          -6.326259238368731
+        ],
+        "top": [
+          97.33099874148309,
+          70.0,
+          49.890108484919836
+        ],
+        "bar_axis": [
+          -0.3570714214271425,
+          -0.7333506308887787,
+          0.5785299060334134
+        ],
+        "guide": 60.0,
+        "burial": 63.0,
+        "outer_radius": 6.326259238368731,
+        "elevation": 43.280093616242404,
+        "upward_packing_mm": 52.44088925775555,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 0.0,
+        "grasp_end": "opposite end"
+      },
+      {
+        "name": "7/64",
+        "af": 2.7781249999999997,
+        "overall": 173,
+        "bar": 76,
+        "part": 13206,
+        "axis": [
+          0.7,
+          0.20000000000000004,
+          0.6855654600401044
+        ],
+        "tip": [
+          21.10703771894559,
+          37.199999999999996,
+          -87.64999516113569
+        ],
+        "mouth": [
+          65.20703771894559,
+          49.8,
+          -44.45937117860912
+        ],
+        "top": [
+          135.9070377189456,
+          70.0,
+          24.78274028544143
+        ],
+        "bar_axis": [
+          0.3570714214271425,
+          0.7333506308887787,
+          -0.5785299060334134
+        ],
+        "guide": 60.0,
+        "burial": 63.0,
+        "outer_radius": 6.555395126453364,
+        "elevation": 43.280093616242404,
+        "upward_packing_mm": 31.244995832255597,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 0.0
+      },
+      {
+        "name": "1/8",
+        "af": 3.175,
+        "overall": 192,
+        "bar": 76,
+        "part": 13207,
+        "axis": [
+          0.7,
+          0.2,
+          0.6855654600401045
+        ],
+        "tip": [
+          50.66509889060197,
+          33.4,
+          -154.50279828712632
+        ],
+        "mouth": [
+          94.76509889060196,
+          46.0,
+          -111.31217430459974
+        ],
+        "top": [
+          178.76509889060196,
+          70.0,
+          -29.04431909978719
+        ],
+        "bar_axis": [
+          0.3570714214271425,
+          0.7333506308887787,
+          -0.5785299060334133
+        ],
+        "guide": 60.0,
+        "burial": 63.0,
+        "outer_radius": 6.784531014537997,
+        "elevation": 43.28009361624242,
+        "upward_packing_mm": 0.0,
+        "bar_twist_toward_board_deg": 29.999999999999996,
+        "additional_fan_rotation_deg": 0.0,
+        "sideways_clearance_adjustment_mm": 18.12130434882044
+      }
+    ],
+    "cavity_gaps": [
+      {
+        "a": "5/32",
+        "b": "9/64",
+        "gap_mm": 5.90304128946244,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/16",
+        "b": "9/64",
+        "gap_mm": 18.653664948230126,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/16",
+        "b": "5/32",
+        "gap_mm": 3.4268663105260178,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/32",
+        "b": "9/64",
+        "gap_mm": 41.567422984128974,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/32",
+        "b": "5/32",
+        "gap_mm": 18.140454952847538,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/32",
+        "b": "3/16",
+        "gap_mm": 4.265600807105565,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/4",
+        "b": "9/64",
+        "gap_mm": 65.78313712931835,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/4",
+        "b": "5/32",
+        "gap_mm": 37.363890913187724,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/4",
+        "b": "3/16",
+        "gap_mm": 18.883502569259914,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/4",
+        "b": "7/32",
+        "gap_mm": 4.712469037543347,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "5/16",
+        "b": "9/64",
+        "gap_mm": 93.09311254731068,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "5/16",
+        "b": "5/32",
+        "gap_mm": 59.73256936536897,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "5/16",
+        "b": "3/16",
+        "gap_mm": 37.36301102774512,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "5/16",
+        "b": "7/32",
+        "gap_mm": 19.54922760959132,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "5/16",
+        "b": "1/4",
+        "gap_mm": 4.893265010228038,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/8",
+        "b": "9/64",
+        "gap_mm": 125.36582874775412,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/8",
+        "b": "5/32",
+        "gap_mm": 86.31355363503062,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/8",
+        "b": "3/16",
+        "gap_mm": 60.31428569000288,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/8",
+        "b": "7/32",
+        "gap_mm": 39.139561037482274,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/8",
+        "b": "1/4",
+        "gap_mm": 21.107379617851265,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/8",
+        "b": "5/16",
+        "gap_mm": 4.491091813960502,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "9/64",
+        "gap_mm": 52.475271493524794,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "5/32",
+        "gap_mm": 46.50551710316185,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "3/16",
+        "gap_mm": 41.74013774474463,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "7/32",
+        "gap_mm": 55.04274979470025,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "1/4",
+        "gap_mm": 82.07413737879315,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "5/16",
+        "gap_mm": 116.14788172236783,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "3/32",
+        "b": "3/8",
+        "gap_mm": 155.92804852671478,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "9/64",
+        "gap_mm": 75.77294549556177,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "5/32",
+        "gap_mm": 67.25732186544313,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "3/16",
+        "gap_mm": 54.275659261119614,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "7/32",
+        "gap_mm": 42.792818076812075,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "1/4",
+        "gap_mm": 50.00706653210598,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "5/16",
+        "gap_mm": 77.37948624361084,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "3/8",
+        "gap_mm": 118.06622628183834,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "7/64",
+        "b": "3/32",
+        "gap_mm": 39.710890394926274,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "9/64",
+        "gap_mm": 122.54836408841723,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "5/32",
+        "gap_mm": 111.51810197836521,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "3/16",
+        "gap_mm": 98.76667392224728,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "7/32",
+        "gap_mm": 79.67603221712753,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "1/4",
+        "gap_mm": 55.39235175765421,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "5/16",
+        "gap_mm": 39.885207132398186,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "3/8",
+        "gap_mm": 58.33078802144355,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "3/32",
+        "gap_mm": 108.29535235931775,
+        "overlap_mm3": 0.0
+      },
+      {
+        "a": "1/8",
+        "b": "7/64",
+        "gap_mm": 63.12548354946187,
+        "overlap_mm3": 0.0
+      }
+    ]
+  },
+  "source_hashes": {
+    "bench/source/green_fan_v1/README.md": "5dff97e87a87d43788c3f69f320a245dd8e35bfb5984e7bc265f2ba0306cf2a9",
+    "bench/source/green_fan_v1/arrange.py": "3743f2248aede5ee8c6b506f2aba6c1a94a313c833a38f6cf42c6d344aca99c0",
+    "bench/source/green_fan_v1/empty.py": "888b9a74649b985eed7a8c9c2db91cf0be81fc06d40552ce118069508296ece6",
+    "bench/source/green_fan_v1/pinch.py": "146c8fcc469cd0bb553c7e5009fcd1c1153fb18e048566b15a8c282507e585ec",
+    "bench/source/green_fan_v1/publish.py": "66dcc9a857c25fdd094894c3506d44bcdd3f5de7e407e9082b665001833ea5b0",
+    "bench/source/green_fan_v1/reference-layout.json": "3bc1e210ed6da6dec8744d8ec6be32d0b584033a86b87d1f83f1d632e3196498",
+    "bench/source/stacked_fans_v1/build.py": "8047212f3a1cad2fdc10bbb462969867f079572ba965f8f8048885d877225cc9",
+    "bench/source/stacked_fans_v1/densify.py": "d313de41807d538467cd80fd5f38e52bedc4c536f72041886c92bc6ab984f781",
+    "bench/source/stacked_fans_v1/handles_preview.py": "508b39642ff93a9d5b6c0fb6a9d4f3069f86655f775520eebd962060b25fc3e7",
+    "bench/source/stacked_fans_v1/layout.py": "8d13ccdb403db09ea070d24fdec1016b3a76207aa2d2e148620c9b59610c0b9f",
+    "bench/source/stacked_fans_v1/pack.py": "e91913f1ac0da893fd686d99ce67b73da3b681ffd534790588a8ec27b8904d17",
+    "bench/source/stacked_fans_v1/publish_review.py": "67d4e56fa0e4e2bb53df7339464a81a00ffbf07389168236673b3a8d60dbf027",
+    "bench/source/stacked_fans_v1/screen.py": "28c956ea610e03e3739cbc0205f862d8cb81038d814134a74d3cb8799f5aec4d",
+    "bench/source/stacked_fans_v1/sections.py": "4980aaee34e60343181458dc35f8124be3d629797b217178a73884b93552fe85",
+    "bench/source/stacked_fans_v1/spacing.py": "88ec9770ec332b0739553da67663d3d74fa692e1b5f94f674fc60178f0b2f5e6",
+    "bench/source/stacked_fans_v1/verify_native.py": "8e9c89340c88adaf39e88a64fb164ea58d23b6790cf3f5ec3c5e74051ed1c3a4"
+  }
+}

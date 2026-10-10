@@ -1,0 +1,194 @@
+{
+  "scope": "Stored tools, axial stroke of burial plus 5 mm, and front-end grasp approach. Subsequent free-hand removal is not modelled.",
+  "pitch": null,
+  "pitches_mm": [
+    254.0,
+    228.59999999999997
+  ],
+  "hand_proxy": "50 mm diameter, 15 mm centre segment around the front end of the grip; 65 mm overall length",
+  "records": [
+    {
+      "rack": "HX05C",
+      "tool": "9/64",
+      "stored_bound": 5.483065641447394,
+      "withdrawal_bound": 17.14755869392475,
+      "hand_bound": 4.616762634712771
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/32",
+      "stored_bound": 3.237058773766478,
+      "withdrawal_bound": 16.128325858108163,
+      "hand_bound": 2.015900360660382
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/16",
+      "stored_bound": 3.2370587737664787,
+      "withdrawal_bound": 17.419712505151217,
+      "hand_bound": 5.376015542416226
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/32",
+      "stored_bound": 3.681725648735696,
+      "withdrawal_bound": 5.367050627138699,
+      "hand_bound": 4.854865280819375
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/4",
+      "stored_bound": 3.9444590273424214,
+      "withdrawal_bound": 2.8799151011212665,
+      "hand_bound": 4.321871716206573
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/16",
+      "stored_bound": 3.912931343970029,
+      "withdrawal_bound": 1.742289208652135,
+      "hand_bound": 4.437560766658862
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/8",
+      "stored_bound": 3.912931343970028,
+      "withdrawal_bound": 16.732724823443647,
+      "hand_bound": 20.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/32",
+      "stored_bound": 17.79950617086235,
+      "withdrawal_bound": 15.454892235071085,
+      "hand_bound": 4.4285024032408415
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/64",
+      "stored_bound": 17.79950617086235,
+      "withdrawal_bound": 16.79950617086235,
+      "hand_bound": 5.081930623279391
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/8",
+      "stored_bound": 23.05844977397811,
+      "withdrawal_bound": 20.0,
+      "hand_bound": 10.670813285649835
+    },
+    {
+      "rack": "HX05B",
+      "tool": "4",
+      "stored_bound": 1.634458518039759,
+      "withdrawal_bound": 20.0,
+      "hand_bound": 14.408967395561824
+    },
+    {
+      "rack": "HX05B",
+      "tool": "5",
+      "stored_bound": 1.0000000444519883,
+      "withdrawal_bound": 7.362521083263793,
+      "hand_bound": 15.498315199654357
+    },
+    {
+      "rack": "HX05B",
+      "tool": "6",
+      "stored_bound": 1.0000000444519888,
+      "withdrawal_bound": 1.7575625094696754,
+      "hand_bound": 17.162003474112197
+    },
+    {
+      "rack": "HX05B",
+      "tool": "8",
+      "stored_bound": 1.0000000743672102,
+      "withdrawal_bound": 14.661835434037783,
+      "hand_bound": 20.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "10",
+      "stored_bound": 1.0000000743672102,
+      "withdrawal_bound": 17.36590115247541,
+      "hand_bound": 20.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2",
+      "stored_bound": 14.157787759153244,
+      "withdrawal_bound": 17.755860306432616,
+      "hand_bound": 1.7555998498767238
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2.5",
+      "stored_bound": 18.768297994247398,
+      "withdrawal_bound": 17.768297994247398,
+      "hand_bound": 1.7677079031034708
+    },
+    {
+      "rack": "HX05B",
+      "tool": "3",
+      "stored_bound": 21.23237346300601,
+      "withdrawal_bound": 20.0,
+      "hand_bound": 20.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T20",
+      "stored_bound": 7.868241320192601,
+      "withdrawal_bound": 20.0,
+      "hand_bound": 12.992576457651204
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T25",
+      "stored_bound": 1.593465745396509,
+      "withdrawal_bound": 14.65273583459716,
+      "hand_bound": 1.7263963832889644
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T27",
+      "stored_bound": 0.999124386960144,
+      "withdrawal_bound": 1.7644231730438023,
+      "hand_bound": 3.8330339911244025
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T30",
+      "stored_bound": 0.999124386960144,
+      "withdrawal_bound": 13.624697590456563,
+      "hand_bound": 5.398520490772604
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T40",
+      "stored_bound": 0.9998528201730563,
+      "withdrawal_bound": 4.983620893280154,
+      "hand_bound": 17.068466888395378
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T9",
+      "stored_bound": 20.108971424072227,
+      "withdrawal_bound": 17.76447313477739,
+      "hand_bound": 1.7645525302792535
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T10",
+      "stored_bound": 26.3916358156322,
+      "withdrawal_bound": 20.0,
+      "hand_bound": 16.675559909280018
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T15",
+      "stored_bound": 19.047579414850837,
+      "withdrawal_bound": 18.047579414850837,
+      "hand_bound": 1.7668812932407647
+    }
+  ],
+  "passed": true
+}
