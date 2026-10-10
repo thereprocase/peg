@@ -1,0 +1,20 @@
+{
+  "source_sha256": "abf9f8b7d365ce1de903dcf81d028213dd2841b753aa274bc4c12e908e5d9e9d",
+  "project_sha256": "b5de56bf1c0bfdc9a486c57aafd1f22e61a184ec160f139df289ec9c09c882e4",
+  "input_meshes": {
+    "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__print.stl": "eef57613d3cc8b469d66e27c4934bcd748bda2c292b9426f16abf52a39661eef",
+    "part-hx04__v2__left-cheek__fit-pf02c9-hoop5__print_solid-zones.stl": "0475c37a1483699071c73778a80f517153a0b3f90e60fb4dea8c31aa864cbc55"
+  },
+  "geometry_scale": 1.0,
+  "original_print_pose_preserved": true,
+  "modifier_alignment_preserved": true,
+  "modifier_sparse_infill": "100%",
+  "embedded_machine_or_filament_profiles": false,
+  "gcode_included": false,
+  "body_extents_mm": [
+    252.57620239257812,
+    92.40544128417969,
+    236.0
+  ],
+  "scope": "Repack of archived v2 geometry, not a new fit-qualified rack. Existing owner compensation must be applied once. Supports, compensated bed/brim fit and physical installation need new owner-profile review."
+}

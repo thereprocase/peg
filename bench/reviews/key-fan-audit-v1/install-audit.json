@@ -1,0 +1,329 @@
+{
+  "source_sha256": "df9b0fdfd86eba0a58c0d3c9b095657b800b8911396e486b03d286bfce5d32bc",
+  "step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+  "pivot_installed_mm": [
+    0.0,
+    -1.82,
+    -91.91945596830196
+  ],
+  "board_front_mm": 0.15,
+  "board_thickness_mm": 3.94,
+  "hole_radius_mm": 3.175,
+  "pitch_mm": 25.4,
+  "hole_top_row_z_mm": -95.09445596830196,
+  "body_bbox_mm": [
+    [
+      -119.8605111235,
+      -10.79,
+      -342.3456623145031
+    ],
+    [
+      118.00000000002282,
+      81.615443093831,
+      -86.68471330628653
+    ]
+  ],
+  "steps": [
+    {
+      "angle_deg": 25.0,
+      "front_host_intersection_mm3": 362.29769358038305
+    },
+    {
+      "angle_deg": 24.5,
+      "front_host_intersection_mm3": 351.4833290552615
+    },
+    {
+      "angle_deg": 24.0,
+      "front_host_intersection_mm3": 340.86300810288367
+    },
+    {
+      "angle_deg": 23.5,
+      "front_host_intersection_mm3": 330.4323033016212
+    },
+    {
+      "angle_deg": 23.0,
+      "front_host_intersection_mm3": 320.18692308605364
+    },
+    {
+      "angle_deg": 22.5,
+      "front_host_intersection_mm3": 310.1227067090679
+    },
+    {
+      "angle_deg": 22.0,
+      "front_host_intersection_mm3": 300.23561942829826
+    },
+    {
+      "angle_deg": 21.5,
+      "front_host_intersection_mm3": 290.5217479065795
+    },
+    {
+      "angle_deg": 21.0,
+      "front_host_intersection_mm3": 280.97729581521554
+    },
+    {
+      "angle_deg": 20.5,
+      "front_host_intersection_mm3": 271.5985796304444
+    },
+    {
+      "angle_deg": 20.0,
+      "front_host_intersection_mm3": 262.38202461412305
+    },
+    {
+      "angle_deg": 19.5,
+      "front_host_intersection_mm3": 253.32416096937322
+    },
+    {
+      "angle_deg": 19.0,
+      "front_host_intersection_mm3": 244.42162016391674
+    },
+    {
+      "angle_deg": 18.5,
+      "front_host_intersection_mm3": 235.6711314131237
+    },
+    {
+      "angle_deg": 18.0,
+      "front_host_intersection_mm3": 227.0695183160385
+    },
+    {
+      "angle_deg": 17.5,
+      "front_host_intersection_mm3": 218.61369563848967
+    },
+    {
+      "angle_deg": 17.0,
+      "front_host_intersection_mm3": 210.3006662368797
+    },
+    {
+      "angle_deg": 16.5,
+      "front_host_intersection_mm3": 202.12751811842054
+    },
+    {
+      "angle_deg": 16.0,
+      "front_host_intersection_mm3": 194.0914216330214
+    },
+    {
+      "angle_deg": 15.5,
+      "front_host_intersection_mm3": 186.18962679344477
+    },
+    {
+      "angle_deg": 15.0,
+      "front_host_intersection_mm3": 178.41946072103147
+    },
+    {
+      "angle_deg": 14.5,
+      "front_host_intersection_mm3": 170.77832521540432
+    },
+    {
+      "angle_deg": 14.0,
+      "front_host_intersection_mm3": 163.2636944478716
+    },
+    {
+      "angle_deg": 13.5,
+      "front_host_intersection_mm3": 155.87311277993174
+    },
+    {
+      "angle_deg": 13.0,
+      "front_host_intersection_mm3": 148.60419270984607
+    },
+    {
+      "angle_deg": 12.5,
+      "front_host_intersection_mm3": 141.45461295397055
+    },
+    {
+      "angle_deg": 12.0,
+      "front_host_intersection_mm3": 134.42211667182113
+    },
+    {
+      "angle_deg": 11.5,
+      "front_host_intersection_mm3": 127.5045098501628
+    },
+    {
+      "angle_deg": 11.0,
+      "front_host_intersection_mm3": 120.69965986691133
+    },
+    {
+      "angle_deg": 10.5,
+      "front_host_intersection_mm3": 114.0054942668437
+    },
+    {
+      "angle_deg": 10.0,
+      "front_host_intersection_mm3": 107.41999979352684
+    },
+    {
+      "angle_deg": 9.5,
+      "front_host_intersection_mm3": 100.94122174370975
+    },
+    {
+      "angle_deg": 9.0,
+      "front_host_intersection_mm3": 94.5672637403188
+    },
+    {
+      "angle_deg": 8.5,
+      "front_host_intersection_mm3": 88.29628806762732
+    },
+    {
+      "angle_deg": 8.0,
+      "front_host_intersection_mm3": 82.1265167848805
+    },
+    {
+      "angle_deg": 7.5,
+      "front_host_intersection_mm3": 76.05623395202974
+    },
+    {
+      "angle_deg": 7.0,
+      "front_host_intersection_mm3": 70.08378949265317
+    },
+    {
+      "angle_deg": 6.5,
+      "front_host_intersection_mm3": 64.20760554583698
+    },
+    {
+      "angle_deg": 6.0,
+      "front_host_intersection_mm3": 58.42618672420615
+    },
+    {
+      "angle_deg": 5.5,
+      "front_host_intersection_mm3": 52.73813673371977
+    },
+    {
+      "angle_deg": 5.0,
+      "front_host_intersection_mm3": 47.1421857698855
+    },
+    {
+      "angle_deg": 4.5,
+      "front_host_intersection_mm3": 41.637237029901634
+    },
+    {
+      "angle_deg": 4.0,
+      "front_host_intersection_mm3": 36.222436706416225
+    },
+    {
+      "angle_deg": 3.5,
+      "front_host_intersection_mm3": 30.897281507647058
+    },
+    {
+      "angle_deg": 3.0,
+      "front_host_intersection_mm3": 25.661889230979423
+    },
+    {
+      "angle_deg": 2.5,
+      "front_host_intersection_mm3": 20.517540204151786
+    },
+    {
+      "angle_deg": 2.0,
+      "front_host_intersection_mm3": 15.467923764987765
+    },
+    {
+      "angle_deg": 1.5,
+      "front_host_intersection_mm3": 10.53280151366954
+    },
+    {
+      "angle_deg": 1.0,
+      "front_host_intersection_mm3": 6.812226190568245
+    },
+    {
+      "angle_deg": 0.5,
+      "front_host_intersection_mm3": 3.374142719627183
+    },
+    {
+      "angle_deg": 0.0,
+      "front_host_intersection_mm3": 0.0
+    }
+  ],
+  "worst_front_host_intersection_mm3": 362.29769358038305,
+  "worst_front_host_angle_deg": 25.0,
+  "front_host_seated_intersection_mm3": 0.0,
+  "seated_bearing_sensitivities": [
+    {
+      "board_thickness_mm": 3.8,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 0.0,
+      "total_seated_bearing_intersection_mm3": 0.0,
+      "bearing_pegs_with_intersection_gt_1e_4": 0
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 0.0,
+      "total_seated_bearing_intersection_mm3": 0.0,
+      "bearing_pegs_with_intersection_gt_1e_4": 0
+    },
+    {
+      "board_thickness_mm": 4.1,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 0.0,
+      "total_seated_bearing_intersection_mm3": 0.0,
+      "bearing_pegs_with_intersection_gt_1e_4": 0
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.25,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 1.2939798297681695,
+      "total_seated_bearing_intersection_mm3": 93.1665477426745,
+      "bearing_pegs_with_intersection_gt_1e_4": 72
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.45,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 0.0,
+      "total_seated_bearing_intersection_mm3": 0.0,
+      "bearing_pegs_with_intersection_gt_1e_4": 0
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.375,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 4.237160616798391,
+      "total_seated_bearing_intersection_mm3": 175.5051107042338,
+      "bearing_pegs_with_intersection_gt_1e_4": 72
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.425,
+      "residual_part_scale": 1.0,
+      "max_seated_bearing_intersection_mm3": 0.3972985886563727,
+      "total_seated_bearing_intersection_mm3": 2.9745019515901014,
+      "bearing_pegs_with_intersection_gt_1e_4": 32
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 0.999,
+      "max_seated_bearing_intersection_mm3": 1.9197299906653722,
+      "total_seated_bearing_intersection_mm3": 44.58286435940467,
+      "bearing_pegs_with_intersection_gt_1e_4": 60
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.001,
+      "max_seated_bearing_intersection_mm3": 2.0598100634163607,
+      "total_seated_bearing_intersection_mm3": 50.57547709878694,
+      "bearing_pegs_with_intersection_gt_1e_4": 64
+    },
+    {
+      "board_thickness_mm": 3.94,
+      "hole_diameter_mm": 6.35,
+      "pitch_mm": 25.4,
+      "residual_part_scale": 1.0054293183189222,
+      "max_seated_bearing_intersection_mm3": 13.483561637887398,
+      "total_seated_bearing_intersection_mm3": 325.53720200603215,
+      "bearing_pegs_with_intersection_gt_1e_4": 64
+    }
+  ],
+  "seconds": 260.53226736199576,
+  "scope": "Same assumed fixed pivot as published swing screen; checks front host omitted from the rear-peg screen. Sensitivity ranges are illustrative, not measured board tolerances. Positive volume is neither force nor maximum penetration; compliant hooks/hoops and alternative install trajectories are not simulated."
+}

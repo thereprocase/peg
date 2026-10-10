@@ -1,0 +1,19 @@
+{
+  "mesh_npz_sha256": "0f57251c41f7ee030992984c27c3b07318e443311950aa985de9c2ec59c8ec94",
+  "checker_sha256": "9b73defe419d8eee46726cb8e63cb01833661a044db6c130a12a5c79e20bf658",
+  "nodes": 335565,
+  "elements": 189207,
+  "connected_components": 1,
+  "inverted_elements": 0,
+  "mesh_volume_mm3": 1532900.3187245256,
+  "native_volume_mm3": 1527603.2742597507,
+  "relative_native_volume_error": 0.003467552442463668,
+  "corner_tetra_quality": {
+    "min": 9.20206242429067e-06,
+    "p1": 0.017739292345402564,
+    "p5": 0.05897298057996131,
+    "median": 0.6934432004505993
+  },
+  "passed": true,
+  "note": "C3D10 midside nodes are linear in these runs; determinant check is therefore valid throughout each element. Quality statistic is a normalized corner-tetra mean ratio, not a stress-convergence certificate."
+}

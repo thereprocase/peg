@@ -1,0 +1,52 @@
+"""Compact exact motion references and FEA boundary fields for WebGL review.
+All visualization units are metres; original analysis units remain N/mm/MPa.
+"""
+import argparse,json,hashlib,struct,gzip
+from pathlib import Path
+import numpy as np
+T=np.array([[-1,0,0],[0,0,1],[0,1,0]],float)
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def normals(V,F):
+ a=V[F[:,1]]-V[F[:,0]];b=V[F[:,2]]-V[F[:,0]];n=np.cross(a,b);out=np.zeros_like(V)
+ for k in range(3):np.add.at(out,F[:,k],n)
+ out/=np.maximum(np.linalg.norm(out,axis=1)[:,None],1e-20);return out
+
+def stl(path):
+ data=path.read_bytes();n=struct.unpack_from('<I',data,80)[0];assert len(data)==84+n*50
+ rec=np.ndarray((n,),dtype=np.dtype([('normal','<f4',(3,)),('v','<f4',(3,3)),('attr','<u2')]),buffer=data,offset=84);points=rec['v'].reshape(-1,3).astype(float);V,inv=np.unique(np.round(points,5),axis=0,return_inverse=True);F=inv.reshape(-1,3);return V,F
+
+def write_mesh(out,name,V,F):
+ V=V@T.T*.001;N=normals(V,F);vf=np.c_[V,N].astype('<f4');f=F.astype('<u4');path=out/(name+'.bin');path.write_bytes(vf.tobytes()+f.tobytes());return dict(file=path.name,vertices=len(V),indices=f.size,stride_floats=6,sha256=sha(path))
+
+def boundary(mesh,volfile):
+ ids=mesh['ids'];pos={int(i):k for k,i in enumerate(ids)};C=[];on=False
+ for line in volfile.read_text().splitlines():
+  if line.startswith('*'):on=line.upper().startswith('*ELEMENT');continue
+  if on:
+   x=[v.strip() for v in line.split(',') if v.strip()]
+   if len(x)==11:C.append([pos[int(i)] for i in x[1:]])
+ C=np.array(C);facepatterns=np.array([[0,1,2,4,5,6],[0,1,3,4,8,7],[0,2,3,6,9,7],[1,2,3,5,9,8]])
+ faces=C[:,facepatterns].reshape(-1,6);owners=np.repeat(np.arange(len(C)),4);keys=np.sort(faces[:,:3],axis=1);_,inverse,counts=np.unique(keys,axis=0,return_inverse=True,return_counts=True);keep=counts[inverse]==1;faces=faces[keep];owners=owners[keep]
+ X=mesh['X'];centre=mesh['element_centres'];corner=X[faces[:,:3]];n=np.cross(corner[:,1]-corner[:,0],corner[:,2]-corner[:,0]);reverse=np.einsum('ij,ij->i',n,corner.mean(1)-centre[owners])<0
+ tri=faces[:,np.array([[0,3,5],[3,1,4],[5,4,2],[3,4,5]])].reshape(-1,3);reverse=np.repeat(reverse,4);tri[reverse]=tri[reverse][:,[0,2,1]];used,idx=np.unique(tri,return_inverse=True);return C,used,idx.reshape(-1,3)
+
+def main():
+ p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args();root=a.root.resolve();out=a.out.resolve();out.mkdir(parents=True,exist_ok=True)
+ report=json.loads((root/'cad-source/bench/reviews/key-fan-v2/HX04/report.json').read_text());V,F=stl(root/'cad-source/bench/reviews/key-fan-v2/HX04'/report['assets']['installed.stl']);holder=write_mesh(out,'holder',V,F)
+ motion=json.loads((root/'motion/motion-audit.json').read_text());tools=[]
+ for q in motion['tools']:
+  V,F=stl(root/'motion'/q['mesh']);mesh=write_mesh(out,f'tool-{q["index"]:02d}',V,F);tools.append(dict(q,display_mesh=mesh))
+ base=root/'h7';m=np.load(base/'mesh.npz');C,used,F=boundary(m,base/'volume.inp');X=m['X'];fem=write_mesh(out,'fem-boundary',X[used],F);fields=[]
+ for support,mode in [('all-pegs','mouth'),('all-pegs','grip-wrench'),('hooks-only','grip-wrench'),('four-corners','grip-wrench'),('face','grip-wrench')]:
+  r=json.loads((base/f'{support}-{mode}/result.json').read_text())
+  for i,q in enumerate(r['loads']):
+   source=base/f'{support}-{mode}'/f'field-{i+1:02d}.npz';field=np.load(source);U=field['U'];S=field['stress'];sv=np.sqrt(.5*((S[:,0]-S[:,1])**2+(S[:,1]-S[:,2])**2+(S[:,2]-S[:,0])**2)+3*np.sum(S[:,3:]**2,axis=1));j=np.searchsorted(m['element_ids'],field['stress_element_ids']);avg=np.bincount(j,weights=sv,minlength=len(C))/np.maximum(np.bincount(j,minlength=len(C)),1)
+   num=np.zeros(len(X));den=np.zeros(len(X))
+   for k in range(10):np.add.at(num,C[:,k],avg);np.add.at(den,C[:,k],1)
+   scalar=num/np.maximum(den,1);disp=U[used]@T.T*.001;scales=np.maximum(np.abs(disp).max(0)/32767,1e-30);stress_step=max(float(scalar[used].max())/65535,1e-30);data=np.zeros((len(used),4),dtype='<u2');data[:,:3]=np.rint(disp/scales).astype('<i2').view('<u2');data[:,3]=np.rint(scalar[used]/stress_step).astype('<u2');name=f'field-{support}-{mode}-{i+1:02d}.bin.gz';(out/name).write_bytes(gzip.compress(data.tobytes(),compresslevel=9,mtime=0))
+   fields.append(dict(q,file=name,sha256=sha(out/name),encoding='signed-int16-displacement/uint16-stress-v1; gzip',displacement_quant_step_m=scales.tolist(),stress_quant_step_MPa=stress_step,max_component_displacement_quant_error_mm=(scales*.5*1000).tolist(),max_stress_quant_error_MPa=stress_step*.5,support=support,force_mode=mode,vertices=len(used),display_stress='Mean integration-point von Mises per element, then adjacent-element arithmetic average at boundary nodes. Statistics in report use original integration points.',default_exaggeration=min(1000.,15/max(q['max_deflection_mm'],1e-6))))
+ # Remove only the superseded uncompressed fields generated by this exporter.
+ for old in out.glob('field-*.bin'):old.unlink()
+ data=dict(schema='hx04-engineering-viewer-1',source_sha256=sha(__file__),installed_step_sha256='62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a',world_transform=T.tolist(),holder=holder,fem=fem,tools=tools,fields=fields,motion_scope=motion['scope'],source_mesh=sha(base/'mesh.npz'),units='Display metres, displacement labels mm, stress MPa; illustrative static load ramps, not transient dynamics')
+ (out/'scene.json').write_text(json.dumps(data,indent=2)+'\n');print('Viewer data:',len(fields),'FEA fields,',len(tools),'tool trajectories; bytes',sum(p.stat().st_size for p in out.iterdir()))
+if __name__=='__main__':main()

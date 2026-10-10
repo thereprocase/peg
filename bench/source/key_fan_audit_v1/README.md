@@ -1,0 +1,15 @@
+# HX04 extended engineering audit
+
+Read-only simulation work on the exact released v2 fan STEP, SHA256 `62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a`. The body has not adopted the new straight-guide fit. The requested overnight campaign covers native geometry, mesh/solver quality, mouth forces versus grip moments, fixture/material/load-distribution sensitivity, locking-hoop pinch, finer rigid tool withdrawal and full-host installation, plus actual computed deformation/motion films.
+
+`fea_audit.py` is the initial recorded runner. `recover_summary.py` repairs only its final version-query receipt: the Linux CalculiX `-v` command returns 201 even though it successfully prints the version. It does not alter or rerun numerical solves. `fea_campaign.py` reuses independently gated meshes for material/load studies. Failed mesh/solver runs remain explicitly disqualified; do not change acceptance thresholds to make them pass.
+
+`motion_audit.py` reads the released layout and extracts the unchanged native reference-tool functions by AST. This avoids importing unrelated mount generators; the original standalone v2 ZIP lacks some of those transitive dependencies. The review package supplements the source tree without modifying original geometry. Straightening uses rigid rotations and linearly interpolated tips; withdrawal is sampled at 1 mm. A sampled pass is not a continuous certificate.
+
+`install_audit.py` checks front-host material omitted by the old rear-peg swing screen, and sensitivity to illustrative board/grid/part-scale variations. `install_candidate.py` examines outward-translated candidate swings, not qualified physical installation paths. `extract_hoop.py` and `hoop_fea.py` isolate the actual centre bottom hoop with a plate/root patch and impose controlled crest pinches. This is not an insertion-force or recoverability test.
+
+`export_viewer_data.py` exports genuine solver displacements/stresses and tool references. Display-only field quantization has explicit bounded errors; full numerical statistics use the original solver values. `record_films.cjs` records the inked cel/stress viewer at prescribed phases and makes both GIF and WebM files. Magnification is stated in-frame; load ramps are static linear scaling, not transient dynamics. The first recorder/renderer revision is retained as capture provenance.
+
+`repack_project.py` removes the historical pre-baked scale from the brace-project delivery by using the exact unscaled released meshes. The resulting 3MF contains no machine/filament profile or G-code. Apply the owner's compensation once when reslicing; this repack does not qualify the old fit or installation.
+
+Run with Linux Gmsh 4.15.0, CalculiX 2.21 and Python/numpy/scipy; native checks use checksum-pinned FreeCAD 1.1.3/OCC 7.8.1. Solver 2.23 is an additional cross-check, not silently substituted evidence. Large raw meshes/decks/fields stay in the compute run directory; compact receipts, reproducible sources and display fields accompany publication. Never publish printer credentials, camera captures, private filament presets or machine-specific G-code.

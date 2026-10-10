@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2814,
-  "total_size_bytes": 1149406856,
+  "file_count": 2853,
+  "total_size_bytes": 1154144876,
   "files": [
     {
       "path": ".gitattributes",
@@ -1887,6 +1887,71 @@
       "sha256": "c11fe1fd7083675fd3acaaa16aaf043ed418fc2e0980c549d34301bdb9326a30"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/HX04-v2__uncompensated-brace-project__reslice.3mf",
+      "size_bytes": 4406708,
+      "sha256": "b5de56bf1c0bfdc9a486c57aafd1f22e61a184ec160f139df289ec9c09c882e4"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-h5-baseline.json",
+      "size_bytes": 10201,
+      "sha256": "5b5cf03e2ec4c876ad1c85b2cabdb739a60a7ecd8b9ebf08975b44d3fe75197f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-h6-baseline.json",
+      "size_bytes": 10087,
+      "sha256": "f9ac419cef7af26335b5bd9790fbcdb415ab1ac749cc8fccb4f47acb4ea91946"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-h7-deep.json",
+      "size_bytes": 47517,
+      "sha256": "11ea6307977bcef8082e0dc6c42d3197a4aa64480adb83417eeafd1a70de872a"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-orthotropic-reference.json",
+      "size_bytes": 51680,
+      "sha256": "4cb8669290b4db7a0e36191c28310361303085630976bda5785bf0d86899c77e"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-patch-2x.json",
+      "size_bytes": 20683,
+      "sha256": "b16ca707efcf3c66a78a799a5a104706d9f6fddcc61ff99128a5f42d138fcfd6"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/hoop-h04.json",
+      "size_bytes": 4537,
+      "sha256": "7c366a7796c3e3865a0cae356bc3c956e1d115d7ed9c32d802ffcf2fdee22071"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/install-audit.json",
+      "size_bytes": 8958,
+      "sha256": "e7d2fa955a763a1bca2f2d05447f4116500739fb15d333bf02322910f3dcca56"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/mesh-h5-quality.json",
+      "size_bytes": 813,
+      "sha256": "bfd9e77e7d0081ff08da908fc530ff41cafab0801703c590aaf966553c4a88b2"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/mesh-h7-quality.json",
+      "size_bytes": 814,
+      "sha256": "7f1e3d1d2872feec7f839b07d3688d49427cd9d269df03eba49d6b146cabc8b2"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/motion-audit.json",
+      "size_bytes": 43134,
+      "sha256": "a5ddd8cdcfcbcdcce1a94dd51a89cae18b5a3c27ee59bfb23bf3f43e0eadc626"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/native-audit.json",
+      "size_bytes": 1927,
+      "sha256": "0817906be68e7ef735a67ce967bfe1898105d2a2c8d97df9e0b8e93b7b1ee9df"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/uncompensated-project-check.json",
+      "size_bytes": 996,
+      "sha256": "29f849509003e205419af593d58be90903ca2802996fc0ba4c31bba21b8fde45"
+    },
+    {
       "path": "bench/reviews/key-fan-v1/HX04/NOTES.md",
       "size_bytes": 5168,
       "sha256": "c4047e1f83ade2c4195ba39ad86ab77e6b1a3de720a2b5f4bef6c20c0e3d17e1"
@@ -3515,6 +3580,136 @@
       "path": "bench/source/geometry.py",
       "size_bytes": 6924,
       "sha256": "fd9f99f9d10c08a9c02394814c688ac5fdb7701888524a3d154279f1754fa705"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/README.md",
+      "size_bytes": 3131,
+      "sha256": "c59c78e8ae3031b469b771357c66807ba302293e5efce032decbad0397791390"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/export_board.py",
+      "size_bytes": 965,
+      "sha256": "50dc4f8846445e38b3a2627b1c8efdfc322fe72e74690709b4cc7e5e003b057d"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/export_viewer_data.py",
+      "size_bytes": 5669,
+      "sha256": "b9bf1b6ac694603b75dde57b7acdd5af233a7e18c7150397ef633a0a99a24210"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/extract_hoop.py",
+      "size_bytes": 1409,
+      "sha256": "2f1b0b423f1124a8cf28b27fee1045cbda47d8675cd5976530a138b0a68aac38"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/fea_audit.py",
+      "size_bytes": 9457,
+      "sha256": "b18f3526868a72aa7f51268c5706a73e7b58c0237c667a84821533845e3bfc1c"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/fea_audit_v2.py",
+      "size_bytes": 9666,
+      "sha256": "a59cdd83c570803d30affb2368b8c4175865bb61630ad9fdb245b4fe8bf24fa8"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/fea_campaign.py",
+      "size_bytes": 11075,
+      "sha256": "69420e6a5e9e4d0b43d681ea8c7ff466f341d107140f2e11014f8090b76d4bf0"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/fea_load_patch.py",
+      "size_bytes": 11147,
+      "sha256": "c91d87cf1e5af3a42b50144c6ee3735c81dbe45a518e058628fb5bff7fe88811"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/fea_mesh_ladder.py",
+      "size_bytes": 9666,
+      "sha256": "70321c85f4145a343e6f381e20799a651e693f7ac192af6aaf52ef07c6fcd99f"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/hoop_fea.py",
+      "size_bytes": 4307,
+      "sha256": "3876552dfcc0b4959edc6e9c763c1332f3b5dd8b63dccdd94fb39b35fa1a9d44"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/install_audit.py",
+      "size_bytes": 4235,
+      "sha256": "df9b0fdfd86eba0a58c0d3c9b095657b800b8911396e486b03d286bfce5d32bc"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/install_candidate.py",
+      "size_bytes": 3230,
+      "sha256": "3718d799fd4a3016a0c43522b60f95eda93f53b4581abcf5da6a907c0a569e31"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/isolated_case.py",
+      "size_bytes": 1729,
+      "sha256": "9ca451d77aad85a5bbef1af5c6079f5bda182cc80589e73e8f8136ef348a6970"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/loads.json",
+      "size_bytes": 2087,
+      "sha256": "572c329f6c3f088a2916babc143e708156d86467a56793e46da575ed6cf43e62"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/mesh_quality.py",
+      "size_bytes": 2192,
+      "sha256": "9b73defe419d8eee46726cb8e63cb01833661a044db6c130a12a5c79e20bf658"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/motion_audit.py",
+      "size_bytes": 7245,
+      "sha256": "258736942920666f39e2bbb71871c4f2dd7585a71d4a522ba4ade908ab030e13"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/native_audit.py",
+      "size_bytes": 2240,
+      "sha256": "80eceedb84365df04abf88c247001b44fd4aabae6790f88b77a1a9d24578e1c6"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/probe_viewer.cjs",
+      "size_bytes": 1687,
+      "sha256": "010ad5e1390b9bb0548ab3b2b35a6b3d2b4655c6ac4e6bc9bb8290849f7161b0"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/reaction_audit.py",
+      "size_bytes": 2025,
+      "sha256": "af571130eddb1d8f9504fb7795c3e034333df09c953de928c41ab14dee2fef3c"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/record_films.cjs",
+      "size_bytes": 4841,
+      "sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/record_films_v1.cjs",
+      "size_bytes": 4790,
+      "sha256": "8333ca23bbebbb6663698d591e627c52a22ba008c462f985378adbd3b941045a"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/recover_summary.py",
+      "size_bytes": 2112,
+      "sha256": "7f6c4a380097d3e283fa016261a341133ff76d08cb4bc661082e1f5ef523556a"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/repack_project.py",
+      "size_bytes": 5006,
+      "sha256": "abf9f8b7d365ce1de903dcf81d028213dd2841b753aa274bc4c12e908e5d9e9d"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/retry_solver.py",
+      "size_bytes": 1220,
+      "sha256": "e6f015ceb5f13b0c2998719e43fe96d5b3e5be9c34b9214fc44063659cb2350b"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/study_renderer_v1.js",
+      "size_bytes": 18144,
+      "sha256": "a5a2425d1aa2970ddd956c1331a114b7fbf4b985ca7fac3cca7c1a5e2eaa1103"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/test_fea_audit.py",
+      "size_bytes": 690,
+      "sha256": "9b87e0f15f275f6b30770f2848f37e99b58c5e4fb7a7cf4cbdd8ed3985a2c4a5"
     },
     {
       "path": "bench/source/key_fan_v1/README.md",
