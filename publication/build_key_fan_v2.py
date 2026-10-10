@@ -105,3 +105,8 @@ apply_fit_revision(R/'.local-runtime/tee-fit-v6-release')
 # Preserve completed engineering review after rebuilding the historical page.
 from publish_key_fan_audit import apply as apply_engineering_review
 apply_engineering_review()
+
+# Preserve the final straight-socket release after regenerating historical content.
+if (R/'docs/gallery/key-fan/final/models.json').exists():
+    from publish_final_racks import apply as apply_final_models
+    apply_final_models()

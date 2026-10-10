@@ -1,0 +1,354 @@
+{
+  "docs/gallery/key-fan/final/index.html": {
+    "sha256": "6cccdca025dfbea24c90da1b839d965d542488f43020beff28b4692d9c848a29",
+    "bytes": 4629
+  },
+  "docs/gallery/key-fan/final/final.css": {
+    "sha256": "393121b3def50da46efd4618ded08388c26385dcc20b490f08fac7d7a6a8f599",
+    "bytes": 1228
+  },
+  "docs/gallery/key-fan/final/final.js": {
+    "sha256": "f493abf68963b192949927c35817a1b33f67c39e3ed593dba37c72a8cc32a7dd",
+    "bytes": 3709
+  },
+  "docs/gallery/key-fan/final/fit-selection.json": {
+    "sha256": "40a41907e21331fdaae0690d876dff4ffdeca9af73ea54556d500554978a0543",
+    "bytes": 604
+  },
+  "docs/gallery/key-fan/final/models.json": {
+    "sha256": "1dc3c7a608f4924fdaa730ca0c1970dcd8b02f36d4c280d1e682889cda2e2894",
+    "bytes": 75809
+  },
+  "docs/gallery/key-fan/final/HX05A/installed.glb.gz": {
+    "sha256": "d005ab99e11745b554d37753958716557866c35d3db88870b115430951dad66a",
+    "bytes": 127820
+  },
+  "docs/gallery/key-fan/final/HX05A/loaded.glb.gz": {
+    "sha256": "a1b4b6634ad6538a1028ca95475853237d5d5768e2404f7f1b88e4d915d87fc9",
+    "bytes": 231693
+  },
+  "docs/gallery/key-fan/final/HX05A/print.glb.gz": {
+    "sha256": "2e9c8f63517fd1a24c4166d426a5f8535d6903dd17f9b8e23b8791495cdb3672",
+    "bytes": 128038
+  },
+  "docs/gallery/key-fan/final/HX05A/hero.jpg": {
+    "sha256": "edf9765427d3301bd3118bbf0591b8f65c0ee0f34d8d140e9ad9a6176abab5c3",
+    "bytes": 24093
+  },
+  "docs/gallery/key-fan/final/HX05A/empty.jpg": {
+    "sha256": "3d178f8e90b6b111c108c137b5f5e5c6603832e3e66c3e62a08634391cf4d366",
+    "bytes": 23917
+  },
+  "docs/gallery/key-fan/final/HX05A/print.jpg": {
+    "sha256": "892b7338ff75333884700d5d7117b88627f3562904dfa0cdb10685fbb21ae4b4",
+    "bytes": 19660
+  },
+  "docs/gallery/key-fan/final/HX05B/installed.glb.gz": {
+    "sha256": "5c1d5834d0eb0c3e984cc2e2e2482c07dad19bf0a5fe980ae5684f4e5c4c1948",
+    "bytes": 126953
+  },
+  "docs/gallery/key-fan/final/HX05B/loaded.glb.gz": {
+    "sha256": "81123c8d64ef33c49781ecfc18305267bd480cd4d44ea0b89a0e56c777bbc0d1",
+    "bytes": 231688
+  },
+  "docs/gallery/key-fan/final/HX05B/print.glb.gz": {
+    "sha256": "257f151dd4391d8f5f582b8b4f64b5584dd6604f94b35135f983a1a96bc1ce88",
+    "bytes": 127194
+  },
+  "docs/gallery/key-fan/final/HX05B/hero.jpg": {
+    "sha256": "d3f501062b24bd435f917f0b65e162693b117e16205f1a4eaba54986dee4f715",
+    "bytes": 24562
+  },
+  "docs/gallery/key-fan/final/HX05B/empty.jpg": {
+    "sha256": "c1673daefad66c9b09829f177981da4329667e7808fc63c2f88c9afb3d6f2b8f",
+    "bytes": 23524
+  },
+  "docs/gallery/key-fan/final/HX05B/print.jpg": {
+    "sha256": "2af4ad1d1860da2656e6bcb641df8e4a6aa16fd7f626146b0e7db8e1a2132b55",
+    "bytes": 18859
+  },
+  "docs/gallery/key-fan/final/HX05C/installed.glb.gz": {
+    "sha256": "d9f491fe348f23c4900a6d160d4c134d950bc2aebaef51614e10ab7e9a7c8c49",
+    "bytes": 139530
+  },
+  "docs/gallery/key-fan/final/HX05C/loaded.glb.gz": {
+    "sha256": "351724bdb4439c125d5b37f54f6e46243a8fcb223f246af07eb8e2ab9d229901",
+    "bytes": 248827
+  },
+  "docs/gallery/key-fan/final/HX05C/print.glb.gz": {
+    "sha256": "f72beea9672555b7c150cb87d68dd9f7b21be663f179e1f90a351f31ec25d3de",
+    "bytes": 140391
+  },
+  "docs/gallery/key-fan/final/HX05C/hero.jpg": {
+    "sha256": "f921c4e83ee5f72077d01853bb1e7554fa14f3aff57e7a80199f3d8c82189e26",
+    "bytes": 27841
+  },
+  "docs/gallery/key-fan/final/HX05C/empty.jpg": {
+    "sha256": "17d597e0efe520f370b128e51d57268de00901b3402ca6e7052e2aba4611dedd",
+    "bytes": 26477
+  },
+  "docs/gallery/key-fan/final/HX05C/print.jpg": {
+    "sha256": "48d022116b20515a093a5c289ab14bdf650972948de4c55498c9dd6c71b6b38b",
+    "bytes": 18660
+  },
+  "docs/gallery/key-fan/final/HX04/installed.glb.gz": {
+    "sha256": "f3d59e239d3ca3f657d20ae96e469a33b315561e7586487d1c20702fbfe7e42c",
+    "bytes": 326013
+  },
+  "docs/gallery/key-fan/final/HX04/loaded.glb.gz": {
+    "sha256": "4c515eb34af3fa8b18f27a6070f66bdbb67833fdcb02c9ea7c82a7003a630737",
+    "bytes": 465249
+  },
+  "docs/gallery/key-fan/final/HX04/print.glb.gz": {
+    "sha256": "0a7831dec5730354c4bbbf12bdb524cc6157c608a2e4e8b330fe0521070edb8e",
+    "bytes": 324915
+  },
+  "docs/gallery/key-fan/final/HX04/hero.jpg": {
+    "sha256": "9cbfcf97fdafe371ef4750b14f7ee91c310bb1564ad559b3972b3aaf503c6a81",
+    "bytes": 31019
+  },
+  "docs/gallery/key-fan/final/HX04/empty.jpg": {
+    "sha256": "c68277082bacff9876d30f3a791948b6e85b7ec6697983cb3dc627d3ca432faa",
+    "bytes": 27216
+  },
+  "docs/gallery/key-fan/final/HX04/print.jpg": {
+    "sha256": "64804b1a08dcd6c6991617653b623bcada1086ea52b3238ab7e0041925cb4c46",
+    "bytes": 22588
+  },
+  "bench/reviews/final-racks-v1/models.json": {
+    "sha256": "1dc3c7a608f4924fdaa730ca0c1970dcd8b02f36d4c280d1e682889cda2e2894",
+    "bytes": 75809
+  },
+  "bench/reviews/final-racks-v1/HX04/native-check.json": {
+    "sha256": "3f2bf452847d68ef317063897a546ea2059f3eca64ca2726792938f75cf2a4ad",
+    "bytes": 10985
+  },
+  "bench/reviews/final-racks-v1/HX04/build-geometry.json": {
+    "sha256": "c07dbd61828dd86c8b5f56db9704b9f2377e2e71360185601177fdf724a7cfa9",
+    "bytes": 14396
+  },
+  "bench/reviews/final-racks-v1/HX04/run.json": {
+    "sha256": "5c2b96d3444975439f964a7eda4e9748a9f49e084b81638f5c67b196442c9135",
+    "bytes": 4154
+  },
+  "bench/reviews/final-racks-v1/HX04/pose.json": {
+    "sha256": "fef34d5e5e1a4599b182635f5738f562ec3607b64c4df6dec4268ca08bdd9522",
+    "bytes": 140
+  },
+  "bench/reviews/final-racks-v1/HX04/owner-refinement.json": {
+    "sha256": "bd699e18cfdb54b9df1e13fee2052d38c6fd8926ee11112ec4b45e605ca9ff29",
+    "bytes": 4329
+  },
+  "bench/reviews/final-racks-v1/HX04/full-guide-refinement.json": {
+    "sha256": "7aaaea0a46e309564ee2979a62991a72a0529bb93dcd5d49551a91812df0464e",
+    "bytes": 4730
+  },
+  "bench/reviews/final-racks-v1/HX04/document-roundtrip.json": {
+    "sha256": "b705f813d0342741c8b639b7de8ef01bcb7066e21e8e44850225c4eec0f87d61",
+    "bytes": 485
+  },
+  "bench/reviews/final-racks-v1/HX04/base-native-check.json": {
+    "sha256": "8ea78fecbf733ce50f3bb33183636479ea2552829afdca3219b582c80663d4c1",
+    "bytes": 11072
+  },
+  "bench/reviews/final-racks-v1/HX05A/native-check.json": {
+    "sha256": "b8f11ac8530607d67dc6a4b7910cfb639ec777ae9ae09a6edcbf150396a24cea",
+    "bytes": 4098
+  },
+  "bench/reviews/final-racks-v1/HX05A/build-geometry.json": {
+    "sha256": "220141d59d791251ac854fce3bd46409e63c973b6df558d28ceb5fdd4fa63344",
+    "bytes": 5129
+  },
+  "bench/reviews/final-racks-v1/HX05A/run.json": {
+    "sha256": "a433707ad916eabd08a0b32aef9dbd1a4388eef31a66b297dffe664695ee3532",
+    "bytes": 4282
+  },
+  "bench/reviews/final-racks-v1/HX05A/pose.json": {
+    "sha256": "245f92e32eaeee1c99399d83de72083c80b04ea09c38aa3c38685806c398994e",
+    "bytes": 141
+  },
+  "bench/reviews/final-racks-v1/HX05B/native-check.json": {
+    "sha256": "9a497390aec6ce5b1c9fd073ca2aec712776079b1ade0db3158305b15175d46c",
+    "bytes": 4066
+  },
+  "bench/reviews/final-racks-v1/HX05B/build-geometry.json": {
+    "sha256": "30c34663e2b638d6b5b7cea08f0b23299b9ec00110044808a0c95624fbde5e36",
+    "bytes": 5089
+  },
+  "bench/reviews/final-racks-v1/HX05B/run.json": {
+    "sha256": "7b7b0ee61962f7215062f68563f9189696bd507f54a4b999c8fa12764361b145",
+    "bytes": 4284
+  },
+  "bench/reviews/final-racks-v1/HX05B/pose.json": {
+    "sha256": "a179464d7bedfa38b48f9a7f4131dc7a04873831b0a61acbb1c39d970fb2dafa",
+    "bytes": 141
+  },
+  "bench/reviews/final-racks-v1/HX05C/native-check.json": {
+    "sha256": "dd4234f52f3e674df0aea25b34e0880fa38087038919c126262ad5dcfd7b8e20",
+    "bytes": 4969
+  },
+  "bench/reviews/final-racks-v1/HX05C/build-geometry.json": {
+    "sha256": "8be74cdb9037f2a05b24f0812ea9c69c5d0abc7f432f28605790e7e106914d40",
+    "bytes": 5907
+  },
+  "bench/reviews/final-racks-v1/HX05C/run.json": {
+    "sha256": "f69ade19c13cc4e800dff69e9292461ecd261436fb13b9fe7a5eba7496d69afa",
+    "bytes": 4283
+  },
+  "bench/reviews/final-racks-v1/HX05C/pose.json": {
+    "sha256": "82bd1b33d499218a925fbedd32cd388d68a2eddbf2f358c0c970e7c6761d34f8",
+    "bytes": 140
+  },
+  "bench/source/final_racks_v1/build_short.py": {
+    "sha256": "61feca40b5034b5bdce6086dfe5984ab05d53dc097b21b41f749861d046a33d2",
+    "bytes": 35084
+  },
+  "bench/source/final_racks_v1/prepare_layouts.py": {
+    "sha256": "9ab31c92292f20ab1671b23217f04ffe34590a5f97a3afefc4db02483032424c",
+    "bytes": 2585
+  },
+  "bench/source/final_racks_v1/build_all.py": {
+    "sha256": "234f1736db1dacf237c4c38e0509e34c3a6da67addefdbd8f41b547f77d56588",
+    "bytes": 1833
+  },
+  "bench/source/final_racks_v1/check_model.py": {
+    "sha256": "2599238b6272b97c6ac399e227ece38f581d1e31ce5d944f59765361e09ac1d0",
+    "bytes": 3673
+  },
+  "bench/source/final_racks_v1/preview.py": {
+    "sha256": "74b3f5c36b32e5438a1a785b9bf88e34852b98f340db3643e49df488b6288497",
+    "bytes": 1478
+  },
+  "bench/source/final_racks_v1/README.md": {
+    "sha256": "74cd7fd2e92b7a7db1a8a68629091a10b5e0f273ad86526776aa732cb991f125",
+    "bytes": 3901
+  },
+  "bench/source/final_racks_v1/refine_owner.py": {
+    "sha256": "8abeaace94150b302289e8a78144dd108de0ad7526e395841402daeb4750ff37",
+    "bytes": 4985
+  },
+  "bench/source/final_racks_v1/check_owner_model.py": {
+    "sha256": "05dd774cee0d56defff7d54e616138e28572499a71e5336be9de8166b96d919d",
+    "bytes": 3945
+  },
+  "bench/source/final_racks_v1/build_final.py": {
+    "sha256": "5ad9b09354f7a8cb58872c94d22dc5d59b9588823df68dfefca9d9f254f1b2f3",
+    "bytes": 1387
+  },
+  "bench/source/final_racks_v1/complete_guide_walls.py": {
+    "sha256": "d9216e6cc8749997e1d0d8a0ed30dd7bcf91dc4cc8a3d23891165f83e65e24bc",
+    "bytes": 4176
+  },
+  "bench/source/final_racks_v1/check_full_model.py": {
+    "sha256": "585656c78618b1acf38d4838b59e7f432bd27c6e910187844d244c87595fb326",
+    "bytes": 4018
+  },
+  "bench/source/final_racks_v1/normalize_document.py": {
+    "sha256": "f00ae7232220cc04602f56d9d719d378050fe30aa8dae09551b38317e028f5cc",
+    "bytes": 1823
+  },
+  "bench/source/final_racks_v1/study/comb.py": {
+    "sha256": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56",
+    "bytes": 2076
+  },
+  "bench/source/final_racks_v1/study/hx05a_layout-check.json": {
+    "sha256": "e8628d1dfb1aa7dd5ea3b7edc1a04f46811a6166de26f1b567ae0b086300ed10",
+    "bytes": 9245
+  },
+  "bench/source/final_racks_v1/study/hx05a_stand.json": {
+    "sha256": "ba84d7bde955430d36d3ef3963232e5e15eb2b3871ae61846bc55202546eaf09",
+    "bytes": 3181
+  },
+  "bench/source/final_racks_v1/study/hx05b_layout-check.json": {
+    "sha256": "ef8b63c5520a8bdd0766c5624143d3d0a5063658bbf4704fbc1b3b3e4e9c1605",
+    "bytes": 9224
+  },
+  "bench/source/final_racks_v1/study/hx05b_stand.json": {
+    "sha256": "48bd4cbfd2ddbd1fc32d3d56ec91be17beccc3fd67d907271c7088176b80a7ff",
+    "bytes": 3176
+  },
+  "bench/source/final_racks_v1/study/hx05c_layout-check.json": {
+    "sha256": "6f765c690c37cf073a496ea90ae86358ab4ec84165cca5d864b58711330a07fc",
+    "bytes": 11234
+  },
+  "bench/source/final_racks_v1/study/hx05c_stand.json": {
+    "sha256": "9621e4e0fb6cc689510ef9872ba3320dbf346166ba8cae8a355e45f975abffba",
+    "bytes": 3500
+  },
+  "bench/source/final_racks_v1/study/short.py": {
+    "sha256": "8e096f866365486727c07cf14572a406db26e161750bd449b46b96739256cef6",
+    "bytes": 27207
+  },
+  "bench/source/final_racks_v1/study/short_dt_c2.json": {
+    "sha256": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e",
+    "bytes": 4293
+  },
+  "bench/source/final_racks_v1/study/socket_policy.py": {
+    "sha256": "683c76c42f51e650a7f8d578e2ae9bbbc435b4e31b63cc4c007dbca52c0231b2",
+    "bytes": 501
+  },
+  "bench/source/final_racks_v1/study/stand_rows.py": {
+    "sha256": "2bc12f39bde50f528d8512524565af391165b419575b68d533ea0d42b2749141",
+    "bytes": 3185
+  },
+  "bench/source/final_racks_v1/study/sunray.py": {
+    "sha256": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b",
+    "bytes": 16297
+  },
+  "bench/source/final_racks_v1/study/tee_13189.json": {
+    "sha256": "7d2de811bf0ddc379c1ac9fa5acbea5046876e766d52aeed159b7dd94b644072",
+    "bytes": 653
+  },
+  "bench/source/final_racks_v1/study/tee_13190.json": {
+    "sha256": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12",
+    "bytes": 943
+  },
+  "bench/source/final_racks_v1/study/tee_33034.json": {
+    "sha256": "f84f580af6d8a37fc33728b3a784cedb935c95a27442596c1e0e84d54d5518e5",
+    "bytes": 811
+  },
+  "bench/source/final_racks_v1/study/tee_sets_note.json": {
+    "sha256": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a",
+    "bytes": 697
+  },
+  "bench/source/final_racks_v1/study/verify_stand.py": {
+    "sha256": "27f590bad69050c322ccde34331cfa3ba2a285febcde33e23e70ef37b70fb811",
+    "bytes": 2540
+  },
+  "bench/source/final_racks_v1/study/nudge_rows.py": {
+    "sha256": "74694210cf358bd6ce63586aaff08e7ad02c27eba559d69c71c2b204a42fde1e",
+    "bytes": 2810
+  },
+  "bench/source/final_racks_v1/study/hx04_final.json": {
+    "sha256": "e6f986f4544f2d3c819e0d6f13889347cb926517236e53aeeb16eca1c1ec108f",
+    "bytes": 5312
+  },
+  "bench/source/final_racks_v1/study/hx05a_final.json": {
+    "sha256": "599712c5864c1315792915c49516a7e634f3c49201bc60ca24669007cd1c7f84",
+    "bytes": 2674
+  },
+  "bench/source/final_racks_v1/study/hx05b_final.json": {
+    "sha256": "3ad1ebbe14c16a30f6f0844dcd1e72f93fc4bef546ba2389ae6323ce7c0325c4",
+    "bytes": 2660
+  },
+  "bench/source/final_racks_v1/study/hx05c_final.json": {
+    "sha256": "c19e809ef3f4c0c31924c667acfd808fe8f5e537cd29dacf965df443f457ccfb",
+    "bytes": 3040
+  },
+  "bench/source/final_racks_v1/fonts/Fillaprint-Regular.ttf": {
+    "sha256": "f2986cc7cfd4ea2b00a23ead531076445f784576e577fffbf7e7b25431f4a88f",
+    "bytes": 319260
+  },
+  "bench/source/final_racks_v1/fonts/FillaprintTab-Regular.ttf": {
+    "sha256": "7d1a08e5a113e99de4b397ab43ccef12605f5d59dd48178b518c58a95bcb7bf4",
+    "bytes": 319572
+  },
+  "bench/source/final_racks_v1/fonts/OFL.txt": {
+    "sha256": "af12c54e5d4a4d6dd43d1c052dff5e5e8896b316544a6b10574699ad8ce61fcc",
+    "bytes": 4468
+  },
+  "docs/final/index.html": {
+    "sha256": "161c5c6510899f8c4ea941d004b46e672bb8c2a63175cc962e9076b851918153",
+    "bytes": 431
+  }
+}

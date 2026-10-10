@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3115,
-  "total_size_bytes": 1205036278,
+  "file_count": 3207,
+  "total_size_bytes": 1209068367,
   "files": [
     {
       "path": ".gitattributes",
@@ -33,8 +33,8 @@
     },
     {
       "path": "BENCH_HOLDERS.md",
-      "size_bytes": 5740,
-      "sha256": "671fe16412a9f5167a1002eeeb648ee43b4a6bbe3c1129905915794b9d4700c9"
+      "size_bytes": 5961,
+      "sha256": "d0dae76c7d831e1d6fc6e73fe106dedb2dcb448caf5ac72071bf0be61247f335"
     },
     {
       "path": "CONFORMAL_STUDY.md",
@@ -585,6 +585,111 @@
       "path": "bench/reviews/cascade-funnels-v3/CF01/toolpaths.svg",
       "size_bytes": 4754835,
       "sha256": "6fb79bf9604f7a4e18dcd7e032d373e968e6ab740e7b40c24d3f2eeb691c93aa"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/base-native-check.json",
+      "size_bytes": 11072,
+      "sha256": "8ea78fecbf733ce50f3bb33183636479ea2552829afdca3219b582c80663d4c1"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/build-geometry.json",
+      "size_bytes": 14396,
+      "sha256": "c07dbd61828dd86c8b5f56db9704b9f2377e2e71360185601177fdf724a7cfa9"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/document-roundtrip.json",
+      "size_bytes": 485,
+      "sha256": "b705f813d0342741c8b639b7de8ef01bcb7066e21e8e44850225c4eec0f87d61"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/full-guide-refinement.json",
+      "size_bytes": 4730,
+      "sha256": "7aaaea0a46e309564ee2979a62991a72a0529bb93dcd5d49551a91812df0464e"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/native-check.json",
+      "size_bytes": 10985,
+      "sha256": "3f2bf452847d68ef317063897a546ea2059f3eca64ca2726792938f75cf2a4ad"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/owner-refinement.json",
+      "size_bytes": 4329,
+      "sha256": "bd699e18cfdb54b9df1e13fee2052d38c6fd8926ee11112ec4b45e605ca9ff29"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/pose.json",
+      "size_bytes": 140,
+      "sha256": "fef34d5e5e1a4599b182635f5738f562ec3607b64c4df6dec4268ca08bdd9522"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX04/run.json",
+      "size_bytes": 4154,
+      "sha256": "5c2b96d3444975439f964a7eda4e9748a9f49e084b81638f5c67b196442c9135"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05A/build-geometry.json",
+      "size_bytes": 5129,
+      "sha256": "220141d59d791251ac854fce3bd46409e63c973b6df558d28ceb5fdd4fa63344"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05A/native-check.json",
+      "size_bytes": 4098,
+      "sha256": "b8f11ac8530607d67dc6a4b7910cfb639ec777ae9ae09a6edcbf150396a24cea"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05A/pose.json",
+      "size_bytes": 141,
+      "sha256": "245f92e32eaeee1c99399d83de72083c80b04ea09c38aa3c38685806c398994e"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05A/run.json",
+      "size_bytes": 4282,
+      "sha256": "a433707ad916eabd08a0b32aef9dbd1a4388eef31a66b297dffe664695ee3532"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05B/build-geometry.json",
+      "size_bytes": 5089,
+      "sha256": "30c34663e2b638d6b5b7cea08f0b23299b9ec00110044808a0c95624fbde5e36"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05B/native-check.json",
+      "size_bytes": 4066,
+      "sha256": "9a497390aec6ce5b1c9fd073ca2aec712776079b1ade0db3158305b15175d46c"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05B/pose.json",
+      "size_bytes": 141,
+      "sha256": "a179464d7bedfa38b48f9a7f4131dc7a04873831b0a61acbb1c39d970fb2dafa"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05B/run.json",
+      "size_bytes": 4284,
+      "sha256": "7b7b0ee61962f7215062f68563f9189696bd507f54a4b999c8fa12764361b145"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05C/build-geometry.json",
+      "size_bytes": 5907,
+      "sha256": "8be74cdb9037f2a05b24f0812ea9c69c5d0abc7f432f28605790e7e106914d40"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05C/native-check.json",
+      "size_bytes": 4969,
+      "sha256": "dd4234f52f3e674df0aea25b34e0880fa38087038919c126262ad5dcfd7b8e20"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05C/pose.json",
+      "size_bytes": 140,
+      "sha256": "82bd1b33d499218a925fbedd32cd388d68a2eddbf2f358c0c970e7c6761d34f8"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/HX05C/run.json",
+      "size_bytes": 4283,
+      "sha256": "f69ade19c13cc4e800dff69e9292461ecd261436fb13b9fe7a5eba7496d69afa"
+    },
+    {
+      "path": "bench/reviews/final-racks-v1/models.json",
+      "size_bytes": 75809,
+      "sha256": "1dc3c7a608f4924fdaa730ca0c1970dcd8b02f36d4c280d1e682889cda2e2894"
     },
     {
       "path": "bench/reviews/gallery-current-mounts-flat-top-v2/BUILD.json",
@@ -2762,6 +2867,191 @@
       "sha256": "fc5b4b05181bb9a06215d8aaa2186c63b4d9a3deeb9584bb7ed734721acaa83b"
     },
     {
+      "path": "bench/source/final_racks_v1/README.md",
+      "size_bytes": 3901,
+      "sha256": "74cd7fd2e92b7a7db1a8a68629091a10b5e0f273ad86526776aa732cb991f125"
+    },
+    {
+      "path": "bench/source/final_racks_v1/build_all.py",
+      "size_bytes": 1833,
+      "sha256": "234f1736db1dacf237c4c38e0509e34c3a6da67addefdbd8f41b547f77d56588"
+    },
+    {
+      "path": "bench/source/final_racks_v1/build_final.py",
+      "size_bytes": 1387,
+      "sha256": "5ad9b09354f7a8cb58872c94d22dc5d59b9588823df68dfefca9d9f254f1b2f3"
+    },
+    {
+      "path": "bench/source/final_racks_v1/build_short.py",
+      "size_bytes": 35084,
+      "sha256": "61feca40b5034b5bdce6086dfe5984ab05d53dc097b21b41f749861d046a33d2"
+    },
+    {
+      "path": "bench/source/final_racks_v1/check_full_model.py",
+      "size_bytes": 4018,
+      "sha256": "585656c78618b1acf38d4838b59e7f432bd27c6e910187844d244c87595fb326"
+    },
+    {
+      "path": "bench/source/final_racks_v1/check_model.py",
+      "size_bytes": 3673,
+      "sha256": "2599238b6272b97c6ac399e227ece38f581d1e31ce5d944f59765361e09ac1d0"
+    },
+    {
+      "path": "bench/source/final_racks_v1/check_owner_model.py",
+      "size_bytes": 3945,
+      "sha256": "05dd774cee0d56defff7d54e616138e28572499a71e5336be9de8166b96d919d"
+    },
+    {
+      "path": "bench/source/final_racks_v1/complete_guide_walls.py",
+      "size_bytes": 4176,
+      "sha256": "d9216e6cc8749997e1d0d8a0ed30dd7bcf91dc4cc8a3d23891165f83e65e24bc"
+    },
+    {
+      "path": "bench/source/final_racks_v1/fonts/Fillaprint-Regular.ttf",
+      "size_bytes": 319260,
+      "sha256": "f2986cc7cfd4ea2b00a23ead531076445f784576e577fffbf7e7b25431f4a88f"
+    },
+    {
+      "path": "bench/source/final_racks_v1/fonts/FillaprintTab-Regular.ttf",
+      "size_bytes": 319572,
+      "sha256": "7d1a08e5a113e99de4b397ab43ccef12605f5d59dd48178b518c58a95bcb7bf4"
+    },
+    {
+      "path": "bench/source/final_racks_v1/fonts/OFL.txt",
+      "size_bytes": 4468,
+      "sha256": "af12c54e5d4a4d6dd43d1c052dff5e5e8896b316544a6b10574699ad8ce61fcc"
+    },
+    {
+      "path": "bench/source/final_racks_v1/normalize_document.py",
+      "size_bytes": 1823,
+      "sha256": "f00ae7232220cc04602f56d9d719d378050fe30aa8dae09551b38317e028f5cc"
+    },
+    {
+      "path": "bench/source/final_racks_v1/prepare_layouts.py",
+      "size_bytes": 2585,
+      "sha256": "9ab31c92292f20ab1671b23217f04ffe34590a5f97a3afefc4db02483032424c"
+    },
+    {
+      "path": "bench/source/final_racks_v1/preview.py",
+      "size_bytes": 1478,
+      "sha256": "74b3f5c36b32e5438a1a785b9bf88e34852b98f340db3643e49df488b6288497"
+    },
+    {
+      "path": "bench/source/final_racks_v1/refine_owner.py",
+      "size_bytes": 4985,
+      "sha256": "8abeaace94150b302289e8a78144dd108de0ad7526e395841402daeb4750ff37"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/comb.py",
+      "size_bytes": 2076,
+      "sha256": "1280816e78cd00879e1d75b3bf534158fdd5c9fabdc4d664219576af1f917a56"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx04_final.json",
+      "size_bytes": 5312,
+      "sha256": "e6f986f4544f2d3c819e0d6f13889347cb926517236e53aeeb16eca1c1ec108f"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05a_final.json",
+      "size_bytes": 2674,
+      "sha256": "599712c5864c1315792915c49516a7e634f3c49201bc60ca24669007cd1c7f84"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05a_layout-check.json",
+      "size_bytes": 9245,
+      "sha256": "e8628d1dfb1aa7dd5ea3b7edc1a04f46811a6166de26f1b567ae0b086300ed10"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05a_stand.json",
+      "size_bytes": 3181,
+      "sha256": "ba84d7bde955430d36d3ef3963232e5e15eb2b3871ae61846bc55202546eaf09"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05b_final.json",
+      "size_bytes": 2660,
+      "sha256": "3ad1ebbe14c16a30f6f0844dcd1e72f93fc4bef546ba2389ae6323ce7c0325c4"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05b_layout-check.json",
+      "size_bytes": 9224,
+      "sha256": "ef8b63c5520a8bdd0766c5624143d3d0a5063658bbf4704fbc1b3b3e4e9c1605"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05b_stand.json",
+      "size_bytes": 3176,
+      "sha256": "48bd4cbfd2ddbd1fc32d3d56ec91be17beccc3fd67d907271c7088176b80a7ff"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05c_final.json",
+      "size_bytes": 3040,
+      "sha256": "c19e809ef3f4c0c31924c667acfd808fe8f5e537cd29dacf965df443f457ccfb"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05c_layout-check.json",
+      "size_bytes": 11234,
+      "sha256": "6f765c690c37cf073a496ea90ae86358ab4ec84165cca5d864b58711330a07fc"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/hx05c_stand.json",
+      "size_bytes": 3500,
+      "sha256": "9621e4e0fb6cc689510ef9872ba3320dbf346166ba8cae8a355e45f975abffba"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/nudge_rows.py",
+      "size_bytes": 2810,
+      "sha256": "74694210cf358bd6ce63586aaff08e7ad02c27eba559d69c71c2b204a42fde1e"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/short.py",
+      "size_bytes": 27207,
+      "sha256": "8e096f866365486727c07cf14572a406db26e161750bd449b46b96739256cef6"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/short_dt_c2.json",
+      "size_bytes": 4293,
+      "sha256": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/socket_policy.py",
+      "size_bytes": 501,
+      "sha256": "683c76c42f51e650a7f8d578e2ae9bbbc435b4e31b63cc4c007dbca52c0231b2"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/stand_rows.py",
+      "size_bytes": 3185,
+      "sha256": "2bc12f39bde50f528d8512524565af391165b419575b68d533ea0d42b2749141"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/sunray.py",
+      "size_bytes": 16297,
+      "sha256": "b7605914c46384dda4799f275fc4db0b2aa2896cb0ac1361925b1c63c122861b"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/tee_13189.json",
+      "size_bytes": 653,
+      "sha256": "7d2de811bf0ddc379c1ac9fa5acbea5046876e766d52aeed159b7dd94b644072"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/tee_13190.json",
+      "size_bytes": 943,
+      "sha256": "af01e7225ff5c26f7723ab7171f0908c64da2d6704be629f5c3f212ae938ec12"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/tee_33034.json",
+      "size_bytes": 811,
+      "sha256": "f84f580af6d8a37fc33728b3a784cedb935c95a27442596c1e0e84d54d5518e5"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/tee_sets_note.json",
+      "size_bytes": 697,
+      "sha256": "8c9bb22cd47d7755011f8f6c7d72cc370fe9b6598e09205017e5fde15a85e65a"
+    },
+    {
+      "path": "bench/source/final_racks_v1/study/verify_stand.py",
+      "size_bytes": 2540,
+      "sha256": "27f590bad69050c322ccde34331cfa3ba2a285febcde33e23e70ef37b70fb811"
+    },
+    {
       "path": "bench/source/gallery_current_mounts_v1/MH01.json",
       "size_bytes": 704,
       "sha256": "5e592f50b245077f541e8cfbe59e101e15ed6578442da4ab5a2f8402d07a9fae"
@@ -4902,6 +5192,11 @@
       "sha256": "801ab85072e7828ac94c787823666fec4bcbbcd9f5b0942b1a12800bb33edae8"
     },
     {
+      "path": "docs/final/index.html",
+      "size_bytes": 431,
+      "sha256": "161c5c6510899f8c4ea941d004b46e672bb8c2a63175cc962e9076b851918153"
+    },
+    {
       "path": "docs/gallery/LOCAL-README.html",
       "size_bytes": 2760,
       "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
@@ -6463,8 +6758,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
-      "size_bytes": 130088,
-      "sha256": "56509d4b74ac20813820d5c9731e98dddc049007cdf547ac2941e713952d1dc0"
+      "size_bytes": 130172,
+      "sha256": "1bd5ae25d2f41db542d93adf89e12eaab4f6e25c6871cf1c83a6459491d1df3b"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -9927,6 +10222,151 @@
       "sha256": "9958581447c39c57636f3a2c1bc1881bc9680263887080d64595aa72277b42a0"
     },
     {
+      "path": "docs/gallery/key-fan/final/HX04/empty.jpg",
+      "size_bytes": 27216,
+      "sha256": "c68277082bacff9876d30f3a791948b6e85b7ec6697983cb3dc627d3ca432faa"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX04/hero.jpg",
+      "size_bytes": 31019,
+      "sha256": "9cbfcf97fdafe371ef4750b14f7ee91c310bb1564ad559b3972b3aaf503c6a81"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX04/installed.glb.gz",
+      "size_bytes": 326013,
+      "sha256": "f3d59e239d3ca3f657d20ae96e469a33b315561e7586487d1c20702fbfe7e42c"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX04/loaded.glb.gz",
+      "size_bytes": 465249,
+      "sha256": "4c515eb34af3fa8b18f27a6070f66bdbb67833fdcb02c9ea7c82a7003a630737"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX04/print.glb.gz",
+      "size_bytes": 324915,
+      "sha256": "0a7831dec5730354c4bbbf12bdb524cc6157c608a2e4e8b330fe0521070edb8e"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX04/print.jpg",
+      "size_bytes": 22588,
+      "sha256": "64804b1a08dcd6c6991617653b623bcada1086ea52b3238ab7e0041925cb4c46"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05A/empty.jpg",
+      "size_bytes": 23917,
+      "sha256": "3d178f8e90b6b111c108c137b5f5e5c6603832e3e66c3e62a08634391cf4d366"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05A/hero.jpg",
+      "size_bytes": 24093,
+      "sha256": "edf9765427d3301bd3118bbf0591b8f65c0ee0f34d8d140e9ad9a6176abab5c3"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05A/installed.glb.gz",
+      "size_bytes": 127820,
+      "sha256": "d005ab99e11745b554d37753958716557866c35d3db88870b115430951dad66a"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05A/loaded.glb.gz",
+      "size_bytes": 231693,
+      "sha256": "a1b4b6634ad6538a1028ca95475853237d5d5768e2404f7f1b88e4d915d87fc9"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05A/print.glb.gz",
+      "size_bytes": 128038,
+      "sha256": "2e9c8f63517fd1a24c4166d426a5f8535d6903dd17f9b8e23b8791495cdb3672"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05A/print.jpg",
+      "size_bytes": 19660,
+      "sha256": "892b7338ff75333884700d5d7117b88627f3562904dfa0cdb10685fbb21ae4b4"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05B/empty.jpg",
+      "size_bytes": 23524,
+      "sha256": "c1673daefad66c9b09829f177981da4329667e7808fc63c2f88c9afb3d6f2b8f"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05B/hero.jpg",
+      "size_bytes": 24562,
+      "sha256": "d3f501062b24bd435f917f0b65e162693b117e16205f1a4eaba54986dee4f715"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05B/installed.glb.gz",
+      "size_bytes": 126953,
+      "sha256": "5c1d5834d0eb0c3e984cc2e2e2482c07dad19bf0a5fe980ae5684f4e5c4c1948"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05B/loaded.glb.gz",
+      "size_bytes": 231688,
+      "sha256": "81123c8d64ef33c49781ecfc18305267bd480cd4d44ea0b89a0e56c777bbc0d1"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05B/print.glb.gz",
+      "size_bytes": 127194,
+      "sha256": "257f151dd4391d8f5f582b8b4f64b5584dd6604f94b35135f983a1a96bc1ce88"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05B/print.jpg",
+      "size_bytes": 18859,
+      "sha256": "2af4ad1d1860da2656e6bcb641df8e4a6aa16fd7f626146b0e7db8e1a2132b55"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05C/empty.jpg",
+      "size_bytes": 26477,
+      "sha256": "17d597e0efe520f370b128e51d57268de00901b3402ca6e7052e2aba4611dedd"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05C/hero.jpg",
+      "size_bytes": 27841,
+      "sha256": "f921c4e83ee5f72077d01853bb1e7554fa14f3aff57e7a80199f3d8c82189e26"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05C/installed.glb.gz",
+      "size_bytes": 139530,
+      "sha256": "d9f491fe348f23c4900a6d160d4c134d950bc2aebaef51614e10ab7e9a7c8c49"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05C/loaded.glb.gz",
+      "size_bytes": 248827,
+      "sha256": "351724bdb4439c125d5b37f54f6e46243a8fcb223f246af07eb8e2ab9d229901"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05C/print.glb.gz",
+      "size_bytes": 140391,
+      "sha256": "f72beea9672555b7c150cb87d68dd9f7b21be663f179e1f90a351f31ec25d3de"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/HX05C/print.jpg",
+      "size_bytes": 18660,
+      "sha256": "48d022116b20515a093a5c289ab14bdf650972948de4c55498c9dd6c71b6b38b"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/final.css",
+      "size_bytes": 1228,
+      "sha256": "393121b3def50da46efd4618ded08388c26385dcc20b490f08fac7d7a6a8f599"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/final.js",
+      "size_bytes": 3709,
+      "sha256": "f493abf68963b192949927c35817a1b33f67c39e3ed593dba37c72a8cc32a7dd"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/fit-selection.json",
+      "size_bytes": 604,
+      "sha256": "40a41907e21331fdaae0690d876dff4ffdeca9af73ea54556d500554978a0543"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/index.html",
+      "size_bytes": 4629,
+      "sha256": "6cccdca025dfbea24c90da1b839d965d542488f43020beff28b4692d9c848a29"
+    },
+    {
+      "path": "docs/gallery/key-fan/final/models.json",
+      "size_bytes": 75809,
+      "sha256": "1dc3c7a608f4924fdaa730ca0c1970dcd8b02f36d4c280d1e682889cda2e2894"
+    },
+    {
       "path": "docs/gallery/key-fan/fit-requested-3-5/HX04-fit-v6__3mm-5mm__fan-angle__print.stl",
       "size_bytes": 603984,
       "sha256": "85b72acf1dc658513f06119ee9688c397487b5d1ff45e5077f6d1abd7b4fd097"
@@ -10028,8 +10468,8 @@
     },
     {
       "path": "docs/gallery/key-fan/index.html",
-      "size_bytes": 12941,
-      "sha256": "ed2fffffcb08c754f104736650169e08b9da1c41d913e0de31b8faa5e908075d"
+      "size_bytes": 13480,
+      "sha256": "6d1fec08471609d009bb0fd170bb385047ab1ad622460ede67cd95df8c9d54d2"
     },
     {
       "path": "docs/gallery/key-fan/installed.glb",
@@ -11998,8 +12438,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 140634,
-      "sha256": "f0d27af2d33f5f67718e6caa23c15abcb439194ddfd8afe2e72968ea0c19d7c0"
+      "size_bytes": 144984,
+      "sha256": "ff5203f2ab61df8a4d869539a3f6dccb0c026629517ce46ee701534d0cffa659"
     },
     {
       "path": "docs/gallery/research.html",
@@ -14823,8 +15263,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 9164,
-      "sha256": "37d4ce1b9e2f6f0b164a300c66a375032244d830a934d038535507cad5a99fb3"
+      "size_bytes": 9910,
+      "sha256": "e7d2de7a070f1edd77c08d8530c5746913ff025457a6940833bb8a51c619e323"
     },
     {
       "path": "publication/add_cascade_to_collection.py",
@@ -14878,8 +15318,8 @@
     },
     {
       "path": "publication/build_key_fan_v2.py",
-      "size_bytes": 12768,
-      "sha256": "2d65efb34d31b70d9708e2da5b00bea5551d79d869c2e8ab9e11fa8efd5d3e4b"
+      "size_bytes": 13000,
+      "sha256": "e6bebc3441546b74b9bfd42795acc7f787b43b2cb0c27f684cea413e2d7d4a6a"
     },
     {
       "path": "publication/build_peg_downloads.py",
@@ -14909,12 +15349,17 @@
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 96416,
-      "sha256": "13f7689c8e5409f80e9bef424cc9c1223f3c10f200739752406f96d60c72a8f6"
+      "sha256": "14a0770659f03cff45ae17f9389123d5690b50a5eb348e044ffe66046526b917"
     },
     {
       "path": "publication/cutover-verification.json",
       "size_bytes": 1008,
       "sha256": "393808b91866b04852bf4b7396c84e7441d4d4944da95243464a4eedcddc7b74"
+    },
+    {
+      "path": "publication/final-racks-v1-additions.json",
+      "size_bytes": 14052,
+      "sha256": "5874fd1932b96d4a6c476f890d4dc4d00e8bf6e16347391cdf59ddf3ea7c9532"
     },
     {
       "path": "publication/gallery-source-manifest.json",
@@ -14934,7 +15379,7 @@
     {
       "path": "publication/key-fan-v2-additions.json",
       "size_bytes": 1101,
-      "sha256": "5c8f09c884314ceb3aaa353f9cede4eb47a723fe5d81302a7b1329b0843012d4"
+      "sha256": "8f65d3174b0aca5eeaab7c79ed166bf8efe3e90262549f47301d68dcf7a70468"
     },
     {
       "path": "publication/mh01-mh04-shaft-holders-v1-additions.json",
@@ -15022,19 +15467,29 @@
       "sha256": "8417f912c1205f2fc102b6ccd77f72b7c77cdcce228321ced6582d8187ed5d83"
     },
     {
+      "path": "publication/publish_final_racks.py",
+      "size_bytes": 8580,
+      "sha256": "1f68158fa2c6f30fae7b348afa3a66d4b1fcdd41c82c00c42b8271e8aedb1c10"
+    },
+    {
       "path": "publication/publish_key_fan_audit.py",
       "size_bytes": 10122,
       "sha256": "e494393dd7ce338e0e46819be3b103921385f63fd365f5c18fa3dec5207cd571"
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 99423,
-      "sha256": "2c4faf63942eb2d3b664a68c21a98faca4d5ff6ddf35a6d38d34e5995f30b34b"
+      "size_bytes": 102923,
+      "sha256": "0777ba72a67748b00223fa6a2661f222e0fb7a6ebbc0a43ccb955a31e7c78720"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 142465,
-      "sha256": "f744ffaf15eb7c5e4faf5e9cc0ac5245bf1925ba82da131927ce2506e98c8fcf"
+      "size_bytes": 146895,
+      "sha256": "29b291c3f4a45ad1d778c6ffe0d4f6a09e163f99648aba1e82a91098fec439d7"
+    },
+    {
+      "path": "publication/render_final_racks.cjs",
+      "size_bytes": 2597,
+      "sha256": "92d261ca4f8ba253d45fc79679f6d2d2c1887dd439aa03f62b92cc026aa6fed9"
     },
     {
       "path": "publication/render_fit_coupon_glb.py",
@@ -15317,9 +15772,14 @@
       "sha256": "633366ebcb5f4adbd83da533a8a70f84b10fc5de42b193b19ce088fec398230a"
     },
     {
+      "path": "tools/check_final_racks.py",
+      "size_bytes": 3118,
+      "sha256": "e522a24a41c26d14bf62248c4adf2df8a79389c01bb03597d1dd7a67f82f1f4c"
+    },
+    {
       "path": "tools/check_gallery.py",
-      "size_bytes": 5661,
-      "sha256": "9bb7355e6f8ef16bd6077183f174c9156134f568d009834510014923875b61cc"
+      "size_bytes": 5780,
+      "sha256": "d6f2f106b108775d1dcc33cb38b89f905b9fb8efa5af561c1e2c8ec84785eb36"
     },
     {
       "path": "tools/check_key_fan.py",
@@ -15363,8 +15823,8 @@
     },
     {
       "path": "tools/check_tee_fit_v6.py",
-      "size_bytes": 3129,
-      "sha256": "93e09711bd67a6cb79578fc5c7e342091df8d61b5447cc1b6945d8b51da80995"
+      "size_bytes": 3437,
+      "sha256": "51cc044dc62f483dd53c57309659955121d109bdd43b7057ce70fc8be90d9fec"
     },
     {
       "path": "tools/slice_round_toolpaths.py",

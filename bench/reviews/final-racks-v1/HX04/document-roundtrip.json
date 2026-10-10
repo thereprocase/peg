@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "solid_count": 1,
+  "max_vertex_difference_mm": 4.1216953640930004e-16,
+  "volume_difference_mm3": 1.1641532182693481e-09,
+  "area_difference_mm2": 1.1641532182693481e-10,
+  "topology_counts_equal": true,
+  "step_sha256": "40a4df237a38b5f01c23cbb56f0fa583c673df7f5c74dcae61f9b2bfae56fc2b",
+  "fcstd_sha256": "a95195b44a93a96ce8a8ea0e90d20267d5086e53d66c2729f250567cf1a748da",
+  "source_sha256": "f00ae7232220cc04602f56d9d719d378050fe30aa8dae09551b38317e028f5cc"
+}

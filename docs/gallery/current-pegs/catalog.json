@@ -1646,12 +1646,12 @@
       },
       "extra_downloads": [
         {
-          "label": "Interactive engineering lab and full report",
-          "url": "../key-fan/studies/"
+          "label": "Final fan and three Bondhus racks",
+          "url": "../key-fan/final/"
         },
         {
-          "label": "3/5 mm fit spectra",
-          "url": "../key-fan/?v=6#fit-coupon-v6"
+          "label": "Archived v2 engineering lab",
+          "url": "../key-fan/studies/"
         }
       ],
       "notes": {
@@ -1659,8 +1659,8 @@
         "upper_pegs": "A peg in every covered hole: 9 PF02 #9 hooks across the top row, 9 PF07 #5 locking hoops across the bottom row, 72 gravity-load bearing pegs between; reviewed profiles mirrored for the left-end print (fit assumed equal). Historical rear-peg-only swing screen passes; the whole-host audit finds collision on that assumed pivot.",
         "supports": "Tree supports on the build plate only, mostly under the 90 pegs behind the mounting face; small label counters.",
         "mount": "236 mm wide (ten cells shaved 8 mm a side); 9 peg columns at 25.4 mm pitch (\u00b1101.6 mm) by 10 rows.",
-        "qualification": "Extended FEA and motion studies of archived v2. Whole-host collision found on assumed install pivot; revised 3/5 mm fit trials remain pending. Physical loads and snap recovery remain unqualified. Simulations are not a printed load or snap rating.",
-        "status": "Engineering review \u00b7 physical fit revision pending"
+        "qualification": "The owner physically selected 3C/5C guide coupons. Full-rack physical printing, installation and loads remain unqualified. The final page provides new straight-socket native models and scoped CAD checks. This catalog viewer and the extended audit retain archived v2 geometry; its FEA/install results do not qualify the revised models.",
+        "status": "Final straight-socket models available \u00b7 3C/5C fit selected"
       },
       "credit": ""
     }

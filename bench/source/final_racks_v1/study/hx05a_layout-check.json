@@ -1,0 +1,488 @@
+{
+ "layout": "hx05a_stand.json",
+ "layout_sha256": "ba84d7bde955430d36d3ef3963232e5e15eb2b3871ae61846bc55202546eaf09",
+ "verifier_sha256": "27f590bad69050c322ccde34331cfa3ba2a285febcde33e23e70ef37b70fb811",
+ "passed": true,
+ "tool_point_step_mm": 0.75,
+ "lift_step_mm": 0.75,
+ "escape_step_mm": 1.25,
+ "worst_loaded_depth_mm": 167.61115106333966,
+ "poses": [
+  {
+   "pose": "nominal",
+   "turn_deg": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "depth_mm": 166.3017521949872,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 0.0
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "T9",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.24996333279554
+    },
+    {
+     "set": "tee",
+     "name": "T10",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.37005218878698
+    },
+    {
+     "set": "tee",
+     "name": "T15",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.63505596234502
+    },
+    {
+     "set": "tee",
+     "name": "T20",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.93008194990092
+    },
+    {
+     "set": "tee",
+     "name": "T25",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.2147156326114
+    },
+    {
+     "set": "tee",
+     "name": "T27",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.49473051316837
+    },
+    {
+     "set": "tee",
+     "name": "T30",
+     "D": 45.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 53.9197342867264
+    },
+    {
+     "set": "tee",
+     "name": "T40",
+     "D": 54.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 63.52496020026305
+    }
+   ]
+  },
+  {
+   "pose": "plus",
+   "turn_deg": [
+    11.08981266856103,
+    9.88684504883826,
+    8.00023483337268,
+    6.611839974379027,
+    5.668643286054461,
+    4.973184385405517,
+    4.456846005237832,
+    3.6501955978676897
+   ],
+   "depth_mm": 167.61115106333966,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 0.0
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "T9",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.24996333279554
+    },
+    {
+     "set": "tee",
+     "name": "T10",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.37005218878698
+    },
+    {
+     "set": "tee",
+     "name": "T15",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.63505596234502
+    },
+    {
+     "set": "tee",
+     "name": "T20",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.93008194990092
+    },
+    {
+     "set": "tee",
+     "name": "T25",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.2147156326114
+    },
+    {
+     "set": "tee",
+     "name": "T27",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.49473051316837
+    },
+    {
+     "set": "tee",
+     "name": "T30",
+     "D": 45.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 53.9197342867264
+    },
+    {
+     "set": "tee",
+     "name": "T40",
+     "D": 54.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 63.52496020026305
+    }
+   ]
+  },
+  {
+   "pose": "minus",
+   "turn_deg": [
+    -11.08981266856103,
+    -9.88684504883826,
+    -8.00023483337268,
+    -6.611839974379027,
+    -5.668643286054461,
+    -4.973184385405517,
+    -4.456846005237832,
+    -3.6501955978676897
+   ],
+   "depth_mm": 165.05436671565727,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 0.0
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "T9",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.24996333279554
+    },
+    {
+     "set": "tee",
+     "name": "T10",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.37005218878698
+    },
+    {
+     "set": "tee",
+     "name": "T15",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.63505596234502
+    },
+    {
+     "set": "tee",
+     "name": "T20",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.93008194990092
+    },
+    {
+     "set": "tee",
+     "name": "T25",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.2147156326114
+    },
+    {
+     "set": "tee",
+     "name": "T27",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.49473051316837
+    },
+    {
+     "set": "tee",
+     "name": "T30",
+     "D": 45.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 53.9197342867264
+    },
+    {
+     "set": "tee",
+     "name": "T40",
+     "D": 54.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 63.52496020026305
+    }
+   ]
+  },
+  {
+   "pose": "alternating-plus",
+   "turn_deg": [
+    11.08981266856103,
+    -9.88684504883826,
+    8.00023483337268,
+    -6.611839974379027,
+    5.668643286054461,
+    -4.973184385405517,
+    4.456846005237832,
+    -3.6501955978676897
+   ],
+   "depth_mm": 167.45239769565424,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 0.0
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "T9",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.24996333279554
+    },
+    {
+     "set": "tee",
+     "name": "T10",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.37005218878698
+    },
+    {
+     "set": "tee",
+     "name": "T15",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.63505596234502
+    },
+    {
+     "set": "tee",
+     "name": "T20",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.93008194990092
+    },
+    {
+     "set": "tee",
+     "name": "T25",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.2147156326114
+    },
+    {
+     "set": "tee",
+     "name": "T27",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.49473051316837
+    },
+    {
+     "set": "tee",
+     "name": "T30",
+     "D": 45.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 53.9197342867264
+    },
+    {
+     "set": "tee",
+     "name": "T40",
+     "D": 54.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 63.52496020026305
+    }
+   ]
+  },
+  {
+   "pose": "alternating-minus",
+   "turn_deg": [
+    -11.08981266856103,
+    9.88684504883826,
+    -8.00023483337268,
+    6.611839974379027,
+    -5.668643286054461,
+    4.973184385405517,
+    -4.456846005237832,
+    3.6501955978676897
+   ],
+   "depth_mm": 167.61115106333966,
+   "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0,
+    "grip": 0.0
+   },
+   "routes": [
+    {
+     "set": "tee",
+     "name": "T9",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.24996333279554
+    },
+    {
+     "set": "tee",
+     "name": "T10",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.37005218878698
+    },
+    {
+     "set": "tee",
+     "name": "T15",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.63505596234502
+    },
+    {
+     "set": "tee",
+     "name": "T20",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 48.93008194990092
+    },
+    {
+     "set": "tee",
+     "name": "T25",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.2147156326114
+    },
+    {
+     "set": "tee",
+     "name": "T27",
+     "D": 40.8,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 49.49473051316837
+    },
+    {
+     "set": "tee",
+     "name": "T30",
+     "D": 45.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 53.9197342867264
+    },
+    {
+     "set": "tee",
+     "name": "T40",
+     "D": 54.0,
+     "escape": "forward",
+     "lift_pen": 0.0,
+     "esc_pen": 0.0,
+     "lift_mm": 63.52496020026305
+    }
+   ]
+  }
+ ],
+ "scope": "Dense sampled capsule/cloud layout and fixed forward routes at five clock-play poses; not continuous collision proof, native CAD or physical qualification."
+}

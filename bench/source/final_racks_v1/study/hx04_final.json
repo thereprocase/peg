@@ -1,0 +1,284 @@
+{
+  "x": [
+    112.66609194329945,
+    38.58025342513618,
+    -123.36532714633012,
+    -13.966656390304676,
+    1.2117583417685236,
+    -5.153246115225906,
+    26.28915260087779,
+    -1.6280468707170654,
+    -0.0001590419874095201,
+    0.00040630475811466395,
+    -0.00044017397650112527,
+    6.60267327566003e-05,
+    -1.494607242688229,
+    113.20496517644483,
+    27.02737789705358,
+    -120.9490627184237,
+    -11.69013973856251,
+    1.4264512441782475,
+    -2.785726456753631,
+    25.03408859220944,
+    -1.2034808154551344,
+    3.9644822391899446,
+    -1.0,
+    0.00011626398326659235,
+    -8.017017827103465e-05,
+    -1.265570752780144,
+    109.7031884593071,
+    67.47437190436646,
+    -152.22431494755838,
+    -9.468543088913108,
+    -6.767168285578904,
+    -23.01466657067819,
+    -3.6353109897768983,
+    -18.3096455762902,
+    42.06894227135709,
+    -1.7792066949415741,
+    81.43377921438544,
+    5.973160203305376,
+    0.0,
+    0.0,
+    2.001491524973511,
+    0.09190385073068452,
+    -0.07205620665118603,
+    0.0,
+    0.0
+  ],
+  "rep": [
+    {
+      "set": "torx",
+      "name": "T10",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T15",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T20",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T25",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T27",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T30",
+      "D": 47.2,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T40",
+      "D": 56.2,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T45",
+      "D": 65.6,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "torx",
+      "name": "T50",
+      "D": 73.6,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "1.5",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "2",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "2.5",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "3",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "4",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "5",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "6",
+      "D": 51.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "8",
+      "D": 67.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "hex",
+      "name": "10",
+      "D": 83.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "2",
+      "D": 43.0,
+      "escape": "up-forward",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "2.5",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "3",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "4",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "5",
+      "D": 43.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "6",
+      "D": 51.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "8",
+      "D": 67.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    },
+    {
+      "set": "tee",
+      "name": "10",
+      "D": 83.0,
+      "escape": "axis",
+      "lift_pen": 0.0,
+      "esc_pen": 0.0
+    }
+  ],
+  "depth": 177.74628933776322,
+  "body_h": 211.709557428754,
+  "pen": {
+    "store": 0.0,
+    "sweep": 0.0,
+    "env": 0.0,
+    "order": 0.0
+  },
+  "build_env": {
+    "HX4S_GUSSET": "webs,cheek",
+    "HX4S_LAYOUT": "hx04_final.json",
+    "HX4S_WEB_Y": "16",
+    "SHORT_CELLS": "10",
+    "SHORT_DEEP_BACK": "0",
+    "SHORT_DEEP_TEE": "0",
+    "SHORT_HAND": "0",
+    "SHORT_HMAX": "232",
+    "SHORT_MIDDLE": "torx",
+    "SHORT_PLATE_HALF": "118",
+    "SHORT_REC_CELLS": "9",
+    "XENV": "141",
+    "SHORT_COCK": "0",
+    "HX4S_TBAR": "flats"
+  },
+  "scope": "Nominal sampled layout; clock play, native CAD and physical complete-rack checks separate."
+}

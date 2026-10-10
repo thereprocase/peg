@@ -1,0 +1,23 @@
+{
+  "reported_on": "2026-10-10",
+  "evidence": "Owner physical fit report: 3c and 5c win",
+  "coupon_version": 6,
+  "selected_letters": {
+    "3mm": "C",
+    "5mm": "C"
+  },
+  "total_across_flats_clearance_mm": 0.38,
+  "clearance_per_flat_mm": 0.19,
+  "nominal_bore_across_flats_mm": {
+    "3mm": 3.38,
+    "5mm": 5.38
+  },
+  "guide_length_mm": 40,
+  "vent_diameter_mm": 1,
+  "scope": "Physical selection for 3 mm and 5 mm coupons only; other sizes and complete rack unqualified.",
+  "final_lead_in": {
+    "axial_mm": 3,
+    "width_per_flat_mm": 1.5,
+    "physical_trial": "not separately tested"
+  }
+}

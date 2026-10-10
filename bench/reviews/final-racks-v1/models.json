@@ -1,0 +1,2633 @@
+[
+  {
+    "id": "HX04",
+    "title": "Your three-tier fan",
+    "tool_count": 26,
+    "plate_width_mm": 236.0,
+    "body_bounds_mm": [
+      236.0,
+      140.53311838237,
+      233.9777012508
+    ],
+    "loaded_depth_mm": 177.74628933776322,
+    "downloads": {
+      "STEP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX04__final-v1__straight-C38__pf02c9-hoop5__installed.step",
+      "FreeCAD": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX04__final-v1__straight-C38__pf02c9-hoop5__model.FCStd",
+      "Print STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX04__final-v1__straight-C38__pf02c9-hoop5__print.stl",
+      "Brace modifier STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX04__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl",
+      "CAD + source ZIP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX04__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip"
+    },
+    "native_check": {
+      "refinement_rear_delta_mm3": 0.0,
+      "passed": true,
+      "native_valid": true,
+      "native_solids": 1,
+      "freecad": [
+        "1",
+        "1",
+        "3",
+        "20260725 (Git shallow)",
+        "Unknown",
+        "2026/07/25 04:52:02",
+        "grafted,grafted",
+        "145529fe741292ff0b3977a01195bf0247425794"
+      ],
+      "occ": "7.8.1",
+      "step_sha256": "40a4df237a38b5f01c23cbb56f0fa583c673df7f5c74dcae61f9b2bfae56fc2b",
+      "meshes": {
+        "installed.stl": {
+          "closed": true,
+          "volume_relative_error": 0.00018016594779881,
+          "sha256": "6c41b7d118930f1dfbbb92b300e0ac6c55e74530a837f7f4cd126de2930356f3"
+        },
+        "print.stl": {
+          "closed": true,
+          "volume_relative_error": 0.00010912125050602726,
+          "sha256": "0465a006dd10ef927714e7435d55f89293ff9ca41c3e14f0d3ac44d3c077171e"
+        }
+      },
+      "sockets": [
+        {
+          "set": "torx",
+          "size": "T10",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 3.12,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T15",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 3.65,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T20",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 4.24,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T25",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 4.81,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T27",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 5.37,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T30",
+          "guide_mm": 44.16,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 5.8999999999999995,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T40",
+          "guide_mm": 53.2,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 7.03,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T45",
+          "guide_mm": 62.56,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 8.200000000000001,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "torx",
+          "size": "T50",
+          "guide_mm": 70.64,
+          "bore_across_flats_mm": null,
+          "bore_diameter_mm": 9.21,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "1.5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 1.88,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "2",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "2.5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.88,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "3",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "4",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 4.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 5.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "6",
+          "guide_mm": 48.0,
+          "bore_across_flats_mm": 6.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "8",
+          "guide_mm": 64.0,
+          "bore_across_flats_mm": 8.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "hex",
+          "size": "10",
+          "guide_mm": 80.0,
+          "bore_across_flats_mm": 10.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "2",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "2.5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.88,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "3",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "4",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 4.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 5.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "6",
+          "guide_mm": 48.0,
+          "bore_across_flats_mm": 6.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "8",
+          "guide_mm": 64.0,
+          "bore_across_flats_mm": 8.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "10",
+          "guide_mm": 80.0,
+          "bore_across_flats_mm": 10.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        }
+      ],
+      "scope": "Exported native geometry, 2 mm six-flat guide wall, vent routes, stop shoulders and nominal stored tools. No continuous withdrawal, installation, printed loads or other-size fit qualification."
+    },
+    "geometry": {
+      "native_valid": true,
+      "native_solids": 1,
+      "volume_mm3": 1987212.0806964478,
+      "mount": {
+        "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "top": {
+          "upper_ribs_mm": 0.5,
+          "clamp_mm": 0.49
+        },
+        "columns_x_mm": [
+          -101.6,
+          -76.19999999999999,
+          -50.8,
+          -25.4,
+          0.0,
+          25.4,
+          50.8,
+          76.19999999999999,
+          101.6
+        ],
+        "plate": {
+          "x0": -115.0,
+          "x1": 115.0,
+          "y0": 0.15,
+          "y1": 5.55,
+          "z0": -225.53270125077077,
+          "z1": 5.12
+        },
+        "hoop": {
+          "concept": "HOOP",
+          "arm_mm": 0.8,
+          "tip_half": 2.0,
+          "even_catch_wall": true,
+          "ramp_wall": true,
+          "nose_mm": 0.9,
+          "root_gusset_mm": 0.4,
+          "body_ribs_mm": 0.3,
+          "detail": {
+            "width_across_barbs_mm": 7.35,
+            "catch_angle_deg": 55,
+            "catch_length_mm": 0.6476919728439815,
+            "ramp_angle_deg": 15.592255624701878,
+            "crest_y_mm": [
+              -4.487691972843981,
+              -4.787691972843981
+            ],
+            "catch_bearing_per_side_mm": 0.5,
+            "nose_mm": 0.9,
+            "ramp_wall_mm": 0.8,
+            "min_wall_mm": 0.8,
+            "root_gusset_mm": 0.4,
+            "root_gusset_length_mm": 1.5,
+            "arm_mm": 0.8,
+            "closed_nose_mm": 0.9,
+            "band_half_height_mm": 1.4,
+            "root_clip_radius_mm": 2.95,
+            "cheek_offset_down_mm": 0.1
+          }
+        },
+        "rows": {
+          "hooks": [
+            0
+          ],
+          "bearing": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "hoop": [
+            8
+          ]
+        },
+        "pegs": {
+          "hooks": 9,
+          "bearing": 63,
+          "locking": 9
+        },
+        "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+        "z_shift": -113.81296106358909
+      },
+      "finish": [
+        {
+          "op": "gussets",
+          "kinds": [
+            "webs",
+            "cheek"
+          ],
+          "hull_mm3": 497033,
+          "after_clearance_mm3": 493761
+        },
+        {
+          "op": "rails+plate",
+          "volume_mm3": 2065434,
+          "z": [
+            -337.3,
+            -108.4
+          ]
+        },
+        {
+          "op": "board-side delta",
+          "mm3": 0.0
+        },
+        {
+          "op": "done",
+          "volume_mm3": 1988127
+        }
+      ],
+      "socket_policy": {
+        "total_af_clearance_mm": 0.38,
+        "guide_minimum_mm": 40,
+        "guide_size_ratio": 8,
+        "lead_axial_mm": 3,
+        "lead_width_per_flat_mm": 1.5,
+        "vent_diameter_mm": 1,
+        "vent_outlet": "positive installed X, below floor"
+      },
+      "seats": [
+        {
+          "set": "torx",
+          "size": "T10",
+          "mouth": [
+            112.66609194329945,
+            38.58025342513618,
+            -123.36532714633012
+          ],
+          "axis": [
+            -2.488705507235891e-06,
+            0.44290145753664234,
+            0.8965702978047646
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.56,
+          "radius_floor": 1.56,
+          "floor_deg": 0.0,
+          "pinch": 0.22
+        },
+        {
+          "set": "torx",
+          "size": "T15",
+          "mouth": [
+            97.20482831030654,
+            39.7920117669047,
+            -128.518573261556
+          ],
+          "axis": [
+            3.921935234628246e-06,
+            0.4172502521746477,
+            0.9087916301577669
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.825,
+          "radius_floor": 1.825,
+          "floor_deg": 0.0,
+          "pinch": 0.21
+        },
+        {
+          "set": "torx",
+          "size": "T20",
+          "mouth": [
+            78.75435019193718,
+            41.00377010867322,
+            -133.67181937678194
+          ],
+          "axis": [
+            1.0497538263299697e-05,
+            0.3912621817821653,
+            0.9202792538120489
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.12,
+          "radius_floor": 2.12,
+          "floor_deg": 0.0,
+          "pinch": 0.22
+        },
+        {
+          "set": "torx",
+          "size": "T25",
+          "mouth": [
+            57.31465758819135,
+            42.21552845044175,
+            -138.82506549200784
+          ],
+          "axis": [
+            1.7222323049393644e-05,
+            0.36495822770571196,
+            0.931023894286982
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.405,
+          "radius_floor": 2.405,
+          "floor_deg": 0.0,
+          "pinch": 0.22
+        },
+        {
+          "set": "torx",
+          "size": "T27",
+          "mouth": [
+            32.885750499069076,
+            43.427286792210275,
+            -143.97831160723374
+          ],
+          "axis": [
+            2.40802613387664e-05,
+            0.33835962631901234,
+            0.9410168769461041
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.685,
+          "radius_floor": 2.685,
+          "floor_deg": 0.0,
+          "pinch": 0.22
+        },
+        {
+          "set": "torx",
+          "size": "T30",
+          "mouth": [
+            5.467628924570349,
+            44.6390451339788,
+            -149.13155772245966
+          ],
+          "axis": [
+            3.1055098649930896e-05,
+            0.31148785187791267,
+            0.9502501340005507
+          ],
+          "depth": 47.16,
+          "guide_mm": 44.16,
+          "radius": 2.9499999999999997,
+          "radius_floor": 2.9499999999999997,
+          "floor_deg": 0.0,
+          "pinch": 0.19
+        },
+        {
+          "set": "torx",
+          "size": "T40",
+          "mouth": [
+            -24.939707135304857,
+            45.85080347574732,
+            -154.28480383768556
+          ],
+          "axis": [
+            3.813037604996904e-05,
+            0.2843645991832408,
+            0.9587162110225472
+          ],
+          "depth": 56.2,
+          "guide_mm": 53.2,
+          "radius": 3.515,
+          "radius_floor": 3.515,
+          "floor_deg": 0.0,
+          "pinch": 0.15
+        },
+        {
+          "set": "torx",
+          "size": "T45",
+          "mouth": [
+            -58.336257680556514,
+            47.06256181751584,
+            -159.43804995291146
+          ],
+          "axis": [
+            4.5289452184374444e-05,
+            0.2570117660656111,
+            0.9664082729637103
+          ],
+          "depth": 65.56,
+          "guide_mm": 62.56,
+          "radius": 4.1000000000000005,
+          "radius_floor": 4.1000000000000005,
+          "floor_deg": 0.0,
+          "pinch": 0.12
+        },
+        {
+          "set": "torx",
+          "size": "T50",
+          "mouth": [
+            -94.72202271118462,
+            48.274320159284365,
+            -164.59129606813735
+          ],
+          "axis": [
+            5.2515525535982057e-05,
+            0.22945143570631366,
+            0.973320109673293
+          ],
+          "depth": 73.64,
+          "guide_mm": 70.64,
+          "radius": 4.605,
+          "radius_floor": 4.605,
+          "floor_deg": 0.0,
+          "pinch": 0.11
+        },
+        {
+          "set": "hex",
+          "size": "1.5",
+          "mouth": [
+            113.20496517644483,
+            27.02737789705358,
+            -120.9490627184237
+          ],
+          "axis": [
+            0.06264297473991186,
+            0.4231574021344159,
+            0.9038880852929676
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.0854185060764965,
+          "radius_floor": 1.0854185060764965,
+          "floor_deg": 0.0,
+          "pinch": 0.19
+        },
+        {
+          "set": "hex",
+          "size": "2",
+          "mouth": [
+            100.24925468510217,
+            28.45382914123183,
+            -123.73478917517734
+          ],
+          "axis": [
+            0.04730771637671844,
+            0.40403401613244905,
+            0.9135198376494644
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.3740936406713093,
+          "radius_floor": 1.3740936406713093,
+          "floor_deg": 0.0,
+          "pinch": 0.22
+        },
+        {
+          "set": "hex",
+          "size": "2.5",
+          "mouth": [
+            84.76240268819924,
+            29.880280385410074,
+            -126.52051563193096
+          ],
+          "axis": [
+            0.03164137399894191,
+            0.3847323778719071,
+            0.9224856751562526
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.6627687752661222,
+          "radius_floor": 1.6627687752661222,
+          "floor_deg": 0.0,
+          "pinch": 0.24
+        },
+        {
+          "set": "hex",
+          "size": "3",
+          "mouth": [
+            66.744409185736,
+            31.30673162958832,
+            -129.3062420886846
+          ],
+          "axis": [
+            0.01566955000923863,
+            0.36526100287494123,
+            0.9307732618534442
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.951443909860935,
+          "radius_floor": 1.951443909860935,
+          "floor_deg": 0.0,
+          "pinch": 0.27
+        },
+        {
+          "set": "hex",
+          "size": "4",
+          "mouth": [
+            46.19527417771249,
+            32.733182873766566,
+            -132.09196854543822
+          ],
+          "axis": [
+            -0.0005816981700819008,
+            0.34562848154837894,
+            0.9383712561506777
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.528794179050561,
+          "radius_floor": 2.528794179050561,
+          "floor_deg": 0.0,
+          "pinch": 0.31
+        },
+        {
+          "set": "hex",
+          "size": "5",
+          "mouth": [
+            23.114997664128683,
+            34.15963411794482,
+            -134.87769500219187
+          ],
+          "axis": [
+            -0.017085896662434066,
+            0.32584347539379754,
+            0.9452693275879274
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 3.1061444482401868,
+          "radius_floor": 3.1061444482401868,
+          "floor_deg": 0.0,
+          "pinch": 0.33
+        },
+        {
+          "set": "hex",
+          "size": "6",
+          "mouth": [
+            -2.4964203550154167,
+            35.586085362123065,
+            -137.6634214589455
+          ],
+          "axis": [
+            -0.03381619431824105,
+            0.3059147131862311,
+            0.9514581721011266
+          ],
+          "depth": 51.0,
+          "guide_mm": 48.0,
+          "radius": 3.6834947174298125,
+          "radius_floor": 3.6834947174298125,
+          "floor_deg": 0.0,
+          "pinch": 0.29
+        },
+        {
+          "set": "hex",
+          "size": "8",
+          "mouth": [
+            -30.6389798797198,
+            37.01253660630131,
+            -140.44914791569911
+          ],
+          "axis": [
+            -0.05074540245418474,
+            0.28585098712319823,
+            0.9569295257700308
+          ],
+          "depth": 67.0,
+          "guide_mm": 64.0,
+          "radius": 4.838195255809064,
+          "radius_floor": 4.838195255809064,
+          "floor_deg": 0.0,
+          "pinch": 0.22
+        },
+        {
+          "set": "hex",
+          "size": "10",
+          "mouth": [
+            -61.312680909984465,
+            38.43898785047956,
+            -143.23487437245274
+          ],
+          "axis": [
+            -0.0678460350916523,
+            0.26566114894574916,
+            0.9616761770279884
+          ],
+          "depth": 83.0,
+          "guide_mm": 80.0,
+          "radius": 5.992895794188316,
+          "radius_floor": 5.992895794188316,
+          "floor_deg": 0.0,
+          "pinch": 0.18
+        },
+        {
+          "set": "tee",
+          "size": "2",
+          "mouth": [
+            107.67924522719379,
+            96.2854178939257,
+            -120.36796106358909
+          ],
+          "axis": [
+            -0.04706844725844897,
+            0.6700243253385869,
+            0.7408454391620766
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.3740936406713093,
+          "radius_floor": 1.3740936406713093,
+          "floor_deg": 0.0,
+          "pinch": 0.72
+        },
+        {
+          "set": "tee",
+          "size": "2.5",
+          "mouth": [
+            88.97438969706218,
+            88.48917344038051,
+            -144.50238057178487
+          ],
+          "axis": [
+            -0.2610817221050728,
+            0.6466531386358596,
+            0.7167119733024148
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.6627687752661222,
+          "radius_floor": 1.6627687752661222,
+          "floor_deg": 0.0,
+          "pinch": 0.88
+        },
+        {
+          "set": "tee",
+          "size": "3",
+          "mouth": [
+            72.39177318643475,
+            80.61788773962095,
+            -170.30694788480744
+          ],
+          "axis": [
+            -0.4241712233439869,
+            0.6226584410560083,
+            0.6575524610771121
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.951443909860935,
+          "radius_floor": 1.951443909860935,
+          "floor_deg": 0.0,
+          "pinch": 1.15
+        },
+        {
+          "set": "tee",
+          "size": "4",
+          "mouth": [
+            57.71311515225567,
+            72.67255563884373,
+            -196.59668110236424
+          ],
+          "axis": [
+            -0.5414132426741631,
+            0.5980633685803507,
+            0.5909246210976247
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.528794179050561,
+          "radius_floor": 2.528794179050561,
+          "floor_deg": 0.0,
+          "pinch": 1.55
+        },
+        {
+          "set": "tee",
+          "size": "5",
+          "mouth": [
+            44.50463330875264,
+            64.65419687746505,
+            -222.68802288773335
+          ],
+          "axis": [
+            -0.6228957402298417,
+            0.5728916360790325,
+            0.5327251356132985
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 3.1061444482401868,
+          "radius_floor": 3.1061444482401868,
+          "floor_deg": 0.0,
+          "pinch": 2.02
+        },
+        {
+          "set": "tee",
+          "size": "6",
+          "mouth": [
+            26.914469289634297,
+            60.94119521943451,
+            -244.3489914538243
+          ],
+          "axis": [
+            -0.6784796697012812,
+            0.54716751444486,
+            0.49017654874368943
+          ],
+          "depth": 51.0,
+          "guide_mm": 48.0,
+          "radius": 3.6834947174298125,
+          "radius_floor": 3.6834947174298125,
+          "floor_deg": 0.0,
+          "pinch": 2.1
+        },
+        {
+          "set": "tee",
+          "size": "8",
+          "mouth": [
+            3.7102289094140346,
+            60.904576241726105,
+            -262.1189999029754
+          ],
+          "axis": [
+            -0.7159254118674933,
+            0.5209158071910074,
+            0.46486291147057696
+          ],
+          "depth": 67.0,
+          "guide_mm": 64.0,
+          "radius": 4.838195255809064,
+          "radius_floor": 4.838195255809064,
+          "floor_deg": 0.0,
+          "pinch": 1.84
+        },
+        {
+          "set": "tee",
+          "size": "10",
+          "mouth": [
+            -19.718305999965843,
+            59.93798366003134,
+            -279.5843490879402
+          ],
+          "axis": [
+            -0.7408235339639881,
+            0.4941618265351661,
+            0.4549555810412005
+          ],
+          "depth": 83.0,
+          "guide_mm": 80.0,
+          "radius": 5.992895794188316,
+          "radius_floor": 5.992895794188316,
+          "floor_deg": 0.0,
+          "pinch": 1.55
+        }
+      ],
+      "installed_bounds_mm": [
+        -118.0,
+        118.0,
+        -10.79,
+        129.74311838237,
+        -342.3456623143,
+        -108.3679610635
+      ],
+      "rail_groups": [
+        {
+          "name": "torx",
+          "tools": [
+            "T10",
+            "T15",
+            "T20",
+            "T25",
+            "T27",
+            "T30",
+            "T40",
+            "T45",
+            "T50"
+          ]
+        },
+        {
+          "name": "hex",
+          "tools": [
+            "1.5",
+            "2",
+            "2.5",
+            "3",
+            "4",
+            "5",
+            "6",
+            "8",
+            "10"
+          ]
+        },
+        {
+          "name": "tee",
+          "tools": [
+            "2",
+            "2.5",
+            "3",
+            "4",
+            "5",
+            "6",
+            "8",
+            "10"
+          ]
+        }
+      ]
+    },
+    "files": {
+      "HX04__final-v1__straight-C38__pf02c9-hoop5__installed.step": {
+        "sha256": "40a4df237a38b5f01c23cbb56f0fa583c673df7f5c74dcae61f9b2bfae56fc2b",
+        "bytes": 9332354
+      },
+      "HX04__final-v1__straight-C38__pf02c9-hoop5__model.FCStd": {
+        "sha256": "a95195b44a93a96ce8a8ea0e90d20267d5086e53d66c2729f250567cf1a748da",
+        "bytes": 2628100
+      },
+      "HX04__final-v1__straight-C38__pf02c9-hoop5__print.stl": {
+        "sha256": "0465a006dd10ef927714e7435d55f89293ff9ca41c3e14f0d3ac44d3c077171e",
+        "bytes": 14492684
+      },
+      "HX04__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl": {
+        "sha256": "87a7246494441dac1346b0ba0b40255927c0fa66a7ebc110b7c3d2cf2d2718eb",
+        "bytes": 7300284
+      },
+      "HX04__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip": {
+        "sha256": "4d28f68b157f55000807ae6234e8f2efa09447b529b51a2b3c4a453c2463e44a",
+        "bytes": 41018421
+      }
+    }
+  },
+  {
+    "id": "HX05A",
+    "title": "Bondhus 33034 \u00b7 Torx",
+    "tool_count": 8,
+    "plate_width_mm": 236.0,
+    "body_bounds_mm": [
+      236.0,
+      108.46014191567187,
+      171.76862696907864
+    ],
+    "loaded_depth_mm": 165.76933106484415,
+    "downloads": {
+      "STEP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05A__final-v1__straight-C38__pf02c9-hoop5__installed.step",
+      "FreeCAD": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05A__final-v1__straight-C38__pf02c9-hoop5__model.FCStd",
+      "Print STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05A__final-v1__straight-C38__pf02c9-hoop5__print.stl",
+      "Brace modifier STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05A__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl",
+      "CAD + source ZIP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05A__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip"
+    },
+    "native_check": {
+      "refinement_rear_delta_mm3": 0.0,
+      "passed": true,
+      "native_valid": true,
+      "native_solids": 1,
+      "freecad": [
+        "1",
+        "1",
+        "3",
+        "20260725 (Git shallow)",
+        "Unknown",
+        "2026/07/25 04:52:02",
+        "grafted,grafted",
+        "145529fe741292ff0b3977a01195bf0247425794"
+      ],
+      "occ": "7.8.1",
+      "step_sha256": "f8f974126a4a78356368da6af02745f516dfc9310764a914a7268d494a0f1417",
+      "meshes": {
+        "installed.stl": {
+          "closed": true,
+          "volume_relative_error": 0.0001949767728575672,
+          "sha256": "e0b8ae1324ae8fb54c0a15cbdd28cd4216a5fcfb4b3aa0a22907fbe9b272e276"
+        },
+        "print.stl": {
+          "closed": true,
+          "volume_relative_error": 3.8158489446956864e-05,
+          "sha256": "01bdb0b9396ffde13add09e4b2aa69b109e4ef2ef7a70656c0348c93c68100a0"
+        }
+      },
+      "sockets": [
+        {
+          "set": "tee",
+          "size": "T9",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.545,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T10",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.753,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T15",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.2119999999999997,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T20",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.723,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T25",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 4.216,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T27",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 4.701,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T30",
+          "guide_mm": 44.16,
+          "bore_across_flats_mm": 5.16,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "T40",
+          "guide_mm": 53.2,
+          "bore_across_flats_mm": 6.139,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        }
+      ],
+      "scope": "Exported native geometry, 2 mm six-flat guide wall, vent routes, stop shoulders and nominal stored tools. No continuous withdrawal, installation, printed loads or other-size fit qualification."
+    },
+    "geometry": {
+      "native_valid": true,
+      "native_solids": 1,
+      "volume_mm3": 1311230.9283900245,
+      "mount": {
+        "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "top": {
+          "upper_ribs_mm": 0.5,
+          "clamp_mm": 0.49
+        },
+        "columns_x_mm": [
+          -101.6,
+          -76.19999999999999,
+          -50.8,
+          -25.4,
+          0.0,
+          25.4,
+          50.8,
+          76.19999999999999,
+          101.6
+        ],
+        "plate": {
+          "x0": -115.0,
+          "x1": 115.0,
+          "y0": 0.15,
+          "y1": 5.55,
+          "z0": -163.32362696907865,
+          "z1": 5.12
+        },
+        "hoop": {
+          "concept": "HOOP",
+          "arm_mm": 0.8,
+          "tip_half": 2.0,
+          "even_catch_wall": true,
+          "ramp_wall": true,
+          "nose_mm": 0.9,
+          "root_gusset_mm": 0.4,
+          "body_ribs_mm": 0.3,
+          "detail": {
+            "width_across_barbs_mm": 7.35,
+            "catch_angle_deg": 55,
+            "catch_length_mm": 0.6476919728439815,
+            "ramp_angle_deg": 15.592255624701878,
+            "crest_y_mm": [
+              -4.487691972843981,
+              -4.787691972843981
+            ],
+            "catch_bearing_per_side_mm": 0.5,
+            "nose_mm": 0.9,
+            "ramp_wall_mm": 0.8,
+            "min_wall_mm": 0.8,
+            "root_gusset_mm": 0.4,
+            "root_gusset_length_mm": 1.5,
+            "arm_mm": 0.8,
+            "closed_nose_mm": 0.9,
+            "band_half_height_mm": 1.4,
+            "root_clip_radius_mm": 2.95,
+            "cheek_offset_down_mm": 0.1
+          }
+        },
+        "rows": {
+          "hooks": [
+            0
+          ],
+          "bearing": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "hoop": [
+            6
+          ]
+        },
+        "pegs": {
+          "hooks": 9,
+          "bearing": 45,
+          "locking": 9
+        },
+        "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+        "z_shift": -113.72565546059627
+      },
+      "finish": [
+        {
+          "op": "gussets",
+          "kinds": [
+            "cheek"
+          ],
+          "hull_mm3": 25826,
+          "after_clearance_mm3": 25826
+        },
+        {
+          "op": "rails+plate",
+          "volume_mm3": 1352732,
+          "z": [
+            -275.0,
+            -108.3
+          ]
+        },
+        {
+          "op": "board-side delta",
+          "mm3": 0.0
+        },
+        {
+          "op": "done",
+          "volume_mm3": 1311231
+        }
+      ],
+      "socket_policy": {
+        "total_af_clearance_mm": 0.38,
+        "guide_minimum_mm": 40,
+        "guide_size_ratio": 8,
+        "lead_axial_mm": 3,
+        "lead_width_per_flat_mm": 1.5,
+        "vent_diameter_mm": 1
+      },
+      "seats": [
+        {
+          "set": "tee",
+          "size": "T9",
+          "mouth": [
+            60.0,
+            51.771925237456124,
+            -196.78833994094856
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.4693564350875976,
+          "radius_floor": 1.4693564350875976,
+          "floor_deg": 0.0,
+          "pinch": 0.51
+        },
+        {
+          "set": "tee",
+          "size": "T10",
+          "mouth": [
+            12.0,
+            49.71980437750211,
+            -202.42649566566402
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.58944529107904,
+          "radius_floor": 1.58944529107904,
+          "floor_deg": 0.0,
+          "pinch": 0.53
+        },
+        {
+          "set": "tee",
+          "size": "T15",
+          "mouth": [
+            -36.0,
+            47.32566337422243,
+            -209.00434401116536
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.854449064637078,
+          "radius_floor": 1.854449064637078,
+          "floor_deg": 0.0,
+          "pinch": 0.55
+        },
+        {
+          "set": "tee",
+          "size": "T20",
+          "mouth": [
+            -84.0,
+            45.273542514268414,
+            -214.64249973588082
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.149475052192977,
+          "radius_floor": 2.149475052192977,
+          "floor_deg": 0.0,
+          "pinch": 0.57
+        },
+        {
+          "set": "tee",
+          "size": "T25",
+          "mouth": [
+            84.0,
+            77.22142165431441,
+            -120.28065546059628
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.4341087349034627,
+          "radius_floor": 2.4341087349034627,
+          "floor_deg": 0.0,
+          "pinch": 0.58
+        },
+        {
+          "set": "tee",
+          "size": "T27",
+          "mouth": [
+            36.0,
+            74.82728065103473,
+            -126.85850380609762
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.7141236154604305,
+          "radius_floor": 2.7141236154604305,
+          "floor_deg": 0.0,
+          "pinch": 0.61
+        },
+        {
+          "set": "tee",
+          "size": "T30",
+          "mouth": [
+            -12.0,
+            74.19796358731548,
+            -128.5875382283437
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 47.16,
+          "guide_mm": 44.16,
+          "radius": 2.979127389018469,
+          "radius_floor": 2.979127389018469,
+          "floor_deg": 0.0,
+          "pinch": 0.56
+        },
+        {
+          "set": "tee",
+          "size": "T40",
+          "mouth": [
+            -60.0,
+            75.23770482302552,
+            -125.73087266115455
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 56.2,
+          "guide_mm": 53.2,
+          "radius": 3.544353302555113,
+          "radius_floor": 3.544353302555113,
+          "floor_deg": 0.0,
+          "pinch": 0.45
+        }
+      ],
+      "installed_bounds_mm": [
+        -118.0,
+        118.0,
+        -10.79,
+        97.67014191567186,
+        -280.0492824296749,
+        -108.28065546059628
+      ],
+      "rail_groups": [
+        {
+          "name": "tee:0",
+          "tools": [
+            "T25",
+            "T27",
+            "T30",
+            "T40"
+          ]
+        },
+        {
+          "name": "tee:1",
+          "tools": [
+            "T9",
+            "T10",
+            "T15",
+            "T20"
+          ]
+        }
+      ]
+    },
+    "files": {
+      "HX05A__final-v1__straight-C38__pf02c9-hoop5__installed.step": {
+        "sha256": "f8f974126a4a78356368da6af02745f516dfc9310764a914a7268d494a0f1417",
+        "bytes": 5297035
+      },
+      "HX05A__final-v1__straight-C38__pf02c9-hoop5__model.FCStd": {
+        "sha256": "9a5fa80fbe2da20aab31b7b8caf1ca60019303252c5f2c60e5e06d36ba9e2ef9",
+        "bytes": 1435512
+      },
+      "HX05A__final-v1__straight-C38__pf02c9-hoop5__print.stl": {
+        "sha256": "01bdb0b9396ffde13add09e4b2aa69b109e4ef2ef7a70656c0348c93c68100a0",
+        "bytes": 8701284
+      },
+      "HX05A__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl": {
+        "sha256": "2d7964c848610331afd20426548098f77a27b986f56e90c2bb672dcf7e44bc50",
+        "bytes": 4325184
+      },
+      "HX05A__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip": {
+        "sha256": "89cdcf42e4ff4757b8c33815a3b8c1b0a659add121133aa0dbcdd81616d82b51",
+        "bytes": 17676816
+      }
+    }
+  },
+  {
+    "id": "HX05B",
+    "title": "Bondhus 13189 \u00b7 metric",
+    "tool_count": 8,
+    "plate_width_mm": 236.0,
+    "body_bounds_mm": [
+      236.0,
+      100.50137363341096,
+      152.97477455336045
+    ],
+    "loaded_depth_mm": 176.41496531033349,
+    "downloads": {
+      "STEP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05B__final-v1__straight-C38__pf02c9-hoop5__installed.step",
+      "FreeCAD": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05B__final-v1__straight-C38__pf02c9-hoop5__model.FCStd",
+      "Print STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05B__final-v1__straight-C38__pf02c9-hoop5__print.stl",
+      "Brace modifier STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05B__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl",
+      "CAD + source ZIP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05B__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip"
+    },
+    "native_check": {
+      "refinement_rear_delta_mm3": 0.0,
+      "passed": true,
+      "native_valid": true,
+      "native_solids": 1,
+      "freecad": [
+        "1",
+        "1",
+        "3",
+        "20260725 (Git shallow)",
+        "Unknown",
+        "2026/07/25 04:52:02",
+        "grafted,grafted",
+        "145529fe741292ff0b3977a01195bf0247425794"
+      ],
+      "occ": "7.8.1",
+      "step_sha256": "5513a7563aef10a739142bb5517d06b11dd54b36af5dff53860084473b87a14a",
+      "meshes": {
+        "installed.stl": {
+          "closed": true,
+          "volume_relative_error": 7.612003496757396e-05,
+          "sha256": "fa677b82c14915fd9baae8d6f8a682c798e37c3d4dbbe21264e0c8894c4e98ff"
+        },
+        "print.stl": {
+          "closed": true,
+          "volume_relative_error": 1.3910657474897719e-05,
+          "sha256": "85b6a044ada187e2544ac568d4cc39bdca3d0f8107c70cd3e943dbb7d9d37312"
+        }
+      },
+      "sockets": [
+        {
+          "set": "tee",
+          "size": "2",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "2.5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.88,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "3",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "4",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 4.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "5",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 5.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "6",
+          "guide_mm": 48.0,
+          "bore_across_flats_mm": 6.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "8",
+          "guide_mm": 64.0,
+          "bore_across_flats_mm": 8.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "10",
+          "guide_mm": 80.0,
+          "bore_across_flats_mm": 10.38,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        }
+      ],
+      "scope": "Exported native geometry, 2 mm six-flat guide wall, vent routes, stop shoulders and nominal stored tools. No continuous withdrawal, installation, printed loads or other-size fit qualification."
+    },
+    "geometry": {
+      "native_valid": true,
+      "native_solids": 1,
+      "volume_mm3": 909411.998731406,
+      "mount": {
+        "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "top": {
+          "upper_ribs_mm": 0.5,
+          "clamp_mm": 0.49
+        },
+        "columns_x_mm": [
+          -101.6,
+          -76.19999999999999,
+          -50.8,
+          -25.4,
+          0.0,
+          25.4,
+          50.8,
+          76.19999999999999,
+          101.6
+        ],
+        "plate": {
+          "x0": -115.0,
+          "x1": 115.0,
+          "y0": 0.15,
+          "y1": 5.55,
+          "z0": -144.52977455336045,
+          "z1": 5.12
+        },
+        "hoop": {
+          "concept": "HOOP",
+          "arm_mm": 0.8,
+          "tip_half": 2.0,
+          "even_catch_wall": true,
+          "ramp_wall": true,
+          "nose_mm": 0.9,
+          "root_gusset_mm": 0.4,
+          "body_ribs_mm": 0.3,
+          "detail": {
+            "width_across_barbs_mm": 7.35,
+            "catch_angle_deg": 55,
+            "catch_length_mm": 0.6476919728439815,
+            "ramp_angle_deg": 15.592255624701878,
+            "crest_y_mm": [
+              -4.487691972843981,
+              -4.787691972843981
+            ],
+            "catch_bearing_per_side_mm": 0.5,
+            "nose_mm": 0.9,
+            "ramp_wall_mm": 0.8,
+            "min_wall_mm": 0.8,
+            "root_gusset_mm": 0.4,
+            "root_gusset_length_mm": 1.5,
+            "arm_mm": 0.8,
+            "closed_nose_mm": 0.9,
+            "band_half_height_mm": 1.4,
+            "root_clip_radius_mm": 2.95,
+            "cheek_offset_down_mm": 0.1
+          }
+        },
+        "rows": {
+          "hooks": [
+            0
+          ],
+          "bearing": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "hoop": [
+            5
+          ]
+        },
+        "pegs": {
+          "hooks": 9,
+          "bearing": 36,
+          "locking": 9
+        },
+        "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+        "z_shift": -175.74536843246622
+      },
+      "finish": [
+        {
+          "op": "gussets",
+          "kinds": [
+            "cheek"
+          ],
+          "hull_mm3": 10664,
+          "after_clearance_mm3": 10664
+        },
+        {
+          "op": "rails+plate",
+          "volume_mm3": 951376,
+          "z": [
+            -318.3,
+            -170.3
+          ]
+        },
+        {
+          "op": "board-side delta",
+          "mm3": 0.0
+        },
+        {
+          "op": "done",
+          "volume_mm3": 909412
+        }
+      ],
+      "socket_policy": {
+        "total_af_clearance_mm": 0.38,
+        "guide_minimum_mm": 40,
+        "guide_size_ratio": 8,
+        "lead_axial_mm": 3,
+        "lead_width_per_flat_mm": 1.5,
+        "vent_diameter_mm": 1
+      },
+      "seats": [
+        {
+          "set": "tee",
+          "size": "2",
+          "mouth": [
+            60.0,
+            53.48202595408446,
+            -192.089876837019
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.3740936406713093,
+          "radius_floor": 1.3740936406713093,
+          "floor_deg": 0.0,
+          "pinch": 0.49
+        },
+        {
+          "set": "tee",
+          "size": "2.5",
+          "mouth": [
+            12.0,
+            45.95758280091975,
+            -212.763114494309
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.6627687752661222,
+          "radius_floor": 1.6627687752661222,
+          "floor_deg": 0.0,
+          "pinch": 0.58
+        },
+        {
+          "set": "tee",
+          "size": "3",
+          "mouth": [
+            -36.0,
+            37.7490993611037,
+            -235.31573739317082
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.951443909860935,
+          "radius_floor": 1.951443909860935,
+          "floor_deg": 0.0,
+          "pinch": 0.66
+        },
+        {
+          "set": "tee",
+          "size": "4",
+          "mouth": [
+            -84.0,
+            29.540615921287653,
+            -257.8683602920326
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.528794179050561,
+          "radius_floor": 2.528794179050561,
+          "floor_deg": 0.0,
+          "pinch": 0.72
+        },
+        {
+          "set": "tee",
+          "size": "5",
+          "mouth": [
+            84.0,
+            54.648092194820265,
+            -182.30036843246623
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 3.1061444482401868,
+          "radius_floor": 3.1061444482401868,
+          "floor_deg": 0.0,
+          "pinch": 0.8
+        },
+        {
+          "set": "tee",
+          "size": "6",
+          "mouth": [
+            36.0,
+            50.54385047491225,
+            -193.57667988189712
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 51.0,
+          "guide_mm": 48.0,
+          "radius": 3.6834947174298125,
+          "radius_floor": 3.6834947174298125,
+          "floor_deg": 0.0,
+          "pinch": 0.68
+        },
+        {
+          "set": "tee",
+          "size": "8",
+          "mouth": [
+            -12.0,
+            49.51779004493524,
+            -196.39575774425487
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 67.0,
+          "guide_mm": 64.0,
+          "radius": 4.838195255809064,
+          "radius_floor": 4.838195255809064,
+          "floor_deg": 0.0,
+          "pinch": 0.51
+        },
+        {
+          "set": "tee",
+          "size": "10",
+          "mouth": [
+            -60.0,
+            47.46566918498123,
+            -202.0339134689703
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 83.0,
+          "guide_mm": 80.0,
+          "radius": 5.992895794188316,
+          "radius_floor": 5.992895794188316,
+          "floor_deg": 0.0,
+          "pinch": 0.39
+        }
+      ],
+      "installed_bounds_mm": [
+        -118.0,
+        118.0,
+        -10.79,
+        89.71137363341097,
+        -323.2751429858267,
+        -170.30036843246623
+      ],
+      "rail_groups": [
+        {
+          "name": "tee:0",
+          "tools": [
+            "5",
+            "6",
+            "8",
+            "10"
+          ]
+        },
+        {
+          "name": "tee:1",
+          "tools": [
+            "2",
+            "2.5",
+            "3",
+            "4"
+          ]
+        }
+      ]
+    },
+    "files": {
+      "HX05B__final-v1__straight-C38__pf02c9-hoop5__installed.step": {
+        "sha256": "5513a7563aef10a739142bb5517d06b11dd54b36af5dff53860084473b87a14a",
+        "bytes": 4324991
+      },
+      "HX05B__final-v1__straight-C38__pf02c9-hoop5__model.FCStd": {
+        "sha256": "96ec81a23f08071c5777889a24b69fb1d79fc91ef6997b22f118dba38ca48a26",
+        "bytes": 1109318
+      },
+      "HX05B__final-v1__straight-C38__pf02c9-hoop5__print.stl": {
+        "sha256": "85b6a044ada187e2544ac568d4cc39bdca3d0f8107c70cd3e943dbb7d9d37312",
+        "bytes": 8052884
+      },
+      "HX05B__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl": {
+        "sha256": "ded292c25e3990f27680e2d00785a9de4edf072a215afc2c3b0d25bbf1d982d6",
+        "bytes": 3843584
+      },
+      "HX05B__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip": {
+        "sha256": "94338704372ce36114fb9075dcee06a430e5c44032214939629eeb8147a88644",
+        "bytes": 16516673
+      }
+    }
+  },
+  {
+    "id": "HX05C",
+    "title": "Bondhus 13190 \u00b7 inch",
+    "tool_count": 10,
+    "plate_width_mm": 236.0,
+    "body_bounds_mm": [
+      236.0,
+      99.69358422063124,
+      159.5526228988618
+    ],
+    "loaded_depth_mm": 176.41496531033349,
+    "downloads": {
+      "STEP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05C__final-v1__straight-C38__pf02c9-hoop5__installed.step",
+      "FreeCAD": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05C__final-v1__straight-C38__pf02c9-hoop5__model.FCStd",
+      "Print STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05C__final-v1__straight-C38__pf02c9-hoop5__print.stl",
+      "Brace modifier STL": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05C__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl",
+      "CAD + source ZIP": "https://github.com/thereprocase/peg/releases/download/final-racks-v1-2026-10-10/HX05C__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip"
+    },
+    "native_check": {
+      "refinement_rear_delta_mm3": 0.0,
+      "passed": true,
+      "native_valid": true,
+      "native_solids": 1,
+      "freecad": [
+        "1",
+        "1",
+        "3",
+        "20260725 (Git shallow)",
+        "Unknown",
+        "2026/07/25 04:52:02",
+        "grafted,grafted",
+        "145529fe741292ff0b3977a01195bf0247425794"
+      ],
+      "occ": "7.8.1",
+      "step_sha256": "46c664ec4851e04cc4276a26da9f9a4f288ea396c2c7b6c63212d5e9eeebf3c1",
+      "meshes": {
+        "installed.stl": {
+          "closed": true,
+          "volume_relative_error": 0.0001073587014605387,
+          "sha256": "835aba7d8f0f0de84b83b57801d2bdb6098911bdae5234ad1998920af9b4b1be"
+        },
+        "print.stl": {
+          "closed": true,
+          "volume_relative_error": 3.129266070356459e-05,
+          "sha256": "64ae4c7ace046187f8110e6d32a86b15a7f1a81dd01f08ec8efeeb880639098a"
+        }
+      },
+      "sockets": [
+        {
+          "set": "tee",
+          "size": "3/32",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 2.7612499999999995,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "7/64",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.1581249999999996,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "1/8",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.5549999999999997,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "9/64",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 3.951875,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "5/32",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 4.34875,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "3/16",
+          "guide_mm": 40.0,
+          "bore_across_flats_mm": 5.142499999999999,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "7/32",
+          "guide_mm": 44.449999999999996,
+          "bore_across_flats_mm": 5.936249999999999,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "1/4",
+          "guide_mm": 50.8,
+          "bore_across_flats_mm": 6.7299999999999995,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "5/16",
+          "guide_mm": 63.5,
+          "bore_across_flats_mm": 8.3175,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        },
+        {
+          "set": "tee",
+          "size": "3/8",
+          "guide_mm": 76.19999999999999,
+          "bore_across_flats_mm": 9.905,
+          "bore_diameter_mm": null,
+          "straight_guide_obstruction_mm3": 0.0,
+          "guide_wall_missing_mm3": 0.0,
+          "vent_obstruction_mm3": 0.0,
+          "floor_shoulder_missing_mm3": 0.0,
+          "stored_body_overlap_mm3": 0.0,
+          "stored_neighbor_overlap_mm3": 0.0
+        }
+      ],
+      "scope": "Exported native geometry, 2 mm six-flat guide wall, vent routes, stop shoulders and nominal stored tools. No continuous withdrawal, installation, printed loads or other-size fit qualification."
+    },
+    "geometry": {
+      "native_valid": true,
+      "native_solids": 1,
+      "volume_mm3": 1077342.3792342844,
+      "mount": {
+        "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
+        "top": {
+          "upper_ribs_mm": 0.5,
+          "clamp_mm": 0.49
+        },
+        "columns_x_mm": [
+          -101.6,
+          -76.19999999999999,
+          -50.8,
+          -25.4,
+          0.0,
+          25.4,
+          50.8,
+          76.19999999999999,
+          101.6
+        ],
+        "plate": {
+          "x0": -115.0,
+          "x1": 115.0,
+          "y0": 0.15,
+          "y1": 5.55,
+          "z0": -151.10762289886182,
+          "z1": 5.12
+        },
+        "hoop": {
+          "concept": "HOOP",
+          "arm_mm": 0.8,
+          "tip_half": 2.0,
+          "even_catch_wall": true,
+          "ramp_wall": true,
+          "nose_mm": 0.9,
+          "root_gusset_mm": 0.4,
+          "body_ribs_mm": 0.3,
+          "detail": {
+            "width_across_barbs_mm": 7.35,
+            "catch_angle_deg": 55,
+            "catch_length_mm": 0.6476919728439815,
+            "ramp_angle_deg": 15.592255624701878,
+            "crest_y_mm": [
+              -4.487691972843981,
+              -4.787691972843981
+            ],
+            "catch_bearing_per_side_mm": 0.5,
+            "nose_mm": 0.9,
+            "ramp_wall_mm": 0.8,
+            "min_wall_mm": 0.8,
+            "root_gusset_mm": 0.4,
+            "root_gusset_length_mm": 1.5,
+            "arm_mm": 0.8,
+            "closed_nose_mm": 0.9,
+            "band_half_height_mm": 1.4,
+            "root_clip_radius_mm": 2.95,
+            "cheek_offset_down_mm": 0.1
+          }
+        },
+        "rows": {
+          "hooks": [
+            0
+          ],
+          "bearing": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "hoop": [
+            5
+          ]
+        },
+        "pegs": {
+          "hooks": 9,
+          "bearing": 36,
+          "locking": 9
+        },
+        "predicted_clamp_interference_at_3p94_mm": 0.4900000000000001,
+        "z_shift": -179.50413891560984
+      },
+      "finish": [
+        {
+          "op": "gussets",
+          "kinds": [
+            "cheek"
+          ],
+          "hull_mm3": 17708,
+          "after_clearance_mm3": 17657
+        },
+        {
+          "op": "rails+plate",
+          "volume_mm3": 1144689,
+          "z": [
+            -328.6,
+            -174.1
+          ]
+        },
+        {
+          "op": "board-side delta",
+          "mm3": 0.0
+        },
+        {
+          "op": "done",
+          "volume_mm3": 1077342
+        }
+      ],
+      "socket_policy": {
+        "total_af_clearance_mm": 0.38,
+        "guide_minimum_mm": 40,
+        "guide_size_ratio": 8,
+        "lead_axial_mm": 3,
+        "lead_width_per_flat_mm": 1.5,
+        "vent_diameter_mm": 1
+      },
+      "seats": [
+        {
+          "set": "tee",
+          "size": "3/32",
+          "mouth": [
+            84.0,
+            52.113945380781786,
+            -195.84864732016266
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.5942084307998539,
+          "radius_floor": 1.5942084307998539,
+          "floor_deg": 0.0,
+          "pinch": 0.51
+        },
+        {
+          "set": "tee",
+          "size": "7/64",
+          "mouth": [
+            36.0,
+            45.61556265759408,
+            -213.7028071150949
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 1.8233443188844867,
+          "radius_floor": 1.8233443188844867,
+          "floor_deg": 0.0,
+          "pinch": 0.58
+        },
+        {
+          "set": "tee",
+          "size": "1/8",
+          "mouth": [
+            -12.0,
+            39.11717993440638,
+            -231.5569669100272
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.0524802069691197,
+          "radius_floor": 2.0524802069691197,
+          "floor_deg": 0.0,
+          "pinch": 0.64
+        },
+        {
+          "set": "tee",
+          "size": "9/64",
+          "mouth": [
+            -60.0,
+            32.61879721121868,
+            -249.41112670495943
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.2816160950537525,
+          "radius_floor": 2.2816160950537525,
+          "floor_deg": 0.0,
+          "pinch": 0.7
+        },
+        {
+          "set": "tee",
+          "size": "5/32",
+          "mouth": [
+            -108.0,
+            25.778394344705305,
+            -268.2049791206776
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.5107519831383853,
+          "radius_floor": 2.5107519831383853,
+          "floor_deg": 0.0,
+          "pinch": 0.76
+        },
+        {
+          "set": "tee",
+          "size": "3/16",
+          "mouth": [
+            108.0,
+            53.28001162151759,
+            -186.05913891560985
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 43.0,
+          "guide_mm": 40.0,
+          "radius": 2.96902375930765,
+          "radius_floor": 2.96902375930765,
+          "floor_deg": 0.0,
+          "pinch": 0.82
+        },
+        {
+          "set": "tee",
+          "size": "7/32",
+          "mouth": [
+            60.0,
+            50.69775953940879,
+            -193.1538182025435
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 47.449999999999996,
+          "guide_mm": 44.449999999999996,
+          "radius": 3.4272955354769157,
+          "radius_floor": 3.4272955354769157,
+          "floor_deg": 0.0,
+          "pinch": 0.75
+        },
+        {
+          "set": "tee",
+          "size": "1/4",
+          "mouth": [
+            12.0,
+            48.42332558629309,
+            -199.40277413076979
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 53.8,
+          "guide_mm": 50.8,
+          "radius": 3.8855673116461813,
+          "radius_floor": 3.8855673116461813,
+          "floor_deg": 0.0,
+          "pinch": 0.66
+        },
+        {
+          "set": "tee",
+          "size": "5/16",
+          "mouth": [
+            -36.0,
+            47.97869939996973,
+            -200.62437453779143
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 66.5,
+          "guide_mm": 63.5,
+          "radius": 4.802110863984713,
+          "radius_floor": 4.802110863984713,
+          "floor_deg": 0.0,
+          "pinch": 0.52
+        },
+        {
+          "set": "tee",
+          "size": "3/8",
+          "mouth": [
+            -84.0,
+            48.560133643623374,
+            -199.02689708245538
+          ],
+          "axis": [
+            0.0,
+            0.3420201433256687,
+            0.9396926207859084
+          ],
+          "depth": 79.19999999999999,
+          "guide_mm": 76.19999999999999,
+          "radius": 5.718654416323243,
+          "radius_floor": 5.718654416323243,
+          "floor_deg": 0.0,
+          "pinch": 0.41
+        }
+      ],
+      "installed_bounds_mm": [
+        -118.0,
+        118.0,
+        -10.79,
+        88.90358422063123,
+        -333.61176181447166,
+        -174.05913891560985
+      ],
+      "rail_groups": [
+        {
+          "name": "tee:0",
+          "tools": [
+            "3/16",
+            "7/32",
+            "1/4",
+            "5/16",
+            "3/8"
+          ]
+        },
+        {
+          "name": "tee:1",
+          "tools": [
+            "3/32",
+            "7/64",
+            "1/8",
+            "9/64",
+            "5/32"
+          ]
+        }
+      ]
+    },
+    "files": {
+      "HX05C__final-v1__straight-C38__pf02c9-hoop5__installed.step": {
+        "sha256": "46c664ec4851e04cc4276a26da9f9a4f288ea396c2c7b6c63212d5e9eeebf3c1",
+        "bytes": 8114685
+      },
+      "HX05C__final-v1__straight-C38__pf02c9-hoop5__model.FCStd": {
+        "sha256": "dced05f934427a0020c5cc60a9d91e4d4c9e19f7e7a02cbb6768c896462a0285",
+        "bytes": 2239206
+      },
+      "HX05C__final-v1__straight-C38__pf02c9-hoop5__print.stl": {
+        "sha256": "64ae4c7ace046187f8110e6d32a86b15a7f1a81dd01f08ec8efeeb880639098a",
+        "bytes": 8691084
+      },
+      "HX05C__final-v1__straight-C38__pf02c9-hoop5__print_solid.stl": {
+        "sha256": "d6ffdb73e7661ea05557c6b6ae323fc5859e804976418f6a1bdaed122cf11974",
+        "bytes": 4005784
+      },
+      "HX05C__final-v1__straight-C38__pf02c9-hoop5__CAD-source-review.zip": {
+        "sha256": "ac0a1a654691c3e96a3f98df398010c2adb29772d29efa91cb97ed9ae4b6e1d9",
+        "bytes": 20774270
+      }
+    }
+  }
+]

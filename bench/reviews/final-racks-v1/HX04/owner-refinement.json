@@ -1,0 +1,207 @@
+{
+  "base_step_sha256": "5592712dcf707668d8df33a083d12ed6c80752671375d7d554c157e70e3ab9a4",
+  "step_sha256": "25226b4e3eac1f112813bc0f39d3836e849b8e9691ff8c8e4f0babed0762ae60",
+  "source_sha256": "8abeaace94150b302289e8a78144dd108de0ad7526e395841402daeb4750ff37",
+  "wall_restorations": [
+    {
+      "set": "torx",
+      "size": "T15",
+      "restored_wall_mm3": 1.871149568788798
+    },
+    {
+      "set": "torx",
+      "size": "T20",
+      "restored_wall_mm3": 0.032853699582528796
+    },
+    {
+      "set": "torx",
+      "size": "T40",
+      "restored_wall_mm3": 1.5539030653354065
+    },
+    {
+      "set": "hex",
+      "size": "10",
+      "restored_wall_mm3": 18.646072244039157
+    },
+    {
+      "set": "tee",
+      "size": "2.5",
+      "restored_wall_mm3": 10.778430531819504
+    },
+    {
+      "set": "tee",
+      "size": "3",
+      "restored_wall_mm3": 6.873269862234697
+    },
+    {
+      "set": "tee",
+      "size": "8",
+      "restored_wall_mm3": 0.02374928779178559
+    },
+    {
+      "set": "tee",
+      "size": "10",
+      "restored_wall_mm3": 0.18187230513639654
+    }
+  ],
+  "added_material_withdrawal_screen": [
+    {
+      "set": "torx",
+      "size": "T10",
+      "poses": 210,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T15",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T20",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T25",
+      "poses": 209,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T27",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T30",
+      "poses": 214,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T40",
+      "poses": 222,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T45",
+      "poses": 231,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "torx",
+      "size": "T50",
+      "poses": 239,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "1.5",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "2",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "2.5",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "3",
+      "poses": 209,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "4",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "5",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "6",
+      "poses": 216,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "8",
+      "poses": 232,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "hex",
+      "size": "10",
+      "poses": 248,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "2",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "2.5",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "3",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "4",
+      "poses": 208,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "5",
+      "poses": 209,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "6",
+      "poses": 218,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "8",
+      "poses": 233,
+      "added_material_overlap_mm3": 0.0
+    },
+    {
+      "set": "tee",
+      "size": "10",
+      "poses": 250,
+      "added_material_overlap_mm3": 0.0
+    }
+  ],
+  "step_mm": 1,
+  "scope": "Native guide-wall restoration and vent reroute; added material sampled along all nominal tool withdrawals. Original complete-rack sampled layout remains separate; installation and physical printing are unqualified."
+}
