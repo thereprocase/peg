@@ -1,0 +1,17 @@
+{
+  "required_mm": 227.6972545866838,
+  "pitch_mm": 228.6,
+  "margin_mm": 4.0,
+  "limiter": {
+    "lower": "HX05B",
+    "upper": "HX05A",
+    "moving": "HX05B",
+    "tool": "5",
+    "hand": true,
+    "translation": [
+      16.563626951269924,
+      15.18987341772152,
+      42.41360639904089
+    ]
+  }
+}

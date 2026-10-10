@@ -1,0 +1,122 @@
+{
+  "docs/gallery/key-fan/stacked/HX05A-front.jpg": {
+    "bytes": 25999,
+    "sha256": "06a269d1fda6698bbdaf79902e0cec3118f9c872b4afbfce0ad57fda868c2231"
+  },
+  "docs/gallery/key-fan/stacked/HX05A-hero.jpg": {
+    "bytes": 33173,
+    "sha256": "24e0193ef8dee82f7d77cfd8b63cdbbe99390f3cad6a0bcd5f2257f085165df1"
+  },
+  "docs/gallery/key-fan/stacked/HX05A-plan.jpg": {
+    "bytes": 21499,
+    "sha256": "ccfdf7b34a4139ce79f94749c45fd9cc19521d31110ea8e8cb0234ad7aff453e"
+  },
+  "docs/gallery/key-fan/stacked/HX05B-front.jpg": {
+    "bytes": 27857,
+    "sha256": "387e4777e8c1668bd823aa48473728176ae472930c73bbd3817058187ad7834d"
+  },
+  "docs/gallery/key-fan/stacked/HX05B-hero.jpg": {
+    "bytes": 33143,
+    "sha256": "6af0d45df0db08ac123b36bdbcb2dfd7cae9b0ea7567935a9f7e22cfb3629f65"
+  },
+  "docs/gallery/key-fan/stacked/HX05B-plan.jpg": {
+    "bytes": 21532,
+    "sha256": "58bea8a281dc24423ad4b69283b53ba4225db04fa2304cca1eccee95269bda3b"
+  },
+  "docs/gallery/key-fan/stacked/HX05C-front.jpg": {
+    "bytes": 30489,
+    "sha256": "2c1d340f4de0312cdf82145b52d02eb7492be1f7ea1ae733405e5a3f3db812d3"
+  },
+  "docs/gallery/key-fan/stacked/HX05C-hero.jpg": {
+    "bytes": 37020,
+    "sha256": "961b84e4b31695106c700c9f21ce08beb89789fbd367e1fee287fedd840b432f"
+  },
+  "docs/gallery/key-fan/stacked/HX05C-plan.jpg": {
+    "bytes": 21710,
+    "sha256": "4a7d8eba0a8b451b3603ff29dd9a952f735e5e86463ddc4a61e88bbda869bc08"
+  },
+  "docs/gallery/key-fan/stacked/empty-stack-hero.jpg": {
+    "bytes": 39360,
+    "sha256": "c6d47f75cac8d9f094768429ed25829ff491da4dcb74d8a93bfd88967c0efba4"
+  },
+  "docs/gallery/key-fan/stacked/index.html": {
+    "bytes": 5584,
+    "sha256": "e8d111b79fb0ac056c02cf05726ec8dc0a36e9ec144d7f38e4d21815fe840257"
+  },
+  "docs/gallery/key-fan/stacked/review.json": {
+    "bytes": 23400,
+    "sha256": "24e5a68f979962d9baacf93583a5833cd74a890ba63a2d51688cd4bc8419462a"
+  },
+  "docs/gallery/key-fan/stacked/sections.png": {
+    "bytes": 93860,
+    "sha256": "09edb4a139fe3edb7a9c08ed7a8d6b93c55fa098fdbea4f3d5c721f46fbb9fc3"
+  },
+  "docs/gallery/key-fan/stacked/stack-hero.jpg": {
+    "bytes": 68335,
+    "sha256": "5a63d48bd58e1a7019ba15ab5a4a0e56101df1c30bb6486c1d1b8bc714be4be7"
+  },
+  "bench/reviews/stacked-fans-v1/access.json": {
+    "bytes": 4810,
+    "sha256": "0d727ac47b68600976e6030c0702c4dded16b54a60df6aa76df9068a6d097fd9"
+  },
+  "bench/reviews/stacked-fans-v1/layout.json": {
+    "bytes": 24707,
+    "sha256": "21b4d58f299771349a18a4a1e7e7454e3bc44bf4de8a9e745fa63373dec776e0"
+  },
+  "bench/reviews/stacked-fans-v1/native.json": {
+    "bytes": 44740,
+    "sha256": "d35db9cec4ca8b788115bbff73f0934542644b956c85533af6f092bc833f3254"
+  },
+  "bench/reviews/stacked-fans-v1/spacing.json": {
+    "bytes": 304,
+    "sha256": "2d9e541e71af8216cf7345c75678f9a55d2b77cee21fcd0bf8a5a2278e9f4b81"
+  },
+  "bench/reviews/stacked-fans-v1/sweep-check.json": {
+    "bytes": 8349,
+    "sha256": "43cd71c863e2cf935199f64f4cd00ae72fbdb7c9be9ab35089ca46624dc0f8a1"
+  },
+  "bench/source/stacked_fans_v1/README.md": {
+    "bytes": 3655,
+    "sha256": "0dbbe536cf1b649a5a08f8dcc0a0326d6c4ea0b9c70eadbcf050f5b15f53c9be"
+  },
+  "bench/source/stacked_fans_v1/build.py": {
+    "bytes": 7604,
+    "sha256": "57b958eb8fe80caa87fe12cc915a65681edfa15f8de6b6c2b08c53e64169962d"
+  },
+  "bench/source/stacked_fans_v1/handles_preview.py": {
+    "bytes": 1457,
+    "sha256": "508b39642ff93a9d5b6c0fb6a9d4f3069f86655f775520eebd962060b25fc3e7"
+  },
+  "bench/source/stacked_fans_v1/layout.py": {
+    "bytes": 4617,
+    "sha256": "8d13ccdb403db09ea070d24fdec1016b3a76207aa2d2e148620c9b59610c0b9f"
+  },
+  "bench/source/stacked_fans_v1/pack.py": {
+    "bytes": 3291,
+    "sha256": "41618fe806b77049880b747ca6179a5a80427b1ec8e3b03ed279de7c64f72afd"
+  },
+  "bench/source/stacked_fans_v1/publish_review.py": {
+    "bytes": 6976,
+    "sha256": "f1e357752944ceb045aa2647a9d79af526fb5b1b63a72708e8ee2a54950e8c80"
+  },
+  "bench/source/stacked_fans_v1/render.cjs": {
+    "bytes": 2898,
+    "sha256": "e8e20cd1ed65f6b73e7f472d3ec3146e807afc4f7c6b2ef6348c8771ff6883e4"
+  },
+  "bench/source/stacked_fans_v1/screen.py": {
+    "bytes": 2541,
+    "sha256": "9d56fe6be9916c45618eb245216f328c95b777eeb1d1a72bd42b90ec71ea5d27"
+  },
+  "bench/source/stacked_fans_v1/sections.py": {
+    "bytes": 1104,
+    "sha256": "4980aaee34e60343181458dc35f8124be3d629797b217178a73884b93552fe85"
+  },
+  "bench/source/stacked_fans_v1/spacing.py": {
+    "bytes": 2715,
+    "sha256": "4403fa93a6a87622990fd298497a534cb7caed64cd09c2132c6a717376ef3263"
+  },
+  "bench/source/stacked_fans_v1/verify_native.py": {
+    "bytes": 3391,
+    "sha256": "8e9c89340c88adaf39e88a64fb164ea58d23b6790cf3f5ec3c5e74051ed1c3a4"
+  }
+}
