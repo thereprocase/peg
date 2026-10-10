@@ -1,0 +1,26 @@
+{
+  "docs/gallery/key-fan/fit-v5/HX05-fit-v5__three-spectra__print.stl": {
+    "sha256": "4c9693b53a064a919932e29b90eddb4e3b5114ab7f348a532eb4c8ffae363986",
+    "bytes": 887884
+  },
+  "docs/gallery/key-fan/fit-v5/HX05-fit-v5-3mm__rack-angle__print.stl": {
+    "sha256": "72b29c90a4598d4ddd57952000efee33e3f9dd996623847e6486462109f38228",
+    "bytes": 313284
+  },
+  "docs/gallery/key-fan/fit-v5/HX05-fit-v5-5mm__rack-angle__print.stl": {
+    "sha256": "ed6be3fb5d9ce021b0c92dd8874eda2f29ec0c6b70699cb408ccbde901461d24",
+    "bytes": 288884
+  },
+  "docs/gallery/key-fan/fit-v5/HX05-fit-v5-7mm__rack-angle__print.stl": {
+    "sha256": "00a5ece5f7f08ef145ba40f63d929253c844ce0781ce536f4847e1b564b6b3d5",
+    "bytes": 285884
+  },
+  "docs/gallery/key-fan/fit-v5/checks.json": {
+    "sha256": "d2384c9042f840f4540bed1580158cc4e1e0953a90f517a0e9d6691ef6c693d9",
+    "bytes": 8692
+  },
+  "docs/gallery/key-fan/fit-v5/coupon.glb": {
+    "sha256": "7961d0d39da520cf79a08de658fcb532dc96f46ed9befb14d13687f5fd6a3b34",
+    "bytes": 1279288
+  }
+}

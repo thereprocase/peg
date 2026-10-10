@@ -4573,14 +4573,10 @@
   "graze_per_peg_limit_mm3": 0.25,
   "passed": true
  },
- "physical_tests": "Original socket-fit coupon failed owner expectations; revised fit-v4 trial pending",
+ "physical_tests": "Owner v3 coupon snug; lettered v5 physical trial pending",
  "fit_revision": {
-  "version": 4,
-  "coupon": "fit-v4/checks.json",
-  "guide_minimum_mm": 40,
-  "guide_size_ratio": 8,
-  "clearance_per_flat_mm": 0.19,
-  "handle_axis": "flat-to-flat",
+  "version": 5,
+  "coupon": "fit-v5/checks.json",
   "full_rack": "Archived HX04 v2 retains earlier socket geometry"
  }
 }

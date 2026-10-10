@@ -1662,5 +1662,33 @@
   "tee-fit-v4__native-source-and-checks.zip": {
     "sha256": "c0c36e7737d288280ab4bae0bd6fa482d14eb244d72266f225ab153ff9357c38",
     "bytes": 1686692
+  },
+  "HX05-fit-v5-7mm__rack-angle__print.stl": {
+    "sha256": "00a5ece5f7f08ef145ba40f63d929253c844ce0781ce536f4847e1b564b6b3d5",
+    "bytes": 285884
+  },
+  "HX05-fit-v5-5mm__rack-angle__print.stl": {
+    "sha256": "ed6be3fb5d9ce021b0c92dd8874eda2f29ec0c6b70699cb408ccbde901461d24",
+    "bytes": 288884
+  },
+  "HX05-fit-v5-3mm__rack-angle__print.stl": {
+    "sha256": "72b29c90a4598d4ddd57952000efee33e3f9dd996623847e6486462109f38228",
+    "bytes": 313284
+  },
+  "HX05-fit-v5__three-spectra__print.stl": {
+    "sha256": "4c9693b53a064a919932e29b90eddb4e3b5114ab7f348a532eb4c8ffae363986",
+    "bytes": 887884
+  },
+  "HX05-fit-v5__three-spectra__print.step": {
+    "sha256": "a5b8adecdc08fb09f8a8ae435942ca3843c2411fb74830951d5f4c16749f5584",
+    "bytes": 4834420
+  },
+  "HX05-fit-v5.FCStd": {
+    "sha256": "86be49ed1ed1dda15b7a4d6358f537efb998fc1ac0436cb25fcba52d44efeda0",
+    "bytes": 1080238
+  },
+  "tee-fit-v5__native-source-and-checks.zip": {
+    "sha256": "c649e8e4a689a0c87c7fce12bc0473080321cb98cea36845931965d349ecd5ad",
+    "bytes": 3711039
   }
 }

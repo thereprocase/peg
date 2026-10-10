@@ -1,0 +1,35 @@
+{
+  "checker_sha256": "27dc122f0f61380c37a9af46d5adc2dcc34e134b9b098ea59b5804ae5096dfbf",
+  "native_and_mesh_exports": [
+    {
+      "part": "HX05-fit-v5-3mm__rack-angle__print",
+      "native_solids": 1,
+      "mesh_components": 1,
+      "closed_mesh": true,
+      "volume_error": 4.822472772992388e-07
+    },
+    {
+      "part": "HX05-fit-v5-5mm__rack-angle__print",
+      "native_solids": 1,
+      "mesh_components": 1,
+      "closed_mesh": true,
+      "volume_error": 6.697120565500416e-06
+    },
+    {
+      "part": "HX05-fit-v5-7mm__rack-angle__print",
+      "native_solids": 1,
+      "mesh_components": 1,
+      "closed_mesh": true,
+      "volume_error": 2.032068653023842e-06
+    },
+    {
+      "part": "HX05-fit-v5__three-spectra__print",
+      "native_solids": 3,
+      "mesh_components": 3,
+      "closed_mesh": true,
+      "volume_error": 1.037163497670632e-07
+    }
+  ],
+  "freecad_document_matches_combined_step": true,
+  "scope": "Geometry only; owner-profile slicing, print submission and physical fit pending"
+}
