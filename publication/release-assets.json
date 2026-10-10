@@ -1690,5 +1690,33 @@
   "tee-fit-v5__native-source-and-checks.zip": {
     "sha256": "c649e8e4a689a0c87c7fce12bc0473080321cb98cea36845931965d349ecd5ad",
     "bytes": 3711039
+  },
+  "HX05-fit-v6-7mm__fan-angle__print.stl": {
+    "sha256": "5376fa3e94931f8739c907f0a8f12ae4f349ffb0d96ec4bce076b210ae1bd4e1",
+    "bytes": 286884
+  },
+  "HX05-fit-v6-5mm__fan-angle__print.stl": {
+    "sha256": "ad9a1ab22686ab7a0dbcd7c8b09f3bc2e20b5c7d664daeab3d0f83a96e26cd45",
+    "bytes": 289884
+  },
+  "HX05-fit-v6-3mm__fan-angle__print.stl": {
+    "sha256": "d750b55fed1f1a95606dc3f9b52e9735904d9198496f322f98c9c8859e18da55",
+    "bytes": 314284
+  },
+  "HX05-fit-v6__three-spectra__print.stl": {
+    "sha256": "a224e56d69e402543b3591ecb87ad48fbf065f993b55bbb7df10087e8b09ea3c",
+    "bytes": 890884
+  },
+  "HX05-fit-v6__three-spectra__print.step": {
+    "sha256": "d7455fda161fb5941ce4fa09ce894c49ebd71ca8f3de8c0ca5542b8adf3311ce",
+    "bytes": 5124814
+  },
+  "HX05-fit-v6.FCStd": {
+    "sha256": "8cc35e3bf7842a63f988e6dd8def0071056923250c1bb18973d33ac51d686685",
+    "bytes": 1133477
+  },
+  "tee-fit-v6__native-source-and-checks.zip": {
+    "sha256": "332d67beb7aaa8df47a9356b4bb97b001759d4306f17380166c3666b19b198bf",
+    "bytes": 4394642
   }
 }

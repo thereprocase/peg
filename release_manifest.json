@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2789,
-  "total_size_bytes": 1133169826,
+  "file_count": 2814,
+  "total_size_bytes": 1149406856,
   "files": [
     {
       "path": ".gitattributes",
@@ -2187,6 +2187,66 @@
       "sha256": "d2384c9042f840f4540bed1580158cc4e1e0953a90f517a0e9d6691ef6c693d9"
     },
     {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6-3mm__fan-angle__print.step",
+      "size_bytes": 1831686,
+      "sha256": "71b575bebea7e5ab34d71ec15b04385d59e3045bf6f811252dfa90c1cfd5302c"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6-3mm__fan-angle__print.stl",
+      "size_bytes": 314284,
+      "sha256": "d750b55fed1f1a95606dc3f9b52e9735904d9198496f322f98c9c8859e18da55"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6-5mm__fan-angle__print.step",
+      "size_bytes": 1634170,
+      "sha256": "28aca34b44b3fb38109564aa76a680e0456fbd75fb0eacf50fc08958af9fd916"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6-5mm__fan-angle__print.stl",
+      "size_bytes": 289884,
+      "sha256": "ad9a1ab22686ab7a0dbcd7c8b09f3bc2e20b5c7d664daeab3d0f83a96e26cd45"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6-7mm__fan-angle__print.step",
+      "size_bytes": 1608613,
+      "sha256": "b07b8d6d02ed8ef329be1e2c32314532c5e76b7ff255e44598c4656978aa3fac"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6-7mm__fan-angle__print.stl",
+      "size_bytes": 286884,
+      "sha256": "5376fa3e94931f8739c907f0a8f12ae4f349ffb0d96ec4bce076b210ae1bd4e1"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6.FCStd",
+      "size_bytes": 1133477,
+      "sha256": "8cc35e3bf7842a63f988e6dd8def0071056923250c1bb18973d33ac51d686685"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6__three-spectra__print.step",
+      "size_bytes": 5124814,
+      "sha256": "d7455fda161fb5941ce4fa09ce894c49ebd71ca8f3de8c0ca5542b8adf3311ce"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/HX05-fit-v6__three-spectra__print.stl",
+      "size_bytes": 890884,
+      "sha256": "a224e56d69e402543b3591ecb87ad48fbf065f993b55bbb7df10087e8b09ea3c"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/README.md",
+      "size_bytes": 2389,
+      "sha256": "aa07eca39ce1d01de605a5df21dd9be8b7da5075773929bac6345e475d9015c2"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/export-check.json",
+      "size_bytes": 1029,
+      "sha256": "2535a69e283aaaa16028642dd98e4e7e9509a87baa6ecb9536a9691723de4031"
+    },
+    {
+      "path": "bench/reviews/tee-fit-v6-fan/fit-v6-check.json",
+      "size_bytes": 11865,
+      "sha256": "06458e15795067817ab5b1e8697e083d5578e3292e0a85f21b96649cc13e8a6c"
+    },
+    {
       "path": "bench/reviews/tee-racks-guide40/HX05A/build-geometry.json",
       "size_bytes": 2254,
       "sha256": "f7757b6a5976b7fef7634b02916f2ff62af5f0194fbbcf5ef8f6e9260643a9c1"
@@ -3637,6 +3697,11 @@
       "sha256": "cb58f1cf5c96400a670eb73309e608017d0960e98d48aa07cb9d828859cb5842"
     },
     {
+      "path": "bench/source/tee_racks_v1/fan_orientation_v6.json",
+      "size_bytes": 2052,
+      "sha256": "7083693c93b4f7e7ce54d947031cfa62be0903b3999832c2c628fb382aa4b795"
+    },
+    {
       "path": "bench/source/tee_racks_v1/fea_run.py",
       "size_bytes": 3634,
       "sha256": "4fe6a5d53e1f2e86cea301b664496d5d16994cbfcdde7602a6ec0f326b23ecad"
@@ -3660,6 +3725,11 @@
       "path": "bench/source/tee_racks_v1/fit_spectrum_v5.py",
       "size_bytes": 6792,
       "sha256": "a77d277243e9cc0182e614ffca4651fe11b2a1e97adfe0686f506bfd70a67e30"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/fit_spectrum_v6.py",
+      "size_bytes": 7435,
+      "sha256": "44ed9d827e24f19da0f2db1a52b021cb2d7bdd9e7463dda283ae3f84ea33164c"
     },
     {
       "path": "bench/source/tee_racks_v1/fonts/Fillaprint-Regular.ttf",
@@ -3795,6 +3865,11 @@
       "path": "bench/source/tee_racks_v1/tools/check_fit_spectrum.py",
       "size_bytes": 1721,
       "sha256": "27dc122f0f61380c37a9af46d5adc2dcc34e134b9b098ea59b5804ae5096dfbf"
+    },
+    {
+      "path": "bench/source/tee_racks_v1/tools/check_fit_spectrum_v6.py",
+      "size_bytes": 2191,
+      "sha256": "40c1ead5666235a5694571c4d5774cef7bb29bcd68555c032a4ad3879b7e346e"
     },
     {
       "path": "bench/source/tee_racks_v1/tools/check_native_rack.py",
@@ -5884,7 +5959,7 @@
     {
       "path": "docs/gallery/current-pegs/catalog.json",
       "size_bytes": 129830,
-      "sha256": "3a736a3f389d30d8b76e493740966d1d4247123d8f066c6f1196c21492671fd3"
+      "sha256": "08f2c358d0530a946ee4c786ac42eb9e04e01befeb9f69622da6871bdd7b9b06"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -9344,7 +9419,7 @@
     {
       "path": "docs/gallery/key-fan/checks.json",
       "size_bytes": 72748,
-      "sha256": "50216d24b40686a0562e8a8153a8b6dec740e0d9f5ddfa19e4332a1071cd78f5"
+      "sha256": "9958581447c39c57636f3a2c1bc1881bc9680263887080d64595aa72277b42a0"
     },
     {
       "path": "docs/gallery/key-fan/fit-v3/HX05-fit-v3__left-end__print.stl",
@@ -9407,9 +9482,39 @@
       "sha256": "7961d0d39da520cf79a08de658fcb532dc96f46ed9befb14d13687f5fd6a3b34"
     },
     {
+      "path": "docs/gallery/key-fan/fit-v6/HX05-fit-v6-3mm__fan-angle__print.stl",
+      "size_bytes": 314284,
+      "sha256": "d750b55fed1f1a95606dc3f9b52e9735904d9198496f322f98c9c8859e18da55"
+    },
+    {
+      "path": "docs/gallery/key-fan/fit-v6/HX05-fit-v6-5mm__fan-angle__print.stl",
+      "size_bytes": 289884,
+      "sha256": "ad9a1ab22686ab7a0dbcd7c8b09f3bc2e20b5c7d664daeab3d0f83a96e26cd45"
+    },
+    {
+      "path": "docs/gallery/key-fan/fit-v6/HX05-fit-v6-7mm__fan-angle__print.stl",
+      "size_bytes": 286884,
+      "sha256": "5376fa3e94931f8739c907f0a8f12ae4f349ffb0d96ec4bce076b210ae1bd4e1"
+    },
+    {
+      "path": "docs/gallery/key-fan/fit-v6/HX05-fit-v6__three-spectra__print.stl",
+      "size_bytes": 890884,
+      "sha256": "a224e56d69e402543b3591ecb87ad48fbf065f993b55bbb7df10087e8b09ea3c"
+    },
+    {
+      "path": "docs/gallery/key-fan/fit-v6/checks.json",
+      "size_bytes": 11865,
+      "sha256": "06458e15795067817ab5b1e8697e083d5578e3292e0a85f21b96649cc13e8a6c"
+    },
+    {
+      "path": "docs/gallery/key-fan/fit-v6/coupon.glb",
+      "size_bytes": 1283620,
+      "sha256": "a877810601b4129c96cd98ff331d3e35b6a8b85cb4ada7be5b0feffe5036b721"
+    },
+    {
       "path": "docs/gallery/key-fan/index.html",
-      "size_bytes": 11883,
-      "sha256": "3bca3faa902f3b7072875993707cb2e6baa5b565a72a62fd6ad46236d9bfc810"
+      "size_bytes": 12050,
+      "sha256": "ce5632c19d83c46dea0dc570753df6d2e1f4c276ccd52a29f32f4994e238c69e"
     },
     {
       "path": "docs/gallery/key-fan/installed.glb",
@@ -10403,8 +10508,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 118233,
-      "sha256": "2a70c632440bd235ad14fc5a6f6b1c187764cfb685d343df35713e0864bb3c12"
+      "size_bytes": 119398,
+      "sha256": "d2b59b0c10372429c5d916d4ff37b0acc8893e157335f92349566eb04d9e7cc7"
     },
     {
       "path": "docs/gallery/research.html",
@@ -13284,7 +13389,7 @@
     {
       "path": "publication/build_key_fan_v2.py",
       "size_bytes": 12594,
-      "sha256": "2fa217dacb7e112f5d394e545aabb9690059ab200e5ea8db740d47a6a3c44752"
+      "sha256": "0d618cabb8ce01e7e1e4ae3d9742d163f81ee1e058c1b84c5043c3336a0cc525"
     },
     {
       "path": "publication/build_peg_downloads.py",
@@ -13314,7 +13419,7 @@
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 96416,
-      "sha256": "593dde3157a42ef4162020c8d10d8498de4dc1a88cdd0730c2a930ccc7cfe387"
+      "sha256": "e64a1720070005b4b7c419fae084eadd853b36ab180b9a0a9e60ed1e5e3594e6"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -13334,7 +13439,7 @@
     {
       "path": "publication/key-fan-v2-additions.json",
       "size_bytes": 1101,
-      "sha256": "497341ae75ad515d4ece95793419dbce8d6e66a4f59b9a8a3542644c9c8613c9"
+      "sha256": "04dfb90d99f76f460e2999d5bd78d6e823b4e1c6c6a94661fd0567a42da81917"
     },
     {
       "path": "publication/mh01-mh04-shaft-holders-v1-additions.json",
@@ -13423,13 +13528,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 80324,
-      "sha256": "067f5119132b396278374641ac394049cb6ab517d3667c579a058ea3718afbe8"
+      "size_bytes": 81375,
+      "sha256": "40f89c33d23f8e5a3e35b3db657713497f38a3c48b06a9398bc95b4d621e0345"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 119540,
-      "sha256": "3e16929bad62bbe61980def231801b74b3ea2d57bcc162a58f682d77f9adf701"
+      "size_bytes": 120733,
+      "sha256": "e52315fb1a34ff78a03fc30df69dd853aad324b5b5e6b3a701c7710ee9e4cd3b"
     },
     {
       "path": "publication/render_fit_coupon_glb.py",
@@ -13445,6 +13550,11 @@
       "path": "publication/render_fit_spectrum_v5_glb.py",
       "size_bytes": 2000,
       "sha256": "eed399f65dc266d84fdfa63223e18cabc19fba093f32cc455d018e5afe39d501"
+    },
+    {
+      "path": "publication/render_fit_spectrum_v6_glb.py",
+      "size_bytes": 1996,
+      "sha256": "f62ca19bcc0b514e1fbe0ecc9401e274faf87aabdd6f5ce28bdcaba5d286fd0a"
     },
     {
       "path": "publication/render_workbench_previews.cjs",
@@ -13470,6 +13580,11 @@
       "path": "publication/tee-fit-v5-page-additions.json",
       "size_bytes": 1032,
       "sha256": "84f2ba842ca14591f39b13aefd15ecf8cf9df23d56646f8240d02116e8281dc9"
+    },
+    {
+      "path": "publication/tee-fit-v6-page-additions.json",
+      "size_bytes": 1030,
+      "sha256": "7e1330da2942e2e087b5d6d8b3ece9f76eab9dee7a4f004ab9a8544560f324b5"
     },
     {
       "path": "publication/tweezers-v10-additions.json",
@@ -13515,6 +13630,11 @@
       "path": "publication/update_key_fan_fit_spectrum_v5.py",
       "size_bytes": 7839,
       "sha256": "46b9a556d740977a9d3757ccafd12359bf08c4bcf715c4f797207be9fc7bd751"
+    },
+    {
+      "path": "publication/update_key_fan_fit_spectrum_v6.py",
+      "size_bytes": 8038,
+      "sha256": "d7b98129e47d4e5956df4d449640bcc806b9fb72af6a9cc8648db1f3d66ce703"
     },
     {
       "path": "render_bearing.py",
@@ -13698,8 +13818,8 @@
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 5462,
-      "sha256": "ce662820203d8dff0d39089767d6f2cdbd7e97652641614d542c2cf8de1cf172"
+      "size_bytes": 5534,
+      "sha256": "32ad58bcd9b390642f7fe3fa6e7226569e24ac080497b95d21066ac5122a1cc1"
     },
     {
       "path": "tools/check_key_fan.py",
@@ -13723,18 +13843,23 @@
     },
     {
       "path": "tools/check_tee_fit_v3.py",
-      "size_bytes": 2024,
-      "sha256": "a9365b6e8c02d6bd36351beffca6bd66312ea63a71cddbb15927503af526f110"
+      "size_bytes": 2098,
+      "sha256": "fcc69bca51707acd9570cd9c211bbfb9295bcff1d4d584c6598c1f44a2c630fa"
     },
     {
       "path": "tools/check_tee_fit_v4.py",
-      "size_bytes": 2005,
-      "sha256": "0e46ceb01091010e7f446f44010bc524e0108b0a1e5441cfb72ceca55507076e"
+      "size_bytes": 2079,
+      "sha256": "6c3f95d9372d3bb6be9214b30aabde9075a4b8ce539a379b0b941ec130a01fa8"
     },
     {
       "path": "tools/check_tee_fit_v5.py",
-      "size_bytes": 1768,
-      "sha256": "cc57454da6d33443fbe3f7199a9a6546a3febe97a7b52729c6caf90ce598f5c3"
+      "size_bytes": 1805,
+      "sha256": "d30c00a32b9c9e4dab7c1052a3d8c170c7fc05b8467cd5b8b357a4d4179ba34d"
+    },
+    {
+      "path": "tools/check_tee_fit_v6.py",
+      "size_bytes": 3055,
+      "sha256": "6a42834e207643a336da4b9810a17ea28882e61a348e382b8be1351f0ae7850e"
     },
     {
       "path": "tools/slice_round_toolpaths.py",

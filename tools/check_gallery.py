@@ -93,3 +93,5 @@ runpy.run_path(str(R/'tools/check_tee_fit_v3.py'),run_name='__main__')
 runpy.run_path(str(R/'tools/check_tee_fit_v4.py'),run_name='__main__')
 
 runpy.run_path(str(R/'tools/check_tee_fit_v5.py'),run_name='__main__')
+
+runpy.run_path(str(R/'tools/check_tee_fit_v6.py'),run_name='__main__')

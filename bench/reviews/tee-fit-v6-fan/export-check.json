@@ -1,0 +1,35 @@
+{
+  "checker_sha256": "40c1ead5666235a5694571c4d5774cef7bb29bcd68555c032a4ad3879b7e346e",
+  "native_and_mesh_exports": [
+    {
+      "part": "HX05-fit-v6-3mm__fan-angle__print",
+      "native_solids": 1,
+      "mesh_components": 1,
+      "closed_mesh": true,
+      "volume_error": 1.9798394459304495e-06
+    },
+    {
+      "part": "HX05-fit-v6-5mm__fan-angle__print",
+      "native_solids": 1,
+      "mesh_components": 1,
+      "closed_mesh": true,
+      "volume_error": 2.3437508213714486e-06
+    },
+    {
+      "part": "HX05-fit-v6-7mm__fan-angle__print",
+      "native_solids": 1,
+      "mesh_components": 1,
+      "closed_mesh": true,
+      "volume_error": 4.708471328666641e-06
+    },
+    {
+      "part": "HX05-fit-v6__three-spectra__print",
+      "native_solids": 3,
+      "mesh_components": 3,
+      "closed_mesh": true,
+      "volume_error": 2.2170682444663627e-06
+    }
+  ],
+  "freecad_document_matches_combined_step": true,
+  "scope": "Geometry only; owner-profile slicing, print submission and physical fit pending"
+}

@@ -1,0 +1,87 @@
+{
+  "source_layout": "bench/source/key_fan_v1/study/short_dt_c2.json",
+  "source_layout_sha256": "9378cd337efc6bf0b5b11e4bbe99e564f8a48bd0ee62750b390f0c51040e472e",
+  "source_study_sha256": "d8ee27dc8182a35f4c3b4e8f49c4ff62b4954dda2e3d49c5c7b27ce096cb422b",
+  "build_env": {
+    "HX4S_GUSSET": "webs,cheek",
+    "HX4S_LAYOUT": "short_dt_c2.json",
+    "HX4S_WEB_Y": "16",
+    "SHORT_CELLS": "10",
+    "SHORT_DEEP_BACK": "1",
+    "SHORT_DEEP_TEE": "1",
+    "SHORT_HAND": "5.5",
+    "SHORT_HMAX": "232",
+    "SHORT_MIDDLE": "torx",
+    "SHORT_PLATE_HALF": "118",
+    "SHORT_REC_CELLS": "9",
+    "XENV": "141"
+  },
+  "print_rotation": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "handle_axis": "flat-to-flat; revised fit, not original corner-clocked fan seats",
+  "coupons": [
+    {
+      "size_mm": 3,
+      "shaft_print": [
+        0.6575524610771121,
+        0.6226584410560083,
+        0.4241712233439869
+      ],
+      "bar_print": [
+        0.5542885433280083,
+        -0.7811324956814419,
+        0.2873956070050426
+      ],
+      "elevation_deg": 25.09821582313435,
+      "heading_deg": 43.4387063127724,
+      "origin": "Exact HX04 fan T3 layout"
+    },
+    {
+      "size_mm": 5,
+      "shaft_print": [
+        0.5327251356132985,
+        0.5728916360790325,
+        0.6228957402298417
+      ],
+      "bar_print": [
+        0.5599862798254799,
+        -0.7904814637984487,
+        0.24810163602499893
+      ],
+      "elevation_deg": 38.527906505600775,
+      "heading_deg": 47.08061178144188,
+      "origin": "Exact HX04 fan T5 layout"
+    },
+    {
+      "size_mm": 7,
+      "shaft_print": [
+        0.4776828936061459,
+        0.5342241372696984,
+        0.6974407676028882
+      ],
+      "bar_print": [
+        0.614724015412937,
+        -0.770405697284683,
+        0.16908414019622495
+      ],
+      "elevation_deg": 44.22203535691435,
+      "heading_deg": 48.19812926195561,
+      "origin": "Interpolated normalized T6/T8 directions; fan has no T7"
+    }
+  ]
+}

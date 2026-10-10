@@ -1,0 +1,381 @@
+{
+  "version": 6,
+  "status": "Native/export checks pass; owner-profile slicing and physical fit pending",
+  "source_sha256": "44ed9d827e24f19da0f2db1a52b021cb2d7bdd9e7463dda283ae3f84ea33164c",
+  "freecad": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "occ": "7.8.1",
+  "print_extents_mm": [
+    81.36848560869474,
+    219.78692699833792,
+    53.46276845771573
+  ],
+  "coupons": [
+    {
+      "size_mm": 3,
+      "shaft_print": [
+        0.6575524610771121,
+        0.6226584410560083,
+        0.4241712233439869
+      ],
+      "bar_print": [
+        0.5542885433280083,
+        -0.7811324956814419,
+        0.2873956070050426
+      ],
+      "elevation_deg": 25.09821582313435,
+      "heading_deg": 43.4387063127724,
+      "origin": "Exact HX04 fan T3 layout",
+      "guide_mm": 40.0,
+      "slots": [
+        {
+          "letter": "A",
+          "clearance_per_flat_mm": 0.1,
+          "total_af_clearance_mm": 0.2,
+          "bore_af_mm": 3.2,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 7.4821746417728505,
+          "collision_at_30_deg_mm3": 7.212354631810322,
+          "vent_outer_point_print_mm": [
+            24.589730712064707,
+            5.145156467782942,
+            5.778049361493116
+          ]
+        },
+        {
+          "letter": "B",
+          "clearance_per_flat_mm": 0.15,
+          "total_af_clearance_mm": 0.3,
+          "bore_af_mm": 3.3,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 12.2936809444702,
+          "collision_at_30_deg_mm3": 2.784586219520552,
+          "vent_outer_point_print_mm": [
+            19.70054513198365,
+            10.308333900008336,
+            5.778049361493116
+          ]
+        },
+        {
+          "letter": "C",
+          "clearance_per_flat_mm": 0.19,
+          "total_af_clearance_mm": 0.38,
+          "bore_af_mm": 3.38,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 17.348935327000575,
+          "collision_at_30_deg_mm3": 0.731380927939572,
+          "vent_outer_point_print_mm": [
+            14.81135955190259,
+            15.47151133223373,
+            5.778049361493116
+          ]
+        },
+        {
+          "letter": "D",
+          "clearance_per_flat_mm": 0.23,
+          "total_af_clearance_mm": 0.46,
+          "bore_af_mm": 3.46,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 27.211551465269892,
+          "collision_at_30_deg_mm3": 0.0017395814706183158,
+          "vent_outer_point_print_mm": [
+            9.922173971821529,
+            20.634688764459124,
+            5.778049361493116
+          ]
+        },
+        {
+          "letter": "E",
+          "clearance_per_flat_mm": 0.28,
+          "total_af_clearance_mm": 0.56,
+          "bore_af_mm": 3.56,
+          "free_full_rotation": true,
+          "ideal_one_sided_play_deg": null,
+          "collision_at_30_deg_mm3": 0.0,
+          "vent_outer_point_print_mm": [
+            5.032988391740474,
+            25.797866196684513,
+            5.778049361493116
+          ]
+        }
+      ],
+      "fan_frame_match": true,
+      "files": [
+        "HX05-fit-v6-3mm__fan-angle__print.stl",
+        "HX05-fit-v6-3mm__fan-angle__print.step"
+      ],
+      "native_valid": true,
+      "native_solids": 1,
+      "mesh_closed": true,
+      "mesh_components": 1,
+      "mesh_step_relative_volume_error": 2.3389885661653025e-06,
+      "print_extents_mm": [
+        58.42351689898271,
+        58.215462382720645,
+        28.934798305452862
+      ],
+      "vent_diameter_mm": 1.0,
+      "floor_mm": 3.0
+    },
+    {
+      "size_mm": 5,
+      "shaft_print": [
+        0.5327251356132985,
+        0.5728916360790325,
+        0.6228957402298417
+      ],
+      "bar_print": [
+        0.5599862798254799,
+        -0.7904814637984487,
+        0.24810163602499893
+      ],
+      "elevation_deg": 38.527906505600775,
+      "heading_deg": 47.08061178144188,
+      "origin": "Exact HX04 fan T5 layout",
+      "guide_mm": 40.0,
+      "slots": [
+        {
+          "letter": "A",
+          "clearance_per_flat_mm": 0.1,
+          "total_af_clearance_mm": 0.2,
+          "bore_af_mm": 5.2,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 4.245803894404268,
+          "collision_at_30_deg_mm3": 34.00994111081352,
+          "vent_outer_point_print_mm": [
+            34.77578079827025,
+            7.061610931085636,
+            6.05816599480029
+          ]
+        },
+        {
+          "letter": "B",
+          "clearance_per_flat_mm": 0.15,
+          "total_af_clearance_mm": 0.3,
+          "bore_af_mm": 5.3,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 6.63353650270059,
+          "collision_at_30_deg_mm3": 23.183545983268594,
+          "vent_outer_point_print_mm": [
+            27.877298107012283,
+            13.47642814220549,
+            6.05816599480029
+          ]
+        },
+        {
+          "letter": "C",
+          "clearance_per_flat_mm": 0.19,
+          "total_af_clearance_mm": 0.38,
+          "bore_af_mm": 5.38,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 8.724004785707645,
+          "collision_at_30_deg_mm3": 16.0114393194834,
+          "vent_outer_point_print_mm": [
+            20.97881541575432,
+            19.891245353325345,
+            6.05816599480029
+          ]
+        },
+        {
+          "letter": "D",
+          "clearance_per_flat_mm": 0.23,
+          "total_af_clearance_mm": 0.46,
+          "bore_af_mm": 5.46,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 11.031908558629379,
+          "collision_at_30_deg_mm3": 10.162896600809752,
+          "vent_outer_point_print_mm": [
+            14.080332724496358,
+            26.306062564445195,
+            6.05816599480029
+          ]
+        },
+        {
+          "letter": "E",
+          "clearance_per_flat_mm": 0.28,
+          "total_af_clearance_mm": 0.56,
+          "bore_af_mm": 5.5600000000000005,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 14.369706599938489,
+          "collision_at_30_deg_mm3": 4.71348000028207,
+          "vent_outer_point_print_mm": [
+            7.181850033238398,
+            32.72087977556505,
+            6.05816599480029
+          ]
+        }
+      ],
+      "fan_frame_match": true,
+      "files": [
+        "HX05-fit-v6-5mm__fan-angle__print.stl",
+        "HX05-fit-v6-5mm__fan-angle__print.step"
+      ],
+      "native_valid": true,
+      "native_solids": 1,
+      "mesh_closed": true,
+      "mesh_components": 1,
+      "mesh_step_relative_volume_error": 2.3437508213714486e-06,
+      "print_extents_mm": [
+        65.29099177137113,
+        64.87514436691234,
+        38.19916541166767
+      ],
+      "vent_diameter_mm": 1.0,
+      "floor_mm": 3.0
+    },
+    {
+      "size_mm": 7,
+      "shaft_print": [
+        0.4776828936061459,
+        0.5342241372696984,
+        0.6974407676028882
+      ],
+      "bar_print": [
+        0.614724015412937,
+        -0.770405697284683,
+        0.16908414019622495
+      ],
+      "elevation_deg": 44.22203535691435,
+      "heading_deg": 48.19812926195561,
+      "origin": "Interpolated normalized T6/T8 directions; fan has no T7",
+      "guide_mm": 56,
+      "slots": [
+        {
+          "letter": "A",
+          "clearance_per_flat_mm": 0.1,
+          "total_af_clearance_mm": 0.2,
+          "bore_af_mm": 7.2,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 2.970037010363786,
+          "collision_at_30_deg_mm3": 113.00894655746784,
+          "vent_outer_point_print_mm": [
+            43.889189000185645,
+            8.738054126556424,
+            6.477905277531496
+          ]
+        },
+        {
+          "letter": "B",
+          "clearance_per_flat_mm": 0.15,
+          "total_af_clearance_mm": 0.3,
+          "bore_af_mm": 7.3,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 4.574029753815907,
+          "collision_at_30_deg_mm3": 88.85929281806492,
+          "vent_outer_point_print_mm": [
+            35.14535664285462,
+            16.556456273272456,
+            6.477905277531496
+          ]
+        },
+        {
+          "letter": "C",
+          "clearance_per_flat_mm": 0.19,
+          "total_af_clearance_mm": 0.38,
+          "bore_af_mm": 7.38,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 5.9286455112463905,
+          "collision_at_30_deg_mm3": 71.62717602388832,
+          "vent_outer_point_print_mm": [
+            26.401524285523596,
+            24.37485841998849,
+            6.477905277531496
+          ]
+        },
+        {
+          "letter": "D",
+          "clearance_per_flat_mm": 0.23,
+          "total_af_clearance_mm": 0.46,
+          "bore_af_mm": 7.46,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 7.359098203684528,
+          "collision_at_30_deg_mm3": 56.25070918290921,
+          "vent_outer_point_print_mm": [
+            17.65769192819257,
+            32.193260566704524,
+            6.477905277531496
+          ]
+        },
+        {
+          "letter": "E",
+          "clearance_per_flat_mm": 0.28,
+          "total_af_clearance_mm": 0.56,
+          "bore_af_mm": 7.5600000000000005,
+          "free_full_rotation": false,
+          "ideal_one_sided_play_deg": 9.27787026482131,
+          "collision_at_30_deg_mm3": 39.63963337836927,
+          "vent_outer_point_print_mm": [
+            8.913859570861547,
+            40.01166271342056,
+            6.477905277531496
+          ]
+        }
+      ],
+      "fan_frame_match": true,
+      "files": [
+        "HX05-fit-v6-7mm__fan-angle__print.stl",
+        "HX05-fit-v6-7mm__fan-angle__print.step"
+      ],
+      "native_valid": true,
+      "native_solids": 1,
+      "mesh_closed": true,
+      "mesh_components": 1,
+      "mesh_step_relative_volume_error": 4.925856079633944e-06,
+      "print_extents_mm": [
+        81.36848560869471,
+        80.69632024870495,
+        53.46276845771571
+      ],
+      "vent_diameter_mm": 1.0,
+      "floor_mm": 3.0
+    }
+  ],
+  "orientation": "Exact HX04 fan print frame for T3 and T5; normalized T6/T8 interpolation for 7 mm. Revised flat-to-flat hex clocking.",
+  "orientation_source_sha256": "7083693c93b4f7e7ce54d947031cfa62be0903b3999832c2c628fb382aa4b795",
+  "files": {
+    "HX05-fit-v6-3mm__fan-angle__print.step": {
+      "sha256": "71b575bebea7e5ab34d71ec15b04385d59e3045bf6f811252dfa90c1cfd5302c",
+      "bytes": 1831686
+    },
+    "HX05-fit-v6-3mm__fan-angle__print.stl": {
+      "sha256": "d750b55fed1f1a95606dc3f9b52e9735904d9198496f322f98c9c8859e18da55",
+      "bytes": 314284
+    },
+    "HX05-fit-v6-5mm__fan-angle__print.step": {
+      "sha256": "28aca34b44b3fb38109564aa76a680e0456fbd75fb0eacf50fc08958af9fd916",
+      "bytes": 1634170
+    },
+    "HX05-fit-v6-5mm__fan-angle__print.stl": {
+      "sha256": "ad9a1ab22686ab7a0dbcd7c8b09f3bc2e20b5c7d664daeab3d0f83a96e26cd45",
+      "bytes": 289884
+    },
+    "HX05-fit-v6-7mm__fan-angle__print.step": {
+      "sha256": "b07b8d6d02ed8ef329be1e2c32314532c5e76b7ff255e44598c4656978aa3fac",
+      "bytes": 1608613
+    },
+    "HX05-fit-v6-7mm__fan-angle__print.stl": {
+      "sha256": "5376fa3e94931f8739c907f0a8f12ae4f349ffb0d96ec4bce076b210ae1bd4e1",
+      "bytes": 286884
+    },
+    "HX05-fit-v6__three-spectra__print.stl": {
+      "sha256": "a224e56d69e402543b3591ecb87ad48fbf065f993b55bbb7df10087e8b09ea3c",
+      "bytes": 890884
+    },
+    "HX05-fit-v6__three-spectra__print.step": {
+      "sha256": "d7455fda161fb5941ce4fa09ce894c49ebd71ca8f3de8c0ca5542b8adf3311ce",
+      "bytes": 5124814
+    },
+    "HX05-fit-v6.FCStd": {
+      "sha256": "8cc35e3bf7842a63f988e6dd8def0071056923250c1bb18973d33ac51d686685",
+      "bytes": 1133477
+    }
+  }
+}

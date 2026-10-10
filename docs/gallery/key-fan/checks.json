@@ -4573,10 +4573,10 @@
   "graze_per_peg_limit_mm3": 0.25,
   "passed": true
  },
- "physical_tests": "Owner v3 coupon snug; lettered v5 physical trial pending",
+ "physical_tests": "Owner v3 coupon snug; lettered v6 physical trial pending",
  "fit_revision": {
-  "version": 5,
-  "coupon": "fit-v5/checks.json",
+  "version": 6,
+  "coupon": "fit-v6/checks.json",
   "full_rack": "Archived HX04 v2 retains earlier socket geometry"
  }
 }

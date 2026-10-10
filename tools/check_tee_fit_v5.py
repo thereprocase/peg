@@ -15,7 +15,8 @@ assert ex['checker_sha256']==sha(R/'bench/source/tee_racks_v1/tools/check_fit_sp
 for name,h in r['files'].items():assert sha(B/name)==h['sha256']
 for p,h in json.loads((R/'publication/tee-fit-v5-page-additions.json').read_text()).items():assert sha(R/p)==h['sha256']
 assert json.loads((D/'fit-v5/checks.json').read_text())==r
-text=(D/'index.html').read_text();assert 'id="fit-coupon-v5"' in text and '3 mm = _, 5 mm = _, 7 mm = _' in text
+text=(D/'index.html').read_text()
+if 'id="fit-coupon-v6"' not in text: assert 'id="fit-coupon-v5"' in text and '3 mm = _, 5 mm = _, 7 mm = _' in text
 for size in [3,5,7]:
  name=f'HX05-fit-v5-{size}mm__rack-angle__print.stl';assert sha(D/'fit-v5'/name)==sha(B/name)
 print('Fit v5: three connected five-slot spectra, rack angles, vents and native/export hashes PASS; slicing and physical selection pending')

@@ -1647,7 +1647,7 @@
       "extra_downloads": [
         {
           "label": "Three five-slot fit spectra and archived HX04 rack",
-          "url": "../key-fan/?v=5#fit-coupon-v5"
+          "url": "../key-fan/?v=5#fit-coupon-v6"
         }
       ],
       "notes": {
@@ -1656,7 +1656,7 @@
         "supports": "Tree supports on the build plate only, mostly under the 90 pegs behind the mounting face; small label counters.",
         "mount": "236 mm wide (ten cells shaved 8 mm a side); 9 peg columns at 25.4 mm pitch (\u00b1101.6 mm) by 10 rows.",
         "qualification": "Five lettered fits for each of 3, 5 and 7 mm, with vented floors and rack print angles. Physical fit selection and slicing pending. Archived full rack retains earlier seats.",
-        "status": "Socket fit spectrum \u00b7 new coupon v5"
+        "status": "Socket fit spectrum \u00b7 new coupon v6"
       },
       "credit": ""
     }
