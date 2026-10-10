@@ -1,0 +1,3206 @@
+[
+  {
+    "id": "flexure-cel-all-pegs-1",
+    "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 all-pegs",
+    "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+    "mode": "fea",
+    "video": "media/HX04-flexure-cel-all-pegs-1.webm",
+    "poster": "media/flexure-cel-all-pegs-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-flexure-cel-all-pegs-1.gif",
+    "amplification": 165,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "flexure-cel-all-pegs-1",
+      "mode": "fea",
+      "field": 5,
+      "shade": "cel",
+      "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 all-pegs",
+      "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+      "source": "field-all-pegs-grip-wrench-01.bin.gz",
+      "amplification": 165,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 79.45,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "flexure-cel-all-pegs-1.webm": {
+          "sha256": "9f8847891838e469d148d0d1d8a1701e7d6361022fe059dec48014075af5f7e2",
+          "bytes": 103113
+        },
+        "flexure-cel-all-pegs-1.gif": {
+          "sha256": "577e46cb48969a28965c6c153de1ddad60d36b7c8c23808d872b5dfe49abff79",
+          "bytes": 487753
+        },
+        "poster.png": {
+          "sha256": "7077c1fe484fbc4750c60ef3ba40fa3acce0b4d19c5536c2dfb837c0e74e769f",
+          "bytes": 137305
+        }
+      }
+    }
+  },
+  {
+    "id": "flexure-cel-all-pegs-4",
+    "title": "Cel-shaded flexure \u00b7 Torx T50 out 30 N \u00b7 all-pegs",
+    "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+    "mode": "fea",
+    "video": "media/HX04-flexure-cel-all-pegs-4.webm",
+    "poster": "media/flexure-cel-all-pegs-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-flexure-cel-all-pegs-4.gif",
+    "amplification": 303,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "flexure-cel-all-pegs-4",
+      "mode": "fea",
+      "field": 8,
+      "shade": "cel",
+      "title": "Cel-shaded flexure \u00b7 Torx T50 out 30 N \u00b7 all-pegs",
+      "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+      "source": "field-all-pegs-grip-wrench-04.bin.gz",
+      "amplification": 303,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 70.08,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "flexure-cel-all-pegs-4.webm": {
+          "sha256": "3465b3ae8d64be649db1c0283ac47b84df5a1610c5ed8bb99cf4dc579d33139b",
+          "bytes": 101567
+        },
+        "flexure-cel-all-pegs-4.gif": {
+          "sha256": "36e403310bc57f0c6b975aa2a43b79848baf7042dc2c463abab454cead4108ec",
+          "bytes": 551953
+        },
+        "poster.png": {
+          "sha256": "75d68f13b2cad4395641cc7c646efb58aee240385b042a0fb02d2f100c0f3809",
+          "bytes": 138821
+        }
+      }
+    }
+  },
+  {
+    "id": "flexure-cel-face-1",
+    "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 face",
+    "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+    "mode": "fea",
+    "video": "media/HX04-flexure-cel-face-1.webm",
+    "poster": "media/flexure-cel-face-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-flexure-cel-face-1.gif",
+    "amplification": 169,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "flexure-cel-face-1",
+      "mode": "fea",
+      "field": 20,
+      "shade": "cel",
+      "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 face",
+      "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+      "source": "field-face-grip-wrench-01.bin.gz",
+      "amplification": 169,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 62.296,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "flexure-cel-face-1.webm": {
+          "sha256": "ff6a1ada466dbaa5484bd723c612157523c1d7c542e3d475168982902783ae20",
+          "bytes": 90416
+        },
+        "flexure-cel-face-1.gif": {
+          "sha256": "e2b98dbe87e28ff0d61852e3bcbab31c16e39f3f9169b1b2f14d8adeda61436e",
+          "bytes": 428061
+        },
+        "poster.png": {
+          "sha256": "4d8b104a28b229cec7bd66c17494074eb694387b916787415149665ab0407e53",
+          "bytes": 137963
+        }
+      }
+    }
+  },
+  {
+    "id": "flexure-cel-four-corners-1",
+    "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 four-corners",
+    "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+    "mode": "fea",
+    "video": "media/HX04-flexure-cel-four-corners-1.webm",
+    "poster": "media/flexure-cel-four-corners-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-flexure-cel-four-corners-1.gif",
+    "amplification": 143,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "flexure-cel-four-corners-1",
+      "mode": "fea",
+      "field": 15,
+      "shade": "cel",
+      "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 four-corners",
+      "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+      "source": "field-four-corners-grip-wrench-01.bin.gz",
+      "amplification": 143,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 70.389,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "flexure-cel-four-corners-1.webm": {
+          "sha256": "6b472fb9f3c2fb94a833cedc1a5862781028a5a8d8cd2441ffe089ec55d0b612",
+          "bytes": 207608
+        },
+        "flexure-cel-four-corners-1.gif": {
+          "sha256": "b8b1bfa2a9771e0a6ef49408fa073fe32caa473880f6ff6451cb310b13b78ca3",
+          "bytes": 1198724
+        },
+        "poster.png": {
+          "sha256": "754abe3bccdfd913a4184756960de79e7e444ba68469f99e8a5f95dfb7e6724b",
+          "bytes": 134282
+        }
+      }
+    }
+  },
+  {
+    "id": "flexure-cel-hooks-only-1",
+    "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 hooks-only",
+    "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+    "mode": "fea",
+    "video": "media/HX04-flexure-cel-hooks-only-1.webm",
+    "poster": "media/flexure-cel-hooks-only-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-flexure-cel-hooks-only-1.gif",
+    "amplification": 4,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "flexure-cel-hooks-only-1",
+      "mode": "fea",
+      "field": 10,
+      "shade": "cel",
+      "title": "Cel-shaded flexure \u00b7 T-handle 10 down 50 N \u00b7 hooks-only",
+      "caption": "Actual computed deformation, amplified for visibility; no infill or elastic board model.",
+      "source": "field-hooks-only-grip-wrench-01.bin.gz",
+      "amplification": 4,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 76.771,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "flexure-cel-hooks-only-1.webm": {
+          "sha256": "8d6490106d7ffd05526c2c945856e8822782e91b94143aa1219e4fcd2a521552",
+          "bytes": 292894
+        },
+        "flexure-cel-hooks-only-1.gif": {
+          "sha256": "90671475bb943a712ea4fad7a490f520c1cc3a839a1886c60988294227754b77",
+          "bytes": 1653876
+        },
+        "poster.png": {
+          "sha256": "85ecd3de14d89a04f68acd3189b38bc473ce1fa5032ab952c5bd95cbb30c7f84",
+          "bytes": 162030
+        }
+      }
+    }
+  },
+  {
+    "id": "hoop-pinch",
+    "title": "Actual lower locking hoop \u2014 prescribed pinch",
+    "caption": "Linear forced-closure study on an actual CAD crop. Not insertion force or proof of recoverable snap.",
+    "mode": "fea",
+    "video": "media/HX04-hoop-pinch.webm",
+    "poster": "media/hoop-pinch.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-hoop-pinch.gif",
+    "amplification": 5,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "hoop-pinch",
+      "mode": "fea",
+      "field": 25,
+      "shade": "stress",
+      "scale": 5,
+      "board": false,
+      "title": "Actual lower locking hoop \u2014 prescribed pinch",
+      "caption": "Linear forced-closure study on an actual CAD crop. Not insertion force or proof of recoverable snap.",
+      "source": "hoop-h025.json",
+      "amplification": 5,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 43.167,
+      "source_scene_sha256": "b7822a8b1db5d83caa41e65415e37ca96ea9597ff003bee49f50ef26b5bf3144",
+      "recorder_sha256": "a5589014cfea52f596885d5c5048b5ea5dfb40a5d2a68392291a024425673a1f",
+      "viewer_js_sha256": "2e96e2d10816c2a8a545f76bf09a30a0acea07fe70735a62b8519a0cdcdfc1cf",
+      "camera": {
+        "position": [
+          0.035,
+          -0.307,
+          -0.022
+        ],
+        "target": [
+          0,
+          -0.324,
+          -0.003
+        ]
+      },
+      "files": {
+        "hoop-pinch.webm": {
+          "sha256": "d481f9a1db9356884d9ebdf50708ff54705e9e4483873f9a782dd6525e92f91f",
+          "bytes": 168742
+        },
+        "hoop-pinch.gif": {
+          "sha256": "f7664f2245ff0758558cdbeb1a3d7e3abeb7554d68ee697c7f228bc43007d3b3",
+          "bytes": 1314348
+        },
+        "poster.png": {
+          "sha256": "8e1f32835733d9322ed3369440060e1e89d6799195480c7bd279d201aa0f1a53",
+          "bytes": 101910
+        }
+      }
+    }
+  },
+  {
+    "id": "install-full-host",
+    "title": "Full-host installation path",
+    "caption": "Rigid rotation around the published assumed pivot. Red marks front-host material within the reference board; this path is not fully clear.",
+    "mode": "install",
+    "video": "media/HX04-install-full-host.webm",
+    "poster": "media/install-full-host.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-install-full-host.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "install-full-host",
+      "mode": "install",
+      "title": "Full-host installation path",
+      "caption": "Rigid rotation around the published assumed pivot. Red marks front-host material within the reference board; this path is not fully clear.",
+      "source": "install-audit.json",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 66.185,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "install-full-host.webm": {
+          "sha256": "decfd3b46c1aae95b31b8b7e43acac2456db767c591cbe4372f6171dea8927d0",
+          "bytes": 417419
+        },
+        "install-full-host.gif": {
+          "sha256": "9414c95b7f4facbc6e83e93a5f96c198e6adba48ede9b6eb020f334348bb98f8",
+          "bytes": 2125802
+        },
+        "poster.png": {
+          "sha256": "be3ec10b6965c1a05095fe3ded2b624ce6b7df65f932e7a4921afb4f42d6f7fb",
+          "bytes": 117377
+        }
+      }
+    }
+  },
+  {
+    "id": "install-translated-candidate",
+    "title": "Candidate translated installation swing",
+    "caption": "1.5 mm outward relief at 25 degrees clears the front host in the sampled model; hook engagement and compliance remain unqualified.",
+    "mode": "install",
+    "video": "media/HX04-install-translated-candidate.webm",
+    "poster": "media/install-translated-candidate.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-install-translated-candidate.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "install-translated-candidate",
+      "mode": "install",
+      "relief": 1.5,
+      "title": "Candidate translated installation swing",
+      "caption": "1.5 mm outward relief at 25 degrees clears the front host in the sampled model; hook engagement and compliance remain unqualified.",
+      "source": "install-candidates.json",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 62.273,
+      "source_scene_sha256": "b7822a8b1db5d83caa41e65415e37ca96ea9597ff003bee49f50ef26b5bf3144",
+      "recorder_sha256": "a5589014cfea52f596885d5c5048b5ea5dfb40a5d2a68392291a024425673a1f",
+      "viewer_js_sha256": "2e96e2d10816c2a8a545f76bf09a30a0acea07fe70735a62b8519a0cdcdfc1cf",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "install-translated-candidate.webm": {
+          "sha256": "6dde226b710a61ef3ae6a1bb47e609e8314710967323990a31adeb8d981bf494",
+          "bytes": 408370
+        },
+        "install-translated-candidate.gif": {
+          "sha256": "9a0cf0924b7a8491c3cd9dd8ce10fa636090b86fcc5971abc254cb560a6cb6e0",
+          "bytes": 2146534
+        },
+        "poster.png": {
+          "sha256": "8eefaece4d841711d183a9a9540117fada6cc51c673074da83ff716b1e2902ec",
+          "bytes": 116917
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-1.5",
+    "title": "Hex L-key 1.5 removal and return",
+    "caption": "Rigid prescribed path; 188 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-1.5.webm",
+    "poster": "media/motion-hex-1.5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-1.5.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-1.5",
+      "mode": "motion",
+      "tool": 9,
+      "title": "Hex L-key 1.5 removal and return",
+      "caption": "Rigid prescribed path; 188 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-1.5__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 108.445,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-1.5.webm": {
+          "sha256": "31acd14096afe521ff61372ec29d0d9873e32be05d0aec9af40511a4030bbcae",
+          "bytes": 73583
+        },
+        "motion-hex-1.5.gif": {
+          "sha256": "59fdc6d47ff9765843668c4377c2d36f4f05b72739a66e24748667fbedaade02",
+          "bytes": 134783
+        },
+        "poster.png": {
+          "sha256": "73084af24106f54d428eff6d949457c76ca2dc0bd8a601588399664bbe76fa97",
+          "bytes": 140186
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-10",
+    "title": "Hex L-key 10 removal and return",
+    "caption": "Rigid prescribed path; 237 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-10.webm",
+    "poster": "media/motion-hex-10.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-10.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-10",
+      "mode": "motion",
+      "tool": 17,
+      "title": "Hex L-key 10 removal and return",
+      "caption": "Rigid prescribed path; 237 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-10__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 97.654,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-10.webm": {
+          "sha256": "afe8ba1ac98c934071feae78da00edeeff992f68194b2a1a26bfce89350bea88",
+          "bytes": 82604
+        },
+        "motion-hex-10.gif": {
+          "sha256": "b6daa0dd8bc6484d4bf25a029bfd394cb4ecc3fe70aa8359d987097ca708eb31",
+          "bytes": 205736
+        },
+        "poster.png": {
+          "sha256": "db0a8e6faf0ab6705f192486e3a749cc217c54de9a8672ebecf401ce5affd49c",
+          "bytes": 140349
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-2.5",
+    "title": "Hex L-key 2.5 removal and return",
+    "caption": "Rigid prescribed path; 194 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-2.5.webm",
+    "poster": "media/motion-hex-2.5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-2.5.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-2.5",
+      "mode": "motion",
+      "tool": 11,
+      "title": "Hex L-key 2.5 removal and return",
+      "caption": "Rigid prescribed path; 194 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-2.5__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 97.598,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-2.5.webm": {
+          "sha256": "43fe6e6274074fba7fef63005ac51a1f024af0a8ec5b850c484a4a9337cc9144",
+          "bytes": 77997
+        },
+        "motion-hex-2.5.gif": {
+          "sha256": "f319593f826a78cdcdb65ba7fb8a86e5a6cc92b4b92c5abb1d9993987da05bb7",
+          "bytes": 146189
+        },
+        "poster.png": {
+          "sha256": "57222b4527654fd89f2b1903659875fa59610e52e3a60b5dfb524178b43f45b1",
+          "bytes": 141196
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-2",
+    "title": "Hex L-key 2 removal and return",
+    "caption": "Rigid prescribed path; 191 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-2.webm",
+    "poster": "media/motion-hex-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-2.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-2",
+      "mode": "motion",
+      "tool": 10,
+      "title": "Hex L-key 2 removal and return",
+      "caption": "Rigid prescribed path; 191 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-2__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 103.673,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-2.webm": {
+          "sha256": "2a62f01b76b32408861362fdddf9bbeeafd1c0cb0e83d9d9b138124ccd8e012c",
+          "bytes": 74358
+        },
+        "motion-hex-2.gif": {
+          "sha256": "4d65198ffb9ed3dfbc08b97d3158643afcfe5129bd4f7e3d04f19ffd90dd8ba5",
+          "bytes": 136997
+        },
+        "poster.png": {
+          "sha256": "ee673200ead10780dea6079576b942cf6f0b427da4bb521fca709d4e5910b742",
+          "bytes": 140412
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-3",
+    "title": "Hex L-key 3 removal and return",
+    "caption": "Rigid prescribed path; 197 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-3.webm",
+    "poster": "media/motion-hex-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-3.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-3",
+      "mode": "motion",
+      "tool": 12,
+      "title": "Hex L-key 3 removal and return",
+      "caption": "Rigid prescribed path; 197 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-3__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 101.935,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-3.webm": {
+          "sha256": "164410e41c048ca38c4179cadffdcb8506fc4d2bd5912b516fabc5847536c143",
+          "bytes": 79706
+        },
+        "motion-hex-3.gif": {
+          "sha256": "07de685b2f70f48aedf70ed6d229867b781fd9ee68cec0d087f5b678cfd45f35",
+          "bytes": 150253
+        },
+        "poster.png": {
+          "sha256": "36a3836f9f4197799d923eb7bae82f271aa64d046e5d66074c59ebf8538ee9bb",
+          "bytes": 140844
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-4",
+    "title": "Hex L-key 4 removal and return",
+    "caption": "Rigid prescribed path; 203 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-4.webm",
+    "poster": "media/motion-hex-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-4.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-4",
+      "mode": "motion",
+      "tool": 13,
+      "title": "Hex L-key 4 removal and return",
+      "caption": "Rigid prescribed path; 203 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-4__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 106.311,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-4.webm": {
+          "sha256": "ead22e1f1e9f54f15641d1703b569ae30eb94c8d98fa964f20b758d7eb7b56d9",
+          "bytes": 78495
+        },
+        "motion-hex-4.gif": {
+          "sha256": "22a776aa5e76e4da26b4fdaa40c4ba3c8f7c11d5b83f2bb2069b85cd5df99bae",
+          "bytes": 161082
+        },
+        "poster.png": {
+          "sha256": "8a293b31388461aefa8c80bdb9b42763d3613f3dcdb0501316e3d7bea8cf8dae",
+          "bytes": 140338
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-5",
+    "title": "Hex L-key 5 removal and return",
+    "caption": "Rigid prescribed path; 210 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-5.webm",
+    "poster": "media/motion-hex-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-5.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-5",
+      "mode": "motion",
+      "tool": 14,
+      "title": "Hex L-key 5 removal and return",
+      "caption": "Rigid prescribed path; 210 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-5__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 88.912,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-5.webm": {
+          "sha256": "08871f748f02700b59a9492aaa1eff1517ed58faf7f6d415aa3392dc991956c6",
+          "bytes": 79476
+        },
+        "motion-hex-5.gif": {
+          "sha256": "26d574feaa383b829f04825b1058006b7fd74a2413980e033a690d1c56f39387",
+          "bytes": 171003
+        },
+        "poster.png": {
+          "sha256": "cf2d072c1cdc595ef3d4eea514c6affcb6c68ddd058d06d1b21ed1c36730875d",
+          "bytes": 140099
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-6",
+    "title": "Hex L-key 6 removal and return",
+    "caption": "Rigid prescribed path; 216 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-6.webm",
+    "poster": "media/motion-hex-6.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-6.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-6",
+      "mode": "motion",
+      "tool": 15,
+      "title": "Hex L-key 6 removal and return",
+      "caption": "Rigid prescribed path; 216 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-6__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 109.699,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-6.webm": {
+          "sha256": "6a71e40793230928cb6636393cd4778162eaf395f69a3af0f06637b2aa34fa4a",
+          "bytes": 82702
+        },
+        "motion-hex-6.gif": {
+          "sha256": "42caad0d93cfd582ca4642e3978950c4f570d81a62f4f82b0ceaa7f758525362",
+          "bytes": 188794
+        },
+        "poster.png": {
+          "sha256": "b1f60c2284dfb7a53ffd26fbab0cbe17efc76b0474252d95a0076b90331270ad",
+          "bytes": 140309
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-hex-8",
+    "title": "Hex L-key 8 removal and return",
+    "caption": "Rigid prescribed path; 227 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-hex-8.webm",
+    "poster": "media/motion-hex-8.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-hex-8.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-hex-8",
+      "mode": "motion",
+      "tool": 16,
+      "title": "Hex L-key 8 removal and return",
+      "caption": "Rigid prescribed path; 227 sampled poses at 1 mm withdrawal steps.",
+      "source": "hex-8__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 107.162,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-hex-8.webm": {
+          "sha256": "3e9496a58065badd117effefc0f39c8c1d36df37ebd6a00b22149b8d51ba06a3",
+          "bytes": 83738
+        },
+        "motion-hex-8.gif": {
+          "sha256": "d381bb549d874ade78864b19ddf06e5cb7b223b13faf6754f27092ef53e920a3",
+          "bytes": 208604
+        },
+        "poster.png": {
+          "sha256": "91b3f7c58fac91e4bceb1df8dc5b65f98b0303adec5a4cc34b5f1f6dc4ea248f",
+          "bytes": 140172
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-10",
+    "title": "T-handle 10 removal and return",
+    "caption": "Rigid prescribed path; 218 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-10.webm",
+    "poster": "media/motion-tee-10.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-10.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-10",
+      "mode": "motion",
+      "tool": 25,
+      "title": "T-handle 10 removal and return",
+      "caption": "Rigid prescribed path; 218 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-10__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 91.884,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-10.webm": {
+          "sha256": "952bf5b3096c82ad19dec6a4d7c45b611333b0d92f947448fab5faeb77af16e3",
+          "bytes": 110942
+        },
+        "motion-tee-10.gif": {
+          "sha256": "86d85a0622f26c8182b1d881d6f3dca15cf2daef60b7336c427afac908e239d8",
+          "bytes": 409405
+        },
+        "poster.png": {
+          "sha256": "b1479eda92e66affcf8ccb0fb13237e821f67cb29917fa678151963b6d6f621e",
+          "bytes": 140049
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-2.5",
+    "title": "T-handle 2.5 removal and return",
+    "caption": "Rigid prescribed path; 209 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-2.5.webm",
+    "poster": "media/motion-tee-2.5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-2.5.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-2.5",
+      "mode": "motion",
+      "tool": 19,
+      "title": "T-handle 2.5 removal and return",
+      "caption": "Rigid prescribed path; 209 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-2.5__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 97.627,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-2.5.webm": {
+          "sha256": "2a20ce6d2c8f786462c7fe549b7b1efd37fe450deddbc5360f1480819a9df00a",
+          "bytes": 94329
+        },
+        "motion-tee-2.5.gif": {
+          "sha256": "b1449209d651737dc096cac563528eac1b1ddd6a0d5e1b118a178b089df9314a",
+          "bytes": 236845
+        },
+        "poster.png": {
+          "sha256": "356e08690ba4869fa8d86d2f9ef645a4124ba55cec2eb44dbc7fd392db3bc19d",
+          "bytes": 142400
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-2",
+    "title": "T-handle 2 removal and return",
+    "caption": "Rigid prescribed path; 247 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-2.webm",
+    "poster": "media/motion-tee-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-2.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-2",
+      "mode": "motion",
+      "tool": 18,
+      "title": "T-handle 2 removal and return",
+      "caption": "Rigid prescribed path; 247 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-2__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 111.022,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-2.webm": {
+          "sha256": "8481ab4e597e8162cf0e1c481ab837b33642d5720d8bc09f8312f240d714df56",
+          "bytes": 89591
+        },
+        "motion-tee-2.gif": {
+          "sha256": "fdc01a92818beb44ddbe63fd264e0ea7eab0c4a553d8e44c2eee17cc9598c6ee",
+          "bytes": 237100
+        },
+        "poster.png": {
+          "sha256": "961e7cf812cce6610d94df2f42b55cfb904e82ea28b35fd83b8d51ab6ead9bf4",
+          "bytes": 142057
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-3",
+    "title": "T-handle 3 removal and return",
+    "caption": "Rigid prescribed path; 188 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-3.webm",
+    "poster": "media/motion-tee-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-3.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-3",
+      "mode": "motion",
+      "tool": 20,
+      "title": "T-handle 3 removal and return",
+      "caption": "Rigid prescribed path; 188 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-3__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 88.629,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-3.webm": {
+          "sha256": "fe61b3bcec62fff5dca3f20bbb419f060e2b0f2495017d236380f46376a4f999",
+          "bytes": 101948
+        },
+        "motion-tee-3.gif": {
+          "sha256": "ebc598fb238addd17dd22f54a81c13bb0e051e94b8fa7c8eb44004402fe93c01",
+          "bytes": 225699
+        },
+        "poster.png": {
+          "sha256": "5d782f4795726b2ed4325c9240718f5a0f2166378f78b785752a130aab5c348c",
+          "bytes": 139174
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-4",
+    "title": "T-handle 4 removal and return",
+    "caption": "Rigid prescribed path; 192 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-4.webm",
+    "poster": "media/motion-tee-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-4.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-4",
+      "mode": "motion",
+      "tool": 21,
+      "title": "T-handle 4 removal and return",
+      "caption": "Rigid prescribed path; 192 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-4__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 102.405,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-4.webm": {
+          "sha256": "2272fae6356f2578c2e0f4cff51294cea5ba856617864d35975779f342eb5776",
+          "bytes": 95305
+        },
+        "motion-tee-4.gif": {
+          "sha256": "318194e5bbcf0579162c6eb2de6875385b315035aa35f46da2781a8af03ba543",
+          "bytes": 215639
+        },
+        "poster.png": {
+          "sha256": "84e10cdae0113e8eef4aabcba17fff27ec2eb5556bd23defa34c517ea9bc7b39",
+          "bytes": 138537
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-5",
+    "title": "T-handle 5 removal and return",
+    "caption": "Rigid prescribed path; 197 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-5.webm",
+    "poster": "media/motion-tee-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-5.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-5",
+      "mode": "motion",
+      "tool": 22,
+      "title": "T-handle 5 removal and return",
+      "caption": "Rigid prescribed path; 197 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-5__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 90.811,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-5.webm": {
+          "sha256": "159a2cf399cc669c10a1f939a728deae037ca9ffa8757162cb1db5409a6520cf",
+          "bytes": 93633
+        },
+        "motion-tee-5.gif": {
+          "sha256": "ccbf6db9628ed5422b314777f6053baf1cfb48748dc8380c5e68216eeb1b03c2",
+          "bytes": 235408
+        },
+        "poster.png": {
+          "sha256": "011f5a32fcfa9aa85208dca24066b10289e319d238ec5acee3f46986ed3d4716",
+          "bytes": 139001
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-6",
+    "title": "T-handle 6 removal and return",
+    "caption": "Rigid prescribed path; 202 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-6.webm",
+    "poster": "media/motion-tee-6.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-6.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-6",
+      "mode": "motion",
+      "tool": 23,
+      "title": "T-handle 6 removal and return",
+      "caption": "Rigid prescribed path; 202 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-6__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 87.366,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-6.webm": {
+          "sha256": "eab5cdd15fee5946cdf363dd4dbf0271055d7f3922924ce35bf743fe8cc66b09",
+          "bytes": 102555
+        },
+        "motion-tee-6.gif": {
+          "sha256": "f2fc00ec8f4a7b4f7a8bbea20fcfd4e3857898b9289883f47cbaf4bf4d3f7f2e",
+          "bytes": 295875
+        },
+        "poster.png": {
+          "sha256": "5e752c3d2076dac1a157261bdb80d424acbe8debff2d34b103409d818aabc62d",
+          "bytes": 139584
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-tee-8",
+    "title": "T-handle 8 removal and return",
+    "caption": "Rigid prescribed path; 209 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-tee-8.webm",
+    "poster": "media/motion-tee-8.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-tee-8.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-tee-8",
+      "mode": "motion",
+      "tool": 24,
+      "title": "T-handle 8 removal and return",
+      "caption": "Rigid prescribed path; 209 sampled poses at 1 mm withdrawal steps.",
+      "source": "tee-8__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 92.301,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-tee-8.webm": {
+          "sha256": "2189e9a32bcea86290308b1701f7a3803c12824db5984d35e863cd0bc9872747",
+          "bytes": 113093
+        },
+        "motion-tee-8.gif": {
+          "sha256": "167c1cbfc9848d19bbeb584746667b4dbaab2a82da95c47618bced8a05c4dbcb",
+          "bytes": 365926
+        },
+        "poster.png": {
+          "sha256": "f2a0260e17fb16b464dca8de64e6c2f92b9a8f1182b8ece15150bdccdd85b30b",
+          "bytes": 138067
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T10",
+    "title": "Torx T10 removal and return",
+    "caption": "Rigid prescribed path; 190 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T10.webm",
+    "poster": "media/motion-torx-T10.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T10.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T10",
+      "mode": "motion",
+      "tool": 0,
+      "title": "Torx T10 removal and return",
+      "caption": "Rigid prescribed path; 190 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T10__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 529.483,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "8333ca23bbebbb6663698d591e627c52a22ba008c462f985378adbd3b941045a",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T10.webm": {
+          "sha256": "ec435ac57227a78336ffd11747a0a0a733a098fedf3bccac2f20115b3446ea34",
+          "bytes": 76143
+        },
+        "motion-torx-T10.gif": {
+          "sha256": "5f4736f590c32b4ce2d341680199a771830cfea516c032c0596ee7d833c61a21",
+          "bytes": 140678
+        },
+        "poster.png": {
+          "sha256": "b6eb210297cd1bee411691e2d6ee8be370862a15f89bd3bbada5002b24771aed",
+          "bytes": 140105
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T15",
+    "title": "Torx T15 removal and return",
+    "caption": "Rigid prescribed path; 190 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T15.webm",
+    "poster": "media/motion-torx-T15.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T15.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T15",
+      "mode": "motion",
+      "tool": 1,
+      "title": "Torx T15 removal and return",
+      "caption": "Rigid prescribed path; 190 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T15__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 537.923,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "8333ca23bbebbb6663698d591e627c52a22ba008c462f985378adbd3b941045a",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T15.webm": {
+          "sha256": "7735330cc25488a5851d9f7843141a238d48384110aea1dd5ec901b20e8872a4",
+          "bytes": 77349
+        },
+        "motion-torx-T15.gif": {
+          "sha256": "a5e5b117946c8442d6293218c9cdbab464badb92136852d766894215a8dc53f3",
+          "bytes": 141815
+        },
+        "poster.png": {
+          "sha256": "bf4c0618c002277846465be025a4c4116ed7a21f531decfc69a768070e50bcc1",
+          "bytes": 140637
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T20",
+    "title": "Torx T20 removal and return",
+    "caption": "Rigid prescribed path; 192 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T20.webm",
+    "poster": "media/motion-torx-T20.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T20.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T20",
+      "mode": "motion",
+      "tool": 2,
+      "title": "Torx T20 removal and return",
+      "caption": "Rigid prescribed path; 192 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T20__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 634.963,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "8333ca23bbebbb6663698d591e627c52a22ba008c462f985378adbd3b941045a",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T20.webm": {
+          "sha256": "291cba8362984f836fc383f733bcd1473b1f32e9262d417cba091e5580a90c61",
+          "bytes": 77234
+        },
+        "motion-torx-T20.gif": {
+          "sha256": "d68cc3ee1d0734fac389048224a7f2737bf19008f37e67fa2b6096da77b63a73",
+          "bytes": 140442
+        },
+        "poster.png": {
+          "sha256": "c8a11b7278dba841ca5ab50dda107201f1827207467da364c21bc78b5dcf85e9",
+          "bytes": 140300
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T25",
+    "title": "Torx T25 removal and return",
+    "caption": "Rigid prescribed path; 194 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T25.webm",
+    "poster": "media/motion-torx-T25.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T25.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T25",
+      "mode": "motion",
+      "tool": 3,
+      "title": "Torx T25 removal and return",
+      "caption": "Rigid prescribed path; 194 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T25__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 530.926,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T25.webm": {
+          "sha256": "8c44e7e38f12a1055f567e3c90e13d350daff8ea437a5ee2839fdba8f7b409dd",
+          "bytes": 79035
+        },
+        "motion-torx-T25.gif": {
+          "sha256": "b56104fb6cf12f3012d8913f71cc7891d191f85b788b9ed998035c6516eda2e9",
+          "bytes": 148555
+        },
+        "poster.png": {
+          "sha256": "9f33411792479944e2b0fbdc8f28624f17cef4a7d991f72e0ef3ae33a4134aa7",
+          "bytes": 141388
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T27",
+    "title": "Torx T27 removal and return",
+    "caption": "Rigid prescribed path; 196 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T27.webm",
+    "poster": "media/motion-torx-T27.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T27.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T27",
+      "mode": "motion",
+      "tool": 4,
+      "title": "Torx T27 removal and return",
+      "caption": "Rigid prescribed path; 196 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T27__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 554.514,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T27.webm": {
+          "sha256": "60efad67b93cda05d09eef1c8f921a73845feb8c83bc7129ee7faeb324617425",
+          "bytes": 80145
+        },
+        "motion-torx-T27.gif": {
+          "sha256": "15979a29d766bd6c091219831f052e76b2cf4da668aa9be8cbb6f785d375427b",
+          "bytes": 149534
+        },
+        "poster.png": {
+          "sha256": "db1cc18edfc5f7b660de0bb742271474d7b60c625bb41bc02d790e358be3da59",
+          "bytes": 141063
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T30",
+    "title": "Torx T30 removal and return",
+    "caption": "Rigid prescribed path; 200 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T30.webm",
+    "poster": "media/motion-torx-T30.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T30.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T30",
+      "mode": "motion",
+      "tool": 5,
+      "title": "Torx T30 removal and return",
+      "caption": "Rigid prescribed path; 200 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T30__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 645.399,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T30.webm": {
+          "sha256": "ee437e56377cec3bb7813bfbd81d61d9f542343b3ca8d551752cf099444ff984",
+          "bytes": 81038
+        },
+        "motion-torx-T30.gif": {
+          "sha256": "e2b16a94ca37177437f766acfdbc2e53f1738a161b2c1da5e18b5380b7f6d3a8",
+          "bytes": 166640
+        },
+        "poster.png": {
+          "sha256": "876ce651215bc66579ee86bfdbed125cd8133fba305df08d37cef9286b2d7d57",
+          "bytes": 142049
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T40",
+    "title": "Torx T40 removal and return",
+    "caption": "Rigid prescribed path; 203 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T40.webm",
+    "poster": "media/motion-torx-T40.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T40.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T40",
+      "mode": "motion",
+      "tool": 6,
+      "title": "Torx T40 removal and return",
+      "caption": "Rigid prescribed path; 203 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T40__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 534.109,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T40.webm": {
+          "sha256": "264c696d3d5828c4e3289394215b300e71be5df83c657d647324a08b87805c45",
+          "bytes": 82340
+        },
+        "motion-torx-T40.gif": {
+          "sha256": "c680023887d43d424905480b06e08a1c339e8c065da545c666dee5ba968439a4",
+          "bytes": 178104
+        },
+        "poster.png": {
+          "sha256": "eab0038df6cf78a98f408967eaf397dca2fb5918b35cfe5f8d319307c5b6b49c",
+          "bytes": 141907
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T45",
+    "title": "Torx T45 removal and return",
+    "caption": "Rigid prescribed path; 208 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T45.webm",
+    "poster": "media/motion-torx-T45.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T45.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T45",
+      "mode": "motion",
+      "tool": 7,
+      "title": "Torx T45 removal and return",
+      "caption": "Rigid prescribed path; 208 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T45__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 109.399,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T45.webm": {
+          "sha256": "7f30b88cf1a0c897a0c3bdf4466ad7e33439fce3cc4263826c393c5e3b2faff3",
+          "bytes": 85625
+        },
+        "motion-torx-T45.gif": {
+          "sha256": "2c0b362cc7fc5ee0378124e1016939caa1313f74bd79e5c19befe9be4135192a",
+          "bytes": 185668
+        },
+        "poster.png": {
+          "sha256": "81e34253cec248fee5810f5b931e0da9dddcd81fafb712c67079c3755be0914d",
+          "bytes": 142226
+        }
+      }
+    }
+  },
+  {
+    "id": "motion-torx-T50",
+    "title": "Torx T50 removal and return",
+    "caption": "Rigid prescribed path; 212 sampled poses at 1 mm withdrawal steps.",
+    "mode": "motion",
+    "video": "media/HX04-motion-torx-T50.webm",
+    "poster": "media/motion-torx-T50.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-motion-torx-T50.gif",
+    "amplification": 1,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "motion-torx-T50",
+      "mode": "motion",
+      "tool": 8,
+      "title": "Torx T50 removal and return",
+      "caption": "Rigid prescribed path; 212 sampled poses at 1 mm withdrawal steps.",
+      "source": "torx-T50__reference.stl",
+      "amplification": 1,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 105.16,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "motion-torx-T50.webm": {
+          "sha256": "6808ded0ec8fb85898d0e2ebd55c7f873ffc075ca66c99dac89d727f34002a48",
+          "bytes": 84193
+        },
+        "motion-torx-T50.gif": {
+          "sha256": "9153943055d7ac884f592f5ec8eaa5ad8a9cbcc1885e0e0d2ba1af76b12a26e8",
+          "bytes": 206517
+        },
+        "poster.png": {
+          "sha256": "2a885f90ab38c582b09e263795cbfd8a31fea3126304070015c3f98f682adcdd",
+          "bytes": 142256
+        }
+      }
+    }
+  },
+  {
+    "id": "sequence-full-rack",
+    "title": "All 26 tools \u2014 loading and unloading",
+    "caption": "Sequential reverse of the screened removal paths. Hands and loose offscreen tools are not modeled.",
+    "mode": "sequence",
+    "video": "media/HX04-sequence-full-rack.webm",
+    "poster": "media/sequence-full-rack.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-sequence-full-rack.gif",
+    "amplification": 1,
+    "frames": 312,
+    "fps": 12,
+    "provenance": {
+      "id": "sequence-full-rack",
+      "mode": "sequence",
+      "frames": 312,
+      "title": "All 26 tools \u2014 loading and unloading",
+      "caption": "Sequential reverse of the screened removal paths. Hands and loose offscreen tools are not modeled.",
+      "source": "motion-audit.json",
+      "amplification": 1,
+      "fps": 12,
+      "seconds": 223.207,
+      "source_scene_sha256": "b7822a8b1db5d83caa41e65415e37ca96ea9597ff003bee49f50ef26b5bf3144",
+      "recorder_sha256": "a5589014cfea52f596885d5c5048b5ea5dfb40a5d2a68392291a024425673a1f",
+      "viewer_js_sha256": "2e96e2d10816c2a8a545f76bf09a30a0acea07fe70735a62b8519a0cdcdfc1cf",
+      "camera": {
+        "position": [
+          0.43,
+          0.18,
+          0.72
+        ],
+        "target": [
+          0,
+          -0.13,
+          0.05
+        ]
+      },
+      "files": {
+        "sequence-full-rack.webm": {
+          "sha256": "0d019dfc4fdaef97045b085ed8f9186f286c0dfb77b250c7c41ee98d55d1a78b",
+          "bytes": 311684
+        },
+        "sequence-full-rack.gif": {
+          "sha256": "efa9ce38d5c7de8bffc35fbd350e6f0bd6a5217d2c11de7e9d341f093bd7a505",
+          "bytes": 636326
+        },
+        "poster.png": {
+          "sha256": "fd2b56af4baafd20faa0761f7dbf8d5d8f86e5afced72352b10e03e7ae2c4016",
+          "bytes": 140354
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-grip-wrench-1",
+    "title": "T-handle 10 down 50 N \u00b7 all-pegs",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-grip-wrench-1.webm",
+    "poster": "media/stress-all-pegs-grip-wrench-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-grip-wrench-1.gif",
+    "amplification": 165,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-grip-wrench-1",
+      "mode": "fea",
+      "field": 5,
+      "shade": "stress",
+      "title": "T-handle 10 down 50 N \u00b7 all-pegs",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-grip-wrench-01.bin.gz",
+      "amplification": 165,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 81.547,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-grip-wrench-1.webm": {
+          "sha256": "ea2e3941086eb447a7ca2f18f131a219ac99978fe8d3a2743e73494b09a0f85f",
+          "bytes": 96168
+        },
+        "stress-all-pegs-grip-wrench-1.gif": {
+          "sha256": "766c10618cd3a344f62553fa3127e4f768e6c0ffcac24c4636bfb9c87c01ec5f",
+          "bytes": 940073
+        },
+        "poster.png": {
+          "sha256": "a21db6e4031695679e6ea2c12aafcd6c43b59c14eb64c3cd9c74883209dd95d1",
+          "bytes": 163834
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-grip-wrench-2",
+    "title": "T-handle 10 sideways 30 N \u00b7 all-pegs",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-grip-wrench-2.webm",
+    "poster": "media/stress-all-pegs-grip-wrench-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-grip-wrench-2.gif",
+    "amplification": 338,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-grip-wrench-2",
+      "mode": "fea",
+      "field": 6,
+      "shade": "stress",
+      "title": "T-handle 10 sideways 30 N \u00b7 all-pegs",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-grip-wrench-02.bin.gz",
+      "amplification": 338,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 74.18,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-grip-wrench-2.webm": {
+          "sha256": "e6965b498f166f5a4b7e09fe8118bfc0d6c5c3253ddb5365605feb791fa13da1",
+          "bytes": 106644
+        },
+        "stress-all-pegs-grip-wrench-2.gif": {
+          "sha256": "b949b37a10dbf508f7038c38ca0a6dd893e2e3f16d09a5fcdcec821e5a280270",
+          "bytes": 928587
+        },
+        "poster.png": {
+          "sha256": "84865a040d9b9d45fe30579cb0edc8acd4028163803b50463ea1feb7baf62b77",
+          "bytes": 165519
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-grip-wrench-3",
+    "title": "hex 10 down 50 N \u00b7 all-pegs",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-grip-wrench-3.webm",
+    "poster": "media/stress-all-pegs-grip-wrench-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-grip-wrench-3.gif",
+    "amplification": 193,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-grip-wrench-3",
+      "mode": "fea",
+      "field": 7,
+      "shade": "stress",
+      "title": "hex 10 down 50 N \u00b7 all-pegs",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-grip-wrench-03.bin.gz",
+      "amplification": 193,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 79.591,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-grip-wrench-3.webm": {
+          "sha256": "796aa2caa5f3aa3adffbb5c4f5c9c02a5c61c80aa22ce95d9ff11616670422b4",
+          "bytes": 93504
+        },
+        "stress-all-pegs-grip-wrench-3.gif": {
+          "sha256": "691929901de0854d31e506257c2f4face88ff9971288239e832fb7e7d879b331",
+          "bytes": 903756
+        },
+        "poster.png": {
+          "sha256": "e284f788b9a2b6a45268d92c449663dfbaeff92f0dd1f6f110a5ed3c48bc15e4",
+          "bytes": 166093
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-grip-wrench-4",
+    "title": "Torx T50 out 30 N \u00b7 all-pegs",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-grip-wrench-4.webm",
+    "poster": "media/stress-all-pegs-grip-wrench-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-grip-wrench-4.gif",
+    "amplification": 303,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-grip-wrench-4",
+      "mode": "fea",
+      "field": 8,
+      "shade": "stress",
+      "title": "Torx T50 out 30 N \u00b7 all-pegs",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-grip-wrench-04.bin.gz",
+      "amplification": 303,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 77.967,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-grip-wrench-4.webm": {
+          "sha256": "aeb2dab793e19bd44e80b0aaa4236853cb79ca46a06ab9193e7baa6f744e5a44",
+          "bytes": 96415
+        },
+        "stress-all-pegs-grip-wrench-4.gif": {
+          "sha256": "d3e61b4bf3c7fb27da3b1ab8521d979b3cb4e911f344c612b0f50fd28d6c8834",
+          "bytes": 876773
+        },
+        "poster.png": {
+          "sha256": "a039cd2dd87448fe5d969b3e5e8b0354ef03f749b9e498f26d9781639197d291",
+          "bytes": 163864
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-grip-wrench-5",
+    "title": "T-handle 2 down 50 N \u00b7 all-pegs",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-grip-wrench-5.webm",
+    "poster": "media/stress-all-pegs-grip-wrench-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-grip-wrench-5.gif",
+    "amplification": 539,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-grip-wrench-5",
+      "mode": "fea",
+      "field": 9,
+      "shade": "stress",
+      "title": "T-handle 2 down 50 N \u00b7 all-pegs",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-grip-wrench-05.bin.gz",
+      "amplification": 539,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 73.479,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-grip-wrench-5.webm": {
+          "sha256": "b012ced0d91651c8fa3f49b00d0419ee239cd754514050ec561ba8903b8b156b",
+          "bytes": 99496
+        },
+        "stress-all-pegs-grip-wrench-5.gif": {
+          "sha256": "82af27004eb9590cbccd86ed72be3957d9070bd151ee48f4adfef2cf89bebdaf",
+          "bytes": 790645
+        },
+        "poster.png": {
+          "sha256": "9375ef82bf77fa29bf292bcda27b8cba593276f5e8a9d7f6ae4af68592bc7d00",
+          "bytes": 155740
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-mouth-1",
+    "title": "T-handle 10 down 50 N \u00b7 all-pegs",
+    "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-mouth-1.webm",
+    "poster": "media/stress-all-pegs-mouth-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-mouth-1.gif",
+    "amplification": 1000,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-mouth-1",
+      "mode": "fea",
+      "field": 0,
+      "shade": "stress",
+      "title": "T-handle 10 down 50 N \u00b7 all-pegs",
+      "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-mouth-01.bin.gz",
+      "amplification": 1000,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 73.414,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-mouth-1.webm": {
+          "sha256": "4904063a806f037cc3f0966509b966c40b4bd3ba768ce1e00e0bcc13d7ffcf75",
+          "bytes": 112994
+        },
+        "stress-all-pegs-mouth-1.gif": {
+          "sha256": "19700e1258e3ef2ca51c047e1801e18b9b162181407b13bd7de40dd784d26aa8",
+          "bytes": 1342427
+        },
+        "poster.png": {
+          "sha256": "87ab1642fb4a94a608348e736b5927542682eebf62936d885d811410e17f959f",
+          "bytes": 175547
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-mouth-2",
+    "title": "T-handle 10 sideways 30 N \u00b7 all-pegs",
+    "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-mouth-2.webm",
+    "poster": "media/stress-all-pegs-mouth-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-mouth-2.gif",
+    "amplification": 1000,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-mouth-2",
+      "mode": "fea",
+      "field": 1,
+      "shade": "stress",
+      "title": "T-handle 10 sideways 30 N \u00b7 all-pegs",
+      "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-mouth-02.bin.gz",
+      "amplification": 1000,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 83.448,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-mouth-2.webm": {
+          "sha256": "04300d18622051a0d107962da094faed9a32cd80037039e58201f7d25a061d3f",
+          "bytes": 88890
+        },
+        "stress-all-pegs-mouth-2.gif": {
+          "sha256": "c65d472b0dcb9027d2a431923e79df7758c3a3bc6c8fd5b6bf566dd6ad32e12e",
+          "bytes": 983055
+        },
+        "poster.png": {
+          "sha256": "e452fc91986bd684d6ced2e546071c8a793853aed8f54d4fc7d1faec8e0b6d95",
+          "bytes": 166407
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-mouth-3",
+    "title": "hex 10 down 50 N \u00b7 all-pegs",
+    "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-mouth-3.webm",
+    "poster": "media/stress-all-pegs-mouth-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-mouth-3.gif",
+    "amplification": 1000,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-mouth-3",
+      "mode": "fea",
+      "field": 2,
+      "shade": "stress",
+      "title": "hex 10 down 50 N \u00b7 all-pegs",
+      "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-mouth-03.bin.gz",
+      "amplification": 1000,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 79.701,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-mouth-3.webm": {
+          "sha256": "637205969ffdcc2456a86ef7cb7a8f5062a772771fbc14d58c70cd631b0f319c",
+          "bytes": 105795
+        },
+        "stress-all-pegs-mouth-3.gif": {
+          "sha256": "5ca92e75e10da2c72642b4d0a4a7618ec0ac64c32845357b0bc65438b69aba02",
+          "bytes": 1432564
+        },
+        "poster.png": {
+          "sha256": "f2a936f4d735597aabcdbc6487ec37ed2d4984af6c9495f29e784a5e5bb3c9a5",
+          "bytes": 184104
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-mouth-4",
+    "title": "Torx T50 out 30 N \u00b7 all-pegs",
+    "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-mouth-4.webm",
+    "poster": "media/stress-all-pegs-mouth-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-mouth-4.gif",
+    "amplification": 1000,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-mouth-4",
+      "mode": "fea",
+      "field": 3,
+      "shade": "stress",
+      "title": "Torx T50 out 30 N \u00b7 all-pegs",
+      "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-mouth-04.bin.gz",
+      "amplification": 1000,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 73.68,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-mouth-4.webm": {
+          "sha256": "841d963c9b67a7cd816753c51fd41a741a048c226515b582783e574b956d5ce3",
+          "bytes": 104006
+        },
+        "stress-all-pegs-mouth-4.gif": {
+          "sha256": "149aad416c756f6a82c1bcb58fed5475425a0019f9f55bd3b7de1909a5c79ddb",
+          "bytes": 1248499
+        },
+        "poster.png": {
+          "sha256": "c50745b11d1ba5138ec7dfc09831bcc2f2c2db1eb2faa81df4b826abdd1d7d10",
+          "bytes": 176894
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-all-pegs-mouth-5",
+    "title": "T-handle 2 down 50 N \u00b7 all-pegs",
+    "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-all-pegs-mouth-5.webm",
+    "poster": "media/stress-all-pegs-mouth-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-all-pegs-mouth-5.gif",
+    "amplification": 984,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-all-pegs-mouth-5",
+      "mode": "fea",
+      "field": 4,
+      "shade": "stress",
+      "title": "T-handle 2 down 50 N \u00b7 all-pegs",
+      "caption": "mouth, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-all-pegs-mouth-05.bin.gz",
+      "amplification": 984,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 82.047,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-all-pegs-mouth-5.webm": {
+          "sha256": "cc1b502ed4dcc2f8805067217e337190e1f148703ce7660d0ba890cef573c540",
+          "bytes": 108181
+        },
+        "stress-all-pegs-mouth-5.gif": {
+          "sha256": "cb087fcdc275ecdc9e3c50bcf9ff72bd81c1ee08ae8f44d08eeacf99d50815c9",
+          "bytes": 1019741
+        },
+        "poster.png": {
+          "sha256": "1ce0614d8237c3270dfae5b23ede998345e512ebef32e4ed6ae9f3581ffdf8c1",
+          "bytes": 163410
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-face-grip-wrench-1",
+    "title": "T-handle 10 down 50 N \u00b7 face",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-face-grip-wrench-1.webm",
+    "poster": "media/stress-face-grip-wrench-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-face-grip-wrench-1.gif",
+    "amplification": 169,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-face-grip-wrench-1",
+      "mode": "fea",
+      "field": 20,
+      "shade": "stress",
+      "title": "T-handle 10 down 50 N \u00b7 face",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-face-grip-wrench-01.bin.gz",
+      "amplification": 169,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 80.176,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-face-grip-wrench-1.webm": {
+          "sha256": "2d3f682a7f8a3c23e9f29d96a689faeaa7608b355f1e5929e00a796112ca16b0",
+          "bytes": 89097
+        },
+        "stress-face-grip-wrench-1.gif": {
+          "sha256": "9b78f49654136ce50ad8de594d7207f6bafb027fb493b60d3b2d7dd0b8bee959",
+          "bytes": 657613
+        },
+        "poster.png": {
+          "sha256": "b517126fe9213a95862756ae4d78435643cfc493cc0f0038cdec19caf4c100e2",
+          "bytes": 153033
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-face-grip-wrench-2",
+    "title": "T-handle 10 sideways 30 N \u00b7 face",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-face-grip-wrench-2.webm",
+    "poster": "media/stress-face-grip-wrench-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-face-grip-wrench-2.gif",
+    "amplification": 339,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-face-grip-wrench-2",
+      "mode": "fea",
+      "field": 21,
+      "shade": "stress",
+      "title": "T-handle 10 sideways 30 N \u00b7 face",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-face-grip-wrench-02.bin.gz",
+      "amplification": 339,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 70.402,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-face-grip-wrench-2.webm": {
+          "sha256": "efd0ede03c6fff469a51328cea82afc1150671d3a9a9c19513220c1dc9ddd7d8",
+          "bytes": 97678
+        },
+        "stress-face-grip-wrench-2.gif": {
+          "sha256": "4aa12e1ae68017c3ccc3d747ff5bf96586ed82e68e09721e15fcb0c1b07625c1",
+          "bytes": 564373
+        },
+        "poster.png": {
+          "sha256": "aea9a07235c7db5f6908ed64b7a668ea0d6058b5532896b2d667e4b35b6b8fa2",
+          "bytes": 151132
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-face-grip-wrench-3",
+    "title": "hex 10 down 50 N \u00b7 face",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-face-grip-wrench-3.webm",
+    "poster": "media/stress-face-grip-wrench-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-face-grip-wrench-3.gif",
+    "amplification": 198,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-face-grip-wrench-3",
+      "mode": "fea",
+      "field": 22,
+      "shade": "stress",
+      "title": "hex 10 down 50 N \u00b7 face",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-face-grip-wrench-03.bin.gz",
+      "amplification": 198,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 78.429,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-face-grip-wrench-3.webm": {
+          "sha256": "02978556552e4ff4f67bd4bb05dfd4b656ba4e4df3c2972b478d5eed03700091",
+          "bytes": 87361
+        },
+        "stress-face-grip-wrench-3.gif": {
+          "sha256": "3a553a9323e7a402ee56eb68c3090250ff6dcb4ee918f7aefae4fe0322e4305e",
+          "bytes": 619326
+        },
+        "poster.png": {
+          "sha256": "b73625ae4bf7d14d1bbb85fb6a0bda7683d25d7e48575945c0d1285b79fa4b50",
+          "bytes": 152431
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-face-grip-wrench-4",
+    "title": "Torx T50 out 30 N \u00b7 face",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-face-grip-wrench-4.webm",
+    "poster": "media/stress-face-grip-wrench-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-face-grip-wrench-4.gif",
+    "amplification": 322,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-face-grip-wrench-4",
+      "mode": "fea",
+      "field": 23,
+      "shade": "stress",
+      "title": "Torx T50 out 30 N \u00b7 face",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-face-grip-wrench-04.bin.gz",
+      "amplification": 322,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 80.812,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-face-grip-wrench-4.webm": {
+          "sha256": "6ffd563a405682b0c35544f985ef7f754bddba89d8b926c620fc3748f8ef0639",
+          "bytes": 88431
+        },
+        "stress-face-grip-wrench-4.gif": {
+          "sha256": "ac7c5f04a095d7f2cb23e8a41870f87ed9d0ce4410506ff53f3bcf04a6548f0b",
+          "bytes": 689151
+        },
+        "poster.png": {
+          "sha256": "01f8b5e8ca9d252d3a7cbf4c3234309f5f3c94c1fd68be1c48e6723cfeba834c",
+          "bytes": 151370
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-face-grip-wrench-5",
+    "title": "T-handle 2 down 50 N \u00b7 face",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-face-grip-wrench-5.webm",
+    "poster": "media/stress-face-grip-wrench-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-face-grip-wrench-5.gif",
+    "amplification": 579,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-face-grip-wrench-5",
+      "mode": "fea",
+      "field": 24,
+      "shade": "stress",
+      "title": "T-handle 2 down 50 N \u00b7 face",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-face-grip-wrench-05.bin.gz",
+      "amplification": 579,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 72.961,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-face-grip-wrench-5.webm": {
+          "sha256": "3ff02bbd0c0d459583f099cdd18d323c3bfae5d9b5c1fd9ac9eaee3ba732dcb1",
+          "bytes": 93097
+        },
+        "stress-face-grip-wrench-5.gif": {
+          "sha256": "5cfba35f43340168a585f55b04d7a6336159be228343f8c43edc5b06f9de5220",
+          "bytes": 639513
+        },
+        "poster.png": {
+          "sha256": "d4c219f322ccb481f1cb9a1845d8c7df7a8d59085226dc2663e18d8b5331bc73",
+          "bytes": 150062
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-four-corners-grip-wrench-1",
+    "title": "T-handle 10 down 50 N \u00b7 four-corners",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-four-corners-grip-wrench-1.webm",
+    "poster": "media/stress-four-corners-grip-wrench-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-four-corners-grip-wrench-1.gif",
+    "amplification": 143,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-four-corners-grip-wrench-1",
+      "mode": "fea",
+      "field": 15,
+      "shade": "stress",
+      "title": "T-handle 10 down 50 N \u00b7 four-corners",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-four-corners-grip-wrench-01.bin.gz",
+      "amplification": 143,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 72.13,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-four-corners-grip-wrench-1.webm": {
+          "sha256": "3da4a29b997ad06f0909a4c01824e3458f1a2582cea2fc7401599c499af7095a",
+          "bytes": 159353
+        },
+        "stress-four-corners-grip-wrench-1.gif": {
+          "sha256": "286be6626c916fae250bfd2faaa779f522224b761ac77e2bd326fc0280fdb59c",
+          "bytes": 2070551
+        },
+        "poster.png": {
+          "sha256": "c7bc479678e9fc466f035a8341a8f4eca1e7f2877398e98f04117bc87467a1a7",
+          "bytes": 197231
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-four-corners-grip-wrench-2",
+    "title": "T-handle 10 sideways 30 N \u00b7 four-corners",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-four-corners-grip-wrench-2.webm",
+    "poster": "media/stress-four-corners-grip-wrench-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-four-corners-grip-wrench-2.gif",
+    "amplification": 74,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-four-corners-grip-wrench-2",
+      "mode": "fea",
+      "field": 16,
+      "shade": "stress",
+      "title": "T-handle 10 sideways 30 N \u00b7 four-corners",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-four-corners-grip-wrench-02.bin.gz",
+      "amplification": 74,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 80.654,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-four-corners-grip-wrench-2.webm": {
+          "sha256": "43d1fdb0a358ea210eba5312f64e43b2f54c526c06c537f7781b96060c1c0008",
+          "bytes": 231075
+        },
+        "stress-four-corners-grip-wrench-2.gif": {
+          "sha256": "5644fec4f30acb76ffb263042a53b2130256aa842d85106ecdf862b8dbbd0b5b",
+          "bytes": 3281509
+        },
+        "poster.png": {
+          "sha256": "f7b90e3d236d45c6b87ec46872c0d59838b4c9d3f31e8174c3533363101ce9df",
+          "bytes": 246516
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-four-corners-grip-wrench-3",
+    "title": "hex 10 down 50 N \u00b7 four-corners",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-four-corners-grip-wrench-3.webm",
+    "poster": "media/stress-four-corners-grip-wrench-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-four-corners-grip-wrench-3.gif",
+    "amplification": 139,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-four-corners-grip-wrench-3",
+      "mode": "fea",
+      "field": 17,
+      "shade": "stress",
+      "title": "hex 10 down 50 N \u00b7 four-corners",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-four-corners-grip-wrench-03.bin.gz",
+      "amplification": 139,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 87.06,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-four-corners-grip-wrench-3.webm": {
+          "sha256": "b98b064256df316bd1515e824d933e69e4f1ffa389e4904c858806e7d8c5c095",
+          "bytes": 218214
+        },
+        "stress-four-corners-grip-wrench-3.gif": {
+          "sha256": "a9990eb9737787b0c8d1caf13912cbfc427725590010ad8b5d4254bc04ca096d",
+          "bytes": 2778065
+        },
+        "poster.png": {
+          "sha256": "42401bf3ca1b31a68ee55f46fbc08da6e1d654d5bbf837bc29ea4a3d019a664d",
+          "bytes": 244475
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-four-corners-grip-wrench-4",
+    "title": "Torx T50 out 30 N \u00b7 four-corners",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-four-corners-grip-wrench-4.webm",
+    "poster": "media/stress-four-corners-grip-wrench-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-four-corners-grip-wrench-4.gif",
+    "amplification": 46,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-four-corners-grip-wrench-4",
+      "mode": "fea",
+      "field": 18,
+      "shade": "stress",
+      "title": "Torx T50 out 30 N \u00b7 four-corners",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-four-corners-grip-wrench-04.bin.gz",
+      "amplification": 46,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 75.923,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-four-corners-grip-wrench-4.webm": {
+          "sha256": "3248c9be794b4b3ec98091b773cf4daa6142278a0ffd974bed22b3eb34bbe5c1",
+          "bytes": 188188
+        },
+        "stress-four-corners-grip-wrench-4.gif": {
+          "sha256": "982fcc47f0bc403f6c0ee865d7bcb6a8c9f072f547c90938e037e652b239be48",
+          "bytes": 2593983
+        },
+        "poster.png": {
+          "sha256": "a726ab8a037cced2c63eda326bf825b908452a54d9cdcba3810f20fe13e9ac07",
+          "bytes": 222820
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-four-corners-grip-wrench-5",
+    "title": "T-handle 2 down 50 N \u00b7 four-corners",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-four-corners-grip-wrench-5.webm",
+    "poster": "media/stress-four-corners-grip-wrench-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-four-corners-grip-wrench-5.gif",
+    "amplification": 367,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-four-corners-grip-wrench-5",
+      "mode": "fea",
+      "field": 19,
+      "shade": "stress",
+      "title": "T-handle 2 down 50 N \u00b7 four-corners",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-four-corners-grip-wrench-05.bin.gz",
+      "amplification": 367,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 79.799,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-four-corners-grip-wrench-5.webm": {
+          "sha256": "ef1cfe5dc06eed74b36e89d235fda1fdf7ba268b586df9f89c513bbabd92a470",
+          "bytes": 136427
+        },
+        "stress-four-corners-grip-wrench-5.gif": {
+          "sha256": "4f9eaf2ad9d2bbcb75996d966b21a9fea2b025037fd5b73bdfd56cf36e7f172a",
+          "bytes": 1406244
+        },
+        "poster.png": {
+          "sha256": "b5ecf572d7de7f3afc8393ec75186fe04cbdfd36cf9bfe50b7bd93269b74fdb5",
+          "bytes": 179038
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-hooks-only-grip-wrench-1",
+    "title": "T-handle 10 down 50 N \u00b7 hooks-only",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-hooks-only-grip-wrench-1.webm",
+    "poster": "media/stress-hooks-only-grip-wrench-1.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-hooks-only-grip-wrench-1.gif",
+    "amplification": 4,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-hooks-only-grip-wrench-1",
+      "mode": "fea",
+      "field": 10,
+      "shade": "stress",
+      "title": "T-handle 10 down 50 N \u00b7 hooks-only",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-hooks-only-grip-wrench-01.bin.gz",
+      "amplification": 4,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 84.139,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-hooks-only-grip-wrench-1.webm": {
+          "sha256": "8526929f013ff56051dd79a590f5686dd00118fc7947f8ee970cdf72bf3ce6b4",
+          "bytes": 195414
+        },
+        "stress-hooks-only-grip-wrench-1.gif": {
+          "sha256": "8185a978e45611ba1a0ed8e99d0fe0454efb79de409722d09598cbc56823528b",
+          "bytes": 2244508
+        },
+        "poster.png": {
+          "sha256": "43c9aba4f41c686db8a1be6b549af88ac5434537201ef904f423db334fd7fbfa",
+          "bytes": 226537
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-hooks-only-grip-wrench-2",
+    "title": "T-handle 10 sideways 30 N \u00b7 hooks-only",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-hooks-only-grip-wrench-2.webm",
+    "poster": "media/stress-hooks-only-grip-wrench-2.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-hooks-only-grip-wrench-2.gif",
+    "amplification": 101,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-hooks-only-grip-wrench-2",
+      "mode": "fea",
+      "field": 11,
+      "shade": "stress",
+      "title": "T-handle 10 sideways 30 N \u00b7 hooks-only",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-hooks-only-grip-wrench-02.bin.gz",
+      "amplification": 101,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 83.798,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-hooks-only-grip-wrench-2.webm": {
+          "sha256": "429e2de899c735210a0f0c2958b1851996474bcd740b2eebcfc3273d8a5a1030",
+          "bytes": 201501
+        },
+        "stress-hooks-only-grip-wrench-2.gif": {
+          "sha256": "6585a03a09295d0aba55b1b30a3dc39abe843715ca2b5ba34a20eb0b3a6698ea",
+          "bytes": 2967368
+        },
+        "poster.png": {
+          "sha256": "c05df8c08504b1b300d3898afdb2f78315cf7c9458de964b64a8feb73d778d82",
+          "bytes": 245404
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-hooks-only-grip-wrench-3",
+    "title": "hex 10 down 50 N \u00b7 hooks-only",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-hooks-only-grip-wrench-3.webm",
+    "poster": "media/stress-hooks-only-grip-wrench-3.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-hooks-only-grip-wrench-3.gif",
+    "amplification": 5,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-hooks-only-grip-wrench-3",
+      "mode": "fea",
+      "field": 12,
+      "shade": "stress",
+      "title": "hex 10 down 50 N \u00b7 hooks-only",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-hooks-only-grip-wrench-03.bin.gz",
+      "amplification": 5,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 74.636,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-hooks-only-grip-wrench-3.webm": {
+          "sha256": "9ce93b308591a88608ade8d0d0531bce4aa3af64e2991468960f004850fe6bb4",
+          "bytes": 185368
+        },
+        "stress-hooks-only-grip-wrench-3.gif": {
+          "sha256": "6f4cbe03a4f3fb37daa25bae45cfe0faf1ede962ffdc0cbe6d0fbf6c79eab11d",
+          "bytes": 1705650
+        },
+        "poster.png": {
+          "sha256": "785a9967bc5d70c30a06bedff77e7dd87e58db4595b8376685bf0f26e9981c0c",
+          "bytes": 205032
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-hooks-only-grip-wrench-4",
+    "title": "Torx T50 out 30 N \u00b7 hooks-only",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-hooks-only-grip-wrench-4.webm",
+    "poster": "media/stress-hooks-only-grip-wrench-4.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-hooks-only-grip-wrench-4.gif",
+    "amplification": 14,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-hooks-only-grip-wrench-4",
+      "mode": "fea",
+      "field": 13,
+      "shade": "stress",
+      "title": "Torx T50 out 30 N \u00b7 hooks-only",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-hooks-only-grip-wrench-04.bin.gz",
+      "amplification": 14,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 80.624,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-hooks-only-grip-wrench-4.webm": {
+          "sha256": "d8743b30d91c6dd04e50eac9214f61b0f0de76107efd6688642c8b3ea3597154",
+          "bytes": 179356
+        },
+        "stress-hooks-only-grip-wrench-4.gif": {
+          "sha256": "94175efe9eeebb54310a5b3ecc11f0e7f008a6abc362a508bc49a83f0fe00c26",
+          "bytes": 1797417
+        },
+        "poster.png": {
+          "sha256": "ee223f194466db8e756d111bef00b75970000318f019e559cf5c2bef5afd6804",
+          "bytes": 201525
+        }
+      }
+    }
+  },
+  {
+    "id": "stress-hooks-only-grip-wrench-5",
+    "title": "T-handle 2 down 50 N \u00b7 hooks-only",
+    "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+    "mode": "fea",
+    "video": "media/HX04-stress-hooks-only-grip-wrench-5.webm",
+    "poster": "media/stress-hooks-only-grip-wrench-5.jpg",
+    "gif": "https://github.com/thereprocase/peg/releases/download/key-fan-engineering-v1-2026-10-10/HX04-stress-hooks-only-grip-wrench-5.gif",
+    "amplification": 5,
+    "frames": 96,
+    "fps": 12,
+    "provenance": {
+      "id": "stress-hooks-only-grip-wrench-5",
+      "mode": "fea",
+      "field": 14,
+      "shade": "stress",
+      "title": "T-handle 2 down 50 N \u00b7 hooks-only",
+      "caption": "grip-wrench, solid ASA. Deformation magnification stated in-frame; static load ramp, not dynamics.",
+      "source": "field-hooks-only-grip-wrench-05.bin.gz",
+      "amplification": 5,
+      "frames": 96,
+      "fps": 12,
+      "seconds": 79.153,
+      "source_scene_sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2",
+      "recorder_sha256": "70d85a2a1ed8d09fccdb06502de1cbf84c9f7d9004fe8ff3eb6fcbc8f7bd32cd",
+      "viewer_js_sha256": "7d5346c3cb676f0508377caefeb8bc3253f0da6657e987fa6db201a34ba2afa1",
+      "camera": {
+        "position": [
+          0.3,
+          0.035,
+          0.48
+        ],
+        "target": [
+          0,
+          -0.2,
+          0.04
+        ]
+      },
+      "files": {
+        "stress-hooks-only-grip-wrench-5.webm": {
+          "sha256": "342f7d38bde204b7fb2d7c958a4b0fa81f8028e8a27ed8ae1972115be79121ce",
+          "bytes": 174707
+        },
+        "stress-hooks-only-grip-wrench-5.gif": {
+          "sha256": "25b4b3eddc47636ccd14247ec0bcce0a3536b2f039c14304419e7e0ff3176196",
+          "bytes": 1854968
+        },
+        "poster.png": {
+          "sha256": "c4a957b74f3cf084eb53d9d260e6a97ae773f3c177e505cb34d787e1a34a96d1",
+          "bytes": 209653
+        }
+      }
+    }
+  }
+]

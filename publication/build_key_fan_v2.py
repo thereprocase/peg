@@ -101,3 +101,7 @@ print('HX04 v2 published to its page and the catalog; render previews with PEG_P
 # Keep the owner-tested fit revision prominent after regenerating this historical rack page.
 from update_key_fan_fit_spectrum_v6 import apply as apply_fit_revision
 apply_fit_revision(R/'.local-runtime/tee-fit-v6-release')
+
+# Preserve completed engineering review after rebuilding the historical page.
+from publish_key_fan_audit import apply as apply_engineering_review
+apply_engineering_review()

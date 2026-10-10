@@ -95,3 +95,6 @@ runpy.run_path(str(R/'tools/check_tee_fit_v4.py'),run_name='__main__')
 runpy.run_path(str(R/'tools/check_tee_fit_v5.py'),run_name='__main__')
 
 runpy.run_path(str(R/'tools/check_tee_fit_v6.py'),run_name='__main__')
+
+if (D/'key-fan/studies/data/scene.json').exists():
+ runpy.run_path(str(R/'tools/check_key_fan_audit.py'),run_name='__main__')

@@ -1,0 +1,6 @@
+{
+  "source_sha256": "390787eb25f468a877c77dfbf77773914892db77004b5782f8097405e6125b0e",
+  "report_sha256": "cbe9ce0fa1ece014cd6212a21cac8a3680f67f8b2dc23df0cf29ff6311ff51b8",
+  "results_sha256": "b9487c9ac574f217b14c8e2f37c4a96a87e8e29de601bc3b8845c8a60b76bc8f",
+  "scope": "Authored audit of immutable published v2 geometry; no physical qualification"
+}

@@ -1,0 +1,12 @@
+"""Display a genuine prescribed-pinch solution alongside the full-holder fields."""
+import argparse,json,gzip,hashlib
+from pathlib import Path
+import numpy as np
+from export_viewer_data import boundary,write_mesh,T
+p=argparse.ArgumentParser();p.add_argument('root',type=Path);a=p.parse_args();root=a.root.resolve();out=root/'viewer-data';base=root/'hoop/h0.25';m=np.load(base/'mesh.npz');C,used,F=boundary(m,base/'volume.inp');desc=write_mesh(out,'hoop-boundary',m['X'][used],F);r=json.loads((base/'summary.json').read_text());q=r['results'][1];field=np.load(base/'field-02.npz');S=field['stress'];vm=np.sqrt(.5*((S[:,0]-S[:,1])**2+(S[:,1]-S[:,2])**2+(S[:,2]-S[:,0])**2)+3*np.sum(S[:,3:]**2,1));ei=np.searchsorted(m['element_ids'],field['stress_element_ids']);avg=np.bincount(ei,weights=vm,minlength=len(C))/np.maximum(np.bincount(ei,minlength=len(C)),1);num=np.zeros(len(m['X']));den=np.zeros_like(num)
+for k in range(10):np.add.at(num,C[:,k],avg);np.add.at(den,C[:,k],1)
+stress=num/np.maximum(den,1);disp=field['U'][used]@T.T*.001;scales=np.maximum(np.abs(disp).max(0)/32767,1e-30);step=max(stress[used].max()/65535,1e-30);v=np.zeros((len(used),4),dtype='<u2');v[:,:3]=np.rint(disp/scales).astype('<i2').view('<u2');v[:,3]=np.rint(stress[used]/step).astype('<u2');name='field-hoop-pinch-02.bin.gz';(out/name).write_bytes(gzip.compress(v.tobytes(),9,mtime=0))
+j=json.loads((out/'scene.json').read_text());old=out/'scene-capture-v1.json'
+if not old.exists():old.write_text(json.dumps(j,indent=2)+'\n')
+item=dict(q,kind='pinch',id='Bottom locking hoop · 0.20 mm pinch per arm',support='fixed plate patch',force_mode='prescribed-pinch',force_N=[0,0,0],force_point_mm=r['tip_centroids_mm']['upper'],max_deflection_mm=q['max_displacement_mm'],display_mesh=desc,file=name,vertices=len(used),sha256=hashlib.sha256((out/name).read_bytes()).hexdigest(),encoding='signed-int16-displacement/uint16-stress-v1; gzip',displacement_quant_step_m=scales.tolist(),stress_quant_step_MPa=float(step),max_component_displacement_quant_error_mm=(scales*.5*1000).tolist(),max_stress_quant_error_MPa=float(step*.5),default_exaggeration=5,display_stress='Adjacent-element average of mean integration-point von Mises; original statistics retained',scope=r['scope'])
+j['fields']=[q for q in j['fields'] if q.get('kind')!='pinch']+[item];(out/'scene.json').write_text(json.dumps(j,indent=2)+'\n');print('Added actual hoop field',len(used),'vertices')

@@ -1,0 +1,959 @@
+{
+  "source_sha256": "3718d799fd4a3016a0c43522b60f95eda93f53b4581abcf5da6a907c0a569e31",
+  "parent_step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+  "candidates": [
+    {
+      "outward_clearance_at_25deg_mm": 1.0,
+      "formula": "dy = clearance * sin(angle) / sin(25deg)",
+      "steps": [
+        {
+          "angle_deg": 25.0,
+          "outward_translation_mm": 1.0,
+          "front_host_intersection_mm3": 0.7009116027064725,
+          "hooks_total_intersection_mm3": 0.0,
+          "hooks_max_per_peg_intersection_mm3": 0.0,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 24.5,
+          "outward_translation_mm": 0.981247807295836,
+          "front_host_intersection_mm3": 0.5530174929348457
+        },
+        {
+          "angle_deg": 24.0,
+          "outward_translation_mm": 0.9624208887720912,
+          "front_host_intersection_mm3": 0.42436471157251576
+        },
+        {
+          "angle_deg": 23.5,
+          "outward_translation_mm": 0.9435206781715023,
+          "front_host_intersection_mm3": 0.31419378260348435
+        },
+        {
+          "angle_deg": 23.0,
+          "outward_translation_mm": 0.9245486148182819,
+          "front_host_intersection_mm3": 0.2217694209500094
+        },
+        {
+          "angle_deg": 22.5,
+          "outward_translation_mm": 0.9055061435085076,
+          "front_host_intersection_mm3": 0.14637994278226987
+        },
+        {
+          "angle_deg": 22.0,
+          "outward_translation_mm": 0.8863947144000953,
+          "front_host_intersection_mm3": 0.08733676222888499
+        },
+        {
+          "angle_deg": 21.5,
+          "outward_translation_mm": 0.8672157829023651,
+          "front_host_intersection_mm3": 0.04397398019372152
+        },
+        {
+          "angle_deg": 21.0,
+          "outward_translation_mm": 0.8479708095652042,
+          "front_host_intersection_mm3": 0.015648072543377044
+        },
+        {
+          "angle_deg": 20.5,
+          "outward_translation_mm": 0.8286612599678425,
+          "front_host_intersection_mm3": 0.0017376868749517565
+        },
+        {
+          "angle_deg": 20.0,
+          "outward_translation_mm": 0.8092886046072417,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 19.5,
+          "outward_translation_mm": 0.7898543187861119,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 19.0,
+          "outward_translation_mm": 0.7703598825005613,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 18.5,
+          "outward_translation_mm": 0.7508067803273886,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 18.0,
+          "outward_translation_mm": 0.7311965013110272,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 17.5,
+          "outward_translation_mm": 0.7115305388501488,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 17.0,
+          "outward_translation_mm": 0.6918103905839346,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 16.5,
+          "outward_translation_mm": 0.6720375582780244,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 16.0,
+          "outward_translation_mm": 0.6522135477101519,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 15.5,
+          "outward_translation_mm": 0.6323398685554741,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 15.0,
+          "outward_translation_mm": 0.6124180342716025,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 14.5,
+          "outward_translation_mm": 0.5924495619833483,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 14.0,
+          "outward_translation_mm": 0.5724359723671872,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 13.5,
+          "outward_translation_mm": 0.5523787895354544,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 13.0,
+          "outward_translation_mm": 0.5322795409202771,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 12.5,
+          "outward_translation_mm": 0.5121397571572546,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 12.0,
+          "outward_translation_mm": 0.49196097196889493,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 11.5,
+          "outward_translation_mm": 0.4717447220478155,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 11.0,
+          "outward_translation_mm": 0.4514925469397181,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 10.5,
+          "outward_translation_mm": 0.43120598892614687,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 10.0,
+          "outward_translation_mm": 0.4108865929070369,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 3.377788250624886,
+          "hooks_max_per_peg_intersection_mm3": 0.3753098215626014,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 9.5,
+          "outward_translation_mm": 0.39053590628306506,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 9.0,
+          "outward_translation_mm": 0.37015547883780847,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 8.5,
+          "outward_translation_mm": 0.3497468626197232,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 8.0,
+          "outward_translation_mm": 0.32931161182394936,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.5,
+          "outward_translation_mm": 0.30885128267395334,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.0,
+          "outward_translation_mm": 0.28836743330301545,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.5,
+          "outward_translation_mm": 0.2678616236355716,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.0,
+          "outward_translation_mm": 0.24733541526841943,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.5,
+          "outward_translation_mm": 0.22679037135179655,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.0,
+          "outward_translation_mm": 0.20622805647034065,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 6.496258063727119,
+          "hooks_max_per_peg_intersection_mm3": 0.7218064517007854,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.849549766330306,
+          "bearing_max_per_peg_intersection_mm3": 0.09439441850335892
+        },
+        {
+          "angle_deg": 4.5,
+          "outward_translation_mm": 0.18565003652394013,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.0,
+          "outward_translation_mm": 0.16505787860848498,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.5,
+          "outward_translation_mm": 0.14445315089652622,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.0,
+          "outward_translation_mm": 0.12383742251785358,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 7.624672529673552,
+          "hooks_max_per_peg_intersection_mm3": 0.8471858367515589,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 2.10873049978499,
+          "bearing_max_per_peg_intersection_mm3": 0.1988037219352349
+        },
+        {
+          "angle_deg": 2.5,
+          "outward_translation_mm": 0.10321226344000013,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 7.89138761925422,
+          "hooks_max_per_peg_intersection_mm3": 0.8768208466689033,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 2.489377401721276,
+          "bearing_max_per_peg_intersection_mm3": 0.20575857716439314
+        },
+        {
+          "angle_deg": 2.0,
+          "outward_translation_mm": 0.08257924434868319,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.152276630290565,
+          "hooks_max_per_peg_intersection_mm3": 0.905808514616789,
+          "locking_total_intersection_mm3": 0.00945392862500067,
+          "locking_max_per_peg_intersection_mm3": 0.0010504365139706161,
+          "bearing_total_intersection_mm3": 2.9178107224321086,
+          "bearing_max_per_peg_intersection_mm3": 0.19990677890350314
+        },
+        {
+          "angle_deg": 1.5,
+          "outward_translation_mm": 0.06193993652819057,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.0,
+          "outward_translation_mm": 0.0412959117417211,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.654361781168419,
+          "hooks_max_per_peg_intersection_mm3": 0.9615957535487574,
+          "locking_total_intersection_mm3": 51.99721441543629,
+          "locking_max_per_peg_intersection_mm3": 5.777468268393648,
+          "bearing_total_intersection_mm3": 3.87472559476645,
+          "bearing_max_per_peg_intersection_mm3": 0.1400007004458353
+        },
+        {
+          "angle_deg": 0.5,
+          "outward_translation_mm": 0.02064874211168888,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.895981939381121,
+          "hooks_max_per_peg_intersection_mm3": 0.9884424377939927,
+          "locking_total_intersection_mm3": 40.62839396471968,
+          "locking_max_per_peg_intersection_mm3": 4.51426600098741,
+          "bearing_total_intersection_mm3": 3.7461393658001203,
+          "bearing_max_per_peg_intersection_mm3": 0.08117843797234331
+        },
+        {
+          "angle_deg": 0.0,
+          "outward_translation_mm": 0.0,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 9.131544321509164,
+          "hooks_max_per_peg_intersection_mm3": 1.0146160357322702,
+          "locking_total_intersection_mm3": 2.994219652321367,
+          "locking_max_per_peg_intersection_mm3": 0.33269107249246155,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        }
+      ],
+      "max_front_host_intersection_mm3": 0.7009116027064725,
+      "front_host_clear_at_sampled_angles": false
+    },
+    {
+      "outward_clearance_at_25deg_mm": 1.5,
+      "formula": "dy = clearance * sin(angle) / sin(25deg)",
+      "steps": [
+        {
+          "angle_deg": 25.0,
+          "outward_translation_mm": 1.5,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 0.0,
+          "hooks_max_per_peg_intersection_mm3": 0.0,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 24.5,
+          "outward_translation_mm": 1.471871710943754,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 24.0,
+          "outward_translation_mm": 1.4436313331581367,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 23.5,
+          "outward_translation_mm": 1.4152810172572534,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 23.0,
+          "outward_translation_mm": 1.3868229222274229,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 22.5,
+          "outward_translation_mm": 1.3582592152627613,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 22.0,
+          "outward_translation_mm": 1.329592071600143,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 21.5,
+          "outward_translation_mm": 1.3008236743535475,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 21.0,
+          "outward_translation_mm": 1.2719562143478063,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 20.5,
+          "outward_translation_mm": 1.2429918899517636,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 20.0,
+          "outward_translation_mm": 1.2139329069108626,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 19.5,
+          "outward_translation_mm": 1.184781478179168,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 19.0,
+          "outward_translation_mm": 1.155539823750842,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 18.5,
+          "outward_translation_mm": 1.126210170491083,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 18.0,
+          "outward_translation_mm": 1.0967947519665409,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 17.5,
+          "outward_translation_mm": 1.0672958082752233,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 17.0,
+          "outward_translation_mm": 1.0377155858759017,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 16.5,
+          "outward_translation_mm": 1.0080563374170366,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 16.0,
+          "outward_translation_mm": 0.978320321565228,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 15.5,
+          "outward_translation_mm": 0.9485098028332112,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 15.0,
+          "outward_translation_mm": 0.9186270514074037,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 14.5,
+          "outward_translation_mm": 0.8886743429750225,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 14.0,
+          "outward_translation_mm": 0.8586539585507809,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 13.5,
+          "outward_translation_mm": 0.8285681843031816,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 13.0,
+          "outward_translation_mm": 0.7984193113804157,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 12.5,
+          "outward_translation_mm": 0.768209635735882,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 12.0,
+          "outward_translation_mm": 0.7379414579533423,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 11.5,
+          "outward_translation_mm": 0.7076170830717231,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 11.0,
+          "outward_translation_mm": 0.6772388204095771,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 10.5,
+          "outward_translation_mm": 0.6468089833892202,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 10.0,
+          "outward_translation_mm": 0.6163298893605553,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 2.9277888285578966,
+          "hooks_max_per_peg_intersection_mm3": 0.3253098714835505,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 9.5,
+          "outward_translation_mm": 0.5858038594245976,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 9.0,
+          "outward_translation_mm": 0.5552332182567127,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 8.5,
+          "outward_translation_mm": 0.5246202939295848,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 8.0,
+          "outward_translation_mm": 0.49396741773592406,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.5,
+          "outward_translation_mm": 0.46327692401093007,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.0,
+          "outward_translation_mm": 0.43255114995452315,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.5,
+          "outward_translation_mm": 0.4017924354533574,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.0,
+          "outward_translation_mm": 0.37100312290262916,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.5,
+          "outward_translation_mm": 0.3401855570276948,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.0,
+          "outward_translation_mm": 0.309342084705511,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 6.531447668223302,
+          "hooks_max_per_peg_intersection_mm3": 0.725716407919479,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.8495497662425122,
+          "bearing_max_per_peg_intersection_mm3": 0.09439441849201732
+        },
+        {
+          "angle_deg": 4.5,
+          "outward_translation_mm": 0.2784750547859102,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.0,
+          "outward_translation_mm": 0.24758681791272746,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.5,
+          "outward_translation_mm": 0.21667972634478935,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.0,
+          "outward_translation_mm": 0.18575613377678038,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 7.685208490541278,
+          "hooks_max_per_peg_intersection_mm3": 0.8539120546447593,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 2.108730499788916,
+          "bearing_max_per_peg_intersection_mm3": 0.19880372193794651
+        },
+        {
+          "angle_deg": 2.5,
+          "outward_translation_mm": 0.1548183951600002,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 7.947953503216168,
+          "hooks_max_per_peg_intersection_mm3": 0.8831059448338127,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 2.489377429632438,
+          "bearing_max_per_peg_intersection_mm3": 0.20575857716649368
+        },
+        {
+          "angle_deg": 2.0,
+          "outward_translation_mm": 0.12386886652302478,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.201706467279768,
+          "hooks_max_per_peg_intersection_mm3": 0.9113007186944322,
+          "locking_total_intersection_mm3": 0.005981699324238103,
+          "locking_max_per_peg_intersection_mm3": 0.0006646332583210989,
+          "bearing_total_intersection_mm3": 2.916976394188762,
+          "bearing_max_per_peg_intersection_mm3": 0.1999067789057378
+        },
+        {
+          "angle_deg": 1.5,
+          "outward_translation_mm": 0.09290990479228586,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.0,
+          "outward_translation_mm": 0.06194386761258165,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.682133960230182,
+          "hooks_max_per_peg_intersection_mm3": 0.9646815512322023,
+          "locking_total_intersection_mm3": 51.97836045418307,
+          "locking_max_per_peg_intersection_mm3": 5.7753733838100025,
+          "bearing_total_intersection_mm3": 3.874725594096712,
+          "bearing_max_per_peg_intersection_mm3": 0.14000070044632287
+        },
+        {
+          "angle_deg": 0.5,
+          "outward_translation_mm": 0.030973113167533324,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.910355787202285,
+          "hooks_max_per_peg_intersection_mm3": 0.9900395319897015,
+          "locking_total_intersection_mm3": 40.7910863593164,
+          "locking_max_per_peg_intersection_mm3": 4.532342933719654,
+          "bearing_total_intersection_mm3": 3.7461393658488324,
+          "bearing_max_per_peg_intersection_mm3": 0.08117843797520324
+        },
+        {
+          "angle_deg": 0.0,
+          "outward_translation_mm": 0.0,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 9.131544321509164,
+          "hooks_max_per_peg_intersection_mm3": 1.0146160357322702,
+          "locking_total_intersection_mm3": 2.994219652321367,
+          "locking_max_per_peg_intersection_mm3": 0.33269107249246155,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        }
+      ],
+      "max_front_host_intersection_mm3": 0.0,
+      "front_host_clear_at_sampled_angles": true
+    },
+    {
+      "outward_clearance_at_25deg_mm": 2.0,
+      "formula": "dy = clearance * sin(angle) / sin(25deg)",
+      "steps": [
+        {
+          "angle_deg": 25.0,
+          "outward_translation_mm": 2.0,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 0.0,
+          "hooks_max_per_peg_intersection_mm3": 0.0,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 24.5,
+          "outward_translation_mm": 1.962495614591672,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 24.0,
+          "outward_translation_mm": 1.9248417775441824,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 23.5,
+          "outward_translation_mm": 1.8870413563430046,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 23.0,
+          "outward_translation_mm": 1.8490972296365638,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 22.5,
+          "outward_translation_mm": 1.811012287017015,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 22.0,
+          "outward_translation_mm": 1.7727894288001906,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 21.5,
+          "outward_translation_mm": 1.7344315658047302,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 21.0,
+          "outward_translation_mm": 1.6959416191304084,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 20.5,
+          "outward_translation_mm": 1.657322519935685,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 20.0,
+          "outward_translation_mm": 1.6185772092144834,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 19.5,
+          "outward_translation_mm": 1.5797086375722238,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 19.0,
+          "outward_translation_mm": 1.5407197650011226,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 18.5,
+          "outward_translation_mm": 1.5016135606547771,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 18.0,
+          "outward_translation_mm": 1.4623930026220544,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 17.5,
+          "outward_translation_mm": 1.4230610777002977,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 17.0,
+          "outward_translation_mm": 1.3836207811678691,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 16.5,
+          "outward_translation_mm": 1.3440751165560487,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 16.0,
+          "outward_translation_mm": 1.3044270954203039,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 15.5,
+          "outward_translation_mm": 1.2646797371109482,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 15.0,
+          "outward_translation_mm": 1.224836068543205,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 14.5,
+          "outward_translation_mm": 1.1848991239666966,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 14.0,
+          "outward_translation_mm": 1.1448719447343745,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 13.5,
+          "outward_translation_mm": 1.1047575790709088,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 13.0,
+          "outward_translation_mm": 1.0645590818405541,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 12.5,
+          "outward_translation_mm": 1.0242795143145091,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 12.0,
+          "outward_translation_mm": 0.9839219439377899,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 11.5,
+          "outward_translation_mm": 0.943489444095631,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 11.0,
+          "outward_translation_mm": 0.9029850938794362,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 10.5,
+          "outward_translation_mm": 0.8624119778522937,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 10.0,
+          "outward_translation_mm": 0.8217731858140738,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 3.0408851433692528,
+          "hooks_max_per_peg_intersection_mm3": 0.3378761270514812,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 9.5,
+          "outward_translation_mm": 0.7810718125661301,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 9.0,
+          "outward_translation_mm": 0.7403109576756169,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 8.5,
+          "outward_translation_mm": 0.6994937252394464,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 8.0,
+          "outward_translation_mm": 0.6586232236478987,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.5,
+          "outward_translation_mm": 0.6177025653479067,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 7.0,
+          "outward_translation_mm": 0.5767348666060309,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.5,
+          "outward_translation_mm": 0.5357232472711432,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.0,
+          "outward_translation_mm": 0.49467083053683886,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.5,
+          "outward_translation_mm": 0.4535807427035931,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.0,
+          "outward_translation_mm": 0.4124561129406813,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 6.743435276738041,
+          "hooks_max_per_peg_intersection_mm3": 0.7492705864104717,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 0.84954976624535,
+          "bearing_max_per_peg_intersection_mm3": 0.0943944184937999
+        },
+        {
+          "angle_deg": 4.5,
+          "outward_translation_mm": 0.37130007304788026,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.0,
+          "outward_translation_mm": 0.33011575721696995,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.5,
+          "outward_translation_mm": 0.28890630179305243,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.0,
+          "outward_translation_mm": 0.24767484503570716,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 7.814479599729805,
+          "hooks_max_per_peg_intersection_mm3": 0.8682755112749815,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 2.108730499846102,
+          "bearing_max_per_peg_intersection_mm3": 0.1988037219402096
+        },
+        {
+          "angle_deg": 2.5,
+          "outward_translation_mm": 0.20642452688000026,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.053058875769283,
+          "hooks_max_per_peg_intersection_mm3": 0.8947843196091002,
+          "locking_total_intersection_mm3": 0.0,
+          "locking_max_per_peg_intersection_mm3": 0.0,
+          "bearing_total_intersection_mm3": 2.4884524130032872,
+          "bearing_max_per_peg_intersection_mm3": 0.20575857717002508
+        },
+        {
+          "angle_deg": 2.0,
+          "outward_translation_mm": 0.16515848869736638,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.28268402251315,
+          "hooks_max_per_peg_intersection_mm3": 0.9202982247710167,
+          "locking_total_intersection_mm3": 0.003491587547607457,
+          "locking_max_per_peg_intersection_mm3": 0.00038795417201896486,
+          "bearing_total_intersection_mm3": 2.91335646050465,
+          "bearing_max_per_peg_intersection_mm3": 0.19990677890507522
+        },
+        {
+          "angle_deg": 1.5,
+          "outward_translation_mm": 0.12387987305638114,
+          "front_host_intersection_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.0,
+          "outward_translation_mm": 0.0825918234834422,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.718036971807164,
+          "hooks_max_per_peg_intersection_mm3": 0.9686707746898989,
+          "locking_total_intersection_mm3": 51.95097713309141,
+          "locking_max_per_peg_intersection_mm3": 5.7723307925774145,
+          "bearing_total_intersection_mm3": 3.8747255946654864,
+          "bearing_max_per_peg_intersection_mm3": 0.14000070044581753
+        },
+        {
+          "angle_deg": 0.5,
+          "outward_translation_mm": 0.04129748422337776,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 8.926779940124137,
+          "hooks_max_per_peg_intersection_mm3": 0.9918644378424551,
+          "locking_total_intersection_mm3": 40.95227954552925,
+          "locking_max_per_peg_intersection_mm3": 4.550253287749467,
+          "bearing_total_intersection_mm3": 3.74613936598264,
+          "bearing_max_per_peg_intersection_mm3": 0.08117843797540575
+        },
+        {
+          "angle_deg": 0.0,
+          "outward_translation_mm": 0.0,
+          "front_host_intersection_mm3": 0.0,
+          "hooks_total_intersection_mm3": 9.131544321509164,
+          "hooks_max_per_peg_intersection_mm3": 1.0146160357322702,
+          "locking_total_intersection_mm3": 2.994219652321367,
+          "locking_max_per_peg_intersection_mm3": 0.33269107249246155,
+          "bearing_total_intersection_mm3": 0.0,
+          "bearing_max_per_peg_intersection_mm3": 0.0
+        }
+      ],
+      "max_front_host_intersection_mm3": 0.0,
+      "front_host_clear_at_sampled_angles": true
+    }
+  ],
+  "seconds": 335.4629238169873,
+  "scope": "Prescribed rigid rotation plus outward translation, 0.5 degree samples. Tests front-host clearance and selected rear-peg intersections on nominal board. Does not establish hook engagement, contact force, snap recovery, hand motion or a continuous collision certificate."
+}

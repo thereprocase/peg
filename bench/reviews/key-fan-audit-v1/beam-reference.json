@@ -1,0 +1,27 @@
+{
+  "source_sha256": "390787eb25f468a877c77dfbf77773914892db77004b5782f8097405e6125b0e",
+  "cases": [
+    {
+      "id": "T-handle 10 down 50 N",
+      "nominal_free_length_mm": 182.9997341566243,
+      "hex_I_mm4": 601.40653040586,
+      "assumed_steel_E_MPa": 210000.0,
+      "ideal_fixed_cantilever_deflection_along_force_mm": 0.6414542710147492
+    },
+    {
+      "id": "T-handle 10 sideways 30 N",
+      "nominal_free_length_mm": 182.9997341566243,
+      "hex_I_mm4": 601.40653040586,
+      "assumed_steel_E_MPa": 210000.0,
+      "ideal_fixed_cantilever_deflection_along_force_mm": 0.2190998415847736
+    },
+    {
+      "id": "T-handle 2 down 50 N",
+      "nominal_free_length_mm": 20.295158492117288,
+      "hex_I_mm4": 0.9622504486493761,
+      "assumed_steel_E_MPa": 210000.0,
+      "ideal_fixed_cantilever_deflection_along_force_mm": 0.3118158292471687
+    }
+  ],
+  "scope": "Illustrative regular-hex, straight steel cantilever at the mouth, E=210 GPa assumed; not a Bondhus material measurement, contact model or assembled-rack rating"
+}

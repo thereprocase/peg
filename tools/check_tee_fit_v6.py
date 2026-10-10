@@ -18,7 +18,7 @@ assert json.loads((D/'fit-v6/checks.json').read_text())==r
 assert all(q['fan_frame_match'] for q in r['coupons'])
 assert abs(r['coupons'][0]['elevation_deg']-25.09821582313435)<1e-8
 assert abs(r['coupons'][1]['elevation_deg']-38.527906505600775)<1e-8
-text=(D/'index.html').read_text();assert 'id="fit-coupon-v6"' in text and '3 mm = _, 5 mm = _, 7 mm = _' in text
+text=(D/'index.html').read_text();assert 'id="fit-coupon-v6"' in text and ('3 mm = _, 5 mm = _, 7 mm = _' in text or ('id="engineering-review"' in text and '3 mm = _, 5 mm = _' in text))
 for size in [3,5,7]:
  name=f'HX05-fit-v6-{size}mm__fan-angle__print.stl';assert sha(D/'fit-v6'/name)==sha(B/name)
 print('Fit v6: three connected five-slot spectra, rack angles, vents and native/export hashes PASS; slicing and physical selection pending')

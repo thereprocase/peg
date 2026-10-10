@@ -1,0 +1,31 @@
+{
+  "source_sha256": "183321b392e56e679109c36433e7b2a4309eae5869c6075bf590d8eb67e887cf",
+  "sizes_mm": [
+    3,
+    5
+  ],
+  "inputs": {
+    "HX05-fit-v6-3mm__fan-angle__print.step": "71b575bebea7e5ab34d71ec15b04385d59e3045bf6f811252dfa90c1cfd5302c",
+    "HX05-fit-v6-5mm__fan-angle__print.step": "28aca34b44b3fb38109564aa76a680e0456fbd75fb0eacf50fc08958af9fd916"
+  },
+  "geometry_compensation_scale": 1,
+  "closed_mesh": true,
+  "mesh_components": 2,
+  "step_solids": 2,
+  "print_extents_mm": [
+    65.2909917713821,
+    131.0906067496448,
+    38.199165411668
+  ],
+  "files": {
+    "HX04-fit-v6__3mm-5mm__fan-angle__print.stl": {
+      "sha256": "85b72acf1dc658513f06119ee9688c397487b5d1ff45e5077f6d1abd7b4fd097",
+      "bytes": 603984
+    },
+    "coupon.glb": {
+      "sha256": "db605c5e3eb3d191e17d156ce3d8bbf4ad41f9e4849ac11d64e84174ac37731f",
+      "bytes": 870316
+    }
+  },
+  "scope": "Unchanged v6 native 3/5 mm coupons, re-laid on one plate;7 mm excluded; supports and owner compensation still required when slicing"
+}

@@ -1,0 +1,87 @@
+{
+  "source_sha256": "af571130eddb1d8f9504fb7795c3e034333df09c953de928c41ab14dee2fef3c",
+  "deck_sha256": "6a7bd99b38d10af0ad0fce08082c840f7ab9a9635eaeccd3938a88766ab624ef",
+  "results": [
+    {
+      "case": 1,
+      "applied_force_N": [
+        1.8421886238684237e-10,
+        4.317968205214129e-11,
+        -50.000000000115115
+      ],
+      "applied_moment_about_global_origin_Nmm": [
+        -6456.031968739424,
+        -6171.680037798677,
+        -5.829363658449438e-09
+      ],
+      "force_balance_relative_error": 5.049276828232613e-08,
+      "moment_balance_relative_error": 5.712780733111824e-08,
+      "passed": true
+    },
+    {
+      "case": 2,
+      "applied_force_N": [
+        30.000000000023558,
+        7.02371494298859e-12,
+        -5.004019421050998e-11
+      ],
+      "applied_moment_about_global_origin_Nmm": [
+        -9.546852197672706e-11,
+        -6476.717032271593,
+        -3873.6191812491707
+      ],
+      "force_balance_relative_error": 7.586582317234162e-08,
+      "moment_balance_relative_error": 7.648521352501781e-08,
+      "passed": true
+    },
+    {
+      "case": 3,
+      "applied_force_N": [
+        9.782175069972254e-13,
+        5.937750291451493e-13,
+        -50.00000000003443
+      ],
+      "applied_moment_about_global_origin_Nmm": [
+        -4889.5271432720065,
+        -4428.371950564156,
+        2.2361490437106113e-10
+      ],
+      "force_balance_relative_error": 1.1591236994905142e-08,
+      "moment_balance_relative_error": 7.752668871273427e-09,
+      "passed": true
+    },
+    {
+      "case": 4,
+      "applied_force_N": [
+        1.5999146452116975e-12,
+        29.999999999999876,
+        -9.198686257150257e-11
+      ],
+      "applied_moment_about_global_origin_Nmm": [
+        1183.1359249472696,
+        -1.0797862159961369e-08,
+        -3298.434030196745
+      ],
+      "force_balance_relative_error": 4.5313558248248816e-08,
+      "moment_balance_relative_error": 5.6103683048231425e-08,
+      "passed": true
+    },
+    {
+      "case": 5,
+      "applied_force_N": [
+        1.4595269437478464e-12,
+        -4.0103476095509905e-12,
+        -50.00000000001386
+      ],
+      "applied_moment_about_global_origin_Nmm": [
+        -4455.658020606579,
+        5409.154408141384,
+        -5.56184431843576e-10
+      ],
+      "force_balance_relative_error": 2.8561291782142366e-08,
+      "moment_balance_relative_error": 3.374313089030703e-08,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

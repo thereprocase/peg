@@ -1,0 +1,86 @@
+{
+  "url": "local",
+  "counts": {
+    "tools": 26,
+    "fields": 26
+  },
+  "checks": [
+    "tool-0",
+    "tool-1",
+    "tool-2",
+    "tool-3",
+    "tool-4",
+    "tool-5",
+    "tool-6",
+    "tool-7",
+    "tool-8",
+    "tool-9",
+    "tool-10",
+    "tool-11",
+    "tool-12",
+    "tool-13",
+    "tool-14",
+    "tool-15",
+    "tool-16",
+    "tool-17",
+    "tool-18",
+    "tool-19",
+    "tool-20",
+    "tool-21",
+    "tool-22",
+    "tool-23",
+    "tool-24",
+    "tool-25",
+    "field-0",
+    "field-1",
+    "field-2",
+    "field-3",
+    "field-4",
+    "field-5",
+    "field-6",
+    "field-7",
+    "field-8",
+    "field-9",
+    "field-10",
+    "field-11",
+    "field-12",
+    "field-13",
+    "field-14",
+    "field-15",
+    "field-16",
+    "field-17",
+    "field-18",
+    "field-19",
+    "field-20",
+    "field-21",
+    "field-22",
+    "field-23",
+    "field-24",
+    "field-25",
+    {
+      "mode": "sequence",
+      "phase": 0.5
+    },
+    {
+      "mode": "install",
+      "phase": 0,
+      "relief": 0
+    },
+    {
+      "mode": "install",
+      "phase": 0,
+      "relief": 1.5
+    },
+    {
+      "mode": "fea",
+      "field": 25,
+      "phase": 1
+    }
+  ],
+  "layout": {
+    "scrollWidth": 390,
+    "width": 390,
+    "canvasWidth": 356
+  },
+  "errors": []
+}

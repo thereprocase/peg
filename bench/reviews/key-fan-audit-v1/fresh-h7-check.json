@@ -1,0 +1,73 @@
+{
+  "source_sha256": "7d23fcfa64a98692c99cdb36efbead329117cd1b987dc187764f5a16f751e8be",
+  "step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+  "base_mesh": "h7",
+  "support": "hooks-only",
+  "force_mode": "grip-wrench",
+  "results": [
+    {
+      "id": "T-handle 10 sideways 30 N",
+      "force_N": [
+        30,
+        0,
+        0
+      ],
+      "force_point_mm": [
+        -123.43360075492419,
+        129.1206393749546,
+        -215.89056774217215
+      ],
+      "load_nodes": 164,
+      "applied_moment_at_node_centroid_Nmm": [
+        -3.468940690254385e-10,
+        2541.156722360772,
+        -2759.608527679337
+      ],
+      "load_centroid_mm": [
+        14.35969685583026,
+        37.13368845230209,
+        -300.59579182086753
+      ],
+      "load_force_sum_N": [
+        30.000000000023558,
+        7.02371494298859e-12,
+        -5.004019421050998e-11
+      ],
+      "max_nodal_force_N": 8.133227098450307,
+      "mean_load_patch_deflection_along_force_mm": 0.035921298634146344,
+      "work_equivalent_deflection_mm": 0.548201968339154,
+      "compliance_Nmm": 16.44605905017462,
+      "max_deflection_mm": 0.1486961975041072,
+      "max_deflection_at_mm": [
+        118.0,
+        0.2,
+        -340.7456623143
+      ],
+      "reaction_N": [
+        -29.999999923659985,
+        -1.091591998257646e-06,
+        7.608700041128458e-07
+      ],
+      "force_balance_relative_error": 4.442626915262413e-08,
+      "build_normal_max_tension_MPa": 6.701193,
+      "build_normal_max_compression_MPa": 8.257969,
+      "von_mises_MPa": {
+        "max": 13.977797330838289,
+        "p95": 0.19054004037230138,
+        "p99": 0.33892897810366895,
+        "max_element_centroid_mm": [
+          99.1012090030525,
+          -1.2505258843169251,
+          -96.72643767043425
+        ]
+      },
+      "stress_integration_points": 756828,
+      "case_index": 1,
+      "independent_single_step": true,
+      "source_deck_sha256": "c3eb6e5e57f3135cd3682490684ffae7c35218ea3801d1770e3e0f4b28894012",
+      "fresh_deck_sha256": "cbcb65353d92e886632e9ae0fd365248ee56f01c44918d5465c0f7275bb09398"
+    }
+  ],
+  "seconds": 201.55700705200434,
+  "scope": "Same stiffness/constraints/CLOAD entries as prior deck, one fresh static step per load. No load-history states reused; acceptance tolerance unchanged."
+}

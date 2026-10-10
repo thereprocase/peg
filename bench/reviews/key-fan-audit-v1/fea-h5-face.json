@@ -1,0 +1,323 @@
+{
+  "support": "face",
+  "force_mode": "grip-wrench",
+  "nodes": 425219,
+  "elements": 247439,
+  "fixed_nodes": 89266,
+  "fixed_node_bbox_mm": [
+    [
+      -115.0,
+      -10.79,
+      -339.3456623143
+    ],
+    [
+      115.0,
+      0.15,
+      -89.76945596836
+    ]
+  ],
+  "material": {
+    "E_MPa": 1800,
+    "nu": 0.35
+  },
+  "seconds": 898.5032986980223,
+  "loads": [
+    {
+      "id": "T-handle 10 down 50 N",
+      "force_N": [
+        0,
+        0,
+        -50
+      ],
+      "force_point_mm": [
+        -123.43360075492419,
+        129.1206393749546,
+        -215.89056774217215
+      ],
+      "load_nodes": 220,
+      "applied_moment_at_node_centroid_Nmm": [
+        -4564.546680358031,
+        -6940.980731614877,
+        -0.0
+      ],
+      "load_centroid_mm": [
+        15.386013877373356,
+        37.82970576779398,
+        -300.03768526091505
+      ],
+      "load_force_sum_N": [
+        -1.5415224652315374e-11,
+        9.43067846037593e-12,
+        -49.999999999997875
+      ],
+      "max_nodal_force_N": 14.18315152970529,
+      "mean_load_patch_deflection_along_force_mm": 0.009858663456818182,
+      "work_equivalent_deflection_mm": 1.1206258398976663,
+      "compliance_Nmm": 56.03129199488331,
+      "max_deflection_mm": 0.08251638752028048,
+      "max_deflection_at_mm": [
+        10.190106108747,
+        34.990815358815,
+        -305.67833542678
+      ],
+      "reaction_N": [
+        -2.6021095500539104e-07,
+        5.345492995467716e-07,
+        49.99999975768184
+      ],
+      "force_balance_relative_error": 1.2840105679542416e-08,
+      "build_normal_max_tension_MPa": 11.5614,
+      "build_normal_max_compression_MPa": 9.256448,
+      "von_mises_MPa": {
+        "max": 15.621675312783132,
+        "p95": 0.16435769896243083,
+        "p99": 0.6646745921328414,
+        "max_element_centroid_mm": [
+          17.12842310397,
+          36.45014205487625,
+          -291.7171290397825
+        ]
+      },
+      "stress_integration_points": 989756
+    },
+    {
+      "id": "T-handle 10 sideways 30 N",
+      "force_N": [
+        30,
+        0,
+        0
+      ],
+      "force_point_mm": [
+        -123.43360075492419,
+        129.1206393749546,
+        -215.89056774217215
+      ],
+      "load_nodes": 220,
+      "applied_moment_at_node_centroid_Nmm": [
+        0.0,
+        2524.413525562287,
+        -2738.7280082148186
+      ],
+      "load_centroid_mm": [
+        15.386013877373356,
+        37.82970576779398,
+        -300.03768526091505
+      ],
+      "load_force_sum_N": [
+        30.000000000005898,
+        -9.823253321883385e-13,
+        -7.87370169064161e-13
+      ],
+      "max_nodal_force_N": 6.371813940109486,
+      "mean_load_patch_deflection_along_force_mm": 0.0011057528613636369,
+      "work_equivalent_deflection_mm": 0.4046528969829913,
+      "compliance_Nmm": 12.139586909489738,
+      "max_deflection_mm": 0.04385198571332546,
+      "max_deflection_at_mm": [
+        10.190106108735,
+        31.87536727183,
+        -302.29441053099
+      ],
+      "reaction_N": [
+        -30.000000081013614,
+        -6.215973663709073e-07,
+        7.606997826786754e-08
+      ],
+      "force_balance_relative_error": 2.104843971680298e-08,
+      "build_normal_max_tension_MPa": 4.126225,
+      "build_normal_max_compression_MPa": 4.38335,
+      "von_mises_MPa": {
+        "max": 8.35249084509585,
+        "p95": 0.06356554132772496,
+        "p99": 0.25031145432904117,
+        "max_element_centroid_mm": [
+          11.162892369199275,
+          30.157853182283997,
+          -302.507365749385
+        ]
+      },
+      "stress_integration_points": 989756
+    },
+    {
+      "id": "hex 10 down 50 N",
+      "force_N": [
+        0,
+        0,
+        -50
+      ],
+      "force_point_mm": [
+        -88.56743901123158,
+        97.7905428654202,
+        34.85207531094213
+      ],
+      "load_nodes": 212,
+      "applied_moment_at_node_centroid_Nmm": [
+        -3391.209966552102,
+        -838.8615269504953,
+        -0.0
+      ],
+      "load_centroid_mm": [
+        -71.79020847222168,
+        29.96634353437817,
+        -119.22849158632799
+      ],
+      "load_force_sum_N": [
+        8.36216512700716e-13,
+        -2.6710023082188172e-12,
+        -50.000000000000306
+      ],
+      "max_nodal_force_N": 4.428912623609693,
+      "mean_load_patch_deflection_along_force_mm": 0.015673276587122642,
+      "work_equivalent_deflection_mm": 0.25493527610083133,
+      "compliance_Nmm": 12.746763805041567,
+      "max_deflection_mm": 0.06369424786473835,
+      "max_deflection_at_mm": [
+        -74.83457898757,
+        36.056380450008,
+        -118.3222864583
+      ],
+      "reaction_N": [
+        -1.3513207259639766e-07,
+        3.7421417211991605e-07,
+        50.00000014930203
+      ],
+      "force_balance_relative_error": 8.499129848168728e-09,
+      "build_normal_max_tension_MPa": 5.014682,
+      "build_normal_max_compression_MPa": 19.30056,
+      "von_mises_MPa": {
+        "max": 65.77885866117595,
+        "p95": 0.03974767389983676,
+        "p99": 0.4721997796849215,
+        "max_element_centroid_mm": [
+          -75.48487344832675,
+          35.9255994609605,
+          -118.8192341280425
+        ]
+      },
+      "stress_integration_points": 989756
+    },
+    {
+      "id": "Torx T50 out 30 N",
+      "force_N": [
+        0,
+        30,
+        0
+      ],
+      "force_point_mm": [
+        -109.94780100655805,
+        88.05965785301711,
+        -39.43786416504987
+      ],
+      "load_nodes": 278,
+      "applied_moment_at_node_centroid_Nmm": [
+        -3385.144190469683,
+        0.0,
+        26.86674432388827
+      ],
+      "load_centroid_mm": [
+        -110.84335915068766,
+        42.57976083970273,
+        -152.27600384737264
+      ],
+      "load_force_sum_N": [
+        -7.249756350802272e-14,
+        30.00000000000579,
+        4.4275694222051243e-13
+      ],
+      "max_nodal_force_N": 4.017895821751454,
+      "mean_load_patch_deflection_along_force_mm": 0.008385401118741007,
+      "work_equivalent_deflection_mm": 0.5360082855479897,
+      "compliance_Nmm": 16.080248566439693,
+      "max_deflection_mm": 0.047607229472643085,
+      "max_deflection_at_mm": [
+        -114.0495716152,
+        47.245633043545,
+        -151.1755411215
+      ],
+      "reaction_N": [
+        -9.658959466060036e-08,
+        -30.00000014083197,
+        -3.7232900859290104e-08
+      ],
+      "force_balance_relative_error": 5.8261367036820895e-09,
+      "build_normal_max_tension_MPa": 7.032523,
+      "build_normal_max_compression_MPa": 7.588275,
+      "von_mises_MPa": {
+        "max": 15.01023368562958,
+        "p95": 0.06408499685166931,
+        "p99": 0.6359781394526199,
+        "max_element_centroid_mm": [
+          -113.77433990661748,
+          47.425808262283496,
+          -152.0096325199
+        ]
+      },
+      "stress_integration_points": 989756
+    },
+    {
+      "id": "T-handle 2 down 50 N",
+      "force_N": [
+        0,
+        0,
+        -50
+      ],
+      "force_point_mm": [
+        108.1830881628019,
+        89.1131604120978,
+        -128.2983212653969
+      ],
+      "load_nodes": 212,
+      "applied_moment_at_node_centroid_Nmm": [
+        -698.7526978609559,
+        -58.48038203920396,
+        -0.0
+      ],
+      "load_centroid_mm": [
+        109.35269580358597,
+        75.13810645487868,
+        -144.14284374275846
+      ],
+      "load_force_sum_N": [
+        7.881681418631103e-13,
+        -1.2995604592447307e-11,
+        -49.99999999999866
+      ],
+      "max_nodal_force_N": 2.217793318207622,
+      "mean_load_patch_deflection_along_force_mm": 0.009827498047169812,
+      "work_equivalent_deflection_mm": 0.04974883342636624,
+      "compliance_Nmm": 2.487441671318312,
+      "max_deflection_mm": 0.026071617788847243,
+      "max_deflection_at_mm": [
+        106.71822705313,
+        78.56387051951,
+        -144.1364826278
+      ],
+      "reaction_N": [
+        -3.782098172838699e-08,
+        1.5621808860909192e-07,
+        50.00000017145279
+      ],
+      "force_balance_relative_error": 4.7002373122373715e-09,
+      "build_normal_max_tension_MPa": 3.497992,
+      "build_normal_max_compression_MPa": 6.578964,
+      "von_mises_MPa": {
+        "max": 6.81970305014416,
+        "p95": 0.06435926518538886,
+        "p99": 0.3899466944694985,
+        "max_element_centroid_mm": [
+          109.80033409058751,
+          79.22028877435275,
+          -145.061624935365
+        ]
+      },
+      "stress_integration_points": 989756
+    }
+  ],
+  "input_deck_sha256": "024ec0973dc22d4fff01e0d5b31844dd8a26aa70a5ff025a18aa7e920a5793de",
+  "solver_log_sha256": "acd91c88b5d484b6812aa1a9b724bd172c9d2bbc6784c1cb25bfe57ba93c0410",
+  "source_sha256": "4e01ff7bf7d4a39affd08667fcf42d06335931b825954eb4fa2570254f6b9be7",
+  "mesh_npz_sha256": "3833ed0e19900dcc0ccc07311f1bf51aa35d0a28d767d281b4389d474e5c7573",
+  "h_requested_mm": 5,
+  "parent_step_sha256": "62a8acee8145f11967618944d6b4e0e2a54f3d96c428f3a197c91fc82f86798a",
+  "solver": "CalculiX 2.21"
+}

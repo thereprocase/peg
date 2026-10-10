@@ -1,0 +1,18 @@
+{
+  "source_sha256": "9ca451d77aad85a5bbef1af5c6079f5bda182cc80589e73e8f8136ef348a6970",
+  "original_multistep_deck_sha256": "3ee6aa2c5ab3166384f3311aeb372c9b9eb490db265e01fb69133ada3366aa71",
+  "isolated_deck_sha256": "b2aa40e7a606055dcb88f539fafe05e048e7bedab16dcd4740b43efa7ba70329",
+  "force_N": [
+    30,
+    0,
+    0
+  ],
+  "reaction_N": [
+    -30.00000056948,
+    2.422470004592725e-07,
+    1.0924899969400048e-06
+  ],
+  "force_balance_relative_error": 4.185325520472881e-08,
+  "passed": true,
+  "scope": "Same failed h5 hooks-only sideways grip-wrench case, replayed as a fresh single static step. No acceptance tolerance relaxed."
+}

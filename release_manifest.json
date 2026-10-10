@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 2853,
-  "total_size_bytes": 1154144876,
+  "file_count": 3083,
+  "total_size_bytes": 1204402307,
   "files": [
     {
       "path": ".gitattributes",
@@ -1887,14 +1887,39 @@
       "sha256": "c11fe1fd7083675fd3acaaa16aaf043ed418fc2e0980c549d34301bdb9326a30"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/HX04-fit-v6__3mm-5mm__fan-angle__print.step",
+      "size_bytes": 3491307,
+      "sha256": "fcb4aba00cb99516c81a19593d515b0443131a43f0c2205cdf08353a2dbdf7d3"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/HX04-fit-v6__3mm-5mm__fan-angle__print.stl",
+      "size_bytes": 603984,
+      "sha256": "85b72acf1dc658513f06119ee9688c397487b5d1ff45e5077f6d1abd7b4fd097"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/HX04-v2__uncompensated-brace-project__reslice.3mf",
       "size_bytes": 4406708,
       "sha256": "b5de56bf1c0bfdc9a486c57aafd1f22e61a184ec160f139df289ec9c09c882e4"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/beam-reference.json",
+      "size_bytes": 1047,
+      "sha256": "1f1497e80a4bb243b6acb56177189d14e749cc91a7a9b800769af21d68c52e1b"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/fea-h5-baseline.json",
       "size_bytes": 10201,
       "sha256": "5b5cf03e2ec4c876ad1c85b2cabdb739a60a7ecd8b9ebf08975b44d3fe75197f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-h5-face.json",
+      "size_bytes": 8919,
+      "sha256": "b291ef63a116ca897f4093692d758df4455829b7af65ef587438b8c8b834505c"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fea-h5-four-corners.json",
+      "size_bytes": 8899,
+      "sha256": "5b0b11f0201c476783f6af10c16cecea2b7ca385507b70f629d9dffbda098ad6"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/fea-h6-baseline.json",
@@ -1917,9 +1942,39 @@
       "sha256": "b16ca707efcf3c66a78a799a5a104706d9f6fddcc61ff99128a5f42d138fcfd6"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/film-manifest.json",
+      "size_bytes": 112852,
+      "sha256": "901126a41eb2c568c466b089bbe508b9c5175150580221909d51d56d67ced35d"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/final-viewer-probe.json",
+      "size_bytes": 1255,
+      "sha256": "15a9aad91b9eef17c6f41028b40171865974abc4c6113299ec226cc7c575b50e"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fresh-h7-check.json",
+      "size_bytes": 2331,
+      "sha256": "d2b139e518f42a9026bd668ddd5f218f4493d0820c8b3c44b45575cd24d811a3"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/fresh-patch15-check.json",
+      "size_bytes": 2341,
+      "sha256": "58d377dc86b2233b1c0b5a32c2b2dc45d87415d71d54c4d5b3ad8e8253a4e89f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/hoop-h025.json",
+      "size_bytes": 4561,
+      "sha256": "2396d244bb51a6ac01895979c5b0c80a8b3366b2ecf624fea8c6aaeda7b234ae"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/hoop-h04.json",
       "size_bytes": 4537,
       "sha256": "7c366a7796c3e3865a0cae356bc3c956e1d115d7ed9c32d802ffcf2fdee22071"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/hoop-pinch.svg",
+      "size_bytes": 62132,
+      "sha256": "89b47084eb78d930449811c1d2d90058392e84d796bb52af89fabbd71868ca89"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/install-audit.json",
@@ -1927,9 +1982,24 @@
       "sha256": "e7d2fa955a763a1bca2f2d05447f4116500739fb15d333bf02322910f3dcca56"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/install-candidates.json",
+      "size_bytes": 34297,
+      "sha256": "0c65f060499444a01f724ac48d9ce2604eef34958430b91f5159e74fb1db2ba4"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/installation-contact.svg",
+      "size_bytes": 50252,
+      "sha256": "360404205b8510438705232759b852ad1efe1dcd5ab062b0f5ad4003c4ffb948"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/mesh-h5-quality.json",
       "size_bytes": 813,
       "sha256": "bfd9e77e7d0081ff08da908fc530ff41cafab0801703c590aaf966553c4a88b2"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/mesh-h6-quality.json",
+      "size_bytes": 816,
+      "sha256": "5ec2c68f958202708a45ceabe17d5b45eaf947ece739ea4800346e5e069a98d5"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/mesh-h7-quality.json",
@@ -1937,14 +2007,54 @@
       "sha256": "7f1e3d1d2872feec7f839b07d3688d49427cd9d269df03eba49d6b146cabc8b2"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/mesh-sensitivity.svg",
+      "size_bytes": 75310,
+      "sha256": "7bff2fd058b6b7dad5843e5c31e9a4d6eac1d5c245f6b80e6a661037f8e97b9c"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/motion-audit.json",
       "size_bytes": 43134,
       "sha256": "a5ddd8cdcfcbcdcce1a94dd51a89cae18b5a3c27ee59bfb23bf3f43e0eadc626"
     },
     {
+      "path": "bench/reviews/key-fan-audit-v1/mount-sensitivity.svg",
+      "size_bytes": 38198,
+      "sha256": "8b4c235f58b165a21c82fc63551b7935d8b186b8cc276b220cc02491c9cfeb99"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/mouth-versus-grip.svg",
+      "size_bytes": 38519,
+      "sha256": "cccad88c6d138962e73731bdaab3ce01d04d5b4224f33c3363c2fe0b669ac29d"
+    },
+    {
       "path": "bench/reviews/key-fan-audit-v1/native-audit.json",
       "size_bytes": 1927,
       "sha256": "0817906be68e7ef735a67ce967bfe1898105d2a2c8d97df9e0b8e93b7b1ee9df"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/public-package-check.json",
+      "size_bytes": 19252,
+      "sha256": "878feb95b7f558298a98ab04b639a0c17bf578dcec7236f5d991b8a7cd6e2ee9"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/reaction-force-moment.json",
+      "size_bytes": 2449,
+      "sha256": "cdd42f348fc09a18d293143b8092b9ebca697aa52a5ea737dc83362daeccf71a"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/report-build.json",
+      "size_bytes": 356,
+      "sha256": "b2ff961015f8c3e44614e44aef8902b09b94e4e23164faa5af95870723557c1a"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/requested-fits-check.json",
+      "size_bytes": 1028,
+      "sha256": "01febd539f35ebedc4a3e7aa07462ddc4faec18240916596705f29b5b1b01e6f"
+    },
+    {
+      "path": "bench/reviews/key-fan-audit-v1/single-step-residual-check.json",
+      "size_bytes": 642,
+      "sha256": "f424b9c9fd09887d6560730de2a9ef1467fb440c0390c169e2d8498ef9279a15"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/uncompensated-project-check.json",
@@ -3583,13 +3693,28 @@
     },
     {
       "path": "bench/source/key_fan_audit_v1/README.md",
-      "size_bytes": 3131,
-      "sha256": "c59c78e8ae3031b469b771357c66807ba302293e5efce032decbad0397791390"
+      "size_bytes": 4228,
+      "sha256": "c7e3015ca5cfbcb429d264c45365bf3ec4286d54829889fb4cee46d110093ac2"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/build_report.py",
+      "size_bytes": 27487,
+      "sha256": "390787eb25f468a877c77dfbf77773914892db77004b5782f8097405e6125b0e"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/compress_geometry.py",
+      "size_bytes": 1102,
+      "sha256": "ffc3e93a9bcdd60be925c5b0bc54d57939cd0771fb674ad550602e70ff48d745"
     },
     {
       "path": "bench/source/key_fan_audit_v1/export_board.py",
       "size_bytes": 965,
       "sha256": "50dc4f8846445e38b3a2627b1c8efdfc322fe72e74690709b4cc7e5e003b057d"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/export_hoop_field.py",
+      "size_bytes": 2424,
+      "sha256": "a0bedcaf6d143fecdcc8acb748cf9cea65c6f4f507a07640ea5b076d625cb7da"
     },
     {
       "path": "bench/source/key_fan_audit_v1/export_viewer_data.py",
@@ -3627,9 +3752,19 @@
       "sha256": "70321c85f4145a343e6f381e20799a651e693f7ac192af6aaf52ef07c6fcd99f"
     },
     {
+      "path": "bench/source/key_fan_audit_v1/fresh_case_audit.py",
+      "size_bytes": 3201,
+      "sha256": "7d23fcfa64a98692c99cdb36efbead329117cd1b987dc187764f5a16f751e8be"
+    },
+    {
       "path": "bench/source/key_fan_audit_v1/hoop_fea.py",
       "size_bytes": 4307,
       "sha256": "3876552dfcc0b4959edc6e9c763c1332f3b5dd8b63dccdd94fb39b35fa1a9d44"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/hoop_nlgeom.py",
+      "size_bytes": 4511,
+      "sha256": "f88f00d1172e6fe47b873de2eb557f87899a840a550d3189709d0596f6f8f75a"
     },
     {
       "path": "bench/source/key_fan_audit_v1/install_audit.py",
@@ -3657,6 +3792,11 @@
       "sha256": "9b73defe419d8eee46726cb8e63cb01833661a044db6c130a12a5c79e20bf658"
     },
     {
+      "path": "bench/source/key_fan_audit_v1/modal_audit.py",
+      "size_bytes": 2395,
+      "sha256": "0770b728f77d5e800c0ea67252d82986e82e36b86a77468a41206d5ceeab09c6"
+    },
+    {
       "path": "bench/source/key_fan_audit_v1/motion_audit.py",
       "size_bytes": 7245,
       "sha256": "258736942920666f39e2bbb71871c4f2dd7585a71d4a522ba4ade908ab030e13"
@@ -3667,6 +3807,16 @@
       "sha256": "80eceedb84365df04abf88c247001b44fd4aabae6790f88b77a1a9d24578e1c6"
     },
     {
+      "path": "bench/source/key_fan_audit_v1/prepare_requested_fits.py",
+      "size_bytes": 3144,
+      "sha256": "183321b392e56e679109c36433e7b2a4309eae5869c6075bf590d8eb67e887cf"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/probe_final.cjs",
+      "size_bytes": 2371,
+      "sha256": "498599350218afb33756b9b7f9766f7a20cc6a2998ed01b3a61b2a465ba52582"
+    },
+    {
       "path": "bench/source/key_fan_audit_v1/probe_viewer.cjs",
       "size_bytes": 1687,
       "sha256": "010ad5e1390b9bb0548ab3b2b35a6b3d2b4655c6ac4e6bc9bb8290849f7161b0"
@@ -3675,6 +3825,11 @@
       "path": "bench/source/key_fan_audit_v1/reaction_audit.py",
       "size_bytes": 2025,
       "sha256": "af571130eddb1d8f9504fb7795c3e034333df09c953de928c41ab14dee2fef3c"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/record_extra_films.cjs",
+      "size_bytes": 4639,
+      "sha256": "a5589014cfea52f596885d5c5048b5ea5dfb40a5d2a68392291a024425673a1f"
     },
     {
       "path": "bench/source/key_fan_audit_v1/record_films.cjs",
@@ -3690,6 +3845,11 @@
       "path": "bench/source/key_fan_audit_v1/recover_summary.py",
       "size_bytes": 2112,
       "sha256": "7f6c4a380097d3e283fa016261a341133ff76d08cb4bc661082e1f5ef523556a"
+    },
+    {
+      "path": "bench/source/key_fan_audit_v1/remaining_h5.py",
+      "size_bytes": 1032,
+      "sha256": "4e01ff7bf7d4a39affd08667fcf42d06335931b825954eb4fa2570254f6b9be7"
     },
     {
       "path": "bench/source/key_fan_audit_v1/repack_project.py",
@@ -6153,8 +6313,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
-      "size_bytes": 129830,
-      "sha256": "08f2c358d0530a946ee4c786ac42eb9e04e01befeb9f69622da6871bdd7b9b06"
+      "size_bytes": 130012,
+      "sha256": "c40c5d39eda3a43e4d908c63e3923239067421529f421cc984bc587a665f7b15"
     },
     {
       "path": "docs/gallery/current-pegs/current-pegs.css",
@@ -9617,6 +9777,16 @@
       "sha256": "9958581447c39c57636f3a2c1bc1881bc9680263887080d64595aa72277b42a0"
     },
     {
+      "path": "docs/gallery/key-fan/fit-requested-3-5/HX04-fit-v6__3mm-5mm__fan-angle__print.stl",
+      "size_bytes": 603984,
+      "sha256": "85b72acf1dc658513f06119ee9688c397487b5d1ff45e5077f6d1abd7b4fd097"
+    },
+    {
+      "path": "docs/gallery/key-fan/fit-requested-3-5/coupon.glb",
+      "size_bytes": 870316,
+      "sha256": "db605c5e3eb3d191e17d156ce3d8bbf4ad41f9e4849ac11d64e84174ac37731f"
+    },
+    {
       "path": "docs/gallery/key-fan/fit-v3/HX05-fit-v3__left-end__print.stl",
       "size_bytes": 274284,
       "sha256": "ea5792765b7901edfbb52640bb707a95e349e997df7290e2809bbecdd8e473ac"
@@ -9708,8 +9878,8 @@
     },
     {
       "path": "docs/gallery/key-fan/index.html",
-      "size_bytes": 12050,
-      "sha256": "ce5632c19d83c46dea0dc570753df6d2e1f4c276ccd52a29f32f4994e238c69e"
+      "size_bytes": 12694,
+      "sha256": "04e4d53dc79dab4d899938c8207bec37d2923b85b31954859060df12b6838fef"
     },
     {
       "path": "docs/gallery/key-fan/installed.glb",
@@ -9745,6 +9915,971 @@
       "path": "docs/gallery/key-fan/review.js",
       "size_bytes": 562,
       "sha256": "b4e2ec2a547f50062e51c66ea87f7dcb448154f9bfb1c05c7aaf9aa4406ea2fe"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/fem-boundary.bin.gz",
+      "size_bytes": 3427593,
+      "sha256": "c914d324f22b86b7a920358864d88c5e00d26a04fff4bab44cda9c0b89b50c3c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-grip-wrench-01.bin.gz",
+      "size_bytes": 648969,
+      "sha256": "a33ce109daf17e3b369368539052f61648868e31621f49eb1064614fdfe45096"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-grip-wrench-02.bin.gz",
+      "size_bytes": 611970,
+      "sha256": "de28363d36d22184dfdce4fc8383046c279115eb7e8ddd70774bceaf464c4a85"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-grip-wrench-03.bin.gz",
+      "size_bytes": 537093,
+      "sha256": "b3f452a9037ecb00ea6e81894dc475dadeaecbab01480829b47b2fcbef5b273a"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-grip-wrench-04.bin.gz",
+      "size_bytes": 572913,
+      "sha256": "0589c75b426fb126dda70bacca4a36f073adda5da1fcf1a47889d2a8b24c4307"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-grip-wrench-05.bin.gz",
+      "size_bytes": 725328,
+      "sha256": "024717f5a2e00bf717592e8d511f8fb6fc3294e106bb24da11d8a00dd984ec35"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-mouth-01.bin.gz",
+      "size_bytes": 815409,
+      "sha256": "fde221a9618e479f47342b1eead48d2fdf3bc05be550138e46f7ddb73cdb54ef"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-mouth-02.bin.gz",
+      "size_bytes": 799597,
+      "sha256": "7dc77ceb0c20a9cc20ad688c4f6e41ccb7e32e9eb9960d022913a230b8bc20f0"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-mouth-03.bin.gz",
+      "size_bytes": 726938,
+      "sha256": "20da83c5a63f5b7f932ec1e191a01e82b321a191408ddae6c6ed12684799eda1"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-mouth-04.bin.gz",
+      "size_bytes": 709401,
+      "sha256": "77524393585ca94780fd781cece686b8eda0e78763b6722e2f07e40cb88191ab"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-all-pegs-mouth-05.bin.gz",
+      "size_bytes": 816021,
+      "sha256": "74660f79a747fa44522e95b102855f0a20759f4ce41863f36270bbbafc7c2351"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-face-grip-wrench-01.bin.gz",
+      "size_bytes": 315401,
+      "sha256": "4c6bed9e1090ed8ab8c88c61c5a1b88ee2d3ab786b804bc105c28fe5865aa2c5"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-face-grip-wrench-02.bin.gz",
+      "size_bytes": 267934,
+      "sha256": "68d1031f4f9e8bc13fb300fa8f6bdce6a02e48c3862d5e211a5e86d3da8c3c55"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-face-grip-wrench-03.bin.gz",
+      "size_bytes": 223557,
+      "sha256": "05cbe6f459b109597e4b7c12000762b4664ba4f9d9286570bf6748bf4abf875b"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-face-grip-wrench-04.bin.gz",
+      "size_bytes": 263663,
+      "sha256": "c49d4c4256a4f71ac5fb754f541338706eb1c19fde2dc3eeb6cda9a356b1052d"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-face-grip-wrench-05.bin.gz",
+      "size_bytes": 431814,
+      "sha256": "0980eb60d5ee04531f8eacb7335e5461cedda0646d299b0db4f22591e611c0d7"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-four-corners-grip-wrench-01.bin.gz",
+      "size_bytes": 1099998,
+      "sha256": "9258c6e565403c82b53eade9c706ce0e90e3d455570d1a064af6d8c68dc67814"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-four-corners-grip-wrench-02.bin.gz",
+      "size_bytes": 1188547,
+      "sha256": "f04e4d991a6cc8a57269cc4ae720f13e6699cff9eb61bfa4b03020ddf71b9bcb"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-four-corners-grip-wrench-03.bin.gz",
+      "size_bytes": 1124335,
+      "sha256": "1b1f1cb46fa428b7e50c636a6b6730dcbc895d0c5d878335e68260a1d62b3156"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-four-corners-grip-wrench-04.bin.gz",
+      "size_bytes": 1133344,
+      "sha256": "935305d48d0c6693beee9c5a4af6ea6f32f0beb0aa5b34d41168d9935c68ca48"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-four-corners-grip-wrench-05.bin.gz",
+      "size_bytes": 1115160,
+      "sha256": "bd6b96d68ee0d73c9ed825fb8eaa8ebef14f16d470e098e332768d3eb693aa24"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-hooks-only-grip-wrench-01.bin.gz",
+      "size_bytes": 1092652,
+      "sha256": "a19a6dcdca824ba807e1f1badd3bb86f1d99056e38fb90841593dfc93e5727b8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-hooks-only-grip-wrench-02.bin.gz",
+      "size_bytes": 1121102,
+      "sha256": "2ce5c688641ed68f0bcd9482d67ae542f5c9538f9f690f072f6535ef164ca816"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-hooks-only-grip-wrench-03.bin.gz",
+      "size_bytes": 1037736,
+      "sha256": "6b43c5db3f29883f5f90720816f4eb25fd244d6aecdf120b547aee287637fa59"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-hooks-only-grip-wrench-04.bin.gz",
+      "size_bytes": 1085181,
+      "sha256": "6bb6c33371321fbe27649b627155c4e6e5c6058018089afb62e4e37e071aacd3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-hooks-only-grip-wrench-05.bin.gz",
+      "size_bytes": 1098848,
+      "sha256": "dd231f6b68b45e487d81600cdb498bd99bd3ae93cee8c19fe5cda052833a1529"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/field-hoop-pinch-02.bin.gz",
+      "size_bytes": 212659,
+      "sha256": "c9f2bd3784da1a6db756cd142e54c7122b05619c4521110d78e2d96aab6bc1b3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/holder.bin.gz",
+      "size_bytes": 4015626,
+      "sha256": "eb835357fd616becddceb6efe1701e0e4a7c81da33a82801312ef399893d5c39"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/hoop-boundary.bin.gz",
+      "size_bytes": 1567875,
+      "sha256": "d25aaa2e4835f68758c41a3a965963e2a04df4f6970ca1c6cabccc180dc3847d"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/reference-board.bin.gz",
+      "size_bytes": 433303,
+      "sha256": "cd652241e009ae34c4ffbba8969c11891c0d92a42f88c08cd747b82b24ec4917"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/scene-capture-v1.json",
+      "size_bytes": 120471,
+      "sha256": "4ee024d2e57a1b571ee02a313e49cb7550ee7d91097aa4a3c31d0d1fec0c86f2"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/scene.json",
+      "size_bytes": 163502,
+      "sha256": "a58a15d243039ecb5ddc514db691a04439694537ff106872b7147dcf67b2b782"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-00.bin.gz",
+      "size_bytes": 91133,
+      "sha256": "657b13f401436e553c2754551f8265bc31c5ed103f3067a9f8d39c7ef330b048"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-01.bin.gz",
+      "size_bytes": 92009,
+      "sha256": "e8348b4cac26d94577b2659c530b164f454fbcaac5fd42cd68970f157e0898de"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-02.bin.gz",
+      "size_bytes": 93930,
+      "sha256": "7a2481dc82ecc863e785337d1738c467a014374d767f054a6e7d6805d085c911"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-03.bin.gz",
+      "size_bytes": 91578,
+      "sha256": "5cca04bc9de44c99d0c873474a29f96953f3da4efc997d808ef0e111c55fffcb"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-04.bin.gz",
+      "size_bytes": 92337,
+      "sha256": "119595d6ded6d6bff6659e4b3b3bcb866362f311bbba2061c9d7713fb4c72830"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-05.bin.gz",
+      "size_bytes": 93827,
+      "sha256": "c1adf419ccc2c94ea84333872f049546e254fa658c9d4d42e6eedfdb5cc47256"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-06.bin.gz",
+      "size_bytes": 91791,
+      "sha256": "3fea12206e27b2728f09604c6f0d66736f055f87e50be03aa0478b860580310c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-07.bin.gz",
+      "size_bytes": 92488,
+      "sha256": "c32cd9201128eb30720eb872e61a9220c7156f87ee1f42566771e966048f1c05"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-08.bin.gz",
+      "size_bytes": 91371,
+      "sha256": "deee3d10cfff38293cd3f81c0338e7b67777259d593b03b11ae0e94d634477dc"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-09.bin.gz",
+      "size_bytes": 93144,
+      "sha256": "777f4ff3ab3cda4de5dd3ce5bdb832bd37a3e5f2437ffb85fba3126e7eb92827"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-10.bin.gz",
+      "size_bytes": 91024,
+      "sha256": "a307d492e5556f7500ff45664e762fbb75b3d757fd83db981eda56451191bca8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-11.bin.gz",
+      "size_bytes": 95068,
+      "sha256": "044e10c2ce9dbcf6bbb218305ab0225b245bc6e95f8c0fb13adbeb387e2c2fcd"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-12.bin.gz",
+      "size_bytes": 93650,
+      "sha256": "782b27031717d51c27bf65f6c440d82824619961dce0b388d6f859bc374e382b"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-13.bin.gz",
+      "size_bytes": 94747,
+      "sha256": "f3f8b8f7a9c6ab0cb1eee5521d91fddf9671205924502f5ffac5ddbda96046cb"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-14.bin.gz",
+      "size_bytes": 93040,
+      "sha256": "08a7c3ec95ca9bc14175c83087fd959571b4b4abe0d0eac63b73c8a050ab4edd"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-15.bin.gz",
+      "size_bytes": 92736,
+      "sha256": "d3a91073ee37233401a76438a262f0ebbc0ca5d23e04775af6cc633be0467072"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-16.bin.gz",
+      "size_bytes": 92600,
+      "sha256": "197634f2026192f94f84f77899858f52565cdaab2464e4bda11574e9895378a9"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-17.bin.gz",
+      "size_bytes": 91905,
+      "sha256": "e86e7472c54b2cc94617530edca453a1c83b1a61531f8016588211b60c88e246"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-18.bin.gz",
+      "size_bytes": 93766,
+      "sha256": "5bacdb4ee46b2045bc80d74f4d31b4ced32ead642f8661fdfa55ad8d28734546"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-19.bin.gz",
+      "size_bytes": 90986,
+      "sha256": "15bb91d5d58f8680d7fd266f187b62aff1b0edf705776e8da6c72e99b0cb6b2b"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-20.bin.gz",
+      "size_bytes": 59593,
+      "sha256": "277e5a2daf09cbfd310c04d213796d28262e1ac724831e199060485ed1175868"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-21.bin.gz",
+      "size_bytes": 59060,
+      "sha256": "b3eb4c6258d90fa2a0d9765a210af6dd2d196de65e9f99418bdb1ca5a69ac442"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-22.bin.gz",
+      "size_bytes": 58121,
+      "sha256": "30b535bdf870c355cb2fa1d1fefc1cbeb29af2f23f747e2bd7ceb50222bf37c8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-23.bin.gz",
+      "size_bytes": 58682,
+      "sha256": "15fe009c9785c805a350f17f17753ff0b393a3dc600fdfcdf1f3bf50c9738a72"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-24.bin.gz",
+      "size_bytes": 58314,
+      "sha256": "5835b0a0f43935a2065213d78ae6764014be2dda2afa6d38a3163557c88a6188"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/data/tool-25.bin.gz",
+      "size_bytes": 61308,
+      "sha256": "39ffa0f5e37551236463656218d25f14706665f5a5455ea2f6d77312bf7c1d92"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/films.json",
+      "size_bytes": 112852,
+      "sha256": "901126a41eb2c568c466b089bbe508b9c5175150580221909d51d56d67ced35d"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/hoop-pinch.png",
+      "size_bytes": 104109,
+      "sha256": "7bd7895c6def07e53272f7256cc3b0e2c7420e06b770b3a809e0d6993d02c12e"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/index.html",
+      "size_bytes": 3500,
+      "sha256": "30ae30893fe77a8e664b986622906f84018b0e45840dbf020ce006f48d2939fc"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/installation-contact.png",
+      "size_bytes": 69090,
+      "sha256": "25d6b2a412c4bc88e3de0606fdc6ea245504e5a32429d3557f71e2023072d10d"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-flexure-cel-all-pegs-1.webm",
+      "size_bytes": 103113,
+      "sha256": "9f8847891838e469d148d0d1d8a1701e7d6361022fe059dec48014075af5f7e2"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-flexure-cel-all-pegs-4.webm",
+      "size_bytes": 101567,
+      "sha256": "3465b3ae8d64be649db1c0283ac47b84df5a1610c5ed8bb99cf4dc579d33139b"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-flexure-cel-face-1.webm",
+      "size_bytes": 90416,
+      "sha256": "ff6a1ada466dbaa5484bd723c612157523c1d7c542e3d475168982902783ae20"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-flexure-cel-four-corners-1.webm",
+      "size_bytes": 207608,
+      "sha256": "6b472fb9f3c2fb94a833cedc1a5862781028a5a8d8cd2441ffe089ec55d0b612"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-flexure-cel-hooks-only-1.webm",
+      "size_bytes": 292894,
+      "sha256": "8d6490106d7ffd05526c2c945856e8822782e91b94143aa1219e4fcd2a521552"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-hoop-pinch.webm",
+      "size_bytes": 168742,
+      "sha256": "d481f9a1db9356884d9ebdf50708ff54705e9e4483873f9a782dd6525e92f91f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-install-full-host.webm",
+      "size_bytes": 417419,
+      "sha256": "decfd3b46c1aae95b31b8b7e43acac2456db767c591cbe4372f6171dea8927d0"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-install-translated-candidate.webm",
+      "size_bytes": 408370,
+      "sha256": "6dde226b710a61ef3ae6a1bb47e609e8314710967323990a31adeb8d981bf494"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-1.5.webm",
+      "size_bytes": 73583,
+      "sha256": "31acd14096afe521ff61372ec29d0d9873e32be05d0aec9af40511a4030bbcae"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-10.webm",
+      "size_bytes": 82604,
+      "sha256": "afe8ba1ac98c934071feae78da00edeeff992f68194b2a1a26bfce89350bea88"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-2.5.webm",
+      "size_bytes": 77997,
+      "sha256": "43fe6e6274074fba7fef63005ac51a1f024af0a8ec5b850c484a4a9337cc9144"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-2.webm",
+      "size_bytes": 74358,
+      "sha256": "2a62f01b76b32408861362fdddf9bbeeafd1c0cb0e83d9d9b138124ccd8e012c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-3.webm",
+      "size_bytes": 79706,
+      "sha256": "164410e41c048ca38c4179cadffdcb8506fc4d2bd5912b516fabc5847536c143"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-4.webm",
+      "size_bytes": 78495,
+      "sha256": "ead22e1f1e9f54f15641d1703b569ae30eb94c8d98fa964f20b758d7eb7b56d9"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-5.webm",
+      "size_bytes": 79476,
+      "sha256": "08871f748f02700b59a9492aaa1eff1517ed58faf7f6d415aa3392dc991956c6"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-6.webm",
+      "size_bytes": 82702,
+      "sha256": "6a71e40793230928cb6636393cd4778162eaf395f69a3af0f06637b2aa34fa4a"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-hex-8.webm",
+      "size_bytes": 83738,
+      "sha256": "3e9496a58065badd117effefc0f39c8c1d36df37ebd6a00b22149b8d51ba06a3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-10.webm",
+      "size_bytes": 110942,
+      "sha256": "952bf5b3096c82ad19dec6a4d7c45b611333b0d92f947448fab5faeb77af16e3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-2.5.webm",
+      "size_bytes": 94329,
+      "sha256": "2a20ce6d2c8f786462c7fe549b7b1efd37fe450deddbc5360f1480819a9df00a"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-2.webm",
+      "size_bytes": 89591,
+      "sha256": "8481ab4e597e8162cf0e1c481ab837b33642d5720d8bc09f8312f240d714df56"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-3.webm",
+      "size_bytes": 101948,
+      "sha256": "fe61b3bcec62fff5dca3f20bbb419f060e2b0f2495017d236380f46376a4f999"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-4.webm",
+      "size_bytes": 95305,
+      "sha256": "2272fae6356f2578c2e0f4cff51294cea5ba856617864d35975779f342eb5776"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-5.webm",
+      "size_bytes": 93633,
+      "sha256": "159a2cf399cc669c10a1f939a728deae037ca9ffa8757162cb1db5409a6520cf"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-6.webm",
+      "size_bytes": 102555,
+      "sha256": "eab5cdd15fee5946cdf363dd4dbf0271055d7f3922924ce35bf743fe8cc66b09"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-tee-8.webm",
+      "size_bytes": 113093,
+      "sha256": "2189e9a32bcea86290308b1701f7a3803c12824db5984d35e863cd0bc9872747"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T10.webm",
+      "size_bytes": 76143,
+      "sha256": "ec435ac57227a78336ffd11747a0a0a733a098fedf3bccac2f20115b3446ea34"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T15.webm",
+      "size_bytes": 77349,
+      "sha256": "7735330cc25488a5851d9f7843141a238d48384110aea1dd5ec901b20e8872a4"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T20.webm",
+      "size_bytes": 77234,
+      "sha256": "291cba8362984f836fc383f733bcd1473b1f32e9262d417cba091e5580a90c61"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T25.webm",
+      "size_bytes": 79035,
+      "sha256": "8c44e7e38f12a1055f567e3c90e13d350daff8ea437a5ee2839fdba8f7b409dd"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T27.webm",
+      "size_bytes": 80145,
+      "sha256": "60efad67b93cda05d09eef1c8f921a73845feb8c83bc7129ee7faeb324617425"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T30.webm",
+      "size_bytes": 81038,
+      "sha256": "ee437e56377cec3bb7813bfbd81d61d9f542343b3ca8d551752cf099444ff984"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T40.webm",
+      "size_bytes": 82340,
+      "sha256": "264c696d3d5828c4e3289394215b300e71be5df83c657d647324a08b87805c45"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T45.webm",
+      "size_bytes": 85625,
+      "sha256": "7f30b88cf1a0c897a0c3bdf4466ad7e33439fce3cc4263826c393c5e3b2faff3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-motion-torx-T50.webm",
+      "size_bytes": 84193,
+      "sha256": "6808ded0ec8fb85898d0e2ebd55c7f873ffc075ca66c99dac89d727f34002a48"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-sequence-full-rack.webm",
+      "size_bytes": 311684,
+      "sha256": "0d019dfc4fdaef97045b085ed8f9186f286c0dfb77b250c7c41ee98d55d1a78b"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-grip-wrench-1.webm",
+      "size_bytes": 96168,
+      "sha256": "ea2e3941086eb447a7ca2f18f131a219ac99978fe8d3a2743e73494b09a0f85f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-grip-wrench-2.webm",
+      "size_bytes": 106644,
+      "sha256": "e6965b498f166f5a4b7e09fe8118bfc0d6c5c3253ddb5365605feb791fa13da1"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-grip-wrench-3.webm",
+      "size_bytes": 93504,
+      "sha256": "796aa2caa5f3aa3adffbb5c4f5c9c02a5c61c80aa22ce95d9ff11616670422b4"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-grip-wrench-4.webm",
+      "size_bytes": 96415,
+      "sha256": "aeb2dab793e19bd44e80b0aaa4236853cb79ca46a06ab9193e7baa6f744e5a44"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-grip-wrench-5.webm",
+      "size_bytes": 99496,
+      "sha256": "b012ced0d91651c8fa3f49b00d0419ee239cd754514050ec561ba8903b8b156b"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-mouth-1.webm",
+      "size_bytes": 112994,
+      "sha256": "4904063a806f037cc3f0966509b966c40b4bd3ba768ce1e00e0bcc13d7ffcf75"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-mouth-2.webm",
+      "size_bytes": 88890,
+      "sha256": "04300d18622051a0d107962da094faed9a32cd80037039e58201f7d25a061d3f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-mouth-3.webm",
+      "size_bytes": 105795,
+      "sha256": "637205969ffdcc2456a86ef7cb7a8f5062a772771fbc14d58c70cd631b0f319c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-mouth-4.webm",
+      "size_bytes": 104006,
+      "sha256": "841d963c9b67a7cd816753c51fd41a741a048c226515b582783e574b956d5ce3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-all-pegs-mouth-5.webm",
+      "size_bytes": 108181,
+      "sha256": "cc1b502ed4dcc2f8805067217e337190e1f148703ce7660d0ba890cef573c540"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-face-grip-wrench-1.webm",
+      "size_bytes": 89097,
+      "sha256": "2d3f682a7f8a3c23e9f29d96a689faeaa7608b355f1e5929e00a796112ca16b0"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-face-grip-wrench-2.webm",
+      "size_bytes": 97678,
+      "sha256": "efd0ede03c6fff469a51328cea82afc1150671d3a9a9c19513220c1dc9ddd7d8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-face-grip-wrench-3.webm",
+      "size_bytes": 87361,
+      "sha256": "02978556552e4ff4f67bd4bb05dfd4b656ba4e4df3c2972b478d5eed03700091"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-face-grip-wrench-4.webm",
+      "size_bytes": 88431,
+      "sha256": "6ffd563a405682b0c35544f985ef7f754bddba89d8b926c620fc3748f8ef0639"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-face-grip-wrench-5.webm",
+      "size_bytes": 93097,
+      "sha256": "3ff02bbd0c0d459583f099cdd18d323c3bfae5d9b5c1fd9ac9eaee3ba732dcb1"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-four-corners-grip-wrench-1.webm",
+      "size_bytes": 159353,
+      "sha256": "3da4a29b997ad06f0909a4c01824e3458f1a2582cea2fc7401599c499af7095a"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-four-corners-grip-wrench-2.webm",
+      "size_bytes": 231075,
+      "sha256": "43d1fdb0a358ea210eba5312f64e43b2f54c526c06c537f7781b96060c1c0008"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-four-corners-grip-wrench-3.webm",
+      "size_bytes": 218214,
+      "sha256": "b98b064256df316bd1515e824d933e69e4f1ffa389e4904c858806e7d8c5c095"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-four-corners-grip-wrench-4.webm",
+      "size_bytes": 188188,
+      "sha256": "3248c9be794b4b3ec98091b773cf4daa6142278a0ffd974bed22b3eb34bbe5c1"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-four-corners-grip-wrench-5.webm",
+      "size_bytes": 136427,
+      "sha256": "ef1cfe5dc06eed74b36e89d235fda1fdf7ba268b586df9f89c513bbabd92a470"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-hooks-only-grip-wrench-1.webm",
+      "size_bytes": 195414,
+      "sha256": "8526929f013ff56051dd79a590f5686dd00118fc7947f8ee970cdf72bf3ce6b4"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-hooks-only-grip-wrench-2.webm",
+      "size_bytes": 201501,
+      "sha256": "429e2de899c735210a0f0c2958b1851996474bcd740b2eebcfc3273d8a5a1030"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-hooks-only-grip-wrench-3.webm",
+      "size_bytes": 185368,
+      "sha256": "9ce93b308591a88608ade8d0d0531bce4aa3af64e2991468960f004850fe6bb4"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-hooks-only-grip-wrench-4.webm",
+      "size_bytes": 179356,
+      "sha256": "d8743b30d91c6dd04e50eac9214f61b0f0de76107efd6688642c8b3ea3597154"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/HX04-stress-hooks-only-grip-wrench-5.webm",
+      "size_bytes": 174707,
+      "sha256": "342f7d38bde204b7fb2d7c958a4b0fa81f8028e8a27ed8ae1972115be79121ce"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/flexure-cel-all-pegs-1.jpg",
+      "size_bytes": 47217,
+      "sha256": "ba83296df98ee81a7bda30bfd702a7dc80f511bbc100982e49ae8dd59afbeb0f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/flexure-cel-all-pegs-4.jpg",
+      "size_bytes": 46795,
+      "sha256": "9150e01cd4b72bba88e5a539953e23ba8832b8c6cc54eb7d98e93f2a9238c0c5"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/flexure-cel-face-1.jpg",
+      "size_bytes": 46792,
+      "sha256": "5f27fbc030874f6f6fd45cb06fe1d718a33ce190f0f27cda248143b7c6a603cd"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/flexure-cel-four-corners-1.jpg",
+      "size_bytes": 47841,
+      "sha256": "86df020a9634adcf1ba3341a4b2e60f6a86f52f7845b1afa89f6a27c6b13a209"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/flexure-cel-hooks-only-1.jpg",
+      "size_bytes": 50203,
+      "sha256": "cda5c9d3cfad53647c41c42d639bdb84a30ba35c881446ba1d2ef621adb97350"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/hoop-pinch.jpg",
+      "size_bytes": 41306,
+      "sha256": "43f8b73e932e1986e3ff36933c396f6b3a196d5a8f99d93061ed59f1545e7b97"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/install-full-host.jpg",
+      "size_bytes": 41767,
+      "sha256": "3b0b01f470e14807f5365e16d4c0dc1b1cfc99ede4870d8e7efb3cbb3c8bc36c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/install-translated-candidate.jpg",
+      "size_bytes": 41946,
+      "sha256": "0a25922591740d702da7a1e77c069f9c00a896d4d0c2afe000c8d88d38f3eb17"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-1.5.jpg",
+      "size_bytes": 57859,
+      "sha256": "d04784cce9bf4847a28353aa84d1252632ccb6a4c45d0cc0e2e0dc57bbc061d8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-10.jpg",
+      "size_bytes": 57529,
+      "sha256": "65138c0938d717ff3144480f398e7ebf8135574703b1516f0da870b495edb17c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-2.5.jpg",
+      "size_bytes": 58410,
+      "sha256": "4dea028d21e2902ed7dbd580426e739c8fbdfcf2054f7f906b02ee79b2c984fd"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-2.jpg",
+      "size_bytes": 58074,
+      "sha256": "fefd8b28dbce1f743eb30bac2220253a2c46d61e77a924980196fb2e54e822b7"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-3.jpg",
+      "size_bytes": 57954,
+      "sha256": "5b9970ef980d9aaeed365aa9508558cb52b86e5cd4b7f8cec1a86698f56d9ba1"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-4.jpg",
+      "size_bytes": 58100,
+      "sha256": "7c6402c05d918c6f920df0630434abbd10b4386301c34cef6ac2aedaecbe4184"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-5.jpg",
+      "size_bytes": 57998,
+      "sha256": "0f8f825571d4596b13f5bad97704ca40560f12010158614f24668c469e34925f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-6.jpg",
+      "size_bytes": 57698,
+      "sha256": "f6ae6d68abe2eeb1c4f98fa4415f2c637c38012827e92acc7634b48504c2dcc2"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-hex-8.jpg",
+      "size_bytes": 57462,
+      "sha256": "b32a35372ba4bf277e487fcfe20e56ab793478ac7b4976bdb9e6b37d450ce6f2"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-10.jpg",
+      "size_bytes": 59213,
+      "sha256": "33d4f1e686d97dc6f0bcf04522bc6da994d4caae769c2fd27e37a830c44606bd"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-2.5.jpg",
+      "size_bytes": 59709,
+      "sha256": "905fc6f343462b2f1672a2e23f2c2c4ae4902a392afff8ac6df43aa1a20b86ce"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-2.jpg",
+      "size_bytes": 59386,
+      "sha256": "a16bf24e7ce37d6ff08c6d90d9ce1a3a9a9969382e400120ae40cfacb2c12fd8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-3.jpg",
+      "size_bytes": 57200,
+      "sha256": "80611125a21a815b702a865cd57902b475b2ee483ee44cc2515514cd8146c7ce"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-4.jpg",
+      "size_bytes": 57056,
+      "sha256": "e74e2747da06c4e360e8d34efce7affec91d26d649f4a47276c99bc6f1c6d8d8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-5.jpg",
+      "size_bytes": 57506,
+      "sha256": "5219534969735c5955d1041bb4cb348e07b8d05d4f35e12684cb674a7ea8fce5"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-6.jpg",
+      "size_bytes": 57205,
+      "sha256": "44c5ef7108fe994046f3e9bd34ca0e2daaec886b4ba04a4f666ee8a9593507bb"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-tee-8.jpg",
+      "size_bytes": 58378,
+      "sha256": "57818982b1c566f0aeac83c2ca28dc02c15a024ee6bbbc96d0a0e9ad06981919"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T10.jpg",
+      "size_bytes": 57927,
+      "sha256": "d3f603b39b93ef06fa594dc7ff80f8c0eb1feff9eb27d46fd8ab2bd024b3d223"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T15.jpg",
+      "size_bytes": 58228,
+      "sha256": "ec3f9cf5a4b28af3915d056f35ce8037edd52e45a5d011c0ab7a95efef10eefe"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T20.jpg",
+      "size_bytes": 58429,
+      "sha256": "88d883432559a1f2dab422d471f642b4d05b604d7bb1a2162d2bfd55428fe8af"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T25.jpg",
+      "size_bytes": 58474,
+      "sha256": "ba5ee762e2fbb30abf82acd6eb6fecd3e8e613a1512b760d675bcf204c775bed"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T27.jpg",
+      "size_bytes": 58755,
+      "sha256": "b12076b18ff9b2838e1fd6e47ae500b3ec4fb077f808e67886fc926f779e4a5c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T30.jpg",
+      "size_bytes": 58882,
+      "sha256": "f379577ed98f31c2ee14f675e170d29b3223efc53d9935728a87a5f3383106dc"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T40.jpg",
+      "size_bytes": 58926,
+      "sha256": "7619db3048d0320a863198dab965717b16c29b8dd9a574a68c4c9cd458394b02"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T45.jpg",
+      "size_bytes": 58949,
+      "sha256": "37c47f3177e00f871d96470b1578c5575a6e7b0bdb3f11dc363b7014dbbaaf7c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/motion-torx-T50.jpg",
+      "size_bytes": 58665,
+      "sha256": "aa3ce498c3d832c09a33f2ed3dac0b1f8946c0bbe7d4e84ab5280e9f1bf72b8f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/sequence-full-rack.jpg",
+      "size_bytes": 58285,
+      "sha256": "212f223e7aac2406519a773cf3d60b86b6344b2270f7590fd4316cc7a6a83de9"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-grip-wrench-1.jpg",
+      "size_bytes": 45569,
+      "sha256": "fdb9e2aab950a149ad6d3d9db35252638bd09a5447b762bfd05f9829393fd564"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-grip-wrench-2.jpg",
+      "size_bytes": 46168,
+      "sha256": "b9d655bf8f4f5466c3daeb60f87a7693bf2ae4f1a5f49b8dfaee91c926d1a8d2"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-grip-wrench-3.jpg",
+      "size_bytes": 44901,
+      "sha256": "c1398618e1717810d178e1603fce4cd14d9a93c5f5985e6c33e106575266f827"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-grip-wrench-4.jpg",
+      "size_bytes": 45136,
+      "sha256": "717d45353ff5edbed0d030a7d38f011c625d7030c56fcc2b52700d1de41c0007"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-grip-wrench-5.jpg",
+      "size_bytes": 43914,
+      "sha256": "910a45bdc5013d71f0627813077402c8744d36dd720a6ac318c5055c590d40d8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-mouth-1.jpg",
+      "size_bytes": 46344,
+      "sha256": "e5b5f48038db4571af40d36a0d138c93658b2ab5027fdf9881e52565b3ff8b34"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-mouth-2.jpg",
+      "size_bytes": 44885,
+      "sha256": "e462ce830d3d2754042491703fcb80bdcbd8cfc60ed695c65fd022d548d369a0"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-mouth-3.jpg",
+      "size_bytes": 46228,
+      "sha256": "bd035c3c558baef8d0db4f3598e2c59a5589b5b2218fa14f32175d93cf0cf8f8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-mouth-4.jpg",
+      "size_bytes": 45825,
+      "sha256": "ac55d9c0cf2dccc535309e35602e5f7e8d5ff97745ffd14c147a57d7fa14e4e3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-all-pegs-mouth-5.jpg",
+      "size_bytes": 44160,
+      "sha256": "77574a7c58b183665479dc082b675bd9407599648c6347adc7665a51387dd9e4"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-face-grip-wrench-1.jpg",
+      "size_bytes": 44467,
+      "sha256": "4b19e7b179cb57fa123d78a84afb52790f06705fe6d7cbc4b9da234e85c857fa"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-face-grip-wrench-2.jpg",
+      "size_bytes": 45028,
+      "sha256": "bcb9f9ccbaebd1a3a4b7e3f928a444e578d6c9ff0932b82aad54074128eab425"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-face-grip-wrench-3.jpg",
+      "size_bytes": 43675,
+      "sha256": "150b9efa79c35e4127fc89abf3c94d484643713348de9eb9475249bb160d4a0e"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-face-grip-wrench-4.jpg",
+      "size_bytes": 43885,
+      "sha256": "de7e64bbf08f49a2304acc794af6b18b01005131bd45e821708b1fc813d9a52c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-face-grip-wrench-5.jpg",
+      "size_bytes": 43315,
+      "sha256": "7830e6e5cd78b5b3abb2702d3f67ee8c89cc773cff8806de82462bc3e21f661c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-four-corners-grip-wrench-1.jpg",
+      "size_bytes": 49246,
+      "sha256": "2cdcd1d544c4180dbf85de57c299ecac7157c92169e1929999c3fc2cd471dbbc"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-four-corners-grip-wrench-2.jpg",
+      "size_bytes": 56353,
+      "sha256": "f6f71c7e19507d03bf223feebb71f86ed5ce361de9b0e53d49542d9c366ecacb"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-four-corners-grip-wrench-3.jpg",
+      "size_bytes": 55255,
+      "sha256": "3672caec1591091d6ee296ac9b87ab9911494507ab350480f66541b4205acd34"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-four-corners-grip-wrench-4.jpg",
+      "size_bytes": 51245,
+      "sha256": "ecbd37fcaf14ad2d4188c4ff99e41743d7910bbcd1fa05457ab88794a315ddf3"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-four-corners-grip-wrench-5.jpg",
+      "size_bytes": 45978,
+      "sha256": "b7c3aae8b4aa1cfd11b73b4be11bdc4175092534afd45f122b985d14fe9c37ee"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-hooks-only-grip-wrench-1.jpg",
+      "size_bytes": 51963,
+      "sha256": "d80e174ca7c420347f642eba798271ebddede0fcae82bede77cb338dcfaedcd2"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-hooks-only-grip-wrench-2.jpg",
+      "size_bytes": 56215,
+      "sha256": "635dd867eaecedc1a038cfe2720d642e51aa1154a274953acc3de9fd3cf2abf0"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-hooks-only-grip-wrench-3.jpg",
+      "size_bytes": 50250,
+      "sha256": "83716adce1a592eb924b029f345ac1b89d01540c9fd75f70a3288123e30815f8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-hooks-only-grip-wrench-4.jpg",
+      "size_bytes": 49980,
+      "sha256": "60376b6cfc80ccf0b8d10a850af5c2da42afd39f2e042b089e122db8dd3f9288"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/media/stress-hooks-only-grip-wrench-5.jpg",
+      "size_bytes": 50195,
+      "sha256": "804095242450de9b0552799e3f9838799ddb159d0e0b771dd14cf1e756d33886"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/mesh-sensitivity.png",
+      "size_bytes": 111916,
+      "sha256": "1b14571db440a83257201db732f299ac60a043ca86a44946ca120f2a25369dff"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/mount-sensitivity.png",
+      "size_bytes": 42133,
+      "sha256": "5f36c0fdea161ee2d53e7ade249dbbe1c2250b34be015e18bbd65f71678abf49"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/mouth-versus-grip.png",
+      "size_bytes": 43957,
+      "sha256": "538fa24eab10cbdbc2e1790f6be2cbf462b8c7455e653d397fe817712cbb8a76"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/report.html",
+      "size_bytes": 24412,
+      "sha256": "cbe9ce0fa1ece014cd6212a21cac8a3680f67f8b2dc23df0cf29ff6311ff51b8"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/results.json",
+      "size_bytes": 250877,
+      "sha256": "b9487c9ac574f217b14c8e2f37c4a96a87e8e29de601bc3b8845c8a60b76bc8f"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/study.css",
+      "size_bytes": 3411,
+      "sha256": "35a08cfd962776e23599668d8dccb89a33ff3ef227cde0b645f32c62ef1cd1b1"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/study.js",
+      "size_bytes": 20182,
+      "sha256": "271682a04e611c881abfd07337f243d1dc723a2ac0a385ff56b50c1db83c91b0"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/vendor/OrbitControls.js",
+      "size_bytes": 38703,
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/vendor/THREE-LICENSE.txt",
+      "size_bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/vendor/three.core.js",
+      "size_bytes": 381124,
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+    },
+    {
+      "path": "docs/gallery/key-fan/studies/vendor/three.module.js",
+      "size_bytes": 338900,
+      "sha256": "16e8727a664785683044d8164615da974d906a825521e3e05011bfd4440203e2"
     },
     {
       "path": "docs/gallery/magnetic-bar/index.html",
@@ -10703,8 +11838,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 119398,
-      "sha256": "d2b59b0c10372429c5d916d4ff37b0acc8893e157335f92349566eb04d9e7cc7"
+      "size_bytes": 140634,
+      "sha256": "f0d27af2d33f5f67718e6caa23c15abcb439194ddfd8afe2e72968ea0c19d7c0"
     },
     {
       "path": "docs/gallery/research.html",
@@ -13583,8 +14718,8 @@
     },
     {
       "path": "publication/build_key_fan_v2.py",
-      "size_bytes": 12594,
-      "sha256": "0d618cabb8ce01e7e1e4ae3d9742d163f81ee1e058c1b84c5043c3336a0cc525"
+      "size_bytes": 12768,
+      "sha256": "2d65efb34d31b70d9708e2da5b00bea5551d79d869c2e8ab9e11fa8efd5d3e4b"
     },
     {
       "path": "publication/build_peg_downloads.py",
@@ -13614,7 +14749,7 @@
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 96416,
-      "sha256": "e64a1720070005b4b7c419fae084eadd853b36ab180b9a0a9e60ed1e5e3594e6"
+      "sha256": "a673dea670fdbc43a877b305cc5a6a53b961f1c9d45ad232fe4cccd8f071f624"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -13627,6 +14762,11 @@
       "sha256": "d713de35d8a490ad5a969c9a9b8159b8b59c6107c81b313abfb4e0738c6dfcf2"
     },
     {
+      "path": "publication/key-fan-engineering-v1-additions.json",
+      "size_bytes": 33985,
+      "sha256": "d799a24a449f8a7d865b896d1633d2fc63a0abea6fd7136939e6bcecd4b6c94d"
+    },
+    {
       "path": "publication/key-fan-v1-additions.json",
       "size_bytes": 1099,
       "sha256": "b0c674d862218808dc6698e9c6cc0f34070bf3e30e05b00dee8f2f907f591d78"
@@ -13634,7 +14774,7 @@
     {
       "path": "publication/key-fan-v2-additions.json",
       "size_bytes": 1101,
-      "sha256": "04dfb90d99f76f460e2999d5bd78d6e823b4e1c6c6a94661fd0567a42da81917"
+      "sha256": "5b62abdc3bb714113f1705da8a4bcc3475d5f9f519fc731d69eb823349d8d77d"
     },
     {
       "path": "publication/mh01-mh04-shaft-holders-v1-additions.json",
@@ -13722,14 +14862,19 @@
       "sha256": "8417f912c1205f2fc102b6ccd77f72b7c77cdcce228321ced6582d8187ed5d83"
     },
     {
+      "path": "publication/publish_key_fan_audit.py",
+      "size_bytes": 8823,
+      "sha256": "93761dc63f0c16c9a4b86b7821db14bd4611a15f83e1dfd6fec2a3d3f9664834"
+    },
+    {
       "path": "publication/release-assets.json",
-      "size_bytes": 81375,
-      "sha256": "40f89c33d23f8e5a3e35b3db657713497f38a3c48b06a9398bc95b4d621e0345"
+      "size_bytes": 99423,
+      "sha256": "f479ddecf504f497489d50a2496b0ba939cc5bf0eb955e843793a2215db66921"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 120733,
-      "sha256": "e52315fb1a34ff78a03fc30df69dd853aad324b5b5e6b3a701c7710ee9e4cd3b"
+      "size_bytes": 142465,
+      "sha256": "f744ffaf15eb7c5e4faf5e9cc0ac5245bf1925ba82da131927ce2506e98c8fcf"
     },
     {
       "path": "publication/render_fit_coupon_glb.py",
@@ -14013,13 +15158,18 @@
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 5534,
-      "sha256": "32ad58bcd9b390642f7fe3fa6e7226569e24ac080497b95d21066ac5122a1cc1"
+      "size_bytes": 5661,
+      "sha256": "9bb7355e6f8ef16bd6077183f174c9156134f568d009834510014923875b61cc"
     },
     {
       "path": "tools/check_key_fan.py",
       "size_bytes": 2867,
       "sha256": "62bbfa8b8ab4e010c6a35c8c0d10d5e4c51461fbab12cdf788f64fa99176b2cb"
+    },
+    {
+      "path": "tools/check_key_fan_audit.py",
+      "size_bytes": 2927,
+      "sha256": "7493fba6952fe3b3bfe5f8ade81ee29523a850384a6d3515441ceb577e9aef45"
     },
     {
       "path": "tools/check_key_fan_v2.py",
@@ -14053,8 +15203,8 @@
     },
     {
       "path": "tools/check_tee_fit_v6.py",
-      "size_bytes": 3055,
-      "sha256": "6a42834e207643a336da4b9810a17ea28882e61a348e382b8be1351f0ae7850e"
+      "size_bytes": 3129,
+      "sha256": "93e09711bd67a6cb79578fc5c7e342091df8d61b5447cc1b6945d8b51da80995"
     },
     {
       "path": "tools/slice_round_toolpaths.py",
