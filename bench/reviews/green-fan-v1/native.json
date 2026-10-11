@@ -1,11 +1,11 @@
 {
   "racks": [
     {
-      "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+      "layout_sha256": "f8a75579469e3c2cccb7210c3bff78937a1cada7c005781c91e2c0dc07f6edfd",
       "id": "HX05C",
       "valid": true,
       "solids": 1,
-      "volume": 1838836.3865681826,
+      "volume": 1972314.483356302,
       "stored_overlap_mm3": 0.0,
       "mount": {
         "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
@@ -338,9 +338,9 @@
           "bar": 127,
           "part": 13114,
           "axis": [
-            0.917319699828872,
-            0.36082474226804123,
-            0.1683153993937271
+            0.9150134171622237,
+            0.3599175734271825,
+            0.18223552549214747
           ],
           "tip": [
             -91.09892468124785,
@@ -348,24 +348,24 @@
             -230.97522618327196
           ],
           "mouth": [
-            16.502676108678813,
-            62.32474226804123,
-            -211.23182983438778
+            16.232149151880975,
+            62.2183313630085,
+            -209.59899904304305
           ],
           "top": [
-            175.84110796895385,
-            125.0,
-            -181.99544495969735
+            175.16997971295922,
+            124.7360138673101,
+            -177.94468826505704
           ],
           "bar_axis": [
-            0.02908042530556723,
-            0.36089454039302044,
-            -0.9321531309707424
+            0.04133032100756292,
+            0.36571299731737034,
+            -0.9298095547791262
           ],
           "guide": 114.29999999999998,
           "burial": 117.29999999999998,
           "outer_radius": 10.450705223892122,
-          "elevation": 9.68988724344779,
+          "elevation": 10.5,
           "downward_packing_mm": 109.88042115963061,
           "bar_twist_toward_board_deg": 29.999999999999996,
           "additional_fan_rotation_deg": 15.0
@@ -584,37 +584,37 @@
         {
           "a": "3/8",
           "b": "9/64",
-          "gap_mm": 125.36582874775412,
+          "gap_mm": 124.33815975693949,
           "overlap_mm3": 0.0
         },
         {
           "a": "3/8",
           "b": "5/32",
-          "gap_mm": 86.31355363503062,
+          "gap_mm": 85.50084045933373,
           "overlap_mm3": 0.0
         },
         {
           "a": "3/8",
           "b": "3/16",
-          "gap_mm": 60.31428569000288,
+          "gap_mm": 59.67925525456064,
           "overlap_mm3": 0.0
         },
         {
           "a": "3/8",
           "b": "7/32",
-          "gap_mm": 39.139561037482274,
+          "gap_mm": 38.6712187879046,
           "overlap_mm3": 0.0
         },
         {
           "a": "3/8",
           "b": "1/4",
-          "gap_mm": 21.107379617851265,
+          "gap_mm": 20.799749619032234,
           "overlap_mm3": 0.0
         },
         {
           "a": "3/8",
           "b": "5/16",
-          "gap_mm": 4.491091813960502,
+          "gap_mm": 4.352677736494884,
           "overlap_mm3": 0.0
         },
         {
@@ -656,7 +656,7 @@
         {
           "a": "3/32",
           "b": "3/8",
-          "gap_mm": 155.92804852671478,
+          "gap_mm": 154.27790113515155,
           "overlap_mm3": 0.0
         },
         {
@@ -698,7 +698,7 @@
         {
           "a": "7/64",
           "b": "3/8",
-          "gap_mm": 118.06622628183834,
+          "gap_mm": 116.4857368689457,
           "overlap_mm3": 0.0
         },
         {
@@ -746,7 +746,7 @@
         {
           "a": "1/8",
           "b": "3/8",
-          "gap_mm": 58.33078802144355,
+          "gap_mm": 56.61636229026511,
           "overlap_mm3": 0.0
         },
         {
@@ -771,20 +771,26 @@
         ],
         "bed_plane_x_mm": -108,
         "bed_plane_corner_radius_mm": 8.0,
-        "uncut_stock_volume_mm3": 1364830.7819473722,
+        "uncut_stock_volume_mm3": 1364582.2790074276,
         "stock_front_y_mm": 86.90694501311563,
         "all_entrance_normals_positive_x": true,
         "vent_direction": "toward front, perpendicular to each shaft; extended through added stock",
+        "fin_gussets": {
+          "count": 10,
+          "bedward_root_extension_mm": 16.0,
+          "root_spread_each_side_mm": 12.0,
+          "plane": "print XY / installed YZ"
+        },
         "root_blends": {
           "requested_radius_mm": 6.0,
-          "candidate_edges": 13,
-          "applied_edges": 1
+          "candidate_edges": 24,
+          "applied_edges": 0
         }
       },
-      "body_recipe": "filled-tip-foot-v2"
+      "body_recipe": "gravity-fin-gussets-v3b"
     },
     {
-      "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+      "layout_sha256": "f8a75579469e3c2cccb7210c3bff78937a1cada7c005781c91e2c0dc07f6edfd",
       "id": "HX05B",
       "valid": true,
       "solids": 1,
@@ -1346,7 +1352,7 @@
       ]
     },
     {
-      "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+      "layout_sha256": "f8a75579469e3c2cccb7210c3bff78937a1cada7c005781c91e2c0dc07f6edfd",
       "id": "HX05A",
       "valid": true,
       "solids": 1,

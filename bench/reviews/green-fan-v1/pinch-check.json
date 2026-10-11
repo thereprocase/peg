@@ -60,7 +60,7 @@
       "grasp_end": "frontmost",
       "body_overlap_mm3": 0.0,
       "other_tool_overlap_mm3": 0.0,
-      "maximum_distance_from_grasp_segment_mm": 19.352331346596337
+      "maximum_distance_from_grasp_segment_mm": 19.352331346596326
     },
     {
       "tool": "3/32",

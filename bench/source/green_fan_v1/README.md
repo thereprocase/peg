@@ -1,4 +1,8 @@
-# Green inch fan: longer sleeves and flatter handles
+# Green inch fan: gravity seating and broader fin roots
+
+Current: v3 enforces 10° minimum installed shaft elevation and broadens
+the fin roots in the print plane. See the v3 section below. Orca estimates
+and support findings in this document belong to the preceding filled body.
 
 The owner selected the green 13190 inch fan from the three-rack stack.
 `reference-layout.json` freezes that published arrangement (a0e1056). Only the
@@ -38,7 +42,7 @@ FreeCAD-Python print_pose.py BUILD/tight-native APPROVED_UNFILLED_BODY.brep
 FreeCAD-Python ../stacked_fans_v1/verify_native.py BUILD/tight-native
 FreeCAD-Python pinch.py BUILD/tight-native
 FreeCAD-Python empty.py BUILD/tight-native
-HX_FAN_BUILD_DIR=BUILD/tight-native HX_FAN_OUTPUT_DIR=BUILD/renders node ../stacked_fans_v1/render.cjs HX05C HX05C-empty HX05C-print stack
+HX_FAN_BUILD_DIR=BUILD/tight-native HX_FAN_OUTPUT_DIR=BUILD/renders node render.cjs HX05C HX05C-empty HX05C-print stack
 python3 publish.py BUILD
 ```
 
@@ -83,3 +87,35 @@ socket needs a support blocker and a new slice review. Aggregate extrusion
 bounds can include machine sequences retaining the last feature tag and
 are not a printable-area certificate. The geometry/renders are the delivered
 review, not a released machine job.
+
+## Gravity and broader fin roots (v3)
+
+Every installed shaft must rise at least 10 degrees from the seated tip
+toward the handle. The previous 3/8 key at 9.69 degrees is rotated to
+10.5 degrees with its hex/bar frame. Other axes already exceed the floor.
+The existing out-of-board splay is preserved: 11.5–21.1 degrees on green.
+`print_pose.py` independently checks the actual tip-to-handle vectors for
+all 26 keys, including their orthogonality to the T-bars.
+
+Every green fin receives a convex tapered gusset with a root broadened
+12 mm on each side in print XY (installed YZ) and extended 16 mm toward
+the bed. Gussets stay within the receiver extents and below their own
+entrance planes. Full lead-in prisms cut through any neighboring added
+material. The native access/vent/entry checks are regenerated. The 8 mm base rounds
+remain. The bounded 6 mm root-fillet attempts did not succeed on the wider
+intersections, so these roots are tapered gussets without a claimed 6 mm
+root fillet.
+
+The current body recipe is `gravity-fin-gussets-v3b`. The Orca receipts
+above are now named `previous-filled-*` and belong only to a3e68b3. This
+revision is a native CAD/render review; a fresh slice with socket support
+blockers is required before printing. No old estimate or toolpath check
+is presented as evidence for this modified body.
+
+Stock and gusset construction faces stop 0.05 / 0.10 mm below their
+entrance planes to avoid coincident caps; functional bore and lead-in
+dimensions are unchanged.
+
+The scoped renderer softens the cel-band thresholds over 0.004 lighting
+units to prevent speckle where a planar normal lies on a hard band boundary.
+This changes preview shading only.

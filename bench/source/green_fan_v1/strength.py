@@ -14,7 +14,10 @@ def make_stock(ts,half,bottom,ring,hull,v):
     for t in ts:
         u,b,m=map(np.array,(t['axis'],t['bar_axis'],t['mouth']));side=np.cross(u,b)
         assert u[0]>0
-        pts=[v(m+1000*(sx*b+sy*side)) for sx,sy in ((-1,-1),(1,-1),(1,1),(-1,1))]
+        # Keep the stock face 0.05 mm below the sleeve cap to avoid
+        # coincident Boolean/tessellation surfaces at the lowest entrance.
+        cap=m-u*.05
+        pts=[v(cap+1000*(sx*b+sy*side)) for sx,sy in ((-1,-1),(1,-1),(1,1),(-1,1))]
         cut=Part.Face(Part.makePolygon(pts+[pts[0]])).extrude(v(u*2000))
         stock=stock.cut(cut).removeSplitter()
     assert stock.isValid() and len(stock.Solids)==1
@@ -40,3 +43,20 @@ def blend_roots(body,half):
         except Part.OCCError:pass
     print('Root blends',log,flush=True)
     return body,log
+
+
+def fin_gusset(t,half,bottom,ring,hull,v):
+    """Broaden each fin in the bed plane and extend its root toward the bed."""
+    p,u,b,m=map(np.array,(t['tip'],t['axis'],t['bar_axis'],t['mouth']))
+    ends=np.vstack([ring(p-u*3,u,t['outer_radius']),ring(m,u,t['outer_radius'])])
+    root=ends.copy();root[:,1]=5.;root[:,0]-=16.
+    left=root.copy();right=root.copy();left[:,2]-=12.;right[:,2]+=12.
+    gusset=hull(np.vstack([ends,left,right]))
+    side=np.cross(u,b)
+    cap=m-u*.10
+    pts=[v(cap+1000*(sx*b+sy*side)) for sx,sy in ((-1,-1),(1,-1),(1,1),(-1,1))]
+    beyond=Part.Face(Part.makePolygon(pts+[pts[0]])).extrude(v(u*2000))
+    envelope=Part.makeBox(2*half,1000.,-bottom,A.Vector(-half,5.,bottom))
+    gusset=gusset.common(envelope).cut(beyond).removeSplitter()
+    assert gusset.isValid() and len(gusset.Solids)==1
+    return gusset

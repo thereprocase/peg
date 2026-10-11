@@ -8,7 +8,7 @@ HERE=Path(__file__).resolve().parent;ROOT=HERE.parents[2]
 sys.path.insert(0,str(HERE.parent/'final_racks_v1'))
 os.environ['HX4S_LAYOUT']='hx04_final.json'
 import build_short as H
-from strength import make_stock, blend_roots
+from strength import make_stock, blend_roots, fin_gusset
 V=A.Vector
 OUT=Path(sys.argv[1]);OUT.mkdir(parents=True,exist_ok=True)
 
@@ -41,12 +41,14 @@ def build(rack):
     if ident=='HX05C':
         stock,strength=make_stock(ts,half,bottom_z,H.ring,H.hull_solid,v)
         bodies.append(stock)
+        strength['fin_gussets']=dict(count=len(ts),bedward_root_extension_mm=16.,root_spread_each_side_mm=12.,plane='print XY / installed YZ')
     for t in ts:
         p,u,b,m=map(np.array,(t['tip'],t['axis'],t['bar_axis'],t['mouth']));R=t['outer_radius'];D=t['burial']
         # Circular wall + a direct full-length web to the rear plate.
         ends=np.vstack([ring(p-u*3,u,R),ring(m,u,R)])
         rear=ends.copy();rear[:,1]=5.0
         support=H.hull_solid(np.vstack([ends,rear]));bodies.append(support)
+        if ident=='HX05C':bodies.append(fin_gusset(t,half,bottom_z,ring,H.hull_solid,v))
         if 'p2p' in t:
             radius=(t['p2p']+.38)/2
             bore=Part.makeCylinder(radius,t['overall']+D,v(p),v(u))
@@ -75,6 +77,12 @@ def build(rack):
         # Trim any blend extension flush with the tip-end bed datum.
         body=body.common(Part.makeBox(2000,2000,2000,V(-half,-1000,-1000))).removeSplitter()
     print(ident,'support union',body.isValid(),flush=True)
+    if ident=='HX05C':
+        # Expanded gussets must leave each full lead-in opening accessible.
+        for t in ts:
+            m,u,b=map(np.array,(t['mouth'],t['axis'],t['bar_axis']))
+            entry=Part.Face(hexwire(m,u,b,t['af']+3.38)).extrude(v(u*500.))
+            body=body.cut(entry).removeSplitter()
     for i in range(0,len(cutters),4):
         raw=body.cut(fuse(cutters[i:i+4]))
         if not raw.isValid():
@@ -98,7 +106,7 @@ def build(rack):
     mesh.write(str(dst/'installed.stl'))
     record=dict(layout_sha256=hashlib.sha256((OUT.parent/'layout.json').read_bytes()).hexdigest(),id=ident,valid=body.isValid(),solids=len(body.Solids),volume=body.Volume,stored_overlap_mm3=stored,mount=info,peg_top_z=top_z,bounds=[body.BoundBox.XMin,body.BoundBox.XMax,body.BoundBox.YMin,body.BoundBox.YMax,body.BoundBox.ZMin,body.BoundBox.ZMax],tools=ts,cavity_gaps=cavity_gaps)
     record['strength_stock']=strength
-    record['body_recipe']='filled-tip-foot-v2' if ident=='HX05C' else 'stacked-fans-v1'
+    record['body_recipe']='gravity-fin-gussets-v3b' if ident=='HX05C' else 'stacked-fans-v1'
     (dst/'native.json').write_text(json.dumps(record,indent=2)+'\n')
     return body,shafts,grips,record
 
@@ -126,7 +134,7 @@ if __name__=='__main__':
             # A stack-spacing change does not alter any local solid. Reuse
             # only when every saved tool/construction parameter still matches;
             # regenerate the assembly below at the new rack translations.
-            if rack['id']=='HX05C':assert record.get('body_recipe')=='filled-tip-foot-v2', 'Stale massing recipe'
+            if rack['id']=='HX05C':assert record.get('body_recipe')=='gravity-fin-gussets-v3b', 'Stale massing recipe'
             assert record['id']==rack['id'] and record['tools']==rack['tools'], 'Stale native geometry'
             record['layout_sha256']=hashlib.sha256((OUT.parent/'layout.json').read_bytes()).hexdigest()
             (dst/'native.json').write_text(json.dumps(record,indent=2)+'\n')

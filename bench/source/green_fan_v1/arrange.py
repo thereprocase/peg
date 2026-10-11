@@ -23,6 +23,11 @@ def arrange():
   a=math.radians(fan_turn);c,s=math.cos(a),math.sin(a)
   rotate=np.array([[c,0,s],[0,1,0],[-s,0,c]])
   u=rotate@u;b=rotate@b
+  # Installed +Z is up; gravity must seat every key toward its blind floor.
+  if u[2]<math.sin(math.radians(10.5)):
+   target=u.copy();target[:2]*=math.cos(math.radians(10.5))/np.linalg.norm(u[:2]);target[2]=math.sin(math.radians(10.5))
+   axis=np.cross(u,target);axis/=np.linalg.norm(axis);angle_up=math.acos(np.clip(np.dot(u,target),-1,1))
+   b=b*math.cos(angle_up)+np.cross(axis,b)*math.sin(angle_up)+axis*np.dot(axis,b)*(1-math.cos(angle_up));u=target
   t.update(axis=u.tolist(),bar_axis=b.tolist(),elevation=math.degrees(math.asin(u[2])),bar_twist_toward_board_deg=math.degrees(turn),additional_fan_rotation_deg=fan_turn)
   for key,length in [('top',t['overall']-9),('mouth',t['burial'])]:t[key]=(np.array(t['tip'])+u*length).tolist()
  # The symmetric 3/32 grip is accessed at its opposite end. Reversing the bar
@@ -42,7 +47,9 @@ def arrange():
  for t in ts:
   for key in ('tip','mouth','top'):t[key]=(np.array(t[key])+shift).tolist()
  rack['offset']=(np.array(rack['offset'])+shift).tolist();rack['revision']='green-long-sleeves-v1'
- data['revision']='green-long-sleeves-v1'
+ data['revision']='green-gravity-gussets-v3'
+ data['minimum_upward_elevation_degrees']=10.
+ assert all(t['axis'][2]>=math.sin(math.radians(10))-1e-12 for r in data['racks'] for t in r['tools'])
  return data
 
 if __name__=='__main__':

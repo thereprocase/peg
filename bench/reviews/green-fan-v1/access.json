@@ -45,15 +45,15 @@
     {
       "rack": "HX05C",
       "tool": "5/16",
-      "stored_bound": 3.912931343970029,
+      "stored_bound": 3.770322869091399,
       "withdrawal_bound": 1.742289208652135,
-      "hand_bound": 4.437560766658862
+      "hand_bound": 3.1111772020605954
     },
     {
       "rack": "HX05C",
       "tool": "3/8",
-      "stored_bound": 3.912931343970028,
-      "withdrawal_bound": 16.732724823443647,
+      "stored_bound": 3.7703228690914,
+      "withdrawal_bound": 14.887982759463483,
       "hand_bound": 20.0
     },
     {

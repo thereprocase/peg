@@ -246,60 +246,60 @@
       "sha256": "06ce5861f3e95923989b62c8b4cbdf845054cb45c05e6349a3e659ce3a56e510"
     },
     "HX05C/body.brep": {
-      "bytes": 2799234,
-      "sha256": "69b1f96cd5fbcb17cc80f37080b9dfefe174e47675902e2dabdfe8222648eb34"
+      "bytes": 3406145,
+      "sha256": "a58a39a7d8d45e5503a49639517917cd4139eb987748a77783924a4e0af185da"
     },
     "HX05C/grips.brep": {
-      "bytes": 130300,
-      "sha256": "b65ef951485fab537304ef212cbc3f7bddbf12702fec74249d5d85f3e42e0e60"
+      "bytes": 130399,
+      "sha256": "db8beca3b8f31498bdba13db02572e5b6c84df4c77b0a3d3ca78becf94f2b433"
     },
     "HX05C/holder.FCStd": {
-      "bytes": 534611,
-      "sha256": "7a317570aebbc38703ddc7f265be28d60de87f32504c03d96cd5c1139994e2e3"
+      "bytes": 766604,
+      "sha256": "743bb75fe2d9408e4e223245169dac579727730aa3fab713ebc5c08032592c34"
     },
     "HX05C/installed.step": {
-      "bytes": 2656834,
-      "sha256": "2091be3118198fb0ea6277d960f05bd7958cfdb671ad1a4409f94162abf6388c"
+      "bytes": 3152605,
+      "sha256": "699d7e16a7b2d1b49b0eda33a486bb1483930f8b934e578b4ddab87ed9f0e5d9"
     },
     "HX05C/installed.stl": {
-      "bytes": 2529734,
-      "sha256": "8bf23207de552e074ae61ac20e9f08d2229fe6fbeeccd8d75c7e0a96aab0942c"
+      "bytes": 2581334,
+      "sha256": "2d0fd132d837d680b766f783bd5db5f20e52476f72f960af04c37fe44d8d812a"
     },
     "HX05C/left-tip-print.brep": {
-      "bytes": 2987062,
-      "sha256": "d5121a56406c6cedb60d344376fa160e3eb50fc277c565703e93d1e85ad3e6c2"
+      "bytes": 3586273,
+      "sha256": "36606f8abe08f26cef3efed2fcc80760e63ccc046ca28f0269f8e779afa89516"
     },
     "HX05C/left-tip-print.step": {
-      "bytes": 2908775,
-      "sha256": "54fdc2eb755e1160915b4e48bc7132d4988327f4690ef122c8510fec70b9c0bd"
+      "bytes": 3414260,
+      "sha256": "3b7019d93f339e3e2f5813d13e6e331a80b47aba43301be1944e2230c58889aa"
     },
     "HX05C/left-tip-print.stl": {
-      "bytes": 2523134,
-      "sha256": "760108dfe66dc39d412625ac25934720937133e46dbcbafddc7f4d3de60195ff"
+      "bytes": 2574734,
+      "sha256": "b6d24989737bae20b1573f2c460f5b9af080b11abd4712589a3c7cce3ba11e75"
     },
     "HX05C/shafts.brep": {
-      "bytes": 52301,
-      "sha256": "787675e371cf6b90e4e6b9b567e34b681efa6e0d53b218ebd9e6860b47cb1890"
+      "bytes": 52314,
+      "sha256": "1fe9715e7bdab92a1fb79a00633301244877fed7b7178425b4675738f2155b68"
     },
     "HX05C-empty.glb.gz": {
-      "bytes": 116063,
-      "sha256": "138bc90b46484e83def46f410a57c39eddd2e3ee19f489a962961cfcce76a94d"
+      "bytes": 116499,
+      "sha256": "76b1773932a7729e52108dbd91e3e75d6be6443be58e1431582af07e63d90110"
     },
     "HX05C-print.glb.gz": {
-      "bytes": 121888,
-      "sha256": "8319000b6f129927b610f70d20b42935565e7a0a3dcc64d8ab84e5954c717a76"
+      "bytes": 123804,
+      "sha256": "15f61a3b120b196aa69b0dab832d6f96e59ab27fda6e4d8840b19d644a59f6d9"
     },
     "HX05C.glb.gz": {
-      "bytes": 192697,
-      "sha256": "aafff951ba93f83afbff762579290a3ef49af63a36788356e3c37e8235bb100b"
+      "bytes": 194041,
+      "sha256": "4125a23c683d302dcc5113146e128cf0b96cbef4aa3620f166fa42f58c7f83a7"
     },
     "empty-stack.glb.gz": {
-      "bytes": 352519,
-      "sha256": "fd9270a6ce1859f2557a2c620f5ed0f4b32b821b6bc82b41ae7dcfb0dcaf4be7"
+      "bytes": 354109,
+      "sha256": "d0d71f574884237f34a85291df4bc32bd88687ab60f30a1bd9e716c13fd8911e"
     },
     "stack.glb.gz": {
-      "bytes": 556084,
-      "sha256": "92de84325cc31c0cdea7f4fa49a9656fe1c898f074ee3188276aa20ba102bf4d"
+      "bytes": 556904,
+      "sha256": "2d6750524fbf5988f1e068644115c19f94acb7b943989b623301fb6ec8ecc8de"
     }
   },
   "construction_sources": {

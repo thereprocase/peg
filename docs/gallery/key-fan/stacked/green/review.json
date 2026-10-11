@@ -1,5 +1,5 @@
 {
-  "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+  "layout_sha256": "f8a75579469e3c2cccb7210c3bff78937a1cada7c005781c91e2c0dc07f6edfd",
   "holder_dimensions_mm": [
     216.0,
     97.69694501311562,
@@ -256,60 +256,60 @@
         "sha256": "06ce5861f3e95923989b62c8b4cbdf845054cb45c05e6349a3e659ce3a56e510"
       },
       "HX05C/body.brep": {
-        "bytes": 2799234,
-        "sha256": "69b1f96cd5fbcb17cc80f37080b9dfefe174e47675902e2dabdfe8222648eb34"
+        "bytes": 3406145,
+        "sha256": "a58a39a7d8d45e5503a49639517917cd4139eb987748a77783924a4e0af185da"
       },
       "HX05C/grips.brep": {
-        "bytes": 130300,
-        "sha256": "b65ef951485fab537304ef212cbc3f7bddbf12702fec74249d5d85f3e42e0e60"
+        "bytes": 130399,
+        "sha256": "db8beca3b8f31498bdba13db02572e5b6c84df4c77b0a3d3ca78becf94f2b433"
       },
       "HX05C/holder.FCStd": {
-        "bytes": 534611,
-        "sha256": "7a317570aebbc38703ddc7f265be28d60de87f32504c03d96cd5c1139994e2e3"
+        "bytes": 766604,
+        "sha256": "743bb75fe2d9408e4e223245169dac579727730aa3fab713ebc5c08032592c34"
       },
       "HX05C/installed.step": {
-        "bytes": 2656834,
-        "sha256": "2091be3118198fb0ea6277d960f05bd7958cfdb671ad1a4409f94162abf6388c"
+        "bytes": 3152605,
+        "sha256": "699d7e16a7b2d1b49b0eda33a486bb1483930f8b934e578b4ddab87ed9f0e5d9"
       },
       "HX05C/installed.stl": {
-        "bytes": 2529734,
-        "sha256": "8bf23207de552e074ae61ac20e9f08d2229fe6fbeeccd8d75c7e0a96aab0942c"
+        "bytes": 2581334,
+        "sha256": "2d0fd132d837d680b766f783bd5db5f20e52476f72f960af04c37fe44d8d812a"
       },
       "HX05C/left-tip-print.brep": {
-        "bytes": 2987062,
-        "sha256": "d5121a56406c6cedb60d344376fa160e3eb50fc277c565703e93d1e85ad3e6c2"
+        "bytes": 3586273,
+        "sha256": "36606f8abe08f26cef3efed2fcc80760e63ccc046ca28f0269f8e779afa89516"
       },
       "HX05C/left-tip-print.step": {
-        "bytes": 2908775,
-        "sha256": "54fdc2eb755e1160915b4e48bc7132d4988327f4690ef122c8510fec70b9c0bd"
+        "bytes": 3414260,
+        "sha256": "3b7019d93f339e3e2f5813d13e6e331a80b47aba43301be1944e2230c58889aa"
       },
       "HX05C/left-tip-print.stl": {
-        "bytes": 2523134,
-        "sha256": "760108dfe66dc39d412625ac25934720937133e46dbcbafddc7f4d3de60195ff"
+        "bytes": 2574734,
+        "sha256": "b6d24989737bae20b1573f2c460f5b9af080b11abd4712589a3c7cce3ba11e75"
       },
       "HX05C/shafts.brep": {
-        "bytes": 52301,
-        "sha256": "787675e371cf6b90e4e6b9b567e34b681efa6e0d53b218ebd9e6860b47cb1890"
+        "bytes": 52314,
+        "sha256": "1fe9715e7bdab92a1fb79a00633301244877fed7b7178425b4675738f2155b68"
       },
       "HX05C-empty.glb.gz": {
-        "bytes": 116063,
-        "sha256": "138bc90b46484e83def46f410a57c39eddd2e3ee19f489a962961cfcce76a94d"
+        "bytes": 116499,
+        "sha256": "76b1773932a7729e52108dbd91e3e75d6be6443be58e1431582af07e63d90110"
       },
       "HX05C-print.glb.gz": {
-        "bytes": 121888,
-        "sha256": "8319000b6f129927b610f70d20b42935565e7a0a3dcc64d8ab84e5954c717a76"
+        "bytes": 123804,
+        "sha256": "15f61a3b120b196aa69b0dab832d6f96e59ab27fda6e4d8840b19d644a59f6d9"
       },
       "HX05C.glb.gz": {
-        "bytes": 192697,
-        "sha256": "aafff951ba93f83afbff762579290a3ef49af63a36788356e3c37e8235bb100b"
+        "bytes": 194041,
+        "sha256": "4125a23c683d302dcc5113146e128cf0b96cbef4aa3620f166fa42f58c7f83a7"
       },
       "empty-stack.glb.gz": {
-        "bytes": 352519,
-        "sha256": "fd9270a6ce1859f2557a2c620f5ed0f4b32b821b6bc82b41ae7dcfb0dcaf4be7"
+        "bytes": 354109,
+        "sha256": "d0d71f574884237f34a85291df4bc32bd88687ab60f30a1bd9e716c13fd8911e"
       },
       "stack.glb.gz": {
-        "bytes": 556084,
-        "sha256": "92de84325cc31c0cdea7f4fa49a9656fe1c898f074ee3188276aa20ba102bf4d"
+        "bytes": 556904,
+        "sha256": "2d6750524fbf5988f1e068644115c19f94acb7b943989b623301fb6ec8ecc8de"
       }
     },
     "construction_sources": {
@@ -387,7 +387,7 @@
         "grasp_end": "frontmost",
         "body_overlap_mm3": 0.0,
         "other_tool_overlap_mm3": 0.0,
-        "maximum_distance_from_grasp_segment_mm": 19.352331346596337
+        "maximum_distance_from_grasp_segment_mm": 19.352331346596326
       },
       {
         "tool": "3/32",
@@ -414,11 +414,170 @@
   },
   "print_checks": {
     "passed": true,
+    "minimum_required_upward_degrees": 10.0,
+    "gravity_checks": [
+      {
+        "rack": "HX05C",
+        "tool": "9/64",
+        "upward_elevation_degrees": 69.83272670311236,
+        "out_of_board_plane_degrees": 18.77073776063648
+      },
+      {
+        "rack": "HX05C",
+        "tool": "5/32",
+        "upward_elevation_degrees": 63.09490124439692,
+        "out_of_board_plane_degrees": 18.83372342980672
+      },
+      {
+        "rack": "HX05C",
+        "tool": "3/16",
+        "upward_elevation_degrees": 54.509793353006735,
+        "out_of_board_plane_degrees": 18.96766990790256
+      },
+      {
+        "rack": "HX05C",
+        "tool": "7/32",
+        "upward_elevation_degrees": 44.39387652419391,
+        "out_of_board_plane_degrees": 19.63143535310104
+      },
+      {
+        "rack": "HX05C",
+        "tool": "1/4",
+        "upward_elevation_degrees": 33.97545673896101,
+        "out_of_board_plane_degrees": 20.158083852159375
+      },
+      {
+        "rack": "HX05C",
+        "tool": "5/16",
+        "upward_elevation_degrees": 23.14895730907,
+        "out_of_board_plane_degrees": 20.560147250616083
+      },
+      {
+        "rack": "HX05C",
+        "tool": "3/8",
+        "upward_elevation_degrees": 10.500000000000002,
+        "out_of_board_plane_degrees": 21.095134013707032
+      },
+      {
+        "rack": "HX05C",
+        "tool": "3/32",
+        "upward_elevation_degrees": 43.280093616242404,
+        "out_of_board_plane_degrees": 11.536959032815489
+      },
+      {
+        "rack": "HX05C",
+        "tool": "7/64",
+        "upward_elevation_degrees": 43.280093616242404,
+        "out_of_board_plane_degrees": 11.53695903281549
+      },
+      {
+        "rack": "HX05C",
+        "tool": "1/8",
+        "upward_elevation_degrees": 43.280093616242404,
+        "out_of_board_plane_degrees": 11.536959032815487
+      },
+      {
+        "rack": "HX05B",
+        "tool": "4",
+        "upward_elevation_degrees": 70.72778943338147,
+        "out_of_board_plane_degrees": 17.94216752967042
+      },
+      {
+        "rack": "HX05B",
+        "tool": "5",
+        "upward_elevation_degrees": 62.08178193123218,
+        "out_of_board_plane_degrees": 18.448715230321216
+      },
+      {
+        "rack": "HX05B",
+        "tool": "6",
+        "upward_elevation_degrees": 50.76326890171399,
+        "out_of_board_plane_degrees": 19.31365410137593
+      },
+      {
+        "rack": "HX05B",
+        "tool": "8",
+        "upward_elevation_degrees": 38.090038085598856,
+        "out_of_board_plane_degrees": 20.13314533234433
+      },
+      {
+        "rack": "HX05B",
+        "tool": "10",
+        "upward_elevation_degrees": 23.57817847820184,
+        "out_of_board_plane_degrees": 20.631057515605796
+      },
+      {
+        "rack": "HX05B",
+        "tool": "2",
+        "upward_elevation_degrees": 43.280093616242425,
+        "out_of_board_plane_degrees": 11.536959032815489
+      },
+      {
+        "rack": "HX05B",
+        "tool": "2.5",
+        "upward_elevation_degrees": 43.2800936162424,
+        "out_of_board_plane_degrees": 11.536959032815487
+      },
+      {
+        "rack": "HX05B",
+        "tool": "3",
+        "upward_elevation_degrees": 43.2800936162424,
+        "out_of_board_plane_degrees": 11.536959032815485
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T20",
+        "upward_elevation_degrees": 65.03450570254665,
+        "out_of_board_plane_degrees": 23.19984318290653
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T25",
+        "upward_elevation_degrees": 57.405974885834034,
+        "out_of_board_plane_degrees": 26.014365999636585
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T27",
+        "upward_elevation_degrees": 48.44322703304317,
+        "out_of_board_plane_degrees": 28.524081739056065
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T30",
+        "upward_elevation_degrees": 37.65259219210229,
+        "out_of_board_plane_degrees": 31.084679325451106
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T40",
+        "upward_elevation_degrees": 23.57817847820184,
+        "out_of_board_plane_degrees": 33.54773826822705
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T9",
+        "upward_elevation_degrees": 43.280093616242404,
+        "out_of_board_plane_degrees": 11.536959032815489
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T10",
+        "upward_elevation_degrees": 43.280093616242425,
+        "out_of_board_plane_degrees": 11.53695903281549
+      },
+      {
+        "rack": "HX05A",
+        "tool": "T15",
+        "upward_elevation_degrees": 43.28009361624242,
+        "out_of_board_plane_degrees": 11.536959032815487
+      }
+    ],
     "board_side_symmetric_difference_mm3": 0.0,
-    "reference_body_sha256": "e9c6aeebb22bbaae197c5c86fcaba35139a4babb0d2d2f93f8a9fbe1ddd8ac6d",
+    "reference_body_sha256": "69b1f96cd5fbcb17cc80f37080b9dfefe174e47675902e2dabdfe8222648eb34",
     "bed_plane_design_x_mm": -108.0,
-    "bed_contact_area_mm2": 16852.852274495326,
-    "bed_contact_area_cm2": 168.52852274495325,
+    "bed_contact_area_mm2": 16857.82154814357,
+    "bed_contact_area_cm2": 168.57821548143568,
     "bed_yaw_degrees": 45,
     "bed_size_mm": [
       256,
@@ -429,7 +588,7 @@
       249.3974619259691,
       21.396376108630108,
       234.6036238913699,
-      0.0,
+      -1.9984014443252818e-15,
       216.0
     ],
     "print_dimensions_mm": [
@@ -514,125 +673,129 @@
     ],
     "scope": "Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review."
   },
-  "slice_review": {
-    "nozzle_diameter": "0.4",
-    "layer_height": "0.2",
-    "filament_type": "ASA",
-    "enable_support": "1",
-    "support_type": "tree(auto)",
-    "support_style": "organic",
-    "brim_width": "3",
-    "wall_loops": "4",
-    "sparse_infill_density": "35%",
-    "sparse_infill_pattern": "gyroid",
-    "archive_sha256": "95422257b060dbf8199bead368f206f95396a79f386de27c167260c29e639f0e",
-    "printer": "Bambu Lab P1S 0.4 nozzle",
-    "slicer": "OrcaSlicer 2.3.2",
-    "source_stl_sha256": "d402735c0c21645f51fa08f9d29a31fb3b4f52d8d85a460eb3c3151af36c3074",
-    "shrink_compensation_baked_scale": 1.0054293183189222,
-    "scope": "Review slice only. No printer job submitted. Machine settings and G-code remain private.",
-    "estimated_total_printing_time": "2d 9h 32m 6s",
-    "filament_used_g": 991.06,
-    "runtime_log_note": "Orca completed archive export with repeated Not precalculated Placeable areas diagnostics during organic support generation; support/contact review remains required."
-  },
-  "toolpath_screen": {
-    "gcode_sha256": "4420ba86f5aab6dd7b491065847972b73f33e4fa8b8da5da833805c058efb4a4",
-    "features": {
-      "Support": {
-        "moves": 720423,
-        "filament_mm": 62056.34023001161,
-        "maximum_path_length_mm": 69.29425086172883
-      },
-      "Brim": {
-        "moves": 807,
-        "filament_mm": 100.31832000000003,
-        "maximum_path_length_mm": 148.5122230390482
-      },
-      "Inner wall": {
-        "moves": 471349,
-        "filament_mm": 81519.41380001394,
-        "maximum_path_length_mm": 252.67046622033212
-      },
-      "Outer wall": {
-        "moves": 161924,
-        "filament_mm": 25242.64048999481,
-        "maximum_path_length_mm": 253.4977811539975
-      },
-      "Bottom surface": {
-        "moves": 1139,
-        "filament_mm": 1258.5229899999824,
-        "maximum_path_length_mm": 82.95776756880578
-      },
-      "Overhang wall": {
-        "moves": 4601,
-        "filament_mm": 342.80728000000335,
-        "maximum_path_length_mm": 72.18499584401181
-      },
-      "Internal solid infill": {
-        "moves": 269415,
-        "filament_mm": 21314.93630999543,
-        "maximum_path_length_mm": 250.5498528856084
-      },
-      "Sparse infill": {
-        "moves": 5603747,
-        "filament_mm": 210331.82625924327,
-        "maximum_path_length_mm": 9.659330825683504
-      },
-      "Support interface": {
-        "moves": 22667,
-        "filament_mm": 626.6690500000026,
-        "maximum_path_length_mm": 74.42935268427371
-      },
-      "Top surface": {
-        "moves": 3674,
-        "filament_mm": 430.2491499999961,
-        "maximum_path_length_mm": 253.2715068853976
-      },
-      "Internal Bridge": {
-        "moves": 6659,
-        "filament_mm": 623.3217299999906,
-        "maximum_path_length_mm": 32.57567437521438
-      },
-      "Bridge": {
-        "moves": 1706,
-        "filament_mm": 76.83292000000064,
-        "maximum_path_length_mm": 7.030130866491739
-      }
+  "previous_filled_revision": {
+    "commit": "a3e68b31db81ac380ac73f2e9bb1b64a3b9e64bb",
+    "slice_review": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_type": "ASA",
+      "enable_support": "1",
+      "support_type": "tree(auto)",
+      "support_style": "organic",
+      "brim_width": "3",
+      "wall_loops": "4",
+      "sparse_infill_density": "35%",
+      "sparse_infill_pattern": "gyroid",
+      "archive_sha256": "95422257b060dbf8199bead368f206f95396a79f386de27c167260c29e639f0e",
+      "printer": "Bambu Lab P1S 0.4 nozzle",
+      "slicer": "OrcaSlicer 2.3.2",
+      "source_stl_sha256": "d402735c0c21645f51fa08f9d29a31fb3b4f52d8d85a460eb3c3151af36c3074",
+      "shrink_compensation_baked_scale": 1.0054293183189222,
+      "scope": "Review slice only. No printer job submitted. Machine settings and G-code remain private.",
+      "estimated_total_printing_time": "2d 9h 32m 6s",
+      "filament_used_g": 991.06,
+      "runtime_log_note": "Orca completed archive export with repeated Not precalculated Placeable areas diagnostics during organic support generation; support/contact review remains required."
     },
-    "parsed_arc_moves": 5095902,
-    "extrusion_centerline_bounds_mm": [
-      [
-        0.19529873499201322,
-        -1.2497129420805209,
-        0.2
+    "toolpath_screen": {
+      "gcode_sha256": "4420ba86f5aab6dd7b491065847972b73f33e4fa8b8da5da833805c058efb4a4",
+      "features": {
+        "Support": {
+          "moves": 720423,
+          "filament_mm": 62056.34023001161,
+          "maximum_path_length_mm": 69.29425086172883
+        },
+        "Brim": {
+          "moves": 807,
+          "filament_mm": 100.31832000000003,
+          "maximum_path_length_mm": 148.5122230390482
+        },
+        "Inner wall": {
+          "moves": 471349,
+          "filament_mm": 81519.41380001394,
+          "maximum_path_length_mm": 252.67046622033212
+        },
+        "Outer wall": {
+          "moves": 161924,
+          "filament_mm": 25242.64048999481,
+          "maximum_path_length_mm": 253.4977811539975
+        },
+        "Bottom surface": {
+          "moves": 1139,
+          "filament_mm": 1258.5229899999824,
+          "maximum_path_length_mm": 82.95776756880578
+        },
+        "Overhang wall": {
+          "moves": 4601,
+          "filament_mm": 342.80728000000335,
+          "maximum_path_length_mm": 72.18499584401181
+        },
+        "Internal solid infill": {
+          "moves": 269415,
+          "filament_mm": 21314.93630999543,
+          "maximum_path_length_mm": 250.5498528856084
+        },
+        "Sparse infill": {
+          "moves": 5603747,
+          "filament_mm": 210331.82625924327,
+          "maximum_path_length_mm": 9.659330825683504
+        },
+        "Support interface": {
+          "moves": 22667,
+          "filament_mm": 626.6690500000026,
+          "maximum_path_length_mm": 74.42935268427371
+        },
+        "Top surface": {
+          "moves": 3674,
+          "filament_mm": 430.2491499999961,
+          "maximum_path_length_mm": 253.2715068853976
+        },
+        "Internal Bridge": {
+          "moves": 6659,
+          "filament_mm": 623.3217299999906,
+          "maximum_path_length_mm": 32.57567437521438
+        },
+        "Bridge": {
+          "moves": 1706,
+          "filament_mm": 76.83292000000064,
+          "maximum_path_length_mm": 7.030130866491739
+        }
+      },
+      "parsed_arc_moves": 5095902,
+      "extrusion_centerline_bounds_mm": [
+        [
+          0.19529873499201322,
+          -1.2497129420805209,
+          0.2
+        ],
+        [
+          252.667,
+          233.6922709996562,
+          217.2
+        ]
       ],
-      [
-        252.667,
-        233.6922709996562,
-        217.2
-      ]
-    ],
-    "support_moves_entering_socket_core": {
-      "9/64": 35,
-      "5/32": 0,
-      "3/16": 0,
-      "7/32": 0,
-      "1/4": 0,
-      "5/16": 0,
-      "3/8": 0,
-      "3/32": 0,
-      "7/64": 0,
-      "1/8": 0
-    },
-    "socket_core_screen_passed": false,
-    "scope": "Actual extrusion centerlines. Support IJ arcs and lines sampled at <=0.2 mm; other arc bounds include analytical axis extrema. Socket core excludes 0.30 mm at walls and 0.50 mm at guide ends; lead-ins and vents excluded. No bead-volume, contact, support removal or physical print certification."
+      "support_moves_entering_socket_core": {
+        "9/64": 35,
+        "5/32": 0,
+        "3/16": 0,
+        "7/32": 0,
+        "1/4": 0,
+        "5/16": 0,
+        "3/8": 0,
+        "3/32": 0,
+        "7/64": 0,
+        "1/8": 0
+      },
+      "socket_core_screen_passed": false,
+      "scope": "Actual extrusion centerlines. Support IJ arcs and lines sampled at <=0.2 mm; other arc bounds include analytical axis extrema. Socket core excludes 0.30 mm at walls and 0.50 mm at guide ends; lead-ins and vents excluded. No bead-volume, contact, support removal or physical print certification."
+    }
   },
+  "current_slice_status": "Not sliced; previous geometry slice does not transfer",
   "green_native": {
-    "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
+    "layout_sha256": "f8a75579469e3c2cccb7210c3bff78937a1cada7c005781c91e2c0dc07f6edfd",
     "id": "HX05C",
     "valid": true,
     "solids": 1,
-    "volume": 1838836.3865681826,
+    "volume": 1972314.483356302,
     "stored_overlap_mm3": 0.0,
     "mount": {
       "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
@@ -965,9 +1128,9 @@
         "bar": 127,
         "part": 13114,
         "axis": [
-          0.917319699828872,
-          0.36082474226804123,
-          0.1683153993937271
+          0.9150134171622237,
+          0.3599175734271825,
+          0.18223552549214747
         ],
         "tip": [
           -91.09892468124785,
@@ -975,24 +1138,24 @@
           -230.97522618327196
         ],
         "mouth": [
-          16.502676108678813,
-          62.32474226804123,
-          -211.23182983438778
+          16.232149151880975,
+          62.2183313630085,
+          -209.59899904304305
         ],
         "top": [
-          175.84110796895385,
-          125.0,
-          -181.99544495969735
+          175.16997971295922,
+          124.7360138673101,
+          -177.94468826505704
         ],
         "bar_axis": [
-          0.02908042530556723,
-          0.36089454039302044,
-          -0.9321531309707424
+          0.04133032100756292,
+          0.36571299731737034,
+          -0.9298095547791262
         ],
         "guide": 114.29999999999998,
         "burial": 117.29999999999998,
         "outer_radius": 10.450705223892122,
-        "elevation": 9.68988724344779,
+        "elevation": 10.5,
         "downward_packing_mm": 109.88042115963061,
         "bar_twist_toward_board_deg": 29.999999999999996,
         "additional_fan_rotation_deg": 15.0
@@ -1211,37 +1374,37 @@
       {
         "a": "3/8",
         "b": "9/64",
-        "gap_mm": 125.36582874775412,
+        "gap_mm": 124.33815975693949,
         "overlap_mm3": 0.0
       },
       {
         "a": "3/8",
         "b": "5/32",
-        "gap_mm": 86.31355363503062,
+        "gap_mm": 85.50084045933373,
         "overlap_mm3": 0.0
       },
       {
         "a": "3/8",
         "b": "3/16",
-        "gap_mm": 60.31428569000288,
+        "gap_mm": 59.67925525456064,
         "overlap_mm3": 0.0
       },
       {
         "a": "3/8",
         "b": "7/32",
-        "gap_mm": 39.139561037482274,
+        "gap_mm": 38.6712187879046,
         "overlap_mm3": 0.0
       },
       {
         "a": "3/8",
         "b": "1/4",
-        "gap_mm": 21.107379617851265,
+        "gap_mm": 20.799749619032234,
         "overlap_mm3": 0.0
       },
       {
         "a": "3/8",
         "b": "5/16",
-        "gap_mm": 4.491091813960502,
+        "gap_mm": 4.352677736494884,
         "overlap_mm3": 0.0
       },
       {
@@ -1283,7 +1446,7 @@
       {
         "a": "3/32",
         "b": "3/8",
-        "gap_mm": 155.92804852671478,
+        "gap_mm": 154.27790113515155,
         "overlap_mm3": 0.0
       },
       {
@@ -1325,7 +1488,7 @@
       {
         "a": "7/64",
         "b": "3/8",
-        "gap_mm": 118.06622628183834,
+        "gap_mm": 116.4857368689457,
         "overlap_mm3": 0.0
       },
       {
@@ -1373,7 +1536,7 @@
       {
         "a": "1/8",
         "b": "3/8",
-        "gap_mm": 58.33078802144355,
+        "gap_mm": 56.61636229026511,
         "overlap_mm3": 0.0
       },
       {
@@ -1398,28 +1561,35 @@
       ],
       "bed_plane_x_mm": -108,
       "bed_plane_corner_radius_mm": 8.0,
-      "uncut_stock_volume_mm3": 1364830.7819473722,
+      "uncut_stock_volume_mm3": 1364582.2790074276,
       "stock_front_y_mm": 86.90694501311563,
       "all_entrance_normals_positive_x": true,
       "vent_direction": "toward front, perpendicular to each shaft; extended through added stock",
+      "fin_gussets": {
+        "count": 10,
+        "bedward_root_extension_mm": 16.0,
+        "root_spread_each_side_mm": 12.0,
+        "plane": "print XY / installed YZ"
+      },
       "root_blends": {
         "requested_radius_mm": 6.0,
-        "candidate_edges": 13,
-        "applied_edges": 1
+        "candidate_edges": 24,
+        "applied_edges": 0
       }
     },
-    "body_recipe": "filled-tip-foot-v2"
+    "body_recipe": "gravity-fin-gussets-v3b"
   },
   "source_hashes": {
-    "bench/source/green_fan_v1/README.md": "746b2423ac1392f188258f170cdda655ff7c95e85369bdd128c59fb11f9d5117",
-    "bench/source/green_fan_v1/arrange.py": "3743f2248aede5ee8c6b506f2aba6c1a94a313c833a38f6cf42c6d344aca99c0",
-    "bench/source/green_fan_v1/build.py": "3efe4cb928a20432f2971488c3bf11c457b1432cd282705cba7c8afff5f5902b",
+    "bench/source/green_fan_v1/README.md": "72259e76940d2b265ca84947c3815f4503e43ba4bc57cd00194a3961bf0ef90e",
+    "bench/source/green_fan_v1/arrange.py": "0a51789ccc66ff15bf1256e989d952d49afa065d1eedcbcf333268eea7b5f2ab",
+    "bench/source/green_fan_v1/build.py": "a8164741efdae193aa3104999d86ab497c5cfa5202f084f62dc543cdb394371b",
     "bench/source/green_fan_v1/empty.py": "888b9a74649b985eed7a8c9c2db91cf0be81fc06d40552ce118069508296ece6",
     "bench/source/green_fan_v1/pinch.py": "146c8fcc469cd0bb553c7e5009fcd1c1153fb18e048566b15a8c282507e585ec",
-    "bench/source/green_fan_v1/print_pose.py": "f82a3028bfe0356735a370705eb5baa065c604f77bb368e6728ace0b77860d1c",
-    "bench/source/green_fan_v1/publish.py": "1fb58e3e2034acafecf28c44ae759f5dfd19076e8e5bc1d5dea37178ecaf8ea6",
+    "bench/source/green_fan_v1/print_pose.py": "9168109c0d9a4482ad050d31d761929a404b8ea0606570e3adffd110b1b8c046",
+    "bench/source/green_fan_v1/publish.py": "95efbe2ee7b27e78b2afeb6e0d3ae97d325ecc2f104f91e57cdcf84d913e5cc1",
     "bench/source/green_fan_v1/reference-layout.json": "3bc1e210ed6da6dec8744d8ec6be32d0b584033a86b87d1f83f1d632e3196498",
-    "bench/source/green_fan_v1/strength.py": "20546cd5676f6fabc2470220a9a3088985a45e3d347548c70ecc4c5467c80488",
+    "bench/source/green_fan_v1/render.cjs": "3018d90411fd1e3e0ab29ae24df0ddd169c2d146d59ec05ca549e61c3b7a628d",
+    "bench/source/green_fan_v1/strength.py": "d8b75d7b4394f73b879e33b6509d3ce474eee8dd7a83fbd1c867563c19db0867",
     "bench/source/green_fan_v1/toolpaths.py": "f13c169a9c626d3adc53965ee289bcc47075dc72b7d3746f73e14815506bc9b9",
     "bench/source/stacked_fans_v1/build.py": "8047212f3a1cad2fdc10bbb462969867f079572ba965f8f8048885d877225cc9",
     "bench/source/stacked_fans_v1/densify.py": "d313de41807d538467cd80fd5f38e52bedc4c536f72041886c92bc6ab984f781",

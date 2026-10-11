@@ -5,7 +5,16 @@ import numpy as np
 source=Path(__file__).resolve().parent.parent/'stacked_fans_v1'/'build.py'
 sys.path.insert(0,str(source.parent))
 spec=importlib.util.spec_from_file_location('hx05_native_helpers',source);h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
-B=Path(sys.argv[1]);r=json.loads((B.parent/'layout.json').read_text())['racks'][0]
+B=Path(sys.argv[1]);layout=json.loads((B.parent/'layout.json').read_text());r=layout['racks'][0]
+gravity=[]
+for rack in layout['racks']:
+ for t in rack['tools']:
+  actual=np.array(t['top'])-np.array(t['tip']);actual/=np.linalg.norm(actual)
+  angle=math.degrees(math.asin(float(actual[2])))
+  assert angle>=10.-1e-10,(rack['id'],t['name'],angle)
+  assert np.linalg.norm(actual-np.array(t['axis']))<1e-10
+  assert abs(np.dot(actual,t['bar_axis']))<1e-10
+  gravity.append(dict(rack=rack['id'],tool=t['name'],upward_elevation_degrees=angle,out_of_board_plane_degrees=math.degrees(math.asin(float(actual[1])))))
 body=h.Part.Shape();body.read(str(B/'HX05C/body.brep'))
 body_bounds=body.optimalBoundingBox()
 contact=sum(f.Area for f in body.Faces if f.BoundBox.XLength<1e-6 and abs(f.BoundBox.XMin-body_bounds.XMin)<1e-5)
@@ -40,5 +49,5 @@ posed.exportStep(str(B/'HX05C/left-tip-print.step'))
 posed.exportBrep(str(B/'HX05C/left-tip-print.brep'))
 h.MeshPart.meshFromShape(Shape=posed,LinearDeflection=.1,AngularDeflection=.25,Relative=False).write(str(B/'HX05C/left-tip-print.stl'))
 scene=h.trimesh.Scene();h.add(scene,posed,[50,146,133,255],'holder');h.add(scene,h.Part.makeBox(256,256,1,h.V(0,0,-1)),[203,207,203,255],'256 mm bed');h.write(scene,'HX05C-print')
-result=dict(passed=True,board_side_symmetric_difference_mm3=back_difference,reference_body_sha256=__import__('hashlib').sha256(Path(sys.argv[2]).read_bytes()).hexdigest(),bed_plane_design_x_mm=body_bounds.XMin,bed_contact_area_mm2=contact,bed_contact_area_cm2=contact/100,bed_yaw_degrees=45,bed_size_mm=[256,256],print_bounds_mm=[bb.XMin,bb.XMax,bb.YMin,bb.YMax,bb.ZMin,bb.ZMax],print_dimensions_mm=[bb.XLength,bb.YLength,bb.ZLength],available_edge_margin_mm=min(bb.XMin,bb.YMin,256-bb.XMax,256-bb.YMax),rotation=rot.tolist(),translation=list(translation),cavity_checks=checks,scope='Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review.')
+result=dict(passed=True,minimum_required_upward_degrees=10.,gravity_checks=gravity,board_side_symmetric_difference_mm3=back_difference,reference_body_sha256=__import__('hashlib').sha256(Path(sys.argv[2]).read_bytes()).hexdigest(),bed_plane_design_x_mm=body_bounds.XMin,bed_contact_area_mm2=contact,bed_contact_area_cm2=contact/100,bed_yaw_degrees=45,bed_size_mm=[256,256],print_bounds_mm=[bb.XMin,bb.XMax,bb.YMin,bb.YMax,bb.ZMin,bb.ZMax],print_dimensions_mm=[bb.XLength,bb.YLength,bb.ZLength],available_edge_margin_mm=min(bb.XMin,bb.YMin,256-bb.XMax,256-bb.YMax),rotation=rot.tolist(),translation=list(translation),cavity_checks=checks,scope='Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review.')
 (B/'print-check.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
