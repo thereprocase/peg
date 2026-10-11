@@ -1,0 +1,329 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "rack": "HX05C",
+      "tool": "9/64",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/32",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/16",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/32",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/4",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/16",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/8",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/32",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/64",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/8",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "4",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "5",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "6",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "8",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "10",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2.5",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "3",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T20",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T25",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T27",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T30",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T40",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T9",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T10",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T15",
+      "tool_release_body_overlap_mm3": 0.0,
+      "hand_body_overlap_mm3": 0.0
+    }
+  ],
+  "body_contacts": [
+    {
+      "a": "HX05B",
+      "b": "HX05C",
+      "volume_mm3": 0.0
+    },
+    {
+      "a": "HX05A",
+      "b": "HX05C",
+      "volume_mm3": 0.0
+    },
+    {
+      "a": "HX05A",
+      "b": "HX05B",
+      "volume_mm3": 0.0
+    }
+  ],
+  "sphere_bound_scale": 1.07046626931927,
+  "scope": "Represented tools and 50 mm hand envelopes; axial stroke = burial plus 5 mm, plus front grasp approach. Subsequent free-hand removal, physical fit, whole-holder installation and loads not qualified.",
+  "freecad": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "occ": "7.8.1",
+  "native_artifacts": {
+    "HX05A/HX05A_33034_matched_v1.FCStd": {
+      "bytes": 8019705,
+      "sha256": "6b9c5c7f75dbc696bb1120f4cec9fb898e4ed1205f0a293b8813180800b5b3bf"
+    },
+    "HX05A/body.brep": {
+      "bytes": 2129200,
+      "sha256": "551d13add466d31dc61676b97ec12140fb11a557e3b8d536f515a1817e8dbce9"
+    },
+    "HX05A/grips.brep": {
+      "bytes": 103165,
+      "sha256": "0a76c610b2458eff60e54db3c6dc3e37c47dd4afdf17904960c0f8b99a5e1dc1"
+    },
+    "HX05A/installed.step": {
+      "bytes": 1771281,
+      "sha256": "4304c5028118afddfa864ec5b479ae9aedefb2310c3d83c18ba505e0f43df461"
+    },
+    "HX05A/installed.stl": {
+      "bytes": 1565534,
+      "sha256": "64b8196f6270c0a55e23218eec7d1b216f8ce06ac5076e013053daac899aa021"
+    },
+    "HX05A/mount.brep": {
+      "bytes": 918198,
+      "sha256": "10991a2baab015e02c230fa544ab6721a744cc4872c8a6e32f351e2b25fbc2c6"
+    },
+    "HX05A/rebuilt.brep": {
+      "bytes": 2129200,
+      "sha256": "551d13add466d31dc61676b97ec12140fb11a557e3b8d536f515a1817e8dbce9"
+    },
+    "HX05A/shafts.brep": {
+      "bytes": 17138,
+      "sha256": "9976da67832f626e558ca89dab0b79d92822ea07b2174aaf2df1bba3425de4a5"
+    },
+    "HX05A-empty.glb.gz": {
+      "bytes": 120722,
+      "sha256": "d19fdb709f1eca5ccbae44e255a47418830069d5a606439848b556174b4d70be"
+    },
+    "HX05A.glb.gz": {
+      "bytes": 192920,
+      "sha256": "636f26f8f64f1031804780873543923205dfafbe82919d84aa4318d06f930c22"
+    },
+    "HX05B/HX05B_13189_matched_v1.FCStd": {
+      "bytes": 9492842,
+      "sha256": "e4d1c7408d54dc88234343382fe75f45e8df965b1c81ed59b071e78ac5322ed1"
+    },
+    "HX05B/body.brep": {
+      "bytes": 2864197,
+      "sha256": "39eed6da8b87730574373ecca221936f7bcd4233cbbc09f12b3a953d0d6631a8"
+    },
+    "HX05B/grips.brep": {
+      "bytes": 103311,
+      "sha256": "64c8d9e371332f7e34c69e904a9718e4986aa5e5a4534de643f72eebe10049ae"
+    },
+    "HX05B/installed.step": {
+      "bytes": 2439151,
+      "sha256": "90ccbff0a9c78bbc95cdbeddaa0025391e6c9e1dbc592ea89f00db11bcf437bf"
+    },
+    "HX05B/installed.stl": {
+      "bytes": 2013634,
+      "sha256": "b14c2d4a10fb9808236ec686a0a8153a7841862920cd958c6d1e12d69da36526"
+    },
+    "HX05B/left-tip-print.brep": {
+      "bytes": 2831554,
+      "sha256": "6be71758dff03b3f1058fdc1c7b146955d4f4039ef70032f769a7fa3145e2047"
+    },
+    "HX05B/left-tip-print.step": {
+      "bytes": 2651157,
+      "sha256": "abd6ff5a1ca1faabee1c222477055e856c718c7519843d87983fa91864c4b669"
+    },
+    "HX05B/left-tip-print.stl": {
+      "bytes": 2013634,
+      "sha256": "87bd5ea9833fcd3c921b8afb0345a26c498fdae5a8dd458635f9d48a829a0b2e"
+    },
+    "HX05B/mount.brep": {
+      "bytes": 1350203,
+      "sha256": "3effa94dbd98b946bd57bc99368f1822e4664de52a59dc5fc5dfe7a492d99e5a"
+    },
+    "HX05B/rebuilt.brep": {
+      "bytes": 2864197,
+      "sha256": "39eed6da8b87730574373ecca221936f7bcd4233cbbc09f12b3a953d0d6631a8"
+    },
+    "HX05B/shafts.brep": {
+      "bytes": 41694,
+      "sha256": "a26a043ea8d333377fc14aa3c10f9acc416c4f81219ebd993ac0bd01af95293a"
+    },
+    "HX05B-empty.glb.gz": {
+      "bytes": 117852,
+      "sha256": "ae6e8ea4d1ee9d83706be8773a1be0e456c229fdf6e675b323e7124563ceca25"
+    },
+    "HX05B-print.glb.gz": {
+      "bytes": 124217,
+      "sha256": "320e32c334196ee9a87ed7303f1fb984a9a13fa9662397baa5de28e45ef92714"
+    },
+    "HX05B.glb.gz": {
+      "bytes": 179536,
+      "sha256": "09e3a9dd26c0e9e6f2fa49f6ae089f1f04a689e85790d3f986d683ad2e0c9c97"
+    },
+    "HX05C/body.brep": {
+      "bytes": 3406145,
+      "sha256": "a58a39a7d8d45e5503a49639517917cd4139eb987748a77783924a4e0af185da"
+    },
+    "HX05C/grips.brep": {
+      "bytes": 130399,
+      "sha256": "db8beca3b8f31498bdba13db02572e5b6c84df4c77b0a3d3ca78becf94f2b433"
+    },
+    "HX05C/installed.stl": {
+      "bytes": 2574734,
+      "sha256": "d0dae472483cfcd680b9a58d4b947963be69b876385ce5adb0bb240db1d67d72"
+    },
+    "HX05C/shafts.brep": {
+      "bytes": 52314,
+      "sha256": "1fe9715e7bdab92a1fb79a00633301244877fed7b7178425b4675738f2155b68"
+    },
+    "HX05C-empty.glb.gz": {
+      "bytes": 117624,
+      "sha256": "413c674321c3823643d51fc491933520af5963503f752687214f2a9bf1fe44ba"
+    },
+    "HX05C.glb.gz": {
+      "bytes": 194058,
+      "sha256": "a3ec39a3c568c983a0f77d77fa614d06a10721344a15fbbfd645dccd52034e89"
+    },
+    "stack.glb.gz": {
+      "bytes": 562309,
+      "sha256": "e665783ca5481bc14e51bdf3cca101696d035bcef312f2143e6d447781503225"
+    }
+  },
+  "construction_sources": {
+    "build.py": "8047212f3a1cad2fdc10bbb462969867f079572ba965f8f8048885d877225cc9",
+    "densify.py": "d313de41807d538467cd80fd5f38e52bedc4c536f72041886c92bc6ab984f781",
+    "handles_preview.py": "508b39642ff93a9d5b6c0fb6a9d4f3069f86655f775520eebd962060b25fc3e7",
+    "layout.py": "8d13ccdb403db09ea070d24fdec1016b3a76207aa2d2e148620c9b59610c0b9f",
+    "pack.py": "e91913f1ac0da893fd686d99ce67b73da3b681ffd534790588a8ec27b8904d17",
+    "publish_review.py": "67d4e56fa0e4e2bb53df7339464a81a00ffbf07389168236673b3a8d60dbf027",
+    "screen.py": "28c956ea610e03e3739cbc0205f862d8cb81038d814134a74d3cb8799f5aec4d",
+    "sections.py": "4980aaee34e60343181458dc35f8124be3d629797b217178a73884b93552fe85",
+    "spacing.py": "88ec9770ec332b0739553da67663d3d74fa692e1b5f94f674fc60178f0b2f5e6",
+    "verify_native.py": "8e9c89340c88adaf39e88a64fb164ea58d23b6790cf3f5ec3c5e74051ed1c3a4"
+  }
+}

@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3284,
-  "total_size_bytes": 1210233503,
+  "file_count": 3326,
+  "total_size_bytes": 1210657406,
   "files": [
     {
       "path": ".gitattributes",
@@ -2397,6 +2397,71 @@
       "sha256": "99c0dc43e6dd6006eb9c79d8f196c93e88330dc917a0796ab93ae4decbb1e8a6"
     },
     {
+      "path": "bench/reviews/matched-fans-v1/HX05A/build-check.json",
+      "size_bytes": 1873,
+      "sha256": "ff392dc38690a55e112ff10277e072bb940e074c305b0d20ac2a5039c4cc94cc"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/HX05A/edit-check.json",
+      "size_bytes": 358,
+      "sha256": "d5061a2a8b052c61dc0f18ae68f530bb4eb8ae033ab539a085c9798e66c2b100"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/HX05A/print-check.json",
+      "size_bytes": 6540,
+      "sha256": "a1f315d808eafc295fb4ab7079b79b5c393afc7ea7e6f93dba0dd9b823b9f6d6"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/HX05B/build-check.json",
+      "size_bytes": 1933,
+      "sha256": "931b67ca0a5a79325469e3cc8b8fa793188065a0af1c7067623b4113f492f152"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/HX05B/edit-check.json",
+      "size_bytes": 358,
+      "sha256": "3b60c86e3eadd9741cb262d13137864ca98714261e03e0596e782417224d5493"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/HX05B/print-check.json",
+      "size_bytes": 6515,
+      "sha256": "ca601cf3859d91e1f08c8a38172f71c5b78384788e0d34cbbbd8d0da6dd3d789"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/access.json",
+      "size_bytes": 4920,
+      "sha256": "ae967e768c8431e9053dd4a3a98e212abb58e6802eeb38d9c647254c0105d327"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/layout.json",
+      "size_bytes": 26759,
+      "sha256": "068dc05921ece1cbdc125e70d0c9c0d3606e9b94bc684c1638795f5ec477939f"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/native.json",
+      "size_bytes": 40818,
+      "sha256": "78f3fdc2dd907a825a5822e0ca69f18b4f6b174840c4b3f5e4514a3745f7dbd5"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/pinch-check.json",
+      "size_bytes": 6139,
+      "sha256": "2e1212d1299e8d0a3ee9eae950a4f4fa96802ba6e60f1b7d0ecea9c38fe278a0"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/setup-check.json",
+      "size_bytes": 637,
+      "sha256": "7b8e96f7ec6b0bca9849bffa3b5fb1506f7a2ae5f0813a8fc5e74a1205783e83"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/spacing.json",
+      "size_bytes": 1208,
+      "sha256": "1e1d957730c64cc00246d95de07878745b9df793f5f34d504ad5646796e0a77e"
+    },
+    {
+      "path": "bench/reviews/matched-fans-v1/sweep-check.json",
+      "size_bytes": 9616,
+      "sha256": "fb75275200ec48ab84eff3990f7881e4ad6bd042f72ff8b4e93843ce40a13db1"
+    },
+    {
       "path": "bench/reviews/peg-connectors-v1/BUILD.json",
       "size_bytes": 12008,
       "sha256": "5e2f552fecbc349d2000cc9b8a4da7aceeb32027cabb42c0fabec69596bb35d9"
@@ -4198,8 +4263,8 @@
     },
     {
       "path": "bench/source/green_fan_v1/publish.py",
-      "size_bytes": 10103,
-      "sha256": "c85fa505239df9ea600c0804140aed9e5f6dbadced0c93a8fe20dec15b6ff647"
+      "size_bytes": 10199,
+      "sha256": "044f8d5e2e7a57f840f4243e627041bc303b4e4e1c7bd280e46f760a7ca76979"
     },
     {
       "path": "bench/source/green_fan_v1/reference-layout.json",
@@ -4625,6 +4690,76 @@
       "path": "bench/source/key_fan_v1/tools/slice3mf.py",
       "size_bytes": 5416,
       "sha256": "a9c3f77502872fb7f406e3b42f7ede5afe786098af45482e9ddb1260a9ed618d"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/README.md",
+      "size_bytes": 3672,
+      "sha256": "20bb89e0cae546c9cbd887ddaaa5c4b8e8df8a6060dee415d2dd6a486fc615b3"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/README.txt",
+      "size_bytes": 3736,
+      "sha256": "3fd4e26edaefba2822de21be6b064a06460f47322a50cda4bc685db43f0924e6"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/SETUP_MATCHED_FANS.FCMacro",
+      "size_bytes": 3518,
+      "sha256": "a6dce1afec3235327a274cd32e5ca4b3e152a539a3ca18c8147da8f4c6562566"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/arrange.py",
+      "size_bytes": 2997,
+      "sha256": "0c31f3a759b6db2a268c0715891769124284b66dac89f074f669b92883e20083"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/create_document.py",
+      "size_bytes": 10955,
+      "sha256": "4bf57cb4bea3539e8b55a9a2121c32e74dbfaba17101449a5bae3d4149294346"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/export.py",
+      "size_bytes": 3014,
+      "sha256": "b0999c83ab084c8228be43ab36c36bf1e878b0a940e2a5c65bc7523210f4e548"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/hx05_family.py",
+      "size_bytes": 11263,
+      "sha256": "faeee704b39c9592e507d397f96f3d9bc129d3c19444663da9d955564c182ded"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/pinch.py",
+      "size_bytes": 3025,
+      "sha256": "fb5b2123b2578d82f599993b0b7bd0ed0d94d807bd72d0daea22d7f4bae6acd2"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/print_pose.py",
+      "size_bytes": 4542,
+      "sha256": "b0c1b96378a685256481d9bda5309e057b29c05a1785ead5680a194d0c12ea74"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/publish.py",
+      "size_bytes": 11189,
+      "sha256": "cd26984132de0bafd0b0925822e6f554013eba12b17d9fffcac50ce8ee215182"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/render.cjs",
+      "size_bytes": 3459,
+      "sha256": "0bc4388cfb02cdc5c29a74b68ed6b58a9bd3a4c4592d6824c9a5d943225973f3"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/test_recompute.py",
+      "size_bytes": 2113,
+      "sha256": "3890578e578bf03dd4a2350ff000c6b88108106194cf52671fbd2cc6f4d70ad0"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/test_reopen.py",
+      "size_bytes": 757,
+      "sha256": "86f94dc7116df2e171112c62833db6a99d208bb89449052b7c20d24e58086753"
+    },
+    {
+      "path": "bench/source/matched_fans_v1/test_setup.py",
+      "size_bytes": 1546,
+      "sha256": "6f4bb0c1466c8c38423569b5a9d8f67417ade78b5aaefef2aac05d445745d05e"
     },
     {
       "path": "bench/source/peg_connectors_v1/build.py",
@@ -10838,8 +10973,8 @@
     },
     {
       "path": "docs/gallery/key-fan/stacked/green/index.html",
-      "size_bytes": 8039,
-      "sha256": "9243d6dda2504672b55f05993ebe82ed7dc7be6390da7e31e2f55a0487a4bc01"
+      "size_bytes": 8095,
+      "sha256": "f87e5d54a237bc293f501ccef9e6998c39e1c40a7aa067c8ba8e0d3b6679519b"
     },
     {
       "path": "docs/gallery/key-fan/stacked/green/parametric.json",
@@ -10849,7 +10984,7 @@
     {
       "path": "docs/gallery/key-fan/stacked/green/review.json",
       "size_bytes": 45012,
-      "sha256": "574081a90f2866f6a28a53fff5fdde69765f954a08a9f4c27b9dbd9bb956fac7"
+      "sha256": "0e113bebc16c5c6da08732dcf12ea76cfd3793ec70db846a91eba716ee69429f"
     },
     {
       "path": "docs/gallery/key-fan/stacked/green/stack-hero.jpg",
@@ -10858,8 +10993,73 @@
     },
     {
       "path": "docs/gallery/key-fan/stacked/index.html",
-      "size_bytes": 6122,
-      "sha256": "2fb7303b5cea7ddde62773f7719ad9d2f4611b8c7fa2e63719a2350e4e1bc7f5"
+      "size_bytes": 6175,
+      "sha256": "ebd4bd26f254114e748031294add206f66a43c1a5b9366872d0146a71d52797f"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05A-empty-hero.jpg",
+      "size_bytes": 18271,
+      "sha256": "b96f117cef6cff50860dadb00ae71b6fabad3d92a865ee5278c54433b2ee9cd3"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05A-front.jpg",
+      "size_bytes": 19503,
+      "sha256": "baaa536f5a9acf968fcc57642ad9f32aeb0d59e86b12f11172ab0521fe45499a"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05A-hero.jpg",
+      "size_bytes": 22205,
+      "sha256": "7ef5061bd0c0dd591c373b6e58cb167ef95568c3c88e01b75ed56993eef6e637"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05A-plan.jpg",
+      "size_bytes": 13434,
+      "sha256": "4a28281c198071de796f2f4ee1fad6c4f5f6d16f9f46e7b1b89ca2ee373ffe11"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05A-print-hero.jpg",
+      "size_bytes": 17335,
+      "sha256": "71f564e7da38ba1c02df9ef0c5f208dfa1784139756b12050ee2c93bae9dd43e"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05B-empty-hero.jpg",
+      "size_bytes": 17802,
+      "sha256": "2b5d8434d7e177fee411a6f7434e1c690435a97a56849147127d6cfc14579b6a"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05B-front.jpg",
+      "size_bytes": 19411,
+      "sha256": "a663c9f6cae1de635a46921b024709037e147fce0cf09eda2f6037fe67e09aac"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05B-hero.jpg",
+      "size_bytes": 20958,
+      "sha256": "b13e1eef4a1ee518f81efee426110cbc8f142df7b69fe040fd69223707633ce6"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05B-plan.jpg",
+      "size_bytes": 13563,
+      "sha256": "fb96c06720b93fb2b48ec39d10a25ebe40a342d8c0147e066295c862c2cb0e8c"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/HX05B-print-hero.jpg",
+      "size_bytes": 18403,
+      "sha256": "aef704de0b0ea4672d61d397c692cc7914797b083ec8ed5c1d3ad90609cce5b5"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/index.html",
+      "size_bytes": 6662,
+      "sha256": "10a02355938a595fe4a8affbc2f24779312dd9533ea07ac8bbe095180eb977cc"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/review.json",
+      "size_bytes": 18822,
+      "sha256": "6d912ee5b8dbacd4a3a3efb4a14a8fa1869fbf7456427f7c0693c7ed516d932e"
+    },
+    {
+      "path": "docs/gallery/key-fan/stacked/matched/stack-hero.jpg",
+      "size_bytes": 33232,
+      "sha256": "9a945ab5a3224c81e07b8fd371162382e9f06496a5132f62b77a5831e06453c7"
     },
     {
       "path": "docs/gallery/key-fan/stacked/review.json",
@@ -12808,8 +13008,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 145342,
-      "sha256": "24b449a578ddcddc633463b71e9ebaa3fc1b601db15d507be87ad2f52dc089ee"
+      "size_bytes": 145868,
+      "sha256": "c698c2b6a228e6573c6fdadb1dd78439c8b298b12c05db809688c992f38d87fd"
     },
     {
       "path": "docs/gallery/research.html",
@@ -15633,8 +15833,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 10549,
-      "sha256": "868b2aedbf6426ffc63c960ce26857d487cb69c3333a1f4ea8b15818c03f549d"
+      "size_bytes": 11119,
+      "sha256": "193467dd68d475ae321d893f8746117ee7457f3dc423af3ac90e14783c820b3c"
     },
     {
       "path": "publication/add_cascade_to_collection.py",
@@ -15739,7 +15939,7 @@
     {
       "path": "publication/green-fan-v1-review.json",
       "size_bytes": 4714,
-      "sha256": "fe915fb64431e05389fd6374b60dc35388af535dd06c3458b4aa50fceecb7cb5"
+      "sha256": "5183c78986690fc4d6a414f26d0b58405c015946c632a586c45226da8307eb02"
     },
     {
       "path": "publication/hx05-parametric-v1.json",
@@ -15760,6 +15960,11 @@
       "path": "publication/key-fan-v2-additions.json",
       "size_bytes": 1101,
       "sha256": "8f65d3174b0aca5eeaab7c79ed166bf8efe3e90262549f47301d68dcf7a70468"
+    },
+    {
+      "path": "publication/matched-fans-v1.json",
+      "size_bytes": 6418,
+      "sha256": "4a9c235f00b2ba816fe7c3ec6555db0e06b128f5f1fe46f55e4239446db2ae20"
     },
     {
       "path": "publication/mh01-mh04-shaft-holders-v1-additions.json",
@@ -15858,13 +16063,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 103224,
-      "sha256": "89679821dd457c7bcf70e479765461be3f7b0359bc98fbdf5c8bc1c592419b20"
+      "size_bytes": 103662,
+      "sha256": "3172c7c0ea63d42253fd953862a16c6d756952925551d13f7a3a0b3e533e41d9"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 147261,
-      "sha256": "6cb1d586b6ef0c92a29a6214928b730b4031df41c38d4fd753fec5c6c82196b6"
+      "size_bytes": 147799,
+      "sha256": "6eaa3ee2d1bf0eefa10c7c5e8cb717b91c282628ec740dd877debab09201a0dd"
     },
     {
       "path": "publication/render_final_racks.cjs",
@@ -15899,7 +16104,7 @@
     {
       "path": "publication/stacked-fans-v1-review.json",
       "size_bytes": 5136,
-      "sha256": "939e9d2b4dd8e989298ac344b0ca75c0c70b7becafe7d60af460c6ae735145ec"
+      "sha256": "db89c58c48c09b11cbc76e10f8f07fb8f8a53203da7a21df7fb69c61d2222cc4"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -16163,8 +16368,8 @@
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 5780,
-      "sha256": "d6f2f106b108775d1dcc33cb38b89f905b9fb8efa5af561c1e2c8ec84785eb36"
+      "size_bytes": 5910,
+      "sha256": "d382226ccebabe6a6b6bf29c58b59697e232b7e5a96b2f75ce0056579c4c0ab8"
     },
     {
       "path": "tools/check_key_fan.py",
@@ -16180,6 +16385,11 @@
       "path": "tools/check_key_fan_v2.py",
       "size_bytes": 3343,
       "sha256": "29d4740ec484923d287c000b6cf4ad61a7fd67ac90b4ae9651ef93a1ff58a8a6"
+    },
+    {
+      "path": "tools/check_matched_fans.py",
+      "size_bytes": 2017,
+      "sha256": "b7bfa4f154018dfb90c7e5c6cd09e3733d9ac7a37a405b74a2aebd979d20b426"
     },
     {
       "path": "tools/check_peg_downloads.py",

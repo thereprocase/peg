@@ -101,3 +101,6 @@ if (D/'key-fan/studies/data/scene.json').exists():
 
 if (D/'key-fan/final/models.json').exists():
  runpy.run_path(str(R/'tools/check_final_racks.py'),run_name='__main__')
+
+if (D/'key-fan/stacked/matched/review.json').exists():
+ runpy.run_path(str(R/'tools/check_matched_fans.py'),run_name='__main__')

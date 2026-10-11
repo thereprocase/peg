@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "filename": "HX05A_33034_matched_v1.FCStd",
+      "volume_mm3": 1239997.5412550953,
+      "valid_single_solid": true,
+      "custom_features": 49
+    },
+    {
+      "filename": "HX05B_13189_matched_v1.FCStd",
+      "volume_mm3": 2127488.6328822942,
+      "valid_single_solid": true,
+      "custom_features": 49
+    }
+  ],
+  "scope": "Actual module installation and native document opening. Only display framing calls are stubbed; GUI behavior is not tested.",
+  "platform": "FreeCAD 1.1.3 Linux headless; GUI startup stalled before model loading; Windows GUI first open remains untested."
+}

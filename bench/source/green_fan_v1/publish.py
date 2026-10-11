@@ -39,3 +39,4 @@ for base in (D,R,ROOT/'bench/source/green_fan_v1'):
 print('Published local green review',len(receipts),'files;',sum(p.stat().st_size for p in D.iterdir()),'site bytes')
 import runpy
 runpy.run_path(str(ROOT/'bench/source/hx05_parametric_v1/publish_download.py'))['install'](ROOT)
+runpy.run_path(str(ROOT/'bench/source/matched_fans_v1/publish.py'))['install_navigation'](ROOT)

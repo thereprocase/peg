@@ -1,0 +1,589 @@
+{
+  "release": "hx05-matched-fans-v1-2026-10-11",
+  "bundle_url": "https://github.com/thereprocase/peg/releases/download/hx05-matched-fans-v1-2026-10-11/HX05AB_matched_fans_v1_bundle.zip",
+  "models": [
+    {
+      "id": "HX05B",
+      "set": "13189",
+      "label": "Metric",
+      "filename": "HX05B_13189_matched_v1.FCStd",
+      "dimensions_mm": [
+        196.01605574037615,
+        97.94332700646078,
+        262.2666435967307
+      ],
+      "volume_mm3": 2127488.6328822942,
+      "guide_range_mm": [
+        60.0,
+        120
+      ],
+      "print_check": {
+        "passed": true,
+        "fits_256mm_bed_with_3mm_margin": true,
+        "minimum_required_upward_degrees": 10.0,
+        "gravity_checks": [
+          {
+            "rack": "HX05C",
+            "tool": "9/64",
+            "upward_elevation_degrees": 69.83272670311236,
+            "out_of_board_plane_degrees": 18.77073776063648
+          },
+          {
+            "rack": "HX05C",
+            "tool": "5/32",
+            "upward_elevation_degrees": 63.09490124439692,
+            "out_of_board_plane_degrees": 18.83372342980672
+          },
+          {
+            "rack": "HX05C",
+            "tool": "3/16",
+            "upward_elevation_degrees": 54.509793353006735,
+            "out_of_board_plane_degrees": 18.96766990790256
+          },
+          {
+            "rack": "HX05C",
+            "tool": "7/32",
+            "upward_elevation_degrees": 44.39387652419391,
+            "out_of_board_plane_degrees": 19.63143535310104
+          },
+          {
+            "rack": "HX05C",
+            "tool": "1/4",
+            "upward_elevation_degrees": 33.97545673896101,
+            "out_of_board_plane_degrees": 20.158083852159375
+          },
+          {
+            "rack": "HX05C",
+            "tool": "5/16",
+            "upward_elevation_degrees": 23.14895730907,
+            "out_of_board_plane_degrees": 20.560147250616083
+          },
+          {
+            "rack": "HX05C",
+            "tool": "3/8",
+            "upward_elevation_degrees": 10.500000000000002,
+            "out_of_board_plane_degrees": 21.095134013707032
+          },
+          {
+            "rack": "HX05C",
+            "tool": "3/32",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815489
+          },
+          {
+            "rack": "HX05C",
+            "tool": "7/64",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.53695903281549
+          },
+          {
+            "rack": "HX05C",
+            "tool": "1/8",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815487
+          },
+          {
+            "rack": "HX05B",
+            "tool": "4",
+            "upward_elevation_degrees": 69.83272670311234,
+            "out_of_board_plane_degrees": 18.77073776063648
+          },
+          {
+            "rack": "HX05B",
+            "tool": "5",
+            "upward_elevation_degrees": 58.92753562992137,
+            "out_of_board_plane_degrees": 18.981869944064623
+          },
+          {
+            "rack": "HX05B",
+            "tool": "6",
+            "upward_elevation_degrees": 44.39387652419391,
+            "out_of_board_plane_degrees": 19.631435353101043
+          },
+          {
+            "rack": "HX05B",
+            "tool": "8",
+            "upward_elevation_degrees": 28.56623811633814,
+            "out_of_board_plane_degrees": 20.457023084334867
+          },
+          {
+            "rack": "HX05B",
+            "tool": "10",
+            "upward_elevation_degrees": 10.5,
+            "out_of_board_plane_degrees": 21.09513401370703
+          },
+          {
+            "rack": "HX05B",
+            "tool": "2",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815489
+          },
+          {
+            "rack": "HX05B",
+            "tool": "2.5",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.53695903281549
+          },
+          {
+            "rack": "HX05B",
+            "tool": "3",
+            "upward_elevation_degrees": 43.28009361624242,
+            "out_of_board_plane_degrees": 11.536959032815485
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T20",
+            "upward_elevation_degrees": 69.83272670311234,
+            "out_of_board_plane_degrees": 18.770737760636475
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T25",
+            "upward_elevation_degrees": 58.92753562992138,
+            "out_of_board_plane_degrees": 18.98186994406462
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T27",
+            "upward_elevation_degrees": 44.39387652419389,
+            "out_of_board_plane_degrees": 19.63143535310104
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T30",
+            "upward_elevation_degrees": 28.56623811633814,
+            "out_of_board_plane_degrees": 20.457023084334864
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T40",
+            "upward_elevation_degrees": 10.500000000000002,
+            "out_of_board_plane_degrees": 21.09513401370703
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T9",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815489
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T10",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.53695903281549
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T15",
+            "upward_elevation_degrees": 43.2800936162424,
+            "out_of_board_plane_degrees": 11.536959032815487
+          }
+        ],
+        "board_side_symmetric_difference_mm3": 0.0,
+        "reference_body_sha256": "3effa94dbd98b946bd57bc99368f1822e4664de52a59dc5fc5dfe7a492d99e5a",
+        "bed_plane_design_x_mm": -98.00000000000003,
+        "bed_contact_area_mm2": 17757.627508476333,
+        "bed_contact_area_cm2": 177.57627508476332,
+        "bed_yaw_degrees": 45,
+        "bed_size_mm": [
+          256,
+          256
+        ],
+        "print_bounds_mm": [
+          3.2162307045669984,
+          252.783769295433,
+          17.817824474882542,
+          238.18217552511746,
+          0.0,
+          196.00000000000003
+        ],
+        "print_dimensions_mm": [
+          249.56753859086598,
+          220.36435105023492,
+          196.00000000000003
+        ],
+        "available_edge_margin_mm": 3.2162307045669984,
+        "rotation": [
+          [
+            0.0,
+            0.7071067811865476,
+            -0.7071067811865475
+          ],
+          [
+            0.0,
+            0.7071067811865475,
+            0.7071067811865476
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          12.915818965106212,
+          199.27559053359658,
+          98.00000000000003
+        ],
+        "cavity_checks": [
+          {
+            "tool": "4",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "5",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "6",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "8",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "10",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "2",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "2.5",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "3",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          }
+        ],
+        "scope": "Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review."
+      },
+      "edit_check": {
+        "filename": "HX05B_13189_matched_v1.FCStd",
+        "valid_single_solid": true,
+        "restored_features": 49,
+        "guide_increment_mm": 1,
+        "handle_roll_increment_degrees": 2,
+        "round_diameter_increment_mm": null,
+        "fixed_mount_unchanged": true,
+        "edited_volume_mm3": 2132225.652930042,
+        "freecad": "1.1.3",
+        "fresh_process_reopen_and_execute_passed": true
+      }
+    },
+    {
+      "id": "HX05A",
+      "set": "33034",
+      "label": "Torx",
+      "filename": "HX05A_33034_matched_v1.FCStd",
+      "dimensions_mm": [
+        148.0125607778192,
+        97.58450523372957,
+        218.95259441882845
+      ],
+      "volume_mm3": 1239997.5412550936,
+      "guide_range_mm": [
+        60.0,
+        79.80000000000001
+      ],
+      "print_check": {
+        "passed": true,
+        "fits_256mm_bed_with_3mm_margin": true,
+        "minimum_required_upward_degrees": 10.0,
+        "gravity_checks": [
+          {
+            "rack": "HX05C",
+            "tool": "9/64",
+            "upward_elevation_degrees": 69.83272670311236,
+            "out_of_board_plane_degrees": 18.77073776063648
+          },
+          {
+            "rack": "HX05C",
+            "tool": "5/32",
+            "upward_elevation_degrees": 63.09490124439692,
+            "out_of_board_plane_degrees": 18.83372342980672
+          },
+          {
+            "rack": "HX05C",
+            "tool": "3/16",
+            "upward_elevation_degrees": 54.509793353006735,
+            "out_of_board_plane_degrees": 18.96766990790256
+          },
+          {
+            "rack": "HX05C",
+            "tool": "7/32",
+            "upward_elevation_degrees": 44.39387652419391,
+            "out_of_board_plane_degrees": 19.63143535310104
+          },
+          {
+            "rack": "HX05C",
+            "tool": "1/4",
+            "upward_elevation_degrees": 33.97545673896101,
+            "out_of_board_plane_degrees": 20.158083852159375
+          },
+          {
+            "rack": "HX05C",
+            "tool": "5/16",
+            "upward_elevation_degrees": 23.14895730907,
+            "out_of_board_plane_degrees": 20.560147250616083
+          },
+          {
+            "rack": "HX05C",
+            "tool": "3/8",
+            "upward_elevation_degrees": 10.500000000000002,
+            "out_of_board_plane_degrees": 21.095134013707032
+          },
+          {
+            "rack": "HX05C",
+            "tool": "3/32",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815489
+          },
+          {
+            "rack": "HX05C",
+            "tool": "7/64",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.53695903281549
+          },
+          {
+            "rack": "HX05C",
+            "tool": "1/8",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815487
+          },
+          {
+            "rack": "HX05B",
+            "tool": "4",
+            "upward_elevation_degrees": 69.83272670311234,
+            "out_of_board_plane_degrees": 18.77073776063648
+          },
+          {
+            "rack": "HX05B",
+            "tool": "5",
+            "upward_elevation_degrees": 58.92753562992137,
+            "out_of_board_plane_degrees": 18.981869944064623
+          },
+          {
+            "rack": "HX05B",
+            "tool": "6",
+            "upward_elevation_degrees": 44.39387652419391,
+            "out_of_board_plane_degrees": 19.631435353101043
+          },
+          {
+            "rack": "HX05B",
+            "tool": "8",
+            "upward_elevation_degrees": 28.56623811633814,
+            "out_of_board_plane_degrees": 20.457023084334867
+          },
+          {
+            "rack": "HX05B",
+            "tool": "10",
+            "upward_elevation_degrees": 10.5,
+            "out_of_board_plane_degrees": 21.09513401370703
+          },
+          {
+            "rack": "HX05B",
+            "tool": "2",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815489
+          },
+          {
+            "rack": "HX05B",
+            "tool": "2.5",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.53695903281549
+          },
+          {
+            "rack": "HX05B",
+            "tool": "3",
+            "upward_elevation_degrees": 43.28009361624242,
+            "out_of_board_plane_degrees": 11.536959032815485
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T20",
+            "upward_elevation_degrees": 69.83272670311234,
+            "out_of_board_plane_degrees": 18.770737760636475
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T25",
+            "upward_elevation_degrees": 58.92753562992138,
+            "out_of_board_plane_degrees": 18.98186994406462
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T27",
+            "upward_elevation_degrees": 44.39387652419389,
+            "out_of_board_plane_degrees": 19.63143535310104
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T30",
+            "upward_elevation_degrees": 28.56623811633814,
+            "out_of_board_plane_degrees": 20.457023084334864
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T40",
+            "upward_elevation_degrees": 10.500000000000002,
+            "out_of_board_plane_degrees": 21.09513401370703
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T9",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.536959032815489
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T10",
+            "upward_elevation_degrees": 43.280093616242404,
+            "out_of_board_plane_degrees": 11.53695903281549
+          },
+          {
+            "rack": "HX05A",
+            "tool": "T15",
+            "upward_elevation_degrees": 43.2800936162424,
+            "out_of_board_plane_degrees": 11.536959032815487
+          }
+        ],
+        "board_side_symmetric_difference_mm3": 0.0,
+        "reference_body_sha256": "10991a2baab015e02c230fa544ab6721a744cc4872c8a6e32f351e2b25fbc2c6",
+        "bed_plane_design_x_mm": -74.0000000000001,
+        "bed_contact_area_mm2": 14216.248734264884,
+        "bed_contact_area_cm2": 142.16248734264883,
+        "bed_yaw_degrees": 45,
+        "bed_size_mm": [
+          256,
+          256
+        ],
+        "print_bounds_mm": [
+          18.656987444940743,
+          237.34301255505926,
+          32.5399030647962,
+          223.4600969352038,
+          -1.7763568394002505e-15,
+          148.0000000000001
+        ],
+        "print_dimensions_mm": [
+          218.68602511011852,
+          190.92019387040762,
+          148.0000000000001
+        ],
+        "available_edge_margin_mm": 18.65698744494074,
+        "rotation": [
+          [
+            0.0,
+            0.7071067811865476,
+            -0.7071067811865475
+          ],
+          [
+            0.0,
+            0.7071067811865475,
+            0.7071067811865476
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "translation": [
+          28.356575705479955,
+          185.2537545976549,
+          74.0000000000001
+        ],
+        "cavity_checks": [
+          {
+            "tool": "T20",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T25",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T27",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T30",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T40",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T9",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T10",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          },
+          {
+            "tool": "T15",
+            "vent_probe_overlap_mm3": 0.0,
+            "entrance_clearance_probe_overlap_mm3": 0.0
+          }
+        ],
+        "scope": "Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review."
+      },
+      "edit_check": {
+        "filename": "HX05A_33034_matched_v1.FCStd",
+        "valid_single_solid": true,
+        "restored_features": 49,
+        "guide_increment_mm": 1,
+        "handle_roll_increment_degrees": 2,
+        "round_diameter_increment_mm": 0.1,
+        "fixed_mount_unchanged": true,
+        "edited_volume_mm3": 1243283.8520683283,
+        "freecad": "1.1.3",
+        "fresh_process_reopen_and_execute_passed": true
+      }
+    }
+  ],
+  "assets": {
+    "HX05AB_matched_fans_v1_bundle.zip": {
+      "bytes": 21421329,
+      "sha256": "b83671646c74199369a082f75b5ea8902fa7f6171a4dfc4ea46db3dfbec86c40"
+    },
+    "HX05B_13189_matched_v1.FCStd": {
+      "bytes": 9497727,
+      "sha256": "308d61c72060c563b4b53b96a4834692cecca852deece0022f7db7bee837da22"
+    },
+    "HX05A_33034_matched_v1.FCStd": {
+      "bytes": 8024128,
+      "sha256": "3a9b0803d057d2e2bd280a44cecd23d718322c9636c504ad9af6b8ce703f03f0"
+    }
+  },
+  "tool_access_passed": true,
+  "native_release_checks": 26,
+  "pinch_checks": 26,
+  "pitches_mm": [
+    330.2,
+    304.8
+  ],
+  "green_reference": "8478fc8425a6028588baebe45d4bf56435b6547d",
+  "scope": "Matched metric and Torx review geometry; unchanged green inch body. Torx round sockets use provisional tip diameters and do not lock handle rotation. Unsliced; physical fit, whole-holder installation and loads unqualified."
+}

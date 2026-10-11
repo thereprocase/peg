@@ -1,0 +1,12 @@
+{
+  "filename": "HX05B_13189_matched_v1.FCStd",
+  "valid_single_solid": true,
+  "restored_features": 49,
+  "guide_increment_mm": 1,
+  "handle_roll_increment_degrees": 2,
+  "round_diameter_increment_mm": null,
+  "fixed_mount_unchanged": true,
+  "edited_volume_mm3": 2132225.652930042,
+  "freecad": "1.1.3",
+  "fresh_process_reopen_and_execute_passed": true
+}

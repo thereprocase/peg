@@ -2302,5 +2302,17 @@
   "HX05C_13190_parametric_v1_bundle.zip": {
     "bytes": 14928368,
     "sha256": "e4d8f92f1258508c0e43bb712046fe803f8e5197dae5b418ae712e2f814eefd4"
+  },
+  "HX05AB_matched_fans_v1_bundle.zip": {
+    "bytes": 21421329,
+    "sha256": "b83671646c74199369a082f75b5ea8902fa7f6171a4dfc4ea46db3dfbec86c40"
+  },
+  "HX05B_13189_matched_v1.FCStd": {
+    "bytes": 9497727,
+    "sha256": "308d61c72060c563b4b53b96a4834692cecca852deece0022f7db7bee837da22"
+  },
+  "HX05A_33034_matched_v1.FCStd": {
+    "bytes": 8024128,
+    "sha256": "3a9b0803d057d2e2bd280a44cecd23d718322c9636c504ad9af6b8ce703f03f0"
   }
 }

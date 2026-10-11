@@ -1,0 +1,252 @@
+{
+  "passed": true,
+  "fits_256mm_bed_with_3mm_margin": true,
+  "minimum_required_upward_degrees": 10.0,
+  "gravity_checks": [
+    {
+      "rack": "HX05C",
+      "tool": "9/64",
+      "upward_elevation_degrees": 69.83272670311236,
+      "out_of_board_plane_degrees": 18.77073776063648
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/32",
+      "upward_elevation_degrees": 63.09490124439692,
+      "out_of_board_plane_degrees": 18.83372342980672
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/16",
+      "upward_elevation_degrees": 54.509793353006735,
+      "out_of_board_plane_degrees": 18.96766990790256
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/32",
+      "upward_elevation_degrees": 44.39387652419391,
+      "out_of_board_plane_degrees": 19.63143535310104
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/4",
+      "upward_elevation_degrees": 33.97545673896101,
+      "out_of_board_plane_degrees": 20.158083852159375
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/16",
+      "upward_elevation_degrees": 23.14895730907,
+      "out_of_board_plane_degrees": 20.560147250616083
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/8",
+      "upward_elevation_degrees": 10.500000000000002,
+      "out_of_board_plane_degrees": 21.095134013707032
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/32",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.536959032815489
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/64",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.53695903281549
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/8",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.536959032815487
+    },
+    {
+      "rack": "HX05B",
+      "tool": "4",
+      "upward_elevation_degrees": 69.83272670311234,
+      "out_of_board_plane_degrees": 18.77073776063648
+    },
+    {
+      "rack": "HX05B",
+      "tool": "5",
+      "upward_elevation_degrees": 58.92753562992137,
+      "out_of_board_plane_degrees": 18.981869944064623
+    },
+    {
+      "rack": "HX05B",
+      "tool": "6",
+      "upward_elevation_degrees": 44.39387652419391,
+      "out_of_board_plane_degrees": 19.631435353101043
+    },
+    {
+      "rack": "HX05B",
+      "tool": "8",
+      "upward_elevation_degrees": 28.56623811633814,
+      "out_of_board_plane_degrees": 20.457023084334867
+    },
+    {
+      "rack": "HX05B",
+      "tool": "10",
+      "upward_elevation_degrees": 10.5,
+      "out_of_board_plane_degrees": 21.09513401370703
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.536959032815489
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2.5",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.53695903281549
+    },
+    {
+      "rack": "HX05B",
+      "tool": "3",
+      "upward_elevation_degrees": 43.28009361624242,
+      "out_of_board_plane_degrees": 11.536959032815485
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T20",
+      "upward_elevation_degrees": 69.83272670311234,
+      "out_of_board_plane_degrees": 18.770737760636475
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T25",
+      "upward_elevation_degrees": 58.92753562992138,
+      "out_of_board_plane_degrees": 18.98186994406462
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T27",
+      "upward_elevation_degrees": 44.39387652419389,
+      "out_of_board_plane_degrees": 19.63143535310104
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T30",
+      "upward_elevation_degrees": 28.56623811633814,
+      "out_of_board_plane_degrees": 20.457023084334864
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T40",
+      "upward_elevation_degrees": 10.500000000000002,
+      "out_of_board_plane_degrees": 21.09513401370703
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T9",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.536959032815489
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T10",
+      "upward_elevation_degrees": 43.280093616242404,
+      "out_of_board_plane_degrees": 11.53695903281549
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T15",
+      "upward_elevation_degrees": 43.2800936162424,
+      "out_of_board_plane_degrees": 11.536959032815487
+    }
+  ],
+  "board_side_symmetric_difference_mm3": 0.0,
+  "reference_body_sha256": "10991a2baab015e02c230fa544ab6721a744cc4872c8a6e32f351e2b25fbc2c6",
+  "bed_plane_design_x_mm": -74.0000000000001,
+  "bed_contact_area_mm2": 14216.248734264884,
+  "bed_contact_area_cm2": 142.16248734264883,
+  "bed_yaw_degrees": 45,
+  "bed_size_mm": [
+    256,
+    256
+  ],
+  "print_bounds_mm": [
+    18.656987444940743,
+    237.34301255505926,
+    32.5399030647962,
+    223.4600969352038,
+    -1.7763568394002505e-15,
+    148.0000000000001
+  ],
+  "print_dimensions_mm": [
+    218.68602511011852,
+    190.92019387040762,
+    148.0000000000001
+  ],
+  "available_edge_margin_mm": 18.65698744494074,
+  "rotation": [
+    [
+      0.0,
+      0.7071067811865476,
+      -0.7071067811865475
+    ],
+    [
+      0.0,
+      0.7071067811865475,
+      0.7071067811865476
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "translation": [
+    28.356575705479955,
+    185.2537545976549,
+    74.0000000000001
+  ],
+  "cavity_checks": [
+    {
+      "tool": "T20",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T25",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T27",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T30",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T40",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T9",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T10",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    },
+    {
+      "tool": "T15",
+      "vent_probe_overlap_mm3": 0.0,
+      "entrance_clearance_probe_overlap_mm3": 0.0
+    }
+  ],
+  "scope": "Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review."
+}

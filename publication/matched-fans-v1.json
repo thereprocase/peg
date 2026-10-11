@@ -1,0 +1,162 @@
+{
+  "docs/gallery/key-fan/stacked/matched/HX05A-empty-hero.jpg": {
+    "bytes": 18271,
+    "sha256": "b96f117cef6cff50860dadb00ae71b6fabad3d92a865ee5278c54433b2ee9cd3"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05A-front.jpg": {
+    "bytes": 19503,
+    "sha256": "baaa536f5a9acf968fcc57642ad9f32aeb0d59e86b12f11172ab0521fe45499a"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05A-hero.jpg": {
+    "bytes": 22205,
+    "sha256": "7ef5061bd0c0dd591c373b6e58cb167ef95568c3c88e01b75ed56993eef6e637"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05A-plan.jpg": {
+    "bytes": 13434,
+    "sha256": "4a28281c198071de796f2f4ee1fad6c4f5f6d16f9f46e7b1b89ca2ee373ffe11"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05A-print-hero.jpg": {
+    "bytes": 17335,
+    "sha256": "71f564e7da38ba1c02df9ef0c5f208dfa1784139756b12050ee2c93bae9dd43e"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05B-empty-hero.jpg": {
+    "bytes": 17802,
+    "sha256": "2b5d8434d7e177fee411a6f7434e1c690435a97a56849147127d6cfc14579b6a"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05B-front.jpg": {
+    "bytes": 19411,
+    "sha256": "a663c9f6cae1de635a46921b024709037e147fce0cf09eda2f6037fe67e09aac"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05B-hero.jpg": {
+    "bytes": 20958,
+    "sha256": "b13e1eef4a1ee518f81efee426110cbc8f142df7b69fe040fd69223707633ce6"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05B-plan.jpg": {
+    "bytes": 13563,
+    "sha256": "fb96c06720b93fb2b48ec39d10a25ebe40a342d8c0147e066295c862c2cb0e8c"
+  },
+  "docs/gallery/key-fan/stacked/matched/HX05B-print-hero.jpg": {
+    "bytes": 18403,
+    "sha256": "aef704de0b0ea4672d61d397c692cc7914797b083ec8ed5c1d3ad90609cce5b5"
+  },
+  "docs/gallery/key-fan/stacked/matched/index.html": {
+    "bytes": 6662,
+    "sha256": "10a02355938a595fe4a8affbc2f24779312dd9533ea07ac8bbe095180eb977cc"
+  },
+  "docs/gallery/key-fan/stacked/matched/review.json": {
+    "bytes": 18822,
+    "sha256": "6d912ee5b8dbacd4a3a3efb4a14a8fa1869fbf7456427f7c0693c7ed516d932e"
+  },
+  "docs/gallery/key-fan/stacked/matched/stack-hero.jpg": {
+    "bytes": 33232,
+    "sha256": "9a945ab5a3224c81e07b8fd371162382e9f06496a5132f62b77a5831e06453c7"
+  },
+  "bench/reviews/matched-fans-v1/HX05A/build-check.json": {
+    "bytes": 1873,
+    "sha256": "ff392dc38690a55e112ff10277e072bb940e074c305b0d20ac2a5039c4cc94cc"
+  },
+  "bench/reviews/matched-fans-v1/HX05A/edit-check.json": {
+    "bytes": 358,
+    "sha256": "d5061a2a8b052c61dc0f18ae68f530bb4eb8ae033ab539a085c9798e66c2b100"
+  },
+  "bench/reviews/matched-fans-v1/HX05A/print-check.json": {
+    "bytes": 6540,
+    "sha256": "a1f315d808eafc295fb4ab7079b79b5c393afc7ea7e6f93dba0dd9b823b9f6d6"
+  },
+  "bench/reviews/matched-fans-v1/HX05B/build-check.json": {
+    "bytes": 1933,
+    "sha256": "931b67ca0a5a79325469e3cc8b8fa793188065a0af1c7067623b4113f492f152"
+  },
+  "bench/reviews/matched-fans-v1/HX05B/edit-check.json": {
+    "bytes": 358,
+    "sha256": "3b60c86e3eadd9741cb262d13137864ca98714261e03e0596e782417224d5493"
+  },
+  "bench/reviews/matched-fans-v1/HX05B/print-check.json": {
+    "bytes": 6515,
+    "sha256": "ca601cf3859d91e1f08c8a38172f71c5b78384788e0d34cbbbd8d0da6dd3d789"
+  },
+  "bench/reviews/matched-fans-v1/access.json": {
+    "bytes": 4920,
+    "sha256": "ae967e768c8431e9053dd4a3a98e212abb58e6802eeb38d9c647254c0105d327"
+  },
+  "bench/reviews/matched-fans-v1/layout.json": {
+    "bytes": 26759,
+    "sha256": "068dc05921ece1cbdc125e70d0c9c0d3606e9b94bc684c1638795f5ec477939f"
+  },
+  "bench/reviews/matched-fans-v1/native.json": {
+    "bytes": 40818,
+    "sha256": "78f3fdc2dd907a825a5822e0ca69f18b4f6b174840c4b3f5e4514a3745f7dbd5"
+  },
+  "bench/reviews/matched-fans-v1/pinch-check.json": {
+    "bytes": 6139,
+    "sha256": "2e1212d1299e8d0a3ee9eae950a4f4fa96802ba6e60f1b7d0ecea9c38fe278a0"
+  },
+  "bench/reviews/matched-fans-v1/setup-check.json": {
+    "bytes": 637,
+    "sha256": "7b8e96f7ec6b0bca9849bffa3b5fb1506f7a2ae5f0813a8fc5e74a1205783e83"
+  },
+  "bench/reviews/matched-fans-v1/spacing.json": {
+    "bytes": 1208,
+    "sha256": "1e1d957730c64cc00246d95de07878745b9df793f5f34d504ad5646796e0a77e"
+  },
+  "bench/reviews/matched-fans-v1/sweep-check.json": {
+    "bytes": 9616,
+    "sha256": "fb75275200ec48ab84eff3990f7881e4ad6bd042f72ff8b4e93843ce40a13db1"
+  },
+  "bench/source/matched_fans_v1/README.md": {
+    "bytes": 3672,
+    "sha256": "20bb89e0cae546c9cbd887ddaaa5c4b8e8df8a6060dee415d2dd6a486fc615b3"
+  },
+  "bench/source/matched_fans_v1/README.txt": {
+    "bytes": 3736,
+    "sha256": "3fd4e26edaefba2822de21be6b064a06460f47322a50cda4bc685db43f0924e6"
+  },
+  "bench/source/matched_fans_v1/SETUP_MATCHED_FANS.FCMacro": {
+    "bytes": 3518,
+    "sha256": "a6dce1afec3235327a274cd32e5ca4b3e152a539a3ca18c8147da8f4c6562566"
+  },
+  "bench/source/matched_fans_v1/arrange.py": {
+    "bytes": 2997,
+    "sha256": "0c31f3a759b6db2a268c0715891769124284b66dac89f074f669b92883e20083"
+  },
+  "bench/source/matched_fans_v1/create_document.py": {
+    "bytes": 10955,
+    "sha256": "4bf57cb4bea3539e8b55a9a2121c32e74dbfaba17101449a5bae3d4149294346"
+  },
+  "bench/source/matched_fans_v1/export.py": {
+    "bytes": 3014,
+    "sha256": "b0999c83ab084c8228be43ab36c36bf1e878b0a940e2a5c65bc7523210f4e548"
+  },
+  "bench/source/matched_fans_v1/hx05_family.py": {
+    "bytes": 11263,
+    "sha256": "faeee704b39c9592e507d397f96f3d9bc129d3c19444663da9d955564c182ded"
+  },
+  "bench/source/matched_fans_v1/pinch.py": {
+    "bytes": 3025,
+    "sha256": "fb5b2123b2578d82f599993b0b7bd0ed0d94d807bd72d0daea22d7f4bae6acd2"
+  },
+  "bench/source/matched_fans_v1/print_pose.py": {
+    "bytes": 4542,
+    "sha256": "b0c1b96378a685256481d9bda5309e057b29c05a1785ead5680a194d0c12ea74"
+  },
+  "bench/source/matched_fans_v1/publish.py": {
+    "bytes": 11189,
+    "sha256": "cd26984132de0bafd0b0925822e6f554013eba12b17d9fffcac50ce8ee215182"
+  },
+  "bench/source/matched_fans_v1/render.cjs": {
+    "bytes": 3459,
+    "sha256": "0bc4388cfb02cdc5c29a74b68ed6b58a9bd3a4c4592d6824c9a5d943225973f3"
+  },
+  "bench/source/matched_fans_v1/test_recompute.py": {
+    "bytes": 2113,
+    "sha256": "3890578e578bf03dd4a2350ff000c6b88108106194cf52671fbd2cc6f4d70ad0"
+  },
+  "bench/source/matched_fans_v1/test_reopen.py": {
+    "bytes": 757,
+    "sha256": "86f94dc7116df2e171112c62833db6a99d208bb89449052b7c20d24e58086753"
+  },
+  "bench/source/matched_fans_v1/test_setup.py": {
+    "bytes": 1546,
+    "sha256": "6f4bb0c1466c8c38423569b5a9d8f67417ade78b5aaefef2aac05d445745d05e"
+  }
+}
