@@ -1,0 +1,19 @@
+{
+  "restored_custom_features": 61,
+  "default_volume_mm3": 1972314.4833453072,
+  "edited_volume_mm3": 1981347.5292994443,
+  "edited_valid_single_solid": true,
+  "clearance_mm": 0.48,
+  "gusset_spread_mm": 13,
+  "vent_diameter_mm": 1.2,
+  "smallest_guide_mm": 65,
+  "largest_up_degrees": 11.5,
+  "handle_roll_increment_degrees": 5,
+  "sub_ten_degree_angle_rejected": true,
+  "board_side_symmetric_difference_mm3": 0.0,
+  "freecad_version": "1.1.3",
+  "dependencies": "FreeCAD + Python standard library only",
+  "edited_file": "EDIT_TEST.FCStd",
+  "second_process_reopen_passed": true,
+  "restored_generator_execute_passed": true
+}

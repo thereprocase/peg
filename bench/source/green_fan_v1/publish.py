@@ -37,3 +37,5 @@ for base in (D,R,ROOT/'bench/source/green_fan_v1'):
   if p.is_file() and '__pycache__' not in p.parts:receipts[str(p.relative_to(ROOT))]=dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())
 (ROOT/'publication/green-fan-v1-review.json').write_text(json.dumps(receipts,indent=2)+'\n')
 print('Published local green review',len(receipts),'files;',sum(p.stat().st_size for p in D.iterdir()),'site bytes')
+import runpy
+runpy.run_path(str(ROOT/'bench/source/hx05_parametric_v1/publish_download.py'))['install'](ROOT)

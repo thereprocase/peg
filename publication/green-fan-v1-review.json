@@ -20,12 +20,16 @@
     "sha256": "42d7fd436a274172215c90cc84bc478c4413b8ca7c0486c22af4bad7dd4c9ffa"
   },
   "docs/gallery/key-fan/stacked/green/index.html": {
-    "bytes": 6612,
-    "sha256": "c148594239af89f16ad565ee7279060db9cefdbd2e13972d3e35ef5650dbf9f4"
+    "bytes": 8039,
+    "sha256": "9243d6dda2504672b55f05993ebe82ed7dc7be6390da7e31e2f55a0487a4bc01"
+  },
+  "docs/gallery/key-fan/stacked/green/parametric.json": {
+    "bytes": 2363,
+    "sha256": "bb2687b3ad0b41efe9eb786f6b6f00f1bb4d38406f653e7e7bfe7d3ba6cfc474"
   },
   "docs/gallery/key-fan/stacked/green/review.json": {
     "bytes": 45012,
-    "sha256": "4fad6d91b7fc48cc1b6aa9a9e1d597079b3d73f305bed9b6aa321ea4d042936f"
+    "sha256": "574081a90f2866f6a28a53fff5fdde69765f954a08a9f4c27b9dbd9bb956fac7"
   },
   "docs/gallery/key-fan/stacked/green/stack-hero.jpg": {
     "bytes": 62645,
@@ -96,8 +100,8 @@
     "sha256": "9168109c0d9a4482ad050d31d761929a404b8ea0606570e3adffd110b1b8c046"
   },
   "bench/source/green_fan_v1/publish.py": {
-    "bytes": 9993,
-    "sha256": "95efbe2ee7b27e78b2afeb6e0d3ae97d325ecc2f104f91e57cdcf84d913e5cc1"
+    "bytes": 10103,
+    "sha256": "c85fa505239df9ea600c0804140aed9e5f6dbadced0c93a8fe20dec15b6ff647"
   },
   "bench/source/green_fan_v1/reference-layout.json": {
     "bytes": 24849,

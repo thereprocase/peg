@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "solids": 1,
+  "volume_mm3": 1972314.4833453074,
+  "reference_volume_mm3": 1972314.4833563056,
+  "symmetric_difference_mm3": 0.0,
+  "objects": 81,
+  "native_booleans": 11,
+  "robust_socket_cuts": 10,
+  "parameter_sheets": 2,
+  "feature_module": "hx05_parametric.py",
+  "reference_commit": "9a9e69581e6b9389d27edd8eb4484b41f02f2abd",
+  "scope": "Default native shape equivalence; edited layouts need renewed clearance and printing checks."
+}

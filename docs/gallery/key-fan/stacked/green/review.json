@@ -1586,7 +1586,7 @@
     "bench/source/green_fan_v1/empty.py": "888b9a74649b985eed7a8c9c2db91cf0be81fc06d40552ce118069508296ece6",
     "bench/source/green_fan_v1/pinch.py": "146c8fcc469cd0bb553c7e5009fcd1c1153fb18e048566b15a8c282507e585ec",
     "bench/source/green_fan_v1/print_pose.py": "9168109c0d9a4482ad050d31d761929a404b8ea0606570e3adffd110b1b8c046",
-    "bench/source/green_fan_v1/publish.py": "95efbe2ee7b27e78b2afeb6e0d3ae97d325ecc2f104f91e57cdcf84d913e5cc1",
+    "bench/source/green_fan_v1/publish.py": "c85fa505239df9ea600c0804140aed9e5f6dbadced0c93a8fe20dec15b6ff647",
     "bench/source/green_fan_v1/reference-layout.json": "3bc1e210ed6da6dec8744d8ec6be32d0b584033a86b87d1f83f1d632e3196498",
     "bench/source/green_fan_v1/render.cjs": "3018d90411fd1e3e0ab29ae24df0ddd169c2d146d59ec05ca549e61c3b7a628d",
     "bench/source/green_fan_v1/strength.py": "d8b75d7b4394f73b879e33b6509d3ce474eee8dd7a83fbd1c867563c19db0867",

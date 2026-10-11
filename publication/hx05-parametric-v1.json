@@ -1,0 +1,46 @@
+{
+  "bench/source/hx05_parametric_v1/README.txt": {
+    "bytes": 4305,
+    "sha256": "471db7d84710a04cc8f6c0ae9db29376ad85f97abe24f1ca6bd7bda494c54418"
+  },
+  "bench/source/hx05_parametric_v1/SETUP_HX05.FCMacro": {
+    "bytes": 3350,
+    "sha256": "1d84f66878316136ba3a5232101a4c9644796ddb43b0b4acdb3741f9c107fa71"
+  },
+  "bench/source/hx05_parametric_v1/create_document.py": {
+    "bytes": 10526,
+    "sha256": "798463b8b6bbcf8e509782e0535a9bad4b675b97aee5d801e39b1694c5418e41"
+  },
+  "bench/source/hx05_parametric_v1/hx05_parametric.py": {
+    "bytes": 10618,
+    "sha256": "7b3d374b893a648b8ee651dcd180d87a11332424d7408a122ce65dffd6fa0222"
+  },
+  "bench/source/hx05_parametric_v1/package.py": {
+    "bytes": 3221,
+    "sha256": "25c33af33bac1c24e90eb9ff8d1a05d3cd74e693ffada1bba7c08577a8ac2a13"
+  },
+  "bench/source/hx05_parametric_v1/publish_download.py": {
+    "bytes": 2273,
+    "sha256": "14e5e6435d3ef3d1e24beb1a35775243fb5874ab970ce918ef52be75e9e2b2d0"
+  },
+  "bench/source/hx05_parametric_v1/test_document.py": {
+    "bytes": 2962,
+    "sha256": "e713f3d4ced2679e8b285dd5f3bf71f752c296ba14cb5f42b264ea90a2daa773"
+  },
+  "bench/source/hx05_parametric_v1/test_reopen.py": {
+    "bytes": 1023,
+    "sha256": "2dc81e473845aabb3636a756fb24ac9bca888239b3494df119a3c5d9ba52b2da"
+  },
+  "bench/reviews/hx05-parametric-v1/build-check.json": {
+    "bytes": 462,
+    "sha256": "46a3fda9aeb0c51a167126ee64b95753ac025b3ba09eb6c6f5de7406abfe8cff"
+  },
+  "bench/reviews/hx05-parametric-v1/edit-check.json": {
+    "bytes": 631,
+    "sha256": "e4c1443713291bab1f7e303e47e9a6fbd51d3c66f1ec5ffd3d74cdc9e457ccd9"
+  },
+  "bench/reviews/hx05-parametric-v1/setup-check.json": {
+    "bytes": 253,
+    "sha256": "3f2c925c008104637e37ef1ae6f7efd7c692d4f3e46429e0e9bdcfd5b0b65508"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "release": "hx05-parametric-v1-2026-10-10",
+  "bundle_url": "https://github.com/thereprocase/peg/releases/download/hx05-parametric-v1-2026-10-10/HX05C_13190_parametric_v1_bundle.zip",
+  "fcstd_url": "https://github.com/thereprocase/peg/releases/download/hx05-parametric-v1-2026-10-10/HX05C_13190_parametric_v1.FCStd",
+  "assets": {
+    "HX05C_13190_parametric_v1.FCStd": {
+      "bytes": 15352656,
+      "sha256": "82a7c002d77fc7d9f99e3c4c224f64ad4a8e3e5b103e6c8bba57729fdc5d14bf"
+    },
+    "HX05C_13190_parametric_v1_bundle.zip": {
+      "bytes": 14928368,
+      "sha256": "e4d8f92f1258508c0e43bb712046fe803f8e5197dae5b418ae712e2f814eefd4"
+    }
+  },
+  "checks": {
+    "build-check": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1972314.4833453074,
+      "reference_volume_mm3": 1972314.4833563056,
+      "symmetric_difference_mm3": 0.0,
+      "objects": 81,
+      "native_booleans": 11,
+      "robust_socket_cuts": 10,
+      "parameter_sheets": 2,
+      "feature_module": "hx05_parametric.py",
+      "reference_commit": "9a9e69581e6b9389d27edd8eb4484b41f02f2abd",
+      "scope": "Default native shape equivalence; edited layouts need renewed clearance and printing checks."
+    },
+    "edit-check": {
+      "restored_custom_features": 61,
+      "default_volume_mm3": 1972314.4833453072,
+      "edited_volume_mm3": 1981347.5292994443,
+      "edited_valid_single_solid": true,
+      "clearance_mm": 0.48,
+      "gusset_spread_mm": 13,
+      "vent_diameter_mm": 1.2,
+      "smallest_guide_mm": 65,
+      "largest_up_degrees": 11.5,
+      "handle_roll_increment_degrees": 5,
+      "sub_ten_degree_angle_rejected": true,
+      "board_side_symmetric_difference_mm3": 0.0,
+      "freecad_version": "1.1.3",
+      "dependencies": "FreeCAD + Python standard library only",
+      "edited_file": "EDIT_TEST.FCStd",
+      "second_process_reopen_passed": true,
+      "restored_generator_execute_passed": true
+    },
+    "setup-check": {
+      "setup_macro_passed": true,
+      "installed_module_restored": true,
+      "spreadsheet_editor_opened": true,
+      "final_holder_visible": true,
+      "freecad_version": "1.1.3",
+      "platform": "Linux offscreen Qt; Windows and 3D viewport interaction not tested"
+    }
+  },
+  "scope": "Selected green Bondhus 13190 inch rack; rear mount fixed; edited geometry needs renewed clearance and print review."
+}

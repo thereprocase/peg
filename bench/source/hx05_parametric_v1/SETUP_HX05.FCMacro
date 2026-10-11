@@ -1,0 +1,67 @@
+"""Run once in FreeCAD: install the bundled generator and open the document."""
+from pathlib import Path
+import sys,shutil,importlib
+import FreeCAD as App
+import FreeCADGui as Gui
+
+bundle=Path(globals().get('__file__','')).resolve().parent
+if not (bundle/'hx05_parametric.py').is_file():
+    try:
+        from PySide import QtWidgets
+    except ImportError:
+        try:
+            from PySide6 import QtWidgets
+        except ImportError:
+            from PySide2 import QtWidgets
+    chosen=QtWidgets.QFileDialog.getExistingDirectory(None,'Select the extracted HX05 parametric bundle')
+    if not chosen:
+        raise RuntimeError('Setup cancelled; no files changed')
+    bundle=Path(chosen)
+source=bundle/'hx05_parametric.py'
+model=bundle/'HX05C_13190_parametric_v1.FCStd'
+if not source.is_file() or not model.is_file():
+    raise RuntimeError('Extract the complete ZIP first; the macro, module and FCStd must be together')
+module_dir=Path(App.getUserAppDataDir())/'Mod'/'HX05Parametric'
+module_dir.mkdir(parents=True,exist_ok=True)
+destination=module_dir/source.name
+if destination.exists() and destination.read_bytes()!=source.read_bytes():
+    shutil.copy2(destination,module_dir/'hx05_parametric.previous.py')
+shutil.copy2(source,destination)
+(module_dir/'Init.py').write_text('import os,sys,FreeCAD\np=os.path.join(FreeCAD.getUserAppDataDir(),"Mod","HX05Parametric")\nif p not in sys.path: sys.path.insert(0,p)\nimport hx05_parametric\n',encoding='utf-8')
+if str(module_dir) not in sys.path:
+    sys.path.insert(0,str(module_dir))
+module=importlib.import_module('hx05_parametric')
+if Path(module.__file__).resolve()!=destination.resolve():
+    del sys.modules['hx05_parametric']
+    module=importlib.import_module('hx05_parametric')
+else:
+    module=importlib.reload(module)
+opened=next((d for d in App.listDocuments().values() if d.FileName and Path(d.FileName).resolve()==model.resolve()),None)
+doc=opened or App.openDocument(str(model))
+# Also repair proxies if the owner opened the FCStd before running setup.
+needs_recompute=False
+for obj in doc.Objects:
+    if hasattr(obj,'Kind') and hasattr(obj,'LastError'):
+        if not isinstance(obj.Proxy,module.Generator):
+            module.Generator(obj)
+            needs_recompute=True
+        if obj.ViewObject: obj.ViewObject.Proxy=0
+    if obj.isDerivedFrom('Part::Feature') and obj.ViewObject:
+        obj.ViewObject.Visibility=obj.Name=='FinalHolder'
+        color=(.20,.58,.52) if obj.Name=='FinalHolder' else (.55,.60,.64)
+        if 'ShapeAppearance' in obj.ViewObject.PropertiesList:
+            materials=obj.ViewObject.ShapeAppearance
+            for material in materials: material.DiffuseColor=color
+            obj.ViewObject.ShapeAppearance=materials
+        else:
+            obj.ViewObject.ShapeColor=color
+        obj.ViewObject.DisplayMode='Flat Lines'
+if needs_recompute:
+    doc.recompute()
+errors=[obj.Name for obj in doc.Objects if 'Invalid' in obj.State or getattr(obj,'LastError','')]
+if errors:
+    raise RuntimeError('Document contains failed features: '+', '.join(errors))
+App.setActiveDocument(doc.Name)
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+App.Console.PrintMessage('HX05 is ready. Edit yellow cells in 01_GlobalParameters or 02_KeyLayout; press F5 to recompute. Save As to keep a personal copy.\n')
