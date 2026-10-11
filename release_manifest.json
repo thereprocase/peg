@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3326,
-  "total_size_bytes": 1210657406,
+  "file_count": 3338,
+  "total_size_bytes": 1210741427,
   "files": [
     {
       "path": ".gitattributes",
@@ -2462,6 +2462,26 @@
       "sha256": "fb75275200ec48ab84eff3990f7881e4ad6bd042f72ff8b4e93843ce40a13db1"
     },
     {
+      "path": "bench/reviews/matched-fans-xray-v1/assets.json",
+      "size_bytes": 708,
+      "sha256": "dad3c8de0351eac2fa69cd2102dee0f80c38baab9db9e89e2bbf18bdd970430f"
+    },
+    {
+      "path": "bench/reviews/matched-fans-xray-v1/export-check.json",
+      "size_bytes": 1220,
+      "sha256": "6f2b36aa45e605dbe5aeca935f4e650c4fba23536e21140c71bae00c7b89e380"
+    },
+    {
+      "path": "bench/reviews/matched-fans-xray-v1/step-check.json",
+      "size_bytes": 1604,
+      "sha256": "c7f1b6f93202872d8c729fce1152e5783890bbbed1d61a9d05ae2a025d8869f0"
+    },
+    {
+      "path": "bench/reviews/matched-fans-xray-v1/surface-check.json",
+      "size_bytes": 193,
+      "sha256": "b391d0d4171d7ca9459cd5a21ebe825e0ae6f86b09ef67ec6b1c5ff32f46abb9"
+    },
+    {
       "path": "bench/reviews/peg-connectors-v1/BUILD.json",
       "size_bytes": 12008,
       "sha256": "5e2f552fecbc349d2000cc9b8a4da7aceeb32027cabb42c0fabec69596bb35d9"
@@ -4738,8 +4758,8 @@
     },
     {
       "path": "bench/source/matched_fans_v1/publish.py",
-      "size_bytes": 11189,
-      "sha256": "cd26984132de0bafd0b0925822e6f554013eba12b17d9fffcac50ce8ee215182"
+      "size_bytes": 11290,
+      "sha256": "436319fa599a98916399678ce3dbb3199c6966a9649b1396a03c5187fbd5b569"
     },
     {
       "path": "bench/source/matched_fans_v1/render.cjs",
@@ -4760,6 +4780,36 @@
       "path": "bench/source/matched_fans_v1/test_setup.py",
       "size_bytes": 1546,
       "sha256": "6f4bb0c1466c8c38423569b5a9d8f67417ade78b5aaefef2aac05d445745d05e"
+    },
+    {
+      "path": "bench/source/matched_fans_xray_v1/README.md",
+      "size_bytes": 1212,
+      "sha256": "78b4e6bbc1fa06b8ed1e4aa8bfb0518fd8b3e4b17b782300c81a32ed176f4613"
+    },
+    {
+      "path": "bench/source/matched_fans_xray_v1/check_steps.py",
+      "size_bytes": 973,
+      "sha256": "6ac847b7fd8eccd73c56b5e5be5d751b8c0a34df3c75310e100ae88b831f4ee9"
+    },
+    {
+      "path": "bench/source/matched_fans_xray_v1/check_surfaces.py",
+      "size_bytes": 1220,
+      "sha256": "1093ae192463a2d436d1b9a0c30ea7e7127c3b9072fecee703965a40ae2e0457"
+    },
+    {
+      "path": "bench/source/matched_fans_xray_v1/export_steps.py",
+      "size_bytes": 1722,
+      "sha256": "dad7d0aaa0dcd14734185bbf3b557a2c8ab651da14cb50330b00a1b2dfe51523"
+    },
+    {
+      "path": "bench/source/matched_fans_xray_v1/publish.py",
+      "size_bytes": 3901,
+      "sha256": "bdfc1243cac0782bb068ebf08ef2480629215e696339a3efe828573e7674296d"
+    },
+    {
+      "path": "bench/source/matched_fans_xray_v1/render.py",
+      "size_bytes": 3740,
+      "sha256": "6f8f628c098be9827bf2ddf948f0640bdaa3a6aee1542a577c1485615f3bf6c2"
     },
     {
       "path": "bench/source/peg_connectors_v1/build.py",
@@ -11047,9 +11097,14 @@
       "sha256": "aef704de0b0ea4672d61d397c692cc7914797b083ec8ed5c1d3ad90609cce5b5"
     },
     {
+      "path": "docs/gallery/key-fan/stacked/matched/front-xray.webp",
+      "size_bytes": 61382,
+      "sha256": "0257ff342108d57e2d1fb5694fc9b5762d94e7da3855286d993cfd9644253888"
+    },
+    {
       "path": "docs/gallery/key-fan/stacked/matched/index.html",
-      "size_bytes": 6662,
-      "sha256": "10a02355938a595fe4a8affbc2f24779312dd9533ea07ac8bbe095180eb977cc"
+      "size_bytes": 8230,
+      "sha256": "9b1285779f8a83950f9a342f3a9199d1f1a220fb93fff81ec41db14cb12aa6cf"
     },
     {
       "path": "docs/gallery/key-fan/stacked/matched/review.json",
@@ -13008,8 +13063,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 145868,
-      "sha256": "c698c2b6a228e6573c6fdadb1dd78439c8b298b12c05db809688c992f38d87fd"
+      "size_bytes": 146616,
+      "sha256": "0a1d7c77931e02241f50d9206ff4072ed6623d75e6773c983e58fcc7daa5374a"
     },
     {
       "path": "docs/gallery/research.html",
@@ -15833,8 +15888,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 11119,
-      "sha256": "193467dd68d475ae321d893f8746117ee7457f3dc423af3ac90e14783c820b3c"
+      "size_bytes": 11534,
+      "sha256": "143797598eee74a90f6da8b90a2ff901845e53eaf269a0e1d267101d38b791f7"
     },
     {
       "path": "publication/add_cascade_to_collection.py",
@@ -15963,8 +16018,13 @@
     },
     {
       "path": "publication/matched-fans-v1.json",
-      "size_bytes": 6418,
-      "sha256": "4a9c235f00b2ba816fe7c3ec6555db0e06b128f5f1fe46f55e4239446db2ae20"
+      "size_bytes": 6584,
+      "sha256": "819269e46c1fa19d385500d9d40836ba08ee584055f5a0b4f94e2157ee2b76d8"
+    },
+    {
+      "path": "publication/matched-fans-xray-v1.json",
+      "size_bytes": 1775,
+      "sha256": "0ad1c537640a20cda3523b6723190e0d6de15121aa01ed2138c388ccbc002224"
     },
     {
       "path": "publication/mh01-mh04-shaft-holders-v1-additions.json",
@@ -16063,13 +16123,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 103662,
-      "sha256": "3172c7c0ea63d42253fd953862a16c6d756952925551d13f7a3a0b3e533e41d9"
+      "size_bytes": 104271,
+      "sha256": "0494f7d146091fafea2d2b607697cc4682f912706bca4c2f55cdcf7e7ce97e79"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 147799,
-      "sha256": "6eaa3ee2d1bf0eefa10c7c5e8cb717b91c282628ec740dd877debab09201a0dd"
+      "size_bytes": 148563,
+      "sha256": "7e602c69def3ff8479d7b9e1104eb0a9c783de9110e1be0584fff0aafcc667f6"
     },
     {
       "path": "publication/render_final_racks.cjs",

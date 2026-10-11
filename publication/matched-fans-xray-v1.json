@@ -1,0 +1,46 @@
+{
+  "bench/reviews/matched-fans-xray-v1/assets.json": {
+    "bytes": 708,
+    "sha256": "dad3c8de0351eac2fa69cd2102dee0f80c38baab9db9e89e2bbf18bdd970430f"
+  },
+  "bench/reviews/matched-fans-xray-v1/export-check.json": {
+    "bytes": 1220,
+    "sha256": "6f2b36aa45e605dbe5aeca935f4e650c4fba23536e21140c71bae00c7b89e380"
+  },
+  "bench/reviews/matched-fans-xray-v1/step-check.json": {
+    "bytes": 1604,
+    "sha256": "c7f1b6f93202872d8c729fce1152e5783890bbbed1d61a9d05ae2a025d8869f0"
+  },
+  "bench/reviews/matched-fans-xray-v1/surface-check.json": {
+    "bytes": 193,
+    "sha256": "b391d0d4171d7ca9459cd5a21ebe825e0ae6f86b09ef67ec6b1c5ff32f46abb9"
+  },
+  "bench/source/matched_fans_xray_v1/README.md": {
+    "bytes": 1212,
+    "sha256": "78b4e6bbc1fa06b8ed1e4aa8bfb0518fd8b3e4b17b782300c81a32ed176f4613"
+  },
+  "bench/source/matched_fans_xray_v1/check_steps.py": {
+    "bytes": 973,
+    "sha256": "6ac847b7fd8eccd73c56b5e5be5d751b8c0a34df3c75310e100ae88b831f4ee9"
+  },
+  "bench/source/matched_fans_xray_v1/check_surfaces.py": {
+    "bytes": 1220,
+    "sha256": "1093ae192463a2d436d1b9a0c30ea7e7127c3b9072fecee703965a40ae2e0457"
+  },
+  "bench/source/matched_fans_xray_v1/export_steps.py": {
+    "bytes": 1722,
+    "sha256": "dad7d0aaa0dcd14734185bbf3b557a2c8ab651da14cb50330b00a1b2dfe51523"
+  },
+  "bench/source/matched_fans_xray_v1/publish.py": {
+    "bytes": 3901,
+    "sha256": "bdfc1243cac0782bb068ebf08ef2480629215e696339a3efe828573e7674296d"
+  },
+  "bench/source/matched_fans_xray_v1/render.py": {
+    "bytes": 3740,
+    "sha256": "6f8f628c098be9827bf2ddf948f0640bdaa3a6aee1542a577c1485615f3bf6c2"
+  },
+  "docs/gallery/key-fan/stacked/matched/front-xray.webp": {
+    "bytes": 61382,
+    "sha256": "0257ff342108d57e2d1fb5694fc9b5762d94e7da3855286d993cfd9644253888"
+  }
+}

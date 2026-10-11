@@ -40,8 +40,8 @@
     "sha256": "aef704de0b0ea4672d61d397c692cc7914797b083ec8ed5c1d3ad90609cce5b5"
   },
   "docs/gallery/key-fan/stacked/matched/index.html": {
-    "bytes": 6662,
-    "sha256": "10a02355938a595fe4a8affbc2f24779312dd9533ea07ac8bbe095180eb977cc"
+    "bytes": 8230,
+    "sha256": "9b1285779f8a83950f9a342f3a9199d1f1a220fb93fff81ec41db14cb12aa6cf"
   },
   "docs/gallery/key-fan/stacked/matched/review.json": {
     "bytes": 18822,
@@ -140,8 +140,8 @@
     "sha256": "b0c1b96378a685256481d9bda5309e057b29c05a1785ead5680a194d0c12ea74"
   },
   "bench/source/matched_fans_v1/publish.py": {
-    "bytes": 11189,
-    "sha256": "cd26984132de0bafd0b0925822e6f554013eba12b17d9fffcac50ce8ee215182"
+    "bytes": 11290,
+    "sha256": "436319fa599a98916399678ce3dbb3199c6966a9649b1396a03c5187fbd5b569"
   },
   "bench/source/matched_fans_v1/render.cjs": {
     "bytes": 3459,
@@ -158,5 +158,9 @@
   "bench/source/matched_fans_v1/test_setup.py": {
     "bytes": 1546,
     "sha256": "6f4bb0c1466c8c38423569b5a9d8f67417ade78b5aaefef2aac05d445745d05e"
+  },
+  "docs/gallery/key-fan/stacked/matched/front-xray.webp": {
+    "bytes": 61382,
+    "sha256": "0257ff342108d57e2d1fb5694fc9b5762d94e7da3855286d993cfd9644253888"
   }
 }

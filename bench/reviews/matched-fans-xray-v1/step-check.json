@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "filename": "HX05A_33034_matched_v1_left_tip_print.step",
+      "sha256": "e5ad4f7219f28858a04077dc6f1442e8b7b860d88aa1c13bc06322266c5fddd4",
+      "bytes": 2813309,
+      "valid_single_solid": true,
+      "volume_mm3": 1240037.7008612526,
+      "print_dimensions_mm": [
+        218.68602531011788,
+        190.920194070404,
+        148.0000002
+      ],
+      "bed_clearance_mm": 18.656987344939612,
+      "bottom_z_mm": -1.000000042049697e-07
+    },
+    {
+      "filename": "HX05B_13189_matched_v1_left_tip_print.step",
+      "sha256": "1bf2a7d1436803386df930679464a499e1ae0aefb9b56ec238378e99bed738ec",
+      "bytes": 2652145,
+      "valid_single_solid": true,
+      "volume_mm3": 2127488.758651799,
+      "print_dimensions_mm": [
+        249.567538590863,
+        220.36435105023395,
+        196.00000000001157
+      ],
+      "bed_clearance_mm": 3.216230704567,
+      "bottom_z_mm": -1.1567635738174431e-11
+    },
+    {
+      "filename": "HX05C_13190_green_v3_left_tip_print.step",
+      "sha256": "7785c2146f8802c206686e581da0680f0831083c063b3439a9e442cfd91d76fd",
+      "bytes": 4955525,
+      "valid_single_solid": true,
+      "volume_mm3": 1972482.8822524229,
+      "print_dimensions_mm": [
+        242.7949240519378,
+        213.20724798273,
+        216.0000002
+      ],
+      "bed_clearance_mm": 6.6025379740297,
+      "bottom_z_mm": -1.0000000199840144e-07
+    }
+  ],
+  "scope": "Reloaded print-oriented STEP solids, nominal unscaled 256 mm bed coordinates. No slice, brim, compensation, support or physical qualification.",
+  "freecad": "1.1.3"
+}

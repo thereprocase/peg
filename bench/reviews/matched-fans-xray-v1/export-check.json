@@ -1,0 +1,29 @@
+{
+  "models": [
+    {
+      "id": "HX05C",
+      "native_brep_sha256": "36606f8abe08f26cef3efed2fcc80760e63ccc046ca28f0269f8e779afa89516",
+      "rational_surface_conversion": true,
+      "maximum_bound_delta_mm": 1.000011851104432e-07,
+      "native_volume_mm3": 1972314.4833563068,
+      "step_volume_mm3": 1972482.8822524229
+    },
+    {
+      "id": "HX05B",
+      "native_brep_sha256": "6be71758dff03b3f1058fdc1c7b146955d4f4039ef70032f769a7fa3145e2047",
+      "rational_surface_conversion": false,
+      "maximum_bound_delta_mm": 1.1539214028744027e-11,
+      "native_volume_mm3": 2127488.6328822873,
+      "step_volume_mm3": 2127488.758651799
+    },
+    {
+      "id": "HX05A",
+      "native_brep_sha256": "8752b9ce8f49a496bd471d8b04d79c448442fbe8088b526ebcfacd801e1adacf",
+      "rational_surface_conversion": true,
+      "maximum_bound_delta_mm": 1.0000117711683743e-07,
+      "native_volume_mm3": 1239997.5412550997,
+      "step_volume_mm3": 1240037.7008612526
+    }
+  ],
+  "scope": "Same native print bodies. Inch and Torx surfaces are converted to rational B-splines for STEP interoperability. Reported volume differences include surface-integration differences; STEP reload validity and bounds are checked."
+}

@@ -47,6 +47,8 @@ The extended HX04 audit is separate from the immutable v2 geometry: `bench/sourc
 
 ## Final straight-socket racks
 
+The matched page’s `#front-xray` section contains the same-scale shaft projection and separate validated print-pose STEP downloads for all three sets. `bench/source/matched_fans_xray_v1` owns this overlay, rational-surface export workaround and reimport checks; `publish.py WORK RENDER_DIR` updates it. These STEP files supersede the earlier bundle STEP exports for printing. Native model geometry is unchanged.
+
 The green-family adaptations for 13189 metric and 33034 Torx live at `/gallery/key-fan/stacked/matched/`. `bench/source/matched_fans_v1` contains their direct-contact layout, portable FreeCAD feature module, native document builder, checks, installer and publisher. `publish.py BUILD` packages both editable documents with STEP/print-pose exports and receipts; publish its immutable release assets before main. Green inch geometry and its release stay unchanged. Torx round sockets remain provisional for full-shank fit and do not enforce the rendered handle rotation.
 
 The selected green Bondhus 13190 fan also has an editable native FreeCAD handoff at `/gallery/key-fan/stacked/green/#parametric`. `bench/source/hx05_parametric_v1` contains its stdlib-only feature module, one-time setup macro, document builder, edit/reopen tests and release packager. Two spreadsheet sheets drive the fan geometry; the approved rear mount stays fixed. `package.py WORK_DIR` packages tested files and receipts; the green publisher reapplies `publish_download.py` so the download section survives regeneration. CAD binaries remain immutable release assets. Parameter edits invalidate the previous layout/printing evidence.

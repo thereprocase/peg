@@ -1,0 +1,21 @@
+{
+  "release": "hx05-print-step-v1-2026-10-11",
+  "assets": {
+    "HX05C_13190_green_v3_left_tip_print.step": {
+      "bytes": 4955525,
+      "sha256": "7785c2146f8802c206686e581da0680f0831083c063b3439a9e442cfd91d76fd"
+    },
+    "HX05B_13189_matched_v1_left_tip_print.step": {
+      "bytes": 2652145,
+      "sha256": "1bf2a7d1436803386df930679464a499e1ae0aefb9b56ec238378e99bed738ec"
+    },
+    "HX05A_33034_matched_v1_left_tip_print.step": {
+      "bytes": 2813309,
+      "sha256": "e5ad4f7219f28858a04077dc6f1442e8b7b860d88aa1c13bc06322266c5fddd4"
+    },
+    "HX05_front_xray_v1.png": {
+      "bytes": 366043,
+      "sha256": "38416bdead8ac67093cda8ae8f16cf76128f2c1ab64ca254414b073216140161"
+    }
+  }
+}
