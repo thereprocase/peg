@@ -256,40 +256,60 @@
         "sha256": "06ce5861f3e95923989b62c8b4cbdf845054cb45c05e6349a3e659ce3a56e510"
       },
       "HX05C/body.brep": {
-        "bytes": 2922419,
-        "sha256": "e9c6aeebb22bbaae197c5c86fcaba35139a4babb0d2d2f93f8a9fbe1ddd8ac6d"
+        "bytes": 2799234,
+        "sha256": "69b1f96cd5fbcb17cc80f37080b9dfefe174e47675902e2dabdfe8222648eb34"
       },
       "HX05C/grips.brep": {
         "bytes": 130300,
         "sha256": "b65ef951485fab537304ef212cbc3f7bddbf12702fec74249d5d85f3e42e0e60"
       },
       "HX05C/holder.FCStd": {
-        "bytes": 579920,
-        "sha256": "63534ae9943659ee3316be222e4893120dec915e9e1092a683a9b50614ed02e1"
+        "bytes": 534611,
+        "sha256": "7a317570aebbc38703ddc7f265be28d60de87f32504c03d96cd5c1139994e2e3"
       },
       "HX05C/installed.step": {
-        "bytes": 2784576,
-        "sha256": "e220ffa335243eb481740f2d3053965ab22fb191affbc2a498eea09c372c83b0"
+        "bytes": 2656834,
+        "sha256": "2091be3118198fb0ea6277d960f05bd7958cfdb671ad1a4409f94162abf6388c"
       },
       "HX05C/installed.stl": {
-        "bytes": 2545084,
-        "sha256": "de7c2518dd0a51c5c3cddb03b8f364e8567a7347066563e6c12f9d23ee479327"
+        "bytes": 2529734,
+        "sha256": "8bf23207de552e074ae61ac20e9f08d2229fe6fbeeccd8d75c7e0a96aab0942c"
+      },
+      "HX05C/left-tip-print.brep": {
+        "bytes": 2987062,
+        "sha256": "d5121a56406c6cedb60d344376fa160e3eb50fc277c565703e93d1e85ad3e6c2"
+      },
+      "HX05C/left-tip-print.step": {
+        "bytes": 2908775,
+        "sha256": "54fdc2eb755e1160915b4e48bc7132d4988327f4690ef122c8510fec70b9c0bd"
+      },
+      "HX05C/left-tip-print.stl": {
+        "bytes": 2523134,
+        "sha256": "760108dfe66dc39d412625ac25934720937133e46dbcbafddc7f4d3de60195ff"
       },
       "HX05C/shafts.brep": {
         "bytes": 52301,
         "sha256": "787675e371cf6b90e4e6b9b567e34b681efa6e0d53b218ebd9e6860b47cb1890"
       },
+      "HX05C-empty.glb.gz": {
+        "bytes": 116063,
+        "sha256": "138bc90b46484e83def46f410a57c39eddd2e3ee19f489a962961cfcce76a94d"
+      },
+      "HX05C-print.glb.gz": {
+        "bytes": 121888,
+        "sha256": "8319000b6f129927b610f70d20b42935565e7a0a3dcc64d8ab84e5954c717a76"
+      },
       "HX05C.glb.gz": {
-        "bytes": 193650,
-        "sha256": "f0df4b2b287a7529389afa7aee25ed616efc72e9264064d1c373bf6954545c76"
+        "bytes": 192697,
+        "sha256": "aafff951ba93f83afbff762579290a3ef49af63a36788356e3c37e8235bb100b"
       },
       "empty-stack.glb.gz": {
-        "bytes": 353809,
-        "sha256": "f83c5c68c96db6cccad748f6a52aeec658c7891b39bdec10c375daa4d34dc9c1"
+        "bytes": 352519,
+        "sha256": "fd9270a6ce1859f2557a2c620f5ed0f4b32b821b6bc82b41ae7dcfb0dcaf4be7"
       },
       "stack.glb.gz": {
-        "bytes": 556886,
-        "sha256": "5c27d185d62af8d6cf8a9f7dbfdfd765b399309e0b50d21429122111a66d8506"
+        "bytes": 556084,
+        "sha256": "92de84325cc31c0cdea7f4fa49a9656fe1c898f074ee3188276aa20ba102bf4d"
       }
     },
     "construction_sources": {
@@ -392,12 +412,227 @@
       }
     ]
   },
+  "print_checks": {
+    "passed": true,
+    "board_side_symmetric_difference_mm3": 0.0,
+    "reference_body_sha256": "e9c6aeebb22bbaae197c5c86fcaba35139a4babb0d2d2f93f8a9fbe1ddd8ac6d",
+    "bed_plane_design_x_mm": -108.0,
+    "bed_contact_area_mm2": 16852.852274495326,
+    "bed_contact_area_cm2": 168.52852274495325,
+    "bed_yaw_degrees": 45,
+    "bed_size_mm": [
+      256,
+      256
+    ],
+    "print_bounds_mm": [
+      6.602538074030877,
+      249.3974619259691,
+      21.396376108630108,
+      234.6036238913699,
+      0.0,
+      216.0
+    ],
+    "print_dimensions_mm": [
+      242.79492385193822,
+      213.20724778273978,
+      216.0
+    ],
+    "available_edge_margin_mm": 6.602538074030877,
+    "rotation": [
+      [
+        0.0,
+        0.7071067811865476,
+        -0.7071067811865475
+      ],
+      [
+        0.0,
+        0.7071067811865475,
+        0.7071067811865476
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "translation": [
+      16.30212633457009,
+      196.24686403085542,
+      108.0
+    ],
+    "cavity_checks": [
+      {
+        "tool": "9/64",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "5/32",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "3/16",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "7/32",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "1/4",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "5/16",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "3/8",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "3/32",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "7/64",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      },
+      {
+        "tool": "1/8",
+        "vent_probe_overlap_mm3": 0.0,
+        "entrance_clearance_probe_overlap_mm3": 0.0
+      }
+    ],
+    "scope": "Native bed contact, pose, envelope, open entry and vent probes. Not a sliced or physically qualified print; peg undersides and bore bridges need toolpath review."
+  },
+  "slice_review": {
+    "nozzle_diameter": "0.4",
+    "layer_height": "0.2",
+    "filament_type": "ASA",
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_style": "organic",
+    "brim_width": "3",
+    "wall_loops": "4",
+    "sparse_infill_density": "35%",
+    "sparse_infill_pattern": "gyroid",
+    "archive_sha256": "95422257b060dbf8199bead368f206f95396a79f386de27c167260c29e639f0e",
+    "printer": "Bambu Lab P1S 0.4 nozzle",
+    "slicer": "OrcaSlicer 2.3.2",
+    "source_stl_sha256": "d402735c0c21645f51fa08f9d29a31fb3b4f52d8d85a460eb3c3151af36c3074",
+    "shrink_compensation_baked_scale": 1.0054293183189222,
+    "scope": "Review slice only. No printer job submitted. Machine settings and G-code remain private.",
+    "estimated_total_printing_time": "2d 9h 32m 6s",
+    "filament_used_g": 991.06,
+    "runtime_log_note": "Orca completed archive export with repeated Not precalculated Placeable areas diagnostics during organic support generation; support/contact review remains required."
+  },
+  "toolpath_screen": {
+    "gcode_sha256": "4420ba86f5aab6dd7b491065847972b73f33e4fa8b8da5da833805c058efb4a4",
+    "features": {
+      "Support": {
+        "moves": 720423,
+        "filament_mm": 62056.34023001161,
+        "maximum_path_length_mm": 69.29425086172883
+      },
+      "Brim": {
+        "moves": 807,
+        "filament_mm": 100.31832000000003,
+        "maximum_path_length_mm": 148.5122230390482
+      },
+      "Inner wall": {
+        "moves": 471349,
+        "filament_mm": 81519.41380001394,
+        "maximum_path_length_mm": 252.67046622033212
+      },
+      "Outer wall": {
+        "moves": 161924,
+        "filament_mm": 25242.64048999481,
+        "maximum_path_length_mm": 253.4977811539975
+      },
+      "Bottom surface": {
+        "moves": 1139,
+        "filament_mm": 1258.5229899999824,
+        "maximum_path_length_mm": 82.95776756880578
+      },
+      "Overhang wall": {
+        "moves": 4601,
+        "filament_mm": 342.80728000000335,
+        "maximum_path_length_mm": 72.18499584401181
+      },
+      "Internal solid infill": {
+        "moves": 269415,
+        "filament_mm": 21314.93630999543,
+        "maximum_path_length_mm": 250.5498528856084
+      },
+      "Sparse infill": {
+        "moves": 5603747,
+        "filament_mm": 210331.82625924327,
+        "maximum_path_length_mm": 9.659330825683504
+      },
+      "Support interface": {
+        "moves": 22667,
+        "filament_mm": 626.6690500000026,
+        "maximum_path_length_mm": 74.42935268427371
+      },
+      "Top surface": {
+        "moves": 3674,
+        "filament_mm": 430.2491499999961,
+        "maximum_path_length_mm": 253.2715068853976
+      },
+      "Internal Bridge": {
+        "moves": 6659,
+        "filament_mm": 623.3217299999906,
+        "maximum_path_length_mm": 32.57567437521438
+      },
+      "Bridge": {
+        "moves": 1706,
+        "filament_mm": 76.83292000000064,
+        "maximum_path_length_mm": 7.030130866491739
+      }
+    },
+    "parsed_arc_moves": 5095902,
+    "extrusion_centerline_bounds_mm": [
+      [
+        0.19529873499201322,
+        -1.2497129420805209,
+        0.2
+      ],
+      [
+        252.667,
+        233.6922709996562,
+        217.2
+      ]
+    ],
+    "support_moves_entering_socket_core": {
+      "9/64": 35,
+      "5/32": 0,
+      "3/16": 0,
+      "7/32": 0,
+      "1/4": 0,
+      "5/16": 0,
+      "3/8": 0,
+      "3/32": 0,
+      "7/64": 0,
+      "1/8": 0
+    },
+    "socket_core_screen_passed": false,
+    "scope": "Actual extrusion centerlines. Support IJ arcs and lines sampled at <=0.2 mm; other arc bounds include analytical axis extrema. Socket core excludes 0.30 mm at walls and 0.50 mm at guide ends; lead-ins and vents excluded. No bead-volume, contact, support removal or physical print certification."
+  },
   "green_native": {
     "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
     "id": "HX05C",
     "valid": true,
     "solids": 1,
-    "volume": 864185.458260142,
+    "volume": 1838836.3865681826,
     "stored_overlap_mm3": 0.0,
     "mount": {
       "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
@@ -1153,15 +1388,39 @@
         "gap_mm": 63.12548354946187,
         "overlap_mm3": 0.0
       }
-    ]
+    ],
+    "strength_stock": {
+      "recipe": "rounded solid tip stock clipped below every entrance plane",
+      "print_direction": [
+        1,
+        0,
+        0
+      ],
+      "bed_plane_x_mm": -108,
+      "bed_plane_corner_radius_mm": 8.0,
+      "uncut_stock_volume_mm3": 1364830.7819473722,
+      "stock_front_y_mm": 86.90694501311563,
+      "all_entrance_normals_positive_x": true,
+      "vent_direction": "toward front, perpendicular to each shaft; extended through added stock",
+      "root_blends": {
+        "requested_radius_mm": 6.0,
+        "candidate_edges": 13,
+        "applied_edges": 1
+      }
+    },
+    "body_recipe": "filled-tip-foot-v2"
   },
   "source_hashes": {
-    "bench/source/green_fan_v1/README.md": "5dff97e87a87d43788c3f69f320a245dd8e35bfb5984e7bc265f2ba0306cf2a9",
+    "bench/source/green_fan_v1/README.md": "746b2423ac1392f188258f170cdda655ff7c95e85369bdd128c59fb11f9d5117",
     "bench/source/green_fan_v1/arrange.py": "3743f2248aede5ee8c6b506f2aba6c1a94a313c833a38f6cf42c6d344aca99c0",
+    "bench/source/green_fan_v1/build.py": "3efe4cb928a20432f2971488c3bf11c457b1432cd282705cba7c8afff5f5902b",
     "bench/source/green_fan_v1/empty.py": "888b9a74649b985eed7a8c9c2db91cf0be81fc06d40552ce118069508296ece6",
     "bench/source/green_fan_v1/pinch.py": "146c8fcc469cd0bb553c7e5009fcd1c1153fb18e048566b15a8c282507e585ec",
-    "bench/source/green_fan_v1/publish.py": "66dcc9a857c25fdd094894c3506d44bcdd3f5de7e407e9082b665001833ea5b0",
+    "bench/source/green_fan_v1/print_pose.py": "f82a3028bfe0356735a370705eb5baa065c604f77bb368e6728ace0b77860d1c",
+    "bench/source/green_fan_v1/publish.py": "1fb58e3e2034acafecf28c44ae759f5dfd19076e8e5bc1d5dea37178ecaf8ea6",
     "bench/source/green_fan_v1/reference-layout.json": "3bc1e210ed6da6dec8744d8ec6be32d0b584033a86b87d1f83f1d632e3196498",
+    "bench/source/green_fan_v1/strength.py": "20546cd5676f6fabc2470220a9a3088985a45e3d347548c70ecc4c5467c80488",
+    "bench/source/green_fan_v1/toolpaths.py": "f13c169a9c626d3adc53965ee289bcc47075dc72b7d3746f73e14815506bc9b9",
     "bench/source/stacked_fans_v1/build.py": "8047212f3a1cad2fdc10bbb462969867f079572ba965f8f8048885d877225cc9",
     "bench/source/stacked_fans_v1/densify.py": "d313de41807d538467cd80fd5f38e52bedc4c536f72041886c92bc6ab984f781",
     "bench/source/stacked_fans_v1/handles_preview.py": "508b39642ff93a9d5b6c0fb6a9d4f3069f86655f775520eebd962060b25fc3e7",

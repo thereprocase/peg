@@ -1,0 +1,21 @@
+{
+  "nozzle_diameter": "0.4",
+  "layer_height": "0.2",
+  "filament_type": "ASA",
+  "enable_support": "1",
+  "support_type": "tree(auto)",
+  "support_style": "organic",
+  "brim_width": "3",
+  "wall_loops": "4",
+  "sparse_infill_density": "35%",
+  "sparse_infill_pattern": "gyroid",
+  "archive_sha256": "95422257b060dbf8199bead368f206f95396a79f386de27c167260c29e639f0e",
+  "printer": "Bambu Lab P1S 0.4 nozzle",
+  "slicer": "OrcaSlicer 2.3.2",
+  "source_stl_sha256": "d402735c0c21645f51fa08f9d29a31fb3b4f52d8d85a460eb3c3151af36c3074",
+  "shrink_compensation_baked_scale": 1.0054293183189222,
+  "scope": "Review slice only. No printer job submitted. Machine settings and G-code remain private.",
+  "estimated_total_printing_time": "2d 9h 32m 6s",
+  "filament_used_g": 991.06,
+  "runtime_log_note": "Orca completed archive export with repeated Not precalculated Placeable areas diagnostics during organic support generation; support/contact review remains required."
+}

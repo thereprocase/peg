@@ -1,31 +1,35 @@
 {
   "docs/gallery/key-fan/stacked/green/HX05C-empty-hero.jpg": {
-    "bytes": 33503,
-    "sha256": "8d8e491502ae66a427c26e45402571c4a869f924cc0f01198ef5d2d6f44e96b1"
+    "bytes": 30095,
+    "sha256": "ae12275d601db1f216de3be41088e9f20e9e075b5d07cacb3a9788a6b8ce0e43"
   },
   "docs/gallery/key-fan/stacked/green/HX05C-front.jpg": {
-    "bytes": 34615,
-    "sha256": "67eb1829c1ae736669049d221b915917c9a983262a3ffe84a0915b11bf219537"
+    "bytes": 33193,
+    "sha256": "f5e4be15f8e2074234166b765303d0a3510c349af71feb59b5d56cd78d84cfd4"
   },
   "docs/gallery/key-fan/stacked/green/HX05C-hero.jpg": {
-    "bytes": 36547,
-    "sha256": "4c9f01d468a8c25e35f5e90f348666cbff822f13de619870cd5eee9e85178934"
+    "bytes": 37271,
+    "sha256": "387dea3a8f2c77daae9f3179ca7783a0f8fd753e9995c583bd34da4bf2726ad9"
   },
   "docs/gallery/key-fan/stacked/green/HX05C-plan.jpg": {
-    "bytes": 22828,
-    "sha256": "1d856e1e5c4e315e458a7523812f5d60a3ec72bb6e896a1602f42470046bb683"
+    "bytes": 22876,
+    "sha256": "f4b6aa855e85aa56d113c57ed2a0ca27323e59f83c611e000a888e7fdc3c7335"
+  },
+  "docs/gallery/key-fan/stacked/green/HX05C-print-hero.jpg": {
+    "bytes": 29384,
+    "sha256": "14918a5ca894cf103beedc77f32678ae8bb667e99a3dee390d814b256987841a"
   },
   "docs/gallery/key-fan/stacked/green/index.html": {
-    "bytes": 4576,
-    "sha256": "a28301fe7333039d674e11d32ff46e8c3516ef36418dc5c107ed232e23c20659"
+    "bytes": 6492,
+    "sha256": "3e4401da5654f821f1f60bd0741d968160740be733fbed3edca591f31402c1fd"
   },
   "docs/gallery/key-fan/stacked/green/review.json": {
-    "bytes": 31397,
-    "sha256": "29fb70a123c2c663f5e38b74a32bfed472013de568b1dac3577936accb1ca759"
+    "bytes": 39632,
+    "sha256": "fe81848a8f4bc61f5de6ec51b577e09eb82bb72cab8b04c012cdd861da1ae01c"
   },
   "docs/gallery/key-fan/stacked/green/stack-hero.jpg": {
-    "bytes": 63389,
-    "sha256": "37b00f52b704367232c0f5c9c6fc5232f9b79eae393fa2c85e5cfa3028187118"
+    "bytes": 62455,
+    "sha256": "dd265bd5c792a2136973d25c16e85ca4a60ca719c2151e244523cfcd50f35418"
   },
   "bench/reviews/green-fan-v1/access.json": {
     "bytes": 4981,
@@ -36,28 +40,48 @@
     "sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296"
   },
   "bench/reviews/green-fan-v1/native.json": {
-    "bytes": 45991,
-    "sha256": "d00cbac2e31299f379fc1bfec516c98d5e912b05e2fc64fc3525c4a4205993f9"
+    "bytes": 46690,
+    "sha256": "84bd36f87b086618961aacd1ee012311436c96a62ae0b5e7aee29372fff2e8c1"
   },
   "bench/reviews/green-fan-v1/pinch-check.json": {
     "bytes": 2346,
     "sha256": "0d3628ccea39a94aa97b8c1ae9f02f22f145fca2513d96d07e72cdae45d35662"
+  },
+  "bench/reviews/green-fan-v1/print-check.json": {
+    "bytes": 2349,
+    "sha256": "01bef6201fc448fac99385d15782314205377dd190f38c18086288e5b23539f4"
+  },
+  "bench/reviews/green-fan-v1/slice-input.json": {
+    "bytes": 368,
+    "sha256": "0b5a8d5fc540cb4ae36ca5856b673f056794f292d00f3d473979a6fa85458a58"
+  },
+  "bench/reviews/green-fan-v1/slice-receipt.json": {
+    "bytes": 965,
+    "sha256": "5beb6ce4c12babe05ba0c6193b3f6c95f03cb5bcb15fa110aab874bb40b05a9a"
   },
   "bench/reviews/green-fan-v1/spacing.json": {
     "bytes": 1181,
     "sha256": "3a427cd782d4bc2f7e8a1b824e0f77527ecff0b09a8230a916c241221be15247"
   },
   "bench/reviews/green-fan-v1/sweep-check.json": {
-    "bytes": 8435,
-    "sha256": "e80cbca3945c6c051cb7bab88aae57e376d1d543437d4052c859721f650540ab"
+    "bytes": 9163,
+    "sha256": "8a29a6bb1595ce520ecbc0fc605a8c0fe3d797ee2916f06fc3d20bd0a6dd3923"
+  },
+  "bench/reviews/green-fan-v1/toolpaths.json": {
+    "bytes": 2558,
+    "sha256": "f800d681ddf6d5e38c589abbfc32e3a29c13c52f678f14b205f60f4e20d70c2d"
   },
   "bench/source/green_fan_v1/README.md": {
-    "bytes": 2719,
-    "sha256": "5dff97e87a87d43788c3f69f320a245dd8e35bfb5984e7bc265f2ba0306cf2a9"
+    "bytes": 5128,
+    "sha256": "746b2423ac1392f188258f170cdda655ff7c95e85369bdd128c59fb11f9d5117"
   },
   "bench/source/green_fan_v1/arrange.py": {
     "bytes": 2879,
     "sha256": "3743f2248aede5ee8c6b506f2aba6c1a94a313c833a38f6cf42c6d344aca99c0"
+  },
+  "bench/source/green_fan_v1/build.py": {
+    "bytes": 8859,
+    "sha256": "3efe4cb928a20432f2971488c3bf11c457b1432cd282705cba7c8afff5f5902b"
   },
   "bench/source/green_fan_v1/empty.py": {
     "bytes": 552,
@@ -67,12 +91,24 @@
     "bytes": 3042,
     "sha256": "146c8fcc469cd0bb553c7e5009fcd1c1153fb18e048566b15a8c282507e585ec"
   },
+  "bench/source/green_fan_v1/print_pose.py": {
+    "bytes": 3728,
+    "sha256": "f82a3028bfe0356735a370705eb5baa065c604f77bb368e6728ace0b77860d1c"
+  },
   "bench/source/green_fan_v1/publish.py": {
-    "bytes": 7315,
-    "sha256": "66dcc9a857c25fdd094894c3506d44bcdd3f5de7e407e9082b665001833ea5b0"
+    "bytes": 9625,
+    "sha256": "1fb58e3e2034acafecf28c44ae759f5dfd19076e8e5bc1d5dea37178ecaf8ea6"
   },
   "bench/source/green_fan_v1/reference-layout.json": {
     "bytes": 24849,
     "sha256": "3bc1e210ed6da6dec8744d8ec6be32d0b584033a86b87d1f83f1d632e3196498"
+  },
+  "bench/source/green_fan_v1/strength.py": {
+    "bytes": 2564,
+    "sha256": "20546cd5676f6fabc2470220a9a3088985a45e3d347548c70ecc4c5467c80488"
+  },
+  "bench/source/green_fan_v1/toolpaths.py": {
+    "bytes": 4565,
+    "sha256": "f13c169a9c626d3adc53965ee289bcc47075dc72b7d3746f73e14815506bc9b9"
   }
 }

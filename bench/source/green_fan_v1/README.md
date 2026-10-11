@@ -33,14 +33,53 @@ match exactly; their assembly positions and layout hashes are regenerated.
 python3 arrange.py BUILD
 python3 ../stacked_fans_v1/spacing.py BUILD
 python3 ../stacked_fans_v1/screen.py BUILD --saved
-FreeCAD-Python ../stacked_fans_v1/build.py BUILD/tight-native
+FreeCAD-Python build.py BUILD/tight-native
+FreeCAD-Python print_pose.py BUILD/tight-native APPROVED_UNFILLED_BODY.brep
 FreeCAD-Python ../stacked_fans_v1/verify_native.py BUILD/tight-native
 FreeCAD-Python pinch.py BUILD/tight-native
 FreeCAD-Python empty.py BUILD/tight-native
-HX_FAN_BUILD_DIR=BUILD/tight-native HX_FAN_OUTPUT_DIR=BUILD/renders node ../stacked_fans_v1/render.cjs HX05C HX05C-empty stack
+HX_FAN_BUILD_DIR=BUILD/tight-native HX_FAN_OUTPUT_DIR=BUILD/renders node ../stacked_fans_v1/render.cjs HX05C HX05C-empty HX05C-print stack
 python3 publish.py BUILD
 ```
 
 Native exports remain local review artifacts. The new page publishes renders
 and numerical receipts. Subsequent free-hand removal, installation, printing,
 supports and physical loads remain unqualified. No prior FEA result transfers.
+
+The filled revision uses `strength.py`: a solid stock section with 8 mm
+rounds in the print-bed XY plane (installed YZ), clipped beneath every socket
+entrance. This connects the sleeve bending planes to a broad X-min foot.
+A bounded 6 mm root-fillet operation succeeded at the longest eligible
+backplate junction; the all-edge attempt did not succeed. Vents are extended
+through the stock perpendicular to each shaft toward the front.
+
+`print_pose.py` compares board-side geometry to the approved unfilled native
+body from the 7c09b46 checkpoint, checks entrance/vent probes and exact flat
+bed contact, then maps installed +X to printer +Z with 45 degrees of bed yaw.
+It uses optimal bounding boxes because serialized trimmed faces can have
+loose ordinary bounds. Native geometry remains nominal and unscaled.
+The owner-profile Orca review, when recorded, is separate from these CAD
+checks and from physical print qualification. No printer job is submitted.
+
+The owner-profile Orca 2.3.2 review uses 0.20 mm layers, four walls, 35%
+gyroid, five top/bottom layers, a 3 mm outer brim and bed-only organic
+supports. ASA scale 1/0.9946 is applied once about the bed centre (Z about
+zero), with filament shrink set to 100% in the flattened private profile.
+The review archive estimates 57 h 32 min and 991.06 g, including supports.
+Orca emitted repeated placeable-area diagnostics while generating organic
+supports but completed export. This is not a qualified print job.
+
+`toolpaths.py BUILD PRIVATE_GCODE OUTPUT_JSON` parses relative/absolute
+extrusion and IJ arcs, screens sampled support centerlines against straight
+hex socket cores and records feature/bounds totals. It excludes a 0.30 mm
+wall margin, 0.50 mm end margins, funnels and vents; it is not a full bead
+intersection or support-removal proof. Public receipts contain only review
+settings, estimates, hashes and screen results. Machine profiles and G-code
+remain private.
+
+The review slice is NOT cleared for printing: 35 support moves enter the
+9/64-inch socket core; the other nine cores have zero sampled hits. That
+socket needs a support blocker and a new slice review. Aggregate extrusion
+bounds can include machine sequences retaining the last feature tag and
+are not a printable-area certificate. The geometry/renders are the delivered
+review, not a released machine job.

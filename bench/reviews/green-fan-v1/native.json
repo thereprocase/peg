@@ -5,7 +5,7 @@
       "id": "HX05C",
       "valid": true,
       "solids": 1,
-      "volume": 864185.458260142,
+      "volume": 1838836.3865681826,
       "stored_overlap_mm3": 0.0,
       "mount": {
         "fit_file": "reviews/pf02-fits/peg-fit-clamp-0.49.scad",
@@ -761,7 +761,27 @@
           "gap_mm": 63.12548354946187,
           "overlap_mm3": 0.0
         }
-      ]
+      ],
+      "strength_stock": {
+        "recipe": "rounded solid tip stock clipped below every entrance plane",
+        "print_direction": [
+          1,
+          0,
+          0
+        ],
+        "bed_plane_x_mm": -108,
+        "bed_plane_corner_radius_mm": 8.0,
+        "uncut_stock_volume_mm3": 1364830.7819473722,
+        "stock_front_y_mm": 86.90694501311563,
+        "all_entrance_normals_positive_x": true,
+        "vent_direction": "toward front, perpendicular to each shaft; extended through added stock",
+        "root_blends": {
+          "requested_radius_mm": 6.0,
+          "candidate_edges": 13,
+          "applied_edges": 1
+        }
+      },
+      "body_recipe": "filled-tip-foot-v2"
     },
     {
       "layout_sha256": "cda1c062081b2dcf928164379291f2c755b9dc55fc1573481c3b18add2c8f296",
