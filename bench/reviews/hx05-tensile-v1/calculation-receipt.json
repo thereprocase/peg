@@ -1,0 +1,72 @@
+{
+  "date_utc": "2026-10-12",
+  "release_geometry_commit": "2e8b16fd8f413b97240b3089fe5d18400576ba69",
+  "whole_holder_fracture_factor_established": false,
+  "accepted_result": "Isolated uniform axial sleeve section calculation only",
+  "formulation_checks": {
+    "passed": true,
+    "affine_strain": true,
+    "rigid_modes": 6,
+    "exact_wrench": true,
+    "stress_tensor_mapping": true,
+    "principal_rotation_invariance": true
+  },
+  "source_hashes": {
+    "bench/source/hx05_tensile_v1/check_formulation.py": "012592593ea3ec1e9bd83aec405b1609bea142e029223fe2a810be8d3b7ce53d",
+    "bench/source/hx05_tensile_v1/model.py": "43f8110e0ffbac688bb0825c1b4badc8a9c541e7e10e3d484610576f714021a0",
+    "bench/source/hx05_tensile_v1/plot_socket_margin.py": "88857c8bedb1e376eb48323511ac35654422064385bbf92553527b2963c075d9",
+    "bench/source/hx05_tensile_v1/remesh_native.geo": "dad2973cec8d1412269247950e475d6935aa065672564b6145ef46c17d5446fa",
+    "bench/source/hx05_tensile_v1/remesh_surface.geo": "cb84c4414796bd1a2fc9168d5e2f85223bfec628487bacdfa5014a568c82cf3e",
+    "bench/source/hx05_tensile_v1/screen.py": "a58887f087e6139cfbc20991c184f976827e57e630ab129a333f97e4141d098f",
+    "bench/source/hx05_tensile_v1/socket_section.py": "557ff8c280d0929ed47ae882f7d09d716b3511f32d935499f4e0669b97af0d12"
+  },
+  "input_mesh_hashes": {
+    ".local-runtime/hx05-connected-v3/HX05A/draft-check.json": "bd14949e2cfe36b55d9282a00e9a0caf176a3a96d66191ed7b4f14a91273a008",
+    ".local-runtime/hx05-connected-v3/HX05A/print-drafted-body-closed.stl": "1a3c9e0fb2239c6991cf264a8fdc6c2e124626dfc70a9d281e37fdb18106c4d5",
+    ".local-runtime/hx05-connected-v3/HX05A/print-modifier-foundation.stl": "bc0eb4b06ce6389e9aa4aa710bb88f502e85996ff8689c227c11fb030cf04a5d",
+    ".local-runtime/hx05-connected-v3/HX05A/print-modifier-mounts.stl": "78e85d6b45d51385b82498746e62b67d96762c7252a605482bd5d7217f82971e",
+    ".local-runtime/hx05-connected-v3/HX05A/print-modifier-ribs.stl": "714c352b56a04d867c47fa533e98581c4fb7e9b7e6ee60c21accbd92e7b51831",
+    ".local-runtime/hx05-connected-v3/HX05A/print-modifier-sockets.stl": "cd0b7079689abac0d5874bd5d65391ccee601ae287ea971bd52329230ccda235",
+    ".local-runtime/hx05-connected-v3/HX05B/draft-check.json": "e7a12ef0b027c12a2acc537ef4d424a5d524ab57dead58d43e5c69c5a352a723",
+    ".local-runtime/hx05-connected-v3/HX05B/print-drafted-body-closed.stl": "63914272a4d486a85681419555710ae193b24a35d07bf5346720cbe7415b6d52",
+    ".local-runtime/hx05-connected-v3/HX05B/print-modifier-foundation.stl": "2dcc07be83de5d55c31c5980545db191ed745235072b5a590422afd4b6ae3251",
+    ".local-runtime/hx05-connected-v3/HX05B/print-modifier-mounts.stl": "7a9dd93c8d6490d6f25bc84faa6e8070f87379c6c371745206081f270b769ab0",
+    ".local-runtime/hx05-connected-v3/HX05B/print-modifier-ribs.stl": "a48b949f9b53c332015c85dc8daf99915a26ccdc156122a368b62a8b69af0528",
+    ".local-runtime/hx05-connected-v3/HX05B/print-modifier-sockets.stl": "db5dac0db00dcde22a61881867e012d77de4d67aa21655771650e7e40dca65f6",
+    ".local-runtime/hx05-connected-v3/HX05C/draft-check.json": "a887e717891d9676269bec4f1ac6f07031871917b4e560f912efb81a521f0744",
+    ".local-runtime/hx05-connected-v3/HX05C/print-drafted-body-closed.stl": "be9d73e55ef5d871eeb4ec6facc731e5ed30839d4ce78e5b3f6581b2a3d49b46",
+    ".local-runtime/hx05-connected-v3/HX05C/print-modifier-foundation.stl": "a767133f43bcea42a093f5f9bb5664bbf2a73b780ba0db83d66bcfd8ad40b5c9",
+    ".local-runtime/hx05-connected-v3/HX05C/print-modifier-mounts.stl": "b7f7909532db57a13fb59918081c7a7f64aa21ebe1b6b5d820a5d88de11beb78",
+    ".local-runtime/hx05-connected-v3/HX05C/print-modifier-ribs.stl": "e18b170f77d6cdba427facdcc46af0769a806d6e68f83b7e694b2379a355fece",
+    ".local-runtime/hx05-connected-v3/HX05C/print-modifier-sockets.stl": "4f8d935c9129b74764c5944ab6192e269ffa027ac5d4b7606b494f404b8bdcb5"
+  },
+  "rejected_continuum": {
+    "HX05A": {
+      "accepted": false,
+      "equilibrium_passed": true,
+      "critical_mean_ratio": 0.0002543971329447665,
+      "critical_tet_volume_mm3": 1.844271410313734e-10,
+      "reason": "Unresolved near-degenerate peak elements; centroid masks unresolved; no convergence or rear-peg/contact model.",
+      "surface_remesh": "rejected: topology/overlapping facets",
+      "native_BREP_remesh": "rejected: intersecting curves and segmentation fault"
+    },
+    "HX05B": {
+      "accepted": false,
+      "equilibrium_passed": true,
+      "critical_mean_ratio": 0.00010190104598502536,
+      "critical_tet_volume_mm3": 4.66263653784989e-10,
+      "reason": "Unresolved near-degenerate peak elements; centroid masks unresolved; no convergence or rear-peg/contact model.",
+      "surface_remesh": "rejected: topology/overlapping facets",
+      "native_BREP_remesh": "rejected: intersecting curves and segmentation fault"
+    },
+    "HX05C": {
+      "accepted": false,
+      "equilibrium_passed": false,
+      "critical_mean_ratio": 9.050449561383061e-05,
+      "critical_tet_volume_mm3": 2.826002435843595e-10,
+      "reason": "Unresolved near-degenerate peak elements; centroid masks unresolved; no convergence or rear-peg/contact model.",
+      "surface_remesh": "rejected: topology/overlapping facets",
+      "native_BREP_remesh": "rejected: intersecting curves and segmentation fault"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "HX05C",
+  "tetrahedra": 231743,
+  "nodes": 44269,
+  "domain_volume_mm3": 1688251.840871422,
+  "minimum_tet_volume_mm3": 5.200589972206279e-14,
+  "dense_sampled_volume_mm3": 393232.21635862836,
+  "skin_volume_mm3": 188739.8736038806,
+  "modifiers": [
+    {
+      "role": "foundation",
+      "centroid_volume_mm3": 11093.68678135653,
+      "raw_mesh_volume_mm3": 37679.14562089907
+    },
+    {
+      "role": "mounts",
+      "centroid_volume_mm3": 69033.59608348574,
+      "raw_mesh_volume_mm3": 666671.7438363865
+    },
+    {
+      "role": "sockets",
+      "centroid_volume_mm3": 23580.259923591184,
+      "raw_mesh_volume_mm3": 28426.77591857772
+    },
+    {
+      "role": "ribs",
+      "centroid_volume_mm3": 148714.06716218466,
+      "raw_mesh_volume_mm3": 150503.6459915693
+    }
+  ],
+  "assumed_perimeter_thickness_mm": 1.26,
+  "assumed_top_bottom_thickness_mm": 1.0,
+  "scope": "Centroid sampling, not resolved bead geometry; raw modifier volume includes material outside body."
+}

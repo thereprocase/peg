@@ -1,0 +1,13 @@
+SetFactory("OpenCASCADE");
+Geometry.Tolerance=0.001;
+Geometry.OCCFixDegenerated=1;
+Geometry.OCCFixSmallEdges=1;
+Geometry.OCCFixSmallFaces=1;
+Merge "front.brep";
+Mesh.MeshSizeMin=0.6;
+Mesh.MeshSizeMax=2;
+Mesh.MeshSizeFromCurvature=12;
+Mesh.MeshSizeExtendFromBoundary=0;
+Mesh.Algorithm3D=1;
+Mesh.MshFileVersion=2.2;
+Mesh.SaveAll=1;

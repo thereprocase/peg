@@ -1,0 +1,291 @@
+{
+  "scope": "Uniform axial tensile stress in an isolated intact straight-sleeve band only. Not a whole-holder factor of safety; load sharing, stress concentration, bending, torsion, vents, lead-in, roots, pegs and installation stress omitted.",
+  "geometry_source_sha256": "f864060fe78a488e670553995ae878505bc403bd6be5644ac893e1073b74a532",
+  "material_reference_url": "https://polymaker.com/product/polylite-asa",
+  "reference_strength_MPa": 30,
+  "assumed_derated_strength_MPa": 15,
+  "derating_is_unmeasured_sensitivity": true,
+  "racks": [
+    {
+      "id": "HX05C",
+      "tools": [
+        {
+          "tool": "9/64",
+          "opening_mm": 3.951875,
+          "solid_band_mm": 1.2,
+          "area_mm2": 21.41594221018538,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 4.66941865170145,
+          "reference_30MPa_factor": 6.424782663055614,
+          "assumed_15MPa_factor": 3.212391331527807
+        },
+        {
+          "tool": "5/32",
+          "opening_mm": 4.34875,
+          "solid_band_mm": 1.2,
+          "area_mm2": 23.065720604394727,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 4.335437930386919,
+          "reference_30MPa_factor": 6.919716181318418,
+          "assumed_15MPa_factor": 3.459858090659209
+        },
+        {
+          "tool": "3/16",
+          "opening_mm": 5.142499999999999,
+          "solid_band_mm": 1.2,
+          "area_mm2": 26.365277392813443,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 3.7928673577034946,
+          "reference_30MPa_factor": 7.909583217844032,
+          "assumed_15MPa_factor": 3.954791608922016
+        },
+        {
+          "tool": "7/32",
+          "opening_mm": 5.936249999999999,
+          "solid_band_mm": 1.2,
+          "area_mm2": 29.664834181232163,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 3.370994740407694,
+          "reference_30MPa_factor": 8.899450254369649,
+          "assumed_15MPa_factor": 4.449725127184824
+        },
+        {
+          "tool": "1/4",
+          "opening_mm": 6.7299999999999995,
+          "solid_band_mm": 1.2,
+          "area_mm2": 32.96439096965086,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 3.0335764459312005,
+          "reference_30MPa_factor": 9.889317290895256,
+          "assumed_15MPa_factor": 4.944658645447628
+        },
+        {
+          "tool": "5/16",
+          "opening_mm": 8.3175,
+          "solid_band_mm": 1.2,
+          "area_mm2": 39.5635045464883,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 2.527581950746982,
+          "reference_30MPa_factor": 11.869051363946491,
+          "assumed_15MPa_factor": 5.934525681973246
+        },
+        {
+          "tool": "3/8",
+          "opening_mm": 9.905,
+          "solid_band_mm": 1.2,
+          "area_mm2": 46.16261812332573,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 2.166254949683422,
+          "reference_30MPa_factor": 13.848785436997717,
+          "assumed_15MPa_factor": 6.924392718498859
+        },
+        {
+          "tool": "3/32",
+          "opening_mm": 2.7612499999999995,
+          "solid_band_mm": 1.2,
+          "area_mm2": 16.46660702755731,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 6.072896488793794,
+          "reference_30MPa_factor": 4.939982108267193,
+          "assumed_15MPa_factor": 2.4699910541335965
+        },
+        {
+          "tool": "7/64",
+          "opening_mm": 3.1581249999999996,
+          "solid_band_mm": 1.2,
+          "area_mm2": 18.11638542176667,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 5.519864899752625,
+          "reference_30MPa_factor": 5.4349156265300005,
+          "assumed_15MPa_factor": 2.7174578132650002
+        },
+        {
+          "tool": "1/8",
+          "opening_mm": 3.5549999999999997,
+          "solid_band_mm": 1.2,
+          "area_mm2": 19.766163815976032,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 5.059150623813754,
+          "reference_30MPa_factor": 5.92984914479281,
+          "assumed_15MPa_factor": 2.964924572396405
+        }
+      ],
+      "minimum_reference_factor": 4.939982108267193,
+      "minimum_assumed_factor": 2.4699910541335965
+    },
+    {
+      "id": "HX05B",
+      "tools": [
+        {
+          "tool": "4",
+          "opening_mm": 4.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 23.195624414962392,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 4.311157924056348,
+          "reference_30MPa_factor": 6.958687324488718,
+          "assumed_15MPa_factor": 3.479343662244359
+        },
+        {
+          "tool": "5",
+          "opening_mm": 5.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 27.352546353127703,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 3.6559667501876008,
+          "reference_30MPa_factor": 8.20576390593831,
+          "assumed_15MPa_factor": 4.102881952969155
+        },
+        {
+          "tool": "6",
+          "opening_mm": 6.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 31.509468291293008,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 3.173649236970239,
+          "reference_30MPa_factor": 9.452840487387903,
+          "assumed_15MPa_factor": 4.726420243693951
+        },
+        {
+          "tool": "8",
+          "opening_mm": 8.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 39.823312167623634,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 2.511091984993153,
+          "reference_30MPa_factor": 11.946993650287089,
+          "assumed_15MPa_factor": 5.9734968251435445
+        },
+        {
+          "tool": "10",
+          "opening_mm": 10.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 48.137156043954235,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 2.0773973416437315,
+          "reference_30MPa_factor": 14.441146813186268,
+          "assumed_15MPa_factor": 7.220573406593134
+        },
+        {
+          "tool": "2",
+          "opening_mm": 2.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 14.881780538631787,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 6.719626038054306,
+          "reference_30MPa_factor": 4.464534161589536,
+          "assumed_15MPa_factor": 2.232267080794768
+        },
+        {
+          "tool": "2.5",
+          "opening_mm": 2.88,
+          "solid_band_mm": 1.2,
+          "area_mm2": 16.96024150771444,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 5.896142454959416,
+          "reference_30MPa_factor": 5.088072452314331,
+          "assumed_15MPa_factor": 2.5440362261571656
+        },
+        {
+          "tool": "3",
+          "opening_mm": 3.38,
+          "solid_band_mm": 1.2,
+          "area_mm2": 19.038702476797095,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 5.252458780837208,
+          "reference_30MPa_factor": 5.711610743039128,
+          "assumed_15MPa_factor": 2.855805371519564
+        }
+      ],
+      "minimum_reference_factor": 4.464534161589536,
+      "minimum_assumed_factor": 2.232267080794768
+    },
+    {
+      "id": "HX05A",
+      "tools": [
+        {
+          "tool": "T20",
+          "opening_mm": 3.723,
+          "solid_band_mm": 1.2,
+          "area_mm2": 18.559272760347056,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 5.388142158978109,
+          "reference_30MPa_factor": 5.567781828104117,
+          "assumed_15MPa_factor": 2.7838909140520585
+        },
+        {
+          "tool": "T25",
+          "opening_mm": 4.216,
+          "solid_band_mm": 1.2,
+          "area_mm2": 20.417838974210778,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 4.897677963192251,
+          "reference_30MPa_factor": 6.125351692263233,
+          "assumed_15MPa_factor": 3.0626758461316164
+        },
+        {
+          "tool": "T27",
+          "opening_mm": 4.701,
+          "solid_band_mm": 1.2,
+          "area_mm2": 22.246245898600037,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 4.495140459015291,
+          "reference_30MPa_factor": 6.673873769580011,
+          "assumed_15MPa_factor": 3.3369368847900054
+        },
+        {
+          "tool": "T30",
+          "opening_mm": 5.16,
+          "solid_band_mm": 1.2,
+          "area_mm2": 23.976635132197302,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 4.170727020227865,
+          "reference_30MPa_factor": 7.192990539659191,
+          "assumed_15MPa_factor": 3.5964952698295956
+        },
+        {
+          "tool": "T40",
+          "opening_mm": 6.139,
+          "solid_band_mm": 1.2,
+          "area_mm2": 27.667378181634582,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 3.61436487922731,
+          "reference_30MPa_factor": 8.300213454490375,
+          "assumed_15MPa_factor": 4.150106727245188
+        },
+        {
+          "tool": "T9",
+          "opening_mm": 2.545,
+          "solid_band_mm": 1.2,
+          "area_mm2": 14.118317385232535,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 7.082997022336239,
+          "reference_30MPa_factor": 4.2354952155697605,
+          "assumed_15MPa_factor": 2.1177476077848802
+        },
+        {
+          "tool": "T10",
+          "opening_mm": 2.753,
+          "solid_band_mm": 1.2,
+          "area_mm2": 14.902458911568544,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 6.710302010789077,
+          "reference_30MPa_factor": 4.4707376734705635,
+          "assumed_15MPa_factor": 2.2353688367352818
+        },
+        {
+          "tool": "T15",
+          "opening_mm": 3.2119999999999997,
+          "solid_band_mm": 1.2,
+          "area_mm2": 16.632848145165806,
+          "axial_force_N": 100,
+          "nominal_tensile_MPa": 6.012199421724664,
+          "reference_30MPa_factor": 4.989854443549741,
+          "assumed_15MPa_factor": 2.4949272217748706
+        }
+      ],
+      "minimum_reference_factor": 4.2354952155697605,
+      "minimum_assumed_factor": 2.1177476077848802
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "accepted_for_fracture_factor": false,
+  "id": "HX05B",
+  "mesh": "front-4mm.msh",
+  "rz": 0.9,
+  "bulk_stiffness_ratio": 0.025,
+  "support": "roots",
+  "passed_equilibrium": true,
+  "nodes": 32729,
+  "tetrahedra": 145759,
+  "minimum_mean_ratio": 8.561473371823902e-06,
+  "regular_elements": 134327,
+  "loads": [
+    {
+      "case": "all_keys_5N_each_and_holder_5.1N",
+      "raw_strength_to_peak_stress_ratio": 0.08828898205927294,
+      "peak_principal_MPa": 339.7932482657854,
+      "peak_layer_normal_MPa": 40.038394529920915,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 4.082867972716324,
+      "regular_element_position_mm": [
+        -2.7673404216766357,
+        0.07500000298023225,
+        -203.86984252929688
+      ],
+      "dense_only_factor": 0.08828898205927294,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.2467478203937047e-09,
+      "force_error_N": 3.335499737344231e-08,
+      "moment_error_Nmm": 2.8185615962777485e-06
+    },
+    {
+      "case": "4:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.09400047877414758,
+      "peak_principal_MPa": 319.1473106438127,
+      "peak_layer_normal_MPa": 70.03149151528991,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 3.933798488491507,
+      "regular_element_position_mm": [
+        -2.7673404216766357,
+        0.07500000298023225,
+        -203.86984252929688
+      ],
+      "dense_only_factor": 0.09400047877414758,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.8833667000342722e-09,
+      "force_error_N": 8.334489881600165e-08,
+      "moment_error_Nmm": 8.719004852516884e-06
+    },
+    {
+      "case": "4:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.017263969036042555,
+      "peak_principal_MPa": 1737.7232279186792,
+      "peak_layer_normal_MPa": 306.2545959110819,
+      "critical_position_mm": [
+        -43.81107807159424,
+        59.465792655944824,
+        -98.51978874206543
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 2.5484248716110175e-09,
+      "critical_tet_mean_ratio": 0.0003160085921953533,
+      "regular_element_peak_MPa": 15.852925587518765,
+      "regular_element_position_mm": [
+        -44.746684074401855,
+        59.47565937042236,
+        -98.29385757446289
+      ],
+      "dense_only_factor": 0.017263969036042555,
+      "dense_critical_position_mm": [
+        -43.81107807159424,
+        59.465792655944824,
+        -98.51978874206543
+      ],
+      "residual": 1.2606532019677393e-10,
+      "force_error_N": 7.4305912078751516e-09,
+      "moment_error_Nmm": 7.443282208387766e-07
+    },
+    {
+      "case": "4:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.08497748138590376,
+      "peak_principal_MPa": 353.03470414429654,
+      "peak_layer_normal_MPa": 29.005764095555623,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 5.332536333609164,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.08497748138590376,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.5699598235842646e-09,
+      "force_error_N": 1.67646411770877e-08,
+      "moment_error_Nmm": 2.011525251726458e-06
+    },
+    {
+      "case": "5:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.059271066313522455,
+      "peak_principal_MPa": 506.149152797604,
+      "peak_layer_normal_MPa": 114.47185819552806,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 5.974444882244496,
+      "regular_element_position_mm": [
+        -78.49275014315995,
+        0.4405941308835859,
+        -178.19836865101325
+      ],
+      "dense_only_factor": 0.059271066313522455,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 2.6236570885421443e-09,
+      "force_error_N": 2.7804662963651895e-08,
+      "moment_error_Nmm": 3.4603695424164003e-06
+    },
+    {
+      "case": "5:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.013129851394200734,
+      "peak_principal_MPa": 2284.8697292378015,
+      "peak_layer_normal_MPa": 289.56871632099586,
+      "critical_position_mm": [
+        -53.53781318664551,
+        49.45243167877197,
+        -153.70135879516602
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.66263653784989e-10,
+      "critical_tet_mean_ratio": 0.00010190104598502536,
+      "regular_element_peak_MPa": 13.35639441974341,
+      "regular_element_position_mm": [
+        -37.41032791137695,
+        67.61890125274658,
+        -99.74259185791017
+      ],
+      "dense_only_factor": 0.013129851394200734,
+      "dense_critical_position_mm": [
+        -53.53781318664551,
+        49.45243167877197,
+        -153.70135879516602
+      ],
+      "residual": 1.2509116924147013e-10,
+      "force_error_N": 8.134674948875558e-09,
+      "moment_error_Nmm": 1.0210601500689008e-06
+    },
+    {
+      "case": "5:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.052415968336007354,
+      "peak_principal_MPa": 572.3446680921352,
+      "peak_layer_normal_MPa": 101.87775122301252,
+      "critical_position_mm": [
+        -53.53781318664551,
+        49.45243167877197,
+        -153.70135879516602
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.66263653784989e-10,
+      "critical_tet_mean_ratio": 0.00010190104598502536,
+      "regular_element_peak_MPa": 5.793775759142264,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.052415968336007354,
+      "dense_critical_position_mm": [
+        -53.53781318664551,
+        49.45243167877197,
+        -153.70135879516602
+      ],
+      "residual": 1.651574748201161e-09,
+      "force_error_N": 4.712793124529991e-08,
+      "moment_error_Nmm": 5.866628958247226e-06
+    },
+    {
+      "case": "6:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.03371093426096208,
+      "peak_principal_MPa": 889.9189731072088,
+      "peak_layer_normal_MPa": 57.21235506542801,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 6.750629103340556,
+      "regular_element_position_mm": [
+        -2.7673404216766357,
+        0.07500000298023225,
+        -203.86984252929688
+      ],
+      "dense_only_factor": 0.03371093426096208,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.2117916211965167e-09,
+      "force_error_N": 2.412473507097492e-08,
+      "moment_error_Nmm": 3.0032910508477525e-06
+    },
+    {
+      "case": "6:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.07840620079331323,
+      "peak_principal_MPa": 382.62279891718094,
+      "peak_layer_normal_MPa": 133.53671161409298,
+      "critical_position_mm": [
+        -63.89347171783447,
+        39.416900634765625,
+        -189.02681350708008
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 6.002567599755309e-10,
+      "critical_tet_mean_ratio": 6.780212236550771e-05,
+      "regular_element_peak_MPa": 7.662012146790895,
+      "regular_element_position_mm": [
+        -61.42124271392822,
+        43.4173641204834,
+        -192.8398208618164
+      ],
+      "dense_only_factor": 0.07840620079331323,
+      "dense_critical_position_mm": [
+        -63.89347171783447,
+        39.416900634765625,
+        -189.02681350708008
+      ],
+      "residual": 2.2899749489397072e-10,
+      "force_error_N": 1.2071334825618032e-08,
+      "moment_error_Nmm": 1.430643598577748e-06
+    },
+    {
+      "case": "6:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.04457525600301921,
+      "peak_principal_MPa": 673.0191296706859,
+      "peak_layer_normal_MPa": 53.5152165976094,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 7.389710236891393,
+      "regular_element_position_mm": [
+        -63.8202543258667,
+        39.362117767333984,
+        -188.8924217224121
+      ],
+      "dense_only_factor": 0.04457525600301921,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.4991130016325875e-09,
+      "force_error_N": 5.3219492821103415e-08,
+      "moment_error_Nmm": 6.588992647055554e-06
+    },
+    {
+      "case": "8:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.11744446618455766,
+      "peak_principal_MPa": 255.43987702968155,
+      "peak_layer_normal_MPa": 23.19258716097477,
+      "critical_position_mm": [
+        -82.58691596984863,
+        19.370136737823486,
+        -239.9615135192871
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 6.454933282234651e-10,
+      "critical_tet_mean_ratio": 6.11178656785445e-05,
+      "regular_element_peak_MPa": 9.736578424979065,
+      "regular_element_position_mm": [
+        -2.7673404216766357,
+        0.07500000298023225,
+        -203.86984252929688
+      ],
+      "dense_only_factor": 0.11744446618455766,
+      "dense_critical_position_mm": [
+        -82.58691596984863,
+        19.370136737823486,
+        -239.9615135192871
+      ],
+      "residual": 8.397867411555855e-10,
+      "force_error_N": 7.0831290841195685e-09,
+      "moment_error_Nmm": 1.2392505892295476e-06
+    },
+    {
+      "case": "8:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.03726790007997716,
+      "peak_principal_MPa": 804.9823020781905,
+      "peak_layer_normal_MPa": 307.69815958222506,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 4.416710749589738,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.03726790007997716,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 2.9460444249665714e-10,
+      "force_error_N": 2.312210814464657e-08,
+      "moment_error_Nmm": 2.574716872839053e-06
+    },
+    {
+      "case": "8:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.021594441045679504,
+      "peak_principal_MPa": 1389.2464239541978,
+      "peak_layer_normal_MPa": 86.85557018838553,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 7.923496416517717,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.021594441045679504,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 8.660324760938529e-10,
+      "force_error_N": 4.8574149424829626e-08,
+      "moment_error_Nmm": 6.271849096133922e-06
+    },
+    {
+      "case": "10:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.05398849129041362,
+      "peak_principal_MPa": 555.6739831573493,
+      "peak_layer_normal_MPa": 223.52798073261278,
+      "critical_position_mm": [
+        -82.32890701293945,
+        19.404067993164062,
+        -240.8066864013672
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 3.425822452384744e-11,
+      "critical_tet_mean_ratio": 2.7979450093239437e-05,
+      "regular_element_peak_MPa": 8.710108822106296,
+      "regular_element_position_mm": [
+        -52.47695026899872,
+        0.4862197652572894,
+        -230.18505282753296
+      ],
+      "dense_only_factor": 0.05398849129041362,
+      "dense_critical_position_mm": [
+        -82.32890701293945,
+        19.404067993164062,
+        -240.8066864013672
+      ],
+      "residual": 8.133782196089408e-10,
+      "force_error_N": 2.4959973330488348e-08,
+      "moment_error_Nmm": 2.8339435518191022e-06
+    },
+    {
+      "case": "10:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.048626431175038426,
+      "peak_principal_MPa": 616.9484223921414,
+      "peak_layer_normal_MPa": 107.60055531877619,
+      "critical_position_mm": [
+        -82.58691596984863,
+        19.370136737823486,
+        -239.9615135192871
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 6.454933282234651e-10,
+      "critical_tet_mean_ratio": 6.11178656785445e-05,
+      "regular_element_peak_MPa": 4.271080306898051,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.048626431175038426,
+      "dense_critical_position_mm": [
+        -82.58691596984863,
+        19.370136737823486,
+        -239.9615135192871
+      ],
+      "residual": 5.013045091895216e-10,
+      "force_error_N": 2.6846010224463447e-08,
+      "moment_error_Nmm": 2.614626316506756e-06
+    },
+    {
+      "case": "10:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.05040407824585579,
+      "peak_principal_MPa": 595.1899339110837,
+      "peak_layer_normal_MPa": 156.11275109791998,
+      "critical_position_mm": [
+        -82.58691596984863,
+        19.370136737823486,
+        -239.9615135192871
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 6.454933282234651e-10,
+      "critical_tet_mean_ratio": 6.11178656785445e-05,
+      "regular_element_peak_MPa": 19.875730385684353,
+      "regular_element_position_mm": [
+        -2.7673404216766357,
+        0.07500000298023225,
+        -203.86984252929688
+      ],
+      "dense_only_factor": 0.05040407824585579,
+      "dense_critical_position_mm": [
+        -82.58691596984863,
+        19.370136737823486,
+        -239.9615135192871
+      ],
+      "residual": 8.1339591396749e-10,
+      "force_error_N": 8.017538043003837e-09,
+      "moment_error_Nmm": 1.0086617348145955e-06
+    },
+    {
+      "case": "2:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.07927184849324102,
+      "peak_principal_MPa": 378.44456222763495,
+      "peak_layer_normal_MPa": 36.0099264208734,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 4.475617600319053,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.07927184849324102,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.1110801295962633e-09,
+      "force_error_N": 4.688847171556361e-08,
+      "moment_error_Nmm": 5.578297859801076e-06
+    },
+    {
+      "case": "2:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.08682916224239542,
+      "peak_principal_MPa": 345.5060399667443,
+      "peak_layer_normal_MPa": 41.97730409184327,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 7.372726090501381,
+      "regular_element_position_mm": [
+        10.967724084854124,
+        41.449684143066406,
+        -50.00452899932861
+      ],
+      "dense_only_factor": 0.08682916224239542,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 5.943974511791367e-11,
+      "force_error_N": 1.4295779396449845e-08,
+      "moment_error_Nmm": 1.6104789698385528e-06
+    },
+    {
+      "case": "2:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.0913282497636619,
+      "peak_principal_MPa": 328.48543662704174,
+      "peak_layer_normal_MPa": 42.098713298201176,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 5.219638024544661,
+      "regular_element_position_mm": [
+        75.51071493789412,
+        0.16462818786410158,
+        1.8362901350550112
+      ],
+      "dense_only_factor": 0.0913282497636619,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 7.598530245900998e-10,
+      "force_error_N": 9.738564871187654e-09,
+      "moment_error_Nmm": 1.347513514843637e-06
+    },
+    {
+      "case": "2.5:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.07956366612432263,
+      "peak_principal_MPa": 377.0565317229518,
+      "peak_layer_normal_MPa": 36.439368087264285,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 4.359279293955822,
+      "regular_element_position_mm": [
+        -74.01761714962012,
+        0.4672460051460541,
+        -51.36903332599968
+      ],
+      "dense_only_factor": 0.07956366612432263,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 7.368661648075854e-10,
+      "force_error_N": 2.5674683046013693e-08,
+      "moment_error_Nmm": 2.960409745633954e-06
+    },
+    {
+      "case": "2.5:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.08980997604949309,
+      "peak_principal_MPa": 334.0386148579685,
+      "peak_layer_normal_MPa": 39.248015259589074,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 6.37939807166874,
+      "regular_element_position_mm": [
+        45.066857300200205,
+        41.596078199199596,
+        -84.76947654886249
+      ],
+      "dense_only_factor": 0.08980997604949309,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 1.0675757538286177e-10,
+      "force_error_N": 1.8274715343980535e-08,
+      "moment_error_Nmm": 1.5896410973873707e-06
+    },
+    {
+      "case": "2.5:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.09097688750214131,
+      "peak_principal_MPa": 329.75408176383144,
+      "peak_layer_normal_MPa": 41.52529609857519,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 5.129218293307738,
+      "regular_element_position_mm": [
+        75.36508519288385,
+        0.07633633537735739,
+        -48.38376750387039
+      ],
+      "dense_only_factor": 0.09097688750214131,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 7.716339611054796e-10,
+      "force_error_N": 1.7872101026865912e-08,
+      "moment_error_Nmm": 2.0189962607662278e-06
+    },
+    {
+      "case": "3:pull100N",
+      "raw_strength_to_peak_stress_ratio": 0.10955666641135216,
+      "peak_principal_MPa": 273.8308948481425,
+      "peak_layer_normal_MPa": 43.76271178108311,
+      "critical_position_mm": [
+        40.049394607543945,
+        32.27580261230469,
+        -163.1100654602051
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 3.8002090380594545e-10,
+      "critical_tet_mean_ratio": 0.0002586256247613073,
+      "regular_element_peak_MPa": 13.7323928887871,
+      "regular_element_position_mm": [
+        39.412559509277344,
+        32.26518249511719,
+        -162.36878585815433
+      ],
+      "dense_only_factor": 0.10955666641135216,
+      "dense_critical_position_mm": [
+        40.049394607543945,
+        32.27580261230469,
+        -163.1100654602051
+      ],
+      "residual": 8.672710229626697e-10,
+      "force_error_N": 2.5833763305247598e-08,
+      "moment_error_Nmm": 2.104446593093912e-06
+    },
+    {
+      "case": "3:twist1Nm",
+      "raw_strength_to_peak_stress_ratio": 0.03960636287273826,
+      "peak_principal_MPa": 757.4540509158824,
+      "peak_layer_normal_MPa": 234.05714998350544,
+      "critical_position_mm": [
+        40.01598262786865,
+        32.268850326538086,
+        -163.12462997436523
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 1.0089495159020964e-09,
+      "critical_tet_mean_ratio": 0.0002668346116031535,
+      "regular_element_peak_MPa": 10.852907098148945,
+      "regular_element_position_mm": [
+        39.44198131561279,
+        32.116580963134766,
+        -162.71276473999023
+      ],
+      "dense_only_factor": 0.03960636287273826,
+      "dense_critical_position_mm": [
+        40.01598262786865,
+        32.268850326538086,
+        -163.12462997436523
+      ],
+      "residual": 1.3561906793307475e-10,
+      "force_error_N": 1.3882104490198628e-08,
+      "moment_error_Nmm": 1.8416160901283416e-06
+    },
+    {
+      "case": "3:down20N",
+      "raw_strength_to_peak_stress_ratio": 0.07762893633497182,
+      "peak_principal_MPa": 386.4538330210896,
+      "peak_layer_normal_MPa": 40.38874392055557,
+      "critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "critical_is_dense": true,
+      "critical_tet_volume_mm3": 4.692437546170635e-10,
+      "critical_tet_mean_ratio": 0.00021522157674980864,
+      "regular_element_peak_MPa": 6.408709493329559,
+      "regular_element_position_mm": [
+        78.96734237670898,
+        0.07500000298023225,
+        -178.4698371887207
+      ],
+      "dense_only_factor": 0.07762893633497182,
+      "dense_critical_position_mm": [
+        -72.83565521240234,
+        29.405205726623535,
+        -216.80481719970703
+      ],
+      "residual": 5.048216687734289e-10,
+      "force_error_N": 2.539294272918543e-08,
+      "moment_error_Nmm": 2.9014578475999655e-06
+    }
+  ],
+  "scope": "Unconverged preliminary tensile-only screen, not a whole-holder safety factor. Rear pegs and contact omitted, centroid mask sampling, assumed wall thickness and bulk homogenization. Regular-element peak is diagnostic, not a replacement minimum factor. Shear, creep, impact, buckling and joint failures not qualified."
+}

@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3471,
-  "total_size_bytes": 1211225582,
+  "file_count": 3488,
+  "total_size_bytes": 1211492257,
   "files": [
     {
       "path": ".gitattributes",
@@ -2450,6 +2450,56 @@
       "path": "bench/reviews/hx05-parametric-v1/setup-check.json",
       "size_bytes": 253,
       "sha256": "3f2c925c008104637e37ef1ae6f7efd7c692d4f3e46429e0e9bdcfd5b0b65508"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05A-baseline.json",
+      "size_bytes": 25038,
+      "sha256": "048bd8573c3d38e90e4ed277c31b7c8fc3e36bcaa2669a3bac0a43dd6926a506"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05A-mask-check.json",
+      "size_bytes": 997,
+      "sha256": "215db931b35bb1a42f7c12d30611c92826075c351783e5f54d4f86bf49e507c2"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05B-baseline.json",
+      "size_bytes": 25002,
+      "sha256": "6c0f63982038480be8d5e69a1525955ef8bdce72f27e4457f50838541347280b"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05B-mask-check.json",
+      "size_bytes": 1002,
+      "sha256": "fa8e279235311165b7bf269e4316fefa844c3986fb8418f7603728f9b9289f3f"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05C-baseline.json",
+      "size_bytes": 30849,
+      "sha256": "a4d82fa9e6aebef5f5a9603dddd56613f61528085e8f6bf061d3391aea849b0b"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05C-mask-check.json",
+      "size_bytes": 996,
+      "sha256": "c2050d9f0fa2d1f6686f113f5a4eef3e1cb21e2d765a88b35b78e7b5d556c70e"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/README.md",
+      "size_bytes": 5753,
+      "sha256": "1d2aa70323521a7413942f3e56bd95dfa09106dbd883c0875c1a9c85155bc03a"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/calculation-receipt.json",
+      "size_bytes": 5284,
+      "sha256": "a1c1cddb437a1b29ad37a042d08dbdd0c16eb78c54b93073bc801e1537255ee7"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/socket-axial-margin.png",
+      "size_bytes": 141616,
+      "sha256": "58563490ed314e862c4c1151dc7be5d92d568ecbe4b2dda9e3e5a51b1813b6df"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/socket-axial-section.json",
+      "size_bytes": 10021,
+      "sha256": "18ba4feed78f5dafbabb0dae202b3dbeeb4633c43958c6c50737aa900d1a0cbd"
     },
     {
       "path": "bench/reviews/key-fan-audit-v1/HX04-fit-v6__3mm-5mm__fan-angle__print.step",
@@ -4980,6 +5030,41 @@
       "path": "bench/source/hx05_parametric_v1/test_reopen.py",
       "size_bytes": 1023,
       "sha256": "2dc81e473845aabb3636a756fb24ac9bca888239b3494df119a3c5d9ba52b2da"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/check_formulation.py",
+      "size_bytes": 1686,
+      "sha256": "012592593ea3ec1e9bd83aec405b1609bea142e029223fe2a810be8d3b7ce53d"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/model.py",
+      "size_bytes": 6114,
+      "sha256": "43f8110e0ffbac688bb0825c1b4badc8a9c541e7e10e3d484610576f714021a0"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/plot_socket_margin.py",
+      "size_bytes": 1301,
+      "sha256": "88857c8bedb1e376eb48323511ac35654422064385bbf92553527b2963c075d9"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/remesh_native.geo",
+      "size_bytes": 330,
+      "sha256": "dad2973cec8d1412269247950e475d6935aa065672564b6145ef46c17d5446fa"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/remesh_surface.geo",
+      "size_bytes": 258,
+      "sha256": "cb84c4414796bd1a2fc9168d5e2f85223bfec628487bacdfa5014a568c82cf3e"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/screen.py",
+      "size_bytes": 8298,
+      "sha256": "a58887f087e6139cfbc20991c184f976827e57e630ab129a333f97e4141d098f"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/socket_section.py",
+      "size_bytes": 2130,
+      "sha256": "557ff8c280d0929ed47ae882f7d09d716b3511f32d935499f4e0669b97af0d12"
     },
     {
       "path": "bench/source/key_fan_audit_v1/README.md",

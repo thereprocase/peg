@@ -1,0 +1,12 @@
+Merge "surface-tensile.stl";
+ClassifySurfaces{40*Pi/180,1,1,Pi};
+CreateGeometry;
+s()=Surface{:};
+Surface Loop(1)={s()};
+Volume(1)={1};
+Mesh.MeshSizeMin=0.6;
+Mesh.MeshSizeMax=2.0;
+Mesh.Algorithm=6;
+Mesh.Algorithm3D=1;
+Mesh.MshFileVersion=2.2;
+Mesh.SaveAll=1;
