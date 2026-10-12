@@ -1,0 +1,18 @@
+{
+  "nodes": 327136,
+  "tets": 757837,
+  "minimum_volume_mm3": 3.7311756731195224e-14,
+  "minimum_mean_ratio": 1.4677673563694708e-06,
+  "volume_mm3": 1688126.5165356272,
+  "surface_volume_mm3": 1688251.768621675,
+  "volume_error_fraction": 7.419040712751045e-05,
+  "seconds": 18.17477422801312,
+  "maxvolume_mm3": 8,
+  "simplified_surface_faces": -1,
+  "approximation": {
+    "relative_surface_volume_error": 2.6962101861116507e-08,
+    "sampled_original_to_analysis_mm": 0.0003217712669699072,
+    "sampled_analysis_to_original_mm": 0.0002993223567603857
+  },
+  "accepted_for_analysis": false
+}

@@ -11,15 +11,6 @@
     "stress_tensor_mapping": true,
     "principal_rotation_invariance": true
   },
-  "source_hashes": {
-    "bench/source/hx05_tensile_v1/check_formulation.py": "012592593ea3ec1e9bd83aec405b1609bea142e029223fe2a810be8d3b7ce53d",
-    "bench/source/hx05_tensile_v1/model.py": "43f8110e0ffbac688bb0825c1b4badc8a9c541e7e10e3d484610576f714021a0",
-    "bench/source/hx05_tensile_v1/plot_socket_margin.py": "88857c8bedb1e376eb48323511ac35654422064385bbf92553527b2963c075d9",
-    "bench/source/hx05_tensile_v1/remesh_native.geo": "dad2973cec8d1412269247950e475d6935aa065672564b6145ef46c17d5446fa",
-    "bench/source/hx05_tensile_v1/remesh_surface.geo": "cb84c4414796bd1a2fc9168d5e2f85223bfec628487bacdfa5014a568c82cf3e",
-    "bench/source/hx05_tensile_v1/screen.py": "a58887f087e6139cfbc20991c184f976827e57e630ab129a333f97e4141d098f",
-    "bench/source/hx05_tensile_v1/socket_section.py": "557ff8c280d0929ed47ae882f7d09d716b3511f32d935499f4e0669b97af0d12"
-  },
   "input_mesh_hashes": {
     ".local-runtime/hx05-connected-v3/HX05A/draft-check.json": "bd14949e2cfe36b55d9282a00e9a0caf176a3a96d66191ed7b4f14a91273a008",
     ".local-runtime/hx05-connected-v3/HX05A/print-drafted-body-closed.stl": "1a3c9e0fb2239c6991cf264a8fdc6c2e124626dfc70a9d281e37fdb18106c4d5",
@@ -38,7 +29,10 @@
     ".local-runtime/hx05-connected-v3/HX05C/print-modifier-foundation.stl": "a767133f43bcea42a093f5f9bb5664bbf2a73b780ba0db83d66bcfd8ad40b5c9",
     ".local-runtime/hx05-connected-v3/HX05C/print-modifier-mounts.stl": "b7f7909532db57a13fb59918081c7a7f64aa21ebe1b6b5d820a5d88de11beb78",
     ".local-runtime/hx05-connected-v3/HX05C/print-modifier-ribs.stl": "e18b170f77d6cdba427facdcc46af0769a806d6e68f83b7e694b2379a355fece",
-    ".local-runtime/hx05-connected-v3/HX05C/print-modifier-sockets.stl": "4f8d935c9129b74764c5944ab6192e269ffa027ac5d4b7606b494f404b8bdcb5"
+    ".local-runtime/hx05-connected-v3/HX05C/print-modifier-sockets.stl": "4f8d935c9129b74764c5944ab6192e269ffa027ac5d4b7606b494f404b8bdcb5",
+    ".local-runtime/hx05-density-v1/HX05A/fea-front-domain.brep": "a1f0a8b2b8090b416b3aa88675a1e2e06046ec83e8ca17f1f3fe8e188288b71d",
+    ".local-runtime/hx05-density-v1/HX05B/fea-front-domain.brep": "13f61517454bf4e5845f3648fcde80332e630e685096f98337f03e0002724099",
+    ".local-runtime/hx05-density-v1/HX05C/fea-front-domain.brep": "6eaac8be6c5d4f60955ee32c9ec4e5c7a26bb4fd6b8948da8a00962f60b561fa"
   },
   "rejected_continuum": {
     "HX05A": {
@@ -68,5 +62,37 @@
       "surface_remesh": "rejected: topology/overlapping facets",
       "native_BREP_remesh": "rejected: intersecting curves and segmentation fault"
     }
-  }
+  },
+  "baseline_source_commit": "129bdc1",
+  "baseline_source_hashes": {
+    "bench/source/hx05_tensile_v1/check_formulation.py": "012592593ea3ec1e9bd83aec405b1609bea142e029223fe2a810be8d3b7ce53d",
+    "bench/source/hx05_tensile_v1/model.py": "43f8110e0ffbac688bb0825c1b4badc8a9c541e7e10e3d484610576f714021a0",
+    "bench/source/hx05_tensile_v1/plot_socket_margin.py": "88857c8bedb1e376eb48323511ac35654422064385bbf92553527b2963c075d9",
+    "bench/source/hx05_tensile_v1/remesh_native.geo": "dad2973cec8d1412269247950e475d6935aa065672564b6145ef46c17d5446fa",
+    "bench/source/hx05_tensile_v1/remesh_surface.geo": "cb84c4414796bd1a2fc9168d5e2f85223bfec628487bacdfa5014a568c82cf3e",
+    "bench/source/hx05_tensile_v1/screen.py": "a58887f087e6139cfbc20991c184f976827e57e630ab129a333f97e4141d098f",
+    "bench/source/hx05_tensile_v1/socket_section.py": "557ff8c280d0929ed47ae882f7d09d716b3511f32d935499f4e0669b97af0d12"
+  },
+  "bending_source_hashes": {
+    "bench/source/hx05_tensile_v1/bending_demands.py": "edfb88582fce616f4de3bfaa209d61a2084b8dc59e3483d8c8fd9d06c35a9fc4",
+    "bench/source/hx05_tensile_v1/check_formulation.py": "012592593ea3ec1e9bd83aec405b1609bea142e029223fe2a810be8d3b7ce53d",
+    "bench/source/hx05_tensile_v1/model.py": "5b7d943240f680f025d576e21fd3b4cdd6f43a4857175cee6fb84dcf619044fe",
+    "bench/source/hx05_tensile_v1/plot_rib_sections.py": "53dd5d02671fea29d0d07299d69db99679a60e73e8b982b893de332f950ba8e8",
+    "bench/source/hx05_tensile_v1/plot_socket_margin.py": "88857c8bedb1e376eb48323511ac35654422064385bbf92553527b2963c075d9",
+    "bench/source/hx05_tensile_v1/remesh_native.geo": "dad2973cec8d1412269247950e475d6935aa065672564b6145ef46c17d5446fa",
+    "bench/source/hx05_tensile_v1/remesh_surface.geo": "cb84c4414796bd1a2fc9168d5e2f85223bfec628487bacdfa5014a568c82cf3e",
+    "bench/source/hx05_tensile_v1/rib_section_screen.py": "c1455c8554fb7ba10e9ec9b2dc2130c8d29f05353702812ab93c38a40f63da8e",
+    "bench/source/hx05_tensile_v1/screen.py": "e531e84ed384c0ef962dfa1b9cd4d07813c0bf98535e5bdd8118e989d920b4d6",
+    "bench/source/hx05_tensile_v1/socket_section.py": "557ff8c280d0929ed47ae882f7d09d716b3511f32d935499f4e0669b97af0d12",
+    "bench/source/hx05_tensile_v1/tetgen_mesh.py": "85b2e228cdb45b1a6bb1f1ccca9fa9ff6bb46260e6d8afbf97ed273cef80a8de",
+    "bench/source/hx05_tensile_v1/verify_rib_sections_native.py": "5f03070cf84f288ecc2bdcea66e8fa366abf2c8817eccad39992fece4f076341"
+  },
+  "bending_section_checks": {
+    "rectangle_integrals": true,
+    "polygon_intersection": true,
+    "independent_two_bar_stress": true,
+    "force_moment_equilibrium": true,
+    "native_critical_section_probes": true
+  },
+  "bending_scope": "Own-two-dense-ribs beam section screen only. Not complete-holder bending safety factor; no surrounding wall contribution or torsional/contact/peg capacity established."
 }

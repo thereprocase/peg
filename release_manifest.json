@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3488,
-  "total_size_bytes": 1211492257,
+  "file_count": 3500,
+  "total_size_bytes": 1212243773,
   "files": [
     {
       "path": ".gitattributes",
@@ -2462,6 +2462,11 @@
       "sha256": "215db931b35bb1a42f7c12d30611c92826075c351783e5f54d4f86bf49e507c2"
     },
     {
+      "path": "bench/reviews/hx05-tensile-v1/HX05A-tetgen-rejected.json",
+      "size_bytes": 595,
+      "sha256": "f0f81ea4bf14d2d7ddae68fc1d55250d2627d4ad48947185e2cbdfe68efac937"
+    },
+    {
       "path": "bench/reviews/hx05-tensile-v1/HX05B-baseline.json",
       "size_bytes": 25002,
       "sha256": "6c0f63982038480be8d5e69a1525955ef8bdce72f27e4457f50838541347280b"
@@ -2470,6 +2475,11 @@
       "path": "bench/reviews/hx05-tensile-v1/HX05B-mask-check.json",
       "size_bytes": 1002,
       "sha256": "fa8e279235311165b7bf269e4316fefa844c3986fb8418f7603728f9b9289f3f"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/HX05B-tetgen-rejected.json",
+      "size_bytes": 599,
+      "sha256": "bdb41f3cf3edc6a77524105e33b34d287ae53a50f39d58fd18371dce1ba85b79"
     },
     {
       "path": "bench/reviews/hx05-tensile-v1/HX05C-baseline.json",
@@ -2482,14 +2492,39 @@
       "sha256": "c2050d9f0fa2d1f6686f113f5a4eef3e1cb21e2d765a88b35b78e7b5d556c70e"
     },
     {
+      "path": "bench/reviews/hx05-tensile-v1/HX05C-tetgen-rejected.json",
+      "size_bytes": 597,
+      "sha256": "ba789b14cfa9cece0c19281bbc7bb845ae94aa55164e4673df2ba1d68909c8ad"
+    },
+    {
       "path": "bench/reviews/hx05-tensile-v1/README.md",
-      "size_bytes": 5753,
-      "sha256": "1d2aa70323521a7413942f3e56bd95dfa09106dbd883c0875c1a9c85155bc03a"
+      "size_bytes": 10067,
+      "sha256": "0233b081f12a36c46b50fabdf0000bc7596872c2ea01e467658da78468ae8c06"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/bending-demands.json",
+      "size_bytes": 117330,
+      "sha256": "c2501d88a56d3884960409c9a942ea62551286401979e7694b894ddded576530"
     },
     {
       "path": "bench/reviews/hx05-tensile-v1/calculation-receipt.json",
-      "size_bytes": 5284,
-      "sha256": "a1c1cddb437a1b29ad37a042d08dbdd0c16eb78c54b93073bc801e1537255ee7"
+      "size_bytes": 7652,
+      "sha256": "0c3c5e2b2af15f7400ac48711b58c13fa4a2ca5d671233f1622faae82c2cf191"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/rib-bending-sections.json",
+      "size_bytes": 358434,
+      "sha256": "c779ceb57389d76ff6388a3ce3f5abe0844f157e6bbba07c283b61544cb1ebdb"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/rib-root-bending-screen.png",
+      "size_bytes": 249318,
+      "sha256": "169a50245aaa6849478885667e84d5dedb1c15984dfe6893582b43ad0277a0d7"
+    },
+    {
+      "path": "bench/reviews/hx05-tensile-v1/rib-section-native-probes.json",
+      "size_bytes": 1198,
+      "sha256": "32a0c104453b3bb2af0a2ac0d6fa6935bc117ce5d600b3894d6c189caca54c96"
     },
     {
       "path": "bench/reviews/hx05-tensile-v1/socket-axial-margin.png",
@@ -5032,14 +5067,24 @@
       "sha256": "2dc81e473845aabb3636a756fb24ac9bca888239b3494df119a3c5d9ba52b2da"
     },
     {
+      "path": "bench/source/hx05_tensile_v1/bending_demands.py",
+      "size_bytes": 3279,
+      "sha256": "edfb88582fce616f4de3bfaa209d61a2084b8dc59e3483d8c8fd9d06c35a9fc4"
+    },
+    {
       "path": "bench/source/hx05_tensile_v1/check_formulation.py",
       "size_bytes": 1686,
       "sha256": "012592593ea3ec1e9bd83aec405b1609bea142e029223fe2a810be8d3b7ce53d"
     },
     {
       "path": "bench/source/hx05_tensile_v1/model.py",
-      "size_bytes": 6114,
-      "sha256": "43f8110e0ffbac688bb0825c1b4badc8a9c541e7e10e3d484610576f714021a0"
+      "size_bytes": 6369,
+      "sha256": "5b7d943240f680f025d576e21fd3b4cdd6f43a4857175cee6fb84dcf619044fe"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/plot_rib_sections.py",
+      "size_bytes": 2401,
+      "sha256": "53dd5d02671fea29d0d07299d69db99679a60e73e8b982b893de332f950ba8e8"
     },
     {
       "path": "bench/source/hx05_tensile_v1/plot_socket_margin.py",
@@ -5057,14 +5102,29 @@
       "sha256": "cb84c4414796bd1a2fc9168d5e2f85223bfec628487bacdfa5014a568c82cf3e"
     },
     {
+      "path": "bench/source/hx05_tensile_v1/rib_section_screen.py",
+      "size_bytes": 5231,
+      "sha256": "c1455c8554fb7ba10e9ec9b2dc2130c8d29f05353702812ab93c38a40f63da8e"
+    },
+    {
       "path": "bench/source/hx05_tensile_v1/screen.py",
-      "size_bytes": 8298,
-      "sha256": "a58887f087e6139cfbc20991c184f976827e57e630ab129a333f97e4141d098f"
+      "size_bytes": 8614,
+      "sha256": "e531e84ed384c0ef962dfa1b9cd4d07813c0bf98535e5bdd8118e989d920b4d6"
     },
     {
       "path": "bench/source/hx05_tensile_v1/socket_section.py",
       "size_bytes": 2130,
       "sha256": "557ff8c280d0929ed47ae882f7d09d716b3511f32d935499f4e0669b97af0d12"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/tetgen_mesh.py",
+      "size_bytes": 4026,
+      "sha256": "85b2e228cdb45b1a6bb1f1ccca9fa9ff6bb46260e6d8afbf97ed273cef80a8de"
+    },
+    {
+      "path": "bench/source/hx05_tensile_v1/verify_rib_sections_native.py",
+      "size_bytes": 1255,
+      "sha256": "5f03070cf84f288ecc2bdcea66e8fa366abf2c8817eccad39992fece4f076341"
     },
     {
       "path": "bench/source/key_fan_audit_v1/README.md",

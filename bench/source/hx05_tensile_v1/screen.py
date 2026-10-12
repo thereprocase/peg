@@ -53,7 +53,7 @@ def prepare(folder, source, mesh_name=None, jobs=1):
     (folder/f'{tag}-mask-check.json').write_text(json.dumps(out,indent=2)+'\n')
     print(json.dumps(out),flush=True)
 
-def solve(folder, rz, bulk, support, mesh_name=None):
+def solve(folder, rz, bulk, support, mesh_name=None,bending=False):
     folder=Path(folder); rack=next(r for r in json.loads((folder.parent/'config.json').read_text())['racks'] if r['id']==folder.name)
     mesh=folder/mesh_name if mesh_name else folder/('front-delaunay.msh' if folder.name=='HX05A' else 'front-4mm.msh')
     X,tri,tets=read_msh(mesh); centres,vol,B,edof=tet_data(X,tets)
@@ -61,14 +61,16 @@ def solve(folder, rz, bulk, support, mesh_name=None):
     dense=np.load(folder/f'{tag}-mask.npz')['dense']; rho=np.where(dense,1.,bulk)
     edges=np.array([np.linalg.norm(X[tets[:,a]]-X[tets[:,b]],axis=1) for a,b in [(0,1),(0,2),(0,3),(1,2),(1,3),(2,3)]])
     quality=12*(3*vol)**(2/3)/(edges**2).sum(0)
-    D=elasticity(rz); F,labels,patches=load_cases(X,tri,rack)
+    D=elasticity(rz); F,labels,patches=load_cases(X,tri,rack,bending=bending)
     # Conservative service assumption: 5 N per key, applied at grip center,
     # plus 5.1 N uniformly distributed holder weight (actual inch ~0.520 kg).
     service=sum((5*F[:,j] for j in range(0,len(labels),3)),np.zeros(len(X)*3))
     for k in range(4): np.add.at(service,edof[:,3*k+2],-5.1*vol/vol.sum()/4)
     cases=[service]; names=['all_keys_5N_each_and_holder_5.1N']
     for j in range(0,len(labels),3):
-        for mode,vector in [('pull100N',100*F[:,j+1]),('twist1Nm',1000*F[:,j+2]),('down20N',20*F[:,j])]:
+        modes=[('pull100N',100*F[:,j+1]),('twist1Nm',1000*F[:,j+2]),('down20N',20*F[:,j])]
+        if bending:modes=[('down20N',20*F[:,j]),('across_layers20N',20*F[:,j+1]),('outboard20N',20*F[:,j+2])]
+        for mode,vector in modes:
             cases.append(service+vector); names.append(labels[j].split(':')[0]+':'+mode)
     F=np.asarray(cases).T
     fixed_nodes=boundary(X,rack,support); free=np.flatnonzero(~np.repeat(fixed_nodes,3))
@@ -94,12 +96,13 @@ def solve(folder, rz, bulk, support, mesh_name=None):
         force_error=np.linalg.norm(f.sum(0)+r[fixed_nodes].sum(0))
         moment_error=np.linalg.norm(np.cross(X,f).sum(0)+np.cross(X[fixed_nodes],r[fixed_nodes]).sum(0))
         regular=(quality>=.01)&(vol>=1e-6); ri=int(np.argmax(np.where(regular,index,-1)))
-        results.append(dict(case=name,raw_strength_to_peak_stress_ratio=float(1/index[idx]),peak_principal_MPa=float(principal[idx]),peak_layer_normal_MPa=float(layer.max()),critical_position_mm=centres[idx].tolist(),critical_is_dense=bool(dense[idx]),critical_tet_volume_mm3=float(vol[idx]),critical_tet_mean_ratio=float(quality[idx]),regular_element_peak_MPa=float(principal[ri]),regular_element_position_mm=centres[ri].tolist(),dense_only_factor=float(1/index[didx]),dense_critical_position_mm=centres[didx].tolist(),residual=float(err[j]),force_error_N=float(force_error),moment_error_Nmm=float(moment_error)))
+        results.append(dict(case=name,raw_strength_to_peak_stress_ratio=float(1/index[idx]),peak_principal_MPa=float(principal[idx]),peak_layer_normal_MPa=float(layer.max()),peak_interlayer_shear_MPa=float(np.hypot(s[:,4],s[:,5]).max()),critical_position_mm=centres[idx].tolist(),critical_is_dense=bool(dense[idx]),critical_tet_volume_mm3=float(vol[idx]),critical_tet_mean_ratio=float(quality[idx]),regular_element_peak_MPa=float(principal[ri]),regular_element_position_mm=centres[ri].tolist(),dense_only_factor=float(1/index[didx]),dense_critical_position_mm=centres[didx].tolist(),residual=float(err[j]),force_error_N=float(force_error),moment_error_Nmm=float(moment_error)))
     out=dict(accepted_for_fracture_factor=False,id=folder.name,mesh=mesh.name,rz=rz,bulk_stiffness_ratio=bulk,support=support,passed_equilibrium=bool(err.max()<1e-6 and max(x['force_error_N'] for x in results)<1e-5 and max(x['moment_error_Nmm'] for x in results)<1e-3),nodes=len(X),tetrahedra=len(tets),minimum_mean_ratio=float(quality.min()),regular_elements=int(regular.sum()),loads=results,scope='Unconverged preliminary tensile-only screen, not a whole-holder safety factor. Rear pegs and contact omitted, centroid mask sampling, assumed wall thickness and bulk homogenization. Regular-element peak is diagnostic, not a replacement minimum factor. Shear, creep, impact, buckling and joint failures not qualified.')
     suffix='-'+mesh.stem if mesh_name else ''
+    if bending:suffix+='-bending'
     dest=folder/f'tensile-rz{rz}-bulk{bulk}-{support}{suffix}.json'; dest.write_text(json.dumps(out,indent=2)+'\n'); print(dest, 'DONE',out['passed_equilibrium'],flush=True)
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(); p.add_argument('folder'); p.add_argument('--prepare'); p.add_argument('--mesh'); p.add_argument('--jobs',type=int,default=1); p.add_argument('--rz',type=float,default=.9); p.add_argument('--bulk',type=float,default=.025); p.add_argument('--support',choices=['roots','face'],default='roots'); a=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('folder'); p.add_argument('--prepare'); p.add_argument('--mesh'); p.add_argument('--bending',action='store_true'); p.add_argument('--jobs',type=int,default=1); p.add_argument('--rz',type=float,default=.9); p.add_argument('--bulk',type=float,default=.025); p.add_argument('--support',choices=['roots','face'],default='roots'); a=p.parse_args()
     if a.prepare: prepare(a.folder,a.prepare,a.mesh,a.jobs)
-    else: solve(a.folder,a.rz,a.bulk,a.support,a.mesh)
+    else: solve(a.folder,a.rz,a.bulk,a.support,a.mesh,a.bending)

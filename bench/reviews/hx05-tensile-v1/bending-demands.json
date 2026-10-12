@@ -1,0 +1,3272 @@
+{
+  "scope": "Static load demands only. Two point bearings, rigid straight key and modeled grip centers. Not stresses or safety factors. Actual holder has distributed contact, walls, dense ribs and roots; rear peg contact remains unresolved.",
+  "force_N": 20,
+  "print_layer_normal_installed_axis": "X",
+  "racks": [
+    {
+      "id": "HX05C",
+      "tools": [
+        {
+          "tool": "9/64",
+          "axis": [
+            0.12376237623762376,
+            0.3217821782178218,
+            0.9386901000912979
+          ],
+          "tip": [
+            -55.09892468124785,
+            60.0,
+            -91.09480502364137
+          ],
+          "straight_shoulder": [
+            -47.673182106990424,
+            79.3069306930693,
+            -34.773399018163495
+          ],
+          "grip_center": [
+            -30.09892468124785,
+            125.0,
+            98.5205951948008
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 142.0,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 67.33333333333334,
+              "lower_bearing_force_N": 47.333333333333336,
+              "upper_bearing_vector_N": [
+                62.84527081767268,
+                -24.171258006797185,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -44.178358693611486,
+                16.991676420619804,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                956.9951063994329,
+                2488.1872766385254,
+                -979.1243244357154
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.84,
+              "print_layer_normal_upper_force_N": 62.84527081767268
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 142.0,
+              "transverse_force_N": 6.895241721378277,
+              "axial_force_N": -18.77380200182596,
+              "upper_bearing_force_N": 23.213980461973534,
+              "lower_bearing_force_N": 16.318738740595254,
+              "upper_bearing_vector_N": [
+                7.8224175007608165,
+                20.338285501978124,
+                -8.003300330032994
+              ],
+              "lower_bearing_vector_N": [
+                -5.498927154000178,
+                -14.297210600400463,
+                5.626082410221214
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -913.8613861386139,
+                351.48514851485146,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 0.9791243244357154,
+              "print_layer_normal_upper_force_N": 7.8224175007608165
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 142.0,
+              "transverse_force_N": 19.846237670934173,
+              "axial_force_N": 2.4752475247524752,
+              "upper_bearing_force_N": 66.81566682547837,
+              "lower_bearing_force_N": 46.96942915454421,
+              "upper_bearing_vector_N": [
+                66.30198019801979,
+                -2.681518151815182,
+                -7.8224175007608165
+              ],
+              "lower_bearing_vector_N": [
+                -46.60832271345946,
+                1.8850276116720586,
+                5.498927154000178
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2665.879884259286,
+                -913.8613861386139
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.818165749272653,
+              "print_layer_normal_upper_force_N": 66.30198019801979
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 142.0,
+              "transverse_force_N": 18.93627449929256,
+              "axial_force_N": 6.435643564356436,
+              "upper_bearing_force_N": 63.752124147618275,
+              "lower_bearing_force_N": 44.815849648325724,
+              "upper_bearing_vector_N": [
+                -2.681518151815182,
+                60.36138613861386,
+                -20.338285501978124
+              ],
+              "lower_bearing_vector_N": [
+                1.8850276116720586,
+                -42.432261542985984,
+                14.297210600400463
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2665.879884259286,
+                0.0,
+                351.48514851485146
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.6889509788995434,
+              "print_layer_normal_upper_force_N": -2.681518151815182
+            }
+          }
+        },
+        {
+          "tool": "5/32",
+          "axis": [
+            0.3171031494460678,
+            0.3228228228228228,
+            0.8917572638762687
+          ],
+          "tip": [
+            -61.09892468124785,
+            53.33333333333333,
+            -131.57319329824276
+          ],
+          "straight_shoulder": [
+            -42.072735714483784,
+            72.7027027027027,
+            -78.06775746566663
+          ],
+          "grip_center": [
+            9.2979744957792,
+            125.0,
+            66.39691928228892
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 162.00000000000006,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 8.881784197001252e-16,
+              "upper_bearing_force_N": 74.00000000000001,
+              "lower_bearing_force_N": 54.000000000000014,
+              "upper_bearing_vector_N": [
+                52.79148327982283,
+                -51.85614036077298,
+                -2.930546362327209e-15
+              ],
+              "lower_bearing_vector_N": [
+                -38.52351482581666,
+                37.840967290293804,
+                2.1385068049414767e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                2024.6974471934266,
+                2061.217450558028,
+                -1466.1455824178877
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.2400000000000007,
+              "print_layer_normal_upper_force_N": 52.79148327982283
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 162.00000000000006,
+              "transverse_force_N": 9.050281372949923,
+              "axial_force_N": -17.835145277525374,
+              "upper_bearing_force_N": 33.48604107991472,
+              "lower_bearing_force_N": 24.435759706964795,
+              "upper_bearing_vector_N": [
+                20.925648731826403,
+                21.303090192599758,
+                -15.152904691969402
+              ],
+              "lower_bearing_vector_N": [
+                -15.270067993494944,
+                -15.545498248653878,
+                11.057525045491186
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1045.945945945946,
+                1027.4142042052597,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4661455824178877,
+              "print_layer_normal_upper_force_N": 20.925648731826403
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 162.00000000000006,
+              "transverse_force_N": 18.967821093751223,
+              "axial_force_N": 6.342062988921357,
+              "upper_bearing_force_N": 70.18093804687953,
+              "lower_bearing_force_N": 51.21311695312831,
+              "upper_bearing_vector_N": [
+                66.55897385324248,
+                -7.575241903433843,
+                -20.925648731826403
+              ],
+              "lower_bearing_vector_N": [
+                -48.57006200101478,
+                5.527879226830102,
+                15.270067993494944
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2889.2935349591107,
+                -1045.945945945946
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.0727870171876983,
+              "print_layer_normal_upper_force_N": 66.55897385324248
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 162.00000000000006,
+              "transverse_force_N": 18.92918830869094,
+              "axial_force_N": 6.456456456456456,
+              "upper_bearing_force_N": 70.0379967421565,
+              "lower_bearing_force_N": 51.10880843346555,
+              "upper_bearing_vector_N": [
+                -7.575241903433843,
+                66.28812145478814,
+                -21.303090192599754
+              ],
+              "lower_bearing_vector_N": [
+                5.527879226830102,
+                -48.37241295349405,
+                15.545498248653875
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2889.2935349591107,
+                0.0,
+                1027.4142042052597
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.0665285060079324,
+              "print_layer_normal_upper_force_N": -7.575241903433843
+            }
+          }
+        },
+        {
+          "tool": "3/16",
+          "axis": [
+            0.4810476497670507,
+            0.3250345781466113,
+            0.8142147638446819
+          ],
+          "tip": [
+            -67.09892468124785,
+            46.66666666666667,
+            -158.43233563364686
+          ],
+          "straight_shoulder": [
+            -38.23606569522481,
+            66.16874135546335,
+            -109.57944980296594
+          ],
+          "grip_center": [
+            48.833558912611366,
+            125.0,
+            37.793422452921504
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 59.999999999999986,
+              "exposed_grip_lever_mm": 181.0,
+              "transverse_force_N": 19.999999999999996,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 80.33333333333334,
+              "lower_bearing_force_N": 60.33333333333335,
+              "upper_bearing_vector_N": [
+                44.975438363363274,
+                -66.56316089600732,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -33.778233791571594,
+                49.99141959409678,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                2442.2251139440746,
+                1650.1641989816947,
+                -2101.640932514389
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.6199999999999997,
+              "print_layer_normal_upper_force_N": 44.975438363363274
+            },
+            "down20N": {
+              "bearing_spacing_mm": 59.999999999999986,
+              "exposed_grip_lever_mm": 181.0,
+              "transverse_force_N": 11.611275870245246,
+              "axial_force_N": -16.284295276893637,
+              "upper_bearing_force_N": 46.638624745485075,
+              "lower_bearing_force_N": 35.02734887523984,
+              "upper_bearing_vector_N": [
+                31.464646583767188,
+                21.260052167055584,
+                -27.076696906433696
+              ],
+              "lower_bearing_vector_N": [
+                -23.63112461270482,
+                -15.967093121315607,
+                20.33561053968672
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1176.625172890733,
+                1741.3924921567236,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.101640932514389,
+              "print_layer_normal_upper_force_N": 31.464646583767188
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 59.999999999999986,
+              "exposed_grip_lever_mm": 181.0,
+              "transverse_force_N": 17.53388899991781,
+              "axial_force_N": 9.620952995341014,
+              "upper_bearing_force_N": 70.42778748300323,
+              "lower_bearing_force_N": 52.893898483085415,
+              "upper_bearing_vector_N": [
+                61.74365041183897,
+                -12.560688632806325,
+                -31.46464658376719
+              ],
+              "lower_bearing_vector_N": [
+                -46.371787238767034,
+                9.433546234597284,
+                23.631124612704824
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2947.4574451177486,
+                -1176.625172890733
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.1736339089851233,
+              "print_layer_normal_upper_force_N": 61.74365041183897
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 59.999999999999986,
+              "exposed_grip_lever_mm": 181.0,
+              "transverse_force_N": 18.914042645706967,
+              "axial_force_N": 6.500691562932226,
+              "upper_bearing_force_N": 75.971404626923,
+              "lower_bearing_force_N": 57.05736198121604,
+              "upper_bearing_vector_N": [
+                -12.560688632806327,
+                71.84631934839406,
+                -21.260052167055587
+              ],
+              "lower_bearing_vector_N": [
+                9.433546234597284,
+                -53.959268888212975,
+                15.967093121315608
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2947.4574451177486,
+                0.0,
+                1741.3924921567236
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.4234417188729607,
+              "print_layer_normal_upper_force_N": -12.560688632806327
+            }
+          }
+        },
+        {
+          "tool": "7/32",
+          "axis": [
+            0.630637224629758,
+            0.3359683794466403,
+            0.6995869773825657
+          ],
+          "tip": [
+            -73.09892468124785,
+            40.0,
+            -180.2098793385864
+          ],
+          "straight_shoulder": [
+            -31.05118772905874,
+            62.40069169960474,
+            -133.56491762160385
+          ],
+          "grip_center": [
+            86.45229315008093,
+            125.0,
+            -3.2143740607972724
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 66.67499999999998,
+              "exposed_grip_lever_mm": 186.32500000000007,
+              "transverse_force_N": 19.999999999999996,
+              "axial_force_N": 8.881784197001252e-16,
+              "upper_bearing_force_N": 75.8905136857893,
+              "lower_bearing_force_N": 55.89051368578931,
+              "upper_bearing_vector_N": [
+                35.682462835875135,
+                -66.97859294923538,
+                -2.357759102686944e-15
+              ],
+              "lower_bearing_vector_N": [
+                -26.278794023298165,
+                49.32721870065725,
+                1.7364010466725095e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                2300.866227897383,
+                1225.7733411852128,
+                -2662.7610796616564
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.7265000000000006,
+              "print_layer_normal_upper_force_N": 35.682462835875135
+            },
+            "down20N": {
+              "bearing_spacing_mm": 66.67499999999998,
+              "exposed_grip_lever_mm": 186.32500000000007,
+              "transverse_force_N": 14.290949038838892,
+              "axial_force_N": -13.991739547651314,
+              "upper_bearing_force_N": 54.22737318074603,
+              "lower_bearing_force_N": 39.93642414190714,
+              "upper_bearing_vector_N": [
+                33.48180104096788,
+                17.837238268471875,
+                -38.74803133180701
+              ],
+              "lower_bearing_vector_N": [
+                -24.65808924489463,
+                -13.136456207007996,
+                28.536470110272504
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1251.9861660079052,
+                2350.0696175827934,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.6627610796616565,
+              "print_layer_normal_upper_force_N": 33.48180104096788
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 66.67499999999998,
+              "exposed_grip_lever_mm": 186.32500000000007,
+              "transverse_force_N": 15.521555217326338,
+              "axial_force_N": 12.61274449259516,
+              "upper_bearing_force_N": 58.89693993226195,
+              "lower_bearing_force_N": 43.37538471493561,
+              "upper_bearing_vector_N": [
+                45.70860526450782,
+                -16.079239323143444,
+                -33.48180104096788
+              ],
+              "lower_bearing_vector_N": [
+                -33.662671446282296,
+                11.841755995591711,
+                24.65808924489463
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2607.010871216132,
+                -1251.9861660079052
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.8920537758683307,
+              "print_layer_normal_upper_force_N": 45.70860526450782
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 66.67499999999998,
+              "exposed_grip_lever_mm": 186.32500000000007,
+              "transverse_force_N": 18.837465307328355,
+              "axial_force_N": 6.719367588932807,
+              "upper_bearing_force_N": 71.47924593556921,
+              "lower_bearing_force_N": 52.641780628240845,
+              "upper_bearing_vector_N": [
+                -16.079239323143444,
+                67.32439077526381,
+                -17.837238268471875
+              ],
+              "lower_bearing_vector_N": [
+                11.84175599559171,
+                -49.58188581502384,
+                13.136456207007996
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2607.010871216132,
+                0.0,
+                2350.0696175827934
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.509890723387956,
+              "print_layer_normal_upper_force_N": -16.079239323143444
+            }
+          }
+        },
+        {
+          "tool": "1/4",
+          "axis": [
+            0.754283296423092,
+            0.3446115288220551,
+            0.558837725050877
+          ],
+          "tip": [
+            -79.09892468124785,
+            33.33333333333334,
+            -198.7048485379845
+          ],
+          "straight_shoulder": [
+            -21.622537493808252,
+            59.592731829573935,
+            -156.12141388910769
+          ],
+          "grip_center": [
+            121.54043216729463,
+            125.0,
+            -50.05401367445123
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 76.19999999999997,
+              "exposed_grip_lever_mm": 189.8,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 69.81627296587928,
+              "lower_bearing_force_N": 49.816272965879286,
+              "upper_bearing_vector_N": [
+                29.012611724470368,
+                -63.502600984300564,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -20.70148009512961,
+                45.31125438654229,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1929.5088400279562,
+                881.5401247659759,
+                -3147.935616349476
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.7959999999999994,
+              "print_layer_normal_upper_force_N": 29.012611724470368
+            },
+            "down20N": {
+              "bearing_spacing_mm": 76.19999999999997,
+              "exposed_grip_lever_mm": 189.8,
+              "transverse_force_N": 16.58554065516057,
+              "axial_force_N": -11.176754501017541,
+              "upper_bearing_force_N": 57.89703168336894,
+              "lower_bearing_force_N": 41.311491028208366,
+              "upper_bearing_vector_N": [
+                29.42909231939911,
+                13.445352090025477,
+                -48.01267863988176
+              ],
+              "lower_bearing_vector_N": [
+                -20.99865309105997,
+                -9.593713634161036,
+                34.25867069868256
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1308.1453634085212,
+                2863.259393222057,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.147935616349476,
+              "print_layer_normal_upper_force_N": 29.42909231939911
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 76.19999999999997,
+              "exposed_grip_lever_mm": 189.8,
+              "transverse_force_N": 13.130981817626797,
+              "axial_force_N": 15.08566592846184,
+              "upper_bearing_force_N": 45.83781054447151,
+              "lower_bearing_force_N": 32.70682872684472,
+              "upper_bearing_vector_N": [
+                30.094772840963874,
+                -18.147673361010526,
+                -29.42909231939911
+              ],
+              "lower_bearing_vector_N": [
+                -21.473638666221596,
+                12.948978962104505,
+                20.99865309105997
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2121.348004293129,
+                -1308.1453634085212
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.4922603489855657,
+              "print_layer_normal_upper_force_N": 30.094772840963874
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 76.19999999999997,
+              "exposed_grip_lever_mm": 189.8,
+              "transverse_force_N": 18.77490766105576,
+              "axial_force_N": 6.892230576441102,
+              "upper_bearing_force_N": 65.53970390867237,
+              "lower_bearing_force_N": 46.764796247616594,
+              "upper_bearing_vector_N": [
+                -18.147673361010526,
+                61.52509445091295,
+                -13.445352090025477
+              ],
+              "lower_bearing_vector_N": [
+                12.948978962104505,
+                -43.90023656685443,
+                9.593713634161038
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2121.348004293129,
+                0.0,
+                2863.259393222057
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.5634774740683834,
+              "print_layer_normal_upper_force_N": -18.147673361010526
+            }
+          }
+        },
+        {
+          "tool": "5/16",
+          "axis": [
+            0.8497762126469921,
+            0.3511904761904762,
+            0.39312292969558593
+          ],
+          "tip": [
+            -85.09892468124782,
+            26.666666666666657,
+            -215.47368279110714
+          ],
+          "straight_shoulder": [
+            -4.157740426621828,
+            60.11755952380952,
+            -178.02872373760258
+          ],
+          "grip_center": [
+            152.83841485990996,
+            125.0,
+            -105.39926247634308
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 95.25,
+              "exposed_grip_lever_mm": 184.75,
+              "transverse_force_N": 19.999999999999996,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 58.79265091863517,
+              "lower_bearing_force_N": 38.79265091863517,
+              "upper_bearing_vector_N": [
+                22.455394434659038,
+                -54.33535739115347,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -14.816550435011633,
+                35.851633135770015,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1342.4629347701753,
+                554.8051243531957,
+                -3397.5004845856433
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.6949999999999994,
+              "print_layer_normal_upper_force_N": 22.455394434659038
+            },
+            "down20N": {
+              "bearing_spacing_mm": 95.25,
+              "exposed_grip_lever_mm": 184.75,
+              "transverse_force_N": 18.389718455132034,
+              "axial_force_N": -7.862458593911718,
+              "upper_bearing_force_N": 54.05901488122803,
+              "lower_bearing_force_N": 35.66929642609599,
+              "upper_bearing_vector_N": [
+                19.64065595892773,
+                8.11697387647929,
+                -49.70650318137882
+              ],
+              "lower_bearing_vector_N": [
+                -12.959325672899636,
+                -5.355753298855532,
+                32.79741593842763
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1297.6488095238096,
+                3139.923105730636,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.3975004845856436,
+              "print_layer_normal_upper_force_N": 19.64065595892773
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 95.25,
+              "exposed_grip_lever_mm": 184.75,
+              "transverse_force_N": 10.542872254169335,
+              "axial_force_N": 16.99552425293984,
+              "upper_bearing_force_N": 30.992170405957104,
+              "lower_bearing_force_N": 20.44929815178777,
+              "upper_bearing_vector_N": [
+                16.33732467347266,
+                -17.54568558046283,
+                -19.64065595892773
+              ],
+              "lower_bearing_vector_N": [
+                -10.77971690508598,
+                11.5770193249661,
+                12.959325672899636
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1452.58922522519,
+                -1297.6488095238096
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.9477956489577848,
+              "print_layer_normal_upper_force_N": 16.33732467347266
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 95.25,
+              "exposed_grip_lever_mm": 184.75,
+              "transverse_force_N": 18.726080737122828,
+              "axial_force_N": 7.023809523809525,
+              "upper_bearing_force_N": 55.04779639259204,
+              "lower_bearing_force_N": 36.32171565546921,
+              "upper_bearing_vector_N": [
+                -17.54568558046283,
+                51.541473982418864,
+                -8.11697387647929
+              ],
+              "lower_bearing_vector_N": [
+                11.577019324966098,
+                -34.00816899375673,
+                5.355753298855532
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1452.58922522519,
+                0.0,
+                3139.923105730636
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.459643416183442,
+              "print_layer_normal_upper_force_N": -17.54568558046283
+            }
+          }
+        },
+        {
+          "tool": "3/8",
+          "axis": [
+            0.9150134171622237,
+            0.3599175734271825,
+            0.18223552549214747
+          ],
+          "tip": [
+            -91.09892468124785,
+            20.0,
+            -230.97522618327196
+          ],
+          "straight_shoulder": [
+            13.487108900394304,
+            61.138578642726955,
+            -210.1457056195195
+          ],
+          "grip_center": [
+            175.16997971295922,
+            124.7360138673101,
+            -177.94468826505704
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 114.3,
+              "exposed_grip_lever_mm": 176.70000000000005,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 50.918635170603686,
+              "lower_bearing_force_N": 30.91863517060369,
+              "upper_bearing_vector_N": [
+                18.638616976987368,
+                -47.384695470396316,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -11.317675669531507,
+                28.772768692848903,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                599.3229771637889,
+                235.7417580923873,
+                -3474.822843331015
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.5339999999999994,
+              "print_layer_normal_upper_force_N": 18.638616976987368
+            },
+            "down20N": {
+              "bearing_spacing_mm": 114.3,
+              "exposed_grip_lever_mm": 176.70000000000005,
+              "transverse_force_N": 19.665098151279093,
+              "axial_force_N": -3.6447105098429495,
+              "upper_bearing_force_N": 50.06599791795466,
+              "lower_bearing_force_N": 30.40089976667557,
+              "upper_bearing_vector_N": [
+                8.490578077777204,
+                3.339741474201594,
+                -49.22763815491565
+              ],
+              "lower_bearing_vector_N": [
+                -5.155619059598736,
+                -2.02794611165437,
+                29.891833889943634
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1271.948704491663,
+                3233.6574162512984,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.4748228433310153,
+              "print_layer_normal_upper_force_N": 8.490578077777204
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 114.3,
+              "exposed_grip_lever_mm": 176.70000000000005,
+              "transverse_force_N": 8.068468167207712,
+              "axial_force_N": 18.300268343244475,
+              "upper_bearing_force_N": 20.541769349583944,
+              "lower_bearing_force_N": 12.47330118237623,
+              "upper_bearing_vector_N": [
+                8.28703060476205,
+                -16.769004015516625,
+                -8.490578077777204
+              ],
+              "lower_bearing_vector_N": [
+                -5.032021676499843,
+                10.182415840349787,
+                5.155619059598736
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                644.0203470892493,
+                -1271.948704491663
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4256983251456028,
+              "print_layer_normal_upper_force_N": 8.28703060476205
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 114.3,
+              "exposed_grip_lever_mm": 176.70000000000005,
+              "transverse_force_N": 18.65968210166817,
+              "axial_force_N": 7.19835146854365,
+              "upper_bearing_force_N": 47.50627726671426,
+              "lower_bearing_force_N": 28.846595165046086,
+              "upper_bearing_vector_N": [
+                -16.76900401551662,
+                44.322601581529675,
+                -3.3397414742015927
+              ],
+              "lower_bearing_vector_N": [
+                10.182415840349785,
+                -26.9134147747639,
+                2.0279461116543693
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -644.0203470892493,
+                0.0,
+                3233.6574162512984
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.2971658273647657,
+              "print_layer_normal_upper_force_N": -16.76900401551662
+            }
+          }
+        },
+        {
+          "tool": "3/32",
+          "axis": [
+            0.7,
+            0.2,
+            0.6855654600401044
+          ],
+          "tip": [
+            -4.169001258516907,
+            41.0,
+            -49.51688322089531
+          ],
+          "straight_shoulder": [
+            37.83099874148309,
+            53.0,
+            -8.382955618489042
+          ],
+          "grip_center": [
+            97.33099874148309,
+            70.0,
+            49.890108484919836
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 85.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 48.33333333333334,
+              "lower_bearing_force_N": 28.33333333333334,
+              "upper_bearing_vector_N": [
+                13.278187848373275,
+                -46.47365746930646,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -7.783765290425713,
+                27.243178516489994,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1120.618932756729,
+                320.17683793049406,
+                -1237.6186811776881
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.7,
+              "print_layer_normal_upper_force_N": 13.278187848373275
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 85.0,
+              "transverse_force_N": 14.560219778561036,
+              "axial_force_N": -13.711309200802088,
+              "upper_bearing_force_N": 35.187197798189175,
+              "lower_bearing_force_N": 20.626978019628137,
+              "upper_bearing_vector_N": [
+                23.194964731356865,
+                6.627132780387677,
+                -25.616666666666667
+              ],
+              "lower_bearing_vector_N": [
+                -13.597048290795405,
+                -3.884870940227259,
+                15.016666666666667
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -340.0,
+                1189.9999999999998,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.237618681177688,
+              "print_layer_normal_upper_force_N": 23.194964731356865
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 85.0,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 34.51690407129045,
+              "lower_bearing_force_N": 20.234047214204743,
+              "upper_bearing_vector_N": [
+                24.650000000000002,
+                -6.7666666666666675,
+                -23.19496473135687
+              ],
+              "lower_bearing_vector_N": [
+                -14.450000000000001,
+                3.9666666666666672,
+                13.597048290795406
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1165.4612820681775,
+                -340.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.2140428328522843,
+              "print_layer_normal_upper_force_N": 24.650000000000002
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 85.0,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.0,
+              "upper_bearing_force_N": 47.35680169380811,
+              "lower_bearing_force_N": 27.760883751542682,
+              "upper_bearing_vector_N": [
+                -6.766666666666667,
+                46.4,
+                -6.627132780387677
+              ],
+              "lower_bearing_vector_N": [
+                3.966666666666667,
+                -27.2,
+                3.884870940227259
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1165.4612820681775,
+                0.0,
+                1189.9999999999998
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.665653025092561,
+              "print_layer_normal_upper_force_N": -6.766666666666667
+            }
+          }
+        },
+        {
+          "tool": "7/64",
+          "axis": [
+            0.7,
+            0.20000000000000004,
+            0.6855654600401044
+          ],
+          "tip": [
+            21.10703771894559,
+            37.199999999999996,
+            -87.64999516113569
+          ],
+          "straight_shoulder": [
+            63.10703771894559,
+            49.199999999999996,
+            -46.516067558729425
+          ],
+          "grip_center": [
+            135.9070377189456,
+            70.0,
+            24.78274028544143
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 104.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": -8.881784197001252e-16,
+              "upper_bearing_force_N": 54.66666666666667,
+              "lower_bearing_force_N": 34.666666666666664,
+              "upper_bearing_vector_N": [
+                15.018088325056672,
+                -52.56330913769833,
+                1.664338821525052e-15
+              ],
+              "lower_bearing_vector_N": [
+                -9.523665767109108,
+                33.33283018488187,
+                -1.0554343746256428e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1371.1102236082331,
+                391.74577817378093,
+                -1514.262856970348
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.08,
+              "print_layer_normal_upper_force_N": 15.018088325056672
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 104.0,
+              "transverse_force_N": 14.560219778561036,
+              "axial_force_N": -13.711309200802088,
+              "upper_bearing_force_N": 39.79793406140016,
+              "lower_bearing_force_N": 25.23771428283913,
+              "upper_bearing_vector_N": [
+                26.23430493753466,
+                7.495515696438476,
+                -28.973333333333333
+              ],
+              "lower_bearing_vector_N": [
+                -16.636388496973197,
+                -4.753253856278057,
+                18.373333333333335
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -416.0000000000001,
+                1456.0,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.514262856970348,
+              "print_layer_normal_upper_force_N": 26.23430493753466
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 104.0,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 39.03980874270091,
+              "lower_bearing_force_N": 24.756951885615216,
+              "upper_bearing_vector_N": [
+                27.880000000000003,
+                -7.653333333333335,
+                -26.234304937534663
+              ],
+              "lower_bearing_vector_N": [
+                -17.68,
+                4.853333333333334,
+                16.6363884969732
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1425.976156883417,
+                -416.0000000000001
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4854171131369125,
+              "print_layer_normal_upper_force_N": 27.880000000000003
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 104.0,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.000000000000001,
+              "upper_bearing_force_N": 53.562175708858824,
+              "lower_bearing_force_N": 33.9662577665934,
+              "upper_bearing_vector_N": [
+                -7.653333333333334,
+                52.48,
+                -7.495515696438476
+              ],
+              "lower_bearing_vector_N": [
+                4.8533333333333335,
+                -33.28,
+                4.753253856278057
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1425.976156883417,
+                0.0,
+                1456.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.037975465995604,
+              "print_layer_normal_upper_force_N": -7.653333333333334
+            }
+          }
+        },
+        {
+          "tool": "1/8",
+          "axis": [
+            0.7,
+            0.2,
+            0.6855654600401045
+          ],
+          "tip": [
+            50.66509889060197,
+            33.4,
+            -154.50279828712632
+          ],
+          "straight_shoulder": [
+            92.66509889060197,
+            45.4,
+            -113.36887068472005
+          ],
+          "grip_center": [
+            178.76509889060196,
+            70.0,
+            -29.04431909978719
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 122.99999999999999,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 60.99999999999999,
+              "lower_bearing_force_N": 40.999999999999986,
+              "upper_bearing_vector_N": [
+                16.757988801740062,
+                -58.652960806090206,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -11.2635662437925,
+                39.42248185327374,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1621.6015144597377,
+                463.314718417068,
+                -1790.9070327630077
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.4600000000000004,
+              "print_layer_normal_upper_force_N": 16.757988801740062
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 122.99999999999999,
+              "transverse_force_N": 14.560219778561034,
+              "axial_force_N": -13.711309200802091,
+              "upper_bearing_force_N": 44.408670324611144,
+              "lower_bearing_force_N": 29.84845054605011,
+              "upper_bearing_vector_N": [
+                29.273645143712454,
+                8.363898612489274,
+                -32.32999999999998
+              ],
+              "lower_bearing_vector_N": [
+                -19.67572870315099,
+                -5.621636772328856,
+                21.729999999999983
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -492.0,
+                1722.0,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.7909070327630074,
+              "print_layer_normal_upper_force_N": 29.273645143712454
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 122.99999999999999,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 43.562713414111386,
+              "lower_bearing_force_N": 29.27985655702568,
+              "upper_bearing_vector_N": [
+                31.109999999999996,
+                -8.54,
+                -29.27364514371246
+              ],
+              "lower_bearing_vector_N": [
+                -20.909999999999997,
+                5.739999999999998,
+                19.675728703150995
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1686.4910316986573,
+                -492.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.7567913934215413,
+              "print_layer_normal_upper_force_N": 31.109999999999996
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 122.99999999999999,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.0,
+              "upper_bearing_force_N": 59.76754972390953,
+              "lower_bearing_force_N": 40.1716317816441,
+              "upper_bearing_vector_N": [
+                -8.539999999999997,
+                58.55999999999999,
+                -8.363898612489274
+              ],
+              "lower_bearing_vector_N": [
+                5.7399999999999975,
+                -39.359999999999985,
+                5.621636772328856
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1686.4910316986573,
+                0.0,
+                1722.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.4102979068986476,
+              "print_layer_normal_upper_force_N": -8.539999999999997
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "HX05B",
+      "tools": [
+        {
+          "tool": "4",
+          "axis": [
+            0.12376237623762376,
+            0.3217821782178218,
+            0.9386901000912979
+          ],
+          "tip": [
+            -44.06546541296116,
+            60.0,
+            -96.9007895030452
+          ],
+          "straight_shoulder": [
+            -36.63972283870373,
+            79.3069306930693,
+            -40.57938349756733
+          ],
+          "grip_center": [
+            -17.951604026822547,
+            127.8960396039604,
+            101.16282161621866
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 151.00000000000003,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 70.33333333333334,
+              "lower_bearing_force_N": 50.33333333333335,
+              "upper_bearing_vector_N": [
+                65.64530763628187,
+                -25.248195244723792,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -46.97839551222068,
+                18.06861365854641,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1017.6497258191152,
+                2645.8892871297,
+                -1041.18149992812
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.0200000000000005,
+              "print_layer_normal_upper_force_N": 65.64530763628187
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 151.00000000000003,
+              "transverse_force_N": 6.895241721378277,
+              "axial_force_N": -18.77380200182596,
+              "upper_bearing_force_N": 24.24826672018028,
+              "lower_bearing_force_N": 17.353024998802,
+              "upper_bearing_vector_N": [
+                8.170941052774912,
+                21.244446737214776,
+                -8.359883018004762
+              ],
+              "lower_bearing_vector_N": [
+                -5.847450706014274,
+                -15.203371835637116,
+                5.982665098192982
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -971.782178217822,
+                373.7623762376237,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.0411814999281201,
+              "print_layer_normal_upper_force_N": 8.170941052774912
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 151.00000000000003,
+              "transverse_force_N": 19.846237670934173,
+              "axial_force_N": 2.4752475247524752,
+              "upper_bearing_force_N": 69.79260247611852,
+              "lower_bearing_force_N": 49.94636480518435,
+              "upper_bearing_vector_N": [
+                69.25602882070386,
+                -2.8009917328366503,
+                -8.170941052774912
+              ],
+              "lower_bearing_vector_N": [
+                -49.56237133614353,
+                2.0045011926935272,
+                5.847450706014274
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2834.8441022757197,
+                -971.782178217822
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.99678188831106,
+              "print_layer_normal_upper_force_N": 69.25602882070386
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 151.00000000000003,
+              "transverse_force_N": 18.93627449929256,
+              "axial_force_N": 6.435643564356436,
+              "upper_bearing_force_N": 66.59256532251217,
+              "lower_bearing_force_N": 47.656290823219614,
+              "upper_bearing_vector_N": [
+                -2.8009917328366503,
+                63.05075482795805,
+                -21.244446737214776
+              ],
+              "lower_bearing_vector_N": [
+                2.0045011926935272,
+                -45.121630232330176,
+                15.203371835637116
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2834.8441022757197,
+                0.0,
+                373.7623762376237
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.8593774493931763,
+              "print_layer_normal_upper_force_N": -2.8009917328366503
+            }
+          }
+        },
+        {
+          "tool": "5",
+          "axis": [
+            0.4007265654759687,
+            0.3252689485052411,
+            0.8565152251186952
+          ],
+          "tip": [
+            -53.27546541296116,
+            50.0,
+            -152.06660133233572
+          ],
+          "straight_shoulder": [
+            -29.23187148440304,
+            69.51613691031446,
+            -100.67568782521401
+          ],
+          "grip_center": [
+            41.69673060484342,
+            127.08874079574214,
+            50.92750702079502
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 177.0,
+              "transverse_force_N": 20.0,
+              "axial_force_N": -8.881784197001252e-16,
+              "upper_bearing_force_N": 79.0,
+              "lower_bearing_force_N": 59.0,
+              "upper_bearing_vector_N": [
+                49.78718011937618,
+                -61.33707439844839,
+                3.0049164394253276e-15
+              ],
+              "lower_bearing_vector_N": [
+                -37.18283072206576,
+                45.80870113301842,
+                -2.244178100330308e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                2354.150997800538,
+                1910.859637587629,
+                -1827.0710235218573
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.54,
+              "print_layer_normal_upper_force_N": 49.78718011937618
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 177.0,
+              "transverse_force_N": 10.322435161140437,
+              "axial_force_N": -17.130304502373903,
+              "upper_bearing_force_N": 40.77361888650473,
+              "lower_bearing_force_N": 30.45118372536429,
+              "upper_bearing_vector_N": [
+                27.11504395073558,
+                22.009226725593937,
+                -21.04415186204981
+              ],
+              "lower_bearing_vector_N": [
+                -20.250475861941762,
+                -16.43727059253218,
+                15.71651847925239
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1151.4520777085536,
+                1418.572041784929,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.8270710235218572,
+              "print_layer_normal_upper_force_N": 27.11504395073558
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 177.0,
+              "transverse_force_N": 18.323953937093755,
+              "axial_force_N": 8.014531309519374,
+              "upper_bearing_force_N": 72.37961805152032,
+              "lower_bearing_force_N": 54.05566411442658,
+              "upper_bearing_vector_N": [
+                66.3140393580249,
+                -10.297168778648313,
+                -27.11504395073558
+              ],
+              "lower_bearing_vector_N": [
+                -49.525674963588216,
+                7.690290606838614,
+                20.250475861941762
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                3032.063896920181,
+                -1151.4520777085536
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.2433398468655947,
+              "print_layer_normal_upper_force_N": 66.3140393580249
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 177.0,
+              "transverse_force_N": 18.912430950444154,
+              "axial_force_N": 6.505378970104822,
+              "upper_bearing_force_N": 74.7041022542544,
+              "lower_bearing_force_N": 55.79167130381024,
+              "upper_bearing_vector_N": [
+                -10.297168778648313,
+                70.64180877992528,
+                -22.009226725593937
+              ],
+              "lower_bearing_vector_N": [
+                7.690290606838614,
+                -52.757806557159384,
+                16.43727059253218
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -3032.063896920181,
+                0.0,
+                1418.572041784929
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.347500278228615,
+              "print_layer_normal_upper_force_N": -10.297168778648313
+            }
+          }
+        },
+        {
+          "tool": "6",
+          "axis": [
+            0.630637224629758,
+            0.3359683794466403,
+            0.6995869773825657
+          ],
+          "tip": [
+            -62.48546541296117,
+            40.0,
+            -188.09521555200564
+          ],
+          "straight_shoulder": [
+            -17.079585239618588,
+            64.1897233201581,
+            -137.72495318046091
+          ],
+          "grip_center": [
+            99.58830131688666,
+            126.34387351778656,
+            -8.301362364686266
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 72.0,
+              "exposed_grip_lever_mm": 185.0,
+              "transverse_force_N": 19.999999999999996,
+              "axial_force_N": 8.881784197001252e-16,
+              "upper_bearing_force_N": 71.38888888888889,
+              "lower_bearing_force_N": 51.388888888888886,
+              "upper_bearing_vector_N": [
+                33.56587340044835,
+                -63.00559974839694,
+                -2.2179030610515226e-15
+              ],
+              "lower_bearing_vector_N": [
+                -24.162204587871383,
+                45.35422549981881,
+                1.5965450050370883e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                2284.5042380840773,
+                1217.0565845660233,
+                -2643.8255721851947
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.6999999999999997,
+              "print_layer_normal_upper_force_N": 33.56587340044835
+            },
+            "down20N": {
+              "bearing_spacing_mm": 72.0,
+              "exposed_grip_lever_mm": 185.0,
+              "transverse_force_N": 14.290949038838892,
+              "axial_force_N": -13.991739547651314,
+              "upper_bearing_force_N": 51.01074865252215,
+              "lower_bearing_force_N": 36.719799613683264,
+              "upper_bearing_vector_N": [
+                31.49574904987258,
+                16.77918041383635,
+                -36.44960047131068
+              ],
+              "lower_bearing_vector_N": [
+                -22.672037253799328,
+                -12.07839835237247,
+                26.238039249776172
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1243.0830039525695,
+                2333.3577311301046,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.6438255721851953,
+              "print_layer_normal_upper_force_N": 31.49574904987258
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 72.0,
+              "exposed_grip_lever_mm": 185.0,
+              "transverse_force_N": 15.521555217326338,
+              "axial_force_N": 12.61274449259516,
+              "upper_bearing_force_N": 55.40332903962317,
+              "lower_bearing_force_N": 39.88177382229684,
+              "upper_bearing_vector_N": [
+                42.997291545610544,
+                -15.125461321955491,
+                -31.49574904987258
+              ],
+              "lower_bearing_vector_N": [
+                -30.951357727385023,
+                10.887977994403759,
+                22.672037253799328
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                2588.471816315493,
+                -1243.0830039525695
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.871487715205373,
+              "print_layer_normal_upper_force_N": 42.997291545610544
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 72.0,
+              "exposed_grip_lever_mm": 185.0,
+              "transverse_force_N": 18.837465307328355,
+              "axial_force_N": 6.719367588932807,
+              "upper_bearing_force_N": 67.23928588865815,
+              "lower_bearing_force_N": 48.401820581329794,
+              "upper_bearing_vector_N": [
+                -15.125461321955495,
+                63.330885760856546,
+                -16.77918041383635
+              ],
+              "lower_bearing_vector_N": [
+                10.88797799440376,
+                -45.58838080061658,
+                12.07839835237247
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -2588.471816315493,
+                0.0,
+                2333.3577311301046
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.4849310818557457,
+              "print_layer_normal_upper_force_N": -15.125461321955495
+            }
+          }
+        },
+        {
+          "tool": "8",
+          "axis": [
+            0.8057268107915264,
+            0.3495046955995457,
+            0.4781744181003253
+          ],
+          "tip": [
+            -71.69546541296114,
+            30.0,
+            -215.6017875589041
+          ],
+          "straight_shoulder": [
+            5.654308423025398,
+            63.55245077755639,
+            -169.6970434212729
+          ],
+          "grip_center": [
+            150.68513436550015,
+            126.46329598547462,
+            -83.62564816321432
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 96.0,
+              "exposed_grip_lever_mm": 180.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 57.5,
+              "lower_bearing_force_N": 37.5,
+              "upper_bearing_vector_N": [
+                22.882071354868273,
+                -52.75093184495149,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -14.923090014044526,
+                34.40278163801184,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1579.250888715732,
+                685.0406288375536,
+                -3161.7536221743185
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.6000000000000005,
+              "print_layer_normal_upper_force_N": 22.882071354868273
+            },
+            "down20N": {
+              "bearing_spacing_mm": 96.0,
+              "exposed_grip_lever_mm": 180.0,
+              "transverse_force_N": 17.565297900968435,
+              "axial_force_N": -9.563488362006506,
+              "upper_bearing_force_N": 50.50023146528425,
+              "lower_bearing_force_N": 32.93493356431581,
+              "upper_bearing_vector_N": [
+                22.15348206163897,
+                9.609641755394536,
+                -44.35258048777888
+              ],
+              "lower_bearing_vector_N": [
+                -14.44792308367759,
+                -6.267157666561654,
+                28.925595970290573
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1258.2169041583645,
+                2900.6165188494947,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.161753622174318,
+              "print_layer_normal_upper_force_N": 22.15348206163897
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 96.0,
+              "exposed_grip_lever_mm": 180.0,
+              "transverse_force_N": 11.845747023665766,
+              "axial_force_N": 16.11453621583053,
+              "upper_bearing_force_N": 34.05652269303907,
+              "lower_bearing_force_N": 22.21077566937331,
+              "upper_bearing_vector_N": [
+                20.171247616373655,
+                -16.1923049651699,
+                -22.15348206163897
+              ],
+              "lower_bearing_vector_N": [
+                -13.15516148893934,
+                10.560198890328195,
+                14.44792308367759
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1721.4279051611716,
+                -1258.2169041583645
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.132234464259838,
+              "print_layer_normal_upper_force_N": 20.171247616373655
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 96.0,
+              "exposed_grip_lever_mm": 180.0,
+              "transverse_force_N": 18.7386922463001,
+              "axial_force_N": 6.990093911990915,
+              "upper_bearing_force_N": 53.8737402081128,
+              "lower_bearing_force_N": 35.13504796181269,
+              "upper_bearing_vector_N": [
+                -16.1923049651699,
+                50.476171895847465,
+                -9.609641755394536
+              ],
+              "lower_bearing_vector_N": [
+                10.560198890328195,
+                -32.919242540770085,
+                6.267157666561654
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1721.4279051611716,
+                0.0,
+                2900.6165188494947
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.372964604334018,
+              "print_layer_normal_upper_force_N": -16.1923049651699
+            }
+          }
+        },
+        {
+          "tool": "10",
+          "axis": [
+            0.9150134171622237,
+            0.3599175734271825,
+            0.18223552549214747
+          ],
+          "tip": [
+            -80.90546541296118,
+            20.0,
+            -240.0450871564005
+          ],
+          "straight_shoulder": [
+            28.896144646505675,
+            63.1901088112619,
+            -218.17682409734283
+          ],
+          "grip_center": [
+            191.76853290138152,
+            127.25543688130038,
+            -185.73890055974056
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 120.0,
+              "exposed_grip_lever_mm": 178.0000000000001,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 49.666666666666686,
+              "lower_bearing_force_N": 29.666666666666682,
+              "upper_bearing_vector_N": [
+                18.180337580182062,
+                -46.21961816424276,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -10.859396272726201,
+                27.607691386695347,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                603.7322576975353,
+                237.47613435452723,
+                -3500.3874709276784
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.56,
+              "print_layer_normal_upper_force_N": 18.180337580182062
+            },
+            "down20N": {
+              "bearing_spacing_mm": 120.0,
+              "exposed_grip_lever_mm": 178.0000000000001,
+              "transverse_force_N": 19.665098151279093,
+              "axial_force_N": -3.6447105098429495,
+              "upper_bearing_force_N": 48.83499374234311,
+              "lower_bearing_force_N": 29.16989559106401,
+              "upper_bearing_vector_N": [
+                8.281814895143198,
+                3.2576251503256066,
+                -48.01724725801387
+              ],
+              "lower_bearing_vector_N": [
+                -4.9468558769647295,
+                -1.945829787778383,
+                28.68144299304185
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1281.3065614007696,
+                3257.447765097517,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.500387470927679,
+              "print_layer_normal_upper_force_N": 8.281814895143198
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 120.0,
+              "exposed_grip_lever_mm": 178.0000000000001,
+              "transverse_force_N": 8.068468167207712,
+              "axial_force_N": 18.300268343244475,
+              "upper_bearing_force_N": 20.036695948565825,
+              "lower_bearing_force_N": 11.968227781358115,
+              "upper_bearing_vector_N": [
+                8.083272171851151,
+                -16.356693968330987,
+                -8.281814895143198
+              ],
+              "lower_bearing_vector_N": [
+                -4.828263243588944,
+                9.770105793164149,
+                4.9468558769647295
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                648.7584707520455,
+                -1281.3065614007696
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.436187333762973,
+              "print_layer_normal_upper_force_N": 8.083272171851151
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 120.0,
+              "exposed_grip_lever_mm": 178.0000000000001,
+              "transverse_force_N": 18.65968210166817,
+              "axial_force_N": 7.19835146854365,
+              "upper_bearing_force_N": 46.33821055247598,
+              "lower_bearing_force_N": 27.678528450807804,
+              "upper_bearing_vector_N": [
+                -16.356693968330983,
+                43.232813903468355,
+                -3.257625150325606
+              ],
+              "lower_bearing_vector_N": [
+                9.770105793164147,
+                -25.82362709670258,
+                1.9458297877783828
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -648.7584707520455,
+                0.0,
+                3257.447765097517
+              ],
+              "moment_magnitude_at_shoulder_Nm": 3.321423414096935,
+              "print_layer_normal_upper_force_N": -16.356693968330983
+            }
+          }
+        },
+        {
+          "tool": "2",
+          "axis": [
+            0.7,
+            0.2,
+            0.6855654600401044
+          ],
+          "tip": [
+            12.39526748635669,
+            41.8,
+            -49.29676843076677
+          ],
+          "straight_shoulder": [
+            54.39526748635669,
+            53.8,
+            -8.162840828360501
+          ],
+          "grip_center": [
+            111.09526748635668,
+            70.0,
+            47.36796143488795
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 81.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 47.00000000000001,
+              "lower_bearing_force_N": 27.000000000000007,
+              "upper_bearing_vector_N": [
+                12.91189301117677,
+                -45.1916255391187,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -7.417470453229209,
+                25.96114658630223,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1067.8839241564124,
+                305.10969261611785,
+                -1179.377802063444
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.6200000000000003,
+              "print_layer_normal_upper_force_N": 12.91189301117677
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 81.0,
+              "transverse_force_N": 14.560219778561036,
+              "axial_force_N": -13.711309200802088,
+              "upper_bearing_force_N": 34.216516479618434,
+              "lower_bearing_force_N": 19.6562967010574,
+              "upper_bearing_vector_N": [
+                22.555103635319433,
+                6.444315324376982,
+                -24.91
+              ],
+              "lower_bearing_vector_N": [
+                -12.957187194757973,
+                -3.702053484216564,
+                14.31
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -324.00000000000006,
+                1133.9999999999998,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.1793778020634438,
+              "print_layer_normal_upper_force_N": 22.555103635319433
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 81.0,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 33.564713614151394,
+              "lower_bearing_force_N": 19.281856757065697,
+              "upper_bearing_vector_N": [
+                23.970000000000002,
+                -6.58,
+                -22.555103635319437
+              ],
+              "lower_bearing_vector_N": [
+                -13.770000000000001,
+                3.78,
+                12.957187194757974
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1110.616045264969,
+                -324.00000000000006
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.1569114054239416,
+              "print_layer_normal_upper_force_N": 23.970000000000002
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 81.0,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.0,
+              "upper_bearing_force_N": 46.050407164323744,
+              "lower_bearing_force_N": 26.45448922205832,
+              "upper_bearing_vector_N": [
+                -6.579999999999999,
+                45.12,
+                -6.444315324376982
+              ],
+              "lower_bearing_vector_N": [
+                3.7799999999999994,
+                -25.919999999999998,
+                3.702053484216564
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1110.616045264969,
+                0.0,
+                1133.9999999999998
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.5872693533234992,
+              "print_layer_normal_upper_force_N": -6.579999999999999
+            }
+          }
+        },
+        {
+          "tool": "2.5",
+          "axis": [
+            0.7,
+            0.20000000000000004,
+            0.6855654600401044
+          ],
+          "tip": [
+            36.47591232181201,
+            37.39999999999999,
+            -99.30017786555824
+          ],
+          "straight_shoulder": [
+            78.47591232181202,
+            49.39999999999999,
+            -58.16625026315197
+          ],
+          "grip_center": [
+            150.575912321812,
+            70.0,
+            12.446992120978788
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 103.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": -8.881784197001252e-16,
+              "upper_bearing_force_N": 54.333333333333336,
+              "lower_bearing_force_N": 34.333333333333336,
+              "upper_bearing_vector_N": [
+                14.926514615757545,
+                -52.24280115515139,
+                1.6541904140767283e-15
+              ],
+              "lower_bearing_vector_N": [
+                -9.432092057809982,
+                33.01232220233493,
+                -1.045285967177319e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1357.926471458154,
+                387.9789918451869,
+                -1499.7026371917868
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.06,
+              "print_layer_normal_upper_force_N": 14.926514615757545
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 103.0,
+              "transverse_force_N": 14.560219778561036,
+              "axial_force_N": -13.711309200802088,
+              "upper_bearing_force_N": 39.55526373175748,
+              "lower_bearing_force_N": 24.995043953196443,
+              "upper_bearing_vector_N": [
+                26.0743396635253,
+                7.449811332435802,
+                -28.796666666666663
+              ],
+              "lower_bearing_vector_N": [
+                -16.476423222963838,
+                -4.707549492275383,
+                18.196666666666665
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -412.00000000000017,
+                1442.0,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4997026371917868,
+              "print_layer_normal_upper_force_N": 26.0743396635253
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 103.0,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 38.801761128416146,
+              "lower_bearing_force_N": 24.518904271330452,
+              "upper_bearing_vector_N": [
+                27.709999999999997,
+                -7.606666666666667,
+                -26.074339663525304
+              ],
+              "lower_bearing_vector_N": [
+                -17.509999999999998,
+                4.806666666666667,
+                16.47642322296384
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1412.2648476826153,
+                -412.00000000000017
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4711342562798273,
+              "print_layer_normal_upper_force_N": 27.709999999999997
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.00000000000001,
+              "exposed_grip_lever_mm": 103.0,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.000000000000001,
+              "upper_bearing_force_N": 53.23557707648773,
+              "lower_bearing_force_N": 33.639659134222306,
+              "upper_bearing_vector_N": [
+                -7.6066666666666665,
+                52.15999999999999,
+                -7.449811332435802
+              ],
+              "lower_bearing_vector_N": [
+                4.806666666666667,
+                -32.959999999999994,
+                4.707549492275383
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1412.2648476826153,
+                0.0,
+                1442.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.0183795480533386,
+              "print_layer_normal_upper_force_N": -7.6066666666666665
+            }
+          }
+        },
+        {
+          "tool": "3",
+          "axis": [
+            0.7,
+            0.2,
+            0.6855654600401045
+          ],
+          "tip": [
+            40.846917297288556,
+            32.6,
+            -161.65451607314463
+          ],
+          "straight_shoulder": [
+            82.84691729728856,
+            44.6,
+            -120.52058847073836
+          ],
+          "grip_center": [
+            171.74691729728858,
+            70.0,
+            -33.45377504564507
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 127.00000000000004,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 62.33333333333335,
+              "lower_bearing_force_N": 42.33333333333334,
+              "upper_bearing_vector_N": [
+                17.124283638936568,
+                -59.93499273627799,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -11.629861080989006,
+                40.70451378346152,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1674.3365230600548,
+                478.3818637314443,
+                -1849.1479118772522
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.540000000000001,
+              "print_layer_normal_upper_force_N": 17.124283638936568
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 127.00000000000004,
+              "transverse_force_N": 14.560219778561034,
+              "axial_force_N": -13.711309200802091,
+              "upper_bearing_force_N": 45.37935164318189,
+              "lower_bearing_force_N": 30.819131864620857,
+              "upper_bearing_vector_N": [
+                29.913506239749893,
+                8.546716068499972,
+                -33.036666666666655
+              ],
+              "lower_bearing_vector_N": [
+                -20.31558979918843,
+                -5.804454228339553,
+                22.43666666666666
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -508.0,
+                1778.0000000000005,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.849147911877252,
+              "print_layer_normal_upper_force_N": 29.913506239749893
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 127.00000000000004,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 44.514903871250446,
+              "lower_bearing_force_N": 30.23204701416474,
+              "upper_bearing_vector_N": [
+                31.790000000000006,
+                -8.726666666666668,
+                -29.9135062397499
+              ],
+              "lower_bearing_vector_N": [
+                -21.590000000000003,
+                5.926666666666668,
+                20.315589799188437
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1741.336268501866,
+                -508.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.8139228208498845,
+              "print_layer_normal_upper_force_N": 31.790000000000006
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 127.00000000000004,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.0,
+              "upper_bearing_force_N": 61.07394425339391,
+              "lower_bearing_force_N": 41.47802631112848,
+              "upper_bearing_vector_N": [
+                -8.726666666666667,
+                59.84,
+                -8.54671606849997
+              ],
+              "lower_bearing_vector_N": [
+                5.926666666666667,
+                -40.64,
+                5.8044542283395515
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1741.336268501866,
+                0.0,
+                1778.0000000000005
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.48868157866771,
+              "print_layer_normal_upper_force_N": -8.726666666666667
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "HX05A",
+      "tools": [
+        {
+          "tool": "T20",
+          "axis": [
+            0.12376237623762376,
+            0.3217821782178218,
+            0.9386901000912979
+          ],
+          "tip": [
+            -35.5830573803946,
+            60.0,
+            -106.39205019379598
+          ],
+          "straight_shoulder": [
+            -28.157314806137173,
+            79.3069306930693,
+            -50.070644188318106
+          ],
+          "grip_center": [
+            -15.162265301186679,
+            113.0940594059406,
+            48.49181632126819
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 105.00000000000003,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 55.00000000000001,
+              "lower_bearing_force_N": 35.000000000000014,
+              "upper_bearing_vector_N": [
+                51.334008341168285,
+                -19.743849361987802,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -32.667096217107094,
+                12.564267775810421,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                707.637226562961,
+                1839.8567890636987,
+                -724.0003807447192
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.1,
+              "print_layer_normal_upper_force_N": 51.334008341168285
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 105.00000000000003,
+              "transverse_force_N": 6.895241721378277,
+              "axial_force_N": -18.77380200182596,
+              "upper_bearing_force_N": 18.961914733790262,
+              "lower_bearing_force_N": 12.066673012411988,
+              "upper_bearing_vector_N": [
+                6.389598453591757,
+                16.61295597933857,
+                -6.537349279482397
+              ],
+              "lower_bearing_vector_N": [
+                -4.066108106831119,
+                -10.571881077760908,
+                4.160131359670617
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -675.7425742574259,
+                259.90099009900985,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 0.7240003807447192,
+              "print_layer_normal_upper_force_N": 6.389598453591757
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 105.00000000000003,
+              "transverse_force_N": 19.846237670934173,
+              "axial_force_N": 2.4752475247524752,
+              "upper_bearing_force_N": 54.57715359506899,
+              "lower_bearing_force_N": 34.73091592413481,
+              "upper_bearing_vector_N": [
+                54.15755808254094,
+                -2.1903489853935896,
+                -6.389598453591757
+              ],
+              "lower_bearing_vector_N": [
+                -34.4639005979806,
+                1.3938584452504663,
+                4.066108106831119
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1971.2492101917258,
+                -675.7425742574259
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.0838549554480887,
+              "print_layer_normal_upper_force_N": 54.15755808254094
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 105.00000000000003,
+              "transverse_force_N": 18.93627449929256,
+              "axial_force_N": 6.435643564356436,
+              "upper_bearing_force_N": 52.07475487305454,
+              "lower_bearing_force_N": 33.138480373761986,
+              "upper_bearing_vector_N": [
+                -2.1903489853935896,
+                49.30509263797668,
+                -16.61295597933857
+              ],
+              "lower_bearing_vector_N": [
+                1.3938584452504663,
+                -31.3759680423488,
+                10.571881077760908
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1971.2492101917258,
+                0.0,
+                259.90099009900985
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.9883088224257188,
+              "print_layer_normal_upper_force_N": -2.1903489853935896
+            }
+          }
+        },
+        {
+          "tool": "T25",
+          "axis": [
+            0.4007265654759687,
+            0.3252689485052411,
+            0.8565152251186952
+          ],
+          "tip": [
+            -41.5530573803946,
+            50.0,
+            -142.15099662385728
+          ],
+          "straight_shoulder": [
+            -17.509463451836478,
+            69.51613691031446,
+            -90.76008311673557
+          ],
+          "grip_center": [
+            26.971185315996046,
+            105.62099019439623,
+            4.313106871439615
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 111.00000000000006,
+              "transverse_force_N": 20.0,
+              "axial_force_N": -8.881784197001252e-16,
+              "upper_bearing_force_N": 57.000000000000014,
+              "lower_bearing_force_N": 37.00000000000002,
+              "upper_bearing_vector_N": [
+                35.922395782334725,
+                -44.25586380647543,
+                2.1681042664208066e-15
+              ],
+              "lower_bearing_vector_N": [
+                -23.3180463850243,
+                28.727490541045462,
+                -1.407365927325787e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1476.331981671524,
+                1198.3357049278354,
+                -1145.7903028865885
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.2200000000000006,
+              "print_layer_normal_upper_force_N": 35.922395782334725
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 111.00000000000006,
+              "transverse_force_N": 10.322435161140437,
+              "axial_force_N": -17.130304502373903,
+              "upper_bearing_force_N": 29.418940209250252,
+              "lower_bearing_force_N": 19.09650504810982,
+              "upper_bearing_vector_N": [
+                19.564019053062385,
+                15.880074979226011,
+                -15.183755140972648
+              ],
+              "lower_bearing_vector_N": [
+                -12.699450964268568,
+                -10.308118846164255,
+                9.85612175817523
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -722.0970656816354,
+                889.6129753566504,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.1457903028865886,
+              "print_layer_normal_upper_force_N": 19.564019053062385
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 111.00000000000006,
+              "transverse_force_N": 18.323953937093755,
+              "axial_force_N": 8.014531309519374,
+              "upper_bearing_force_N": 52.223268720717215,
+              "lower_bearing_force_N": 33.89931478362347,
+              "upper_bearing_vector_N": [
+                47.846838524144566,
+                -7.429602789657646,
+                -19.564019053062385
+              ],
+              "lower_bearing_vector_N": [
+                -31.058474129707882,
+                4.822724617847946,
+                12.699450964268568
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1901.4637997635036,
+                -722.0970656816354
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.0339588870174072,
+              "print_layer_normal_upper_force_N": 47.846838524144566
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 111.00000000000006,
+              "transverse_force_N": 18.912430950444154,
+              "axial_force_N": 6.505378970104822,
+              "upper_bearing_force_N": 53.90042820876586,
+              "lower_bearing_force_N": 34.987997258321705,
+              "upper_bearing_vector_N": [
+                -7.429602789657646,
+                50.96940633488283,
+                -15.880074979226011
+              ],
+              "lower_bearing_vector_N": [
+                4.822724617847946,
+                -33.08540411211693,
+                10.308118846164255
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1901.4637997635036,
+                0.0,
+                889.6129753566504
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.0992798354993014,
+              "print_layer_normal_upper_force_N": -7.429602789657646
+            }
+          }
+        },
+        {
+          "tool": "T27",
+          "axis": [
+            0.630637224629758,
+            0.3359683794466403,
+            0.6995869773825657
+          ],
+          "tip": [
+            -47.523057380394604,
+            40.0,
+            -165.50504948937618
+          ],
+          "straight_shoulder": [
+            -9.684823902609125,
+            60.15810276679842,
+            -123.52983084642224
+          ],
+          "grip_center": [
+            64.73036860370232,
+            99.80237154150197,
+            -40.978567515279494
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 118.0,
+              "transverse_force_N": 19.999999999999996,
+              "axial_force_N": 8.881784197001252e-16,
+              "upper_bearing_force_N": 59.33333333333332,
+              "lower_bearing_force_N": 39.33333333333333,
+              "upper_bearing_vector_N": [
+                27.89755081064501,
+                -52.36574360411512,
+                -1.8433622328428224e-15
+              ],
+              "lower_bearing_vector_N": [
+                -18.49388199806804,
+                34.71436935553699,
+                1.222004176828388e-15
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1457.1432437509252,
+                776.284740425896,
+                -1686.3319865829887
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.3599999999999994,
+              "print_layer_normal_upper_force_N": 27.89755081064501
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 118.0,
+              "transverse_force_N": 14.290949038838892,
+              "axial_force_N": -13.991739547651314,
+              "upper_bearing_force_N": 42.39648214855538,
+              "lower_bearing_force_N": 28.105533109716493,
+              "upper_bearing_vector_N": [
+                26.17701166168398,
+                13.945653449009512,
+                -30.294298290552383
+              ],
+              "lower_bearing_vector_N": [
+                -17.35329986561073,
+                -9.244871387545633,
+                20.082737069017874
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -792.885375494071,
+                1488.3038501262288,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.6863319865829889,
+              "print_layer_normal_upper_force_N": 26.17701166168398
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 118.0,
+              "transverse_force_N": 15.521555217326338,
+              "axial_force_N": 12.61274449259516,
+              "upper_bearing_force_N": 46.04728047806814,
+              "lower_bearing_force_N": 30.525725260741805,
+              "upper_bearing_vector_N": [
+                35.73627032740239,
+                -12.571200538403476,
+                -26.17701166168398
+              ],
+              "lower_bearing_vector_N": [
+                -23.690336509176866,
+                8.333717210851741,
+                17.35329986561073
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1651.025266622855,
+                -792.885375494071
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.8315435156445081,
+              "print_layer_normal_upper_force_N": 35.73627032740239
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 118.0,
+              "transverse_force_N": 18.837465307328355,
+              "axial_force_N": 6.719367588932807,
+              "upper_bearing_force_N": 55.88448041174078,
+              "lower_bearing_force_N": 37.04701510441243,
+              "upper_bearing_vector_N": [
+                -12.571200538403478,
+                52.6360980487119,
+                -13.945653449009512
+              ],
+              "lower_bearing_vector_N": [
+                8.333717210851743,
+                -34.89359308847193,
+                9.244871387545633
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1651.025266622855,
+                0.0,
+                1488.3038501262288
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.2228209062647455,
+              "print_layer_normal_upper_force_N": -12.571200538403478
+            }
+          }
+        },
+        {
+          "tool": "T30",
+          "axis": [
+            0.8057268107915264,
+            0.3495046955995457,
+            0.4781744181003253
+          ],
+          "tip": [
+            -53.49305738039459,
+            30.0,
+            -183.33504241892928
+          ],
+          "straight_shoulder": [
+            -0.1217134335638832,
+            53.15119103651391,
+            -151.66076896396373
+          ],
+          "grip_center": [
+            94.76067580524628,
+            94.30886399031641,
+            -95.35094948846941
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 66.24,
+              "exposed_grip_lever_mm": 117.76000000000003,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 55.55555555555557,
+              "lower_bearing_force_N": 35.55555555555557,
+              "upper_bearing_vector_N": [
+                22.108281502288193,
+                -50.967083908165705,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -14.149300161464446,
+                32.618933701226055,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1033.1810258620255,
+                448.1688025106129,
+                -2068.4894808180434
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.355200000000001,
+              "print_layer_normal_upper_force_N": 22.108281502288193
+            },
+            "down20N": {
+              "bearing_spacing_mm": 66.24,
+              "exposed_grip_lever_mm": 117.76000000000003,
+              "transverse_force_N": 17.565297900968435,
+              "axial_force_N": -9.563488362006506,
+              "upper_bearing_force_N": 48.79249416935677,
+              "lower_bearing_force_N": 31.22719626838834,
+              "upper_bearing_vector_N": [
+                21.404330494337177,
+                9.284678024535786,
+                -42.85273477080086
+              ],
+              "lower_bearing_vector_N": [
+                -13.698771516375796,
+                -5.942193935702904,
+                27.42575025331255
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -823.15345907605,
+                1897.6477847762033,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.068489480818043,
+              "print_layer_normal_upper_force_N": 21.404330494337177
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 66.24,
+              "exposed_grip_lever_mm": 117.76000000000003,
+              "transverse_force_N": 11.845747023665766,
+              "axial_force_N": 16.11453621583053,
+              "upper_bearing_force_N": 32.90485284351602,
+              "lower_bearing_force_N": 21.059105819850256,
+              "upper_bearing_vector_N": [
+                19.48912813176199,
+                -15.644739096782516,
+                -21.404330494337177
+              ],
+              "lower_bearing_vector_N": [
+                -12.473042004327676,
+                10.012633021940811,
+                13.698771516375796
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1126.1963895098866,
+                -823.15345907605
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.3949551695068807,
+              "print_layer_normal_upper_force_N": 19.48912813176199
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 66.24,
+              "exposed_grip_lever_mm": 117.76000000000003,
+              "transverse_force_N": 18.7386922463001,
+              "axial_force_N": 6.990093911990915,
+              "upper_bearing_force_N": 52.05192290638919,
+              "lower_bearing_force_N": 33.31323066008908,
+              "upper_bearing_vector_N": [
+                -15.644739096782516,
+                48.769248208548284,
+                -9.284678024535786
+              ],
+              "lower_bearing_vector_N": [
+                10.012633021940811,
+                -31.212318853470904,
+                5.942193935702904
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1126.1963895098866,
+                0.0,
+                1897.6477847762033
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.206668398924301,
+              "print_layer_normal_upper_force_N": -15.644739096782516
+            }
+          }
+        },
+        {
+          "tool": "T40",
+          "axis": [
+            0.9150134171622237,
+            0.3599175734271825,
+            0.18223552549214747
+          ],
+          "tip": [
+            -59.4630573803946,
+            20.0,
+            -199.17939622968424
+          ],
+          "straight_shoulder": [
+            13.555013309150866,
+            48.72142235948917,
+            -184.63700129541087
+          ],
+          "grip_center": [
+            114.38949188042791,
+            88.38433895116468,
+            -164.55464638617622
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 79.80000000000003,
+              "exposed_grip_lever_mm": 110.2,
+              "transverse_force_N": 20.0,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 47.61904761904761,
+              "lower_bearing_force_N": 27.61904761904761,
+              "upper_bearing_vector_N": [
+                17.430812636799665,
+                -44.31411137511288,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -10.109871329343804,
+                25.702184597565466,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                373.7713190913952,
+                147.02174160600498,
+                -2167.093816270956
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.204,
+              "print_layer_normal_upper_force_N": 17.430812636799665
+            },
+            "down20N": {
+              "bearing_spacing_mm": 79.80000000000003,
+              "exposed_grip_lever_mm": 110.2,
+              "transverse_force_N": 19.665098151279093,
+              "axial_force_N": -3.6447105098429495,
+              "upper_bearing_force_N": 46.82166226495021,
+              "lower_bearing_force_N": 27.156564113671116,
+              "upper_bearing_vector_N": [
+                7.940378614710636,
+                3.123322291779103,
+                -46.03762920231432
+              ],
+              "lower_bearing_vector_N": [
+                -4.605419596532168,
+                -1.8115269292318794,
+                26.701824937342302
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -793.2583318335103,
+                2016.6895714255409,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.1670938162709557,
+              "print_layer_normal_upper_force_N": 7.940378614710636
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 79.80000000000003,
+              "exposed_grip_lever_mm": 110.2,
+              "transverse_force_N": 8.068468167207712,
+              "axial_force_N": 18.300268343244475,
+              "upper_bearing_force_N": 19.21063849335169,
+              "lower_bearing_force_N": 11.142170326143978,
+              "upper_bearing_vector_N": [
+                7.750021257767158,
+                -15.682352798016275,
+                -7.940378614710636
+              ],
+              "lower_bearing_vector_N": [
+                -4.495012329504951,
+                9.095764622849437,
+                4.605419596532168
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                401.64709818469305,
+                -793.2583318335103
+              ],
+              "moment_magnitude_at_shoulder_Nm": 0.8891451920262899,
+              "print_layer_normal_upper_force_N": 7.750021257767158
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 79.80000000000003,
+              "exposed_grip_lever_mm": 110.2,
+              "transverse_force_N": 18.65968210166817,
+              "axial_force_N": 7.19835146854365,
+              "upper_bearing_force_N": 44.42781452778135,
+              "lower_bearing_force_N": 25.76813242611318,
+              "upper_bearing_vector_N": [
+                -15.682352798016275,
+                41.45044477801374,
+                -3.123322291779103
+              ],
+              "lower_bearing_vector_N": [
+                9.095764622849439,
+                -24.041257971247965,
+                1.8115269292318796
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -401.64709818469305,
+                0.0,
+                2016.6895714255409
+              ],
+              "moment_magnitude_at_shoulder_Nm": 2.0562969676038323,
+              "print_layer_normal_upper_force_N": -15.682352798016275
+            }
+          }
+        },
+        {
+          "tool": "T9",
+          "axis": [
+            0.7,
+            0.2,
+            0.6855654600401044
+          ],
+          "tip": [
+            -61.116258208747965,
+            40.8,
+            -49.39203122518306
+          ],
+          "straight_shoulder": [
+            -19.116258208747965,
+            52.8,
+            -8.258103622776794
+          ],
+          "grip_center": [
+            41.083741791252024,
+            70.0,
+            50.70052594067219
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 86.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 48.66666666666667,
+              "lower_bearing_force_N": 28.666666666666668,
+              "upper_bearing_vector_N": [
+                13.369761557672401,
+                -46.794165451853395,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -7.875338999724839,
+                27.56368649903693,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1133.8026849068083,
+                323.94362425908815,
+                -1252.178900956249
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.72,
+              "print_layer_normal_upper_force_N": 13.369761557672401
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 86.0,
+              "transverse_force_N": 14.560219778561036,
+              "axial_force_N": -13.711309200802088,
+              "upper_bearing_force_N": 35.42986812783185,
+              "lower_bearing_force_N": 20.86964834927082,
+              "upper_bearing_vector_N": [
+                23.35493000536622,
+                6.672837144390351,
+                -25.793333333333333
+              ],
+              "lower_bearing_vector_N": [
+                -13.75701356480476,
+                -3.930575304229933,
+                15.193333333333333
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -344.00000000000006,
+                1203.9999999999998,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.252178900956249,
+              "print_layer_normal_upper_force_N": 23.35493000536622
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 86.0,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 34.75495168557521,
+              "lower_bearing_force_N": 20.472094828489503,
+              "upper_bearing_vector_N": [
+                24.82,
+                -6.8133333333333335,
+                -23.354930005366224
+              ],
+              "lower_bearing_vector_N": [
+                -14.62,
+                4.013333333333334,
+                13.757013564804762
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1179.1725912689797,
+                -344.00000000000006
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.2283256897093702,
+              "print_layer_normal_upper_force_N": 24.82
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 86.0,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.0,
+              "upper_bearing_force_N": 47.683400326179196,
+              "lower_bearing_force_N": 28.087482383913773,
+              "upper_bearing_vector_N": [
+                -6.813333333333333,
+                46.72,
+                -6.672837144390351
+              ],
+              "lower_bearing_vector_N": [
+                4.013333333333333,
+                -27.52,
+                3.930575304229933
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1179.1725912689797,
+                0.0,
+                1203.9999999999998
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.6852489430348265,
+              "print_layer_normal_upper_force_N": -6.813333333333333
+            }
+          }
+        },
+        {
+          "tool": "T10",
+          "axis": [
+            0.7,
+            0.20000000000000004,
+            0.6855654600401044
+          ],
+          "tip": [
+            -15.28243565493294,
+            39.599999999999994,
+            -117.33049409552513
+          ],
+          "straight_shoulder": [
+            26.71756434506706,
+            51.599999999999994,
+            -76.19656649311887
+          ],
+          "grip_center": [
+            91.11756434506705,
+            70.0,
+            -13.124544169429257
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 92.0,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": -8.881784197001252e-16,
+              "upper_bearing_force_N": 50.66666666666667,
+              "lower_bearing_force_N": 30.666666666666668,
+              "upper_bearing_vector_N": [
+                13.91920381346716,
+                -48.71721334713504,
+                1.5425579321451701e-15
+              ],
+              "lower_bearing_vector_N": [
+                -8.424781255519598,
+                29.486734394318578,
+                -9.336534852457608e-16
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1212.9051978072832,
+                346.5443422306524,
+                -1339.5402196276154
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.8400000000000003,
+              "print_layer_normal_upper_force_N": 13.91920381346716
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 92.0,
+              "transverse_force_N": 14.560219778561036,
+              "axial_force_N": -13.711309200802088,
+              "upper_bearing_force_N": 36.88589010568796,
+              "lower_bearing_force_N": 22.325670327126925,
+              "upper_bearing_vector_N": [
+                24.314721649422367,
+                6.947063328406393,
+                -26.853333333333335
+              ],
+              "lower_bearing_vector_N": [
+                -14.716805208860906,
+                -4.204801488245975,
+                16.253333333333337
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -368.0000000000001,
+                1287.9999999999998,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.339540219627615,
+              "print_layer_normal_upper_force_N": 24.314721649422367
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 92.0,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 36.183237371283774,
+              "lower_bearing_force_N": 21.900380514198076,
+              "upper_bearing_vector_N": [
+                25.84,
+                -7.0933333333333355,
+                -24.314721649422374
+              ],
+              "lower_bearing_vector_N": [
+                -15.639999999999999,
+                4.293333333333335,
+                14.716805208860912
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1261.4404464737922,
+                -368.0000000000001
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.3140228308518844,
+              "print_layer_normal_upper_force_N": 25.84
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.0,
+              "exposed_grip_lever_mm": 92.0,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.000000000000001,
+              "upper_bearing_force_N": 49.642992120405744,
+              "lower_bearing_force_N": 30.047074178140317,
+              "upper_bearing_vector_N": [
+                -7.093333333333334,
+                48.64,
+                -6.947063328406393
+              ],
+              "lower_bearing_vector_N": [
+                4.293333333333333,
+                -29.44,
+                4.204801488245975
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1261.4404464737922,
+                0.0,
+                1287.9999999999998
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.8028244506884188,
+              "print_layer_normal_upper_force_N": -7.093333333333334
+            }
+          }
+        },
+        {
+          "tool": "T15",
+          "axis": [
+            0.7,
+            0.2,
+            0.6855654600401045
+          ],
+          "tip": [
+            17.052961618312636,
+            38.2,
+            -186.10381396518437
+          ],
+          "straight_shoulder": [
+            59.05296161831264,
+            50.2,
+            -144.96988636277808
+          ],
+          "grip_center": [
+            128.35296161831263,
+            70.0,
+            -77.09890581880778
+          ],
+          "cases": {
+            "transverse20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 98.99999999999999,
+              "transverse_force_N": 20.000000000000004,
+              "axial_force_N": 0.0,
+              "upper_bearing_force_N": 52.99999999999999,
+              "lower_bearing_force_N": 32.99999999999999,
+              "upper_bearing_vector_N": [
+                14.560219778561036,
+                -50.96076922496362,
+                0.0
+              ],
+              "lower_bearing_vector_N": [
+                -9.065797220613474,
+                31.730290272147155,
+                0.0
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                1305.1914628578368,
+                372.9118465308105,
+                -1441.4617580775428
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.9799999999999998,
+              "print_layer_normal_upper_force_N": 14.560219778561036
+            },
+            "down20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 98.99999999999999,
+              "transverse_force_N": 14.560219778561034,
+              "axial_force_N": -13.711309200802091,
+              "upper_bearing_force_N": 38.58458241318673,
+              "lower_bearing_force_N": 24.024362634625696,
+              "upper_bearing_vector_N": [
+                25.43447856748787,
+                7.266993876425107,
+                -28.089999999999982
+              ],
+              "lower_bearing_vector_N": [
+                -15.836562126926406,
+                -4.524732036264688,
+                17.489999999999988
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -395.99999999999994,
+                1386.0,
+                0.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4414617580775426,
+              "print_layer_normal_upper_force_N": 25.43447856748787
+            },
+            "across_layers20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 98.99999999999999,
+              "transverse_force_N": 14.282856857085703,
+              "axial_force_N": 14.0,
+              "upper_bearing_force_N": 37.8495706712771,
+              "lower_bearing_force_N": 23.566713814191402,
+              "upper_bearing_vector_N": [
+                27.029999999999998,
+                -7.419999999999999,
+                -25.434478567487872
+              ],
+              "lower_bearing_vector_N": [
+                -16.83,
+                4.619999999999999,
+                15.836562126926408
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                0.0,
+                1357.419610879406,
+                -395.99999999999994
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.4140028288514837,
+              "print_layer_normal_upper_force_N": 27.029999999999998
+            },
+            "outboard20N": {
+              "bearing_spacing_mm": 60.000000000000014,
+              "exposed_grip_lever_mm": 98.99999999999999,
+              "transverse_force_N": 19.595917942265423,
+              "axial_force_N": 4.0,
+              "upper_bearing_force_N": 51.92918254700336,
+              "lower_bearing_force_N": 32.333264604737934,
+              "upper_bearing_vector_N": [
+                -7.419999999999998,
+                50.87999999999998,
+                -7.266993876425106
+              ],
+              "lower_bearing_vector_N": [
+                4.619999999999998,
+                -31.679999999999982,
+                4.5247320362646875
+              ],
+              "grip_moment_at_shoulder_Nmm": [
+                -1357.419610879406,
+                0.0,
+                1386.0
+              ],
+              "moment_magnitude_at_shoulder_Nm": 1.9399958762842766,
+              "print_layer_normal_upper_force_N": -7.419999999999998
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

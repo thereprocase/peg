@@ -51,7 +51,7 @@ def wrench(X,weights,F,M,application):
  assert np.linalg.norm(np.cross(r,forces).sum(0)-moment)<1e-6
  return forces
 
-def load_cases(X,triangles,rack):
+def load_cases(X,triangles,rack,bending=False):
  pts=X[triangles];centres=pts.mean(1);areas=np.linalg.norm(np.cross(pts[:,1]-pts[:,0],pts[:,2]-pts[:,0]),axis=1)/2
  F=[];labels=[];patches=[]
  for tool in rack['tools']:
@@ -66,7 +66,9 @@ def load_cases(X,triangles,rack):
   selected=triangles[mask];a=areas[mask];assert len(selected)>10,(tool['name'],'No resolved bore patch')
   ids=np.unique(selected);weights=np.zeros(len(X));np.add.at(weights,selected.ravel(),np.repeat(a/3,3));weights=weights[ids]
   patches.append(dict(tool=tool['name'],nodes=len(ids),area_mm2=float(a.sum())))
-  for mode,force,moment,application in [('gravity',np.array([0.,0.,-1.]),np.zeros(3),np.array(tool['top'])),('extraction',u,np.zeros(3),np.array(tool['mouth'])),('torsion',np.zeros(3),u,np.array(tool['mouth']))]:
+  modes=[('gravity',np.array([0.,0.,-1.]),np.zeros(3),np.array(tool['top'])),('extraction',u,np.zeros(3),np.array(tool['mouth'])),('torsion',np.zeros(3),u,np.array(tool['mouth']))]
+  if bending:modes=[('down',np.array([0.,0.,-1.]),np.zeros(3),np.array(tool['top'])),('across_layers',np.array([1.,0.,0.]),np.zeros(3),np.array(tool['top'])),('outboard',np.array([0.,1.,0.]),np.zeros(3),np.array(tool['top']))]
+  for mode,force,moment,application in modes:
    field=np.zeros((len(X),3));field[ids]=wrench(X[ids],weights,force,moment,application);F.append(field.ravel());labels.append(tool['name']+':'+mode)
  return np.array(F).T,labels,patches
 

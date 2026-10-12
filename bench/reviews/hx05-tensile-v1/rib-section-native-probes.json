@@ -1,0 +1,62 @@
+{
+  "scope": "Critical analytic rib-section vertices and centers in valid cached native front-domain BREP. Geometric point probes only, not an integration or load validation.",
+  "racks": [
+    {
+      "id": "HX05C",
+      "body_valid": true,
+      "checks": [
+        {
+          "tool": "9/64",
+          "y": 1.3,
+          "points": 9,
+          "inside": true
+        },
+        {
+          "tool": "9/64",
+          "y": 1.3,
+          "points": 9,
+          "inside": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "HX05B",
+      "body_valid": true,
+      "checks": [
+        {
+          "tool": "4",
+          "y": 1.3,
+          "points": 9,
+          "inside": true
+        },
+        {
+          "tool": "4",
+          "y": 1.3,
+          "points": 9,
+          "inside": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "id": "HX05A",
+      "body_valid": true,
+      "checks": [
+        {
+          "tool": "T20",
+          "y": 1.3,
+          "points": 9,
+          "inside": true
+        },
+        {
+          "tool": "T20",
+          "y": 1.3,
+          "points": 9,
+          "inside": true
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

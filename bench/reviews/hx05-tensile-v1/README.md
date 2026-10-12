@@ -98,3 +98,76 @@ test remains distinct from that calculated estimate.
 The baseline JSON files are diagnostic records only; their field
 `raw_strength_to_peak_stress_ratio` must not be quoted as a physical safety
 factor. No whole-rack tensile rating was added to the finished gallery.
+
+## Bending demand checkpoint
+
+`bending_demands.py` calculates the rigid-key entrance/tip bearing couple for
+a 20 N transverse grip force and the corresponding downward, across-layer and
+outboard directions. The upper bearing is placed at the end of the straight
+wall, 3 mm below the funnel opening; the lower bearing is at the tip. It
+verifies exact force and moment equilibrium and an independent 60 mm / 240 mm
+lever example. It computes demands, not stress or capacity.
+
+| Set | Greatest grip moment at straight-wall shoulder | Largest upper-bearing force | Largest opposing lower-bearing force |
+|---|---:|---:|---:|
+| 13190 inch | 3.80 N·m (1/4 key) | 80.3 N | 60.3 N |
+| 13189 metric | 3.70 N·m (6 mm key) | 79.0 N | 59.0 N |
+| 33034 Torx | 2.36 N·m (T27) | 59.3 N | 39.3 N |
+
+The largest moment and largest bearing reaction need not belong to the same
+key because bearing spacing varies. The 20 N transverse force is roughly
+2 kgf; real distributed contact and tool deflection can change the load
+distribution. The axially loaded sleeve margins above do not establish a
+bending safety factor for this couple or for its transfer into the rear pegs.
+
+## Own-two-root-ribs bending section screen
+
+The next back-of-envelope model uses each key's **actual connected-v3 two rib
+hulls**, cut in planes Y = 1.3, 2, 3, 4 and 5 mm in front of the board. These
+are the current 1.2 mm rib width, 2.5 mm root width, 4 mm fanout, 0.8 mm rear
+root penetration and 1.2 mm socket band. Polygon area, centroid, second moments
+and product moment are integrated exactly; overlapping rib sections are counted
+once. The section gradients solve the coupled biaxial bending equations.
+Rectangle moments, polygon union and an independent two-bar bending case pass.
+
+Apply one 20 N grip force downward, outboard, or across print layers, plus
+5 N downward for that key's assumed weight. Credit **only that key's two dense
+ribs**. Assume plane sections remain plane and their rear attachment takes
+the specified force and bending moment. This deliberately restricted load
+allocation omits the surrounding skins, other dense helpers and sparse bulk,
+but it is **not a guaranteed conservative whole-holder bound**, because it
+also omits torsion, local concentrations, contact and joint behavior.
+
+| Set | Governing rib-only case | Peak nominal tension σYY | Margin against assumed 15 MPa | Unassessed section torsion |
+|---|---|---:|---:|---:|
+| 13190 inch | 9/64, across-layer push | 16.13 MPa | 0.93 | 3.36 N·m |
+| 13189 metric | 4 mm, across-layer push | 15.60 MPa | 0.96 | 3.54 N·m |
+| 33034 Torx | T20, across-layer push | 15.20 MPa | 0.99 | 2.65 N·m |
+
+These normal stresses run along installed Y, **within the print layers**.
+The across-layer force also requires interlayer shear and creates torsion;
+putting the normal bending tension in-plane does not eliminate those demands.
+The average interlayer shear in these sections is about 0.107 MPa, but that
+average excludes torsional shear and local interface peaks and is not a shear
+capacity check.
+
+This screen identifies the near-upright small main keys as a concern for
+sideways loading. The smallest and largest keys need not govern the same
+failure mode. It provides a reason to retain the continuous outer walls and
+the rear root collectors: the dense ribs alone do not show a large nominal
+bending margin under this load allocation. It does **not** predict that the
+finished rack fails, or establish how much the omitted walls contribute.
+
+The critical rib-section vertices and centers were checked inside the valid
+native front-domain BREP for all three racks; see
+`rib-section-native-probes.json`. Those geometry checks validate the credited
+section locations, not the beam mechanics. `rib-root-bending-screen.png` plots
+the analytic section fields. `rib-bending-sections.json` preserves all 390
+section/load cases.
+
+Further TetGen mesh attempts recovered boundaries but retained pathological
+near-degenerate elements. A tightly bounded surface cleanup changed sampled
+surfaces by less than 0.00035 mm and volumes by less than 0.00001%, but resulting
+minimum mean-ratio qualities were still roughly 1e-8 to 2e-5. These meshes
+remain rejected for peak-stress fracture factors. Their successful generation
+does not solve the numerical stress-qualification problem.
