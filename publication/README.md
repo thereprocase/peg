@@ -54,3 +54,17 @@ The green-family adaptations for 13189 metric and 33034 Torx live at `/gallery/k
 The selected green Bondhus 13190 fan also has an editable native FreeCAD handoff at `/gallery/key-fan/stacked/green/#parametric`. `bench/source/hx05_parametric_v1` contains its stdlib-only feature module, one-time setup macro, document builder, edit/reopen tests and release packager. Two spreadsheet sheets drive the fan geometry; the approved rear mount stays fixed. `package.py WORK_DIR` packages tested files and receipts; the green publisher reapplies `publish_download.py` so the download section survives regeneration. CAD binaries remain immutable release assets. Parameter edits invalidate the previous layout/printing evidence.
 
 `bench/source/final_racks_v1` builds the revised owner fan and three single-set Bondhus racks. Owner-selected 3C/5C clearance is +0.38 mm total AF; other sizes remain provisional. Saved final layouts, native checks, separate lead-ins and vent passages replace the flared seats. `publish_final_racks.py --build BUILD_DIR --out RELEASE_DIR` packages exact native/source downloads and publishes `/gallery/key-fan/final/` (also `/final/`). `render_final_racks.cjs` renders all three poses with the shared workbench shader. Refresh its scoped receipts after rendering. `check_final_racks.py` is included in the gallery check. Historical models/audit stay intact; no previous FEA or installation certificate transfers.
+
+The finished HX05 update is at `/gallery/key-fan/finished/`, linked from the
+previous green, matched and final pages. `bench/source/hx05_density_v1` owns the
+approved DraftedHolder outside tapers, exact tested cutters and fixed bed pose.
+`prepare_modifiers.py` exports four independent 100% helper volumes;
+`package_drafted.py` produces nominal geometry-only Orca projects.
+`export_final.py` reimports STEP and samples native surfaces, using the recorded
+rational-surface workaround for inch/Torx. `publish_finished.py` gates publication
+on fresh captured-owner-profile Orca slices, four retained modifiers, zero repairs,
+bed/socket-core screens and all 26 stored-tool/release and pinch checks. Large CAD,
+projects and renders stay on the immutable `hx05-finished-v1-2026-10-12` release.
+Run the HX05 checker and full gallery checks, refresh the root manifest after
+staging, upload and verify all release assets, then publish main. Physical fit,
+support removal and loads remain separate. No private profiles or G-code ship.

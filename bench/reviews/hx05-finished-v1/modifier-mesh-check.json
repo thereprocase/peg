@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "id": "HX05A",
+      "name": "print-modifier-foundation.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 28
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-mounts.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 20848
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-ribs.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 688
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-sockets.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 4594
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-foundation.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 28
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-mounts.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 32136
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-ribs.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 512
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-sockets.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 4000
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-foundation.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 28
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-mounts.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 37528
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-ribs.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 844
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-sockets.stl",
+      "watertight": true,
+      "positive_volume": true,
+      "faces": 5904
+    }
+  ],
+  "scope": "Four independent modifier topology checks; outside body and chosen bed pose unchanged."
+}

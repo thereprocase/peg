@@ -1,0 +1,16 @@
+{
+  "id": "HX05A",
+  "passed": true,
+  "valid_single_solid": true,
+  "filename": "HX05A_33034_finished_v1_tip_down.step",
+  "sha256": "acc2cce46302e8996df6d436d741572f57d74c3b7ddc44339e05e13a71fe0d4f",
+  "native_volume_mm3": 955701.1282728849,
+  "step_volume_mm3": 955810.3018918124,
+  "relative_volume_integration_delta": 0.00011423405884714022,
+  "maximum_bound_delta_mm": 1.0000123040754261e-07,
+  "surface_samples": 33,
+  "maximum_sample_surface_distance_mm": 9.413766157168214e-12,
+  "rational_surface_conversion": true,
+  "print_rotation_unchanged": true,
+  "scope": "STEP reload validity, bounded numerical volume-integration difference, bounds and native surface samples. Fresh native rational-surface tessellation; mesh topology and intersection checks separate."
+}

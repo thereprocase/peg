@@ -1,0 +1,26 @@
+"""Install the three portable modules and open the density-overlay documents."""
+from pathlib import Path
+import importlib,shutil,sys
+import FreeCAD as App,FreeCADGui as Gui
+bundle=Path(globals().get('__file__','')).resolve().parent
+required=['hx05_parametric.py','hx05_family.py','hx05_density.py']
+if not all((bundle/name).is_file() for name in required):
+ raise RuntimeError('Extract the full ZIP; keep the macro, modules and all FCStd files together')
+module_dir=Path(App.getUserAppDataDir())/'Mod'/'HX05DensityFans';module_dir.mkdir(parents=True,exist_ok=True)
+for name in required:shutil.copy2(bundle/name,module_dir/name)
+(module_dir/'Init.py').write_text('import os,sys,FreeCAD\np=os.path.join(FreeCAD.getUserAppDataDir(),"Mod","HX05DensityFans")\nif p not in sys.path: sys.path.insert(0,p)\nimport hx05_parametric,hx05_family,hx05_density\n')
+if str(module_dir) not in sys.path:sys.path.insert(0,str(module_dir))
+modules={}
+for name in ('hx05_parametric','hx05_family','hx05_density'):
+ old=sys.modules.get(name)
+ if old and Path(old.__file__).resolve()!=(module_dir/(name+'.py')).resolve():del sys.modules[name]
+ modules[name]=importlib.import_module(name)
+for path in sorted(set(bundle.glob('HX05*_density_v1.FCStd'))|set(bundle.glob('HX05*_finished_v1.FCStd'))):
+ doc=App.openDocument(str(path))
+ visible='DraftedHolder' if doc.getObject('DraftedHolder') else ('StructuralHolder' if doc.getObject('StructuralHolder') else 'FinalHolder')
+ for obj in doc.Objects:
+  if hasattr(obj,'DensityRole'):modules['hx05_density'].DensityZone(obj)
+  if hasattr(obj,'Shape') and obj.ViewObject:
+   obj.ViewObject.Visibility=obj.Name==visible
+ App.setActiveDocument(doc.Name);Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+App.Console.PrintMessage('Current print part: 86 DraftedHolder. DensityHelpers contains four nonphysical 100% infill masks. Keep the chosen bed face; never fuse masks into the print part.\n')

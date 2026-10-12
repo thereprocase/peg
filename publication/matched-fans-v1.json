@@ -40,8 +40,8 @@
     "sha256": "aef704de0b0ea4672d61d397c692cc7914797b083ec8ed5c1d3ad90609cce5b5"
   },
   "docs/gallery/key-fan/stacked/matched/index.html": {
-    "bytes": 8230,
-    "sha256": "9b1285779f8a83950f9a342f3a9199d1f1a220fb93fff81ec41db14cb12aa6cf"
+    "bytes": 8493,
+    "sha256": "2fcedb61ee9e18321bd94c1e4732a4875a17f64b023b39bad23d755b5d6203b6"
   },
   "docs/gallery/key-fan/stacked/matched/review.json": {
     "bytes": 18822,
@@ -140,8 +140,8 @@
     "sha256": "b0c1b96378a685256481d9bda5309e057b29c05a1785ead5680a194d0c12ea74"
   },
   "bench/source/matched_fans_v1/publish.py": {
-    "bytes": 11290,
-    "sha256": "436319fa599a98916399678ce3dbb3199c6966a9649b1396a03c5187fbd5b569"
+    "bytes": 11395,
+    "sha256": "3e0fdb86a885dad18301d2ee6f2d0b1e092ee4c3fc58edc35caecc71c85f0f00"
   },
   "bench/source/matched_fans_v1/render.cjs": {
     "bytes": 3459,

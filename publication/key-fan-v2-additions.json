@@ -4,8 +4,8 @@
     "bytes": 72748
   },
   "index.html": {
-    "sha256": "6d1fec08471609d009bb0fd170bb385047ab1ad622460ede67cd95df8c9d54d2",
-    "bytes": 13480
+    "bytes": 13743,
+    "sha256": "6bb879f581c753d6885b34fa67fd2bd97cacd5856248559f8b65a7565dbcc9d3"
   },
   "installed.glb": {
     "sha256": "d5266539aebfcf3179392b2619921aa509d102c9dc37b2be81e19b4865c00911",

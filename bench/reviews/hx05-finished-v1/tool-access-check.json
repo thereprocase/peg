@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "rack": "HX05C",
+      "tool": "9/64",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/32",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/16",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/32",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/4",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "5/16",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/8",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "3/32",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "7/64",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05C",
+      "tool": "1/8",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "4",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "5",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "6",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "8",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "10",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "2.5",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05B",
+      "tool": "3",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T20",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T25",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T27",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T30",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T40",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T9",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T10",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    },
+    {
+      "rack": "HX05A",
+      "tool": "T15",
+      "stored_overlap_mm3": 0.0,
+      "axial_release_overlap_mm3": 0.0
+    }
+  ],
+  "scope": "Represented catalogue tools and continuous axial release, with circumscribed grip sweep. Pinch approach checked separately. No physical fit or subsequent free-hand removal certificate."
+}

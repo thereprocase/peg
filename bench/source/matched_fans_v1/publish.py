@@ -69,5 +69,6 @@ def main(work):
  rows={str(p.relative_to(ROOT)):receipt(p) for folder in (dst,rev,Path(__file__).parent) for p in sorted(folder.rglob('*')) if p.is_file() and '__pycache__' not in p.parts}
  write(ROOT/'publication/matched-fans-v1.json',rows)
  __import__('runpy').run_path(str(ROOT/'bench/source/matched_fans_xray_v1/publish.py'))['overlay']()
+ __import__('runpy').run_path(str(ROOT/'bench/source/hx05_density_v1/publish_finished.py'))['overlay']()
  print(json.dumps(assets,indent=2));print('Matched page bytes',sum(p.stat().st_size for p in dst.iterdir()))
 if __name__=='__main__':main(sys.argv[1])

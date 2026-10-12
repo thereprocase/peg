@@ -1,0 +1,12 @@
+SetFactory("OpenCASCADE");
+Merge "body.brep";
+Mesh.Algorithm3D = 10;
+Mesh.MeshSizeMin = 0.6;
+Mesh.MeshSizeMax = 4.0;
+Mesh.MeshSizeFromPoints = 0;
+Mesh.MeshSizeFromCurvature = 16;
+Mesh.MeshSizeExtendFromBoundary = 0;
+Mesh.MinCircleNodes = 12;
+Mesh.Optimize = 1;
+Mesh.MshFileVersion = 2.2;
+Mesh.SaveAll = 1;
