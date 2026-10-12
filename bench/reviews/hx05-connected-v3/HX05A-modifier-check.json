@@ -1,0 +1,65 @@
+{
+  "id": "HX05A",
+  "passed": true,
+  "body_shape_unchanged": true,
+  "body_shape_sha256": "968605e71575e1b7762de1c260d1673ac7f774e1823d074670961eab893ea82f",
+  "print_rotation_unchanged": true,
+  "rotation": [
+    [
+      0.0,
+      0.7071067811865476,
+      -0.7071067811865475
+    ],
+    [
+      0.0,
+      0.7071067811865475,
+      0.7071067811865476
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "translation": [
+    46.09476986008944,
+    185.25375459765485,
+    74.0
+  ],
+  "modifier_count": 4,
+  "modifiers": [
+    {
+      "role": "Foundation",
+      "subtype": "modifier_part",
+      "infill_percent": 100,
+      "raw_volume_mm3": 31693.861374106356,
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "role": "Mounts",
+      "subtype": "modifier_part",
+      "infill_percent": 100,
+      "raw_volume_mm3": 394115.7926579072,
+      "solids": 1,
+      "valid": true
+    },
+    {
+      "role": "Sockets",
+      "subtype": "modifier_part",
+      "infill_percent": 100,
+      "raw_volume_mm3": 16136.588460000261,
+      "solids": 5,
+      "valid": true
+    },
+    {
+      "role": "Ribs",
+      "subtype": "modifier_part",
+      "infill_percent": 100,
+      "raw_volume_mm3": 104601.0351670629,
+      "solids": 11,
+      "valid": true
+    }
+  ],
+  "scope": "Native mask export only. Masks clipped to the build volume to preserve bed contact; no manufacturing geometry or fits changed. Mesh and Orca verification remain separate."
+}

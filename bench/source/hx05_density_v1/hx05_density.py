@@ -233,11 +233,35 @@ class DensityZone:
                 width = density_value(p, 'DensityRibWidth', 'RibWidth')
                 root_width = density_value(p, 'DensityRootWidth', 'RootWidth')
                 reach = density_value(p, 'DensityRootFanout', 'RootFanout')
+                connected = getattr(p, 'DensityContinuousRibs', False)
+                attachment_radius = radius-width/3
+                if connected:
+                    # Attach within the actual annular socket mask, rather
+                    # than at the old full-cylinder envelope. Hex flats use
+                    # the same bar-axis normals as the tested bore.
+                    skin=value(p,'DensitySocketSkin')
+                    size=value(key,'NominalAF')+value(key.Parameters,'AFClearance')
+                    if hasattr(key,'RoundSocket') and key.RoundSocket:
+                        size=value(key,'NominalDiameter')+value(key.Parameters,'AFClearance')
+                        attachment_radius=size/2+skin/2
+                    else:
+                        side=axis.cross(bar)
+                        normal_projection=max(radial.dot(bar*math.cos(k*math.pi/3)+side*math.sin(k*math.pi/3)) for k in range(6))
+                        attachment_radius=(size/2+skin/2)/normal_projection
                 for sign in (-1,1):
                     points = []
                     for q in [tip-axis*floor, mouth-axis*value(key.Parameters,'LeadDepth')]:
-                        shell = q + radial*(sign*(radius-width/3))
-                        root = V(shell.x, 5.0, shell.z+sign*reach)
+                        shell = q + radial*(sign*attachment_radius)
+                        root_z=shell.z+sign*reach
+                        root_y=5.0
+                        if connected:
+                            # Penetrate the rear wall skin and keep the full
+                            # root width on the receiving plate, avoiding
+                            # clipped-off roots and floating edge fragments.
+                            margin=root_width/2+.25
+                            root_z=max(value(key.Parameters,'PlateBottom')+margin,min(-margin,root_z))
+                            root_y=.8
+                        root = V(shell.x, root_y, root_z)
                         for sx in (-1,1):
                             for sz in (-1,1):
                                 points.append(shell+V(sx*width/2,0,sz*width/2))

@@ -1,0 +1,162 @@
+[
+  {
+    "tool": "T9 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.760083028950575
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.760083028950578
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.760083028950533
+      }
+    ]
+  },
+  {
+    "tool": "T10 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.870730350994193
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.870730350994248
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.870730350994276
+      }
+    ]
+  },
+  {
+    "tool": "T15 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 5.109977369846449
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 5.109977369846436
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 5.109977369846433
+      }
+    ]
+  },
+  {
+    "tool": "T20 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.109111382899365
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.109111382899316
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 4.103913982723089
+      }
+    ]
+  },
+  {
+    "tool": "T25 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.882927967379773
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.882927967379748
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.882927967379583
+      }
+    ]
+  },
+  {
+    "tool": "T27 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.602752260079152
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.602752260079035
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.602752260079107
+      }
+    ]
+  },
+  {
+    "tool": "T30 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.108210179680201
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 6.10821017968017
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 8.881784197001252e-16,
+        "overlap_mm3": 6.108210179680052
+      }
+    ]
+  },
+  {
+    "tool": "T40 \u2014 angles, length and reference tool",
+    "stations": [
+      {
+        "fraction": 0.15,
+        "gap_mm": 0.0,
+        "overlap_mm3": 5.593486489948469
+      },
+      {
+        "fraction": 0.5,
+        "gap_mm": 0.0,
+        "overlap_mm3": 5.593486489948403
+      },
+      {
+        "fraction": 0.85,
+        "gap_mm": 0.0,
+        "overlap_mm3": 5.593486489948589
+      }
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "meshes": [
+    {
+      "id": "HX05C",
+      "name": "print-modifier-foundation.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-mounts.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-sockets.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05C",
+      "name": "print-modifier-ribs.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-foundation.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-mounts.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-sockets.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05B",
+      "name": "print-modifier-ribs.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-foundation.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-mounts.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-sockets.stl",
+      "watertight": true,
+      "positive_volume": true
+    },
+    {
+      "id": "HX05A",
+      "name": "print-modifier-ribs.stl",
+      "watertight": true,
+      "positive_volume": true
+    }
+  ]
+}

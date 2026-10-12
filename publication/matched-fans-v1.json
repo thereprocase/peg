@@ -27,10 +27,6 @@
     "bytes": 19411,
     "sha256": "a663c9f6cae1de635a46921b024709037e147fce0cf09eda2f6037fe67e09aac"
   },
-  "docs/gallery/key-fan/stacked/matched/HX05B-hero.jpg": {
-    "bytes": 20958,
-    "sha256": "b13e1eef4a1ee518f81efee426110cbc8f142df7b69fe040fd69223707633ce6"
-  },
   "docs/gallery/key-fan/stacked/matched/HX05B-plan.jpg": {
     "bytes": 13563,
     "sha256": "fb96c06720b93fb2b48ec39d10a25ebe40a342d8c0147e066295c862c2cb0e8c"
@@ -40,8 +36,8 @@
     "sha256": "aef704de0b0ea4672d61d397c692cc7914797b083ec8ed5c1d3ad90609cce5b5"
   },
   "docs/gallery/key-fan/stacked/matched/index.html": {
-    "bytes": 8493,
-    "sha256": "2fcedb61ee9e18321bd94c1e4732a4875a17f64b023b39bad23d755b5d6203b6"
+    "bytes": 8598,
+    "sha256": "a36538a811a928693856e2b74c249f5620881515d3637cf01c259c243ace710b"
   },
   "docs/gallery/key-fan/stacked/matched/review.json": {
     "bytes": 18822,

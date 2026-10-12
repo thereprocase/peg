@@ -1,0 +1,18 @@
+{
+  "id": "HX05B",
+  "passed": true,
+  "outside_unchanged": true,
+  "body_shape_sha256": "7df25af32d8e1fe7ab4c631774be9521f2cad793b022fb8fe480e85949a43ea9",
+  "base_infill_percent": 5,
+  "wall_loops": 3,
+  "parameters": {
+    "DensityFoundationDepth": 1.6,
+    "DensityPegRootRadius": 5.5,
+    "DensityRootDepth": 8.0,
+    "DensityCollectorHeight": 8.0,
+    "DensityRibWidth": 1.2,
+    "DensityRootWidth": 2.5,
+    "DensityRootFanout": 4.0,
+    "DensitySocketSkin": 1.2
+  }
+}

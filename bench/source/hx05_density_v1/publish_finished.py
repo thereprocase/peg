@@ -1,10 +1,10 @@
 """Publish the owner-selected finished shapes and fixed-pose infill modifiers."""
 from pathlib import Path
 import hashlib,json,shutil,zipfile,os,xml.etree.ElementTree as E
-ROOT=Path(__file__).resolve().parents[3];LIGHT=os.environ.get('HX05_LIGHT')=='1'
-WORK=ROOT/('.local-runtime/hx05-light-v2' if LIGHT else '.local-runtime/hx05-density-v1')
-REV=ROOT/('bench/reviews/hx05-light-v2' if LIGHT else 'bench/reviews/hx05-finished-v1');PAGE=ROOT/'docs/gallery/key-fan/finished/index.html'
-TAG='hx05-light-v2-2026-10-12' if LIGHT else 'hx05-finished-v1-2026-10-12';BASE='https://github.com/thereprocase/peg/releases/download/'+TAG+'/'
+ROOT=Path(__file__).resolve().parents[3];CONNECTED=os.environ.get('HX05_CONNECTED')=='1';LIGHT=CONNECTED or os.environ.get('HX05_LIGHT')=='1'
+WORK=ROOT/('.local-runtime/hx05-connected-v3' if CONNECTED else ('.local-runtime/hx05-light-v2' if LIGHT else '.local-runtime/hx05-density-v1'))
+REV=ROOT/('bench/reviews/hx05-connected-v3' if CONNECTED else ('bench/reviews/hx05-light-v2' if LIGHT else 'bench/reviews/hx05-finished-v1'));PAGE=ROOT/'docs/gallery/key-fan/finished/index.html'
+TAG='hx05-connected-v3-2026-10-12' if CONNECTED else ('hx05-light-v2-2026-10-12' if LIGHT else 'hx05-finished-v1-2026-10-12');BASE='https://github.com/thereprocase/peg/releases/download/'+TAG+'/'
 def receipt(p):return dict(bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest())
 def write(p,d):p.write_text(json.dumps(d,indent=2)+'\n')
 def refresh_scoped(changed):
@@ -18,6 +18,13 @@ def refresh_scoped(changed):
   if dirty:write(p,data)
 def overlay():
  if not PAGE.exists():return
+ migration=ROOT/'bench/reviews/hx05-connected-v3/archive-media.json'
+ if migration.exists():
+  data=json.loads(migration.read_text());old=ROOT/data['original'];historical_page=ROOT/'docs/gallery/key-fan/stacked/matched/index.html'
+  historical_page.write_text(historical_page.read_text().replace('src="HX05B-hero.jpg"','src="'+data['url']+'"'))
+  if old.exists():
+   assert receipt(old)==data['receipt'];old.unlink()
+  scope=ROOT/'publication/matched-fans-v1.json';records=json.loads(scope.read_text());records.pop(data['original'],None);write(scope,records)
  changed=['bench/source/matched_fans_v1/publish.py',str(PAGE.relative_to(ROOT))]+[str(p.relative_to(ROOT)) for p in Path(__file__).parent.iterdir() if p.is_file()]
  for relative in ['docs/gallery/key-fan/index.html','docs/gallery/key-fan/stacked/matched/index.html','docs/gallery/key-fan/stacked/green/index.html','docs/gallery/key-fan/final/index.html']:
   p=ROOT/relative;text=p.read_text()
@@ -44,9 +51,9 @@ def main():
   assert paths['bed_centerline_screen_passed'] and paths['socket_core_screen_passed']
   if LIGHT:
    proof=json.loads((out/'unchanged-print-mesh.json').read_text());assert proof['passed'] and proof['body_mesh_byte_identity']
-   for key in ['light-parameters','unchanged-print-mesh']:shutil.copy2(out/(key+'.json'),REV/f'{ident}-{key}.json')
+   for key in (['light-parameters','unchanged-print-mesh','connected-parameters','modifier-connectivity-audit'] if CONNECTED else ['light-parameters','unchanged-print-mesh']):shutil.copy2(out/(key+'.json'),REV/f'{ident}-{key}.json')
   for name,data in [('draft-check',draft),('modifier-check',mods),('step-check',step),('slice-review',sliced),('toolpaths',paths)]:write(REV/f'{ident}-{name}.json',data)
-  stem=f'{ident}_{number}_'+('light_v2' if LIGHT else 'finished_v1');native=stem+'.FCStd';project=stem+'_tip_down.3mf';original_step=step['filename'];stepname=stem+'_tip_down.step'
+  stem=f'{ident}_{number}_'+('connected_v3' if CONNECTED else ('light_v2' if LIGHT else 'finished_v1'));native=stem+'.FCStd';project=stem+'_tip_down.3mf';original_step=step['filename'];stepname=stem+'_tip_down.step'
   step['filename']=stepname;write(REV/f'{ident}-step-check.json',step)
   shutil.copy2(next(out.glob('*_density_v1.FCStd')),release/native)
   shutil.copy2(out/original_step,release/stepname)
@@ -58,10 +65,10 @@ def main():
   for role in ['foundation','mounts','sockets','ribs']:
    shutil.copy2(out/f'print-modifier-{role}.stl',bundle/f'{stem}_MODIFIER_{role}_100pct.stl')
   for pose in ['hero','front','plan','print-hero']:
-   name=f'{ident}-'+('light-v2-' if LIGHT else 'finished-')+f'{pose}.jpg';shutil.copy2((ROOT/'.local-runtime/hx05-density-v1/renders' if LIGHT else WORK/'renders')/f'{ident}-{pose}.jpg',release/name)
+   name=f'{ident}-'+('connected-v3-' if CONNECTED else ('light-v2-' if LIGHT else 'finished-'))+f'{pose}.jpg';shutil.copy2((ROOT/'.local-runtime/hx05-density-v1/renders' if LIGHT else WORK/'renders')/f'{ident}-{pose}.jpg',release/name)
   models.append(dict(id=ident,set=number,label=label,native=native,project=project,step=stepname,print_dimensions_mm=draft['print_dimensions_mm'],nominal_edge_margin_mm=draft['available_edge_margin_mm'],maximum_uncut_housing_overhang_deg=draft['maximum_checked_uncut_housing_overhang_deg'],modifier_count=4,modifier_infill_percent=100,total_estimated_print_time=sliced['total_estimated_print_time'],filament_grams=sliced['filament_grams']))
  for p in [Path(__file__).parent/'hx05_density.py',Path(__file__).parent/'SETUP_DENSITY_FANS.FCMacro',Path(__file__).parent/'README.txt',ROOT/'bench/source/hx05_parametric_v1/hx05_parametric.py',ROOT/'bench/source/matched_fans_v1/hx05_family.py']:shutil.copy2(p,bundle/p.name)
- if LIGHT:shutil.copy2(Path(__file__).parent/'README_LIGHT.txt',bundle/'README.txt')
+ if LIGHT:shutil.copy2(Path(__file__).parent/('README_CONNECTED.txt' if CONNECTED else 'README_LIGHT.txt'),bundle/'README.txt')
  for p in Path(__file__).parent.iterdir():
   if p.is_file():dst=bundle/'source'/p.name;dst.parent.mkdir(exist_ok=True);shutil.copy2(p,dst)
  (bundle/'checks/release.json').unlink(missing_ok=True)
@@ -69,17 +76,23 @@ def main():
   if p.name=='release.json':continue  # A ZIP cannot contain its own final hash.
   dst=bundle/'checks'/p.name;dst.parent.mkdir(exist_ok=True);shutil.copy2(p,dst)
  for p in [WORK/'fixed-pose-modifier-sections.png',WORK/'fixed-pose-modifier-sections.svg',Path(__file__).parent/'style-guide.html']:
-  name=('HX05_light_v2_'+p.name if LIGHT else p.name)
+  name=('HX05_connected_v3_'+p.name if CONNECTED else ('HX05_light_v2_'+p.name if LIGHT else p.name))
   shutil.copy2(p,release/name);shutil.copy2(p,bundle/name)
- zipname='HX05_light_v2_native_STEP_Orca_bundle.zip' if LIGHT else 'HX05_finished_v1_native_STEP_Orca_bundle.zip'
+ zipname='HX05_connected_v3_native_STEP_Orca_bundle.zip' if CONNECTED else ('HX05_light_v2_native_STEP_Orca_bundle.zip' if LIGHT else 'HX05_finished_v1_native_STEP_Orca_bundle.zip')
  with zipfile.ZipFile(release/zipname,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
   for p in sorted(bundle.rglob('*')):
    if p.is_file():z.write(p,str(p.relative_to(bundle)))
+ if CONNECTED:
+  shutil.copy2(WORK/'actual-orca-before-after.png',release/'HX05_connected_v3_actual_Orca_before_after.png')
+  historical=ROOT/'docs/gallery/key-fan/stacked/matched/HX05B-hero.jpg';oldname='HX05B_matched_v1_historical_hero.jpg'
+  if historical.exists():shutil.copy2(historical,release/oldname)
+  if (release/oldname).exists():write(REV/'archive-media.json',dict(original=str(historical.relative_to(ROOT)),url=BASE+oldname,receipt=receipt(release/oldname)))
  assets={p.name:receipt(p) for p in release.iterdir() if p.is_file()}
  write(REV/'release.json',dict(release=TAG,assets=assets,models=models,scope='Owner-selected finished outside geometry, unchanged tested cutters and fixed bed pose. Four independent 100% infill modifiers. STEP round trips and owner-profile Orca slices/screens; physical fits, support removal and loads remain separate.'))
  rows=json.loads((ROOT/'publication/release-assets.json').read_text());rows.update(assets);write(ROOT/'publication/release-assets.json',rows)
  links=json.loads((ROOT/'publication/release-downloads.json').read_text())
  for name in assets:links['key-fan/finished/'+name]=BASE+name
+ if CONNECTED:links['key-fan/stacked/matched/HX05B-hero.jpg']=BASE+'HX05B_matched_v1_historical_hero.jpg'
  write(ROOT/'publication/release-downloads.json',links)
  p=ROOT/'docs/gallery/release-downloads.js';before,tail=p.read_text().split('const links=',1);_,end=json.JSONDecoder().raw_decode(tail);p.write_text(before+'const links='+json.dumps(links,separators=(',',':'))+tail[end:])
  cards=[]
@@ -93,13 +106,23 @@ def main():
   text=PAGE.read_text().replace('12% gyroid, four walls','5% gyroid, three walls').replace('fixed-pose-modifier-sections.png','HX05_light_v2_fixed-pose-modifier-sections.png').replace('-finished-','-light-v2-').replace('style-guide.html','HX05_light_v2_style-guide.html')
   summary='<section id="lightweight"><h2>Lightweight density revision</h2><p>The outside part, tested sockets and print orientation are unchanged. Narrow 100% infill zones replace the previous broad solid cores. Bulk is 5% gyroid with three continuous walls; all three use normal/grid supports in the recorded review slices.</p><ul>'+''.join(f'<li>{m["set"]} {m["label"]}: <strong>{m["filament_grams"]:.0f} g</strong>, down from {old[m["id"]]:.0f} g ({100*(1-m["filament_grams"]/old[m["id"]]):.0f}% less).</li>' for m in models)+'</ul><p>Solid zones: 1.6 mm bed-face foundation, 1.2 mm socket bands and load-path plates, 2.5 mm root widths, local 5.5 mm radius peg-root discs. Density-only parameters are separate from the outside construction. Strength changes with the material reduction; physical load qualification remains separate.</p><p><a href="https://github.com/thereprocase/peg/releases/tag/hx05-finished-v1-2026-10-12">Previous v1 — 12% gyroid, four walls and broad solid cores</a></p></section>'
   text=text.replace('<h1>Finished Bondhus fan racks</h1>','<h1>Finished Bondhus fan racks</h1>'+summary).replace('metric and Torx were reviewed with organic tree supports','all three were reviewed with normal/grid supports')
+  if CONNECTED:
+   text=text.replace('-light-v2-','-connected-v3-').replace('HX05_light_v2_','HX05_connected_v3_')
+   note='<p>Connected reinforcement v3 fixes the gaps left when the old rib attachments were retained during thinning. Rib ends now overlap the socket bands and enter the rear wall skin; roots stay within the receiving plate. All 78 sampled sleeve contacts across 26 tools overlap in native CAD. The gray in the mask diagram includes solid perimeter walls as well as sparse infill.</p><p><a href="'+BASE+'HX05_connected_v3_actual_Orca_before_after.png">Actual Orca paths before and after the attachment correction</a></p>'
+   text=text.replace('<section id="density">',note+'<section id="density">')
   PAGE.write_text(text)
   for ident in current:
    shutil.copy2(WORK/ident/'light-parameters.json',REV/f'{ident}-light-parameters.json');shutil.copy2(WORK/ident/'unchanged-print-mesh.json',REV/f'{ident}-unchanged-print-mesh.json')
+ if CONNECTED:
+  historical=ROOT/'docs/gallery/key-fan/stacked/matched/HX05B-hero.jpg';hp=ROOT/'docs/gallery/key-fan/stacked/matched/index.html'
+  hp.write_text(hp.read_text().replace('src="HX05B-hero.jpg"','src="'+BASE+'HX05B_matched_v1_historical_hero.jpg"'))
+  if historical.exists():historical.unlink()
+  scope=ROOT/'publication/matched-fans-v1.json';records=json.loads(scope.read_text());records.pop(str(historical.relative_to(ROOT)),None);write(scope,records)
  overlay()
  rows={str(p.relative_to(ROOT)):receipt(p) for folder in [REV,Path(__file__).parent] for p in sorted(folder.rglob('*')) if p.is_file() and '__pycache__' not in p.parts}
  rows[str(PAGE.relative_to(ROOT))]=receipt(PAGE);rows['tools/check_hx05_density.py']=receipt(ROOT/'tools/check_hx05_density.py')
  if LIGHT:rows['tools/check_hx05_light.py']=receipt(ROOT/'tools/check_hx05_light.py')
- write(ROOT/('publication/hx05-light-v2.json' if LIGHT else 'publication/hx05-finished-v1.json'),rows)
+ if CONNECTED:rows['tools/check_hx05_connected.py']=receipt(ROOT/'tools/check_hx05_connected.py')
+ write(ROOT/('publication/hx05-connected-v3.json' if CONNECTED else ('publication/hx05-light-v2.json' if LIGHT else 'publication/hx05-finished-v1.json')),rows)
  print(json.dumps(dict(assets=len(assets),release=str(release),site_bytes=sum(p.stat().st_size for p in (ROOT/'docs').rglob('*') if p.is_file())),indent=2))
 if __name__=='__main__':main()

@@ -14,7 +14,7 @@ modules={}
 for name in ('hx05_parametric','hx05_family','hx05_density'):
  old=sys.modules.get(name)
  if old and Path(old.__file__).resolve()!=(module_dir/(name+'.py')).resolve():del sys.modules[name]
- modules[name]=importlib.import_module(name)
+ modules[name]=importlib.reload(importlib.import_module(name))
 for path in sorted(bundle.glob('HX05*.FCStd')):
  doc=App.openDocument(str(path))
  visible='DraftedHolder' if doc.getObject('DraftedHolder') else ('StructuralHolder' if doc.getObject('StructuralHolder') else 'FinalHolder')

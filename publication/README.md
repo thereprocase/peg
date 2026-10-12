@@ -79,3 +79,13 @@ The mass gate requires the inch rack to be at most 55% of v1. Exact body-mesh
 identity permits reuse of v1 geometry/access checks; strength is not inherited.
 Cached older construction bodies are FrozenHistory so they are not recomputed
 with the new thin masks. Keep those history flags in the setup macro.
+
+Connected reinforcement v3 uses `HX05_CONNECTED=1 publish_finished.py` and the
+`hx05-connected-v3` runtime/review directories. It fixes rib/socket-band gaps
+from the v2 thinning, clamps roots within the receiving plate and enters the
+rear perimeter skin. Gate on 78 sampled native contacts, unchanged physical
+mesh identities, fresh Orca retention/repair/bed/socket checks and the mass
+budget. The before/after plot contains actual G-code extrusion paths, not masks.
+An unchanged historical matched-fan JPEG is offloaded to its immutable release
+asset, with its exact receipt and compatibility alias, to preserve the site budget.
+The installer reloads modules so existing FreeCAD sessions receive the new logic.

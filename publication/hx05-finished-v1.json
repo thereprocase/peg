@@ -88,8 +88,8 @@
     "sha256": "91ddbbf70f81939fe2b23cf9b5ee86e983bac7a918da7711e5e76d7b29243ef1"
   },
   "bench/source/hx05_density_v1/SETUP_DENSITY_FANS.FCMacro": {
-    "bytes": 1943,
-    "sha256": "87c5071dc2c3efc230d829809da7c1d744017b62ba934ac5633291da8996ccf2"
+    "bytes": 1961,
+    "sha256": "7dc4c3a9a1035e657384935aac057fbd0555ed6b1d96c723e940834813faa839"
   },
   "bench/source/hx05_density_v1/build.py": {
     "bytes": 6529,
@@ -144,8 +144,8 @@
     "sha256": "ba475ee394d2902dd8ea54723ecf8073ccf858a9e176e8722821a7d1b21fb840"
   },
   "bench/source/hx05_density_v1/hx05_density.py": {
-    "bytes": 13011,
-    "sha256": "80f839fd0786e9fc784a68945808201aaa5c23ecac85a6391bff2fba756c1eaf"
+    "bytes": 14554,
+    "sha256": "46a6cf8c2e348a93ec785c36c9f3e83edebf22eb43a654cb15683f0610936a26"
   },
   "bench/source/hx05_density_v1/mesh_caps.py": {
     "bytes": 4165,
@@ -172,12 +172,12 @@
     "sha256": "9bcd580c3ca5bbde1a42ce17f4c393f75404109eda8b46cf8a24296cfa74f6bf"
   },
   "bench/source/hx05_density_v1/publish_finished.py": {
-    "bytes": 16024,
-    "sha256": "c8ead6ce2ed733331220d4fa966d02300e4ed6f6f0639cc2e4fe5363937d9736"
+    "bytes": 19065,
+    "sha256": "260616ee3cbba5531bc781e74d20deb466119000de6d1e00068e63ec512769db"
   },
   "bench/source/hx05_density_v1/render_modifier_sections.py": {
-    "bytes": 2879,
-    "sha256": "18074885b73caac2a07732e97eccade1c06963c98203aa955296e295647f9c7d"
+    "bytes": 2886,
+    "sha256": "cb633455a2473f5750d6c0763f8c3358350613d1de3d6089eecd6346ee5309dd"
   },
   "bench/source/hx05_density_v1/render_outside.py": {
     "bytes": 1506,
@@ -200,8 +200,8 @@
     "sha256": "07de2f468422bc3b8d265234be148466a6f476690e00ecbaac1f9fa8d9d8bfa1"
   },
   "docs/gallery/key-fan/finished/index.html": {
-    "bytes": 10012,
-    "sha256": "a225de879a2955801598f024c765ea8a08fed9b4ac2a60ae7cbac55c901f5a4b"
+    "bytes": 10800,
+    "sha256": "4133f47f20f9624ddd58f9a1045787e61647411b37e18dbf23104c953de06b85"
   },
   "tools/check_hx05_density.py": {
     "bytes": 2518,
