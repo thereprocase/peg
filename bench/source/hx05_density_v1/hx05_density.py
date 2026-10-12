@@ -11,6 +11,9 @@ def frame(key):
     return inch_frame(key)
 V = App.Vector
 
+def density_value(parameters, name, fallback):
+    return value(parameters, name) if hasattr(parameters, name) else value(parameters, fallback)
+
 
 def fuse(parts):
     parts = [p for p in parts if not p.isNull() and p.Volume > 1e-6]
@@ -172,7 +175,7 @@ class DensityZone:
             obj.BodyVolumeFraction = 100 * obj.Shape.Volume / body.Volume
             return
         if role == 'Foundation':
-            depth = value(p, 'FoundationDepth')
+            depth = density_value(p, 'DensityFoundationDepth', 'FoundationDepth')
             obj.Shape = Part.makeBox(depth, box.YLength+2, box.ZLength+2,
                                      V(box.XMin, box.YMin-1, box.ZMin-1))
             return
@@ -184,13 +187,13 @@ class DensityZone:
             mb = obj.Mount.Shape.optimalBoundingBox()
             parts = [Part.makeBox(mb.XLength, -mb.YMin+.02, mb.ZLength,
                                  V(mb.XMin, mb.YMin, mb.ZMin))]
-            radius = value(p, 'PegRootRadius')
-            depth = value(p, 'RootDepth')
+            radius = density_value(p, 'DensityPegRootRadius', 'PegRootRadius')
+            depth = density_value(p, 'DensityRootDepth', 'RootDepth')
             for x in obj.PegColumns:
                 for z in obj.PegRows:
                     parts.append(Part.makeCylinder(radius, depth, V(x, -.1, z), V(0,1,0)))
             # Top and bottom collector belts: dense only where the mount transfers loads.
-            belt = value(p, 'CollectorHeight')
+            belt = density_value(p, 'DensityCollectorHeight', 'CollectorHeight')
             for z in [max(obj.PegRows), min(obj.PegRows)]:
                 parts.append(Part.makeBox(box.XLength, depth, belt,
                                          V(box.XMin, -.1, z-belt/2)))
@@ -203,13 +206,33 @@ class DensityZone:
             floor = value(key.Parameters, 'FloorDepth')
             if role == 'Sockets':
                 start = tip-axis*floor
-                parts.append(Part.makeCylinder(radius+.02, (mouth-start).Length+.03,
-                                                start, axis))
+                if not hasattr(p, 'DensitySocketSkin'):
+                    parts.append(Part.makeCylinder(radius+.02, (mouth-start).Length+.03,
+                                                    start, axis))
+                else:
+                    skin=value(p,'DensitySocketSkin');kp=key.Parameters
+                    lead=value(kp,'LeadDepth');shoulder=mouth-axis*lead
+                    size=value(key,'NominalAF')+value(kp,'AFClearance')
+                    if hasattr(key,'RoundSocket') and key.RoundSocket:
+                        size=value(key,'NominalDiameter')+value(kp,'AFClearance')
+                        def wire(q,s):return Part.Wire([Part.makeCircle(s/2,q,axis)])
+                    else:
+                        from hx05_parametric import hexwire
+                        def wire(q,s):return hexwire(q,axis,bar,s)
+                    length=(shoulder-tip).Length+.04
+                    inner=Part.Face(wire(tip-axis*.02,size)).extrude(axis*length)
+                    outer=Part.Face(wire(tip-axis*.02,size+2*skin)).extrude(axis*length)
+                    band=outer.cut(inner)
+                    opening=2*value(kp,'LeadOpening')
+                    lead_outer=Part.makeLoft([wire(shoulder,size+2*skin),wire(mouth,size+opening+2*skin)],True,True)
+                    lead_inner=Part.makeLoft([wire(shoulder,size),wire(mouth,size+opening)],True,True)
+                    parts.extend([band,lead_outer.cut(lead_inner),
+                        Part.makeCylinder(radius+.02,floor+.3,start,axis)])
             elif role == 'Ribs':
                 radial = unit(V(0,0,1)-axis*axis.z)
-                width = value(p, 'RibWidth')
-                root_width = value(p, 'RootWidth')
-                reach = value(p, 'RootFanout')
+                width = density_value(p, 'DensityRibWidth', 'RibWidth')
+                root_width = density_value(p, 'DensityRootWidth', 'RootWidth')
+                reach = density_value(p, 'DensityRootFanout', 'RootFanout')
                 for sign in (-1,1):
                     points = []
                     for q in [tip-axis*floor, mouth-axis*value(key.Parameters,'LeadDepth')]:

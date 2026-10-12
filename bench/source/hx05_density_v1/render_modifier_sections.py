@@ -1,7 +1,7 @@
 """Actual fixed-pose XY sections, showing the four independent modifier masks."""
 from pathlib import Path
-import numpy as np, trimesh
-ROOT=Path(__file__).resolve().parents[3];WORK=ROOT/'.local-runtime/hx05-density-v1'
+import os,numpy as np, trimesh
+ROOT=Path(__file__).resolve().parents[3];WORK=Path(os.environ.get('HX05_BUILD_DIR',str(ROOT/'.local-runtime/hx05-density-v1')))
 svg=['<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1060" viewBox="0 0 1440 1060">','<rect width="1440" height="1060" fill="#faf8f0"/>','<g font-family="sans-serif" fill="#26343a">','<text x="35" y="45" font-size="28" font-weight="bold">Fixed bed face · strategic 100% infill masks</text>','<text x="35" y="78" font-size="19">Actual print XY sections. Gray: holder bulk · Green: modifier intersection · White: air</text>']
 for col,(ident,title) in enumerate([('HX05C','13190 inch'),('HX05B','13189 metric'),('HX05A','33034 Torx')]):
  body=trimesh.load(WORK/ident/'print-drafted-body-closed.stl',force='mesh',process=True)

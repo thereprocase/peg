@@ -1,0 +1,39 @@
+{
+  "id": "HX05C",
+  "passed": true,
+  "valid_single_solid": true,
+  "exterior_overhang_limit_deg": 30,
+  "maximum_checked_uncut_housing_overhang_deg": 29.979963740612423,
+  "tested_cutters_reused": true,
+  "broad_cheek_removed": true,
+  "volume_mm3": 1698773.600827328,
+  "rotation": [
+    [
+      0.0,
+      0.7071067811865476,
+      -0.7071067811865475
+    ],
+    [
+      0.0,
+      0.7071067811865475,
+      0.7071067811865476
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "translation": [
+    31.618847522045726,
+    196.24686403085542,
+    108.00000000000004
+  ],
+  "print_dimensions_mm": [
+    212.16148147698698,
+    213.20724778273978,
+    216.00000000000006
+  ],
+  "available_edge_margin_mm": 21.396376108630108,
+  "scope": "Analytic convex-housing outer draft check before unchanged socket/entry/vent cutters. Internal cut faces and original pegs excluded; final tool access and support/toolpath checks pending."
+}

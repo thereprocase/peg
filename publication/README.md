@@ -68,3 +68,14 @@ projects and renders stay on the immutable `hx05-finished-v1-2026-10-12` release
 Run the HX05 checker and full gallery checks, refresh the root manifest after
 staging, upload and verify all release assets, then publish main. Physical fit,
 support removal and loads remain separate. No private profiles or G-code ship.
+
+The lightweight v2 density revision uses the identical physical meshes with thin
+100% bands/plates, 5% gyroid and three continuous walls. Build helpers with
+`set_light_parameters.py` and `HX05_BUILD_DIR=.local-runtime/hx05-light-v2`
+(an absolute build path is preferred), then package and check fresh owner-profile
+slices. `HX05_LIGHT=1 publish_finished.py` updates the same finished page, keeps
+v1's immutable downloads as history, and publishes the unique light-v2 assets.
+The mass gate requires the inch rack to be at most 55% of v1. Exact body-mesh
+identity permits reuse of v1 geometry/access checks; strength is not inherited.
+Cached older construction bodies are FrozenHistory so they are not recomputed
+with the new thin masks. Keep those history flags in the setup macro.

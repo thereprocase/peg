@@ -107,3 +107,6 @@ if (D/'key-fan/stacked/matched/review.json').exists():
 
 if (R/'bench/reviews/hx05-finished-v1/release.json').exists():
  runpy.run_path(str(R/'tools/check_hx05_density.py'),run_name='__main__')
+
+if (R/'bench/reviews/hx05-light-v2/release.json').exists():
+ runpy.run_path(str(R/'tools/check_hx05_light.py'),run_name='__main__')

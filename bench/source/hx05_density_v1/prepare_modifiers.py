@@ -1,8 +1,8 @@
 """Export four nonphysical 100% masks in the locked approved print pose."""
 from pathlib import Path
-import sys, json, hashlib
+import sys, json, hashlib, os
 ROOT=Path(__file__).resolve().parents[3]
-WORK=ROOT/'.local-runtime/hx05-density-v1'
+WORK=Path(os.environ.get('HX05_BUILD_DIR',str(ROOT/'.local-runtime/hx05-density-v1')))
 sys.path[:0]=[str(Path(__file__).parent),str(ROOT/'bench/source/matched_fans_v1'),str(ROOT/'bench/source/hx05_parametric_v1')]
 import FreeCAD as A, Part, MeshPart
 import hx05_density, hx05_family, hx05_parametric

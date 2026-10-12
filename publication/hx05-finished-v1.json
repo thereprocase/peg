@@ -88,8 +88,8 @@
     "sha256": "91ddbbf70f81939fe2b23cf9b5ee86e983bac7a918da7711e5e76d7b29243ef1"
   },
   "bench/source/hx05_density_v1/SETUP_DENSITY_FANS.FCMacro": {
-    "bytes": 1960,
-    "sha256": "50a8ca50614feb877699f7dd1d9e907f919f8f317f80771141875c5e47e1d792"
+    "bytes": 1943,
+    "sha256": "87c5071dc2c3efc230d829809da7c1d744017b62ba934ac5633291da8996ccf2"
   },
   "bench/source/hx05_density_v1/build.py": {
     "bytes": 6529,
@@ -108,8 +108,8 @@
     "sha256": "4fba64e6c6e12227e235b40e7cfcbf38438a2345993c235bb37b9d7d3ea83d32"
   },
   "bench/source/hx05_density_v1/check_slice.py": {
-    "bytes": 1902,
-    "sha256": "7b27e3bf5e9326956397ff1537d30fe5b7cf75673b2a31d43d99de0653db0e2c"
+    "bytes": 2054,
+    "sha256": "655bd48e5c83d0c425effa9b98d705f0840fa7e45b6e146a3bc7818186f71115"
   },
   "bench/source/hx05_density_v1/clean_envelope.py": {
     "bytes": 3505,
@@ -144,8 +144,8 @@
     "sha256": "ba475ee394d2902dd8ea54723ecf8073ccf858a9e176e8722821a7d1b21fb840"
   },
   "bench/source/hx05_density_v1/hx05_density.py": {
-    "bytes": 11277,
-    "sha256": "0d042ee6ac48a9a9f711e5d51436c2715f10f314e790da0cfbbbefe309b7d65f"
+    "bytes": 13011,
+    "sha256": "80f839fd0786e9fc784a68945808201aaa5c23ecac85a6391bff2fba756c1eaf"
   },
   "bench/source/hx05_density_v1/mesh_caps.py": {
     "bytes": 4165,
@@ -156,12 +156,12 @@
     "sha256": "453a54a155f68dbf49f67b8f24587d84b0310d6dbc4d109f033562bc9635e0eb"
   },
   "bench/source/hx05_density_v1/package_drafted.py": {
-    "bytes": 4589,
-    "sha256": "51e626207363774721988c30e044ecb7bcd2c88a7d4d8c043c57417d262e212e"
+    "bytes": 4815,
+    "sha256": "f38bc9a33ca146232789b73c8e8a5234332c6968c9e3ce5ec49cdc18c3be0022"
   },
   "bench/source/hx05_density_v1/prepare_modifiers.py": {
-    "bytes": 3587,
-    "sha256": "ee3b9a930243803cabac3396091a8a32216066856d3465d95770d821d011e3ff"
+    "bytes": 3635,
+    "sha256": "4ad26a1f781c18578082a356d939c61e01cf9c3a63e0599a3e9b16eb91af7d97"
   },
   "bench/source/hx05_density_v1/prepare_supports.py": {
     "bytes": 2397,
@@ -172,12 +172,12 @@
     "sha256": "9bcd580c3ca5bbde1a42ce17f4c393f75404109eda8b46cf8a24296cfa74f6bf"
   },
   "bench/source/hx05_density_v1/publish_finished.py": {
-    "bytes": 12917,
-    "sha256": "70fce09857f97a0d2481a77ee3e1fad168c74a2bd43c52367ecfde955ae56747"
+    "bytes": 16024,
+    "sha256": "c8ead6ce2ed733331220d4fa966d02300e4ed6f6f0639cc2e4fe5363937d9736"
   },
   "bench/source/hx05_density_v1/render_modifier_sections.py": {
-    "bytes": 2832,
-    "sha256": "677606196da971df52c14e3ab20ca7b4445b333a452a6cd3a42497c881458a3f"
+    "bytes": 2879,
+    "sha256": "18074885b73caac2a07732e97eccade1c06963c98203aa955296e295647f9c7d"
   },
   "bench/source/hx05_density_v1/render_outside.py": {
     "bytes": 1506,
@@ -200,8 +200,8 @@
     "sha256": "07de2f468422bc3b8d265234be148466a6f476690e00ecbaac1f9fa8d9d8bfa1"
   },
   "docs/gallery/key-fan/finished/index.html": {
-    "bytes": 9068,
-    "sha256": "d8d6d1e12b07d4eae8aac6207a6b5ba19899253ab5a9d52397bbaf2190d992b6"
+    "bytes": 10012,
+    "sha256": "a225de879a2955801598f024c765ea8a08fed9b4ac2a60ae7cbac55c901f5a4b"
   },
   "tools/check_hx05_density.py": {
     "bytes": 2518,

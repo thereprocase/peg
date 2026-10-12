@@ -1,0 +1,246 @@
+{
+  "bench/reviews/hx05-light-v2/HX05A-draft-check.json": {
+    "bytes": 908,
+    "sha256": "bd14949e2cfe36b55d9282a00e9a0caf176a3a96d66191ed7b4f14a91273a008"
+  },
+  "bench/reviews/hx05-light-v2/HX05A-light-parameters.json": {
+    "bytes": 476,
+    "sha256": "52a6f76a1520bd83ca41fb03ba8bb193b9c19131cc0d1c8a0f7758871d43bed6"
+  },
+  "bench/reviews/hx05-light-v2/HX05A-modifier-check.json": {
+    "bytes": 1456,
+    "sha256": "eca57beddfc0ab79dc67abd70e9ef6d87e2550ffb3802c9598848c2a172298eb"
+  },
+  "bench/reviews/hx05-light-v2/HX05A-slice-review.json": {
+    "bytes": 1039,
+    "sha256": "7ba2cc7354b64b9fbe1d155660beffb61a40b54bb3d25f5074b041553637fd48"
+  },
+  "bench/reviews/hx05-light-v2/HX05A-step-check.json": {
+    "bytes": 772,
+    "sha256": "dd13267f3900edb9becb41d55a5e9888734571d81eb8d665c54f534de5e1a3f1"
+  },
+  "bench/reviews/hx05-light-v2/HX05A-toolpaths.json": {
+    "bytes": 2539,
+    "sha256": "d8166a6e0a80c95c50b1ca591d7ea2f17d0efe09f45c5f79942fb08d6bc5518c"
+  },
+  "bench/reviews/hx05-light-v2/HX05A-unchanged-print-mesh.json": {
+    "bytes": 146,
+    "sha256": "48428a39389cc1089abbf2667a30ca882d5e450ee52d925bbb88c8aeff95b85c"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-draft-check.json": {
+    "bytes": 923,
+    "sha256": "e7a12ef0b027c12a2acc537ef4d424a5d524ab57dead58d43e5c69c5a352a723"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-light-parameters.json": {
+    "bytes": 476,
+    "sha256": "60aa7d1abd1b991db9ba042f8cfa71bfc4d4d8237af4dc0b17419b48c4909945"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-modifier-check.json": {
+    "bytes": 1468,
+    "sha256": "f02536f2f1779bbb769ec082c44b499d30b19f9751ac0c338a8af6e181874256"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-slice-review.json": {
+    "bytes": 1040,
+    "sha256": "6c7afe0a949b284a4df62c71ef36a33a9a5857034cf4e90d261cbddca8171db4"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-step-check.json": {
+    "bytes": 771,
+    "sha256": "5a2b4a092b9b7d7631a62809c5cf3f03d79f7d109d6b7d3dd54b7100250377fa"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-toolpaths.json": {
+    "bytes": 2509,
+    "sha256": "d49c83578b2034d0c8104fad28d7fbc4149b8affd6c12f63ad37ce62325582eb"
+  },
+  "bench/reviews/hx05-light-v2/HX05B-unchanged-print-mesh.json": {
+    "bytes": 146,
+    "sha256": "0dc794ef8268210065e1b3d103ea659c9e8dc453000bb3b30c7137b67c221802"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-draft-check.json": {
+    "bytes": 938,
+    "sha256": "a887e717891d9676269bec4f1ac6f07031871917b4e560f912efb81a521f0744"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-light-parameters.json": {
+    "bytes": 476,
+    "sha256": "dd6135a716b6d6b34ee761d240e42b1b2e03db0a6f8bdf797ef5f5be06297f8e"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-modifier-check.json": {
+    "bytes": 1471,
+    "sha256": "23238e582074b5e0df26ccf509d163371607bd80e3f811f1f56a07ca5c88e858"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-slice-review.json": {
+    "bytes": 1041,
+    "sha256": "6178667aa9ee682a7d6c64a58af93e05326d5adc79d2d09501d10b20f776c347"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-step-check.json": {
+    "bytes": 771,
+    "sha256": "2e2cc834dbb748203c5b668a61a75cc69a31d5c92796b39e09962aa808b611b0"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-toolpaths.json": {
+    "bytes": 2556,
+    "sha256": "d67801bc6b65b2919d5f4b592011a73cff860b83c26c0463760e70efde715690"
+  },
+  "bench/reviews/hx05-light-v2/HX05C-unchanged-print-mesh.json": {
+    "bytes": 146,
+    "sha256": "8cc8201003fcc4499f487b0cdb2ecfe8d650c1314043d203c0bb3080c80d7d22"
+  },
+  "bench/reviews/hx05-light-v2/mesh-cap-check.json": {
+    "bytes": 31748,
+    "sha256": "730413902c470e695c5dc1fed2f0b8055a110d51f71664ee85607cce9f104033"
+  },
+  "bench/reviews/hx05-light-v2/modifier-mesh-check.json": {
+    "bytes": 1644,
+    "sha256": "ad84899cd67a45c7de6df039a643d10c28ee654c1fad39f2f87627b92cfe86a0"
+  },
+  "bench/reviews/hx05-light-v2/pinch-check.json": {
+    "bytes": 6139,
+    "sha256": "2e1212d1299e8d0a3ee9eae950a4f4fa96802ba6e60f1b7d0ecea9c38fe278a0"
+  },
+  "bench/reviews/hx05-light-v2/release.json": {
+    "bytes": 5971,
+    "sha256": "fc404e0c8583884e8ceae7bb2d7916c7fc1ee3cbfe57721de2e1147ba36863dc"
+  },
+  "bench/reviews/hx05-light-v2/tool-access-check.json": {
+    "bytes": 3583,
+    "sha256": "b9155f224a8777009e74692476b21843f7bea868c2decb2b7a8a4105993de835"
+  },
+  "bench/source/hx05_density_v1/README.md": {
+    "bytes": 2495,
+    "sha256": "35d8a8977ea4447aed43481d78e8b1b4f16861ebe84ce3fce9e4fc5aae7cfeba"
+  },
+  "bench/source/hx05_density_v1/README.txt": {
+    "bytes": 2143,
+    "sha256": "91ddbbf70f81939fe2b23cf9b5ee86e983bac7a918da7711e5e76d7b29243ef1"
+  },
+  "bench/source/hx05_density_v1/README_LIGHT.txt": {
+    "bytes": 2135,
+    "sha256": "87abd0e456c240ef47ba6f930ca5cc076f642c3b1d9212e8ce6f6e9056701330"
+  },
+  "bench/source/hx05_density_v1/SETUP_DENSITY_FANS.FCMacro": {
+    "bytes": 1943,
+    "sha256": "87c5071dc2c3efc230d829809da7c1d744017b62ba934ac5633291da8996ccf2"
+  },
+  "bench/source/hx05_density_v1/build.py": {
+    "bytes": 6529,
+    "sha256": "02ff7e07cec801668417f93ad2a02b6642a1653ae0de45a31a594e6185cc7696"
+  },
+  "bench/source/hx05_density_v1/check_edit.py": {
+    "bytes": 1645,
+    "sha256": "83974179dfab0488e86f61b3bfdc72af7d06241bbb3fde0607bc7168f986d377"
+  },
+  "bench/source/hx05_density_v1/check_final_access.py": {
+    "bytes": 2397,
+    "sha256": "91276b00aa6d97b4a3c1579f0cae9440f3e110f5347f04705fbc76755d2bc7bc"
+  },
+  "bench/source/hx05_density_v1/check_mesh_caps.py": {
+    "bytes": 1958,
+    "sha256": "4fba64e6c6e12227e235b40e7cfcbf38438a2345993c235bb37b9d7d3ea83d32"
+  },
+  "bench/source/hx05_density_v1/check_slice.py": {
+    "bytes": 2054,
+    "sha256": "655bd48e5c83d0c425effa9b98d705f0840fa7e45b6e146a3bc7818186f71115"
+  },
+  "bench/source/hx05_density_v1/clean_envelope.py": {
+    "bytes": 3505,
+    "sha256": "58b8d3b65cfb2328e76820df04b4cc1eba8e0a3d7407f8726f2a9376d8e964e2"
+  },
+  "bench/source/hx05_density_v1/diagnose_lattice.py": {
+    "bytes": 805,
+    "sha256": "205df67b5ccd5ecaa5d637ccd28dbdfa51a388a4a3922d8ed590f2649b732174"
+  },
+  "bench/source/hx05_density_v1/draft_holder.py": {
+    "bytes": 3060,
+    "sha256": "3ab666b0ddba93248d015a296884d08b94569f6a3a32d952e49a9f1922a584ce"
+  },
+  "bench/source/hx05_density_v1/export_final.py": {
+    "bytes": 2646,
+    "sha256": "6d4375aff34758bebe93573fb39bc7f6b9e7c0010d262197fd4ab940fb2d85e6"
+  },
+  "bench/source/hx05_density_v1/export_lattice.py": {
+    "bytes": 1719,
+    "sha256": "3362716b7be63170b47b903a9065812182c97cc6fb72f9a453e1fe7df063b8e2"
+  },
+  "bench/source/hx05_density_v1/export_meshes.py": {
+    "bytes": 718,
+    "sha256": "e00f264edffdc648650a6ba0110e11cc2f1f1f89bc7e518ecd554aa124086307"
+  },
+  "bench/source/hx05_density_v1/finish_cached.py": {
+    "bytes": 2856,
+    "sha256": "243dfd3374bedc0d7baf707a586450f5e9d74e464483c39aa87bebd7b8e47f38"
+  },
+  "bench/source/hx05_density_v1/genetic.py": {
+    "bytes": 7599,
+    "sha256": "ba475ee394d2902dd8ea54723ecf8073ccf858a9e176e8722821a7d1b21fb840"
+  },
+  "bench/source/hx05_density_v1/hx05_density.py": {
+    "bytes": 13011,
+    "sha256": "80f839fd0786e9fc784a68945808201aaa5c23ecac85a6391bff2fba756c1eaf"
+  },
+  "bench/source/hx05_density_v1/mesh_caps.py": {
+    "bytes": 4165,
+    "sha256": "eefee7a419d5ef9219c402d0ef80df993c82298464b826d0a95a81598a42ffef"
+  },
+  "bench/source/hx05_density_v1/package.py": {
+    "bytes": 4492,
+    "sha256": "453a54a155f68dbf49f67b8f24587d84b0310d6dbc4d109f033562bc9635e0eb"
+  },
+  "bench/source/hx05_density_v1/package_drafted.py": {
+    "bytes": 4815,
+    "sha256": "f38bc9a33ca146232789b73c8e8a5234332c6968c9e3ce5ec49cdc18c3be0022"
+  },
+  "bench/source/hx05_density_v1/prepare_modifiers.py": {
+    "bytes": 3635,
+    "sha256": "4ad26a1f781c18578082a356d939c61e01cf9c3a63e0599a3e9b16eb91af7d97"
+  },
+  "bench/source/hx05_density_v1/prepare_supports.py": {
+    "bytes": 2397,
+    "sha256": "e5d2c2fe634ab646bac6c5d4d760b0ab50706cc02033e3d76d0c73e8e7fcc6c8"
+  },
+  "bench/source/hx05_density_v1/publish.py": {
+    "bytes": 6972,
+    "sha256": "9bcd580c3ca5bbde1a42ce17f4c393f75404109eda8b46cf8a24296cfa74f6bf"
+  },
+  "bench/source/hx05_density_v1/publish_finished.py": {
+    "bytes": 16024,
+    "sha256": "c8ead6ce2ed733331220d4fa966d02300e4ed6f6f0639cc2e4fe5363937d9736"
+  },
+  "bench/source/hx05_density_v1/render_modifier_sections.py": {
+    "bytes": 2879,
+    "sha256": "18074885b73caac2a07732e97eccade1c06963c98203aa955296e295647f9c7d"
+  },
+  "bench/source/hx05_density_v1/render_outside.py": {
+    "bytes": 1506,
+    "sha256": "c07af5274918ada6a87ca04d3d3965b0f438da2f3a5978e8ebb98f4d8ef8a359"
+  },
+  "bench/source/hx05_density_v1/render_sections.py": {
+    "bytes": 2622,
+    "sha256": "c8683a1dff8dd8b08e9065e3b91e31e9735ab268245ea004b9950aa260dd4bbf"
+  },
+  "bench/source/hx05_density_v1/select_structure.py": {
+    "bytes": 4486,
+    "sha256": "85da59e6803a82a9352ffc8628b8acffd9fe731893ae1678e56e6da71e6f43a7"
+  },
+  "bench/source/hx05_density_v1/set_light_parameters.py": {
+    "bytes": 2170,
+    "sha256": "942bf21221018673105ce9417e4f4238a44d0b1fefed4762c9fb631d7be5a7bb"
+  },
+  "bench/source/hx05_density_v1/style-guide.html": {
+    "bytes": 8580,
+    "sha256": "7f8fd5cef420375fd191e91fe78394e5fc4ff4d21c461b43b66e37cd8c3db98d"
+  },
+  "bench/source/hx05_density_v1/toolpaths.py": {
+    "bytes": 5023,
+    "sha256": "07de2f468422bc3b8d265234be148466a6f476690e00ecbaac1f9fa8d9d8bfa1"
+  },
+  "docs/gallery/key-fan/finished/index.html": {
+    "bytes": 10012,
+    "sha256": "a225de879a2955801598f024c765ea8a08fed9b4ac2a60ae7cbac55c901f5a4b"
+  },
+  "tools/check_hx05_density.py": {
+    "bytes": 2518,
+    "sha256": "5bcad891d674ae02fc68c9f14967b86746fe6bb5fc9a317e8074e921bbcc540d"
+  },
+  "tools/check_hx05_light.py": {
+    "bytes": 3049,
+    "sha256": "6441777c620d4eebb5e826bbaf0f3f68188594045463ec49680809e4c48de22d"
+  }
+}

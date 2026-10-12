@@ -12,7 +12,7 @@ Align the flat shoulder at **Y = 0.15 mm** to the holder's rear plane, embed the
 
 **[Browse all 44 holder designs](https://thereprocase.github.io/peg/gallery/current-pegs/)** · [New bench designs](https://thereprocase.github.io/peg/gallery/current-pegs/?family=new) · [36-hole screwdriver remix](https://thereprocase.github.io/peg/gallery/current-pegs/#P09-36) · [Current fit / printing rules](BENCH_HOLDERS.md).
 
-[Finished Bondhus fan racks](https://thereprocase.github.io/peg/gallery/key-fan/finished/) — 13190 inch, 13189 metric and 33034 Torx, with editable FreeCAD, print STEP and Orca projects containing four 100% infill modifiers. The chosen bed face and tested socket cuts are retained; fit scope and current slice checks are on the model page.
+[Finished Bondhus fan racks](https://thereprocase.github.io/peg/gallery/key-fan/finished/) — 13190 inch, 13189 metric and 33034 Torx, with editable FreeCAD, print STEP and Orca projects containing four 100% infill modifiers. The lightweight revision slices at 503 / 463 / 317 g for inch / metric / Torx in the recorded ASA profile. The chosen bed face and tested socket cuts are retained; fit scope and current slice checks are on the model page.
 
 The original nominal anchor study is preserved below and on its [own page](https://thereprocase.github.io/peg/anchor-study/). Its movement certificates do not cover the current interference-fit connectors or complete holders. The new exports pass native solid round-trips, unchanged board-side geometry checks and sample host unions; physical fit and loads depend on the finished print and board.
 

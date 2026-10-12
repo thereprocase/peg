@@ -1,0 +1,37 @@
+{
+  "id": "HX05B",
+  "exit_code": 0,
+  "project_sha256": "a476af8b906f1b34be371acdd89dafeefc4066364587917245133dbdac49bc4a",
+  "compensation_scale": 1.0054293183189222,
+  "compensated_bounds": {
+    "x": [
+      15.61302232053086,
+      240.3869796903278
+    ],
+    "y": [
+      15.208751256786641,
+      240.79124773778403
+    ],
+    "z": [
+      0.0,
+      197.06414639050877
+    ]
+  },
+  "slicer": "OrcaSlicer 2.3.2",
+  "printer": "Bambu Lab P1S 0.4 nozzle",
+  "profile_origin": "Previously captured owner calibrated ASA profile; no profile update inferred",
+  "scope": "Private review only; no printer job submitted.",
+  "filament_shrink": "100%",
+  "sparse_infill_density": "5%",
+  "wall_loops": "3",
+  "modifier_subtype": "modifier_part",
+  "modifier_infill_percent": 100,
+  "modifier_count": 4,
+  "support_type": "normal(auto)",
+  "base_infill_percent": 5,
+  "slicer_mesh_repairs": 0,
+  "source_nominal_unscaled": true,
+  "model_print_time": "16h 27m 17s",
+  "total_estimated_print_time": "16h 33m 34s",
+  "filament_grams": 462.95
+}

@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3403,
-  "total_size_bytes": 1211012503,
+  "file_count": 3433,
+  "total_size_bytes": 1211119791,
   "files": [
     {
       "path": ".gitattributes",
@@ -78,8 +78,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 14393,
-      "sha256": "0e576a33ff230a41d44cd5f2a88e49307920813b0a3bcaf15c42d234f9a1ca33"
+      "size_bytes": 14500,
+      "sha256": "c810bd5614a7f01213b8325bfd04e95b8755a7ccff5ecaba115a23bda7d7e51e"
     },
     {
       "path": "ROUND_MOTION_STUDY.md",
@@ -2138,6 +2138,136 @@
     },
     {
       "path": "bench/reviews/hx05-finished-v1/tool-access-check.json",
+      "size_bytes": 3583,
+      "sha256": "b9155f224a8777009e74692476b21843f7bea868c2decb2b7a8a4105993de835"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-draft-check.json",
+      "size_bytes": 908,
+      "sha256": "bd14949e2cfe36b55d9282a00e9a0caf176a3a96d66191ed7b4f14a91273a008"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-light-parameters.json",
+      "size_bytes": 476,
+      "sha256": "52a6f76a1520bd83ca41fb03ba8bb193b9c19131cc0d1c8a0f7758871d43bed6"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-modifier-check.json",
+      "size_bytes": 1456,
+      "sha256": "eca57beddfc0ab79dc67abd70e9ef6d87e2550ffb3802c9598848c2a172298eb"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-slice-review.json",
+      "size_bytes": 1039,
+      "sha256": "7ba2cc7354b64b9fbe1d155660beffb61a40b54bb3d25f5074b041553637fd48"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-step-check.json",
+      "size_bytes": 772,
+      "sha256": "dd13267f3900edb9becb41d55a5e9888734571d81eb8d665c54f534de5e1a3f1"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-toolpaths.json",
+      "size_bytes": 2539,
+      "sha256": "d8166a6e0a80c95c50b1ca591d7ea2f17d0efe09f45c5f79942fb08d6bc5518c"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05A-unchanged-print-mesh.json",
+      "size_bytes": 146,
+      "sha256": "48428a39389cc1089abbf2667a30ca882d5e450ee52d925bbb88c8aeff95b85c"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-draft-check.json",
+      "size_bytes": 923,
+      "sha256": "e7a12ef0b027c12a2acc537ef4d424a5d524ab57dead58d43e5c69c5a352a723"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-light-parameters.json",
+      "size_bytes": 476,
+      "sha256": "60aa7d1abd1b991db9ba042f8cfa71bfc4d4d8237af4dc0b17419b48c4909945"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-modifier-check.json",
+      "size_bytes": 1468,
+      "sha256": "f02536f2f1779bbb769ec082c44b499d30b19f9751ac0c338a8af6e181874256"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-slice-review.json",
+      "size_bytes": 1040,
+      "sha256": "6c7afe0a949b284a4df62c71ef36a33a9a5857034cf4e90d261cbddca8171db4"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-step-check.json",
+      "size_bytes": 771,
+      "sha256": "5a2b4a092b9b7d7631a62809c5cf3f03d79f7d109d6b7d3dd54b7100250377fa"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-toolpaths.json",
+      "size_bytes": 2509,
+      "sha256": "d49c83578b2034d0c8104fad28d7fbc4149b8affd6c12f63ad37ce62325582eb"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05B-unchanged-print-mesh.json",
+      "size_bytes": 146,
+      "sha256": "0dc794ef8268210065e1b3d103ea659c9e8dc453000bb3b30c7137b67c221802"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-draft-check.json",
+      "size_bytes": 938,
+      "sha256": "a887e717891d9676269bec4f1ac6f07031871917b4e560f912efb81a521f0744"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-light-parameters.json",
+      "size_bytes": 476,
+      "sha256": "dd6135a716b6d6b34ee761d240e42b1b2e03db0a6f8bdf797ef5f5be06297f8e"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-modifier-check.json",
+      "size_bytes": 1471,
+      "sha256": "23238e582074b5e0df26ccf509d163371607bd80e3f811f1f56a07ca5c88e858"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-slice-review.json",
+      "size_bytes": 1041,
+      "sha256": "6178667aa9ee682a7d6c64a58af93e05326d5adc79d2d09501d10b20f776c347"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-step-check.json",
+      "size_bytes": 771,
+      "sha256": "2e2cc834dbb748203c5b668a61a75cc69a31d5c92796b39e09962aa808b611b0"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-toolpaths.json",
+      "size_bytes": 2556,
+      "sha256": "d67801bc6b65b2919d5f4b592011a73cff860b83c26c0463760e70efde715690"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/HX05C-unchanged-print-mesh.json",
+      "size_bytes": 146,
+      "sha256": "8cc8201003fcc4499f487b0cdb2ecfe8d650c1314043d203c0bb3080c80d7d22"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/mesh-cap-check.json",
+      "size_bytes": 31748,
+      "sha256": "730413902c470e695c5dc1fed2f0b8055a110d51f71664ee85607cce9f104033"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/modifier-mesh-check.json",
+      "size_bytes": 1644,
+      "sha256": "ad84899cd67a45c7de6df039a643d10c28ee654c1fad39f2f87627b92cfe86a0"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/pinch-check.json",
+      "size_bytes": 6139,
+      "sha256": "2e1212d1299e8d0a3ee9eae950a4f4fa96802ba6e60f1b7d0ecea9c38fe278a0"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/release.json",
+      "size_bytes": 5971,
+      "sha256": "fc404e0c8583884e8ceae7bb2d7916c7fc1ee3cbfe57721de2e1147ba36863dc"
+    },
+    {
+      "path": "bench/reviews/hx05-light-v2/tool-access-check.json",
       "size_bytes": 3583,
       "sha256": "b9155f224a8777009e74692476b21843f7bea868c2decb2b7a8a4105993de835"
     },
@@ -4477,9 +4607,14 @@
       "sha256": "91ddbbf70f81939fe2b23cf9b5ee86e983bac7a918da7711e5e76d7b29243ef1"
     },
     {
+      "path": "bench/source/hx05_density_v1/README_LIGHT.txt",
+      "size_bytes": 2135,
+      "sha256": "87abd0e456c240ef47ba6f930ca5cc076f642c3b1d9212e8ce6f6e9056701330"
+    },
+    {
       "path": "bench/source/hx05_density_v1/SETUP_DENSITY_FANS.FCMacro",
-      "size_bytes": 1960,
-      "sha256": "50a8ca50614feb877699f7dd1d9e907f919f8f317f80771141875c5e47e1d792"
+      "size_bytes": 1943,
+      "sha256": "87c5071dc2c3efc230d829809da7c1d744017b62ba934ac5633291da8996ccf2"
     },
     {
       "path": "bench/source/hx05_density_v1/build.py",
@@ -4503,8 +4638,8 @@
     },
     {
       "path": "bench/source/hx05_density_v1/check_slice.py",
-      "size_bytes": 1902,
-      "sha256": "7b27e3bf5e9326956397ff1537d30fe5b7cf75673b2a31d43d99de0653db0e2c"
+      "size_bytes": 2054,
+      "sha256": "655bd48e5c83d0c425effa9b98d705f0840fa7e45b6e146a3bc7818186f71115"
     },
     {
       "path": "bench/source/hx05_density_v1/clean_envelope.py",
@@ -4548,8 +4683,8 @@
     },
     {
       "path": "bench/source/hx05_density_v1/hx05_density.py",
-      "size_bytes": 11277,
-      "sha256": "0d042ee6ac48a9a9f711e5d51436c2715f10f314e790da0cfbbbefe309b7d65f"
+      "size_bytes": 13011,
+      "sha256": "80f839fd0786e9fc784a68945808201aaa5c23ecac85a6391bff2fba756c1eaf"
     },
     {
       "path": "bench/source/hx05_density_v1/mesh_caps.py",
@@ -4563,13 +4698,13 @@
     },
     {
       "path": "bench/source/hx05_density_v1/package_drafted.py",
-      "size_bytes": 4589,
-      "sha256": "51e626207363774721988c30e044ecb7bcd2c88a7d4d8c043c57417d262e212e"
+      "size_bytes": 4815,
+      "sha256": "f38bc9a33ca146232789b73c8e8a5234332c6968c9e3ce5ec49cdc18c3be0022"
     },
     {
       "path": "bench/source/hx05_density_v1/prepare_modifiers.py",
-      "size_bytes": 3587,
-      "sha256": "ee3b9a930243803cabac3396091a8a32216066856d3465d95770d821d011e3ff"
+      "size_bytes": 3635,
+      "sha256": "4ad26a1f781c18578082a356d939c61e01cf9c3a63e0599a3e9b16eb91af7d97"
     },
     {
       "path": "bench/source/hx05_density_v1/prepare_supports.py",
@@ -4583,13 +4718,13 @@
     },
     {
       "path": "bench/source/hx05_density_v1/publish_finished.py",
-      "size_bytes": 12917,
-      "sha256": "70fce09857f97a0d2481a77ee3e1fad168c74a2bd43c52367ecfde955ae56747"
+      "size_bytes": 16024,
+      "sha256": "c8ead6ce2ed733331220d4fa966d02300e4ed6f6f0639cc2e4fe5363937d9736"
     },
     {
       "path": "bench/source/hx05_density_v1/render_modifier_sections.py",
-      "size_bytes": 2832,
-      "sha256": "677606196da971df52c14e3ab20ca7b4445b333a452a6cd3a42497c881458a3f"
+      "size_bytes": 2879,
+      "sha256": "18074885b73caac2a07732e97eccade1c06963c98203aa955296e295647f9c7d"
     },
     {
       "path": "bench/source/hx05_density_v1/render_outside.py",
@@ -4605,6 +4740,11 @@
       "path": "bench/source/hx05_density_v1/select_structure.py",
       "size_bytes": 4486,
       "sha256": "85da59e6803a82a9352ffc8628b8acffd9fe731893ae1678e56e6da71e6f43a7"
+    },
+    {
+      "path": "bench/source/hx05_density_v1/set_light_parameters.py",
+      "size_bytes": 2170,
+      "sha256": "942bf21221018673105ce9417e4f4238a44d0b1fefed4762c9fb631d7be5a7bb"
     },
     {
       "path": "bench/source/hx05_density_v1/style-guide.html",
@@ -11118,8 +11258,8 @@
     },
     {
       "path": "docs/gallery/key-fan/finished/index.html",
-      "size_bytes": 9068,
-      "sha256": "d8d6d1e12b07d4eae8aac6207a6b5ba19899253ab5a9d52397bbaf2190d992b6"
+      "size_bytes": 10012,
+      "sha256": "a225de879a2955801598f024c765ea8a08fed9b4ac2a60ae7cbac55c901f5a4b"
     },
     {
       "path": "docs/gallery/key-fan/fit-requested-3-5/HX04-fit-v6__3mm-5mm__fan-angle__print.stl",
@@ -13378,8 +13518,8 @@
     },
     {
       "path": "docs/gallery/release-downloads.js",
-      "size_bytes": 150695,
-      "sha256": "83d6e0e602c4dddffb724a62b9997e43c3a18b76321ea4729f42a06b883275b7"
+      "size_bytes": 154723,
+      "sha256": "3b602b0a24d43fbe95197945b49fa80bcd03ae7e930b4dcd26e50b26edbd21e7"
     },
     {
       "path": "docs/gallery/research.html",
@@ -16203,8 +16343,8 @@
     },
     {
       "path": "publication/README.md",
-      "size_bytes": 12560,
-      "sha256": "824cdbcdba24132e7245a1e89a261e2ab5db47677c926dae3294bc537199ece3"
+      "size_bytes": 13342,
+      "sha256": "041208605a504a0fd8ed9be4cc627cf79d131dfa68b972d6ad73bf815f4ce670"
     },
     {
       "path": "publication/add_cascade_to_collection.py",
@@ -16313,8 +16453,13 @@
     },
     {
       "path": "publication/hx05-finished-v1.json",
-      "size_bytes": 8331,
-      "sha256": "1ed49a26b5fcb972b806325a0b99c391596a2412d03a9bc7d21578ecc29d2d4e"
+      "size_bytes": 8332,
+      "sha256": "ce4c196938876438dbe2b6a3c7759b349949cda17dbaf62bda6f27b026ea41c9"
+    },
+    {
+      "path": "publication/hx05-light-v2.json",
+      "size_bytes": 9749,
+      "sha256": "69d9a2d1973b41c51af7bf4a938cda88c69b1ed4d5dc80d351820d1281f18c31"
     },
     {
       "path": "publication/hx05-parametric-v1.json",
@@ -16443,13 +16588,13 @@
     },
     {
       "path": "publication/release-assets.json",
-      "size_bytes": 107871,
-      "sha256": "848a547006a90deb994e36cd313cafa91cf5512664ade5393eeca6f3ceaead68"
+      "size_bytes": 111483,
+      "sha256": "109979848a01d869b1dd3e795412373fcf5426c3f1e9a89ed02e47afbc1f7dd6"
     },
     {
       "path": "publication/release-downloads.json",
-      "size_bytes": 152742,
-      "sha256": "db38d596c77b10b23bf34082c766e6609b9c4287001b7b86cb51ce714c360de7"
+      "size_bytes": 156870,
+      "sha256": "04b323e29ff2abfba23a948ed5bd428c3a9fdad636a89296687d8abbbdc35e8e"
     },
     {
       "path": "publication/render_final_racks.cjs",
@@ -16748,13 +16893,18 @@
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 6048,
-      "sha256": "ae1148034615e48a10ee8abdf857c3b646c352b88e2aa16d13c0bce8c458bad2"
+      "size_bytes": 6181,
+      "sha256": "0bc29678655c73221f3a04535af70a00bfb3934ce06398d231e3aace3620e2c7"
     },
     {
       "path": "tools/check_hx05_density.py",
       "size_bytes": 2518,
       "sha256": "5bcad891d674ae02fc68c9f14967b86746fe6bb5fc9a317e8074e921bbcc540d"
+    },
+    {
+      "path": "tools/check_hx05_light.py",
+      "size_bytes": 3049,
+      "sha256": "6441777c620d4eebb5e826bbaf0f3f68188594045463ec49680809e4c48de22d"
     },
     {
       "path": "tools/check_key_fan.py",

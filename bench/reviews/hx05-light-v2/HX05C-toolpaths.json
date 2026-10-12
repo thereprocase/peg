@@ -1,0 +1,94 @@
+{
+  "id": "HX05C",
+  "bed_centerline_screen_passed": true,
+  "gcode_sha256": "1d80ab86c2b897bce6c521687318d5b88c5924f0236565679fd56a95d9898286",
+  "features": {
+    "Support": {
+      "moves": 8994,
+      "filament_mm": 731.7666499999837,
+      "maximum_path_length_mm": 15.386000000000003
+    },
+    "Brim": {
+      "moves": 1041,
+      "filament_mm": 96.76801999999984,
+      "maximum_path_length_mm": 59.89768250107846
+    },
+    "Inner wall": {
+      "moves": 341135,
+      "filament_mm": 53293.170999997674,
+      "maximum_path_length_mm": 252.67046612138904
+    },
+    "Outer wall": {
+      "moves": 193481,
+      "filament_mm": 24810.93517000064,
+      "maximum_path_length_mm": 253.4970739495823
+    },
+    "Bottom surface": {
+      "moves": 1112,
+      "filament_mm": 549.8729600000029,
+      "maximum_path_length_mm": 49.76193261922208
+    },
+    "Internal solid infill": {
+      "moves": 776350,
+      "filament_mm": 87254.62021000638,
+      "maximum_path_length_mm": 251.3637327897563
+    },
+    "Sparse infill": {
+      "moves": 265681,
+      "filament_mm": 32645.555849986875,
+      "maximum_path_length_mm": 22.725444391204967
+    },
+    "Support interface": {
+      "moves": 1963,
+      "filament_mm": 109.03861999999953,
+      "maximum_path_length_mm": 11.508
+    },
+    "Overhang wall": {
+      "moves": 2924,
+      "filament_mm": 81.01379999999955,
+      "maximum_path_length_mm": 4.2367299890363475
+    },
+    "Top surface": {
+      "moves": 4825,
+      "filament_mm": 570.1892400000012,
+      "maximum_path_length_mm": 253.2715068853976
+    },
+    "Internal Bridge": {
+      "moves": 19655,
+      "filament_mm": 4812.121490000175,
+      "maximum_path_length_mm": 46.562454080514264
+    },
+    "Bridge": {
+      "moves": 1329,
+      "filament_mm": 54.21179,
+      "maximum_path_length_mm": 5.934466530363127
+    }
+  },
+  "parsed_arc_moves": 218016,
+  "extrusion_centerline_bounds_mm": [
+    [
+      19.61,
+      16.217,
+      0.2
+    ],
+    [
+      234.432,
+      232.948,
+      217.2
+    ]
+  ],
+  "support_moves_entering_socket_core": {
+    "9/64": 0,
+    "5/32": 0,
+    "3/16": 0,
+    "7/32": 0,
+    "1/4": 0,
+    "5/16": 0,
+    "3/8": 0,
+    "3/32": 0,
+    "7/64": 0,
+    "1/8": 0
+  },
+  "socket_core_screen_passed": true,
+  "scope": "Actual extrusion centerlines. Support IJ arcs and lines sampled at <=0.2 mm; other arc bounds include analytical axis extrema. Socket core excludes 0.30 mm at walls and 0.50 mm at guide ends; lead-ins and vents excluded. No bead-volume, contact, support removal or physical print certification."
+}

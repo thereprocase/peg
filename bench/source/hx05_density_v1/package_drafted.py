@@ -1,22 +1,24 @@
 """Geometry REVIEW projects: fixed bed pose, four separate solid-infill masks."""
 from pathlib import Path
-import json, zipfile, hashlib
+import json, zipfile, hashlib, os
 import xml.etree.ElementTree as E
 import trimesh
-ROOT=Path(__file__).resolve().parents[3];WORK=ROOT/'.local-runtime/hx05-density-v1'
+ROOT=Path(__file__).resolve().parents[3];WORK=Path(os.environ.get('HX05_BUILD_DIR',str(ROOT/'.local-runtime/hx05-density-v1')))
 NS='http://schemas.microsoft.com/3dmanufacturing/core/2015/02'
 E.register_namespace('',NS)
 def tag(name):return '{'+NS+'}'+name
 def metadata(parent,key,value):E.SubElement(parent,'metadata',key=key,value=str(value))
 receipts=[]
 for ident,number in [('HX05C','13190'),('HX05B','13189'),('HX05A','33034')]:
+ if os.environ.get('HX05_MODEL') and ident!=os.environ['HX05_MODEL']:continue
  out=WORK/ident;check=json.loads((out/'modifiers-check.json').read_text());assert check['passed'] and check['print_rotation_unchanged'] and check['body_shape_unchanged']
  names=['print-drafted-body-closed.stl']+[f'print-modifier-{role}.stl' for role in ['foundation','mounts','sockets','ribs']]+['print-drafted-support-blocker.stl']
  model=E.Element(tag('model'),unit='millimeter');resources=E.SubElement(model,tag('resources'))
  config=E.Element('config');settings=E.SubElement(config,'object',id='7')
  metadata(settings,'name',f'{ident} Bondhus {number} — finished v1')
- for key,value in [('extruder',1),('sparse_infill_density','12%'),('sparse_infill_pattern','gyroid'),('wall_loops',4),('enable_support',1)]:metadata(settings,key,value)
- if ident=='HX05C':
+ light=(out/'light-parameters.json').exists();bulk=5 if light else 12
+ for key,value in [('extruder',1),('sparse_infill_density',f'{bulk}%'),('sparse_infill_pattern','gyroid'),('wall_loops',3 if light else 4),('enable_support',1)]:metadata(settings,key,value)
+ if ident=='HX05C' or light:
   metadata(settings,'support_type','normal(auto)');metadata(settings,'support_style','grid')
  for i,name in enumerate(names,1):
   mesh=trimesh.load(out/name,force='mesh',process=True);assert mesh.is_watertight and mesh.is_volume,(ident,name)

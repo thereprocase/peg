@@ -15,11 +15,11 @@ for name in ('hx05_parametric','hx05_family','hx05_density'):
  old=sys.modules.get(name)
  if old and Path(old.__file__).resolve()!=(module_dir/(name+'.py')).resolve():del sys.modules[name]
  modules[name]=importlib.import_module(name)
-for path in sorted(set(bundle.glob('HX05*_density_v1.FCStd'))|set(bundle.glob('HX05*_finished_v1.FCStd'))):
+for path in sorted(bundle.glob('HX05*.FCStd')):
  doc=App.openDocument(str(path))
  visible='DraftedHolder' if doc.getObject('DraftedHolder') else ('StructuralHolder' if doc.getObject('StructuralHolder') else 'FinalHolder')
  for obj in doc.Objects:
-  if hasattr(obj,'DensityRole'):modules['hx05_density'].DensityZone(obj)
+  if hasattr(obj,'DensityRole') and not getattr(obj,'FrozenHistory',False):modules['hx05_density'].DensityZone(obj)
   if hasattr(obj,'Shape') and obj.ViewObject:
    obj.ViewObject.Visibility=obj.Name==visible
  App.setActiveDocument(doc.Name);Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()

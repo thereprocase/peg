@@ -1,0 +1,165 @@
+{
+  "release": "hx05-light-v2-2026-10-12",
+  "assets": {
+    "HX05C_13190_light_v2.FCStd": {
+      "bytes": 21122379,
+      "sha256": "bdcaac1d49e9da9ed192703de735aa4f29d5f153f93d4e8b472d31285bf13a9a"
+    },
+    "HX05C_13190_light_v2_tip_down.step": {
+      "bytes": 4472702,
+      "sha256": "aaf0083b309170b251ab1133db2a9303432366650d6b144e4cbfe15a4d45bfe6"
+    },
+    "HX05C_13190_light_v2_tip_down.3mf": {
+      "bytes": 2366587,
+      "sha256": "bf859ee3753e7d05452229657222183e672bd320f0602e70cc8b80284c13a3bf"
+    },
+    "HX05C-light-v2-hero.jpg": {
+      "bytes": 20995,
+      "sha256": "d3a5451daf099055de6be166bd28d0b7ee8a30d3b164b940162d159c49388e38"
+    },
+    "HX05C-light-v2-front.jpg": {
+      "bytes": 15345,
+      "sha256": "d8bc4b6121d706b912dd6597358faedd4ed23b0ee71e4f5dadc29c903febd078"
+    },
+    "HX05C-light-v2-plan.jpg": {
+      "bytes": 10274,
+      "sha256": "ffffb87acbdb6fa3bdccc8d85d0dcb3973f9c909bc2aa17a94f9a230081883cd"
+    },
+    "HX05C-light-v2-print-hero.jpg": {
+      "bytes": 19974,
+      "sha256": "32b5c7a068240d1965aced1f8ff5cbc5b21da14d62b3201c14e832c34af818a3"
+    },
+    "HX05B_13189_light_v2.FCStd": {
+      "bytes": 14072677,
+      "sha256": "712a1876c587be3a27e8690544b8de5c41aa36213f8665e7eff5f18377bc6928"
+    },
+    "HX05B_13189_light_v2_tip_down.step": {
+      "bytes": 2382663,
+      "sha256": "7d9dc94c40e951c6835757c730cf9c232442c1a076ff779fa6b3e559f7c81662"
+    },
+    "HX05B_13189_light_v2_tip_down.3mf": {
+      "bytes": 1835770,
+      "sha256": "a476af8b906f1b34be371acdd89dafeefc4066364587917245133dbdac49bc4a"
+    },
+    "HX05B-light-v2-hero.jpg": {
+      "bytes": 18686,
+      "sha256": "c7c1ab9f96dbfeb403cbacd6ccdb7e715b207bd829e3d727d96302e7b6c1812d"
+    },
+    "HX05B-light-v2-front.jpg": {
+      "bytes": 13676,
+      "sha256": "d54eb066fa6649a45b10dc04d957593452dffe1922560688b8dd0b634bd15040"
+    },
+    "HX05B-light-v2-plan.jpg": {
+      "bytes": 9605,
+      "sha256": "c0553f78213c1afbaa2e6fc0cae178e9a5d9660bee60415f420a9576fb881167"
+    },
+    "HX05B-light-v2-print-hero.jpg": {
+      "bytes": 18028,
+      "sha256": "db9f086679f1051fc3dd6f4b07ef7c2cbc633dc17b5b9a65e8ff7c91d2e5c2a7"
+    },
+    "HX05A_33034_light_v2.FCStd": {
+      "bytes": 12038236,
+      "sha256": "c8f67fa74ba81760357cc90fb2d1e35bc5fa1172821fa2776629c05b8b290c9f"
+    },
+    "HX05A_33034_light_v2_tip_down.step": {
+      "bytes": 2510376,
+      "sha256": "acc2cce46302e8996df6d436d741572f57d74c3b7ddc44339e05e13a71fe0d4f"
+    },
+    "HX05A_33034_light_v2_tip_down.3mf": {
+      "bytes": 1818633,
+      "sha256": "e936792a55c95b9d265c5afffdaf479ad301fafd67bde6657596540aab04c438"
+    },
+    "HX05A-light-v2-hero.jpg": {
+      "bytes": 17925,
+      "sha256": "3f3f6f76cc6b0ddb3dfa57ae0d626cad0def3eb312a4dcf30760010a648fb20a"
+    },
+    "HX05A-light-v2-front.jpg": {
+      "bytes": 13661,
+      "sha256": "e4448777dd0c823aac0241b62806b17720395452b4d14312b0f8e7b1115c463e"
+    },
+    "HX05A-light-v2-plan.jpg": {
+      "bytes": 9775,
+      "sha256": "21c803929ef4156e82f60a2b87714204f128e33f50cc5cde2a021b3815397965"
+    },
+    "HX05A-light-v2-print-hero.jpg": {
+      "bytes": 17617,
+      "sha256": "e121ef2d7ca875cceb7acc46078f4fa36240554f237297d90e7d8436ff13c017"
+    },
+    "HX05_light_v2_fixed-pose-modifier-sections.png": {
+      "bytes": 114320,
+      "sha256": "b1c3badd2c55eafc5d45b033ee01b017f4e05f7a91c9cf3803a208c77169caa6"
+    },
+    "HX05_light_v2_fixed-pose-modifier-sections.svg": {
+      "bytes": 401814,
+      "sha256": "38b792d37d3d975eebc050ec65a0714cf147231bf422e544ee923a4197854e59"
+    },
+    "HX05_light_v2_style-guide.html": {
+      "bytes": 8580,
+      "sha256": "7f8fd5cef420375fd191e91fe78394e5fc4ff4d21c461b43b66e37cd8c3db98d"
+    },
+    "HX05_light_v2_native_STEP_Orca_bundle.zip": {
+      "bytes": 56620958,
+      "sha256": "1ff490b3519e20bec1a38d2be1051065bf20edea17f124348d286b8675e2b08f"
+    }
+  },
+  "models": [
+    {
+      "id": "HX05C",
+      "set": "13190",
+      "label": "Inch",
+      "native": "HX05C_13190_light_v2.FCStd",
+      "project": "HX05C_13190_light_v2_tip_down.3mf",
+      "step": "HX05C_13190_light_v2_tip_down.step",
+      "print_dimensions_mm": [
+        212.16148147698698,
+        213.20724778273978,
+        216.00000000000006
+      ],
+      "nominal_edge_margin_mm": 21.396376108630108,
+      "maximum_uncut_housing_overhang_deg": 29.979963740612423,
+      "modifier_count": 4,
+      "modifier_infill_percent": 100,
+      "total_estimated_print_time": "18h 20m 31s",
+      "filament_grams": 503.04
+    },
+    {
+      "id": "HX05B",
+      "set": "13189",
+      "label": "Metric",
+      "native": "HX05B_13189_light_v2.FCStd",
+      "project": "HX05B_13189_light_v2_tip_down.3mf",
+      "step": "HX05B_13189_light_v2_tip_down.step",
+      "print_dimensions_mm": [
+        219.56017563616905,
+        220.3643510502349,
+        196.0
+      ],
+      "nominal_edge_margin_mm": 17.817824474882542,
+      "maximum_uncut_housing_overhang_deg": 29.999181737109136,
+      "modifier_count": 4,
+      "modifier_infill_percent": 100,
+      "total_estimated_print_time": "16h 33m 34s",
+      "filament_grams": 462.95
+    },
+    {
+      "id": "HX05A",
+      "set": "33034",
+      "label": "Torx",
+      "native": "HX05A_33034_light_v2.FCStd",
+      "project": "HX05A_33034_light_v2_tip_down.3mf",
+      "step": "HX05A_33034_light_v2_tip_down.step",
+      "print_dimensions_mm": [
+        183.20963680089952,
+        190.92019387040756,
+        148.0
+      ],
+      "nominal_edge_margin_mm": 32.5399030647962,
+      "maximum_uncut_housing_overhang_deg": 29.999181737109136,
+      "modifier_count": 4,
+      "modifier_infill_percent": 100,
+      "total_estimated_print_time": "11h 40m 45s",
+      "filament_grams": 316.98
+    }
+  ],
+  "scope": "Owner-selected finished outside geometry, unchanged tested cutters and fixed bed pose. Four independent 100% infill modifiers. STEP round trips and owner-profile Orca slices/screens; physical fits, support removal and loads remain separate."
+}
