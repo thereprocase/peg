@@ -37,6 +37,15 @@ def rounded_wire(cx, cy, width, depth, radius, z):
     return Part.Wire(edges)
 
 
+def frame_wire(width, back, front, z):
+    """One outer outline: straight rear/side joins and tangent R5 front corners."""
+    x=width/2; r=5; q=r/math.sqrt(2)
+    a,b,c,d,e,f=[V(*p,z) for p in [(-x,back),(x,back),(x,front-r),(x-r,front),(-x+r,front),(-x,front-r)]]
+    return Part.Wire([Part.makeLine(a,b),Part.makeLine(b,c),
+        Part.Arc(c,V(x-r+q,front-r+q,z),d).toShape(),Part.makeLine(d,e),
+        Part.Arc(e,V(-x+r-q,front-r+q,z),f).toShape(),Part.makeLine(f,a)])
+
+
 def profile(cx, cy, sections):
     wires = [rounded_wire(cx,cy,w,w,r,z) for z,w,r in sections]
     return Part.makeLoft(wires,True,True)
@@ -94,12 +103,14 @@ def generate(values, out):
         MeshPart.meshFromShape(Shape=peg, LinearDeflection=.005, AngularDeflection=.087,
                               Relative=False).write(str(out / (name + '.stl')))
     pieces, pockets, feet, pegs = [], [], [], []
+    front=p['front_y']; frame_width=p['frame_width']
+    pieces.append(tilt(Part.Face(frame_wire(frame_width,5.55,front,.72)).extrude(V(0,0,5))))
+    front_mask=tilt(Part.Face(frame_wire(frame_width,-1000,front,-1000)).extrude(V(0,0,2000)))
     c = p['clearance']
     for j in range(p['rows']):
         y = CY + 42*j
         for i in range(p['columns']):
             x = (i - (p['columns']-1)/2)*42
-            pieces.append(tilt(Part.Face(rounded_wire(x,y,46,46,5,.72)).extrude(V(0,0,5))))
             sections = [(-1,36.5,1.25),(1.42,36.5,1.25),(2.12,37.9,1.95),
                         (3.92,37.9,1.95),(6.07,42.2,4.1),(7.6,42.2,4.1)]
             pocket = profile(x,y,[(z,w+2*c,r+c) for z,w,r in sections])
@@ -110,15 +121,15 @@ def generate(values, out):
                                     (3.57,37.2,1.6),(TOP,41.5,3.75)])))
     width, front = p['mount_width'], p['front_y']
     pieces.append(Part.makeBox(p['frame_width'],5.4,hinge+1-.72,V(-p['frame_width']/2,.15,.72)))
-    # Continuous front beam. The rings provide the outer rounded end caps.
+    # Continuous front beam, clipped to the tangent outer frame corners.
     if p['columns'] > 1 or p['beam'] > 5:
         pieces.append(tilt(Part.makeBox(42*p['columns'],2.4,p['beam'],
-                                  V(-21*p['columns'],front-2.4,TOP-p['beam']))))
+                                  V(-21*p['columns'],front-2.4,TOP-p['beam']))).common(front_mask))
     roots=[]
     for x in p['mount_columns']:
         pieces.append(Part.makeBox(10,5.4,hinge+1+29.68,V(x-5,.15,-29.68)))
         pieces.append(C.K.poly_prism([(5,-27.5),tilted_point(front,TOP-p['beam']),tilted_point(front,TOP-1),(5,hinge+tangent*4.85-3.12)],
-                                     'x',x-p['web']/2,x+p['web']/2))
+                                     'x',x-p['web']/2,x+p['web']/2).common(front_mask))
         for peg,z in [(upper,0),(lower,-25.4)]:
             q=peg.copy();q.translate(V(x,0,z));pegs.append(q);pieces.append(q)
     shape=pieces[0].multiFuse(pieces[1:]).removeSplitter()
@@ -152,12 +163,26 @@ def generate(values, out):
     foot_overlap=Part.makeCompound(feet).common(shape).Volume
     if c >= 0:
         assert foot_overlap < 1e-6, ('reference foot overlap',foot_overlap)
+    core_depth=min(1.9,2.05-c)  # largest clearance consumes 0.05 mm of the top rim
+    core=tilt(Part.makeBox(p['mount_columns'][-1]-p['mount_columns'][0],core_depth,p['beam'],
+            V(p['mount_columns'][0],front-core_depth,TOP-p['beam'])))
+    core_missing=core.cut(shape).Volume
+    assert core_missing < 1e-6, ('front beam continuity',core_missing)
+    lift_max=0.0
+    if c >= 0:
+        a=math.radians(angle)
+        for foot in feet:
+            for lift in [i*.5 for i in range(13)]:
+                moved=foot.copy();moved.translate(V(0,-math.sin(a)*lift,math.cos(a)*lift))
+                overlap=moved.common(shape).Volume;lift_max=max(lift_max,overlap)
+                assert overlap < 1e-6, ('lift collision',lift,overlap)
     posed=shape.copy();posed.rotate(V(0,0,0),V(1,0,0),180-angle)
     posed.translate(V(0,0,-posed.BoundBox.ZMin))
     record=export(posed,'shelf-print',out)
     shape.exportStep(str(out/'shelf-installed.step'))
     record.update(parameters=p,hinge_z_mm=hinge,board_side_difference_mm3=delta,root_checks=roots,
-                  reference_feet_overlap_mm3=foot_overlap,
+                  reference_feet_overlap_mm3=foot_overlap,front_core_missing_mm3=core_missing,front_core_depth_mm=core_depth,
+                  lift_poses_per_cell=13 if c>=0 else 0,lift_max_overlap_mm3=lift_max,
                   print_bed_xy_mm=[posed.BoundBox.XLength,posed.BoundBox.YLength],
                   status='Generated geometry; slice and physical fit/load checks required')
     (out/'CHECKS.json').write_text(json.dumps(record,indent=2)+'\n')

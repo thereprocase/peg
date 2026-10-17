@@ -1,0 +1,77 @@
+{
+  "native_valid": true,
+  "native_solids": 1,
+  "volume_mm3": 27921.273369657207,
+  "step_roundtrip_difference_mm3": 0.0,
+  "bounds_mm": [
+    [
+      -86.0,
+      -51.55,
+      2.398081733190338e-14
+    ],
+    [
+      86.0,
+      10.790000000000003,
+      35.40000000000003
+    ]
+  ],
+  "parameters": {
+    "columns": 4,
+    "rows": 1,
+    "clearance": 0.0,
+    "web": 2.4,
+    "beam": 10.0,
+    "angle": 0.0,
+    "frame_width": 172,
+    "mount_width": 175.79999999999998,
+    "mount_columns": [
+      -76.19999999999999,
+      0.0,
+      76.19999999999999
+    ],
+    "front_y": 51.55
+  },
+  "hinge_z_mm": 5.720000000000001,
+  "board_side_difference_mm3": 0.0,
+  "root_checks": [
+    {
+      "x": -76.19999999999999,
+      "z": 0.12,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": -76.19999999999999,
+      "z": -25.28,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 0.0,
+      "z": 0.12,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 0.0,
+      "z": -25.28,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 76.19999999999999,
+      "z": 0.12,
+      "missing_mm3": 0.0
+    },
+    {
+      "x": 76.19999999999999,
+      "z": -25.28,
+      "missing_mm3": 0.0
+    }
+  ],
+  "reference_feet_overlap_mm3": 0.0,
+  "front_core_missing_mm3": 0.0,
+  "lift_poses_per_cell": 13,
+  "lift_max_overlap_mm3": 0.0,
+  "print_bed_xy_mm": [
+    172.0,
+    62.34
+  ],
+  "status": "Generated geometry; slice and physical fit/load checks required"
+}

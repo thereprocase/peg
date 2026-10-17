@@ -1,0 +1,1 @@
+{"title": "2 \u00d7 2 shelf: continuous outer frame", "subtitle": "Straight cell seams and tangent R5 front corners", "caption": "Actual native CAD; bin seats unchanged", "camera": {"yaw": 0, "pitch": 1.56, "zoom": 0.9}, "parts": [{"mesh": "22/shelf-print.stl", "color": [0.36, 0.64, 0.69], "transform": [[1, 0, 0, 0], [0, 0, 1, -5.72], [0, -1, 0, 0], [0, 0, 0, 1]]}]}

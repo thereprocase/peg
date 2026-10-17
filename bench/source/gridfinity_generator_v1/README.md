@@ -67,3 +67,15 @@ Friction, snap recovery, straight-up and forward bin removal, printing anisotrop
 creep and loaded installation remain physical checks. The original nominal
 host-envelope containment screen is retained; it is not a motion proof for the
 current interference-fit connectors or every completed array.
+
+## Continuous frame revision
+
+The outer frame is a single outline with straight rear/side joins and R5 tangent
+front corners. Cell pockets are subtracted from that outline, so cell seams do
+not create V-notches outside. The front beam and webs share the same outer trim.
+Seat profiles, internal ribs and fixed connectors retain their existing datums.
+
+The native checks include the front beam core between outer mounting columns
+and 13 lift positions per cell for nonnegative clearance. The checked core
+thickness is min(1.9, 2.05 − clearance) mm, accounting for the 1.85 mm top rim at
+maximum +0.20 clearance. These are digital geometry checks, not a load rating.
