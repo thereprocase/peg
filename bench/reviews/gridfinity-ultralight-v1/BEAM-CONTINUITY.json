@@ -1,0 +1,17 @@
+{
+  "bounds_mm": [
+    [
+      -38.1,
+      49.65,
+      -4.28
+    ],
+    [
+      38.1,
+      51.55,
+      5.72
+    ]
+  ],
+  "expected_core_volume_mm3": 1447.7999999999988,
+  "missing_volume_mm3": 0.0,
+  "pass": true
+}

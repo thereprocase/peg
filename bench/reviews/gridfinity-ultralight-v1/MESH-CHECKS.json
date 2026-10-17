@@ -1,0 +1,64 @@
+[
+  {
+    "file": "GF11-v1-seat-fit-ring-print-inverted.stl",
+    "triangles": 3440,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 3164.965235578677,
+    "bed_z_min": 3.6415315207705135e-14,
+    "sha256": "f2af80f55e9ecf1adff3ccfa9cdccf091ce67ac1a1a600102cabcc639831cd05",
+    "geometry_only_3mf": "GF11-v1-seat-fit-ring-print-inverted.3mf"
+  },
+  {
+    "file": "GF11-v1-shelf-pf02c9-hoop5-installed.stl",
+    "triangles": 24488,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 11108.181588263998,
+    "sha256": "bf122e76959e13ce1fc59e713ddee9b509b63b07dfebac419143fe935e71a8d6"
+  },
+  {
+    "file": "GF11-v1-shelf-pf02c9-hoop5-print-inverted.stl",
+    "triangles": 24488,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 11108.1818471328,
+    "bed_z_min": 8.881784197001252e-16,
+    "sha256": "d8cb4cb40241af6490bc5104e700b9982e13cfe55c75d438a486888cbfe67527",
+    "geometry_only_3mf": "GF11-v1-shelf-pf02c9-hoop5-print-inverted.3mf"
+  },
+  {
+    "file": "GF11-v1-shelf-pf02c9-hoop5-reference-bin.stl",
+    "triangles": 3420,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 16049.341750316007,
+    "sha256": "f4e2a333c791f0ecd7b93b54d6a1f8af3ff093053fa1b9a41aa57dfdf32cdf8f"
+  },
+  {
+    "file": "GF21-v1-shelf-pf02c9-hoop5-installed.stl",
+    "triangles": 27756,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 15836.868792787316,
+    "sha256": "479c4d90377fbbfb08f8131a96a7ca7522e9f9c6dc9ab243d92c60742201e242"
+  },
+  {
+    "file": "GF21-v1-shelf-pf02c9-hoop5-print-inverted.stl",
+    "triangles": 27756,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 15836.869121663947,
+    "bed_z_min": 2.6645352591003757e-15,
+    "sha256": "7af7b82a057cabb7458c276285c07ad0298bd544b6143eaf34501c433a2b1008",
+    "geometry_only_3mf": "GF21-v1-shelf-pf02c9-hoop5-print-inverted.3mf"
+  },
+  {
+    "file": "GF21-v1-shelf-pf02c9-hoop5-reference-bin.stl",
+    "triangles": 5932,
+    "closed_edges": true,
+    "consistent_winding": true,
+    "positive_volume_mm3": 29119.35825277216,
+    "sha256": "8983ea78aa43133b47c3e2988cfd6177776604e7836f345453aee4f0952918de"
+  }
+]

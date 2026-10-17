@@ -1,0 +1,176 @@
+[
+  {
+    "name": "GF11-v1-shelf-pf02c9-hoop5",
+    "roots": [
+      {
+        "x": -12.7,
+        "z": 0.12,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 6.72,
+        "missing_volume_mm3": 0.0
+      },
+      {
+        "x": -12.7,
+        "z": -25.28,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 7.62,
+        "missing_volume_mm3": 0.0
+      },
+      {
+        "x": 12.7,
+        "z": 0.12,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 6.72,
+        "missing_volume_mm3": 0.0
+      },
+      {
+        "x": 12.7,
+        "z": -25.28,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 7.62,
+        "missing_volume_mm3": 0.0
+      }
+    ],
+    "sampled_vertical_bin_withdrawal": [
+      {
+        "lift_mm": 0,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.01,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.05,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.2,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.5,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 2,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 3,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 4,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 5,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 7,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 10,
+        "overlap_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "name": "GF21-v1-shelf-pf02c9-hoop5",
+    "roots": [
+      {
+        "x": -38.099999999999994,
+        "z": 0.12,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 6.72,
+        "missing_volume_mm3": 0.0
+      },
+      {
+        "x": -38.099999999999994,
+        "z": -25.28,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 7.62,
+        "missing_volume_mm3": 0.0
+      },
+      {
+        "x": 38.099999999999994,
+        "z": 0.12,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 6.72,
+        "missing_volume_mm3": 0.0
+      },
+      {
+        "x": 38.099999999999994,
+        "z": -25.28,
+        "full_wall_depth_mm": 5.4,
+        "nub_diameter_mm": 7.62,
+        "missing_volume_mm3": 0.0
+      }
+    ],
+    "sampled_vertical_bin_withdrawal": [
+      {
+        "lift_mm": 0,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.01,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.05,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.2,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 0.5,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 1,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 2,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 3,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 4,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 5,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 7,
+        "overlap_mm3": 0.0
+      },
+      {
+        "lift_mm": 10,
+        "overlap_mm3": 0.0
+      }
+    ]
+  }
+]
