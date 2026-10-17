@@ -47,7 +47,7 @@ if additions.exists():
   route='tweezers/'+n
   if route in moves:assert assets[moves[route].split('/')[-1]]==v,route
   else:assert hashlib.sha256((D/route).read_bytes()).hexdigest()==v['sha256'],route
- assert 'Tips down. A longer, steadier throat.' in (D/'tweezers/index.html').read_text(encoding='utf-8')
+ assert 'Tweezers v8 with a longer body cradle' in (D/'tweezers/index.html').read_text(encoding='utf-8')
  assert 'single-throat-test' in (D/'tweezers/index.html').read_text(encoding='utf-8')
 additions=R/'publication/tweezers-v9-additions.json'
 if additions.exists():
@@ -64,7 +64,7 @@ if additions.exists():
   route='tweezers/'+n
   if route in moves:assert assets[moves[route].split('/')[-1]]==v,route
   else:assert hashlib.sha256((D/route).read_bytes()).hexdigest()==v['sha256'],route
- assert 'Tips down. A closer, lighter layout.' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
+ assert 'Tweezers v10 compact cheek layout' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
  assert 'not yet physically tested' in (D/'tweezers/v10.html').read_text(encoding='utf-8')
 if (D/'current-pegs/catalog.json').exists():
  import runpy

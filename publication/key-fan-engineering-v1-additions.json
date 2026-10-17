@@ -1,7 +1,7 @@
 {
   "docs/gallery/key-fan/studies/index.html": {
-    "sha256": "192b294eecf101995d633127248a8425c5c2b1060455798d030e3862284f6996",
-    "bytes": 3867
+    "sha256": "8bb3cd3439d4aa631cfa0897070c5c4b057639059d7f2f33c061d74d2582465f",
+    "bytes": 4679
   },
   "docs/gallery/key-fan/studies/study.css": {
     "sha256": "84a4c68454da8bc80426fcd070d7ae5342d38714430c0cb9ee317c03e9ce5e07",
@@ -32,8 +32,8 @@
     "bytes": 104109
   },
   "docs/gallery/key-fan/studies/report.html": {
-    "sha256": "9c6678ad3e1522be541f1a829fa8cd42ab73ab8b455acd9d5deb19c650bb80a6",
-    "bytes": 33578
+    "sha256": "2dc489e4147000dcc28648bf3efe5d72d1654ca4bceecdea6635eb2fd481b0e0",
+    "bytes": 33958
   },
   "docs/gallery/key-fan/studies/results.json": {
     "sha256": "c0b0090068dea4c94a1344cfdce52e1925a2db4e28e746cd0896f4a5cad60de2",

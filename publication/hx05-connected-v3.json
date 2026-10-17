@@ -276,8 +276,8 @@
     "sha256": "07de2f468422bc3b8d265234be148466a6f476690e00ecbaac1f9fa8d9d8bfa1"
   },
   "docs/gallery/key-fan/finished/index.html": {
-    "bytes": 10800,
-    "sha256": "4133f47f20f9624ddd58f9a1045787e61647411b37e18dbf23104c953de06b85"
+    "bytes": 11166,
+    "sha256": "5dba3d91c3b044a4a9e14a7e627fbc52b3385e550949a6d09bb50ecf411e0291"
   },
   "tools/check_hx05_density.py": {
     "bytes": 2518,

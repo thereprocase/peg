@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3471,
-  "total_size_bytes": 1211225582,
+  "file_count": 3472,
+  "total_size_bytes": 1211226153,
   "files": [
     {
       "path": ".gitattributes",
@@ -6238,8 +6238,8 @@
     },
     {
       "path": "docs/anchor-study/index.html",
-      "size_bytes": 10704,
-      "sha256": "9a46af4ef6d98b6ddf1c25467154311e990ccf2b485a974197455d3910f02c86"
+      "size_bytes": 10769,
+      "sha256": "879e716523dc22da827b537f128fb00d4c8947351667e1e0d50c0f56cfe8b3b9"
     },
     {
       "path": "docs/assets/conformal-bearing.png",
@@ -6273,13 +6273,13 @@
     },
     {
       "path": "docs/gallery/LOCAL-README.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/archive.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/arrays.css",
@@ -6288,8 +6288,8 @@
     },
     {
       "path": "docs/gallery/arrays.html",
-      "size_bytes": 26476,
-      "sha256": "0c46622955b7e81ecdd9e1477a3670086da790f534e99061d79005b9028e3e62"
+      "size_bytes": 26844,
+      "sha256": "854d304b87f0590c7640a1c52f329b4c99cecca0a2f38b10f85825e11096d77b"
     },
     {
       "path": "docs/gallery/arrays.js",
@@ -7333,8 +7333,8 @@
     },
     {
       "path": "docs/gallery/bespoke-tools/index.html",
-      "size_bytes": 5512,
-      "sha256": "659e228aadc5a5206fb8dda753abc75dc0feb944b492e5e46ef25334d8d7d75f"
+      "size_bytes": 6277,
+      "sha256": "014d6964fc80ac8798e4818a32688c705f461ee0d55feeca4f4b351ded835553"
     },
     {
       "path": "docs/gallery/bespoke-tools/review.js",
@@ -7453,8 +7453,8 @@
     },
     {
       "path": "docs/gallery/bin-expansion/index.html",
-      "size_bytes": 9393,
-      "sha256": "4b79dc4a1be764570a306b5691b948f4fca1c03ee1f067ab35da51f909803729"
+      "size_bytes": 9758,
+      "sha256": "e3ba7115e7be80c340737e77f1caa01243479d8fc9a215d5953a10a49af766fa"
     },
     {
       "path": "docs/gallery/bin-expansion/part-pegstr-bin-expansion__v1__four-bin-lineup.png",
@@ -7463,8 +7463,8 @@
     },
     {
       "path": "docs/gallery/bit-drivers/index.html",
-      "size_bytes": 5272,
-      "sha256": "83e58801f124441927d9f1bb5712b631b1ed558302a4e290c9901024eaaa8311"
+      "size_bytes": 5661,
+      "sha256": "205c687c00b6c3c8f81dd018558d72563ce42818ab53e563f7b2921b9d981717"
     },
     {
       "path": "docs/gallery/bit-drivers/part-bd01-slope-e__v1__4-bit-drivers-8-cells__rack-installed__slope5-pegflat0p80__fit-e586ab4ff6.stl",
@@ -7708,23 +7708,23 @@
     },
     {
       "path": "docs/gallery/candidates.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/candidates/design-basis.html",
-      "size_bytes": 2781,
-      "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
+      "size_bytes": 1946,
+      "sha256": "d295f77fdb27d6173812aea619e95d236f1a9f7a4001910208b149ed677e0eb0"
     },
     {
       "path": "docs/gallery/candidates/feedback-r9.html",
-      "size_bytes": 2781,
-      "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
+      "size_bytes": 1946,
+      "sha256": "d295f77fdb27d6173812aea619e95d236f1a9f7a4001910208b149ed677e0eb0"
     },
     {
       "path": "docs/gallery/candidates/orientation-guide.html",
-      "size_bytes": 2781,
-      "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
+      "size_bytes": 1946,
+      "sha256": "d295f77fdb27d6173812aea619e95d236f1a9f7a4001910208b149ed677e0eb0"
     },
     {
       "path": "docs/gallery/canted-hex-keys/checks.json",
@@ -7733,8 +7733,8 @@
     },
     {
       "path": "docs/gallery/canted-hex-keys/index.html",
-      "size_bytes": 4492,
-      "sha256": "d836eac5b15f7252900dd0a8696a12fae4cd9565a9d3a24f4fb21d41c549e0db"
+      "size_bytes": 5275,
+      "sha256": "b327d21aa48be4a7152e63e71b06dca82bef92f0416f93a235867f761b617b6a"
     },
     {
       "path": "docs/gallery/canted-hex-keys/installed.glb",
@@ -7778,8 +7778,8 @@
     },
     {
       "path": "docs/gallery/cascade-funnels/index.html",
-      "size_bytes": 2640,
-      "sha256": "88cc48fd47181c573249dc2fba9da152d946680bc6fd812d1aa2e5ca91a5db55"
+      "size_bytes": 3411,
+      "sha256": "1b53c5bad2cbcdc07d20087780d87e0dffb9e097156d08473c11e3d2021d0575"
     },
     {
       "path": "docs/gallery/cascade-funnels/installed.glb",
@@ -7828,8 +7828,8 @@
     },
     {
       "path": "docs/gallery/current-fit/index.html",
-      "size_bytes": 2781,
-      "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
+      "size_bytes": 1946,
+      "sha256": "d295f77fdb27d6173812aea619e95d236f1a9f7a4001910208b149ed677e0eb0"
     },
     {
       "path": "docs/gallery/current-pegs/catalog.json",
@@ -7848,8 +7848,8 @@
     },
     {
       "path": "docs/gallery/current-pegs/index.html",
-      "size_bytes": 4128,
-      "sha256": "f101d037d2839a7c7b0a466868ea26ccd707d24102a93ef135c058632f3cb3a4"
+      "size_bytes": 5015,
+      "sha256": "7e6b8c5004ce6215c155e343300efa39804ff3ab6abca57d265affe1f16a3dda"
     },
     {
       "path": "docs/gallery/current-pegs/part-barrels__current-mounts-v1__fit-pf02c9-hoop5__checks.json",
@@ -9803,8 +9803,8 @@
     },
     {
       "path": "docs/gallery/dioramas.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/download-filenames.json",
@@ -11233,63 +11233,63 @@
     },
     {
       "path": "docs/gallery/first-fifty.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/index.html",
-      "size_bytes": 7050,
-      "sha256": "f9109be66dd368ecdcd42d65485a2e3e93fc59bfefb300c512626a9471d43a40"
+      "size_bytes": 7404,
+      "sha256": "d161371cfb9f4996da18302a2ff5fa1e5aaec073510f7475a5d37400ea121c4b"
     },
     {
       "path": "docs/gallery/keepers.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/keepers/P12/r10/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P13/r10/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P15/r9/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P16/r9/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P17/r9/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P19/r2/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P22/r2/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P23/r8/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/keepers/P24/r3/index.html",
-      "size_bytes": 2823,
-      "sha256": "87fa3e60d772b6afc2bf62511ad30a92503107f22cf0b96da164b5295f382c2a"
+      "size_bytes": 2000,
+      "sha256": "3fff84ee3907ec47ca6d0cd5c17244876a40653391ac51c370333a2f84c05182"
     },
     {
       "path": "docs/gallery/key-fan/checks.json",
@@ -11433,8 +11433,8 @@
     },
     {
       "path": "docs/gallery/key-fan/final/index.html",
-      "size_bytes": 4944,
-      "sha256": "1bf26d28e19762abe1b87f2525b68c207fa72ae6bb9b4c80012e286ed91a6511"
+      "size_bytes": 5249,
+      "sha256": "a93df77d905cb1cd48d19e144406faf69b125c68454712428f9f4784041f7fc8"
     },
     {
       "path": "docs/gallery/key-fan/final/models.json",
@@ -11443,8 +11443,8 @@
     },
     {
       "path": "docs/gallery/key-fan/finished/index.html",
-      "size_bytes": 10800,
-      "sha256": "4133f47f20f9624ddd58f9a1045787e61647411b37e18dbf23104c953de06b85"
+      "size_bytes": 11166,
+      "sha256": "5dba3d91c3b044a4a9e14a7e627fbc52b3385e550949a6d09bb50ecf411e0291"
     },
     {
       "path": "docs/gallery/key-fan/fit-requested-3-5/HX04-fit-v6__3mm-5mm__fan-angle__print.stl",
@@ -11548,8 +11548,8 @@
     },
     {
       "path": "docs/gallery/key-fan/index.html",
-      "size_bytes": 13743,
-      "sha256": "6bb879f581c753d6885b34fa67fd2bd97cacd5856248559f8b65a7565dbcc9d3"
+      "size_bytes": 14708,
+      "sha256": "0827c6f41f2f75b77cb3354e22f350af90a8345d07accdd173a98062c1276719"
     },
     {
       "path": "docs/gallery/key-fan/installed.glb",
@@ -11663,8 +11663,8 @@
     },
     {
       "path": "docs/gallery/key-fan/stacked/green/index.html",
-      "size_bytes": 8358,
-      "sha256": "e64af4d52f54e5109aa53dcba0ee90f783ea2993adc218a884ac12f7d2854047"
+      "size_bytes": 8730,
+      "sha256": "b53854d367e459568ebe9c3508c8756fe20e84aa12dba8457e366d90d9b09a3e"
     },
     {
       "path": "docs/gallery/key-fan/stacked/green/parametric.json",
@@ -11683,8 +11683,8 @@
     },
     {
       "path": "docs/gallery/key-fan/stacked/index.html",
-      "size_bytes": 6175,
-      "sha256": "ebd4bd26f254114e748031294add206f66a43c1a5b9366872d0146a71d52797f"
+      "size_bytes": 6541,
+      "sha256": "4ea39f54d54e909686388a28546d3850952e8a80a16c9881d6a04620f060017e"
     },
     {
       "path": "docs/gallery/key-fan/stacked/matched/HX05A-empty-hero.jpg",
@@ -11738,8 +11738,8 @@
     },
     {
       "path": "docs/gallery/key-fan/stacked/matched/index.html",
-      "size_bytes": 8598,
-      "sha256": "a36538a811a928693856e2b74c249f5620881515d3637cf01c259c243ace710b"
+      "size_bytes": 8970,
+      "sha256": "ea336a9031f99588ddaee771eb13cbbb60a62f0a058f13647d64b1727b6b540f"
     },
     {
       "path": "docs/gallery/key-fan/stacked/matched/review.json",
@@ -12073,8 +12073,8 @@
     },
     {
       "path": "docs/gallery/key-fan/studies/index.html",
-      "size_bytes": 3867,
-      "sha256": "192b294eecf101995d633127248a8425c5c2b1060455798d030e3862284f6996"
+      "size_bytes": 4679,
+      "sha256": "8bb3cd3439d4aa631cfa0897070c5c4b057639059d7f2f33c061d74d2582465f"
     },
     {
       "path": "docs/gallery/key-fan/studies/installation-contact.png",
@@ -12703,8 +12703,8 @@
     },
     {
       "path": "docs/gallery/key-fan/studies/report.html",
-      "size_bytes": 33578,
-      "sha256": "9c6678ad3e1522be541f1a829fa8cd42ab73ab8b455acd9d5deb19c650bb80a6"
+      "size_bytes": 33958,
+      "sha256": "2dc489e4147000dcc28648bf3efe5d72d1654ca4bceecdea6635eb2fd481b0e0"
     },
     {
       "path": "docs/gallery/key-fan/studies/results.json",
@@ -12743,8 +12743,8 @@
     },
     {
       "path": "docs/gallery/magnetic-bar/index.html",
-      "size_bytes": 6658,
-      "sha256": "5b685e59df27f3aea6ab6ad275aa2f66c589ea475e08ccf2a26eae1cab627ebb"
+      "size_bytes": 7050,
+      "sha256": "0b5a138efb5806576c3930fd7a3088d0d5d5665b784aef1e62c4806026be8343"
     },
     {
       "path": "docs/gallery/magnetic-bar/part-mb01-magnetic-shaft-bar-f__v1__2-seats-4-cells__holder-installed__fit-e586ab4ff6.stl",
@@ -12823,13 +12823,13 @@
     },
     {
       "path": "docs/gallery/originals-design-basis.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/pegstr.html",
-      "size_bytes": 6877,
-      "sha256": "c5be2cd569de64aa348c701e92da13bec6604e66d13cabc7daf5f939ac0c755d"
+      "size_bytes": 7777,
+      "sha256": "f49166e6780405dd6bd4de67313ee3fb270d80d7ebcabc344854849f08a4b0f4"
     },
     {
       "path": "docs/gallery/pegstr.js",
@@ -13688,13 +13688,13 @@
     },
     {
       "path": "docs/gallery/pliers/index.html",
-      "size_bytes": 2781,
-      "sha256": "4c9adf39e1a07ffb69a2bc805f2e2a7f5cdd1fedd603cd39604042d19c1af586"
+      "size_bytes": 1946,
+      "sha256": "d295f77fdb27d6173812aea619e95d236f1a9f7a4001910208b149ed677e0eb0"
     },
     {
       "path": "docs/gallery/redesign.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/release-downloads.js",
@@ -13703,18 +13703,18 @@
     },
     {
       "path": "docs/gallery/research.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/retired.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/screwdriver-wip/index.html",
-      "size_bytes": 8578,
-      "sha256": "30c06e3245e51af7559ef05179c31cbdbc23205d6c00094eca9dd8b35a2cbcc7"
+      "size_bytes": 8941,
+      "sha256": "239e43cf2d969d15e9703fa5de4c313c4429e1487fe4feb024ef4ac537c31899"
     },
     {
       "path": "docs/gallery/screwdrivers-b/SD01/part-sd01__v1__a-loaded-review.png",
@@ -14283,8 +14283,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers-b/index.html",
-      "size_bytes": 14054,
-      "sha256": "2ccfc1170d05887da96d3c10df15f28bbbf923f11ee277e6fd40e9af86e8d9d3"
+      "size_bytes": 14433,
+      "sha256": "96551f9347b5d77cb59ea462644278e8cd0ffa8073ac5ab6272814b43098c2c6"
     },
     {
       "path": "docs/gallery/screwdrivers-b/part-screwdriver-family__v3__flat-b-backward-rock.json",
@@ -14328,8 +14328,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers-c/index.html",
-      "size_bytes": 7318,
-      "sha256": "1d855c80c1667d3287520ca3d6cffe0756939ceca74abf45e71dbc0cd2063e62"
+      "size_bytes": 7717,
+      "sha256": "3b837850da6f71b6f11abd84653a874e1c93bbc489f10aae66c956045626723e"
     },
     {
       "path": "docs/gallery/screwdrivers-c/part-sd03-magnetic-c__v1__4-drivers-7-cells__plug-print-broad-face-quantity-4__fit-e586ab4ff6.stl",
@@ -14373,8 +14373,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers-c/part-sd03-magnetic-c__v1__review.html",
-      "size_bytes": 7318,
-      "sha256": "1d855c80c1667d3287520ca3d6cffe0756939ceca74abf45e71dbc0cd2063e62"
+      "size_bytes": 7717,
+      "sha256": "3b837850da6f71b6f11abd84653a874e1c93bbc489f10aae66c956045626723e"
     },
     {
       "path": "docs/gallery/screwdrivers-c/part-sd03-magnetic-c__v1__sealed-section.png",
@@ -14388,8 +14388,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers-d/index.html",
-      "size_bytes": 4975,
-      "sha256": "4f5513d26b1d8cdfe341f5d571894f0a226a53e2712256bd3106c492518a7883"
+      "size_bytes": 5361,
+      "sha256": "16806cbc72fc02e8f57fc909b3f03225331531185ceaabf7f91e58bb2f9d09d4"
     },
     {
       "path": "docs/gallery/screwdrivers-d/part-sd03-inverted-d__v1__4-drivers-7-cells__rack-installed__fit-e586ab4ff6.stl",
@@ -15063,8 +15063,8 @@
     },
     {
       "path": "docs/gallery/screwdrivers/index.html",
-      "size_bytes": 14760,
-      "sha256": "72ac06707210fd90bb738c84361c11f71004dbbec028285acf4effd6ed264c0e"
+      "size_bytes": 15135,
+      "sha256": "bb125a4884eef84a273b740ab9949544ee0795da8f101299c48d89cbc3097628"
     },
     {
       "path": "docs/gallery/screwdrivers/part-screwdriver-family__v2__access-and-print-audit.json",
@@ -15108,8 +15108,8 @@
     },
     {
       "path": "docs/gallery/shaft-holders/index.html",
-      "size_bytes": 19132,
-      "sha256": "aa0e1c5f66643de8d565947b18ab855319b8157035c01a17cecbfc8e7eb1d7e4"
+      "size_bytes": 19499,
+      "sha256": "f45477beb29385bf60e0c52ab1b4dbb90b6042ea5e9c58365deb6f4f826f481e"
     },
     {
       "path": "docs/gallery/shaft-holders/magnetic-shaft-holders__v1__README.md",
@@ -15333,8 +15333,8 @@
     },
     {
       "path": "docs/gallery/shaft-sampler/index.html",
-      "size_bytes": 9697,
-      "sha256": "b11306aad3189f413426b086be44ebc071cfe4a604120c60e9b2437f5e61ebbc"
+      "size_bytes": 10092,
+      "sha256": "56a55fe8dbc9a993d85dec57808559da94ac5ba51376df0cbd14ff5073b0af56"
     },
     {
       "path": "docs/gallery/shaft-sampler/part-ms01-shaft-fit-sampler-20x10x3__v1__A-H-seats.png",
@@ -15533,8 +15533,8 @@
     },
     {
       "path": "docs/gallery/shaft-sampler/recoverable/index.html",
-      "size_bytes": 11137,
-      "sha256": "b768ec3307daf76dc8eafdc754da36ac93d2d5763f9a87f77e75ecd42db2a35c"
+      "size_bytes": 11504,
+      "sha256": "a030690a99de07e88c7626e553ddb2e8b900eb897880226d1685a574ec2dd1ba"
     },
     {
       "path": "docs/gallery/shaft-sampler/recoverable/part-ms01-shaft-fit-sampler-20x10x3-recoverable__v3__A-H-seats.png",
@@ -15613,8 +15613,8 @@
     },
     {
       "path": "docs/gallery/solder-b.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gallery/solder-modules/README.md",
@@ -15763,8 +15763,8 @@
     },
     {
       "path": "docs/gallery/solder-modules/index.html",
-      "size_bytes": 15760,
-      "sha256": "269a2d0da9870576ac58abd65f5e75644bd1d6a29b5ce0e770928fb0080e98d5"
+      "size_bytes": 16119,
+      "sha256": "487b2d6ef0f51fc3f23625a656da24a6862abda7dbd40f4f1edd043cd60a71f8"
     },
     {
       "path": "docs/gallery/solder-modules/loaded.glb",
@@ -15963,8 +15963,8 @@
     },
     {
       "path": "docs/gallery/tool-references/index.html",
-      "size_bytes": 4491,
-      "sha256": "63c113f1c1be7c59ce983dec20f0ad7bf3ab9164c26e72a7e09b4b9e70f6f72c"
+      "size_bytes": 5354,
+      "sha256": "55f1ec118d66463b9b177507d73c084e8ad7222674084b74e63e8f7174ac4887"
     },
     {
       "path": "docs/gallery/tool-references/reference-audit.json",
@@ -15973,13 +15973,13 @@
     },
     {
       "path": "docs/gallery/trials/P23-r8/index.html",
-      "size_bytes": 2802,
-      "sha256": "a30bae5698abb6cc42904b8b5a0693aca9d909b34a0888cf42fcaa32a47f5a41"
+      "size_bytes": 1973,
+      "sha256": "a72ae69a18365b10e3f28ea1994cd7e421119a8362c44cbb1e8fd398af710842"
     },
     {
       "path": "docs/gallery/tweezers/index.html",
-      "size_bytes": 8968,
-      "sha256": "c91f6f063d0c358af42982ee569408a9feb04544521c9f77bde6abe334de9f27"
+      "size_bytes": 9328,
+      "sha256": "f167f6f8ad0f04e151438cdfd01d18c9a5e852c3e141a97cc7c5b03498ce030b"
     },
     {
       "path": "docs/gallery/tweezers/part-solder-modules-tweezers__v10__compact-right-cheek__fit-9328ccc5d4__README.txt",
@@ -16248,18 +16248,18 @@
     },
     {
       "path": "docs/gallery/tweezers/v10.html",
-      "size_bytes": 7657,
-      "sha256": "c7e230440c6040cf85973d98a76f2fa2ce18eb82f587dd47d93be74f47fecad5"
+      "size_bytes": 8014,
+      "sha256": "25d178d5a769d235ca43017c2c6bc5b5827d367daa81a6055c5de5ad78ffdb84"
     },
     {
       "path": "docs/gallery/tweezers/v7.html",
-      "size_bytes": 4653,
-      "sha256": "c60ae1dc040ada367273ddd99ef12d106beb8363d56892e1b980cfd685bebe7a"
+      "size_bytes": 5008,
+      "sha256": "f091a17b641230c182694b6aec2e7cdfbc2ef26d61a809f30bde63b87ea0fb52"
     },
     {
       "path": "docs/gallery/tweezers/v9.html",
-      "size_bytes": 7721,
-      "sha256": "41c347aa1fa4197830f1e53f848d1daf5160b701f86f7ffc8d9a4e9cfe73dca4"
+      "size_bytes": 8072,
+      "sha256": "079abb60271639cc6e54f5de42a87b03a2e472bdf951d0713ece4ef6dd24a0d3"
     },
     {
       "path": "docs/gallery/tweezers/vendor/model-viewer-LICENSE.txt",
@@ -16308,8 +16308,8 @@
     },
     {
       "path": "docs/gallery/workshop-2026-09-16/index.html",
-      "size_bytes": 11192,
-      "sha256": "e0d09a4898a99603739022a6c09ff95ec0e829f92634a4484ce0460827afe9f8"
+      "size_bytes": 11476,
+      "sha256": "5812b6638626482bd894205e1e8c80173a335ee3a1217eb8d28e75676dba85aa"
     },
     {
       "path": "docs/gallery/workshop-2026-09-16/report.md",
@@ -16318,8 +16318,8 @@
     },
     {
       "path": "docs/gallery/wrench-fan.html",
-      "size_bytes": 2760,
-      "sha256": "9ff4f46c9d724682fdaea9692cb9707b607b958a72fc734154fc087401b875eb"
+      "size_bytes": 1919,
+      "sha256": "37e8453b7da56ab14e69e0ddad76661d20b48761b82e4afd35ac5cdc862de4da"
     },
     {
       "path": "docs/gridline/README.md",
@@ -16355,6 +16355,11 @@
       "path": "docs/gridline/logo.svg",
       "size_bytes": 333,
       "sha256": "830e3a0c8a1413386cd1d860a042928b4fd35e7dc3cfd6c18581c19d5944e255"
+    },
+    {
+      "path": "docs/gridline/polish.css",
+      "size_bytes": 6230,
+      "sha256": "bb939d59d82bebc972879618252b0e4f29c2f51332c63cd3405ee1ea7a6d3530"
     },
     {
       "path": "docs/gridline/project.css",
@@ -16398,8 +16403,8 @@
     },
     {
       "path": "docs/index.html",
-      "size_bytes": 10197,
-      "sha256": "6cee900229943ea79788859deb3063c0948fe7e4a207c6f292c2f7be90fc559c"
+      "size_bytes": 10708,
+      "sha256": "9e404b7396090606516156e1bdeb7197e9e43b2471714325f65403abd7c59dc0"
     },
     {
       "path": "docs/pegs/bearing-locator.glb",
@@ -16539,7 +16544,7 @@
     {
       "path": "publication/bespoke-tools-v1-additions.json",
       "size_bytes": 3513,
-      "sha256": "67036f9d13e71339b8c747909e6162c2c169f15f3e514ae209c380f4fd1eaf76"
+      "sha256": "b8b7aa0dc7fecf66b540723d3b674e46ed7bf2186ebea2e0830e1afbc505ff58"
     },
     {
       "path": "publication/browser-verification.json",
@@ -16599,17 +16604,17 @@
     {
       "path": "publication/canted-hex-keys-v2-additions.json",
       "size_bytes": 1053,
-      "sha256": "b86baf78b275a4e359bba4ba80c71ef863f07b212af1a1633a44ed2e2577e16a"
+      "sha256": "7ab28ed828b8b64fb0671ec471365b5b66222e461b1b208399e51bfd7ff92ec8"
     },
     {
       "path": "publication/cascade-funnels-v1-additions.json",
       "size_bytes": 1382,
-      "sha256": "b0c768c746e763698c71282ecd75ce71c54f7d5fc0357227301b1a138180a38e"
+      "sha256": "84312c28bf9d22c851bd9384af9025a114a8e35b5abe8d1d47ff03a12aa9b808"
     },
     {
       "path": "publication/current-pegs-v1-additions.json",
       "size_bytes": 96416,
-      "sha256": "14a0770659f03cff45ae17f9389123d5690b50a5eb348e044ffe66046526b917"
+      "sha256": "eeef38e5ecb0fdeb608dc78a77b426b6a2f1d3cd99e6390386358de423c0ced3"
     },
     {
       "path": "publication/cutover-verification.json",
@@ -16619,7 +16624,7 @@
     {
       "path": "publication/final-racks-v1-additions.json",
       "size_bytes": 14052,
-      "sha256": "bf52b24a532db37d03a1b1b0098979a88b239735e586386631e3d8169a78006a"
+      "sha256": "2a9295d309b07185b69cf709b002193fcbf067324e9f95113020cfbb756db815"
     },
     {
       "path": "publication/gallery-source-manifest.json",
@@ -16629,22 +16634,22 @@
     {
       "path": "publication/green-fan-v1-review.json",
       "size_bytes": 4714,
-      "sha256": "cc3ee7f99e59fcd227cf0b6a00502c6fa5125edde285ce4ca64e3f854cf86271"
+      "sha256": "7d29e0adb171fca428c15d5d369828de382a5192a0404d4ba863f150ebdc0bf6"
     },
     {
       "path": "publication/hx05-connected-v3.json",
       "size_bytes": 11899,
-      "sha256": "59e14b4c586cbbab2044fd1a506eb1eb385888b4a750255454f48cec0221c3ed"
+      "sha256": "52894d6df12c0354a3138b199a5d7a052250c18f76ca654787c98ae1d28ac06e"
     },
     {
       "path": "publication/hx05-finished-v1.json",
       "size_bytes": 8332,
-      "sha256": "13763044827b21c0cf7ba03ab0aa8c761f20a192c823d80426fad6a3d21dff83"
+      "sha256": "52a09c8bd91f3c5e7d100233b568d6e449097d26c7c93be8e4d07f5c4c7c8503"
     },
     {
       "path": "publication/hx05-light-v2.json",
       "size_bytes": 9749,
-      "sha256": "6cac5300714473158acba2f5205636b213b0e77fd8083364196781636d314040"
+      "sha256": "e918af640564afb2cc765efc899f4b69ee798df260ee74ca3300b6565d44fca5"
     },
     {
       "path": "publication/hx05-parametric-v1.json",
@@ -16654,7 +16659,7 @@
     {
       "path": "publication/key-fan-engineering-v1-additions.json",
       "size_bytes": 34310,
-      "sha256": "70bc2132cd29ebdf1dbbe885b53a25b6f18940021b4903af7be2f3968ca5e458"
+      "sha256": "55415c7786da7bc91a7b425c5b769dad87244165c374b2b391c07e4b0a7d6181"
     },
     {
       "path": "publication/key-fan-v1-additions.json",
@@ -16664,12 +16669,12 @@
     {
       "path": "publication/key-fan-v2-additions.json",
       "size_bytes": 1101,
-      "sha256": "b05241d94a41b68d49c09b21a604ea7b35784c3b30775870041b0cc261f2ddfc"
+      "sha256": "03bc8032a56a7f653d3886277127f43b3a35536c735bec8c802c8631988ce9de"
     },
     {
       "path": "publication/matched-fans-v1.json",
       "size_bytes": 6419,
-      "sha256": "738d965978116eed2e431df56d537a5a88f7267634c7cee539da753eff11fefb"
+      "sha256": "71fdbd1b0fd87825db238e36615adf26a0814f21eeb9eeb43fb382091f24ba9b"
     },
     {
       "path": "publication/matched-fans-xray-v1.json",
@@ -16814,7 +16819,7 @@
     {
       "path": "publication/stacked-fans-v1-review.json",
       "size_bytes": 5136,
-      "sha256": "db89c58c48c09b11cbc76e10f8f07fb8f8a53203da7a21df7fb69c61d2222cc4"
+      "sha256": "76b05e36ea333e2d436d367a2dd0df41fbcf4378580403feb3b0ee83e4b6ae23"
     },
     {
       "path": "publication/swd01-workshop-v1-additions.json",
@@ -16869,7 +16874,7 @@
     {
       "path": "publication/tweezers-v9-additions.json",
       "size_bytes": 2066,
-      "sha256": "b67b9086f36688840869db67e6a6a38c46504803cf5250e0c1987d166e094796"
+      "sha256": "958bc881df966dc0adb0677ff695d53d0692aba6b9e0f60dc34ad6bf00f36243"
     },
     {
       "path": "publication/update_key_fan_fit_coupon.py",
@@ -17078,8 +17083,8 @@
     },
     {
       "path": "tools/check_gallery.py",
-      "size_bytes": 6322,
-      "sha256": "08e45c4c45503ae9e3eae0c0d97c67f8b5243c4ce1a6e8d0939851afd5445efb"
+      "size_bytes": 6319,
+      "sha256": "9190af0249875a2875891d811f4276e6d879d031413eef4e45f49b93b4411cb1"
     },
     {
       "path": "tools/check_hx05_connected.py",
