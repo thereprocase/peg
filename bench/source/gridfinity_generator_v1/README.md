@@ -1,0 +1,67 @@
+# Configurable Gridfinity pegboard shelves
+
+This generator extends the reviewed 1×1 and 2×1 shelves to rectangular arrays.
+The board-contact plane stays vertical at Y=0.15. PF02 #9 hooks, PF07 #5 upright
+hoops, their joining nubs and 25.4 mm vertical pitch remain fixed. The seats and
+braces accommodate the selected tilt. All exports put the frame face down.
+
+## Parameters
+
+| JSON key | Default | Range / meaning |
+|---|---:|---|
+| columns | 2 | 1–12 cells across the board |
+| rows | 1 | 1–12 cells out from the board; at most 64 total cells |
+| clearance | 0 | −0.10 to +0.20 mm additional receiver clearance per side |
+| web | 2.4 | 2.4–6 mm triangular web thickness |
+| beam | 10 | 5–20 mm front beam depth |
+| angle | 0 | −30° downward to +5° upward; 0° is horizontal |
+
+Gridfinity pitch is 42 mm. Board lanes use 25.4 mm pitch and a 2 mm total side
+gap. Wider arrays gain mounting columns with no more than 76.2 mm between them.
+The full 5.4 mm material around each joining nub is protected. Tilt raises the
+seat hinge when necessary to retain the root wall and keep the hook crown below
+the inverted bed plane. The fixed board-facing root blocks are not tilted.
+
+A positive clearance loosens the receiver. Negative clearance deliberately
+allows reference-foot interference at the original seat height: the bin may sit
+proud, and this is reported. No tuning value changes the peg fit.
+
+## Native generation
+
+Run from a complete checkout of the peg repository with an existing FreeCAD
+Python runtime that can import `FreeCAD`, `Part` and `MeshPart`:
+
+```sh
+python bench/source/gridfinity_generator_v1/generate.py output --config recipe.json
+```
+
+Omit `--config` for defaults. The JSON file contains only the six keys above.
+Output includes `shelf-print.step`, `shelf-print.stl`, `shelf-print.FCStd`,
+`shelf-installed.step`, exact connector meshes and `CHECKS.json`.
+
+The native source uses the repository's current connector builder and frozen
+station snapshot through relative paths. Keep that source tree intact.
+Generated STEP is reopened and compared by native symmetric volume difference.
+Each complete shelf must be one valid solid. Checks protect the board-side peg
+geometry, root material and nonnegative-clearance reference feet.
+
+The 0.005 mm / 0.087 rad tessellation settings matter: coarser trials in the
+original shelf study left open hook seams. Validate the saved mesh before using
+it; native solid validity alone does not prove mesh closure.
+
+## Scope and printing
+
+Generated variants are prototypes. The earlier reviewed 1×1 and 2×1 files remain
+unchanged under the original review. Generalization uses a continuous front beam;
+not every generated 2×1 file is byte-identical to that frozen release.
+
+Print the seat-fit ring first, then check a small shelf on the intended board.
+Review first-layer contact and peg overhangs in the actual slicer. Tilted and deep
+arrays have not inherited the original ASA slice check. A bounding box inside
+256 × 256 mm does not account for the printer's exclusion area or purge space.
+
+No load rating is assigned. More depth increases the moment at the board.
+Friction, snap recovery, straight-up and forward bin removal, printing anisotropy,
+creep and loaded installation remain physical checks. The original nominal
+host-envelope containment screen is retained; it is not a motion proof for the
+current interference-fit connectors or every completed array.
