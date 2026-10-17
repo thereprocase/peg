@@ -1,0 +1,50 @@
+[
+  {
+    "p": {
+      "columns": 12,
+      "rows": 1,
+      "angle": 5,
+      "mount_rows": 4
+    },
+    "seconds": 56.233,
+    "volume": 339476.2728437471,
+    "triangles": 110142,
+    "frontCoreMissing": 0.0008361451595479279,
+    "frontCoreInteriorMissing": 0,
+    "coreBoundaryTolerance": 2.52587890625e-05,
+    "footOverlap": 0.004881974762950743,
+    "pegDelta": 1.4293376762571491e-07
+  },
+  {
+    "p": {
+      "columns": 1,
+      "rows": 12,
+      "angle": -30,
+      "mount_rows": 1
+    },
+    "seconds": 12.044,
+    "volume": 49138.452814740216,
+    "triangles": 38826,
+    "frontCoreMissing": 0.00025874178748676676,
+    "frontCoreInteriorMissing": 0,
+    "coreBoundaryTolerance": 4.0517578125e-05,
+    "footOverlap": 0.005319481949774009,
+    "pegDelta": 3.429777185294749e-08
+  },
+  {
+    "p": {
+      "columns": 8,
+      "rows": 8,
+      "mount_rows": 3,
+      "backplate": false
+    },
+    "seconds": 39.048,
+    "volume": 367805.9267706383,
+    "triangles": 174600,
+    "frontCoreMissing": 0.0008968210060208671,
+    "frontCoreInteriorMissing": 0,
+    "coreBoundaryTolerance": 4.0517578125e-05,
+    "footOverlap": 0.03885773052124581,
+    "pegDelta": 8.600824003333716e-08
+  }
+]

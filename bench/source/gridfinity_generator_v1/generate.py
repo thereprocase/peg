@@ -83,6 +83,14 @@ def generate(values, out):
     lower.translate(V(0, 0, 25.4))
     upper, _ = C.with_nub(upper, 5.6)
     lower, _ = C.with_nub(lower, 6.35)
+    original_fit = C.K.P.FIT_SOURCE
+    C.K.P.FIT_SOURCE = C.K.G.fit_file(.49)
+    reference = C.K.P.load_reference()
+    C.K.P.FIT_SOURCE = original_fit
+    locator = next(s for s in reference.Solids if s.BoundBox.ZMax < -9.9).common(C.region(-40,-10))
+    locator.translate(V(0,0,25.4))
+    locator, _ = C.with_nub(locator,6.35)
+    peg_rows = [(upper,0)] + [(lower if i == p['mount_rows']-1 else locator,z) for i,z in enumerate(p['mount_z']) if i]
     angle=p['angle']; tangent=math.tan(math.radians(angle))
     # Lift the seat hinge enough to keep both the complete root wall and the
     # fixed hook below the eventual inverted bed plane, including tilted cases.
@@ -99,7 +107,7 @@ def generate(values, out):
         return (.15+(y-.15)*math.cos(a)-(z-TOP)*math.sin(a),
                 hinge+(y-.15)*math.sin(a)+(z-TOP)*math.cos(a))
     # These exact native connector meshes are also the browser kernel's inputs.
-    for name, peg in [('upper', upper), ('lower', lower)]:
+    for name, peg in [('upper', upper), ('lower', lower), ('locator', locator)]:
         MeshPart.meshFromShape(Shape=peg, LinearDeflection=.005, AngularDeflection=.087,
                               Relative=False).write(str(out / (name + '.stl')))
     pieces, pockets, feet, pegs = [], [], [], []
@@ -126,11 +134,21 @@ def generate(values, out):
         pieces.append(tilt(Part.makeBox(42*p['columns'],2.4,p['beam'],
                                   V(-21*p['columns'],front-2.4,TOP-p['beam']))).common(front_mask))
     roots=[]
-    for x in p['mount_columns']:
-        pieces.append(Part.makeBox(10,5.4,hinge+1+29.68,V(x-5,.15,-29.68)))
-        pieces.append(C.K.poly_prism([(5,-27.5),tilted_point(front,TOP-p['beam']),tilted_point(front,TOP-1),(5,hinge+tangent*4.85-3.12)],
+    bottom=p['back_bottom']
+    if p['backplate']:
+        pieces.append(Part.makeBox(frame_width,5.4,hinge+1-bottom,V(-frame_width/2,.15,bottom)))
+    else:
+        # Open-back option retains bottom cross-tie and posts at both grids.
+        pieces.append(Part.makeBox(frame_width,5.4,4.28,V(-frame_width/2,.15,bottom)))
+        for x in p['mount_columns']:
+            pieces.append(Part.makeBox(10,5.4,hinge+1-bottom,V(x-5,.15,bottom)))
+        for x in p['web_columns']:
+            pieces.append(Part.makeBox(p['web'],5.4,hinge+1-bottom,V(x-p['web']/2,.15,bottom)))
+    for x in p['web_columns']:
+        pieces.append(C.K.poly_prism([(5,bottom+2.18),tilted_point(front,TOP-p['beam']),tilted_point(front,TOP-1),(5,hinge+tangent*4.85-3.12)],
                                      'x',x-p['web']/2,x+p['web']/2).common(front_mask))
-        for peg,z in [(upper,0),(lower,-25.4)]:
+    for x in p['mount_columns']:
+        for peg,z in peg_rows:
             q=peg.copy();q.translate(V(x,0,z));pegs.append(q);pieces.append(q)
     shape=pieces[0].multiFuse(pieces[1:]).removeSplitter()
     # Trim receiving material to the seat plane. Peg bounds were accounted for
@@ -144,16 +162,20 @@ def generate(values, out):
         shape=shape.cut(pocket)
     envelope=json.loads((ROOT/'cad/conformal/host-envelope/allowed_host_volume.json').read_text())
     reach=width/2+20
-    allowed=C.K.poly_prism(envelope['envelope_vertices_design_yz_mm'],'x',-reach,reach)
-    forbidden=Part.makeBox(2*reach,60,150,V(-reach,.15,-50)).cut(allowed)
+    vertices=envelope['envelope_vertices_design_yz_mm']
+    # The lower board-front boundary is vertical; extend its export bounds.
+    vertices[0][1]=vertices[-1][1]=-200
+    allowed=C.K.poly_prism(vertices,'x',-reach,reach)
+    forbidden=Part.makeBox(2*reach,60,400,V(-reach,.15,-200)).cut(allowed)
     shape=shape.cut(forbidden).removeSplitter()
-    protected=Part.makeBox(2*reach,60.15,150,V(-reach,-60,-75))
+    protected=Part.makeBox(2*reach,60.15,400,V(-reach,-60,-200))
     original=Part.makeCompound(pegs).common(protected)
     actual=shape.common(protected)
     delta=original.cut(actual).Volume+actual.cut(original).Volume
     assert delta < 1e-6, ('connector changed',delta)
     for x in p['mount_columns']:
-        for z,d in [(.12,6.72),(-25.28,7.62)]:
+        for index,z0 in enumerate(p['mount_z']):
+            z,d=z0+.12,6.72 if index==0 else 7.62
             block=Part.makeBox(d,5.4,d,V(x-d/2,.15,z-d/2))
             missing=block.cut(shape).Volume
             assert missing < 1e-6, ('root wall',x,z,missing)
@@ -193,7 +215,7 @@ if __name__ == '__main__':
     import argparse
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('output')
-    parser.add_argument('--config',help='JSON object with columns, rows, clearance, web, beam')
+    parser.add_argument('--config',help='JSON shelf parameters including mount_rows and backplate')
     args=parser.parse_args()
     generate(json.loads(Path(args.config).read_text()) if args.config else {},args.output)
 

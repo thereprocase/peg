@@ -14,6 +14,8 @@ braces accommodate the selected tilt. All exports put the frame face down.
 | clearance | 0 | −0.10 to +0.20 mm additional receiver clearance per side |
 | web | 2.4 | 2.4–6 mm side web thickness |
 | beam | 10 | 5–20 mm front beam depth |
+| mount_rows | 2 | 1–4 peg rows vertically; one row has hooks only |
+| backplate | true | Solid 5.4 mm plate; false retains posts and cross-ties |
 | angle | 0 | −30° downward to +5° upward; 0° is horizontal |
 
 Gridfinity pitch is 42 mm. Board lanes use 25.4 mm pitch and a 2 mm total side
@@ -37,7 +39,7 @@ Python runtime that can import `FreeCAD`, `Part` and `MeshPart`:
 python bench/source/gridfinity_generator_v1/generate.py output --config recipe.json
 ```
 
-Omit `--config` for defaults. The JSON file contains only the six keys above.
+Omit `--config` for defaults. The JSON file contains only the eight keys above.
 Output includes `shelf-print.step`, `shelf-print.stl`, `shelf-print.FCStd`,
 `shelf-installed.step`, exact connector meshes and `CHECKS.json`.
 
@@ -79,3 +81,11 @@ The native checks include the front beam core between outer mounting columns
 and 13 lift positions per cell for nonnegative clearance. The checked core
 thickness is min(1.9, 2.05 − clearance) mm, accounting for the 1.85 mm top rim at
 maximum +0.20 clearance. These are digital geometry checks, not a load rating.
+
+## Backplate and independent grids
+
+The default is a solid 5.4 mm backplate and two mounting rows. Gussets are at every Gridfinity cell boundary, 42 mm apart. Peg columns retain the 25.4 mm board grid. The backplate transfers load between these independent layouts. Turning the plate off retains a bottom cross-tie and posts at both grids.
+
+One mounting row uses hooks only, with a backplate extending 12.7 mm below the hook centers. Two rows use top hooks and bottom locking hoops. Three and four rows add exact repository bearing locators between them; the lower hoop sits 50.8 or 76.2 mm below the top hook. Gussets extend down with the mounting plate. Added height is not a load rating. One-row mounting lacks the lower snap retention; taller arrays require a fresh installation trial.
+
+The finite host-envelope lower export boundary is extended vertically to Z −200 mm, retaining its constant Y=0.15 lower boundary. This is a board-front containment screen; the original nominal two-peg motion certificate is not extended to these interference-fit arrays.

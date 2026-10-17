@@ -13,8 +13,20 @@ class Parameters(unittest.TestCase):
                 self.assertLessEqual(b-a,76.200001)
                 self.assertAlmostEqual((b-a)/25.4,round((b-a)/25.4))
             self.assertAlmostEqual(p['mount_columns'][0],-p['mount_columns'][-1])
+    def test_independent_grids_and_heights(self):
+        for columns in [1,2,3,12]:
+            for height in [1,2,3,4]:
+                p=validate(dict(columns=columns,mount_rows=height))
+                self.assertEqual(p['mount_z'],[-25.4*i for i in range(height)])
+                self.assertEqual(len(p['web_columns']),columns+1)
+                for a,b in zip(p['web_columns'],p['web_columns'][1:]):self.assertEqual(b-a,42)
+                self.assertEqual(p['back_bottom'],-12.7 if height==1 else -25.4*(height-1)-4.28)
+        self.assertTrue(validate({})['backplate'])
+        self.assertEqual(validate({})['mount_rows'],2)
+        self.assertFalse(validate(dict(backplate=False))['backplate'])
+
     def test_bounds(self):
-        for bad in [dict(columns=1.2),dict(rows=0),dict(columns=True),dict(columns=12,rows=12),dict(web=1),dict(angle=-31),dict(angle=6),dict(clearance=float('nan')),dict(typo=1)]:
+        for bad in [dict(columns=1.2),dict(rows=0),dict(columns=True),dict(columns=12,rows=12),dict(web=1),dict(angle=-31),dict(angle=6),dict(clearance=float('nan')),dict(typo=1),dict(mount_rows=0),dict(mount_rows=5),dict(mount_rows=True),dict(mount_rows=2.5),dict(backplate=1)]:
             with self.assertRaises(ValueError):validate(bad)
         for angle in [-30,0,5]:self.assertEqual(validate(dict(angle=angle))['angle'],angle)
 

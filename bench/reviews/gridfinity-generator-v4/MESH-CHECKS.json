@@ -1,0 +1,92 @@
+{
+  "default": {
+    "triangles": 26986,
+    "edges": 40479,
+    "connected_surfaces": 1,
+    "volume_mm3": 29437.941417981092,
+    "minimum_z_mm": 2.398081733190338e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "8d276990f246fbeba4f13e1188581fad552ebaef18bfffb365a41ed24cf4c14c"
+  },
+  "mini": {
+    "triangles": 21988,
+    "edges": 32982,
+    "connected_surfaces": 1,
+    "volume_mm3": 9435.347152722607,
+    "minimum_z_mm": 1.7763568394002505e-15,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "b0365bcf2353d26c08ce18480de9f91ed77d7437a8e515b13e6f0a38c8d1d145"
+  },
+  "three": {
+    "triangles": 29346,
+    "edges": 44019,
+    "connected_surfaces": 1,
+    "volume_mm3": 45880.96487369382,
+    "minimum_z_mm": 2.398081733190338e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "bdef5e51972548ff41e2534bbda70362176604539fb9a287795a1ca7c0ca9b6b"
+  },
+  "four": {
+    "triangles": 31692,
+    "edges": 47538,
+    "connected_surfaces": 1,
+    "volume_mm3": 62323.98396015187,
+    "minimum_z_mm": 2.398081733190338e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "1d8f6d19a288d89ad1c8078601277e79d22a3c385f07781d7beb62dbb0877fca"
+  },
+  "open": {
+    "triangles": 27074,
+    "edges": 40611,
+    "connected_surfaces": 1,
+    "volume_mm3": 20213.403066654668,
+    "minimum_z_mm": 2.398081733190338e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "75c861537161e595704dc9c78201ad33f606d5f6f8904122203c3c0db474751a"
+  },
+  "up": {
+    "triangles": 37406,
+    "edges": 56109,
+    "connected_surfaces": 1,
+    "volume_mm3": 79960.92836494243,
+    "minimum_z_mm": 1.3322676295501878e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "bc40d2cdcc117d96c0d9086aaeee0c3c13452b28beb4fcfa681bc4b8e053ccc6"
+  },
+  "down": {
+    "triangles": 21996,
+    "edges": 32994,
+    "connected_surfaces": 1,
+    "volume_mm3": 9247.744384057001,
+    "minimum_z_mm": 1.7763568394002505e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "3bfdc30c3c6bcda70ebf5d2a117f0e536452b2569fee9f9f2a2308d3a16ee3c9"
+  },
+  "tight": {
+    "triangles": 22140,
+    "edges": 33210,
+    "connected_surfaces": 1,
+    "volume_mm3": 15449.2031995878,
+    "minimum_z_mm": 1.3855583347321954e-13,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "c27eefb8da240fcf41725898e8d997dfc031bebdfdb9c8afa1d60d13c629e92c"
+  },
+  "loose": {
+    "triangles": 32520,
+    "edges": 48780,
+    "connected_surfaces": 1,
+    "volume_mm3": 37727.724196702075,
+    "minimum_z_mm": 2.6645352591003757e-14,
+    "closed": true,
+    "consistent_winding": true,
+    "sha256": "88f8716dc49928609caacc1caf51299a716c36f6bacde52a2b3d3e3d9cb2b896"
+  }
+}

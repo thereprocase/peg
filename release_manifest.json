@@ -3,8 +3,8 @@
   "project": "thereprocase/peg",
   "scope": "All intended tracked release files, excluding this manifest, Git metadata, caches, and review-only G-code. Current conformal files and labeled round and rectangular predecessors are preserved.",
   "hash_algorithm": "SHA-256",
-  "file_count": 3472,
-  "total_size_bytes": 1211226153,
+  "file_count": 3533,
+  "total_size_bytes": 1212401611,
   "files": [
     {
       "path": ".gitattributes",
@@ -2040,6 +2040,266 @@
       "path": "bench/reviews/green-fan-v1/sweep-check.json",
       "size_bytes": 9163,
       "sha256": "a7028ed5a1bb83ec436d6f056467c00100154d1e2424c3459f8e5385f9010f80"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v1/CHECKS.json",
+      "size_bytes": 13893,
+      "sha256": "08296c75d6d612e112f07412d36eb25327d3692e724de522f428b33568c138a1"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v1/README.md",
+      "size_bytes": 1190,
+      "sha256": "84f7c343aafd472bc28b6a353cb521d95cee0b81730e966f20b56af3ec226d17"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v1/angles.png",
+      "size_bytes": 78091,
+      "sha256": "21629b5de5fac9159cd15f1653fcacfa4721edeea4a594d531f9e7eade4b8dde"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/CHECKS.json",
+      "size_bytes": 13167,
+      "sha256": "5f986a6207d3ece957d0c0f32886a75531a5433de831368dea1fb988ce487214"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/README.md",
+      "size_bytes": 1191,
+      "sha256": "131d61cbf076a483eaa4b1461ebf949230509e3546fd00d7ad1293a0fe7c3a0c"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/SOURCE-HASHES.json",
+      "size_bytes": 354,
+      "sha256": "8aef046628ea4e9ede21bc96ac9d17872f6b424633fd84677ce15351bf446cc2"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/angles.png",
+      "size_bytes": 76870,
+      "sha256": "b86f3dbb6b321bb2b502044ee2be3391992c656dc5e924ae061f61cacf63928f"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/angles.scene.json",
+      "size_bytes": 766,
+      "sha256": "9e307c64989ab8df74b924272e94e56b73ee1b05fdc872f4347cd46c9e803220"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/front.png",
+      "size_bytes": 67697,
+      "sha256": "85832c59c446f03c4314e70b1eacc7effbcd5dc2c026feb446fe4a561845def5"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/front.scene.json",
+      "size_bytes": 415,
+      "sha256": "0cda96eb28578adff27b48d64ee8ae7a3e67eb35446739a119b6e1c07c0db434"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/overview.png",
+      "size_bytes": 71475,
+      "sha256": "6469a777db4e31197fe18601f576a2531e7fec04a35da57f22d44603e5e05fbb"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v2/overview.scene.json",
+      "size_bytes": 408,
+      "sha256": "36987397925c38ee1b0ea3ae48f0fd479651ac96a1a51fca6b3d1569fdde2582"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/11/CHECKS.json",
+      "size_bytes": 1167,
+      "sha256": "e3f69183956785331a5dd55afa61a8dd654b17180fbe2eb4880a045460a34662"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/21/CHECKS.json",
+      "size_bytes": 1270,
+      "sha256": "9f2ab67eee637dba97c2cfb5a73745d6773d9c585e2638b32e32031cd726da26"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/22/CHECKS.json",
+      "size_bytes": 1272,
+      "sha256": "7bc7e1d0d3490a913954a5b55cc6295a420f04872e99fdecfa728aec8783e285"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/31/CHECKS.json",
+      "size_bytes": 1287,
+      "sha256": "d4ecc74e84d862178128723bdfb27a46888d638701b1dd6b67ac8df5cdb5c419"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/41/CHECKS.json",
+      "size_bytes": 1436,
+      "sha256": "51cca0bff044a9947a392ab176042df21883f0bd222c614b7292cc2f0d1149f2"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/README.md",
+      "size_bytes": 1747,
+      "sha256": "4343ed7ab9f7fc7ef542219d34c6a8d8e9123e45ef4e505fc2081398ce0c1aa8"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/SOURCE-SHA256.json",
+      "size_bytes": 248,
+      "sha256": "8efc80f0421416896e468f38d7bbfbebe588ce42c0be572e81fcecb9329cc1d0"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/STL-CHECKS.json",
+      "size_bytes": 2712,
+      "sha256": "f4743121c62503295c7a7fbbfa0637a430e5b0f4df01c715e95dd008fbd0090c"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/angles.png",
+      "size_bytes": 75258,
+      "sha256": "44b723edfb7432cd977fe2cd520627c9d35865f17929cc393d2ebe9f0a46fffc"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/angles.scene.json",
+      "size_bytes": 766,
+      "sha256": "9e307c64989ab8df74b924272e94e56b73ee1b05fdc872f4347cd46c9e803220"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/down/CHECKS.json",
+      "size_bytes": 1297,
+      "sha256": "0eaa35c589dd6f081aa005765583f50ea7552ea7f0fb35894ca9c2f634ad2ae0"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/front.png",
+      "size_bytes": 64864,
+      "sha256": "fe0a4ca22e9edc2d3119c9a17f84b62cc9401905b4dd4f0f2c96d3178d18c21d"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/front.scene.json",
+      "size_bytes": 415,
+      "sha256": "0cda96eb28578adff27b48d64ee8ae7a3e67eb35446739a119b6e1c07c0db434"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/loose/CHECKS.json",
+      "size_bytes": 1317,
+      "sha256": "26c1c8946d1b474c1ffa7abaafcb8d4d57bf5020f57816dd98ac0e07b89df73f"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/overview.png",
+      "size_bytes": 71019,
+      "sha256": "1b00082f2cc3557180b1f15c1e832863d0cc495ec9bb52997b614e91d5311ba3"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/overview.scene.json",
+      "size_bytes": 408,
+      "sha256": "36987397925c38ee1b0ea3ae48f0fd479651ac96a1a51fca6b3d1569fdde2582"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/plan.png",
+      "size_bytes": 44080,
+      "sha256": "ba6d9128b9bca0b941160d62692c5898d54fbd4d26dfe760b055e9c10eb8e685"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/plan.scene.json",
+      "size_bytes": 368,
+      "sha256": "c356c7c5744bc916e4ae729c7701bd315e59d4a6f9393e0962dc3a5e9baa6185"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/tight/CHECKS.json",
+      "size_bytes": 1211,
+      "sha256": "e2be7a4d3eac9994134bac4aec42e4127e2bb6044c18e6c2bbb0fb6ba2bfcc88"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v3/up/CHECKS.json",
+      "size_bytes": 1294,
+      "sha256": "119b0d38f0ba27e8ee7c20f2de7567599a6ebba9921c6cf77e1259cd5a3d4202"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/BROWSER-COMPARISON.json",
+      "size_bytes": 5621,
+      "sha256": "71c59da4dcca6e706f6f2191e6890925482b2fd9d2502af8bcb7f9a634433393"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/BROWSER-LIMITS.json",
+      "size_bytes": 1196,
+      "sha256": "96a82ca2dc0de720eb755339715b7067ec22225cdeae683c8c9c5e29a5c313d1"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/BROWSER-UI.json",
+      "size_bytes": 701,
+      "sha256": "a4883e91af16eb4840fae38d8d00dbc97db172b7297cf1eda75b38259bd7e3a3"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/MESH-CHECKS.json",
+      "size_bytes": 2741,
+      "sha256": "b2ec7b767d2971d10f0819e775b271762d6f4551184b0fc8013e27a1060b74d7"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/NATIVE-CHECKS.json",
+      "size_bytes": 15532,
+      "sha256": "3fd0f18ccb10bffaccf34f1e9d628056f776b0071cd5bbc53abee42322dc58a1"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/README.md",
+      "size_bytes": 1526,
+      "sha256": "069dfc4414494beb9ed556955e4917fbcb56fdc719061d6db5e91c9790a06584"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/backplate-angles.png",
+      "size_bytes": 87960,
+      "sha256": "6837b5cfaf8b565709f4b0110a1b678352861972334796f89d93ba7ef5d623c9"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/backplate-default.png",
+      "size_bytes": 77327,
+      "sha256": "f27e6beb947044b8b0b6208be49f5635da3e2e684e7eeb62d392397b1038eedc"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/backplate-heights.png",
+      "size_bytes": 85013,
+      "sha256": "3d28522fe19ad686882cfcd2396c86b43170f8b16322e0919fff953ab9cdbb7b"
+    },
+    {
+      "path": "bench/reviews/gridfinity-generator-v4/cases.json",
+      "size_bytes": 407,
+      "sha256": "1218ca036b9a3864fdfeff30858b80054192c5118621887f5ad63d4caad947d1"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/BEAM-CONTINUITY.json",
+      "size_bytes": 219,
+      "sha256": "8c915d00d8af70fa937adbbc6fc7bdde6c95390e1ee374445bfc7b3f601e85cf"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/CHECKS.json",
+      "size_bytes": 5819,
+      "sha256": "e5ce8eff2344a049af67f9c38459fe7ce05680b3c744130b044356d946f5c32d"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/MESH-CHECKS.json",
+      "size_bytes": 2278,
+      "sha256": "ab38f2311505beba763f40de97c804b72009f83c7e0e86211c979fa2f3bda52c"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/NATIVE-REOPEN-CHECKS.json",
+      "size_bytes": 3305,
+      "sha256": "2db356becb13e51432e35fa682ec0f2f2c848b3f677e207d3efdfb8db6130b73"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/README.md",
+      "size_bytes": 2144,
+      "sha256": "e22d6e35c674cc034b921b38f5d9666d897a556817494c126c1dcb68b03188bf"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/SHA256SUMS",
+      "size_bytes": 1566,
+      "sha256": "3dd34681ed525ca8c1373b17e29d70ada93172f89faa31bd835e8855e3f3d440"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/foot-section.png",
+      "size_bytes": 31675,
+      "sha256": "4967ae2f6e7a4e10de52071af43326264d5c9459753c005a2b503b7e16f071af"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/front-underside.png",
+      "size_bytes": 62331,
+      "sha256": "3f111d6ed2c8c4c9a06cdb2bd00d9cac15ef32a6e1a1f109138c56b64cb9006d"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/seat-fit-ring.png",
+      "size_bytes": 51556,
+      "sha256": "0ff7b48f704c6f31796d9fee12eeb6dee690fa14898f94747cd4220b83a1c0a2"
+    },
+    {
+      "path": "bench/reviews/gridfinity-ultralight-v1/shelves.png",
+      "size_bytes": 95815,
+      "sha256": "c67c6663d2dda9b01ff2b90fb76dc1cb988878abf342ee99174362ff40ba896d"
     },
     {
       "path": "bench/reviews/hx05-connected-v3/HX05A-connected-parameters.json",
@@ -4700,6 +4960,51 @@
       "path": "bench/source/green_fan_v1/toolpaths.py",
       "size_bytes": 4565,
       "sha256": "f13c169a9c626d3adc53965ee289bcc47075dc72b7d3746f73e14815506bc9b9"
+    },
+    {
+      "path": "bench/source/gridfinity_generator_v1/README.md",
+      "size_bytes": 5665,
+      "sha256": "3df66be195bf34071e3a1a7895b684df744236124512d801a3296dfd67e44667"
+    },
+    {
+      "path": "bench/source/gridfinity_generator_v1/check_mesh.py",
+      "size_bytes": 1651,
+      "sha256": "a7bc5955c90bae4b5ecce4f46cef44f0aab5f56662c7ee52c463811f3c5ae0a5"
+    },
+    {
+      "path": "bench/source/gridfinity_generator_v1/generate.py",
+      "size_bytes": 11083,
+      "sha256": "eb34e45c337a6a11a3fcb95078e5579196687efa1bea24d5b8a9d3d735755862"
+    },
+    {
+      "path": "bench/source/gridfinity_generator_v1/parameters.py",
+      "size_bytes": 2290,
+      "sha256": "cd07906d3b965bb54b67ec056b5b48f3d9c0ba92ff8003beffed3da7b4a5331e"
+    },
+    {
+      "path": "bench/source/gridfinity_generator_v1/test_parameters.py",
+      "size_bytes": 1963,
+      "sha256": "d5e48432ed3d288fc1cab101f17b96f176dd5539ece356c5a2edaf22599c0b8b"
+    },
+    {
+      "path": "bench/source/gridfinity_ultralight_v1/README.md",
+      "size_bytes": 4685,
+      "sha256": "6d3fe65cd7d98d48ba5f73d87403e4d1d83ce6ec81ce2ebe766175100efb1124"
+    },
+    {
+      "path": "bench/source/gridfinity_ultralight_v1/build.py",
+      "size_bytes": 9127,
+      "sha256": "12383792aa88ea045feaab3582bf4f5c48854214db83fe34c6e5b6fcb5f89d82"
+    },
+    {
+      "path": "bench/source/gridfinity_ultralight_v1/check_meshes.py",
+      "size_bytes": 3079,
+      "sha256": "454145eefab947421af680dc6b9f025a5b1ee1694db32f3eb246ec2478f2a892"
+    },
+    {
+      "path": "bench/source/gridfinity_ultralight_v1/verify_native.py",
+      "size_bytes": 2230,
+      "sha256": "e71e1fad7ccc43f79d77b32f585f13bd7ef9c30058a8ffcf681d8e3efe2af0df"
     },
     {
       "path": "bench/source/hx05_anisotropy_v1/README.md",
