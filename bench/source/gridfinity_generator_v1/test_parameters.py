@@ -8,6 +8,7 @@ class Parameters(unittest.TestCase):
             p=validate(dict(columns=columns))
             self.assertGreaterEqual(p['mount_width'],42*columns+4)
             self.assertGreaterEqual(len(p['mount_columns']),2)
+            for x in p['mount_columns']:self.assertLessEqual(abs(x)+5,p['frame_width']/2+1e-8)
             for a,b in zip(p['mount_columns'],p['mount_columns'][1:]):
                 self.assertLessEqual(b-a,76.200001)
                 self.assertAlmostEqual((b-a)/25.4,round((b-a)/25.4))

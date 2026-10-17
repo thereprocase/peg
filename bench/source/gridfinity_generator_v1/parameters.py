@@ -20,9 +20,12 @@ def validate(values):
         if isinstance(p[key], bool) or not isinstance(p[key], (int, float)) or not math.isfinite(p[key]) or not lo <= p[key] <= hi:
             raise ValueError(f'{key} must be between {lo} and {hi} mm')
     lanes = math.ceil((42 * p['columns'] + 6) / 25.4)
-    holes = list(range(0, lanes, 3))
-    if holes[-1] != lanes - 1:
-        holes.append(lanes - 1)
+    p['frame_width'] = 42 * p['columns'] + 4
+    # Keep each complete 10 mm root post inside the shelf ends.
+    available = [i for i in range(lanes) if abs((i-(lanes-1)/2)*25.4)+5 <= p['frame_width']/2+1e-8]
+    holes = available[::3]
+    if holes[-1] != available[-1]:
+        holes.append(available[-1])
     p['mount_width'] = lanes * 25.4 - 2
     p['mount_columns'] = [(i - (lanes - 1) / 2) * 25.4 for i in holes]
     p['front_y'] = 51.55 + 42 * (p['rows'] - 1)

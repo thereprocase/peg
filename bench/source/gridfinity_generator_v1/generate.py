@@ -109,7 +109,7 @@ def generate(values, out):
             feet.append(tilt(profile(x,y,[(.97,35.6,.8),(1.77,37.2,1.6),
                                     (3.57,37.2,1.6),(TOP,41.5,3.75)])))
     width, front = p['mount_width'], p['front_y']
-    pieces.append(Part.makeBox(width,5.4,hinge+1-.72,V(-width/2,.15,.72)))
+    pieces.append(Part.makeBox(p['frame_width'],5.4,hinge+1-.72,V(-p['frame_width']/2,.15,.72)))
     # Continuous front beam. The rings provide the outer rounded end caps.
     if p['columns'] > 1 or p['beam'] > 5:
         pieces.append(tilt(Part.makeBox(42*p['columns'],2.4,p['beam'],
@@ -117,7 +117,7 @@ def generate(values, out):
     roots=[]
     for x in p['mount_columns']:
         pieces.append(Part.makeBox(10,5.4,hinge+1+29.68,V(x-5,.15,-29.68)))
-        pieces.append(C.K.poly_prism([(5,-27.5),tilted_point(front-1.55,.72),(5,hinge+tangent*4.85-3.12)],
+        pieces.append(C.K.poly_prism([(5,-27.5),tilted_point(front,TOP-p['beam']),tilted_point(front,TOP-1),(5,hinge+tangent*4.85-3.12)],
                                      'x',x-p['web']/2,x+p['web']/2))
         for peg,z in [(upper,0),(lower,-25.4)]:
             q=peg.copy();q.translate(V(x,0,z));pegs.append(q);pieces.append(q)

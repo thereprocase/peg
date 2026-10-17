@@ -12,12 +12,14 @@ braces accommodate the selected tilt. All exports put the frame face down.
 | columns | 2 | 1–12 cells across the board |
 | rows | 1 | 1–12 cells out from the board; at most 64 total cells |
 | clearance | 0 | −0.10 to +0.20 mm additional receiver clearance per side |
-| web | 2.4 | 2.4–6 mm triangular web thickness |
+| web | 2.4 | 2.4–6 mm side web thickness |
 | beam | 10 | 5–20 mm front beam depth |
 | angle | 0 | −30° downward to +5° upward; 0° is horizontal |
 
 Gridfinity pitch is 42 mm. Board lanes use 25.4 mm pitch and a 2 mm total side
 gap. Wider arrays gain mounting columns with no more than 76.2 mm between them.
+The rear rail ends at the frame width (42 × columns + 4 mm); it no longer extends to the occupied board-lane width. Outer mounting columns move inward by whole board pitches where needed to keep their complete 10 mm posts inside the frame. Each web reaches the front beam outer face with a vertical connection, rather than ending short in a point.
+
 The full 5.4 mm material around each joining nub is protected. Tilt raises the
 seat hinge when necessary to retain the root wall and keep the hook crown below
 the inverted bed plane. The fixed board-facing root blocks are not tilted.
